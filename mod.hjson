@@ -5,4 +5,5 @@ repo: novanox4/Astralis
 version: 1.0
 minGameVersion: 146
 hidden: true
+hideBrowser: true
 author: NV-NX
