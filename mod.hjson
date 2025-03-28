@@ -1,0 +1,8 @@
+name: "Astralis"
+displayName: "Astralis"
+description: "Test"
+repo: novanox4/Astralis
+version: 1.0
+minGameVersion: 146
+hidden: true
+author: NV-NX
