@@ -1,1 +1,28 @@
-
+type: ItemTurret
+range:150
+reload:25
+shootY:0
+name: Shard
+description: Fires weak chunks of crystalite.
+category: turret
+squaresprite: false
+shootCone: 1
+drawer: {
+  type: DrawTurret
+  basePrefix: astralis-
+}
+ammoTypes: {
+crystalite: {
+type: BasicBulletType
+damage: 20
+hitffect: hitBulletColor
+despawnEffect: none
+frontColor: 14bde3
+backColor: 14bde3
+hitColor: 14bde3
+speed: 5
+lifetime: 50
+shootEffect: shootSmallColor
+smokeEffect: none
+sprite: circle-bullet
+}
