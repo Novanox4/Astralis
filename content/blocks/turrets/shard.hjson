@@ -28,3 +28,6 @@ smokeEffect: none
 sprite: circle-bullet
   }
 }
+requrements: [
+crystalite/35
+]
