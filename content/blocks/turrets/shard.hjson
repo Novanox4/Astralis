@@ -6,7 +6,7 @@ shootY:0
 name: Shard
 description: Fires weak chunks of crystalite.
 category: turret
-squaresprite: false
+squareSprite: false
 shootCone: 1
 drawer: {
   type: DrawTurret
