@@ -1,14 +1,14 @@
 name: "astralis"
 displayName: "Astralis"
-description: "Test mod made by an incompetent idiot
+description: "Test mod made by incompetent idiots
 
 VERY EARLY ALPHA!!!!!
 
-Silly planet mod made by silly femboy"
+Silly planet mod made by silly femboys"
 
 repo: novanox4/Astralis
 version: 1.0
 minGameVersion: 146
 hidden: false
 hideBrowser: false
-author: NV-NX
+author: NV-NX, Haznobrain
