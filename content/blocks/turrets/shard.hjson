@@ -26,4 +26,5 @@ lifetime: 50
 shootEffect: shootSmallColor
 smokeEffect: none
 sprite: circle-bullet
+  }
 }
