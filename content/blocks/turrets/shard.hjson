@@ -31,3 +31,5 @@ sprite: circle-bullet
 requrements: [
 crystalite/35
 ]
+researchCost: [
+crystalite/65
