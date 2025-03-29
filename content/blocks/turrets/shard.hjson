@@ -1,6 +1,7 @@
 type: ItemTurret
 range:150
 reload:25
+size: 1
 shootY:0
 name: Shard
 description: Fires weak chunks of crystalite.
