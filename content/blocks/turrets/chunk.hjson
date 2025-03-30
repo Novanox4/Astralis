@@ -2,7 +2,7 @@ type: ItemTurret
 range: 150
 reload: 25
 size: 1
-shootY:0
+shootY: 1
 name: Chunk
 description: Fires weak clusters of crystalite.
 category: turret
@@ -29,7 +29,4 @@ sprite: circle-bullet
 }
 requrements: [
 crystalite/35
-]
-researchCost: [
-crystalite/65
 ]
