@@ -1,6 +1,6 @@
 type: ItemTurret
-range:150
-reload:25
+range: 150
+reload: 25
 size: 1
 shootY:0
 name: Chunk
