@@ -1,5 +1,5 @@
 type: BeamDrill
-drillTime: 50
+drillTime: 125
 range: 5
 tier: 3
 name: Beam Drill
@@ -13,3 +13,4 @@ requirements: [
 ]
 fogRadius: 4
 category: production
+itemCapacity: 10
