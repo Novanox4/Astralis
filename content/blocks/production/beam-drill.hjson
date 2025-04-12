@@ -1,0 +1,15 @@
+type: BeamDrill
+drillTime: 50
+range: 5
+tier: 3
+name: Beam Drill
+description: Uses lasers to drill ores present on walls.
+consumes: {
+ power: 3.5
+}
+size: 2
+requirements: [
+  crystalite/45
+]
+fogRadius: 4
+category: Production
