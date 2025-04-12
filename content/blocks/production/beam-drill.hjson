@@ -12,4 +12,4 @@ requirements: [
   crystalite/45
 ]
 fogRadius: 4
-category: Production
+category: production
