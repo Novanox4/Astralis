@@ -2,10 +2,10 @@ type: Duct
 speed: 2.5
 health: 100
 researchCost: [
-    crystalite/10
+    item-crystalite/10
   ]
 name: Crystal Duct
 description: Moves items.
 requirements: [
-    crystalite/1
+    item-crystalite/1
     ]
