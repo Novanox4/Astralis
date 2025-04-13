@@ -13,11 +13,11 @@ consumes: {
  booster: true
  optional: true
 }
- power: 1.75
+ power: 1.35
 }
 size: 2
 requirements: [
-  crystalite/45
+  item-crystalite/45
 ]
 fogRadius: 4
 category: production
