@@ -1,6 +1,6 @@
 type: StaticWall
 variants: 3
-name: Char Wall
 attributes: {
   char: 1
-}
+  }
+name: Char Wall
