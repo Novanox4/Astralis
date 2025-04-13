@@ -1,7 +1,7 @@
 type: WallCrafter
 category: production
 requirements: [
-  crystalite/50
+  item-crystalite/50
   ]
 name: Wall Pulverizer
 description: Pulverizes char walls, outputting small chunks periodically.
