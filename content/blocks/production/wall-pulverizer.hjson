@@ -10,7 +10,7 @@ consumes: {
   power: 0.80
     }
 size: 2
-attribute: char
+attribute: charAttribute
 output: item-char
 fogRadius: 3
 ambientSound: drill
