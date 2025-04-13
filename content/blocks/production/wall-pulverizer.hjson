@@ -11,7 +11,7 @@ consumes: {
     }
 size: 2
 attribute: char
-output: char
+output: item-char
 fogRadius: 3
 ambientSound: drill
 ambientSoundVolume: 0.055
