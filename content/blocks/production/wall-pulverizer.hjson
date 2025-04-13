@@ -1,0 +1,17 @@
+type: WallCrafter
+category: production
+requirements: [
+  crystalite/50
+  ]
+name: Wall Pulverizer
+description: Pulverizes char walls, outputting small chunks periodically.
+drillTime: 75
+consumes: {
+  power: 0.80
+    }
+size: 2
+attribute: char
+output: char
+fogRadius: 3
+ambientSound: drill
+ambientSoundVolume: 0.055
