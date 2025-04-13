@@ -1,5 +1,5 @@
 type: OreBlock
 name: Wall Crystalite
 wallOre: true
-itemDrop: crystalite
+itemDrop: item-crystalite
 variants: 2
