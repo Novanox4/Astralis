@@ -10,8 +10,8 @@ consumes: {
   power: 0.80
     }
 size: 2
-attribute: charchunk
 output: item-charchunk
+attribute: charchunk
 fogRadius: 3
 ambientSound: drill
 ambientSoundVolume: 0.055
