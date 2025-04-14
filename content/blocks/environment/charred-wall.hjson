@@ -1,6 +1,5 @@
 type: StaticWall
-variants: 3
+name: Charred Wall
 attributes: {
   charchunk: 1
-  }
-name: Char Wall
+}
