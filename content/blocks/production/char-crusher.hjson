@@ -3,7 +3,7 @@ category: production
 requirements: [
   item-crystalite/50
   ]
-name: Wall Pulverizer
+name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
 drillTime: 75
 consumes: {
