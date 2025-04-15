@@ -16,7 +16,6 @@ research: {
   name: Astralis
   requiresUnlock: false
     }
-alwaysunlocked: true
+alwaysUnlocked: true
 isFirstTier: true
 name: Core: Fort
-researchCostMultiplier: 0
