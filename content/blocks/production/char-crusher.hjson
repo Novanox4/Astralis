@@ -1,7 +1,8 @@
 type: WallCrafter
 category: production
 requirements: [
-  item-crystalite/50
+  item-crystalite/20
+  item-uranium/25
   ]
 name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
