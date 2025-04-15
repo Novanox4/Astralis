@@ -20,7 +20,7 @@ accessible: true
 updateLighting: false
 sectorSeed: 42069
 atmosphereColor: 196d9e
-iconColor: ff0000
+iconColor: 196d9e
 localizedName: "[blue]Astralis"
 allowWaveSimulation: false
 clearSectorOnLose: false
