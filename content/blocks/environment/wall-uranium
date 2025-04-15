@@ -1,0 +1,5 @@
+type: OreBlock
+name: Wall Uranium
+wallOre: true
+itemDrop: item-uranium
+variants: 2
