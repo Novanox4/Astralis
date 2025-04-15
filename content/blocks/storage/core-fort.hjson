@@ -14,8 +14,9 @@ research: {
   root: true
   planet: astralis
   name: Astralis
-  requiresUnlock: true
+  requiresUnlock: false
     }
 alwaysunlocked: true
 isFirstTier: true
 name: Core: Fort
+researchCostMultiplier: 0
