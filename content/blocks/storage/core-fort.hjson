@@ -10,6 +10,12 @@ requirements: [
   item-crystalite/1500
   item-uranium/1200
   ]
+research: {
+  root: true
+  planet: astralis
+  name: Astralis
+  requiresUnlock: false
+    }
 alwaysunlocked: true
 isFirstTier: true
 name: Core: Fort
