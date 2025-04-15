@@ -8,7 +8,7 @@ allowSectorInvasion: false
 startSector: 6
 minZoom: 1.2
 atmosphereRadIn: 0
-atmosphereRadOut: 0.5
+atmosphereRadOut: 0.25
 orbitRadius: 18
 radius: 2
 minZoom: 1
