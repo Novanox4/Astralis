@@ -11,3 +11,4 @@ requirements: [
   item-uranium/1200
   ]
 alwaysunlocked: true
+isFirstTier: true
