@@ -14,7 +14,7 @@ research: {
   root: true
   planet: astralis
   name: Astralis
-  requiresUnlock: false
+  requiresUnlock: true
     }
 alwaysunlocked: true
 isFirstTier: true
