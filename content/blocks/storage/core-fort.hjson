@@ -1,0 +1,13 @@
+type: CoreBlock
+squareSprite: false
+health: 6000
+itemCapacity: 6000
+size: 3
+category: effect
+unitType: alpha
+unitCapModifier: 15
+requirements: [
+  item-crystalite/1500
+  item-uranium/1200
+  ]
+alwaysunlocked: true
