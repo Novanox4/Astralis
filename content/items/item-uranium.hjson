@@ -1,0 +1,11 @@
+color: 1fb829
+explosiveness: 75
+flammability: 0
+radioactivity: 1.35
+charge: 0
+cost: 1.1
+hardness: 0.8
+hiddenOnPlanets: [erekir, serpulo]
+name: Uranium
+description: Highly radioactive material, tough, and explosive.
+details: "Uranium isn't native to Astralis, yet is still found commonly... How quaint..."
