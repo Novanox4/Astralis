@@ -22,3 +22,7 @@ requirements: [
 fogRadius: 4
 category: production
 itemCapacity: 10
+research: crystal-duct
+researchCost: [
+ item-crystalite/60
+]
