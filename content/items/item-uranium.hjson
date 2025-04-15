@@ -9,3 +9,4 @@ hiddenOnPlanets: [erekir, serpulo]
 name: Uranium
 description: Highly radioactive material, tough, and explosive.
 details: "Uranium isn't native to Astralis, yet is still found commonly... How quaint..."
+alwaysUnlocked: true
