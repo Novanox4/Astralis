@@ -1,8 +1,8 @@
 type: WallCrafter
 category: production
 requirements: [
-  item-crystalite/20
-  item-uranium/25
+  item-crystalite/25
+  item-uranium/30
   ]
 name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
@@ -16,3 +16,8 @@ attribute: charchunk
 fogRadius: 3
 ambientSound: drill
 ambientSoundVolume: 0.055
+research: beam-drill
+researchCost: [
+  item-crystalite/35
+  item-uranium/45
+]
