@@ -1,0 +1,41 @@
+type: GenericCrafter
+consumes: {
+  power: 1.3
+  items: [
+    item-crystalite/3
+    item-charchunk/4
+    ]
+  }
+name: Crystal Kiln
+description: Melts char chunks and crystalite together at blistering heat to form metaglass.
+size: 2
+craftTime: 150
+outputItem: metaglass/2
+category: crafting
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawCrucibleFlame
+particleRad: 3
+particles: 5
+particleSize: 1
+rotateScale: 3
+  }
+{
+type: DrawRegion
+  }
+]
+}
+research: {
+parent: core-fort
+  }
+requirements: [
+  item-crystalite/65
+  item-uranium/45
+  ]
+  researchCostMultiplier: 0.80
