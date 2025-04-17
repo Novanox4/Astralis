@@ -33,6 +33,7 @@ itemWhitelist: [
    item-crystalite,
    item-charchunk,
    item-uranium,
+   metaglass,
       ]
 mesh: [
 {
