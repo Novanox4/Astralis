@@ -28,6 +28,7 @@ engines: [
   radius: 1.6
   rotation: 0
 }
+]
 weapons: [
   {
   reload: 30
@@ -44,7 +45,7 @@ hitSound: spark
 despawnSound: spark
 lightningLength: 12
 buildingDamageMultiplier: 0.01
-healPercent: 1.6
-
+}
+]
 name: Shards
 description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
