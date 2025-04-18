@@ -12,6 +12,9 @@ controller: BuilderAI
 defaultController: BuilderAI
 buildBeamOffset: 12
 fogRadius: 0
+itemCapacity: 50
+engineSize: 0
+groundLayer: 60
 engines: [
 {
   x: -3
@@ -25,9 +28,6 @@ engines: [
   radius: 1.6
   rotation: 0
 }
-itemCapacity: 50
-engineSize: 0
-groundLayer: 60
 weapons: [
   {
   reload: 30
