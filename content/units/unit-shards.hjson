@@ -1,0 +1,51 @@
+type: flying
+flying: true
+health: 250
+speed: 4
+buildSpeed: 1
+hitSize: 16
+mineWalls: true
+mineFloor: true
+mineSpeed: 1.2
+mineTier: 3
+controller: BuilderAI
+defaultController: BuilderAI
+buildBeamOffset: 12
+fogRadius: 0
+engines: [
+{
+  x: -3
+  y: -5
+  radius: 1.6
+  rotation: 0
+}
+{
+  x: 3
+  y: -5
+  radius: 1.6
+  rotation: 0
+}
+itemCapacity: 50
+engineSize: 0
+groundLayer: 60
+weapons: [
+  {
+  reload: 30
+  shots: 3
+  shotDelay: 8
+    }
+x: 0
+y: 1
+shootSound: spark
+  bullet: {
+type: LightningBulletType
+damage: 25
+hitSound: spark
+despawnSound: spark
+lightningLength: 12
+buildingDamageMultiplier: 0.01
+healPercent: 1.6
+  }
+]
+name: Shards
+description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
