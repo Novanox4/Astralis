@@ -45,7 +45,6 @@ hitSound: spark
 despawnSound: spark
 lightningLength: 12
 buildingDamageMultiplier: 0.01
-}
 ]
 name: Shards
 description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
