@@ -45,6 +45,7 @@ despawnSound: spark
 lightningLength: 12
 buildingDamageMultiplier: 0.01
 healPercent: 1.6
+  }
 }
 ]
 name: Shards
