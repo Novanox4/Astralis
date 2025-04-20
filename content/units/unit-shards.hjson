@@ -35,10 +35,10 @@ name: Shards
 description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
 weapons: [
 {
-reload: 60
+reload: 150
 shoot: {
-  shots: 3
-  shotDelay: 5
+  shots: 12
+  shotDelay: 0
 }
 x: 0
 y: 2
