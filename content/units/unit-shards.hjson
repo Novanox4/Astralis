@@ -3,7 +3,7 @@ flying: true
 health: 250
 speed: 4
 buildSpeed: 1
-hitSize: 16
+hitSize: 8
 mineWalls: true
 mineFloor: true
 mineSpeed: 1.2
@@ -35,9 +35,9 @@ name: Shards
 description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
 weapons: [
 {
-reload: 150
+reload: 25
 shoot: {
-  shots: 12
+  shots: 2
   shotDelay: 0
 }
 x: 0
@@ -45,12 +45,12 @@ y: 2
 shootSound: spark
 bullet: {
   type: LightningBulletType
-  lightningLength: 25
-  damage: 20
+  lightningLength: 15
+  damage: 8
   hitEffect: hitBulletColor
   shootEffect: shootBigColor
-  buildingDamageMultiplier: 0.04
-  healPercent: 2
+  buildingDamageMultiplier: 0.01
+  healPercent: 4
   collidesTeam: true
     }
 }
