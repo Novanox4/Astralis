@@ -40,15 +40,15 @@ shoot: {
 }
 x: 0
 y: 2
-shootSound: shootAlt
+shootSound: spark
 bullet: {
   type: LightningBulletType
-  lightningLength: 9
-  damage: 25
+  lightningLength: 25
+  damage: 20
   hitEffect: hitBulletColor
   shootEffect: shootBigColor
-  buildingDamageMultiplier: 0.01
-  healPercent: 1.2
+  buildingDamageMultiplier: 0.04
+  healPercent: 2
   collidesTeam: true
     }
 }
