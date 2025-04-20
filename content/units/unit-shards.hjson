@@ -17,15 +17,15 @@ engineSize: 0
 groundLayer: 60
 engines: [
 {
-  x: -3
+  x: -2.5
   y: -5
-  radius: 1.6
+  radius: 1.5
   rotation: 0
 }
 {
-  x: 3
+  x: 2.5
   y: -5
-  radius: 1.6
+  radius: 1.5
   rotation: 0
 }
 ]
