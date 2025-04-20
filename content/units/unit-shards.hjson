@@ -38,7 +38,7 @@ shoot: {
   shots: 3
   shotDelay: 5
 }
-x: 12
+x: 0
 y: 2
 shootSound: shootAlt
 bullet: {
