@@ -33,25 +33,25 @@ engines: [
 ]
 name: Shards
 description: "Defender of the Core: Fort. Agile and capable of building and healing, but lacking in offensive capabilities."
-weapons: [
+weapons: []
+abilities: [
 {
-reload: 25
-shoot: {
-  shots: 2
-  shotDelay: 0
-}
-x: 0
-y: 2
-shootSound: spark
-bullet: {
-  type: LightningBulletType
-  lightningLength: 15
-  damage: 8
-  hitEffect: hitBulletColor
-  shootEffect: shootBigColor
-  buildingDamageMultiplier: 0.01
-  healPercent: 4
-  collidesTeam: true
-    }
-}
-  ]
+    type: EnergyFieldAbility
+    blinkSize: 0.15
+    damage: 1
+    reload: 20
+    healPercent: 2
+    hitUnits: true
+    hitBuildings: true
+    layer: 1
+    maxTargets: 6
+    range: 40
+    shootSound: spark
+    useAmmo: false
+    x: 0
+    y: 0
+    effectRadius: 1
+    status: none
+    rotateSpeed: 1.25
+   }
+]
