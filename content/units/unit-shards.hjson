@@ -44,7 +44,7 @@ abilities: [
     healPercent: 2
     hitUnits: true
     hitBuildings: true
-    layer: 1
+    layer: 100
     maxTargets: 6
     range: 75
     shootSound: spark
