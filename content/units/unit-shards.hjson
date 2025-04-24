@@ -38,6 +38,7 @@ abilities: [
 {
     type: EnergyFieldAbility
     blinkSize: 0.15
+    color: 4070de
     damage: 1
     reload: 20
     healPercent: 2
@@ -45,7 +46,7 @@ abilities: [
     hitBuildings: true
     layer: 1
     maxTargets: 6
-    range: 40
+    range: 75
     shootSound: spark
     useAmmo: false
     x: 0
