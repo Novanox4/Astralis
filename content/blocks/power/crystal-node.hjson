@@ -1,0 +1,11 @@
+type: PowerNode
+category: power
+size: 1
+requirements: [
+  item-crystalite/5
+  ]
+name: Crystal Node
+description: Creates a network of wires that transmit electrical power. Cheap and fast to build but has a very limited range and a low amount of connections.
+laserScale: 0.15
+laserRange: 8.5
+maxNodes: 4
