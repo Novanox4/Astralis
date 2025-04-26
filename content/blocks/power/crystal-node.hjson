@@ -9,3 +9,4 @@ description: Creates a network of wires that transmit electrical power. Cheap an
 laserScale: 0.15
 laserRange: 8.5
 maxNodes: 4
+research: crystal-solar-panel
