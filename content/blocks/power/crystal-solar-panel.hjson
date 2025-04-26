@@ -12,4 +12,4 @@ researchRequirements: [
 health: 150
 canOverdrive: false
 category: power
-buildTime: 5
+buildTime: 100
