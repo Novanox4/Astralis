@@ -6,7 +6,7 @@ requirements: [
   item-crystalite/25
   ]
 research: core-fort
-researchRequirements: [
+researchCost: [
   item-crystalite/20
   ]
 health: 150
