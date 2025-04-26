@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: Crystal Solar Panel
+size: 2
+powerProduction: 5
+requirements: [
+  item-crystalite/25
+  ]
+research: core-fort
+researchRequirements: [
+  item-crystalite/20
+  ]
+health: 150
+canOverdrive: false
+category: power
