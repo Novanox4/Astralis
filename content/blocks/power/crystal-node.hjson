@@ -13,5 +13,5 @@ laserScale: 0.15
 laserRange: 8.5
 maxNodes: 4
 research: crystal-solar-panel
-laserColor1: 1750c2
-laserColor2: 245fd4
+laserColor1: 245fd4
+laserColor2: 1750c2
