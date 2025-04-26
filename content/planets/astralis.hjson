@@ -15,7 +15,7 @@ minZoom: 1
 orbitOffset: 300
 rotateTime: 500
 alwaysUnlocked: true
-defaultEnv: 1
+defaultEnv: 129
 accessible: true
 updateLighting: false
 sectorSeed: 42069
