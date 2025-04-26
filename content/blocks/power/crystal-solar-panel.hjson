@@ -1,7 +1,7 @@
 type: SolarGenerator
 name: Crystal Solar Panel
 size: 2
-powerProduction: 5
+powerProduction: 0.75
 requirements: [
   item-crystalite/25
   ]
@@ -12,3 +12,4 @@ researchRequirements: [
 health: 150
 canOverdrive: false
 category: power
+buildTime: 5
