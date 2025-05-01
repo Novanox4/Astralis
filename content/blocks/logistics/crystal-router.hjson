@@ -12,3 +12,4 @@ researchCost: [
     item-crystalite/10
   ]
 description: Splits items into three different directions. Can also sort items, only allowing a specific type in while sending other items to its sides.
+squareSprite: false
