@@ -1,0 +1,14 @@
+type: DuctRouter
+name: Crystal Router
+solid: false
+speed: 2.5
+health: 100
+category: distribution
+research: crystal-duct
+requirements: [
+  item-crystalite/3
+  ]
+researchCost: [
+    item-crystalite/10
+  ]
+description: Splits items into three different directions. Can also sort items, only allowing a specific type in while sending other items to its sides.
