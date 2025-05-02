@@ -1,0 +1,12 @@
+type: UnderflowDuct
+health: 100
+requirements: [
+  item-crystalite/5
+  ]
+speed: 2.5
+name: Crystal Underflow Gate
+description: Distributes resources to the front if the sides are blocked.
+research: crystal-duct
+researchCost: [
+  item-crystalite/40
+  ]
