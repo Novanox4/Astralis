@@ -1,4 +1,4 @@
-type: UnderflowDuct
+type: OverflowDuct
 health: 100
 requirements: [
   item-crystalite/5
@@ -10,3 +10,4 @@ research: crystal-duct
 researchCost: [
   item-crystalite/40
   ]
+invert: true
