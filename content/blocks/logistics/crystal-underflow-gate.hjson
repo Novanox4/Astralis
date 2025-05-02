@@ -11,3 +11,4 @@ researchCost: [
   item-crystalite/40
   ]
 invert: true
+squareSprite: false
