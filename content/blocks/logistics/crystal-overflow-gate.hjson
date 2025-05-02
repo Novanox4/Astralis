@@ -10,3 +10,4 @@ research: crystal-duct
 researchCost: [
   item-crystalite/40
   ]
+squareSprite: false
