@@ -10,3 +10,4 @@ requirements: [
     item-crystalite/1
     ]
 research: core-fort
+bridgeReplacement: crystal-bridge
