@@ -1,0 +1,14 @@
+type: DuctBridge
+health: 100
+squareSprite: false
+range: 4
+requirements: [
+  item-crystalite/10
+  ]
+  research: crystal-duct
+speed: 2.5
+researchCost: [
+  item-crystalite/35
+  ]
+name: Crystal Bridge
+description: Transports items over terrain and buildings.
