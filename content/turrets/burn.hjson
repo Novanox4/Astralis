@@ -15,9 +15,9 @@ shoot: {
 maxAmmo: 10
 squaresprite: false
 size: 2
-  drawer: {
+drawer: {
 type: drawTurret
-basePrefix: astralis-
+basePrefix: astralisturret-
   parts: [
   {
   suffix: -barrel
