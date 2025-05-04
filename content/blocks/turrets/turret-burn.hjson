@@ -8,9 +8,10 @@ shootY: 0
 description: Fires rounds of bassic materials at both air and ground units. Can be boosted using water.
 shoot: {
   type: ShootBarrel
-  shots: 1
+  shots: 3
+  shotDelay: 3
   barrels: [
-    0, 1.5, 0
+    0, 1.45, 0
     ]
     }
 maxAmmo: 10
@@ -29,13 +30,20 @@ basePrefix: astral-
 }
 ammoTypes: {
 item-crystalite: {
-  type: SapBulletType
+  type: ArtilleryBulletType
   damage: 35
-  color: 38a6c9
-  laserAbsorb: true
+  backColor: 38a6c9
+  frontColor: 216f96
   knockback: 0.5
   hitColor: 38a6c9
-  shootSound: bolt
+  trailColor: 38a6c9
+  lifetime: 50
+  width: 3.5
+  height: 5
+  speed: 3
+  homingPower: 0.25
+  homingDelay: 5
+  inaccuracy: 6
     }
 }
 requirements: [
