@@ -29,7 +29,7 @@ basePrefix: astral-
 }
 ammoTypes: {
 item-crystalite: {
-  type: RailBulletType
+  type: SapBulletType
   damage: 35
   color: 38a6c9
   laserAbsorb: true
