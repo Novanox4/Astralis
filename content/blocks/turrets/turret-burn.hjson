@@ -55,3 +55,9 @@ researchCost: [
   item-uranium/45
   ]
 research: core-fort
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 1.5
+}
+coolantMultiplier: 1.5
