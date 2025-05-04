@@ -15,7 +15,7 @@ shoot: {
     ]
     }
 maxAmmo: 10
-squaresprite: false
+squareSprite: false
 size: 2
 drawer: {
 type: drawTurret
