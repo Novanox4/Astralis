@@ -1,0 +1,50 @@
+
+type: ItemTurret
+range: 200
+reload: 80
+category: turret
+name: Burn
+shootY: 0
+description: Fires rounds of bassic materials at both air and ground units. Can be boosted using water.
+shoot: {
+  type: ShootBarrel
+  shots: 1
+  barrels: [
+    0, 1.5, 0
+    ]
+    }
+maxAmmo: 10
+squaresprite: false
+size: 2
+drawer: {
+type: drawTurret
+basePrefix: astral-
+  parts: [
+  {
+  suffix: -barrel
+  progress: recoil
+  under: true
+  moveY: -1
+    }
+  ]
+}
+ammoTypes: {
+item-crystalite: {
+  type: PointLaserBulletType
+  damage: 35
+  color: 38a6c9
+  laserAbsorb: true
+  knockback: 0.5
+  hitColor: 38a6c9
+  shootSound: bolt
+    }
+}
+requirements: [
+  item-crystalite/50
+  item-uranium/35
+  ]
+researchCost: [
+  item-crystalite/60
+  item-uranium/45
+  ]
+research: core-fort
