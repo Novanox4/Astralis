@@ -37,9 +37,9 @@ item-crystalite: {
   knockback: 0.5
   hitColor: 38a6c9
   trailColor: 38a6c9
-  lifetime: 50
-  width: 3.5
-  height: 5
+  lifetime: 65
+  width: 7
+  height: 8.5
   speed: 3
   homingPower: 0.25
   homingDelay: 5
