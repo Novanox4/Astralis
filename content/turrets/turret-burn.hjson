@@ -17,7 +17,7 @@ squaresprite: false
 size: 2
 drawer: {
 type: drawTurret
-basePrefix: astralisturret-
+basePrefix: astral-
   parts: [
   {
   suffix: -barrel
@@ -46,4 +46,4 @@ researchCost: [
   item-crystalite/60
   item-uranium/45
   ]
-  research: core-fort
+research: core-fort
