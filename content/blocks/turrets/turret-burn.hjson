@@ -31,7 +31,7 @@ basePrefix: astral-
 ammoTypes: {
 item-crystalite: {
   type: ArtilleryBulletType
-  damage: 35
+  damage: 0
   backColor: 38a6c9
   frontColor: 216f96
   knockback: 0.5
@@ -45,6 +45,7 @@ item-crystalite: {
   homingDelay: 5
   inaccuracy: 6
   collideAir: true
+  splash: 30
     }
 }
 requirements: [
