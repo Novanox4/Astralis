@@ -1,7 +1,7 @@
 
 type: ItemTurret
 range: 200
-reload: 80
+reload: 55
 category: turret
 name: Burn
 shootY: 0
@@ -23,14 +23,13 @@ basePrefix: astral-
   {
   suffix: -barrel
   progress: recoil
-  under: true
   moveY: -1
     }
   ]
 }
 ammoTypes: {
 item-crystalite: {
-  type: PointLaserBulletType
+  type: PointBulletType
   damage: 35
   color: 38a6c9
   laserAbsorb: true
