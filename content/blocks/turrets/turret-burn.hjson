@@ -44,6 +44,7 @@ item-crystalite: {
   homingPower: 0.25
   homingDelay: 5
   inaccuracy: 6
+  collideAir: true
     }
 }
 requirements: [
