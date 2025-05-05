@@ -23,7 +23,7 @@ weapons: [
   x: 0
   y: 0
   reload: 120
-  name: unit-shards-guns
+  name: unit-capture-guns
   display: false
   mirror: false
   }
