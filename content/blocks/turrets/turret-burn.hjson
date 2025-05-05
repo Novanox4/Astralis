@@ -1,10 +1,10 @@
 type: ItemTurret
 range: 250
-reload: 55
+reload: 95
 category: turret
 name: Burn
 shootY: 0
-description: Fires long range bolts of char that burn targets. Can be boosted using water.
+description: Fires long range incendiary bolts that burn targets. Less effective against air units. Can be boosted using water.
 shoot: {
   type: ShootBarrel
   shots: 3
@@ -13,7 +13,7 @@ shoot: {
     0, 1.4, 0
     ]
     }
-maxAmmo: 10
+maxAmmo: 25
 squareSprite: false
 size: 2
 drawer: {
@@ -30,7 +30,7 @@ basePrefix: astral-
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 0
+  damage: 20
   backColor: 272727
   frontColor: 363636
   knockback: 0.5
@@ -38,8 +38,8 @@ item-charchunk: {
   hitColor: 272727
   trailColor: 272727
   lifetime: 65
-  width: 7
-  height: 8.5
+  width: 9
+  height: 11
   speed: 3
   inaccuracy: 6
   makeFire: true
@@ -61,3 +61,4 @@ liquid: water
 amount: 1.5
 }
 coolantMultiplier: 1.5
+ammoPerShot: 3
