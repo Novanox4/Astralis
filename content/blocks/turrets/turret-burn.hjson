@@ -1,17 +1,16 @@
-
 type: ItemTurret
-range: 200
+range: 250
 reload: 55
 category: turret
 name: Burn
 shootY: 0
-description: Fires rounds of bassic materials at both air and ground units. Can be boosted using water.
+description: Fires long range bolts of char that burn targets. Can be boosted using water.
 shoot: {
   type: ShootBarrel
   shots: 3
   shotDelay: 3
   barrels: [
-    0, 1.45, 0
+    0, 1.4, 0
     ]
     }
 maxAmmo: 10
@@ -29,23 +28,22 @@ basePrefix: astral-
   ]
 }
 ammoTypes: {
-item-crystalite: {
-  type: ArtilleryBulletType
+item-charchunk: {
+  type: BasicBulletType
   damage: 0
-  backColor: 38a6c9
-  frontColor: 216f96
+  backColor: 272727
+  frontColor: 363636
   knockback: 0.5
-  hitColor: 38a6c9
-  trailColor: 38a6c9
+  impact: true
+  hitColor: 272727
+  trailColor: 272727
   lifetime: 65
   width: 7
   height: 8.5
   speed: 3
-  homingPower: 0.25
-  homingDelay: 5
   inaccuracy: 6
-  collideAir: true
-  splash: 30
+  makeFire: true
+  incendAmount: 4
     }
 }
 requirements: [
