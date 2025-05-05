@@ -1,0 +1,44 @@
+type: flying
+flying: true
+health: 300
+speed: 2.5
+hitSize: 8
+buildBeamOffset: 12
+fogRadius: 0
+itemCapacity: 50
+engineSize: 0
+groundLayer: 60
+engines: [
+{
+  x: 0
+  y: -5
+  radius: 2
+  rotation: 0
+}
+]
+name: Capture
+description: "Air assault unit. Pelts enemy defenses with bullets. Deals low damage but is agile."
+weapons: [
+  {
+  x: 0
+  y: 0
+  reload: 120
+  name: unit-shards-guns
+  display: false
+  mirror: false
+  }
+  {
+  x: -0.5
+  y: 0
+  reload: 120
+  alternate: false
+  bullet: {
+  type: BasicBulletType
+  damage: 10
+  lifetime: 40
+  width: 9
+  height: 11
+  speed: 3
+  }
+  }
+]
