@@ -12,7 +12,7 @@ engines: [
 {
   x: 0
   y: -5
-  radius: 2
+  radius: 2.5
   rotation: 0
 }
 ]
@@ -23,15 +23,8 @@ weapons: [
   x: 0
   y: 0
   reload: 120
-  name: unit-capture-guns
-  display: false
-  mirror: false
-  }
-  {
-  x: -0.5
-  y: 0
-  reload: 120
-  alternate: false
+  name: unit-capture-gun
+ alternate: false
   bullet: {
   type: BasicBulletType
   damage: 10
