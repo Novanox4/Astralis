@@ -24,9 +24,8 @@ weapons: [
   y: 0
   reload: 45
   shootX: -0.5
-  name: unit-capture-gun-left
+  name: unit-capture-gun
   alternate: false
-  mirror: false
   bullet: {
   type: BasicBulletType
   damage: 10
@@ -34,23 +33,6 @@ weapons: [
   width: 9
   height: 11
   speed: 3
-  }
-  {
-  x: 0
-  y: 0
-  reload: 45
-  shootX: 0.5
-  name: unit-capture-gun-right
-  alternate: false
-  mirror: false
-  bullet: {
-  type: BasicBulletType
-  damage: 10
-  lifetime: 40
-  width: 9
-  height: 11
-  speed: 3
-  }
   }
   }
 ]
