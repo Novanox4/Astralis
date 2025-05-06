@@ -22,10 +22,11 @@ weapons: [
   {
   x: 0
   y: 0
-  reload: 45
-  shootX: -0.5
+  reload: 25
+  shootX: -1
   name: unit-capture-gun
   alternate: false
+  top: false
   bullet: {
   type: BasicBulletType
   damage: 10
