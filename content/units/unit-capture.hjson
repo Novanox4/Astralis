@@ -27,6 +27,7 @@ weapons: [
   name: unit-capture-gun
   alternate: false
   top: false
+  layerOffset: -1
   bullet: {
   type: BasicBulletType
   damage: 10
