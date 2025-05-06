@@ -6,7 +6,7 @@ buildSpeed: 1
 hitSize: 8
 mineWalls: true
 mineFloor: true
-mineSpeed: 2.25
+mineSpeed: 3
 mineTier: 3
 controller: BuilderAI
 defaultController: BuilderAI
