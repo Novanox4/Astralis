@@ -1,9 +1,8 @@
 type: flying
 flying: true
 health: 300
-speed: 2.5
+speed: 3.25
 hitSize: 8
-buildBeamOffset: 12
 fogRadius: 0
 itemCapacity: 50
 engineSize: 0
@@ -22,7 +21,7 @@ weapons: [
   {
   x: 0
   y: 0
-  reload: 25
+  reload: 20
   shootX: -1
   name: unit-capture-gun
   alternate: false
@@ -33,7 +32,7 @@ weapons: [
   damage: 10
   lifetime: 40
   width: 9
-  height: 11
+  height: 8
   speed: 3
   }
   }
