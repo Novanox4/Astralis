@@ -9,3 +9,7 @@ hiddenOnPlanets: [erekir, serpulo]
 name: Crystalite
 description: A crystal compound found on Astralis. Cheap, common, easy to use. Necessary for any base's survival. 
 alwaysUnlocked: true
+research: {
+  parent: core-fort
+  planet: astralis
+}
