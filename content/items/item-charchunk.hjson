@@ -8,3 +8,8 @@ hardness: 0
 hiddenOnPlanets: [erekir, serpulo]
 name: Char Chunk
 description: Burnt organic matter. Has many uses in creating new compounds. 
+research: {
+  parent: item-uranium
+  planet: astralis
+}
+details: "Formed as a consequence of the charring event, mainly only present near Astralis's surface"
