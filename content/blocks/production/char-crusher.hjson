@@ -22,7 +22,6 @@ researchCost: [
   item-uranium/45
 ]
 hasLiquidBooster: true
-itemConsumer: water
 consumes: {
   liquids: [
     {
