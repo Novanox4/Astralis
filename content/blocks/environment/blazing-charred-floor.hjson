@@ -3,3 +3,4 @@ name: Blazing Charred Floor
 attributes: {
   heat: 1.65
     }
+blendGroup: charred-floor
