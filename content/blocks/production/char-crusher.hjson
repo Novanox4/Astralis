@@ -23,3 +23,13 @@ researchCost: [
 ]
 hasLiquidBooster: true
 itemConsumer: water
+consumes: {
+  liquids: [
+    {
+      liquid: water
+      amount: 1
+      optional: true
+      booster: true
+    }
+  ]
+}
