@@ -6,7 +6,19 @@ requirements: [
   ]
 name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
+drillTime: 75
 drillTime: 175
+consumes: {
+  power: 0.80
+  liquids: [
+        {
+      liquid: water
+      amount: 0.2
+      optional: true
+      booster: true
+    }
+  ]
+}
 size: 2
 output: item-charchunk
 attribute: charchunk
@@ -18,9 +30,3 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
-hasLiquidBooster: true
-consumes: {
-power: {
-  0.80
-   }
-}
