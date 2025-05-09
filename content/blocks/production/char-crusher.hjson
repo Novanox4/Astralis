@@ -6,7 +6,7 @@ requirements: [
   ]
 name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
-drillTime: 75
+drillTime: 175
 consumes: {
   power: 0.80
     }
