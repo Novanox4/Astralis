@@ -7,9 +7,6 @@ requirements: [
 name: Char Crusher
 description: Pulverizes char walls, outputting small chunks periodically.
 drillTime: 175
-consumes: {
-  power: 0.80
-    }
 size: 2
 output: item-charchunk
 attribute: charchunk
@@ -31,4 +28,7 @@ consumes: {
       booster: true
     }
   ]
+power: [
+0.80
+]
 }
