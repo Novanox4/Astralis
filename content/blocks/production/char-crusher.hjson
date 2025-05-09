@@ -20,17 +20,7 @@ researchCost: [
 ]
 hasLiquidBooster: true
 consumes: {
-  liquids: [
-    {
-      liquid: water
-      amount: 1
-      optional: true
-      booster: true
-    }
-  ]
-power: [
-    {
-0.80
+power: {
+  0.80
    }
-  ]
 }
