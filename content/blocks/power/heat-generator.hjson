@@ -1,0 +1,14 @@
+type: ThermalGenerator
+name: Heat Generator
+size: 2
+requirements: [
+  item-crystalite/25
+  ]
+research: core-fort
+researchCost: [
+  item-crystalite/35
+  ]
+health: 150
+category: power
+buildTime: 175
+powerProduction: 1.2
