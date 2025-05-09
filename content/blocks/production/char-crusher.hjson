@@ -21,3 +21,4 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
+hasLiquidBooster: true
