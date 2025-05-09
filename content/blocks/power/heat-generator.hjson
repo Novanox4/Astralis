@@ -12,4 +12,4 @@ health: 150
 category: power
 buildTime: 175
 powerProduction: 2.25
-generateEffect: smokePuff
+generateEffect: producesmoke
