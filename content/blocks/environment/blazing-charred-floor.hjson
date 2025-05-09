@@ -1,6 +1,6 @@
 type: floor
 name: Blazing Charred Floor
 attributes: {
-  heat: 0.85
+  heat: 0.35
     }
 blendGroup: charred-floor
