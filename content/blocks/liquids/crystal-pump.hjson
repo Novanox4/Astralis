@@ -9,7 +9,7 @@ size: 1
 health: 100
 requirements: [
   item-crystalite/35
-  item-metaglass/15
+  metaglass/15
 ]
 researchCost: [
   item-crystalite/150
