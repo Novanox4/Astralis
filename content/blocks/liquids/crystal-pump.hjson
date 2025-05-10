@@ -1,4 +1,4 @@
-type: Pump
+type: pump
 pumpAmount: 13
 name: Crystal Pump
 description: Slowly pumps liquids it is placed on when powered.
@@ -17,4 +17,4 @@ researchCost: [
 ]
 research: core-fort
 squareSprite: false
-category: fluids
+category: liquid
