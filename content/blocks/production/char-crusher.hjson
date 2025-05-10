@@ -31,3 +31,4 @@ researchCost: [
   item-uranium/45
 ]
 hasLiquidBooster: true
+liquidBoostIntensity: 1.75
