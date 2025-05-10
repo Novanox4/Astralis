@@ -23,4 +23,6 @@ researchCost: [
   item-uranium/45
 ]
 itemBoostIntensity: 1.75
-itemConsumer: metaglass
+itemConsumer: {
+      metaglass/1
+    }
