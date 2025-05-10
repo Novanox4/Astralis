@@ -17,4 +17,4 @@ researchCost: [
 ]
 research: core-fort
 squareSprite: false
-category: liquids
+category: fluids
