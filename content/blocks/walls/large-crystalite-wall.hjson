@@ -1,0 +1,12 @@
+type: Wall
+size: 2
+name: Large Crystalite Wall
+requirements: [
+  item-crystalite/60
+  ]
+researchCost:  [
+  item-crystalite/140
+  ]
+research: crystalite-wall
+category: defense
+description: "Large wall that provides cover from enemy attacks."
