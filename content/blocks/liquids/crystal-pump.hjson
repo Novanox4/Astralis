@@ -16,3 +16,5 @@ researchCost: [
   metaglass/100
 ]
 research: core-fort
+squareSprite: false
+category: liquids
