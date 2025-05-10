@@ -1,5 +1,5 @@
 type: pump
-pumpAmount: 4.62
+pumpAmount: 0.25
 name: Crystal Pump
 description: Slowly pumps liquids it is placed on when powered.
 consumes: {
