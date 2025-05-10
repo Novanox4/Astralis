@@ -10,4 +10,5 @@ researchCost: [
   metaglass/50
   ]
 timerFlow: 0
-liquidPressure: 2
+liquidPressure: 1.25
+category: liquid
