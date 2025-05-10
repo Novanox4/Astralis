@@ -13,3 +13,4 @@ category: power
 buildTime: 175
 powerProduction: 2.25
 generateEffect: steam
+description: Produces power when placed on hot tiles. Efficiency scales with tile temperature.
