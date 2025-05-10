@@ -1,0 +1,13 @@
+type: conduit
+name: Crystal Aqueduct
+description: Transports fluids and gasses.
+requirements: [
+  item-crystalite/1
+  metaglass/1
+  ]
+researchCost: [
+  item-crystalite/125
+  metaglass/50
+  ]
+timerFlow: 0
+liquidPressure: 2
