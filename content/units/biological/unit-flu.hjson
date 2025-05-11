@@ -13,6 +13,7 @@ flying: falce
 health: 300
 baseLegStraightness: 0.25
 weapons: [
+{
 x: 0
 y: 2
 reload: 12
@@ -31,4 +32,5 @@ bullet: {
   status: corroded
   duration: 300
     }
+}
 ]
