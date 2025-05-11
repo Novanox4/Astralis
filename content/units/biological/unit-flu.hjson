@@ -29,7 +29,7 @@ bullet: {
   puddleSize: 3
   orbSize: 2.5
   speed: 3
-  damage: 3
+  damage: 1
   status: corroded
   duration: 300
     }
