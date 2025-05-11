@@ -5,7 +5,7 @@ legLength: 15
 legBaseOffset: 2
 name: Flu
 description: Native spider to Astralis. Attacks by regurgitating acid at targets.
-details: "This unit's relatively high leg size is very interesting, considering it is an underdeveloped fetus. It's oversized legs indicate that they develop near the start of their usual cocoon stage."
+details: "These spiders have evolved a rudimentary defense system, regurgitating stomach acid and catapulting it at anything it sees as a threat. Due to the fact that they are barely out of their cocoon stage, this is their only means of survival. Tests have indicated that they are highly intelligent, some rarely even surpassing humans. Perhaps future encounters with this species will be more tricky."
 legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5
