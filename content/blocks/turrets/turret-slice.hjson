@@ -3,7 +3,7 @@ name: Slice
 description: Fires homing missles at ground units.
 size: 2
 reload: 145
-shootSound: shoot-small-flame
+shootSound: shootSmokeMissleColor
 shoot: {
   type: ShootBarrel
   barrels: 2
@@ -26,8 +26,18 @@ requirements: [
   item-crystalite/60
   item-uranium/75
   ]
+researchCost: [
+  item-crystalite/250
+  item-uranium/200
+  metaglass/75
+]
 drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-range: 350
+range: 345
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.65
+    }
