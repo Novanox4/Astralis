@@ -19,7 +19,7 @@ y: 2
 reload: 7
 mirror: false
 inacurracy: 40
-shootSound: none
+shootSound: hitLiquid
 shoot: {
   shots: 3
     }
@@ -36,3 +36,4 @@ bullet: {
 }
 ]
 outlineColor: 121213
+planet: astralis
