@@ -50,4 +50,4 @@ deathSound: neoplasmSplat
 speed: 2.5
 lightRadius: 0
 hitSize: 13
-layer: 110
+layer: 135
