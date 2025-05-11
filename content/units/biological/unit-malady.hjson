@@ -16,7 +16,7 @@ weapons: [
 name: unit-malady-cannon
 x: 0
 y: 0
-reload: 45
+reload: 90
 mirror: false
 rotate: true
 rotateSpeed: 6
@@ -31,11 +31,14 @@ bullet: {
   knockback: 4
   impact: true
   trailColor: ac382a
-  trailLength: 3
+  trailLength: 5
+  trailWidth: 4
   lightColor: ac382a
   splashDamage: 20
   splashDamageRadius: 4
   splashDamagePierce: true
+  width: 12
+  height: 14.5
     }
 }
 ]
