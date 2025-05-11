@@ -1,0 +1,33 @@
+type: legs
+legCount: 8
+legGroupSize: 4
+legLength: 10
+legBaseOffset: 1
+name: Flu
+description: Native spider to astralis. Attacks by regurgitating acid at targets.
+details: "This unit's relatively high size is very interesting, considering it is an underdeveloped fetus. It's stubby legs indicate that they develop near the end of their usual cocoon stage."
+legMinLength: 0.75
+legMaxLength: 1
+legExtension: 2.5
+flying: falce
+health: 300
+baseLegStraightness: 0.25
+weapons: [
+x: 0
+y: 2
+reload: 12
+mirror: false
+inacurracy: 5
+shoot: {
+  shots: 2
+    }
+bullet: {
+  type: LiquidBulletType
+  liquid: arkycite
+  puddleSize: 3
+  orbSize: 2.5
+  speed: 3
+  damage: 3
+  status: corroded
+  duration: 300
+    }
