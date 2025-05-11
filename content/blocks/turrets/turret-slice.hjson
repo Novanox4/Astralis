@@ -26,3 +26,7 @@ requirements: [
   item-crystalite/60
   item-uranium/75
   ]
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+}
