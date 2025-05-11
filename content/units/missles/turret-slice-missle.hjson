@@ -31,3 +31,4 @@ circleTarget: false
 faceTarget: true
 trailColor: ffd27e
 targetAir: false
+drawCell: true
