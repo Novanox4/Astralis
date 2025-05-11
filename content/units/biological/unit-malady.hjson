@@ -14,6 +14,7 @@ baseLegStraightness: 0.25
 weapons: [
 {
 name: unit-malady-cannon
+recoil: 2.25
 x: 0
 y: 0
 reload: 90
@@ -27,7 +28,7 @@ bullet: {
   lifetime: 55
   backColor: a40e0e
   fronColor: ac382a
-  recoil: 1.5
+  recoil: 0.75
   knockback: 4
   impact: true
   trailColor: ac382a
