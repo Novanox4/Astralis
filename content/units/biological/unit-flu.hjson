@@ -5,7 +5,7 @@ legLength: 10
 legBaseOffset: 1
 name: Flu
 description: Native spider to astralis. Attacks by regurgitating acid at targets.
-details: "This unit's relatively high size is very interesting, considering it is an underdeveloped fetus. It's stubby legs indicate that they develop near the end of their usual cocoon stage."
+details: "This unit's relatively high leg size is very interesting, considering it is an underdeveloped fetus. It's oversized legs indicate that they develop near the start of their usual cocoon stage."
 legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5
