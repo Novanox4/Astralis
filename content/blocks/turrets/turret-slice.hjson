@@ -1,0 +1,28 @@
+type: ItemTurret
+name: Slice
+description: Fires homing missles at ground units.
+size: 2
+reload: 120
+shootSound: shoot-small-flame
+shoot: {
+  type: ShootBarrel
+  barrels: 2
+  shots: 2
+  shotDelay: 4
+  barrelOffset: 1
+  barrels: [
+    -3, 2, 0,
+    3, 2, 0
+  ]
+}
+ammoTypes: {
+  item-uranium: {
+   type: EmptyBulletType
+   spawnUnit: turret-slice-missle
+   lifetime: 0
+     }
+  }
+requirements: [
+  item-crystalite/60
+  item-uranium/75
+  ]
