@@ -10,3 +10,4 @@ researchCost:  [
 research: crystalite-wall
 category: defense
 description: "Large wall that provides cover from enemy attacks."
+health: 2880
