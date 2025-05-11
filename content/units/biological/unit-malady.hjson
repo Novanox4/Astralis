@@ -1,13 +1,13 @@
 type: legs
 legCount: 8
 legGroupSize: 4
-legLength: 27.5
-legBaseOffset: 4
+legLength: 32.5
+legBaseOffset: 3.75
 name: Malady
 description: Native spider to Astralis. Uses a large artillery cannon to shoot.
 details: "A cannon is mounted on the back of this spider. Strange. It must have been mounted by Sharded as an attempt to create a biomechanical unit. They were successful up to an extent. Keep in mind, even if it is large, this is still [accent]an infant[]."
 legMaxLength: 1.75
-legExtension: 2
+legExtension: 2.25
 flying: false
 health: 650
 baseLegStraightness: 0.25
