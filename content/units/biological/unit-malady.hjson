@@ -47,3 +47,4 @@ planet: astralis
 deathExplosionEffect: none
 deathSound: neoplasmSplat
 speed: 2.5
+lightRadius: 0
