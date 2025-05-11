@@ -5,7 +5,7 @@ legLength: 15
 legBaseOffset: 2
 name: Flu
 description: Native spider to Astralis. Attacks by regurgitating acid at targets.
-details: "These spiders have evolved a rudimentary defense system, regurgitating stomach acid and catapulting it at anything it sees as a threat. Due to the fact that they are barely out of their cocoon stage, this is their only means of survival. Tests have indicated that they are highly intelligent, some rarely even surpassing humans. Perhaps future encounters with this species will be more tricky."
+details: "These spiders have evolved a rudimentary defense system, regurgitating stomach acid and catapulting it at anything it sees as a threat. Due to the fact that they are barely out of their cocoon stage, this is their only means of survival. Tests have indicated that they are highly intelligent, some rarely even surpassing humans, indicated by the fact that they cover themselves in char as a means of camouflage in dark biomes or at night. Perhaps future encounters with this species will be more tricky."
 legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5
