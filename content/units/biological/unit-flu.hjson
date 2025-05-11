@@ -39,3 +39,4 @@ outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
 deathSound: neoplasmSplat
+hitSize: 8
