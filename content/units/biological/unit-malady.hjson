@@ -35,7 +35,7 @@ bullet: {
   trailWidth: 4
   lightColor: ac382a
   splashDamage: 20
-  splashDamageRadius: 4
+  splashDamageRadius: 24
   splashDamagePierce: true
   width: 12
   height: 14.5
