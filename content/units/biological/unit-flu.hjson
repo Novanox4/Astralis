@@ -19,6 +19,7 @@ y: 2
 reload: 7
 mirror: false
 inacurracy: 40
+shootSound: none
 shoot: {
   shots: 3
     }
