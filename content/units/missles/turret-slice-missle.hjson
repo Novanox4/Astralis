@@ -1,10 +1,10 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 2
+speed: 5.25
 physics: false
-lifetime: 75
-rotateSpeed: 0.5
+lifetime: 125
+rotateSpeed: 4
 hitSize: 5
 trailLength: 0.75
 trailWidth: 0.65
