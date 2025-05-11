@@ -2,7 +2,7 @@ type: ItemTurret
 name: Slice
 description: Fires homing missles at ground units.
 size: 2
-reload: 120
+reload: 145
 shootSound: shoot-small-flame
 shoot: {
   type: ShootBarrel
