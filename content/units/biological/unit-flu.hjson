@@ -4,7 +4,7 @@ legGroupSize: 4
 legLength: 15
 legBaseOffset: 2
 name: Flu
-description: Native spider to astralis. Attacks by regurgitating acid at targets.
+description: Native spider to Astralis. Attacks by regurgitating acid at targets.
 details: "This unit's relatively high leg size is very interesting, considering it is an underdeveloped fetus. It's oversized legs indicate that they develop near the start of their usual cocoon stage."
 legMinLength: 0.75
 legMaxLength: 1
@@ -16,11 +16,11 @@ weapons: [
 {
 x: 0
 y: 2
-reload: 12
+reload: 7
 mirror: false
-inacurracy: 5
+inacurracy: 40
 shoot: {
-  shots: 2
+  shots: 3
     }
 bullet: {
   type: LiquidBulletType
@@ -34,3 +34,4 @@ bullet: {
     }
 }
 ]
+outlineColor: 121213
