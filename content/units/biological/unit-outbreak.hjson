@@ -1,0 +1,48 @@
+type: legs
+legCount: 8
+legGroupSize: 4
+legLength: 36
+legBaseOffset: 3.75
+name: Malady
+description: Native spider to Astralis. Uses an array of cannons to shoot. Is protected by a shield while shooting.
+details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. ."
+legMaxLength: 1.45
+legExtension: 1.60
+flying: false
+health: 1800
+baseLegStraightness: 0.1
+weapons: [
+{
+name: unit-outbreak-artillery
+recoil: 2
+x: 0
+y: 0
+shootX: -3
+reload: 90
+rotate: true
+rotateSpeed: 6
+bullet: {
+  type: BasicBulletType
+  speed: 6.5
+  damage: 0
+  lifetime: 60
+  backColor: a40e0e
+  fronColor: ac382a
+  recoil: 0.30
+  trailColor: ac382a
+  trailLength: 12
+  trailWidth: 15
+  lightColor: ac382a
+  width: 22
+  height: 24
+    }
+}
+]
+outlineColor: 121213
+planet: astralis
+deathExplosionEffect: none
+deathSound: neoplasmSplat
+speed: 2.5
+lightRadius: 0
+hitSize: 13
+layer: 135
