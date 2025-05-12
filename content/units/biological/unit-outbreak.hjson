@@ -37,8 +37,8 @@ bullet: {
   fragSpread: 30
   fragOffsetMin: 0
   fragOffsetMax: 0
-  fragVelocityMin: 0
-  fragVelocityMax: 0
+  fragVelocityMin: 1
+  fragVelocityMax: 1
   fragBullet: {
     type: BasicBulletType
     speed: 4
