@@ -5,7 +5,7 @@ legLength: 50
 legBaseOffset: 3.15
 name: Outbreak
 description: Native spider to Astralis. Uses an array of cannons to shoot. Is protected by a shield while shooting.
-details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. ."
+details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. The implications are... disturbing at the very least."
 legMaxLength: 2.15
 legExtension: 1.90
 flying: false
@@ -15,24 +15,47 @@ weapons: [
 {
 name: unit-outbreak-artillery
 recoil: 2
-x: 3
+x: -4.25
 y: 0
 reload: 140
 rotate: false
 bullet: {
   type: BasicBulletType
   speed: 6.5
-  damage: 0
-  lifetime: 60
+  damage: 30
+  lifetime: 35
   backColor: a40e0e
   fronColor: ac382a
   recoil: 0.30
   trailColor: ac382a
-  trailLength: 10
-  trailWidth: 6
+  trailLength: 10.5
+  trailWidth: 4
   lightColor: ac382a
-  width: 13.5
-  height: 19.5
+  width: 10
+  height: 15
+  fragBullets: 4
+  fragSpread: 30
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragVelocityMin: 0
+  fragVelocityMax: 0
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    damage: 40
+    lifetime: 55
+    backColor: a40e0e
+    fronColor: ac382a
+    trailColor: ac382a
+    trailLength: 10
+    trailWidth: 3
+    lightColor: ac382a
+    width: 8
+    height: 12.5
+    homingPower: 0.175
+    homingDelay: 8
+    homingRange: 60
+    }
     }
 }
 ]
