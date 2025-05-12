@@ -33,8 +33,8 @@ bullet: {
   lightColor: ac382a
   width: 10
   height: 15
-  fragBullets: 5
-  fragSpread: 35
+  fragBullets: 8
+  fragSpread: 20
   fragRandomSpread: 5
   fragOffsetMin: 0
   fragOffsetMax: 0
