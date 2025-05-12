@@ -35,8 +35,8 @@ bullet: {
   width: 10
   height: 15
   fragBullets: 8
-  fragSpread: 10
-  fragRandomSpread: 5
+  fragSpread: 3
+  fragRandomSpread: 0
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragVelocityMin: 1
