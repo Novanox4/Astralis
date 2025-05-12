@@ -10,14 +10,14 @@ legMaxLength: 2.15
 legExtension: 1.90
 flying: false
 health: 1800
-baseLegStraightness: 0.1
+baseLegStraightness: 0.15
 weapons: [
 {
 name: unit-outbreak-artillery
 recoil: 2
-x: 7
+x: 3
 y: 0
-reload: 90
+reload: 140
 rotate: false
 bullet: {
   type: BasicBulletType
@@ -28,11 +28,11 @@ bullet: {
   fronColor: ac382a
   recoil: 0.30
   trailColor: ac382a
-  trailLength: 12
-  trailWidth: 15
+  trailLength: 10
+  trailWidth: 6
   lightColor: ac382a
-  width: 25
-  height: 36
+  width: 13.5
+  height: 19.5
     }
 }
 ]
@@ -40,7 +40,7 @@ outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
 deathSound: neoplasmSplat
-speed: 2.5
+speed: 2
 lightRadius: 0
-hitSize: 13
-layer: 135
+hitSize: 16
+layer: 150
