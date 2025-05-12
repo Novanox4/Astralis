@@ -21,9 +21,9 @@ reload: 140
 rotate: false
 bullet: {
   type: BasicBulletType
-  speed: 3.75
+  speed: 7.75
   damage: 20
-  lifetime: 27.5
+  lifetime: 10
   backColor: a40e0e
   fronColor: ac382a
   recoil: 0.30
@@ -34,7 +34,7 @@ bullet: {
   width: 10
   height: 15
   fragBullets: 8
-  fragSpread: 20
+  fragSpread: 10
   fragRandomSpread: 5
   fragOffsetMin: 0
   fragOffsetMax: 0
@@ -43,7 +43,7 @@ bullet: {
   shootSound: largeCannon
   fragBullet: {
     type: BasicBulletType
-    speed: 8
+    speed: 7.75
     damage: 40
     lifetime: 40
     backColor: a40e0e
@@ -54,9 +54,9 @@ bullet: {
     lightColor: ac382a
     width: 8
     height: 12.5
-    homingPower: 0.225
-    homingDelay: 0.65
-    homingRange: 125
+    homingPower: 0.3
+    homingDelay: 0.3
+    homingRange: 200
     }
     }
 }
