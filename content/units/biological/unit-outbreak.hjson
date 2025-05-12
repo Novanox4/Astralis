@@ -6,11 +6,12 @@ legBaseOffset: -20
 name: Outbreak
 description: Native spider to Astralis. Uses an array of cannons to shoot. Is protected by a shield while shooting.
 details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. The implications are... disturbing at the very least."
-legMaxLength: 1.2
+legMaxLength: 1.1
 legExtension: 1
 flying: false
 health: 1800
-baseLegStraightness: 0.25
+baseLegStraightness: 0.05
+legContinuousMove: true
 weapons: [
 {
 name: unit-outbreak-artillery
