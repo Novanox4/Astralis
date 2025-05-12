@@ -1,13 +1,13 @@
 type: legs
 legCount: 8
 legGroupSize: 4
-legLength: 45
-legBaseOffset: -6.75
+legLength: 70
+legBaseOffset: -8
 name: Outbreak
 description: Native spider to Astralis. Uses an array of cannons to shoot. Is protected by a shield while shooting.
 details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. The implications are... disturbing at the very least."
-legMaxLength: 1.45
-legExtension: 1.30
+legMaxLength: 1.55
+legExtension: 1.375
 flying: false
 health: 1800
 baseLegStraightness: 0.20
