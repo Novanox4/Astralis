@@ -21,6 +21,7 @@ parts: [
   progress: warmup
   moveX: 0.5
   moveY: -0.5
+  layer:151
 }
 {
   type: RegionPart
@@ -28,6 +29,7 @@ parts: [
   progress: warmup
   moveX: 0
   moveY: 0
+  layer: 152
 }
 ]
 weapons: [
