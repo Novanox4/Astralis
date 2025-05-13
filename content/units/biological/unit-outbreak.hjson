@@ -11,6 +11,7 @@ flying: false
 health: 1800
 baseLegStraightness: 0
 legContinuousMove: true
+legExtension: -15
 parts: [
 {
   type: RegionPart
