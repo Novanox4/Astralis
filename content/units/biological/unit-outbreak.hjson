@@ -66,8 +66,12 @@ name: unit-outbreak-projectors
 rotate: false
 attacks: false
 mirror: false
+x: 0
+y: 0
 parts: {
   name: unit-outbreak-projector-cover-right
+  x: 0
+  y: 0
   }
 ]
 outlineColor: 121213
