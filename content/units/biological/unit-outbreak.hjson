@@ -73,6 +73,7 @@ parts: {
   x: 0
   y: 0
   }
+}
 ]
 outlineColor: 121213
 planet: astralis
