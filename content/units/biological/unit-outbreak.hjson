@@ -77,25 +77,7 @@ bullet: {
     homingDelay: 0.3
     homingRange: 200
     }
-    }
-}
-{
-name: unit-outbreak-projectors
-rotate: false
-noAttack: true
-mirror: false
-x: 0
-y: 0
-shootSound: none
-shootEffect: none
-recoil: 0
-bullet: {
-type: EmptyBulletType
-damage: 0
-shootEffect: none
-hitEffect: none
-despawnEffect: none
- }
+  }
 }
 ]
 outlineColor: 121213
