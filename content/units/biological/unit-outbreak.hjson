@@ -99,8 +99,8 @@ cooldown: 550
 y: 3
 angle: 75
 radius: 75
-
 }
+]
 outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
