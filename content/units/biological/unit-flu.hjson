@@ -9,7 +9,7 @@ details: "These spiders have evolved a rudimentary defense system, regurgitating
 legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5
-flying: falce
+flying: false
 health: 300
 baseLegStraightness: 0.25
 weapons: [
