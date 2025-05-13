@@ -27,10 +27,10 @@ weapons: [
 {
 name: unit-outbreak-artillery
 recoil: 2
-x: -5.5
+x: -6
 y: 0
 reload: 140
-rotate: false
+rotate: true
 shootSound: mediumCannon
 bullet: {
   type: BasicBulletType
@@ -80,9 +80,14 @@ mirror: false
 x: 0
 y: 0
 shootSound: none
+shootEffect: none
 recoil: 0
 bullet: {
 type: EmptyBulletType
+damage: 0
+shootEffect: none
+hitEffect: none
+despawnEffect: none
  }
 }
 ]
