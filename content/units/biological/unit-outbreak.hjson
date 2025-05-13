@@ -16,7 +16,9 @@ parts: [
 {
   type: RegionPart
   name: unit-outbreak-projectors
-  progress: none
+  progress: warmup
+  moveX: 0
+  moveY: 0
 }
 {
   type: RegionPart
