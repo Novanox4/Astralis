@@ -26,8 +26,8 @@ parts: [
   x: 0
   y: 0
   progress: warmup
-  moveX: -1.25
-  moveY: -1.25
+  moveX: -1.2
+  moveY: -1.2
 }
 {
   type: RegionPart
@@ -35,8 +35,8 @@ parts: [
   x: 0
   y: 0
   progress: warmup
-  moveX: 1.25
-  moveY: -1.25
+  moveX: 1.2
+  moveY: -1.2
 }
 ]
 weapons: [
