@@ -64,7 +64,7 @@ bullet: {
 {
 name: unit-outbreak-projectors
 rotate: false
-attacks: false
+noAttack: true
 mirror: false
 x: 0
 y: 0
