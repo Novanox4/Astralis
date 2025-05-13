@@ -19,6 +19,16 @@ parts: [
   x: 0
   y: 0
   progress: warmup
+  moveX: -0.5
+  moveY: -0.5
+  layer: 149
+}
+{
+  type: RegionPart
+  suffix: -projector-cover-left
+  x: 0
+  y: 0
+  progress: warmup
   moveX: 0.5
   moveY: -0.5
   layer: 149
