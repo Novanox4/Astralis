@@ -10,7 +10,7 @@ legMaxLength: 1.1
 legExtension: 0
 flying: false
 health: 1800
-baseLegStraightness: 1.25
+baseLegStraightness: 0
 legContinuousMove: true
 parts: [
 {
