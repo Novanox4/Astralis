@@ -15,7 +15,7 @@ legContinuousMove: true
 parts: [
 {
   type: RegionPart
-  name: unit-outbreak-projectors
+  suffix: -projectors
   progress: warmup
   moveX: 0
   moveY: 0
