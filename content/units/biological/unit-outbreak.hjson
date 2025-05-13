@@ -12,6 +12,17 @@ flying: false
 health: 1800
 baseLegStraightness: 0.05
 legContinuousMove: true
+parts: [
+{
+  type: RegionPart
+  name: -projector-cover-right
+  x: 0
+  y: 0
+  progress: shoot
+  moveX: -0.5
+  moveY: -0.5
+}
+]
 weapons: [
 {
 name: unit-outbreak-artillery
@@ -68,12 +79,6 @@ noAttack: true
 mirror: false
 x: 0
 y: 0
-parts: {
-  name: unit-outbreak-projector-cover-right
-  x: 0
-  y: 0
-  }
-}
 ]
 outlineColor: 121213
 planet: astralis
