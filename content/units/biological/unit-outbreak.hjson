@@ -15,13 +15,12 @@ legContinuousMove: true
 parts: [
 {
   type: RegionPart
-  name: -projector-cover-right
+  suffix: -projector-cover-right
   x: 0
   y: 0
   progress: warmup
   moveX: 0.5
   moveY: -0.5
-  layer: 152
 }
 {
   type: RegionPart
@@ -29,7 +28,6 @@ parts: [
   progress: warmup
   moveX: 0
   moveY: 0
-  layer: 151
 }
 ]
 weapons: [
