@@ -79,6 +79,11 @@ noAttack: true
 mirror: false
 x: 0
 y: 0
+shootSound: none
+recoil: 0
+bullet: {
+type: EmptyBulletType
+ }
 }
 ]
 outlineColor: 121213
