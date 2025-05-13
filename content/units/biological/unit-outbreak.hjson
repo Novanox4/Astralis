@@ -61,6 +61,14 @@ bullet: {
     }
     }
 }
+{
+name: unit-outbreak-projectors
+rotate: false
+attacks: false
+mirror: false
+parts: {
+  name: unit-outbreak-projector-cover-right
+  }
 ]
 outlineColor: 121213
 planet: astralis
