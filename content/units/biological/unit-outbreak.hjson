@@ -15,6 +15,11 @@ legContinuousMove: true
 parts: [
 {
   type: RegionPart
+  name: unit-outbreak-projectors
+  progress: none
+}
+{
+  type: RegionPart
   name: -projector-cover-right
   x: 0
   y: 0
