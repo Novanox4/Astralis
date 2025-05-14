@@ -71,7 +71,7 @@ bullet: {
   lightColor: ac382a
   width: 10
   height: 15
-  fragBullets: 3
+  fragBullets: 4
   fragSpread: -3
   fragRandomSpread: 0
   fragOffsetMin: 0
@@ -82,10 +82,10 @@ bullet: {
   fragBullet: {
     type: BasicBulletType
     speed: 7.75
-    damage: 5
+    damage: 7.5
     pierce: true
     pierceBuilding: true
-    pierceCap: 5
+    pierceCap: 99
     lifetime: 20
     backColor: a40e0e
     fronColor: ac382a
