@@ -57,22 +57,23 @@ shootSound: mediumCannon
 bullet: {
   type: BasicBulletType
   speed: 6.25
-  damage: 20
+  damage: 75
   lifetime: 50
   backColor: a40e0e
   fronColor: ac382a
   recoil: 0.20
   pierce: true
   pierceBuilding: true
-  pierceCap: 5
+  pierceCap: 6
   trailColor: ac382a
   trailLength: 10.5
   trailWidth: 4
   lightColor: ac382a
   width: 10
   height: 15
-  fragBullets: 4
-  fragSpread: -3
+  fragBullets: 8
+  fragSpread: 3
+  fragAngle: 360
   fragRandomSpread: 0
   fragOffsetMin: 0
   fragOffsetMax: 0
@@ -84,21 +85,21 @@ bullet: {
     type: BasicBulletType
     hitUnder: true
     speed: 7.75
-    damage: 7.5
+    damage: 5
     pierce: true
     pierceBuilding: true
     pierceCap: 99
-    lifetime: 20
+    lifetime: 22.5
     backColor: a40e0e
     fronColor: ac382a
     trailColor: ac382a
-    trailLength: 10
+    trailLength: 8.5
     trailWidth: 3
     lightColor: ac382a
     width: 8
     height: 12.5
-    homingPower: 0.3
-    homingDelay: 0.3
+    homingPower: 0.55
+    homingDelay: 0.25
     homingRange: 200
     }
   }
