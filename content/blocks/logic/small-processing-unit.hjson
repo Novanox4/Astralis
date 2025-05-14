@@ -1,0 +1,21 @@
+type: LogicBlock
+name: Small Processing Unit
+instructionsPerTick: 3
+maxInstructionsPerTick: 200
+range: 125
+description: Uses logic to control units and buildings.
+health: 200
+requirements: [
+  item-crystalite/75
+  item-uranium/75
+  metaglass/40
+  ]
+research: core-fort
+researchCostMultiplier: 0.75
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -rotator
+  rotateSpeed: 1
+  }
+  ]
