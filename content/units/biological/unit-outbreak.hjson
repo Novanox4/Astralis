@@ -79,8 +79,10 @@ bullet: {
   fragVelocityMin: 1
   fragVelocityMax: 1
   pierceFragCap: 99
+  hitUnder: true
   fragBullet: {
     type: BasicBulletType
+    hitUnder: true
     speed: 7.75
     damage: 7.5
     pierce: true
