@@ -17,5 +17,6 @@ drawer: [
   type: DrawRegion
   suffix: -rotator
   rotateSpeed: 1
+  layer: 50
   }
   ]
