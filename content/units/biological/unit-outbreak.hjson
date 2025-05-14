@@ -56,30 +56,37 @@ aimDst: 425
 shootSound: mediumCannon
 bullet: {
   type: BasicBulletType
-  speed: 7.75
+  speed: 6.25
   damage: 20
-  lifetime: 10
+  lifetime: 50
   backColor: a40e0e
   fronColor: ac382a
-  recoil: 0.30
+  recoil: 0.20
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 5
   trailColor: ac382a
   trailLength: 10.5
   trailWidth: 4
   lightColor: ac382a
   width: 10
   height: 15
-  fragBullets: 8
-  fragSpread: 3
+  fragBullets: 3
+  fragSpread: -3
   fragRandomSpread: 0
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragVelocityMin: 1
   fragVelocityMax: 1
+  pierceFragCap: 99
   fragBullet: {
     type: BasicBulletType
     speed: 7.75
-    damage: 40
-    lifetime: 40
+    damage: 5
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 5
+    lifetime: 20
     backColor: a40e0e
     fronColor: ac382a
     trailColor: ac382a
