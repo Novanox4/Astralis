@@ -52,6 +52,7 @@ reload: 140
 rotate: true
 range: 425
 maxRange: 425
+aimDst: 425
 shootSound: mediumCannon
 bullet: {
   type: BasicBulletType
