@@ -12,6 +12,7 @@ health: 700
 baseLegStraightness: 0
 legContinuousMove: true
 legExtension: -15
+range: 425
 parts: [
 {
   type: RegionPart
