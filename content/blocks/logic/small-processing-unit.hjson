@@ -15,8 +15,10 @@ researchCostMultiplier: 0.75
 drawer: [
   {
   type: DrawRegion
-  suffix: -rotator
+  suffix: -spinner
   rotateSpeed: 1
-  layer: 100
+  layer: 125
+  x: 0
+  y: 0
   }
   ]
