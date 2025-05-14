@@ -13,6 +13,7 @@ baseLegStraightness: 0
 legContinuousMove: true
 legExtension: -15
 range: 425
+maxRange: 425
 parts: [
 {
   type: RegionPart
