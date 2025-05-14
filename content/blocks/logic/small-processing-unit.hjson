@@ -11,14 +11,4 @@ requirements: [
   metaglass/40
   ]
 research: core-fort
-researchCostMultiplier: 0.75
-drawer: [
-  {
-  type: DrawRegion
-  suffix: -spinner
-  rotateSpeed: 1
-  layer: 125
-  x: 0
-  y: 0
-  }
-  ]
+researchCostMultiplier: 3
