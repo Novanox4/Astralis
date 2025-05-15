@@ -6,6 +6,9 @@ minWarmup: 10
 warmupMaintainTime: 5
 squareSprite: false
 size: 2
+consumes: {
+ power: 2
+   }
 drawer: {
   type: DrawTurret
   basePrefix: astral-
