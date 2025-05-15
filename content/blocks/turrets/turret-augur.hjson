@@ -47,7 +47,6 @@ drawer: {
 reload: 30
 shootType: {
   type: MultiBulletType
-  repeat: 5
   bullets: [
   type: BasicBulletType
   damage: 0
@@ -91,8 +90,10 @@ shootType: {
       length: 1
       lifetime: 35
       useRotation: true
+       }
       }
      ]
+     repeat: 5
     }
 requirements: [
   item-crystalite/250
