@@ -49,17 +49,17 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: d49d00
-  lifetime: 10
+  lifetime: 1
   sprite: circle-bullet
   speed: 5
-  width: 10
+  width: 5
   height: 10
   collide: false
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0.35
   fragOffsetMax: 1.25
-  fragBullets: 1
+  fragBullets: 8
   fragBullet: {
   type: BasicBulletType
   damage: 0
