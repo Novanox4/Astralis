@@ -3,6 +3,7 @@ name: Small Processing Unit
 instructionsPerTick: 3
 maxInstructionsPerTick: 200
 range: 125
+category: logic
 description: Uses logic to control units and buildings.
 health: 200
 requirements: [
