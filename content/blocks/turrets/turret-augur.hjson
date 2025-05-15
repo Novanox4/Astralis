@@ -49,13 +49,13 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 300
+  lifetime: 75
   sprite: circle-bullet
   speed: 15
   width: 5
   height: 10
   collides: false
-  fragRandomSpread: 0
+  fragRandomSpread: 75
   fragVelocityMin: 1
   fragOffsetMin: 0
   fragOffsetMax: 0.3
@@ -63,6 +63,8 @@ shootType: {
   followAimSpeed: 999
   despawnSound: bolt
   trailLength: 12
+  homingPower: 999
+  homingRange: 150
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
@@ -75,8 +77,8 @@ shootType: {
       particles: 1
       strokeFrom: 1
       strokeTo: 0
-      colorFrom: feffd8
-      colorTo: feffd8
+      colorFrom: f5d738
+      colorTo: f5d738
       lenFrom: 125
       lenTo: 125
       cone: 0
