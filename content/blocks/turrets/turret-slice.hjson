@@ -42,3 +42,4 @@ coolant: {
   amount: 0.65
     }
 category: turret
+squareSprite: false
