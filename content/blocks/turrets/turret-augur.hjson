@@ -49,10 +49,10 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 75
+  lifetime: 150
   sprite: circle-bullet
-  speed: 15
-  width: 5
+  speed: 5
+  width: 105
   height: 10
   collides: false
   fragRandomSpread: 75
@@ -63,7 +63,7 @@ shootType: {
   followAimSpeed: 999
   despawnSound: bolt
   trailLength: 12
-  homingPower: 999
+  homingPower: 1.2
   homingRange: 150
   fragBullet: {
     type: RailBulletType
