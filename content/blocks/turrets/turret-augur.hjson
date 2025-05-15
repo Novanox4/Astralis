@@ -54,9 +54,9 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 80
+  lifetime: 75
   sprite: circle-bullet
-  speed: 9.5
+  speed: 4.5
   width: 4
   height: 4
   collides: false
@@ -64,18 +64,18 @@ shootType: {
   fragVelocityMin: 1
   fragOffsetMin: 0
   fragOffsetMax: 0.3
-  fragBullets: 5
+  fragBullets: 8
   followAimSpeed: 999
   despawnSound: bolt
-  trailLength: 12
+  trailLength: 15
   trailColor: f5d738
-  homingPower: 0.125
+  homingPower: 0.225
   homingRange: 300
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
     damage: 6
-    length: 125
+    length: 150
     lifetime: 20
     lineEffect: {
       type: ParticleEffect
@@ -85,8 +85,8 @@ shootType: {
       strokeTo: 0
       colorFrom: f5d738
       colorTo: f5d738
-      lenFrom: 125
-      lenTo: 125
+      lenFrom: 150
+      lenTo: 150
       cone: 0
       length: 1
       lifetime: 35
@@ -97,4 +97,4 @@ shootType: {
 requirements: [
   item-crystalite/250
 ]
-range: 200
+range: 225
