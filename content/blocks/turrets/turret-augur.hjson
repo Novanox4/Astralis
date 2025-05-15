@@ -74,7 +74,7 @@ shootType: {
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 1
+    damage: 6
     length: 125
     lifetime: 20
     lineEffect: {
@@ -97,3 +97,4 @@ shootType: {
 requirements: [
   item-crystalite/250
 ]
+range: 200
