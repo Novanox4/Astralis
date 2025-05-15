@@ -91,10 +91,9 @@ shootType: {
       length: 1
       lifetime: 35
       useRotation: true
-            }
-          }
-        }
-      ]
+       }
+      }
+     ]
     }
 requirements: [
   item-crystalite/250
