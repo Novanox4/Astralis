@@ -62,6 +62,7 @@ shootType: {
   fragOffsetMax: 0
   fragOffsetMax: 0
   fragBullets: 1
+  followAimSpeed: 30
   fragBullet: {
     type: RailBulletType
     damage: 95
@@ -80,7 +81,6 @@ shootType: {
       cone: 0
       length: 1
       lifetime: 20
-      useRotation: false
           }
         }
       }
