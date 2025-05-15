@@ -57,9 +57,9 @@ shootType: {
   collide: false
   fragRandomSpread: 360
   fragVelocityMin: 1
-  fragOffsetMin: 2
-  fragOffsetMax: 5
-  fragBullets: 8
+  fragOffsetMin: 3
+  fragOffsetMax: 15
+  fragBullets: 10
   fragBullet: {
   type: BasicBulletType
   damage: 0
@@ -70,7 +70,7 @@ shootType: {
   lifeScaleRandMax: 1.2
   width: 4
   height: 4
-  speed: 0
+  speed: 0.1
   sprite: large-orb
   collide: false
   fragRandomSpread: 0
