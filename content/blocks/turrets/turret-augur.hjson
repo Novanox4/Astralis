@@ -40,13 +40,13 @@ drawer: {
     }
   ]
 }
-reload: 25
+reload: 15
 shootType: {
   type: BasicBulletType
   damage: 0
   backColor: f5d738
   frontColor: d49d00
-  lifetime: 250
+  lifetime: 125
   lifeScaleRandMin: 0.8
   lifeScaleRandMax: 1.2
   width: 4
