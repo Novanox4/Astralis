@@ -48,6 +48,7 @@ reload: 30
 shootType: {
   type: MultiBulletType
   bullets: [
+  {
   type: BasicBulletType
   damage: 0
   inacurracy: 30
@@ -92,9 +93,10 @@ shootType: {
       useRotation: true
        }
       }
-     ]
+     }
+    ]  
      repeat: 5
-    }
+   }
 requirements: [
   item-crystalite/250
 ]
