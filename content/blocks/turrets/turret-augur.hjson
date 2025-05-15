@@ -20,6 +20,7 @@ drawer: {
     moveY: -2
     progress: warmup
     heatProgress: warmup
+    under: true
     }
     {
     type: RegionPart
