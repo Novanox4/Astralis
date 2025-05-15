@@ -45,15 +45,19 @@ drawer: {
 }
 reload: 3
 shootType: {
+  type: MultiBulletType
+  repeat: 5
+  bullets: [
   type: BasicBulletType
   damage: 0
+  inacurracy: 30
   backColor: f5d738
   frontColor: f5d738
   lifetime: 150
   sprite: circle-bullet
   speed: 5
-  width: 10
-  height: 10
+  width: 4
+  height: 4
   collides: false
   fragRandomSpread: 360
   fragVelocityMin: 1
@@ -63,12 +67,13 @@ shootType: {
   followAimSpeed: 999
   despawnSound: bolt
   trailLength: 12
-  homingPower: 0.2
+  trailColor: f5d738
+  homingPower: 0.05
   homingRange: 300
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 10
+    damage: 1
     length: 125
     lifetime: 20
     lineEffect: {
@@ -87,7 +92,9 @@ shootType: {
       useRotation: true
           }
         }
-      }
+      ]
+    }
+
 requirements: [
   item-crystalite/250
 ]
