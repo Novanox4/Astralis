@@ -57,8 +57,8 @@ shootType: {
   collide: false
   fragRandomSpread: 360
   fragVelocityMin: 1
-  fragOffsetMin: 0.35
-  fragOffsetMax: 1.25
+  fragOffsetMin: 2
+  fragOffsetMax: 5
   fragBullets: 8
   fragBullet: {
   type: BasicBulletType
