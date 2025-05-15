@@ -63,9 +63,9 @@ shootType: {
   fragOffsetMax: 0
   fragBullets: 1
   followAimSpeed: 30
-  rotateSpeed: -0.6
   fragBullet: {
     type: RailBulletType
+    followAimSpeed: 30
     damage: 95
     shootSound: bolt
     length: 125
