@@ -1,8 +1,8 @@
 type: PowerTurret
 name: Augur
-description: Shoots capsules that orbit around it, releasing a hitscan bullet at the cursor's position when it expires.
+description: Shoots fragmenting capsules that orbit around it, releasing bullets that further fragment into hitscans towards the cursor's location.
 category: turret
-minWarmup: 0
+minWarmup: 0.1
 warmupMaintainTime: 0
 squareSprite: false
 size: 2
@@ -21,6 +21,7 @@ drawer: {
     progress: warmup
     heatProgress: warmup
     under: true
+    y: 0.05
     }
     {
     type: RegionPart
@@ -29,6 +30,7 @@ drawer: {
     moveY: -1
     progress: warmup
     heatProgress: warmup
+    x: -0.05
     }
     {
     type: RegionPart
@@ -37,6 +39,7 @@ drawer: {
     moveY: -1
     progress: warmup
     heatProgress: warmup
+    x: 0.05
     }
   ]
 }
@@ -46,20 +49,33 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: d49d00
-  lifetime: 125
+  lifetime: 10
+  sprite: circle-bullet
+  speed: 5
+  width: 10
+  height: 10
+  collide: false
+  fragRandomSpread: 360
+  fragVelocityMin: 1
+  fragOffsetMin: 0.35
+  fragOffsetMax: 1.25
+  fragBullets: 1
+  fragBullet: {
+  type: BasicBulletType
+  damage: 0
+  backColor: f5d738
+  frontColor: d49d00
+  lifetime: 45
   lifeScaleRandMin: 0.8
   lifeScaleRandMax: 1.2
   width: 4
   height: 4
-  speed: 3
+  speed: 0.4
   sprite: large-orb
   collide: false
-  circleShooter: true
-  circleShooterRotateSpeed: 0.6
-  circleShooterRadius: 15
   fragRandomSpread: 0
   fragVelocityMin: 1
-  fragOffsetMax: 0
+  fragOffsetMin: 0
   fragOffsetMax: 0
   fragBullets: 1
   followAimSpeed: 999
@@ -87,6 +103,7 @@ shootType: {
           }
         }
       }
+    }
 requirements: [
   item-crystalite/250
 ]
