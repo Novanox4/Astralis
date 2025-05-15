@@ -52,7 +52,7 @@ shootType: {
   lifetime: 150
   sprite: circle-bullet
   speed: 5
-  width: 105
+  width: 10
   height: 10
   collides: false
   fragRandomSpread: 75
