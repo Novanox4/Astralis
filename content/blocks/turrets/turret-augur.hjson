@@ -1,9 +1,9 @@
 type: PowerTurret
 name: Augur
-description: Shoots capsules that orbit round it, releasing a hitscan bullet at the cursor's position when it expires.
+description: Shoots capsules that orbit around it, releasing a hitscan bullet at the cursor's position when it expires.
 category: turret
-minWarmup: 1
-warmupMaintainTime: 5
+minWarmup: 0
+warmupMaintainTime: 0
 squareSprite: false
 size: 2
 consumes: {
