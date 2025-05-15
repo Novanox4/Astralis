@@ -43,6 +43,7 @@ drawer: {
 reload: 50
 shootType: {
   type: BasicBulletType
+  damage: 0
   backColor: f5d738
   frontColor: d49d00
   lifetime: 400
