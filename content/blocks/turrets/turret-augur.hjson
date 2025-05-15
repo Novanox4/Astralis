@@ -74,9 +74,10 @@ shootType: {
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 6
+    damage: 4
     length: 150
     lifetime: 20
+    buildingDamageMultiplier: 0.3
     lineEffect: {
       type: ParticleEffect
       line: true
