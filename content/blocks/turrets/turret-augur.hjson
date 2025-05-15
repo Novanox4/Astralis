@@ -80,6 +80,7 @@ shootType: {
       cone: 0
       length: 1
       lifetime: 20
+      useRotation: false
           }
         }
       }
