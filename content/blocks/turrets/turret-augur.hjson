@@ -1,0 +1,80 @@
+type: PowerTurret
+name: Augur
+description: Shoots capsules that orbit round it, releasing a hitscan bullet at the cursor's position when it expires.
+category: turret
+minWarmup: 10
+warmupMaintainTime: 5
+squareSprite: false
+size: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -pointers
+    moveX: 0
+    moveY: -2
+    progress: warmup
+    heatProgress: warmup
+    }
+    {
+    type: RegionPart
+    suffix: -wing-right
+    moveX: 1
+    moveY: -1
+    progress: warmup
+    heatProgress: warmup
+    }
+    {
+    type: RegionPart
+    suffix: -wing-left
+    moveX: -1
+    moveY: -1
+    progress: warmup
+    heatProgress: warmup
+    }
+  ]
+}
+reload: 50
+shootType: {
+  type: BasicBulletType
+  backColor: f5d738
+  frontColor: d49d00
+  lifetime: 400
+  lifeScaleRandMin: 0.8
+  lifeScaleRandMax: 1.2
+  width: 4
+  height: 4
+  speed: 3
+  sprite: large-orb
+  collide: false
+  circleShooter: true
+  circleShooterRotateSpeed: 0.6
+  circleShooterRadius: 15
+  fragRandomSpread: 0
+  fragVelocityMin: 1
+  fragOffsetMax: 0
+  fragOffsetMax: 0
+  fragBullets: 1
+  fragBullet: {
+    type: RailBulletType
+    damage: 95
+    shootSound: bolt
+    length: 125
+    lineEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 7
+      strokeFrom: 1
+      strokeTo: 0
+      colorFrom: feffd8
+      colorTo: feffd8
+      lenFrom: 160
+      lenTo: 160
+      cone: 116
+      length: 1
+      lifetime: 20
+          }
+        }
+      }
