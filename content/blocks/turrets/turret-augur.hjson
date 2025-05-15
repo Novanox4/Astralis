@@ -7,7 +7,7 @@ warmupMaintainTime: 0
 squareSprite: false
 size: 2
 consumes: {
- power: 2
+ power: 5
    }
 drawer: {
   type: DrawTurret
@@ -40,13 +40,13 @@ drawer: {
     }
   ]
 }
-reload: 50
+reload: 25
 shootType: {
   type: BasicBulletType
   damage: 0
   backColor: f5d738
   frontColor: d49d00
-  lifetime: 400
+  lifetime: 250
   lifeScaleRandMin: 0.8
   lifeScaleRandMax: 1.2
   width: 4
@@ -70,14 +70,14 @@ shootType: {
     lineEffect: {
       type: ParticleEffect
       line: true
-      particles: 7
+      particles: 1
       strokeFrom: 1
       strokeTo: 0
       colorFrom: feffd8
       colorTo: feffd8
-      lenFrom: 160
-      lenTo: 160
-      cone: 116
+      lenFrom: 125
+      lenTo: 125
+      cone: 0
       length: 1
       lifetime: 20
           }
