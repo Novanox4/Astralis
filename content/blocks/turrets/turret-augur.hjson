@@ -48,39 +48,21 @@ shootType: {
   type: BasicBulletType
   damage: 0
   backColor: f5d738
-  frontColor: d49d00
-  lifetime: 1
+  frontColor: f5d738
+  lifetime: 300
   sprite: circle-bullet
-  speed: 5
+  speed: 15
   width: 5
   height: 10
-  collide: false
-  fragRandomSpread: 360
-  fragVelocityMin: 1
-  fragOffsetMin: 3
-  fragOffsetMax: 15
-  fragBullets: 10
-  fragBullet: {
-  type: BasicBulletType
-  damage: 0
-  backColor: f5d738
-  frontColor: d49d00
-  lifetime: 175
-  lifeScaleRandMin: 0.8
-  lifeScaleRandMax: 1.2
-  width: 4
-  height: 4
-  speed: 0.001
-  sprite: large-orb
-  collide: false
+  collides: false
   fragRandomSpread: 0
   fragVelocityMin: 1
   fragOffsetMin: 0
-  fragOffsetMax: 0
-  fragBullets: 1
+  fragOffsetMax: 0.3
+  fragBullets: 5
   followAimSpeed: 999
-  homingPower: 999
   despawnSound: bolt
+  trailLength: 12
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
