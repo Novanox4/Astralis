@@ -6,6 +6,7 @@ minWarmup: 0.1
 warmupMaintainTime: 0
 squareSprite: false
 size: 2
+shootSound: bolt
 consumes: {
  power: 5
    }
@@ -43,7 +44,7 @@ drawer: {
     }
   ]
 }
-reload: 3
+reload: 30
 shootType: {
   type: MultiBulletType
   repeat: 5
