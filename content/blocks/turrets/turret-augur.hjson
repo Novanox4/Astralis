@@ -7,6 +7,10 @@ warmupMaintainTime: 0
 squareSprite: false
 size: 2
 shootSound: bolt
+inaccuracy: 30
+shoot: {
+shots: 4
+}
 consumes: {
  power: 5
    }
@@ -46,13 +50,8 @@ drawer: {
 }
 reload: 30
 shootType: {
-  type: MultiBulletType
-  repeat: 5
-  bullets: [
-  {
   type: BasicBulletType
   damage: 0
-  inacurracy: 30
   backColor: f5d738
   frontColor: f5d738
   lifetime: 150
@@ -95,8 +94,6 @@ shootType: {
        }
       }
      }
-    ]  
-   }
 requirements: [
   item-crystalite/250
 ]
