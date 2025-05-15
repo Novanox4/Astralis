@@ -43,7 +43,7 @@ drawer: {
     }
   ]
 }
-reload: 15
+reload: 3
 shootType: {
   type: BasicBulletType
   damage: 0
@@ -55,7 +55,7 @@ shootType: {
   width: 10
   height: 10
   collides: false
-  fragRandomSpread: 75
+  fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
   fragOffsetMax: 0.3
@@ -63,12 +63,12 @@ shootType: {
   followAimSpeed: 999
   despawnSound: bolt
   trailLength: 12
-  homingPower: 1.2
-  homingRange: 150
+  homingPower: 0.2
+  homingRange: 300
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 95
+    damage: 10
     length: 125
     lifetime: 20
     lineEffect: {
