@@ -70,7 +70,7 @@ shootType: {
   lifeScaleRandMax: 1.2
   width: 4
   height: 4
-  speed: 0.1
+  speed: 0.001
   sprite: large-orb
   collide: false
   fragRandomSpread: 0
@@ -80,11 +80,11 @@ shootType: {
   fragBullets: 1
   followAimSpeed: 999
   homingPower: 999
+  despawnSound: bolt
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
     damage: 95
-    shootSound: bolt
     length: 125
     lifetime: 20
     lineEffect: {
