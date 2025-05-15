@@ -83,7 +83,7 @@ shootType: {
       cone: 0
       length: 1
       lifetime: 35
-      useRotation: false
+      useRotation: true
           }
         }
       }
