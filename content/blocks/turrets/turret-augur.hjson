@@ -47,6 +47,7 @@ drawer: {
 reload: 30
 shootType: {
   type: MultiBulletType
+  repeat: 5
   bullets: [
   {
   type: BasicBulletType
@@ -95,7 +96,6 @@ shootType: {
       }
      }
     ]  
-     repeat: 5
    }
 requirements: [
   item-crystalite/250
