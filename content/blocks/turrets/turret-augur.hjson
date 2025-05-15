@@ -91,6 +91,7 @@ shootType: {
       length: 1
       lifetime: 35
       useRotation: true
+            }
           }
         }
       ]
