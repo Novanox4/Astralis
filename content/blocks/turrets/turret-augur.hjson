@@ -78,3 +78,6 @@ shootType: {
           }
         }
       }
+requirements: [
+  item-crystalite/250
+]
