@@ -71,7 +71,8 @@ shootType: {
   homingPower: 0.225
   homingRange: 300
   sticky: true
-  stickyExtraLifetime: 10
+  stickyExtraLifetime: -10
+  collidesTiles: false
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
