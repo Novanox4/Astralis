@@ -66,6 +66,7 @@ shootType: {
   fragBullets: 7
   followAimSpeed: 999
   despawnSound: shotgun
+  hitSound: shotgun
   trailLength: 15
   trailColor: f5d738
   homingPower: 0.225
