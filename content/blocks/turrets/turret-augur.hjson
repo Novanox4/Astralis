@@ -8,6 +8,7 @@ squareSprite: false
 size: 2
 shootSound: bolt
 inaccuracy: 30
+health: 400
 shoot: {
 shots: 4
 }
