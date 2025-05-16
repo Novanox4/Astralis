@@ -48,7 +48,7 @@ drawer: {
     }
   ]
 }
-reload: 30
+reload: 45
 shootType: {
   type: BasicBulletType
   damage: 0
@@ -62,17 +62,14 @@ shootType: {
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
-  fragOffsetMax: 0.3
-  fragBullets: 8
+  fragOffsetMax: 0
+  fragBullets: 7
   followAimSpeed: 999
-  despawnSound: bolt
+  despawnSound: shotgun
   trailLength: 15
   trailColor: f5d738
   homingPower: 0.225
   homingRange: 300
-  sticky: true
-  stickyExtraLifetime: -10
-  collidesTiles: false
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
