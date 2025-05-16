@@ -3,8 +3,8 @@ explosiveness: 75
 flammability: 0
 radioactivity: 1.35
 charge: 0
-cost: 1.15
-hardness: 0.9
+cost: 1.25
+hardness: 1.45
 hiddenOnPlanets: [erekir, serpulo]
 name: Uranium
 description: Highly radioactive material, tough, and explosive.
