@@ -3,6 +3,7 @@ range: 250
 reload: 95
 category: turret
 name: Burn
+health: 650
 shootY: 0
 description: Fires long range incendiary bolts that burn targets. Less effective against multiple units. Can be boosted using water.
 shoot: {
