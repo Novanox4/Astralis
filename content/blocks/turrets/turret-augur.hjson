@@ -54,12 +54,11 @@ shootType: {
   damage: 0
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 75
+  lifetime: 70
   sprite: circle-bullet
-  speed: 4.5
+  speed: 425.5
   width: 4
   height: 4
-  collides: false
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
@@ -71,10 +70,12 @@ shootType: {
   trailColor: f5d738
   homingPower: 0.225
   homingRange: 300
+  sticky: true
+  stickyExtraLifetime: -15
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 4
+    damage: 3.5
     length: 150
     lifetime: 20
     buildingDamageMultiplier: 0.3
