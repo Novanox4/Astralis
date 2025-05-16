@@ -3,7 +3,8 @@ name: Slice
 description: Fires homing missles at ground units.
 size: 2
 reload: 145
-shootSound: shootSmokeMissleColor
+health: 650
+shootSound: shootSmokeMissileColor
 shoot: {
   type: ShootBarrel
   barrels: 2
