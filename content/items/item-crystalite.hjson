@@ -3,8 +3,8 @@ explosiveness: 0
 flammability: 0
 radioactivity: 0
 charge: 0.25
-cost: 0.90
-hardness: 0.8
+cost: 1
+hardness: 1.2
 hiddenOnPlanets: [erekir, serpulo]
 name: Crystalite
 description: A crystal compound found on Astralis. Cheap, common, easy to use. Necessary for any base's survival. 
