@@ -10,5 +10,5 @@ researchCost:  [
 research: core-fort
 category: defense
 description: "Small, simple wall that provides cover from enemy attacks."
-health: 720
+health: 360
 albedo: 0.5
