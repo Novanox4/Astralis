@@ -1,8 +1,8 @@
 type: PowerTurret
 name: Augur
-description: Shoots fragmenting capsules that orbit around it, releasing bullets that further fragment into hitscans towards nearby enemies.
+description: Shoots explosive, homing bullets that fragment into lasers.
 category: turret
-minWarmup: 0.25
+minWarmup: 0.1
 warmupMaintainTime: 0
 squareSprite: false
 size: 2
@@ -56,7 +56,7 @@ shootType: {
   frontColor: f5d738
   lifetime: 70
   sprite: circle-bullet
-  speed: 425.5
+  speed: 4
   width: 4
   height: 4
   fragRandomSpread: 360
