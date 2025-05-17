@@ -2,13 +2,14 @@ type: ItemTurret
 name: Reverberate
 description: Shoots a chaotically ricocheting bullet. Behavior varies from ammo type to ammo type. Requires water, and is cooled using nitrogen gas.
 categoy: turret
-range: 350
+range: 450
 size: 3
 squareSprite: false
 shootSound: mediumCannon
-reload: 350
+reload: 650
 health: 2800
-inaccuracy: 7.5
+inaccuracy: 5
+minWarmup: 1.5
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -20,8 +21,13 @@ drawer: {
     moveY: 1
     progress: warmup
     heatProgress: warmup
-    under: true
     y: -0.075
+    }
+    {
+  suffix: -barrel
+  progress: recoil
+  heatProgress: warmup
+  moveY: -2.25
     }
   ]
 }
