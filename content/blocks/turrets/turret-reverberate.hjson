@@ -93,7 +93,7 @@ ammoTypes: {
 }
 coolant: {
 type: ConsumeLiquid
-liquid: nitrogen/1
+liquid: nitrogen
 amount: 2
 }
 
