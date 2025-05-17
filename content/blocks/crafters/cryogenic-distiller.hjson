@@ -9,15 +9,7 @@ outputLiquid: nitrogen/0.2
 heatRequirement: 8
 maxEfficiency: 2.5
 craftTime: 60
-updateEffect: {
-  type: RadialEffect
-  amount: 4
-  effect: ParticleEffect: {
-    colorFrom: d4f0ff
-    colorTo: d4f0ff
-    particles: 1
-  }
-}
+updateEffect: none
 requirements: [
   item-crystalite/120
   metaglass/75
@@ -35,6 +27,16 @@ drawer: {
     }
     {
     type: DrawDefault
+    }
+    {
+    type: DrawParticles
+    sides: 30
+    color: d4f0ff
+    particleRad: 7
+    particles: 8
+    particleLife: 10
+    alpha: 0.6
+    particleSize: 3.5
     }
   ]
 }
