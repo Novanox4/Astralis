@@ -96,4 +96,4 @@ type: ConsumeLiquid
 liquid: nitrogen
 amount: 2
 }
-
+coolantMultiplier: 1.75
