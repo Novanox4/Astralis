@@ -1,0 +1,25 @@
+type: HeatCrafter
+name: Cryogenic Distiller
+description: Separates nitrogen from the atmosphere using temperature differences.
+consumes: {
+  power: 2.25
+    }
+size: 2
+outputLiquid: nitrogen
+heatRequirement: 8
+maxEfficiency: 2.5
+craftTime: 60
+updateEffect: steamCoolSmoke
+requirements: [
+  item-crystalite/120
+  metaglass/75
+  item-uranium/100
+  ]
+researchCostMultiplier: 8.5
+research: crystal-kiln
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+]
