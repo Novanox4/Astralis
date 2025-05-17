@@ -208,3 +208,8 @@ liquid: nitrogen
 amount: 2
 }
 coolantMultiplier: 2.25
+requirements: [
+  item-crystalite/350
+  item-silver/200
+  item-uranium/300
+]
