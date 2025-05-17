@@ -9,7 +9,7 @@ outputLiquid: nitrogen/0.2
 heatRequirement: 8
 maxEfficiency: 2.5
 craftTime: 60
-updateEffect: formsmoke
+updateEffect: ventSteam
 requirements: [
   item-crystalite/120
   metaglass/75
