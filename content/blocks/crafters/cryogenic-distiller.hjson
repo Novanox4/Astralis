@@ -19,3 +19,8 @@ researchCostMultiplier: 8.5
 research: crystal-kiln
 category: crafting
 squareSprite: false
+drawer: [
+  {
+  type: DrawHeatInput
+  }
+]
