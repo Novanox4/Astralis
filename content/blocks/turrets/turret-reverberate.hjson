@@ -38,7 +38,7 @@ ammoTypes: {
     width: 6
     height: 6
     trailLength: 12
-    trailWidth: 6
+    trailWidth: 3
     trailColor: 38a6c9
     fragRandomSpread: 60
     fragVelocityMin: 1
@@ -50,13 +50,13 @@ ammoTypes: {
     sprite: circle-bullet
     damage: 70
     speed: 5
-    lifetime: 45
+    lifetime: 20
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
     height: 6
     trailLength: 12
-    trailWidth: 6
+    trailWidth: 3
     trailColor: 38a6c9
     fragRandomSpread: 60
     fragVelocityMin: 1
@@ -68,13 +68,13 @@ ammoTypes: {
     sprite: circle-bullet
     damage: 60
     speed: 5
-    lifetime: 45
+    lifetime: 20
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
     height: 6
     trailLength: 12
-    trailWidth: 6
+    trailWidth: 3
     trailColor: 38a6c9
     fragRandomSpread: 60
     fragVelocityMin: 1
@@ -86,13 +86,13 @@ ammoTypes: {
     sprite: circle-bullet
     damage: 50
     speed: 5
-    lifetime: 45
+    lifetime: 20
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
     height: 6
     trailLength: 12
-    trailWidth: 6
+    trailWidth: 3
     trailColor: 38a6c9
     fragRandomSpread: 60
     fragVelocityMin: 1
@@ -104,13 +104,13 @@ ammoTypes: {
     sprite: circle-bullet
     damage: 40
     speed: 5
-    lifetime: 45
+    lifetime: 20
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
     height: 6
     trailLength: 12
-    trailWidth: 6
+    trailWidth: 3
     trailColor: 38a6c9
     fragRandomSpread: 60
     fragVelocityMin: 1
