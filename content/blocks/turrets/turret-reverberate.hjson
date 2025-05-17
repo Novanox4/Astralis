@@ -31,12 +31,12 @@ drawer: {
     }
   ]
 }
-rotateSpeed: 3.5
+rotateSpeed: 2.25
 ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
     sprite: circle-bullet
-    damage: 80
+    damage: 150
     speed: 5
     lifetime: 45
     backColor: 38a6c9
@@ -54,9 +54,9 @@ ammoTypes: {
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
-    damage: 70
+    damage: 140
     speed: 5
-    lifetime: 20
+    lifetime: 30
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
@@ -72,9 +72,9 @@ ammoTypes: {
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
-    damage: 60
+    damage: 130
     speed: 5
-    lifetime: 20
+    lifetime: 25
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
@@ -96,4 +96,4 @@ type: ConsumeLiquid
 liquid: nitrogen
 amount: 2
 }
-coolantMultiplier: 1.75
+coolantMultiplier: 2.25
