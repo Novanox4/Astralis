@@ -20,7 +20,13 @@ research: crystal-kiln
 category: crafting
 squareSprite: false
 drawer: [
-  {
-  type: DrawHeatInput
-  }
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawHeatInput
+    }
+    {
+    type: DrawDefault
+    }
+  ]
 ]
