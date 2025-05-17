@@ -17,3 +17,4 @@ requirements: [
   ]
 researchCostMultiplier: 8.5
 research: crystal-kiln
+category: crafting
