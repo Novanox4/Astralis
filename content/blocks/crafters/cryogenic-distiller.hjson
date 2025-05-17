@@ -5,8 +5,7 @@ consumes: {
   power: 2.25
     }
 size: 2
-outputLiquid: nitrogen/1
-
+outputLiquid: nitrogen/0.2
 heatRequirement: 8
 maxEfficiency: 2.5
 craftTime: 60
