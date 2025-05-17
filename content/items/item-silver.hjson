@@ -1,0 +1,10 @@
+color: e0e5dd
+name: Silver
+description: Somewhat rare ore found on Astralis. Has many applications in buildings and creating new materials.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 1.3
+hardness: 1.3
+research: item-crystalite
