@@ -19,7 +19,7 @@ researchCostMultiplier: 8.5
 research: crystal-kiln
 category: crafting
 squareSprite: false
-drawer: [
+drawer: {
   type: DrawMulti
   drawers: [
     {
@@ -29,4 +29,4 @@ drawer: [
     type: DrawDefault
     }
   ]
-]
+}
