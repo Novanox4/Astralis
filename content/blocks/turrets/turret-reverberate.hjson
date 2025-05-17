@@ -9,7 +9,7 @@ shootSound: mediumCannon
 reload: 650
 health: 2800
 inaccuracy: 5
-minWarmup: 1.5
+minWarmup: 0.25
 drawer: {
   type: DrawTurret
   basePrefix: astral-
