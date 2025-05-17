@@ -9,6 +9,6 @@ researchCost: [
   item-crystalite/125
   metaglass/50
   ]
-timerFlow: 0
-liquidPressure: 1.25
+timerFlow: 1.2
+liquidPressure: 1.35
 category: liquid
