@@ -18,7 +18,7 @@ drawer: {
     type: RegionPart
     suffix: -pointers
     moveX: 0
-    moveY: 0.75
+    moveY: 0.6
     progress: warmup
     heatProgress: warmup
     y: -0.075
@@ -27,7 +27,7 @@ drawer: {
   suffix: -barrel
   progress: recoil
   heatProgress: warmup
-  moveY: -1.75
+  moveY: -1.25
     }
   ]
 }
