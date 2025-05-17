@@ -91,5 +91,9 @@ ammoTypes: {
   }
 }
 }
-
+coolant: {
+type: ConsumeLiquid
+liquid: nitrogen/1
+amount: 2
+}
 
