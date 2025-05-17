@@ -18,9 +18,3 @@ requirements: [
   ]
 researchCostMultiplier: 8.5
 research: crystal-kiln
-drawer: [
-  {
-  type: DrawRegion
-  suffix: -bottom
-  }
-]
