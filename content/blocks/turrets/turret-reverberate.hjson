@@ -9,7 +9,7 @@ shootSound: mediumCannon
 reload: 650
 health: 2800
 inaccuracy: 5
-minWarmup: 0.25
+minWarmup: 0.4
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -18,7 +18,7 @@ drawer: {
     type: RegionPart
     suffix: -pointers
     moveX: 0
-    moveY: 1
+    moveY: 0.75
     progress: warmup
     heatProgress: warmup
     y: -0.075
@@ -27,7 +27,7 @@ drawer: {
   suffix: -barrel
   progress: recoil
   heatProgress: warmup
-  moveY: -2.25
+  moveY: -1.75
     }
   ]
 }
@@ -87,46 +87,9 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
-    fragBullet: {
-    type: BasicBulletType
-    sprite: circle-bullet
-    damage: 50
-    speed: 5
-    lifetime: 20
-    backColor: 38a6c9
-    frontColor: 38a6c9
-    width: 6
-    height: 6
-    trailLength: 12
-    trailWidth: 3
-    trailColor: 38a6c9
-    fragRandomSpread: 60
-    fragVelocityMin: 1
-    fragOffsetMin: 0
-    fragOffsetMax: 0
-    fragBullets: 1
-    fragBullet: {
-    type: BasicBulletType
-    sprite: circle-bullet
-    damage: 40
-    speed: 5
-    lifetime: 20
-    backColor: 38a6c9
-    frontColor: 38a6c9
-    width: 6
-    height: 6
-    trailLength: 12
-    trailWidth: 3
-    trailColor: 38a6c9
-    fragRandomSpread: 60
-    fragVelocityMin: 1
-    fragOffsetMin: 0
-    fragOffsetMax: 0
-    fragBullets: 1
-      }
     }
   }
 }
 }
 
-}
+
