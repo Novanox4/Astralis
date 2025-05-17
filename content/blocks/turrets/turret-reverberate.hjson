@@ -111,6 +111,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 2
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
     damage: 100
@@ -131,9 +132,10 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 2
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 100
+    damage: 50
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
@@ -151,11 +153,12 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 2
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 100
+    damage: 25
     pierce: true
-    pierceCap: 5
+    pierceCap: 1
     reloadMultiplier: 0.9
     speed: 6
     lifetime: 5
@@ -171,9 +174,10 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 2
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 90
+    damage: 12.5
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
@@ -191,6 +195,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 2
+    fragOnHit: false
           }
         }
       }
