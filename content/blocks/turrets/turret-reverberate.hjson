@@ -38,6 +38,7 @@ ammoTypes: {
     sprite: circle-bullet
     damage: 150
     speed: 5
+    reloadMultiplier: 1.25
     lifetime: 45
     backColor: 38a6c9
     frontColor: 38a6c9
@@ -90,6 +91,90 @@ ammoTypes: {
     }
   }
 }
+  metaglass: {
+    type: BasicBulletType
+    damage: 100
+    pierce: true
+    pierceCap: 5
+    reloadMultiplier: 0.9
+    speed: 6
+    lifetime: 30
+    backColor: e0e5dd
+    frontColor: e0e5dd
+    width: 5
+    height: 4
+    trailLength: 10
+    trailWidth: 2
+    trailColor: e0e5dd
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 2
+    fragBullet: {
+    type: BasicBulletType
+    damage: 100
+    pierce: true
+    pierceCap: 5
+    reloadMultiplier: 0.9
+    speed: 6
+    lifetime: 20
+    backColor: e0e5dd
+    frontColor: e0e5dd
+    width: 5
+    height: 4
+    trailLength: 10
+    trailWidth: 2
+    trailColor: e0e5dd
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 2
+    fragBullet: {
+    type: BasicBulletType
+    damage: 100
+    pierce: true
+    pierceCap: 5
+    reloadMultiplier: 0.9
+    speed: 6
+    lifetime: 10
+    backColor: e0e5dd
+    frontColor: e0e5dd
+    width: 5
+    height: 4
+    trailLength: 10
+    trailWidth: 2
+    trailColor: e0e5dd
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 2
+    fragBullet: {
+    type: BasicBulletType
+    damage: 100
+    pierce: true
+    pierceCap: 5
+    reloadMultiplier: 0.9
+    speed: 6
+    lifetime: 10
+    backColor: e0e5dd
+    frontColor: e0e5dd
+    width: 5
+    height: 4
+    trailLength: 10
+    trailWidth: 2
+    trailColor: e0e5dd
+    fragRandomSpread: 30
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 2
+        }
+      }
+    }
+  }
 }
 coolant: {
 type: ConsumeLiquid
