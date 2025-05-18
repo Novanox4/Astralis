@@ -52,6 +52,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
+    lightningBullet: LightningBulletType
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
