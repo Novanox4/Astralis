@@ -228,12 +228,12 @@ ammoTypes: {
     damage: 0
     collides: false
     speed: 6
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.85
     rangeMultiplier: 0.80
     lifetime: 40
     backColor: b08203
     frontColor: ffffff
-    width: 10
+    width: 15
     height: 15
     trailLength: 12
     trailWidth: 3
