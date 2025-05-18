@@ -239,6 +239,7 @@ ammoTypes: {
     trailLength: 12
     trailWidth: 3
     trailColor: b08203
+    hitColor: b08203
     splashDamage: 145
     scaledSplashDamage: true
     splashDamageRadius: 30
@@ -251,7 +252,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
-    lightRadius: 5  
+    lightRadius: 2
     lightColor: b08203
   }
 }
