@@ -223,6 +223,34 @@ ammoTypes: {
       }
     }
   }
+  item-silver-fulminate: {
+    type: BasicBulletType
+    sprite: circle-bullet
+    damage: 0
+    collides: false
+    speed: 6
+    reloadMultiplier: 1.35
+    rangeMultiplier: 0.80
+    lifetime: 50
+    backColor: b08203
+    frontColor: b08203
+    width: 6
+    height: 6
+    trailLength: 12
+    trailWidth: 3
+    trailColor: b08203
+    splashDamage: 145
+    scaledSplashDamage: true
+    splashDamageRadius: 30
+    splashDamagePierce: true
+    despawnSound: titanExplosion
+    despawnEffect: explosion
+    fragRandomSpread: 105
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1.2
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 1
 }
 coolant: {
 type: ConsumeLiquid
