@@ -53,6 +53,10 @@ ammoTypes: {
     fragOffsetMax: 0
     fragBullets: 1
     lightningBullet: LightningBulletType
+    lightning: 2
+    lightningDamage: 30
+    lightningLength: 8.5
+    lightningColor: 38a6c9
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
