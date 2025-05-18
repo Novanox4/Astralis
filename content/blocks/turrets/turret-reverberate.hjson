@@ -251,6 +251,8 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
+    lightRadius: 5  
+    lightColor: b08203
   }
 }
 coolant: {
