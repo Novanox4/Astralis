@@ -6,7 +6,7 @@ range: 450
 size: 3
 squareSprite: false
 shootSound: mediumCannon
-reload: 650
+reload: 575
 health: 2800
 minWarmup: 0.4
 drawer: {
@@ -228,6 +228,12 @@ coolant: {
 type: ConsumeLiquid
 liquid: nitrogen
 amount: 0.65
+consumes: {
+  liquids: [
+  water/0.33
+  optional: false
+  coolant: false
+  ]
 }
 coolantMultiplier: 2.25
 requirements: [
