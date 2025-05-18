@@ -254,8 +254,8 @@ ammoTypes: {
     lightRadius: 25
     lightColor: b08203
     scaleLife: true
-    shrinkX: 1
-    shrinkY: 1
+    shrinkX: 0
+    shrinkY: 0
   }
 }
 coolant: {
