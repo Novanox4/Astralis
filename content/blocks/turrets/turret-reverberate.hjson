@@ -233,8 +233,8 @@ ammoTypes: {
     lifetime: 40
     backColor: b08203
     frontColor: ffffff
-    width: 6
-    height: 6
+    width: 10
+    height: 15
     trailLength: 12
     trailWidth: 3
     trailColor: b08203
@@ -254,6 +254,8 @@ ammoTypes: {
     lightRadius: 25
     lightColor: b08203
     scaleLife: true
+    shrinkX: 1
+    shrinkY: 1
   }
 }
 coolant: {
