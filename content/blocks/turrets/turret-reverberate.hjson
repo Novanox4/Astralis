@@ -229,9 +229,9 @@ ammoTypes: {
     damage: 0
     collides: false
     speed: 6
-    reloadMultiplier: 1.35
+    reloadMultiplier: 0.75
     rangeMultiplier: 0.80
-    lifetime: 50
+    lifetime: 40
     backColor: b08203
     frontColor: b08203
     width: 6
@@ -244,7 +244,7 @@ ammoTypes: {
     splashDamageRadius: 30
     splashDamagePierce: true
     despawnSound: titanExplosion
-    despawnEffect: titanExplosion
+    despawnEffect: titanSmoke
     fragRandomSpread: 105
     fragVelocityMin: 0.95
     fragVelocityMax: 1.2
