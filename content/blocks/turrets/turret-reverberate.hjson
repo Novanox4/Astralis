@@ -61,7 +61,7 @@ ammoTypes: {
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
-    damage: 140
+    damage: 125
     speed: 5
     lifetime: 30
     backColor: 38a6c9
@@ -77,15 +77,15 @@ ammoTypes: {
     fragOffsetMax: 0
     fragBullets: 1
     lightningBullet: LightningBulletType
-    lightning: 5
-    lightningDamage: 30
+    lightning: 4
+    lightningDamage: 20
     lightningLength: 8.5
     lightningColor: 38a6c9
     fragOnHit: false
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
-    damage: 130
+    damage: 100
     speed: 5
     lifetime: 25
     backColor: 38a6c9
@@ -101,8 +101,8 @@ ammoTypes: {
     fragOffsetMax: 0
     fragBullets: 1
     lightningBullet: LightningBulletType
-    lightning: 5
-    lightningDamage: 30
+    lightning: 3
+    lightningDamage: 10
     lightningLength: 8.5
     lightningColor: 38a6c9
     }
@@ -131,7 +131,7 @@ ammoTypes: {
     fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 100
+    damage: 75
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
