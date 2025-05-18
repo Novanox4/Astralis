@@ -228,6 +228,7 @@ coolant: {
 type: ConsumeLiquid
 liquid: nitrogen
 amount: 0.65
+}
 consumes: {
   liquids: [
   water/0.33
