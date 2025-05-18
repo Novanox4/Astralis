@@ -225,7 +225,6 @@ ammoTypes: {
   }
   item-silver-fulminate: {
     type: BasicBulletType
-    sprite: circle-bullet
     damage: 0
     collides: false
     speed: 6
