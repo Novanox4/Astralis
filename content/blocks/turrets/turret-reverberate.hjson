@@ -251,6 +251,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
+  }
 }
 coolant: {
 type: ConsumeLiquid
