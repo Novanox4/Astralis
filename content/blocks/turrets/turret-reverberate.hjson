@@ -246,16 +246,7 @@ ammoTypes: {
     despawnSound: titanExplosion
     despawnEffect: {
       type: MultiEffect
-      effects: [
-      {
-      type: Effect
-      effect: titanSmoke
-      }
-      {
-      type: Effect
-      effect: titanExplosion
-      }
-    ]
+      effects: [titanExplosion, titanSmoke]
   }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
@@ -291,16 +282,7 @@ ammoTypes: {
     despawnSound: titanExplosion
     despawnEffect: {
       type: MultiEffect
-      effects: [
-      {
-      type: Effect
-      effect: titanSmoke
-      }
-      {
-      type: Effect
-      effect: titanExplosion
-      }
-    ]
+      effects: [titanExplosion, titanSmoke]
   }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
@@ -336,16 +318,7 @@ ammoTypes: {
     despawnSound: titanExplosion
     despawnEffect: {
       type: MultiEffect
-      effects: [
-      {
-      type: Effect
-      effect: titanSmoke
-      }
-      {
-      type: Effect
-      effect: titanExplosion
-      }
-    ]
+      effects: [titanExplosion, titanSmoke]
   }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
@@ -381,16 +354,7 @@ ammoTypes: {
     despawnSound: titanExplosion
     despawnEffect: {
       type: MultiEffect
-      effects: [
-      {
-      type: Effect
-      effect: titanSmoke
-      }
-      {
-      type: Effect
-      effect: titanExplosion
-      }
-    ]
+      effects: [titanExplosion, titanSmoke]
   }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
@@ -426,16 +390,7 @@ ammoTypes: {
     despawnSound: titanExplosion
     despawnEffect: {
       type: MultiEffect
-      effects: [
-      {
-      type: Effect
-      effect: titanSmoke
-      }
-      {
-      type: Effect
-      effect: titanExplosion
-      }
-    ]
+      effects: [titanExplosion, titanSmoke]
   }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
