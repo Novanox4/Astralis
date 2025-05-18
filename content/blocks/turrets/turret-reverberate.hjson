@@ -244,7 +244,19 @@ ammoTypes: {
     splashDamageRadius: 30
     splashDamagePierce: true
     despawnSound: titanExplosion
-    despawnEffect: titanSmoke
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: Effect
+      effect: titanSmoke
+      }
+      {
+      type: Effect
+      effect: titanExplosion
+      }
+    ]
+  }
     fragRandomSpread: 105
     fragVelocityMin: 0.95
     fragVelocityMax: 1.2
@@ -256,6 +268,190 @@ ammoTypes: {
     scaleLife: true
     shrinkX: 0
     shrinkY: 0
+    fragBullet: {
+    type: BasicBulletType
+    damage: 0
+    collides: false
+    speed: 6
+    reloadMultiplier: 0.85
+    rangeMultiplier: 0.80
+    lifetime: 5
+    backColor: b08203
+    frontColor: ffffff
+    width: 15
+    height: 15
+    trailLength: 12
+    trailWidth: 3
+    trailColor: b08203
+    hitColor: b08203
+    splashDamage: 60
+    scaledSplashDamage: true
+    splashDamageRadius: 30
+    splashDamagePierce: true
+    despawnSound: titanExplosion
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: Effect
+      effect: titanSmoke
+      }
+      {
+      type: Effect
+      effect: titanExplosion
+      }
+    ]
+  }
+    fragRandomSpread: 105
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1.2
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 1
+    lightRadius: 25
+    lightColor: b08203
+    scaleLife: true
+    shrinkX: 0
+    shrinkY: 0
+    fragBullet: {
+    type: BasicBulletType
+    damage: 0
+    collides: false
+    speed: 6
+    reloadMultiplier: 0.85
+    rangeMultiplier: 0.80
+    lifetime: 5
+    backColor: b08203
+    frontColor: ffffff
+    width: 15
+    height: 15
+    trailLength: 12
+    trailWidth: 3
+    trailColor: b08203
+    hitColor: b08203
+    splashDamage: 50
+    scaledSplashDamage: true
+    splashDamageRadius: 30
+    splashDamagePierce: true
+    despawnSound: titanExplosion
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: Effect
+      effect: titanSmoke
+      }
+      {
+      type: Effect
+      effect: titanExplosion
+      }
+    ]
+  }
+    fragRandomSpread: 105
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1.2
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 1
+    lightRadius: 25
+    lightColor: b08203
+    scaleLife: true
+    shrinkX: 0
+    shrinkY: 0
+    fragBullet: {
+    type: BasicBulletType
+    damage: 0
+    collides: false
+    speed: 6
+    reloadMultiplier: 0.85
+    rangeMultiplier: 0.80
+    lifetime: 5
+    backColor: b08203
+    frontColor: ffffff
+    width: 15
+    height: 15
+    trailLength: 12
+    trailWidth: 3
+    trailColor: b08203
+    hitColor: b08203
+    splashDamage: 40
+    scaledSplashDamage: true
+    splashDamageRadius: 30
+    splashDamagePierce: true
+    despawnSound: titanExplosion
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: Effect
+      effect: titanSmoke
+      }
+      {
+      type: Effect
+      effect: titanExplosion
+      }
+    ]
+  }
+    fragRandomSpread: 105
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1.2
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 1
+    lightRadius: 25
+    lightColor: b08203
+    scaleLife: true
+    shrinkX: 0
+    shrinkY: 0
+    fragBullet: {
+    type: BasicBulletType
+    damage: 0
+    collides: false
+    speed: 6
+    reloadMultiplier: 0.85
+    rangeMultiplier: 0.80
+    lifetime: 5
+    backColor: b08203
+    frontColor: ffffff
+    width: 15
+    height: 15
+    trailLength: 12
+    trailWidth: 3
+    trailColor: b08203
+    hitColor: b08203
+    splashDamage: 30
+    scaledSplashDamage: true
+    splashDamageRadius: 30
+    splashDamagePierce: true
+    despawnSound: titanExplosion
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: Effect
+      effect: titanSmoke
+      }
+      {
+      type: Effect
+      effect: titanExplosion
+      }
+    ]
+  }
+    fragRandomSpread: 105
+    fragVelocityMin: 0.95
+    fragVelocityMax: 1.2
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullets: 1
+    lightRadius: 25
+    lightColor: b08203
+    scaleLife: true
+    shrinkX: 0
+    shrinkY: 0
+          }
+        }
+      }
+    }
   }
 }
 coolant: {
