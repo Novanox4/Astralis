@@ -233,7 +233,7 @@ ammoTypes: {
     rangeMultiplier: 0.80
     lifetime: 40
     backColor: b08203
-    frontColor: b08203
+    frontColor: ffffff
     width: 6
     height: 6
     trailLength: 12
@@ -254,6 +254,7 @@ ammoTypes: {
     fragBullets: 1
     lightRadius: 25
     lightColor: b08203
+    scaleLife: true
   }
 }
 coolant: {
