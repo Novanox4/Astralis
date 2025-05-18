@@ -8,7 +8,6 @@ squareSprite: false
 shootSound: mediumCannon
 reload: 650
 health: 2800
-inaccuracy: 5
 minWarmup: 0.4
 drawer: {
   type: DrawTurret
