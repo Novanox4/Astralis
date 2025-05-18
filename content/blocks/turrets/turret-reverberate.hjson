@@ -252,7 +252,7 @@ ammoTypes: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullets: 1
-    lightRadius: 2
+    lightRadius: 25
     lightColor: b08203
   }
 }
