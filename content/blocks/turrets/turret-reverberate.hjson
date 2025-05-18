@@ -57,6 +57,8 @@ ammoTypes: {
     lightningLength: 8.5
     lightningColor: 38a6c9
     fragOnHit: false
+    pierce: true
+    pierceCap: 2
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
@@ -81,6 +83,8 @@ ammoTypes: {
     lightningLength: 8.5
     lightningColor: 38a6c9
     fragOnHit: false
+    pierce: true
+    pierceCap: 2
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
@@ -104,6 +108,8 @@ ammoTypes: {
     lightningDamage: 10
     lightningLength: 8.5
     lightningColor: 38a6c9
+    pierce: true
+    pierceCap: 2
     }
   }
 }
