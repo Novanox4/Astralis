@@ -232,7 +232,6 @@ amount: 0.65
 consumes: {
   liquids: [
   water/0.33
-  coolant: false
   ]
 }
 coolantMultiplier: 2.25
