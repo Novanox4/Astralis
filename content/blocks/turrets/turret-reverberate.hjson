@@ -57,6 +57,7 @@ ammoTypes: {
     lightningDamage: 30
     lightningLength: 8.5
     lightningColor: 38a6c9
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
@@ -80,6 +81,7 @@ ammoTypes: {
     lightningDamage: 30
     lightningLength: 8.5
     lightningColor: 38a6c9
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
     sprite: circle-bullet
