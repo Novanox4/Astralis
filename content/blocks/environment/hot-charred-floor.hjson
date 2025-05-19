@@ -1,0 +1,6 @@
+type: floor
+name: Hot Charred Floor
+attributes: {
+  heat: 0.125
+    }
+blendGroup: charred-floor
