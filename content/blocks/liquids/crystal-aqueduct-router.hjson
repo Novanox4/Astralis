@@ -1,0 +1,13 @@
+type: LiquidRouter
+name: Crystal Aqueduct Router
+description: Splits fluids and gasses equally into 3 directions.
+requirements: [
+  item-crystalite/2
+  metaglass/2
+  ]
+researchCost: [
+  item-crystalite/150
+  metaglass/60
+  ]
+category: liquid
+research: crystal-aqueduct
