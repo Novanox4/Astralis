@@ -29,4 +29,4 @@ drawer: {
   ]
 }
 size: 2
-rotate: true
+rotates: true
