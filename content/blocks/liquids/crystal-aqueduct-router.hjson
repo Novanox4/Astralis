@@ -11,3 +11,4 @@ researchCost: [
   ]
 category: liquid
 research: crystal-aqueduct
+squareSprite: false
