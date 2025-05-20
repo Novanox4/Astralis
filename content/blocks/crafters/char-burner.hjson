@@ -1,6 +1,6 @@
 type: HeatProducer
 consumes: {
-  item: [
+  items: [
     item-charchunk/1
   ]
   power: 0.1
