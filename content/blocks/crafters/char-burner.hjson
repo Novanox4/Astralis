@@ -21,9 +21,7 @@ drawer: {
     type: DrawDefault
     }
     {
-    type: DrawHeatRegion
-    suffix: -heat
-    blending: additive
+    type: DrawHeatOutput
     }
     {
     type: DrawSideRegion
