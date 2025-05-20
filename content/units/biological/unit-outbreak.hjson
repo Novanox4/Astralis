@@ -108,8 +108,8 @@ bullet: {
 abilities: [
 {
 type: ShieldArcAbility
-max: 2000
-regen: 0.25
+max: 1500
+regen: 0.2
 cooldown: 550
 y: 3
 angle: 75
