@@ -19,6 +19,7 @@ drawer: {
   drawers: [
     {
     type: DrawDefault
+    rotate: true
     }
     {
     type: DrawHeatRegion
