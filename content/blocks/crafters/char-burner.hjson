@@ -21,10 +21,10 @@ drawer: {
     type: DrawDefault
     }
     {
-    type: DrawHeatOutput
+    type: DrawSideRegion
     }
     {
-    type: DrawSideRegion
+    type: DrawHeatOutput
     }
   ]
 }
