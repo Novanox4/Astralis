@@ -19,14 +19,15 @@ drawer: {
   drawers: [
     {
     type: DrawDefault
-    rotate: true
     }
     {
     type: DrawHeatRegion
     suffix: -heat
     blending: additive
     }
+    {
+    type: DrawSideRegion
+    }
   ]
 }
 size: 2
-rotates: true
