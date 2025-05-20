@@ -1,0 +1,29 @@
+type: HeatProducer
+consumes: {
+  item: [
+    item-charchunk/1
+  ]
+  power: 0.1
+}
+name: Char Burner
+description: Uses char and small amounts of power to produce heat
+requirements: [
+  item-crystalite/45
+  item-silver/30
+  ]
+category: crafting
+researchCostMultiplier: 0.5
+research: crystal-kiln
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawHeatRegion
+    suffix: -heat
+    blending: additive
+    }
+  ]
+}
