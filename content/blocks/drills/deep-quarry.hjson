@@ -1,0 +1,33 @@
+type: AttributeCrafter
+name: Deep Quarry
+description: Digs for monazite crystals deep into astralis's crust.
+outputItem: item-monazite
+consumes: {
+  power: 4
+  liquids: [
+    water/3
+    ]
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 1
+    }
+    {
+    type: DrawRegion
+    suffix: -top
+    }
+  ]
+}
+attribute: attribute-monazite
+maxBoost: 2.0
+baseEfficiency: 0
+craftTime: 450
+updateEffect: mine
