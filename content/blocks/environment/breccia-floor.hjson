@@ -1,6 +1,6 @@
 type: floor
 name: Breccia Floor
 variants: 1
-attributes: [
+attributes: {
   attribute-monazite: 0.15
-]
+}
