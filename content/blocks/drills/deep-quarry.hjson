@@ -1,7 +1,7 @@
 type: AttributeCrafter
 name: Deep Quarry
-description: Digs for monazite crystals deep into astralis's crust.
-outputItem: item-monazite
+description: Digs for monazite crystals deep into Astralis's crust.
+outputItem: item-monazite/1
 consumes: {
   power: 4
   liquids: [
