@@ -27,7 +27,7 @@ drawer: {
   ]
 }
 attribute: monazite
-maxBoost: 2.0
+maxBoost: 1
 baseEfficiency: 0
 minEfficiency: 0
 craftTime: 450
