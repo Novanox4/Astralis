@@ -31,3 +31,8 @@ maxBoost: 2.0
 baseEfficiency: 0
 craftTime: 450
 updateEffect: mine
+requirements: [
+  item-crystalite/115
+  item-silver/65
+  item-uranium/80
+  ]
