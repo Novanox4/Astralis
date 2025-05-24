@@ -5,7 +5,7 @@ outputItem: item-monazite/1
 consumes: {
   power: 4
   liquids: [
-    water/3
+    water/1.2
     ]
   }
 drawer: {
@@ -28,6 +28,8 @@ drawer: {
 }
 attribute: monazite
 maxBoost: 2.0
+baseEfficiency: 0
+minEfficiency: 0
 craftTime: 450
 updateEffect: mine
 requirements: [
