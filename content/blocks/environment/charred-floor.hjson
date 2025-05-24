@@ -1,2 +1,5 @@
 type: floor
 name: Charred Floor
+attributes: {
+  monazite: 0.25
+    }
