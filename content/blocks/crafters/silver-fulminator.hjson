@@ -8,8 +8,9 @@ consumes: {
     item-silver/3
   ]
   liquids: [
-    nitrogen/3
+  nitrogen/3
     ]
+}
 craftTime: 100
 requirements: [
   item-crystalite/60
