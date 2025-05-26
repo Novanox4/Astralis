@@ -4,9 +4,9 @@ description: Liquid darkness. Incredibly cold, volatile and viscous, traps anyth
 color: 0c0413
 gasColor: 0c0413
 boilPoint: 999
-heatCapacity: 1.35
-temperature: -0.35
-viscosity: 1
+heatCapacity: 1.85
+temperature: -0.65
+viscosity: 0.999
 research: {
   parent: core-fort
   objectives: [
