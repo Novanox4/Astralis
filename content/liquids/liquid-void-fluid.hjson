@@ -3,10 +3,11 @@ name: Void Fluid
 description: Liquid darkness. Incredibly cold, volatile and viscous, traps anything caught in it. Possibly alive.
 color: 0c0413
 gasColor: 0c0413
-boilPoint: 999
+boilPoint: 0.1
 heatCapacity: 1.85
 temperature: -0.65
-viscosity: 0.999
+viscosity: 0.95
+explosiveness: 2
 research: {
   parent: core-fort
   objectives: [
