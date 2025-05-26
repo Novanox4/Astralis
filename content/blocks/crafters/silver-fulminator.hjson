@@ -15,7 +15,7 @@ craftTime: 100
 requirements: [
   item-crystalite/60
   item-silver/40
-  item-metaglass/65
+  metaglass/65
   ]
 drawer: {
   type: DrawMulti
