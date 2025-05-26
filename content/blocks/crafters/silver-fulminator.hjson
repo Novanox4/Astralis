@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Silver Fulminator
+description: Uses nitrogen and silver to create an explosive compound.
+outputItem: item-silver-fulminate/3
+consumes: {
+  power: 1.15
+  items: [
+    item-silver/3
+  ]
+  liquids: [
+    nitrogen/3
+    ]
+craftTime: 100
+requirements: [
+  item-crystalite/60
+  item-silver/40
+  item-metaglass/65
+  ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: nitrogen
+    padding: 0.1
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
