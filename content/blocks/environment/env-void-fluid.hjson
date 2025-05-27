@@ -8,3 +8,4 @@ albedo: 0.9
 supportsOverlay: true
 liquidMultiplier: 0
 shallow: false
+variants: 1
