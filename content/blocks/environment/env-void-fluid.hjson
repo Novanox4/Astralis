@@ -1,9 +1,10 @@
 type: Floor
 name: Void Fluid
-speedMultiplier: 0.001
+speedMultiplier: 0.01
 isLiquid: true
 liquidDrop: liquid-void-fluid
-cacheLayer: water
+cacheLayer: cryofluid
 albedo: 0.9
 supportsOverlay: true
 liquidMultiplier: 0
+shallow: false
