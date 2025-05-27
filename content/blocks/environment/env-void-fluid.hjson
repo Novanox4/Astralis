@@ -3,7 +3,7 @@ name: Void Fluid
 speedMultiplier: 0.01
 isLiquid: true
 liquidDrop: liquid-void-fluid
-cacheLayer: cryofluid
+cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
 liquidMultiplier: 0
