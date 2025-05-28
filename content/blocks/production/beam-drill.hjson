@@ -1,5 +1,5 @@
 type: BeamDrill
-drillTime: 175
+drillTime: 160
 range: 5
 tier: 3
 name: Beam Drill
@@ -13,7 +13,7 @@ consumes: {
  booster: true
  optional: true
 }
- power: 1.25
+ power: 1.15
 }
 size: 2
 requirements: [
