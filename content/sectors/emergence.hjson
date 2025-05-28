@@ -5,5 +5,5 @@ planet: astralis
 difficulty: 1
 research: core-fort
 alwaysVisible: true
-captureWave: 3
+captureWave: 4
 alwaysUnlocked: true
