@@ -1,0 +1,9 @@
+localizedName: "Emergence"
+description: "Welcome to Astralis. This is a weak sector that you can use to start out your journey. Learn how to use the materials available and expand."
+sector: 6
+planet: astralis
+difficulty: 1
+research: core-fort
+alwaysVisible: true
+captureWave: 3
+alwaysUnlocked: true
