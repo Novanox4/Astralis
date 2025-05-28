@@ -1,0 +1,11 @@
+color: 2c3039
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 1.15
+hardness: 1.75
+name: Cerium
+description: Rare earth metal. Durable and highly rezistant to heat. Used in powerful crucibles and turrets. Powerful ammo.
+alwaysUnlocked: false
+research: item-monazite
