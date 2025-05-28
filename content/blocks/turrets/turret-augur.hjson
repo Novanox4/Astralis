@@ -97,6 +97,8 @@ shootType: {
       }
      }
 requirements: [
-  item-crystalite/250
+  item-crystalite/100
+  item-silver/85
+  item-uranium/35
 ]
 range: 225
