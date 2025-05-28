@@ -7,5 +7,4 @@ cost: 1
 hardness: 1.5
 name: Neodymium
 description: Rare earth metal. Highly magnetic. Used for powerful transportation systems and specialized radar technology.
-alwaysUnlocked: true
 research: item-monazite
