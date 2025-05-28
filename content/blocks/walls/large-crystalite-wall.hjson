@@ -2,7 +2,7 @@ type: Wall
 size: 2
 name: Large Crystalite Wall
 requirements: [
-  item-crystalite/60
+  item-crystalite/30
   ]
 researchCost:  [
   item-crystalite/140
