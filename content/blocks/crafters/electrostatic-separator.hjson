@@ -34,6 +34,7 @@ drawer: {
     flameY: -1
     flameRadius: 1
     flameRadiusIn: 0.25
+    top: none
     }
     {
     type: DrawFlame
@@ -41,6 +42,7 @@ drawer: {
     flameY: 1
     flameRadius: 1
     flameRadiusIn: 0.25
+    top: none
     }
   ]
 }
