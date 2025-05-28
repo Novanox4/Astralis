@@ -1,5 +1,5 @@
 type: ItemTurret
-range: 250
+range: 235
 reload: 95
 category: turret
 name: Burn
