@@ -6,6 +6,6 @@ liquidDrop: liquid-void-fluid
 cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
-liquidMultiplier: 0
+liquidMultiplier: 0.1
 shallow: false
 variants: 1
