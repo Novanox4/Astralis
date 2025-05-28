@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: Electrostatic Separator
+description: Separates rare earth metals from monazite.
+outputItems: [
+  item-neodymium/1
+  item-cerium/1
+  ]
+consumes: {
+  power: 1.15
+  items: [
+    item-monazite/2
+  ]
+}
+craftTime: 450
+requirements: [
+  item-crystalite/75
+  item-silver/45
+  metaglass/20
+  uranium/45
+  ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawFlame
+    flameX: 0
+    flameY: -1
+    flameRadius: 1
+    flameRadiusIn: 0.25
+    }
+    {
+    type: DrawFlame
+    flameX: 0
+    flameY: 1
+    flameRadius: 1
+    flameRadiusIn: 0.25
+    }
+  ]
+}
+category: crafting
+size: 3
