@@ -16,7 +16,7 @@ requirements: [
   item-crystalite/75
   item-silver/45
   metaglass/20
-  uranium/45
+  item-uranium/45
   ]
 drawer: {
   type: DrawMulti
