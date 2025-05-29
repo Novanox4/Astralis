@@ -8,7 +8,7 @@ warmupMaintainTime: 0
 squareSprite: false
 size: 3
 shootSound: malignShoot
-inaccuracy: 15
+inaccuracy: 6.75
 health: 400
 shoot: {
 shots: 2
