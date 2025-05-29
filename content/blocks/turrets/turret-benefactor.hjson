@@ -91,6 +91,19 @@ drawer: {
     haloRotateSpeed: 3
     haloRadius: 5
     }
+    {
+    type: HaloPart
+    y: -12.5
+    radius: 3
+    tri: true
+    color: f5d738
+    layer: 110
+    shapes: 2
+    triLength: 0
+    triLengthTo: 3
+    haloRotateSpeed: -3
+    haloRadius: 5
+    }
   ]
 }
 reload: 8.5
