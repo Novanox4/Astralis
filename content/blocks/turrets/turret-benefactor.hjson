@@ -1,0 +1,106 @@
+type: PowerTurret
+name: Benefactor
+description: Shoots a myriad of lasers at aerial targets.
+category: turret
+targetGround: false
+minWarmup: 0.2
+warmupMaintainTime: 0
+squareSprite: false
+size: 3
+shootSound: bolt
+inaccuracy: 30
+health: 400
+shoot: {
+shots: 4
+}
+consumes: {
+ power: 5
+   }
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -rotator
+    moveX: 0.01
+    moveY: -2
+    moveRot: -16
+    progress: warmup
+    heatProgress: warmup
+    under: true
+    mirror: true
+    }
+    {
+    type: RegionPart
+    suffix: -barrel-side
+    moveX: -1
+    moveY: -1
+    progress: warmup
+    heatProgress: warmup
+    mirror: true
+    }
+    {
+    type: RegionPart
+    suffix: -side
+    moveX: 0
+    moveY: -3
+    progress: recoil
+    heatProgress: recoil
+    mirror: true
+    }
+  ]
+}
+reload: 60
+shootType: {
+  type: BasicBulletType
+  damage: 5
+  backColor: f5d738
+  frontColor: f5d738
+  lifetime: 70
+  sprite: circle-bullet
+  speed: 4
+  width: 4
+  height: 4
+  fragRandomSpread: 360
+  fragVelocityMin: 1
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragBullets: 7
+  followAimSpeed: 999
+  despawnSound: shotgun
+  hitSound: shotgun
+  trailLength: 15
+  trailColor: f5d738
+  homingPower: 0.225
+  homingRange: 300
+  fragBullet: {
+    type: RailBulletType
+    followAimSpeed: 999
+    damage: 6.75
+    length: 150
+    lifetime: 20
+    buildingDamageMultiplier: 0.3
+    lineEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      strokeFrom: 1
+      strokeTo: 0
+      colorFrom: f5d738
+      colorTo: f5d738
+      lenFrom: 150
+      lenTo: 150
+      cone: 0
+      length: 1
+      lifetime: 35
+      useRotation: true
+       }
+      }
+     }
+requirements: [
+  item-crystalite/100
+  item-silver/85
+  item-uranium/35
+]
+range: 225
