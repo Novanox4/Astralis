@@ -9,7 +9,7 @@ outputItems: [
   item-cerium/1
   ]
 consumes: {
-  power: 2.15
+  power: 2.85
   items: [
     item-monazite/2
   ]
