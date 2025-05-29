@@ -425,3 +425,7 @@ requirements: [
   item-silver/200
   item-uranium/300
 ]
+shoot: {
+shots: 4
+shotDelay: 0
+}
