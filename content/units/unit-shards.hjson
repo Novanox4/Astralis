@@ -22,13 +22,13 @@ engines: [
   x: -2.5
   y: -5
   radius: 1.5
-  rotation: 0
+  rotation: 90
 }
 {
   x: 2.5
   y: -5
   radius: 1.5
-  rotation: 0
+  rotation: 90
 }
 ]
 name: Shards
