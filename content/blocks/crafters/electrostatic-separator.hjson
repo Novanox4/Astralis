@@ -1,6 +1,9 @@
-type: GenericCrafter
+type: HeatCrafter
 name: Electrostatic Separator
 description: Separates rare earth metals from monazite.
+heatRequirement: 15
+maxEfficiency: 1.5
+overheatScale: 0.75
 outputItems: [
   item-neodymium/1
   item-cerium/1
@@ -9,6 +12,9 @@ consumes: {
   power: 1.15
   items: [
     item-monazite/2
+  ]
+  liquids: [
+  water/0.1
   ]
 }
 craftTime: 450
@@ -24,6 +30,10 @@ drawer: {
     {
     type: DrawRegion
     suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: water
     }
     {
     type: DrawCircles
