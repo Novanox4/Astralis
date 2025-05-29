@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Reverberate
-description: Shoots a chaotically ricocheting bullet. Behavior varies from ammo type to ammo type. Requires water, and is cooled using nitrogen gas.
+description: Shoots chaotically ricocheting bullets. Behavior varies from ammo type to ammo type. Requires water, and is cooled using nitrogen gas.
 category: turret
 range: 450
 size: 3
@@ -46,7 +46,7 @@ ammoTypes: {
     trailLength: 12
     trailWidth: 3
     trailColor: 38a6c9
-    fragRandomSpread: 60
+    fragRandomSpread: 40
     fragVelocityMin: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
@@ -72,7 +72,7 @@ ammoTypes: {
     trailLength: 12
     trailWidth: 3
     trailColor: 38a6c9
-    fragRandomSpread: 60
+    fragRandomSpread: 40
     fragVelocityMin: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
@@ -98,7 +98,7 @@ ammoTypes: {
     trailLength: 12
     trailWidth: 3
     trailColor: 38a6c9
-    fragRandomSpread: 60
+    fragRandomSpread: 40
     fragVelocityMin: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
