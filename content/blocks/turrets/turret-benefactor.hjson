@@ -8,7 +8,7 @@ warmupMaintainTime: 0
 squareSprite: false
 size: 3
 shootSound: malignShoot
-inaccuracy: 30
+inaccuracy: 15
 health: 400
 shoot: {
 shots: 2
@@ -55,8 +55,8 @@ reload: 8.5
 shootType: {
   type: LaserBulletType
   colors: [f5d738, d49d00, ffffff]
-  width: 12.5
-  length: 300
+  width: 10.5
+  length: 315
   damage: 45
       }
 requirements: [
