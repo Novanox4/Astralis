@@ -43,6 +43,6 @@ abilities: [
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
   radScale: 3
-  amount: 150
+  amount: 30
   }
 ]
