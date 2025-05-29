@@ -28,7 +28,6 @@ drawer: {
     moveRot: -16
     progress: warmup
     heatProgress: warmup
-    under: true
     mirror: true
     }
     {
