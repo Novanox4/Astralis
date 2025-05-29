@@ -27,6 +27,9 @@ drawer: {
     }
     {
     type: DrawCircles
+    color: a38f6e
+    sides: 30
+    strokeMax: 1.25
     }
     {
     type: DrawDefault
