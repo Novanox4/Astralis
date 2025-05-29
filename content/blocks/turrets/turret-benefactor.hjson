@@ -8,6 +8,7 @@ warmupMaintainTime: 0.1
 squareSprite: false
 size: 3
 shootSound: malignShoot
+itemCapacity: 30
 inaccuracy: 6.75
 health: 400
 shoot: {
@@ -16,7 +17,7 @@ shots: 2
 consumes: {
  power: 5.5
  items: [
-   item-crystalite/4
+   item-crystalite/30
   ]
  }
 drawer: {
