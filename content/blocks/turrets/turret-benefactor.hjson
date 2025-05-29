@@ -88,6 +88,7 @@ drawer: {
     shapes: 2
     triLength: 0
     triLengthTo: 2
+    }
   ]
 }
 reload: 8.5
