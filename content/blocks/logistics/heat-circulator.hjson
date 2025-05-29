@@ -1,0 +1,23 @@
+type: HeatConductor
+name: Heat Circulator
+description: Distributes heat
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawHeatInput
+    }
+    {
+    type: DrawHeatOutput
+    }
+  ]
+}
+requirements: [
+  item-crystalite/15
+  metaglass/5
+  item-silver/10
+  ]
+  
