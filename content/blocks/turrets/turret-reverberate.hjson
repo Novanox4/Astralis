@@ -9,6 +9,7 @@ shootSound: mediumCannon
 reload: 575
 health: 2800
 minWarmup: 0.4
+ammoPerShot: 4
 drawer: {
   type: DrawTurret
   basePrefix: astral-
