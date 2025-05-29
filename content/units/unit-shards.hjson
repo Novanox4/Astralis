@@ -51,7 +51,7 @@ abilities: [
     useAmmo: false
     x: 0
     y: 0
-    effectRadius: 0.80
+    effectRadius: 2
     status: none
     rotateSpeed: 2
    }
