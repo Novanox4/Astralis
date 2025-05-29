@@ -1,0 +1,19 @@
+type: PowerNode
+category: power
+size: 2
+requirements: [
+  item-crystalite/10
+  item-metaglass/5
+  ]
+researchCost: [
+  item-crystalite/65
+  item-metaglass/45
+]
+name: Power Distributor
+description: Creates a network of wires that transmit electrical power. More expensive, but far more efficient than their smaller counterparts.
+laserScale: 0.6
+laserRange: 20
+maxNodes: 20
+research: crystal-node
+laserColor1: 38a6c9
+laserColor2: 216f96
