@@ -51,10 +51,10 @@ abilities: [
     useAmmo: false
     x: 0
     y: 0
-    effectRadius: 2
+    effectRadius: 2.35
     status: none
     rotateSpeed: 2
-    sectorRad: 0.065
-    sectors: 3
+    sectorRad: 0.12
+    sectors: 4
    }
 ]
