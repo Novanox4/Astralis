@@ -7,7 +7,7 @@ minWarmup: 0.2
 warmupMaintainTime: 0
 squareSprite: false
 size: 3
-shootSound: bolt
+shootSound: laser
 inaccuracy: 30
 health: 400
 shoot: {
@@ -51,17 +51,18 @@ drawer: {
     }
   ]
 }
-reload: 9.25
+reload: 8.5
 shootType: {
   type: LaserBulletType
   colors: [f5d738, d49d00, ffffff]
   width: 12.5
-  length: 185
+  length: 300
   damage: 45
       }
 requirements: [
-  item-crystalite/100
-  item-silver/85
-  item-uranium/35
+  item-crystalite/200
+  item-silver/115
+  metaglass/75
+  item-neodymium/40
 ]
-range: 225
+range: 350
