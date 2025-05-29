@@ -51,51 +51,10 @@ drawer: {
     }
   ]
 }
-reload: 60
+reload: 17.5
 shootType: {
-  type: BasicBulletType
-  damage: 5
-  backColor: f5d738
-  frontColor: f5d738
-  lifetime: 70
-  sprite: circle-bullet
-  speed: 4
-  width: 4
-  height: 4
-  fragRandomSpread: 360
-  fragVelocityMin: 1
-  fragOffsetMin: 0
-  fragOffsetMax: 0
-  fragBullets: 7
-  followAimSpeed: 999
-  despawnSound: shotgun
-  hitSound: shotgun
-  trailLength: 15
-  trailColor: f5d738
-  homingPower: 0.225
-  homingRange: 300
-  fragBullet: {
-    type: RailBulletType
-    followAimSpeed: 999
-    damage: 6.75
-    length: 150
-    lifetime: 20
-    buildingDamageMultiplier: 0.3
-    lineEffect: {
-      type: ParticleEffect
-      line: true
-      particles: 1
-      strokeFrom: 1
-      strokeTo: 0
-      colorFrom: f5d738
-      colorTo: f5d738
-      lenFrom: 150
-      lenTo: 150
-      cone: 0
-      length: 1
-      lifetime: 35
-      useRotation: true
-       }
+  type: LaserBulletType
+  colors: [f5d738, d49d00, ffffff]
       }
      }
 requirements: [
