@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Benefactor
-description: Shoots a myriad of lasers at aerial targets.
+description: Shoots a myriad of lasers at aerial targets. Requires a one time input of 75 crystalite to use as a lens for shooting.
 category: turret
 targetGround: false
 minWarmup: 0.4
