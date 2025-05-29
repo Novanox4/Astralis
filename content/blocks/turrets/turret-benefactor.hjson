@@ -49,6 +49,19 @@ drawer: {
     heatProgress: warmup
     mirror: true
     }
+    {
+    type: ShapePart
+    y: -22.5
+    radius: 6.5
+    circle: true
+    hollow: true
+    color: f5d738
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+    }
   ]
 }
 reload: 8.5
