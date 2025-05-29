@@ -26,6 +26,9 @@ drawer: {
     suffix: -bottom
     }
     {
+    type: DrawCircles
+    }
+    {
     type: DrawDefault
     }
   ]
