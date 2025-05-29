@@ -21,3 +21,4 @@ requirements: [
   item-silver/10
   ]
 size: 2
+visualMaxHeat: 25
