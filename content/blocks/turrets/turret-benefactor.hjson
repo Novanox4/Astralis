@@ -85,7 +85,7 @@ drawer: {
     tri: true
     color: f5d738
     layer: 110
-    shapes: 2
+    shapes: 3
     triLength: 0
     triLengthTo: 3
     haloRotateSpeed: 3
@@ -98,7 +98,7 @@ drawer: {
     tri: true
     color: f5d738
     layer: 110
-    shapes: 2
+    shapes: 3
     triLength: 0
     triLengthTo: 3
     haloRotateSpeed: -3
