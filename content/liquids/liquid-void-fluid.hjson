@@ -15,4 +15,5 @@ research: {
   ]
 }
 barColor: 000000
-spreadTarget: slag
+spreadTarget: water
+canStayOn: [water, oil, slag]
