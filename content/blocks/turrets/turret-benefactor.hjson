@@ -11,7 +11,7 @@ shootSound: bolt
 inaccuracy: 30
 health: 400
 shoot: {
-shots: 4
+shots: 2
 }
 consumes: {
  power: 5
@@ -56,7 +56,6 @@ shootType: {
   type: LaserBulletType
   colors: [f5d738, d49d00, ffffff]
       }
-     }
 requirements: [
   item-crystalite/100
   item-silver/85
