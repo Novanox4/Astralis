@@ -3,7 +3,7 @@ name: Silver Fulminator
 description: Uses nitrogen and silver to create an explosive compound.
 outputItem: item-silver-fulminate/3
 consumes: {
-  power: 1.15
+  power: 1.85
   items: [
     item-silver/3
   ]
