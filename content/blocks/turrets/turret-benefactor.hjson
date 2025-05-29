@@ -46,7 +46,7 @@ drawer: {
     moveX: 0
     moveY: -3
     progress: recoil
-    heatProgress: recoil
+    heatProgress: warmup
     mirror: true
     }
   ]
