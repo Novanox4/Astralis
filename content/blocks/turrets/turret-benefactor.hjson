@@ -14,8 +14,11 @@ shoot: {
 shots: 2
 }
 consumes: {
- power: 5
-   }
+ power: 5.5
+ items: [
+   item-crystalite/4
+  ]
+ }
 drawer: {
   type: DrawTurret
   basePrefix: astral-
