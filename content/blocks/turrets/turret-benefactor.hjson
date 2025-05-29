@@ -3,8 +3,8 @@ name: Benefactor
 description: Shoots a myriad of lasers at aerial targets.
 category: turret
 targetGround: false
-minWarmup: 0.2
-warmupMaintainTime: 0
+minWarmup: 0.4
+warmupMaintainTime: 0.1
 squareSprite: false
 size: 3
 shootSound: malignShoot
