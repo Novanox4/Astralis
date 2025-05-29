@@ -28,20 +28,6 @@ drawer: {
     {
     type: DrawDefault
     }
-    {
-    type: DrawFlame
-    flameX: 0
-    flameY: -1
-    flameRadius: 1
-    flameRadiusIn: 0.25
-    }
-    {
-    type: DrawFlame
-    flameX: 0
-    flameY: 1
-    flameRadius: 1
-    flameRadiusIn: 0.25
-    }
   ]
 }
 category: crafting
