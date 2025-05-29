@@ -23,4 +23,4 @@ capPuddles: false
 cells: 7
 spreadDamage: 0.4
 maxSpread: 3
-spreadConversion: 1.6
+spreadConversion: 0.05
