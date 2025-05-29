@@ -88,7 +88,7 @@ drawer: {
     shapes: 6
     triLength: 0
     triLengthTo: 3
-    haloRotateSpeed: 5
+    haloRotateSpeed: -8.5
     haloRadius: 5
     }
   ]
