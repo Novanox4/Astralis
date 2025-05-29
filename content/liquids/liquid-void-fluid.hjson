@@ -8,7 +8,7 @@ gasColor: 0c0413
 boilPoint: 0.1
 heatCapacity: 1.85
 temperature: -0.65
-viscosity: 0.95
+viscosity: 0.4
 explosiveness: 7.5
 research: {
   parent: core-fort
@@ -22,6 +22,6 @@ canStayOn: [water]
 capPuddles: false
 cells: 9
 spreadDamage: 0.6
-maxSpread: 3
-spreadConversion: 1.5
+maxSpread: 10
+spreadConversion: 3
 removeScaling: 0
