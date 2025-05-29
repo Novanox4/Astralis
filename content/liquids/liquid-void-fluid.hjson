@@ -8,7 +8,7 @@ gasColor: 0c0413
 boilPoint: 0.1
 heatCapacity: 1.85
 temperature: -0.65
-viscosity: 0.4
+viscosity: 0.85
 explosiveness: 7.5
 research: {
   parent: core-fort
