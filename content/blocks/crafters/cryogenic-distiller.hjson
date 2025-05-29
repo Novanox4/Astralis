@@ -2,7 +2,7 @@ type: HeatCrafter
 name: Cryogenic Distiller
 description: Separates nitrogen from the atmosphere using temperature differences.
 consumes: {
-  power: 2.25
+  power: 2.15
     }
 size: 2
 outputLiquid: nitrogen/0.2
