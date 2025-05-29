@@ -37,22 +37,22 @@ weapons: []
 abilities: [
 {
     type: EnergyFieldAbility
-    blinkSize: 0.15
+    blinkSize: 0.2
     color: 4070de
-    damage: 1
-    reload: 20
-    healPercent: 2
+    damage: 2
+    reload: 12.5
+    healPercent: 3.25
     hitUnits: true
     hitBuildings: true
-    layer: 100
-    maxTargets: 6
-    range: 75
+    layer: 200
+    maxTargets: 10
+    range: 85
     shootSound: spark
     useAmmo: false
     x: 0
     y: 0
-    effectRadius: 1
+    effectRadius: 0.80
     status: none
-    rotateSpeed: 1.25
+    rotateSpeed: 2
    }
 ]
