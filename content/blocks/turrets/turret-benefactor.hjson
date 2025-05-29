@@ -51,10 +51,13 @@ drawer: {
     }
   ]
 }
-reload: 17.5
+reload: 9.25
 shootType: {
   type: LaserBulletType
   colors: [f5d738, d49d00, ffffff]
+  width: 12.5
+  length: 185
+  damage: 45
       }
 requirements: [
   item-crystalite/100
