@@ -37,12 +37,15 @@ drawer: {
     }
     {
     type: DrawCircles
-    color: a38f6e
+    color: 4d5ca4
     sides: 30
     strokeMax: 1.25
     }
     {
     type: DrawDefault
+    }
+    {
+    type: DrawHeatInput
     }
   ]
 }
