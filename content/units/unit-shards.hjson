@@ -54,5 +54,7 @@ abilities: [
     effectRadius: 2
     status: none
     rotateSpeed: 2
+    sectorRad: 0.10
+    sectors: 3
    }
 ]
