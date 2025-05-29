@@ -61,6 +61,7 @@ drawer: {
     stroke: 0
     strokeTo: 0.85
     progress: warmup
+    rotateSpeed: 1.2
     }
   ]
 }
