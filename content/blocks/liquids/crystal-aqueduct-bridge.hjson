@@ -1,0 +1,14 @@
+type: DirectionLiquidBridge
+name: Crystal Aqueduct Bridge
+description: Transports fluids and gasses over buildings and terrain.
+requirements: [
+  item-crystalite/3
+  metaglass/2
+  ]
+researchCost: [
+  item-crystalite/125
+  metaglass/50
+  ]
+timerFlow: 1.2
+category: liquid
+research: crystal-aqueduct
