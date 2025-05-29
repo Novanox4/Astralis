@@ -88,7 +88,8 @@ drawer: {
     shapes: 2
     triLength: 0
     triLengthTo: 3
-    haloRotateSpeed: 3 
+    haloRotateSpeed: 3
+    haloRadius: 3.35
     }
   ]
 }
