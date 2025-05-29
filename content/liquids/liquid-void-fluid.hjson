@@ -20,5 +20,7 @@ barColor: 000000
 spreadTarget: water
 canStayOn: [water]
 capPuddles: false
-cells: 0
-spreadDamage: 0.15
+cells: 7
+spreadDamage: 0.4
+maxSpread: 3
+spreadConversion: 1.6
