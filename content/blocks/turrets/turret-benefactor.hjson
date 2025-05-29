@@ -74,7 +74,7 @@ drawer: {
     mirror: false
     stroke: 0
     sides: 5
-    strokeTo: 0.425
+    strokeTo: 0.475
     progress: warmup
     rotateSpeed: 2.25
     }
