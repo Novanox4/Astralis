@@ -7,7 +7,12 @@ minWarmup: 0.2
 warmupMaintainTime: 0
 squareSprite: false
 size: 3
-shootSound: laser
+shootSound: {
+ type: SoundEffect
+ sound: laser
+ minVolume: 0.75
+ maxVolume: 0.75
+}
 inaccuracy: 30
 health: 400
 shoot: {
