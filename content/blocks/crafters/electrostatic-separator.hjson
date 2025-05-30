@@ -5,19 +5,19 @@ heatRequirement: 15
 maxEfficiency: 1.5
 overheatScale: 0.75
 outputItems: [
-  item-neodymium/1
-  item-cerium/1
+  item-neodymium/2
+  item-cerium/2
   ]
 consumes: {
   power: 2.85
   items: [
-    item-monazite/2
+    item-monazite/1
   ]
   liquids: [
   water/0.1
   ]
 }
-craftTime: 450
+craftTime: 220
 requirements: [
   item-crystalite/75
   item-silver/45
