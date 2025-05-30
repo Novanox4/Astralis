@@ -33,7 +33,7 @@ bullet: {
   colors: [12963c8c, 2abd2bb2, 7cd656cc, ffffff8c, ffffffff]
   damage: 4.75
   hitEffect: none
-  pierceEffect: {
+  hitEffect: {
       type: RadialEffect
       effects: 2
       rotationSpacing: 270
