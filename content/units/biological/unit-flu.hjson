@@ -18,10 +18,10 @@ x: 0
 y: 2
 reload: 7
 mirror: false
-inacurracy: 40
 shootSound: hitLiquid
 shoot: {
-  shots: 3
+  shots: 30
+  shotDelay: 0.2
     }
 bullet: {
   type: LiquidBulletType
@@ -32,12 +32,13 @@ bullet: {
   damage: 1
   status: corroded
   duration: 300
+  inaccuracy: 20
     }
 }
 ]
 outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
-deathSound: neoplasmSplat
+deathSound: plantBreak
 hitSize: 8
 layer: 77
