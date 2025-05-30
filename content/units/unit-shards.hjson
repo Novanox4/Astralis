@@ -41,7 +41,7 @@ abilities: [
     color: 4070de
     damage: 2
     reload: 12.5
-    healPercent: 3.25
+    healPercent: 2.25
     hitUnits: true
     hitBuildings: true
     layer: 200
