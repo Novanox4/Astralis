@@ -1,0 +1,4 @@
+type: SteamVent
+parent: voidscar
+blendGroup: voidscar
+name: "Void Vent"
