@@ -32,6 +32,19 @@ bullet: {
   flareColor: 7cd656
   colors: [12963c8c, 2abd2bb2, 7cd656cc, ffffff8c, ffffffff]
   damage: 4.75
+  hitEffect: none
+  pierceEffect: {
+      type: RadialEffect
+      effects: 2
+      rotationSpacing: 270
+      effect: {
+        type: ParticleEffect
+        particles: 3
+        lifetime: 30
+        colorFrom: 7cd656
+        colorTo: 7cd656
+      }
+    }
   }
 }
 ]
