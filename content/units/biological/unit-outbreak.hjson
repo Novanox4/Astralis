@@ -118,7 +118,7 @@ radius: 75
 outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
-deathSound: neoplasmSplat
+deathSound: plantBreak
 speed: 2
 lightRadius: 0
 hitSize: 16
