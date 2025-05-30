@@ -30,6 +30,7 @@ bullet: {
   splashDamage: 65
   splashDamageRadius: 64
   killShooter: true
+  splashDamagePierce: true
     }
 }
 ]
