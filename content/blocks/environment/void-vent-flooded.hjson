@@ -1,0 +1,5 @@
+type: SteamVent
+parent: env-void-fluid
+blendGroup: env-void-fluid
+effect: none
+name: "Void Vent (Flooded)"
