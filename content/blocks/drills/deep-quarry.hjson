@@ -36,3 +36,5 @@ requirements: [
   ]
 size: 3
 category: production
+ambientSound: drill
+ambientSoundVolume: 0.75
