@@ -1,3 +1,4 @@
 type: floor
 name: Dense Jasper
 variants: 4
+blendGroup: jasper-floor
