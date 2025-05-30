@@ -23,6 +23,8 @@ alwaysContinuous: true
 shootSound: torch
 alternate: false
 top: false
+rotate: true
+rotationLimit: 17.5
 bullet: {
   type: ContinuousFlameBulletType
   width: 1.5
