@@ -41,3 +41,4 @@ requirements: [
   researchCostMultiplier: 0.80
 maxBoost: 2
 ambientSound: smelter
+ambientSoundVolume: 0.95
