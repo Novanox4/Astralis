@@ -38,9 +38,8 @@ bullet: {
 abilities: [
 {
 type: RepairFieldAbility
-amount: 5
-regen: 0.2
-cooldown: 550
+amount: 4.5
+reload: 125
 }
 ]
 planet: astralis
@@ -48,4 +47,3 @@ speed: 1.35
 hitSize: 4
 legSpeed: 0.75
 outlineColor: 323232
-softShadowScl: 0.85
