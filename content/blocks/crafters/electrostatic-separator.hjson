@@ -47,6 +47,17 @@ drawer: {
     {
     type: DrawHeatInput
     }
+    {
+    type: DrawParticles
+    sides: 30
+    color: d4f0ff
+    particleRad: 7
+    particles: 2
+    particleLife: 80
+    alpha: 0.45
+    particleSize: 2.5
+    reverse: true
+    }
   ]
 }
 category: crafting
