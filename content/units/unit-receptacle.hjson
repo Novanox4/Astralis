@@ -9,7 +9,7 @@ flying: false
 health: 450
 baseLegStraightness: 0
 legContinuousMove: false
-legExtension: -4
+legExtension: -2
 legForwardScl: 2
 weapons: [
 {
@@ -38,3 +38,4 @@ cooldown: 550
 planet: astralis
 speed: 1.35
 hitSize: 4
+legSpeed: 0.75
