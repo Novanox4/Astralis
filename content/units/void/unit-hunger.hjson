@@ -27,8 +27,8 @@ bullet: {
   damage: 120
   despawnShake: 0.3
   hitShake: 0.6
-  splashDamage: 18
-  splashDamageRadius: 32
+  splashDamage: 65
+  splashDamageRadius: 64
   killShooter: true
     }
 }
