@@ -10,6 +10,7 @@ health: 450
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -4
+legForwardScl: 2
 weapons: [
 {
 name: unit-receptacle-weapon
