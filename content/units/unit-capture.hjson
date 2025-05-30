@@ -20,7 +20,7 @@ description: "Air assault unit. Pelts enemy defenses with bullets. Deals low dam
 weapons: [
   {
   x: 0
-  y: 0
+  y: 1.15
   reload: 20
   shootX: -1
   name: unit-capture-gun
@@ -29,7 +29,7 @@ weapons: [
   layerOffset: -1
   bullet: {
   type: BasicBulletType
-  damage: 10
+  damage: 15
   lifetime: 40
   width: 9
   height: 8
