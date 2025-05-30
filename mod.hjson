@@ -1,9 +1,9 @@
 name: "astralis"
 displayName: "Astralis"
 description: "
-VERY EARLY ALPHA!
-Astralis is a mod focused on adding new content and using mapmaking to push players into new playstyles and strategies."
-
+IN DEVELOPMENT, EXPECT BUGS AND UNFINISHED/UNPOLISHED CONTENT!"
+Astralis is a mod focused on adding a brand new campaign on a plane harboring the same name"
+subtitle: "IT STARED BACK"
 repo: novanox4/Astralis
 version: 1.0
 minGameVersion: 149
