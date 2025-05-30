@@ -27,6 +27,7 @@ bullet: {
   type: ContinuousFlameBulletType
   width: 1.5
   flareLength: 10
+  colors: [12963c8c, 7cd656b2, 91a4ffff, 91a4ffff, ffffffff]
   }
 }
 ]
