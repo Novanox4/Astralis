@@ -1,11 +1,10 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 22.5
+legLength: 19.25
 legBaseOffset: 0
 name: Receptacle
 description: Spider mech that uses two continuous laser cannons to attack. Heals nearby allies.
-legMaxLength: 1.1
 flying: false
 health: 450
 baseLegStraightness: 0
@@ -37,4 +36,4 @@ cooldown: 550
 ]
 planet: astralis
 speed: 2.15
-hitSize: 416
+hitSize: 4
