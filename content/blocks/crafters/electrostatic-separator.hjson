@@ -62,3 +62,4 @@ drawer: {
 }
 category: crafting
 size: 3
+ambientSound: glow
