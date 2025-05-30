@@ -15,7 +15,7 @@ requirements: [
   metaglass/75
   item-uranium/100
   ]
-researchCostMultiplier: 8.5
+researchCostMultiplier: 0.95
 research: crystal-kiln
 category: crafting
 squareSprite: false
