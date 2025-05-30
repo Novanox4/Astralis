@@ -17,7 +17,7 @@ name: unit-receptacle-weapon
 recoil: 0
 x: 0
 y: 0
-shootX: -2.25
+shootX: -2.85
 continuous: true
 alwaysContinuous: true
 shootSound: torch
