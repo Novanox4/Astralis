@@ -20,8 +20,10 @@ y: 0
 continuous: true
 alwaysContinuous: true
 shootSound: torch
+alternate: false
 bullet: {
   type: ContinuousFlameBulletType
+  width: 1.75
   }
 }
 ]
