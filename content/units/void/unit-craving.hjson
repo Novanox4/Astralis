@@ -9,7 +9,7 @@ description: Abyssal spider. Attacks by stepping on buildings.
 details: "Seems oddly intelligent for a bunch of moving goop."
 legMinLength: 0.75
 legMaxLength: 1
-legExtension: -2
+legExtension: -2.35
 legSplashDamage: 12
 legSplashRange: 5.25
 flying: false
