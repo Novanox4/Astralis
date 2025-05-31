@@ -33,6 +33,4 @@ abilities: [
 ]
 controller: HugAi
 defaultController: HugAi
-range: 0
 aimDst: 0
-maxRange: 0
