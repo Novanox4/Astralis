@@ -46,7 +46,19 @@ color1: 121212
 color2: 1f1f1f
 octaves: 5
 persistence: 3
-  }
+seed: 76
+}
+{
+//hot char env
+type: NoiseMesh
+divisions: 5
+radius: 2.15
+color1: b5520a
+color2: e5861c
+octaves: 5
+persistence: 3
+seed: 23
+}
   ]
 cloudMesh: [
  {
