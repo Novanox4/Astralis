@@ -45,3 +45,12 @@ coolant: {
     }
 category: turret
 squareSprite: false
+research: {
+  parent: turret-burn
+  objectives: [
+  {
+  type: SectorComplete
+  preset: Emergence
+    }
+  ]
+}
