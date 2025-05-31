@@ -11,7 +11,7 @@ legMinLength: 0.75
 legMaxLength: 1
 legExtension: -2.35
 legSplashDamage: 40
-legSplashRange: 5.5
+legSplashRange: 7
 flying: false
 health: 850
 omniMovement: false
