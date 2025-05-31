@@ -1,6 +1,7 @@
 damage: 0.0125
 speedMultiplier: 0.01
 name: Voidgnaw
-description: "It is H U N G R Y"
+description: "The void has clung onto you, and it is H U N G R Y"
 affinities: [wet]
 transitionDamage: 400
+outline: false
