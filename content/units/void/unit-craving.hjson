@@ -11,7 +11,7 @@ legMinLength: 0.75
 legMaxLength: 1
 legExtension: -2.75
 legSplashDamage: 40
-legSplashRange: 7.25
+legSplashRange: 8.5
 crushDamage: 50
 flying: false
 health: 850
