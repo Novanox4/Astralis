@@ -9,7 +9,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: true
 startSector: 6
 orbitSpacing: 1
-radius: 1.2
+radius: 3.9
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
@@ -32,78 +32,51 @@ solarSystem: sun
 launchCandidates: []
 mesh: [
  {
-    //water
-    type: NoiseMesh
-    planet: astralis
-    divisions: 5
-    seed: 34
-    radius: 1.229
-    color1: 587d89
-    color2: 5e95a8
-    octaves: 3.6
-    persistence: 1.1
+  //char
+  type: NoiseMesh
+  planet: astralis
+  color1: 1f1f1f
+  color2: 2d2d2d
+  radius: 3.915
+  divisions: 4
+  octaves: 1
+  persistence: 1.4
   }
   {
-    //char env
-     type: NoiseMesh
-    planet: astralis
-    seed: 420
-    divisions: 5
-    color1: b5520a
-    color2: e5861c
-    radius: 1.21
-    octaves: 5
-    persistence: 1.2
-    scale: 0.75
-    mag: 1
+  //hot char env
+  type: NoiseMesh
+  planet: astralis
+  color1: b5520a
+  color2: e5861c
+  radius: 3.92
+  divisions: 5
+  octaves: 2
+  persistence: 1.25
+  seed: 22
   }
   {
-    //calcite
-    type: NoiseMesh
-    planet: astralis
-    divisions: 6
-    seed: 64
-    radius: 1.2441
-    color1: 8295b0
-    color2: 8ca6b5
-    octaves: 5.2
-    persistence: 0.775
+  //water
+  type: NoiseMesh
+  planet: astralis
+  color1: 4d5ca4
+  color2: 5867ac
+  radius: 3.911
+  divisions: 5
+  octaves: 3
+  persistence: 1.74
+  seed: 28
   }
   {
-    //hot char
-    type: NoiseMesh
-    planet: astralis
-    divisions: 5
-    radius: 1.22
-    seed: 13
-    color1: 1f1f1f
-    color2: 2d2d2d
-    octaves: 3.6
-    persistence: 0.65
-  }
-  {
-    //cerium
-    type: NoiseMesh
-    planet: astralis
-    divisions: 5
-    seed: 39
-    radius: 1.247
-    color1: 2c4035
-    color2: 364c3a
-    octaves: 4.5
-    persistence: 1.1
-  }
-  {
-    //void envs
-    type: NoiseMesh
-    planet: astralis
-    divisions: 6
-    seed: 69
-    radius: 1.248
-    color1: 25113e
-    color2: 2d1d43
-    octaves: 4.42
-    persistence: 1.075
+  //voidscar
+  type: NoiseMesh
+  planet: astralis
+  color1: 2d1d43
+  color2: 25113e
+  radius: 3.9225
+  divisions: 5
+  octaves: 6
+  persistence: 1.885
+  seed: 34
   }
 ]
 cloudMesh: [
