@@ -7,7 +7,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: true
-startSector: 6
+startSector: 28
 orbitSpacing: 1
 radius: 3.9
 minZoom: 1
@@ -58,8 +58,8 @@ mesh: [
   //water or calcite
   type: NoiseMesh
   planet: astralis
-  color1: 4d5ca4
-  color2: 5867ac
+  color1: 0e3a99
+  color2: 1949b0
   radius: 3.911
   divisions: 5
   octaves: 3
@@ -72,10 +72,10 @@ mesh: [
   planet: astralis
   color1: 2d1d43
   color2: 25113e
-  radius: 3.9225
+  radius: 3.9125
   divisions: 5
-  octaves: 6
-  persistence: 1.885
+  octaves: 6.35
+  persistence: 1.35
   seed: 89
   }
 ]
