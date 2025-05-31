@@ -6,10 +6,18 @@ requirements: [
   metaglass/1
   ]
 researchCost: [
-  item-crystalite/125
-  metaglass/50
+  item-crystalite/40
+  metaglass/25
   ]
 timerFlow: 1.2
 liquidPressure: 1.35
 category: liquid
-research: core-fort
+research: {
+  parent: core-fort
+  objectives: [
+  crystal-kiln
+  ]
+}
+bridgeReplacement: crystal-aqueduct-bridge
+rotBridgeReplacement: crystal-aqueduct-bridge
+junctionReplacement: none
