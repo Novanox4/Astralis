@@ -22,3 +22,12 @@ requirements: [
   ]
 size: 2
 visualMaxHeat: 25
+research: {
+  parent: crystal-kiln
+  objectives: [
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
