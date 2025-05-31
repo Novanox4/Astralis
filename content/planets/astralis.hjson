@@ -52,11 +52,11 @@ seed: 76
 //hot char env
 type: NoiseMesh
 divisions: 5
-radius: 2.151
+radius: 2.15
 color1: b5520a
 color2: e5861c
-octaves: 1
-persistence: 2
+octaves: 3
+persistence: 2.25
 seed: 23
 }
   ]
