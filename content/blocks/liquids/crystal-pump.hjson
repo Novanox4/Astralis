@@ -18,3 +18,9 @@ researchCost: [
 research: core-fort
 squareSprite: false
 category: liquid
+research: {
+  parent: core-fort
+  objectives: [
+    crystal-kiln
+   ]
+}
