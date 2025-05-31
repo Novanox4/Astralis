@@ -30,4 +30,5 @@ abilities: [
   amount: 5.15
   }
 ]
-aiController: HugAi
+controller: HugAi
+defaultController: HugAi
