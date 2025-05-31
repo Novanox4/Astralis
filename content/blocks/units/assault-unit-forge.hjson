@@ -1,0 +1,25 @@
+type: UnitFactory
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 1.65
+  liquid: nitrogen/0.3
+    }
+plans: [
+    {
+unit: unit-capture
+requirements: [
+    item-crystalite/25
+    item-uranium/65
+    item-silver/30
+      ]
+    time: 1000
+    }
+  ]
+research: core-fort
+requirements: [
+  item-crystalite/175
+  item-silver/80
+  item-metaglass/65
+  ]
