@@ -8,10 +8,10 @@ allowSectorInvasion: false
 startSector: 6
 minZoom: 1.2
 atmosphereRadIn: 0
-atmosphereRadOut: 0.35
+atmosphereRadOut: 0.6
 orbitRadius: 65
 hasAtmosphere: true
-radius: 2
+radius: 2.4
 minZoom: 1
 orbitOffset: 300
 rotateTime: 500
@@ -52,11 +52,11 @@ seed: 76
 //hot char env
 type: NoiseMesh
 divisions: 5
-radius: 2.1515
+radius: 2.151
 color1: b5520a
 color2: e5861c
-octaves: 5
-persistence: 2.85
+octaves: 7
+persistence: 4
 seed: 23
 }
   ]
