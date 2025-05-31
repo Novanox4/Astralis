@@ -20,7 +20,7 @@ defaultEnv: 129
 accessible: true
 updateLighting: true
 sectorSeed: 42069
-atmosphereColor: 6ed1e7
+atmosphereColor: ffffff
 iconColor: 196d9e
 localizedName: "[blue]Astralis"
 allowWaveSimulation: false
