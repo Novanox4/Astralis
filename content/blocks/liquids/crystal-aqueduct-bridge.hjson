@@ -13,3 +13,4 @@ timerFlow: 1.2
 category: liquid
 research: crystal-aqueduct
 liquidPadding: 1.75
+squareSprite: false
