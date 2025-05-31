@@ -14,6 +14,14 @@ description: Creates a network of wires that transmit electrical power. More exp
 laserScale: 0.6
 laserRange: 20
 maxNodes: 20
-research: crystal-node
+research: {
+  parent: crystal-node
+  objectives: [
+    {
+    type: OnSector
+    preset: burning-ravine
+    }
+  ]
+}
 laserColor1: 38a6c9
 laserColor2: 216f96
