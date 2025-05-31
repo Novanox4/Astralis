@@ -1,6 +1,6 @@
 type: Planet
 generator: AsteroidGenerator
-sectorSize: 1.95
+sectorSize: 2.15
 allowLaunchToNumbered: false
 allowLaunchSchematic: false
 allowLaunchLoadout: false
@@ -11,7 +11,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 orbitRadius: 65
 hasAtmosphere: true
-radius: 2.12
+radius: 1.35
 minZoom: 1
 orbitOffset: 300
 rotateTime: 500
@@ -41,7 +41,7 @@ mesh: [
 //char env
 type: NoiseMesh
 divisions: 5
-radius: 2.15
+radius: 1.36
 color1: 121212
 color2: 1f1f1f
 octaves: 5
@@ -52,7 +52,7 @@ seed: 76
 //hot char env
 type: NoiseMesh
 divisions: 5
-radius: 2.1425
+radius: 1.361
 color1: b5520a
 color2: e5861c
 octaves: 3
@@ -65,9 +65,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: astralis
    speed: 1.37
-   radius: 0.225
+   radius: 0.230
    divisions: 6
-   color: ffffff
+   color: eafffd7e
    octaves: 3
    persistence: 0.3
    scl: 0.75
@@ -79,7 +79,7 @@ cloudMesh: [
    speed: 1.18
    radius: 0.225
    divisions: 6
-   color: ffffff
+   color: eafffd7e
    octaves: 4
    persistence: 0.3
    scl: 0.45
