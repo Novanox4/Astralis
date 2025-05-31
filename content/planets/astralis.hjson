@@ -45,15 +45,17 @@ mesh: [
   }
   {
     //char env
-    type: NoiseMesh
+     type: NoiseMesh
     planet: astralis
+    seed: 420
     divisions: 5
-    radius: 1.22
-    seed: 13
-    color1: 1f1f1f
-    color2: 2d2d2d
-    octaves: 3.6
-    persistence: 0.65
+    color1: b5520a
+    color2: e5861c
+    radius: 1.21
+    octaves: 5
+    persistence: 1.2
+    scale: 0.75
+    mag: 1
   }
   {
     //calcite
@@ -71,15 +73,13 @@ mesh: [
     //hot char
     type: NoiseMesh
     planet: astralis
-    seed: 420
     divisions: 5
-    color1: b5520a
-    color2: e5861c
-    radius: 1.21
-    octaves: 5
-    persistence: 1.2
-    scale: 0.75
-    mag: 1
+    radius: 1.22
+    seed: 13
+    color1: 1f1f1f
+    color2: 2d2d2d
+    octaves: 3.6
+    persistence: 0.65
   }
   {
     //cerium
