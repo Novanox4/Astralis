@@ -17,7 +17,18 @@ flying: false
 health: 850
 omniMovement: false
 baseLegStraightness: 0.25
-weapons: []
+weapons: [
+{
+shootSound: none
+bullet: {
+  type: EmptyBulletType
+  damage: 0
+  heigth: 0
+  width: 0
+  collides: false
+    }
+  }
+]
 outlineColor: 0c0413
 planet: astralis
 deathExplosionEffect: none
