@@ -1,6 +1,6 @@
 type: Planet
 generator: AsteroidGenerator
-sectorSize: 2.12
+sectorSize: 1.95
 allowLaunchToNumbered: false
 allowLaunchSchematic: false
 allowLaunchLoadout: false
@@ -8,7 +8,7 @@ allowSectorInvasion: false
 startSector: 6
 minZoom: 1.2
 atmosphereRadIn: 0
-atmosphereRadOut: 0.2
+atmosphereRadOut: 0.35
 orbitRadius: 65
 hasAtmosphere: true
 radius: 2
