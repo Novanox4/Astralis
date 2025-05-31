@@ -1,4 +1,6 @@
 type: UnitFactory
+name: Assault Unit Forge
+description: Creates units using raw materials and nitrogen.
 configurable: true
 size: 3
 category: units
