@@ -32,8 +32,14 @@ type: DrawRegion
 ]
 }
 research: {
-parent: core-fort
-  }
+  parent: core-fort
+  objectives: [
+  {
+  type: OnSector
+  preset: burning-ravine
+    }
+  ]
+}
 requirements: [
   item-crystalite/65
   item-uranium/45
