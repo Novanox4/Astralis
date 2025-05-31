@@ -1,89 +1,161 @@
-type: Planet
-generator: AsteroidGenerator
-sectorSize: 2.15
-allowLaunchToNumbered: false
-allowLaunchSchematic: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
-startSector: 6
-minZoom: 1.2
-atmosphereRadIn: 0
-atmosphereRadOut: 0.45
-orbitRadius: 65
-hasAtmosphere: true
-radius: 1.35
-minZoom: 1
-orbitOffset: 300
-rotateTime: 500
+localizedName: Astralis
+description: A faraway, dark planet. A perfect hideout (If you don't mind spiders)
 alwaysUnlocked: true
-defaultEnv: 129
+orbitRadius: 45
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: true
+startSector: 6
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 accessible: true
 updateLighting: true
 sectorSeed: 42069
-atmosphereColor: eafffd7e
+bloom: false
+visible: true
+atmosphereColor: 6ed1e7
 iconColor: 196d9e
-localizedName: "[blue]Astralis"
+hasAtmosphere: true
 allowWaveSimulation: false
-clearSectorOnLose: false
+clearSectorOnLose: true
 allowWaves: true
-prebuildBase: true
+prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
-itemWhitelist: [
-   item-crystalite,
-   item-charchunk,
-   item-uranium,
-   metaglass,
-      ]
+launchCandidates: []
 mesh: [
-{
-//char env
-type: NoiseMesh
-divisions: 6
-radius: 1.36
-color1: 121212
-color2: 1f1f1f
-octaves: 5
-persistence: 3
-seed: 76
-}
-{
-//hot char env
-type: NoiseMesh
-divisions: 5
-radius: 1.335
-color1: b5520a
-color2: e5861c
-octaves: 3.15
-persistence: 2.35
-seed: 16
-}
-  ]
+ {
+    //water
+    type: NoiseMesh
+    planet: astralis
+    divisions: 5
+    seed: 34
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.6
+    persistence: 1.1
+  }
+  {
+    //char env
+    type: NoiseMesh
+    planet: astralis
+    divisions: 5
+    radius: 1.22
+    seed: 13
+    color1: 1f1f1f
+    color2: 2d2d2d
+    octaves: 3.6
+    persistence: 0.65
+  }
+  {
+    //calcite
+    type: NoiseMesh
+    planet: astralis
+    divisions: 6
+    seed: 64
+    radius: 1.2441
+    color1: 8295b0
+    color2: 8ca6b5
+    octaves: 5.2
+    persistence: 0.775
+  }
+  {
+    //hot char
+    type: NoiseMesh
+    planet: astralis
+    seed: 420
+    divisions: 5
+    color1: b5520a
+    color2: e5861c
+    radius: 1.21
+    octaves: 5
+    persistence: 1.2
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //cerium
+    type: NoiseMesh
+    planet: astralis
+    divisions: 5
+    seed: 39
+    radius: 1.247
+    color1: 2c4035
+    color2: 364c3a
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //void envs
+    type: NoiseMesh
+    planet: astralis
+    divisions: 6
+    seed: 69
+    radius: 1.248
+    color1: 25113e
+    color2: 2d1d43
+    octaves: 4.42
+    persistence: 1.075
+  }
+]
 cloudMesh: [
  {
    type: HexSkyMesh
    planet: astralis
-   speed: 1.37
-   radius: 0.05
+   speed: 1.21
+   radius: 0.1
    divisions: 6
    color: eafffd7e
    octaves: 3
    persistence: 0.3
-   scl: 0.75
-   thresh: 0.30
+   scl: 1
+   thresh: 0.6
   }
   {
    type: HexSkyMesh
    planet: astralis
-   speed: 1.18
-   radius: 0.045
+   speed: 1.01
+   radius: 0.11
    divisions: 6
    color: eafffd7e
-   octaves: 4
-   persistence: 0.3
-   scl: 0.45
-   thresh: 0.2
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
   }
 ]
-bloom: true
+generator: {
+  octaves: 3
+  persistence: 0.5
+  scale: 23
+  mag: 0.714
+  thresh: 1.142
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
