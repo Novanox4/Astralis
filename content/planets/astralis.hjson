@@ -1,6 +1,6 @@
 type: Planet
 generator: AsteroidGenerator
-sectorSize: 1.2
+sectorSize: 2.12
 allowLaunchToNumbered: false
 allowLaunchSchematic: false
 allowLaunchLoadout: false
@@ -9,15 +9,15 @@ startSector: 6
 minZoom: 1.2
 atmosphereRadIn: 0
 atmosphereRadOut: 0.2
-orbitRadius: 18
-radius: 0.85
+orbitRadius: 17
+radius: 2
 minZoom: 1
 orbitOffset: 300
 rotateTime: 500
 alwaysUnlocked: true
 defaultEnv: 129
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 42069
 atmosphereColor: 196d9e
 iconColor: 196d9e
@@ -39,11 +39,11 @@ mesh: [
 {
 type: NoiseMesh
 divisions: 6
-radius: 0.9
+radius: 2.15
 color1: 121212
-color2: 196d9e
-octaves: 4.2
-persistence: 1.3
+color2: 1f1f1f
+octaves: 3
+persistence: 1.4
 scale: 1
 mag: 0.2
   }
