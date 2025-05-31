@@ -1,0 +1,13 @@
+type: LiquidJunction
+name: Crystal Aqueduct Junction
+description: Crosses two crystal aqueducts without mixing their contents.
+solid: false
+category: liquid
+squareSprite: false
+research: crystal-aqueduct
+requirements: [
+  item-crystalite/3
+  metaglass/2
+]
+timerFlow: 1.2
+liquidPressure: 1.35
