@@ -39,14 +39,14 @@ abilities: [
     type: EnergyFieldAbility
     blinkSize: 0.2
     color: 4070de
-    damage: 2
-    reload: 12.5
-    healPercent: 2.25
+    damage: 1.25
+    reload: 13.5
+    healPercent: 1.25
     hitUnits: true
     hitBuildings: true
-    layer: 200
-    maxTargets: 10
-    range: 85
+    layer: 110
+    maxTargets: 12
+    range: 95
     shootSound: spark
     useAmmo: false
     x: 0
