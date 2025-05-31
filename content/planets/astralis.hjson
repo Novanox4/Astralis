@@ -40,7 +40,7 @@ mesh: [
 {
 //char env
 type: NoiseMesh
-divisions: 5
+divisions: 6
 radius: 1.36
 color1: 121212
 color2: 1f1f1f
@@ -52,12 +52,12 @@ seed: 76
 //hot char env
 type: NoiseMesh
 divisions: 5
-radius: 1.35
+radius: 1.335
 color1: b5520a
 color2: e5861c
-octaves: 3
-persistence: 2.25
-seed: 23
+octaves: 3.15
+persistence: 2.35
+seed: 16
 }
   ]
 cloudMesh: [
