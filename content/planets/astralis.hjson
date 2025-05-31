@@ -9,7 +9,7 @@ startSector: 6
 minZoom: 1.2
 atmosphereRadIn: 0
 atmosphereRadOut: 0.2
-orbitRadius: 21
+orbitRadius: 65
 hasAtmosphere: true
 radius: 2
 minZoom: 1
