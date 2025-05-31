@@ -32,3 +32,4 @@ abilities: [
 ]
 controller: HugAi
 defaultController: HugAi
+range: 0
