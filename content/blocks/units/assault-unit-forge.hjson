@@ -21,5 +21,5 @@ research: core-fort
 requirements: [
   item-crystalite/175
   item-silver/80
-  item-metaglass/65
+  metaglass/65
   ]
