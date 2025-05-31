@@ -1,0 +1,24 @@
+localizedName: "Burning Ravine"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+
+High amounts of both burning char and water have been detected here.
+
+Biological threats are low, but present.
+
+Sharded units inbound. Research better weaponry and means of production. Start producing [accent]metaglass[] and start using water to improve infrastructure."
+sector: 7
+planet: astralis
+difficulty: 2
+research: {
+  parent: emergence
+  objectives: [
+    turret-burn,
+    turret-slice,
+    {
+      type: SectorComplete
+      preset: emergence
+    }
+  ]
+}
+captureWave: 21
