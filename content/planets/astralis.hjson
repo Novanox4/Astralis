@@ -43,19 +43,19 @@ mesh: [
   persistence: 1.4
   }
   {
-  //hot char env
+  //cerium
   type: NoiseMesh
   planet: astralis
-  color1: b5520a
-  color2: e5861c
+  color1: 2c4035
+  color2: 364c3a
   radius: 3.92
   divisions: 5
   octaves: 2
   persistence: 1.25
-  seed: 22
+  seed: 66
   }
   {
-  //water
+  //water or calcite
   type: NoiseMesh
   planet: astralis
   color1: 4d5ca4
@@ -64,7 +64,7 @@ mesh: [
   divisions: 5
   octaves: 3
   persistence: 1.74
-  seed: 28
+  seed: 49
   }
   {
   //voidscar
@@ -76,7 +76,7 @@ mesh: [
   divisions: 5
   octaves: 6
   persistence: 1.885
-  seed: 34
+  seed: 89
   }
 ]
 cloudMesh: [
