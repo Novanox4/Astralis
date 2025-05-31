@@ -55,8 +55,8 @@ divisions: 5
 radius: 2.151
 color1: b5520a
 color2: e5861c
-octaves: 7
-persistence: 4
+octaves: 1
+persistence: 2
 seed: 23
 }
   ]
