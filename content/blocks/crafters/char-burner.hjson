@@ -13,7 +13,7 @@ requirements: [
   ]
 category: crafting
 researchCostMultiplier: 0.5
-research: crystal-kiln
+research: heat-circulator
 drawer: {
   type: DrawMulti
   drawers: [
