@@ -11,7 +11,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 orbitRadius: 65
 hasAtmosphere: true
-radius: 2.4
+radius: 2.12
 minZoom: 1
 orbitOffset: 300
 rotateTime: 500
