@@ -52,7 +52,7 @@ drawer: {
 reload: 60
 shootType: {
   type: BasicBulletType
-  damage: 5
+  damage: 3.5
   backColor: f5d738
   frontColor: f5d738
   lifetime: 70
@@ -75,7 +75,7 @@ shootType: {
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 6.75
+    damage: 5.5
     length: 150
     lifetime: 20
     buildingDamageMultiplier: 0.3
@@ -102,3 +102,4 @@ requirements: [
   item-uranium/35
 ]
 range: 225
+research:
