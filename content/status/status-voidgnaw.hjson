@@ -3,3 +3,4 @@ speedMultiplier: 0.01
 name: Voidgnaw
 description: "It is H U N G R Y"
 affinities: [wet]
+transitionDamage: 400
