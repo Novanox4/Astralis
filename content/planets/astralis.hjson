@@ -86,3 +86,4 @@ cloudMesh: [
    thresh: 0.175
   }
 ]
+bloom: true
