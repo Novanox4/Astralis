@@ -50,7 +50,7 @@ research: {
   objectives: [
   {
   type: SectorComplete
-  preset: Emergence
+  preset: emergence
     }
   ]
 }
