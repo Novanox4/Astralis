@@ -46,8 +46,8 @@ mesh: [
   //cerium
   type: NoiseMesh
   planet: astralis
-  color1: 2c4035
-  color2: 364c3a
+  color1: 182e25
+  color2: 253d34
   radius: 3.92
   divisions: 5
   octaves: 2
@@ -58,8 +58,8 @@ mesh: [
   //water or calcite
   type: NoiseMesh
   planet: astralis
-  color1: 0e3a99
-  color2: 1949b0
+  color1: 27385e
+  color2: 2d3e63
   radius: 3.911
   divisions: 5
   octaves: 3
@@ -70,8 +70,8 @@ mesh: [
   //voidscar
   type: NoiseMesh
   planet: astralis
-  color1: 2d1d43
-  color2: 25113e
+  color1: 21132e
+  color2: 321c3d
   radius: 3.9125
   divisions: 5
   octaves: 6.35
