@@ -1,0 +1,12 @@
+type: LightBlock
+radius: 135
+name: Lamp
+description: Illuminates an area when powered.
+research: core-fort
+requirements: [
+  item-uranium/10
+  item-crystalite/15
+  ]
+consumes: {
+  power: 0.15
+    }
