@@ -1,0 +1,17 @@
+localizedName: "Mineshaft (PLACEHOLDER)"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]"
+sector: 64
+planet: astralis
+difficulty: 2
+research: {
+  parent: burning-ravine
+  objectives: [
+    crystal-kiln,
+    cryogenic-distiller,
+    {
+      type: SectorComplete
+      preset: burning-ravine
+    }
+  ]
+}
