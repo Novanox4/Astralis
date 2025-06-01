@@ -10,4 +10,4 @@ requirements: [
 consumes: {
   power: 0.30
     }
-category: storage
+category: effect
