@@ -31,7 +31,7 @@ bullet: {
   flareLength: 10
   flareColor: 7cd656
   colors: [12963c8c, 2abd2bb2, 7cd656cc, ffffff8c, ffffffff]
-  damage: 4.75
+  damage: 2.85
   hitEffect: none
   hitEffect: {
       type: RadialEffect
