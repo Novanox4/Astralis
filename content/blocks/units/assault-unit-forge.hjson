@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Assault Unit Forge
-description: Creates units using raw materials and nitrogen.
+description: Creates units made for attacking using raw materials and nitrogen.
 configurable: true
 size: 3
 category: units
@@ -12,16 +12,16 @@ plans: [
     {
 unit: unit-capture
 requirements: [
-    item-crystalite/25
-    item-uranium/65
+    item-crystalite/30
+    item-uranium/60
     item-silver/30
       ]
-    time: 1000
+    time: 1250
     }
   ]
 research: core-fort
 requirements: [
-  item-crystalite/175
+  item-crystalite/150
   item-silver/80
   metaglass/65
   ]
