@@ -48,5 +48,5 @@ abilities: [
   }
 ]
 controller: HugAi
-defaultController: HugAi
+defaultController: none
 immunities: [status-voidgnaw]
