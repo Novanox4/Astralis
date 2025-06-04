@@ -1,0 +1,30 @@
+type: LiquidTurret
+name: Spritz
+description: Shoots liquids and gasses at enemy targets or at fire
+health: 700
+reload: 10
+category: turret
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -bottom
+    moveX: 0
+    moveY: 0
+    }
+    {
+    suffix: -barrel
+    progress: recoil
+    heatProgress: warmup
+    moveY: -1.25
+    }
+    {
+    type: RegionPart
+    suffix: -bottom
+    moveX: 0
+    moveY: 0
+    }
+  ]
+}
