@@ -19,7 +19,7 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 55
+      splashDamage: 30
       splashDamageRadius: 36
       collideAir: false
     }
@@ -32,3 +32,4 @@ faceTarget: true
 trailColor: ffd27e
 targetAir: false
 drawCell: true
+targetable: false
