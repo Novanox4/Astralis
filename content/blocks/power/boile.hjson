@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-localizedName: Steam Generator
+name: Boiler Generator
 description: Uses flammable materials and water to produce power
 consumes: {
   itemFlammable: {} 
