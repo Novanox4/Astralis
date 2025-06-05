@@ -51,7 +51,7 @@ ammoTypes: {
     width: 0.01
     height: 0.01
     hittable: false
-    shootEffect: {
+    smokeEffect: {
       type: ParticleEffect
       particles: 25
       length: 140
