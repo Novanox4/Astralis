@@ -10,7 +10,7 @@ requirements: [
     item-silver/20
     metaglass/45
   ]
-powerProduction: 3.25
+powerProduction: 4.10
 size: 2
 drawer: {
   type: DrawMulti
@@ -20,9 +20,25 @@ drawer: {
     suffix: -bottom
     }
     {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 1
+    }
+    {
+    type: DrawBubbles
+    }
+    {
     type: DrawLiquidTile
     drawLiquid: water
-    padding: 0.3
+    padding: 0.5
+    alpha: 0.7
+    }
+    {
+    type: DrawCircles
+    color: 4d5ca4
+    sides: 30
+    strokeMax: 1.25
     }
     {
     type: DrawDefault
