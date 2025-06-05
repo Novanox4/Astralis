@@ -22,7 +22,7 @@ drawer: {
     }
     {
     type: RegionPart
-    suffix: -bottom
+    suffix: -top
     moveX: 0
     moveY: 0
     }
