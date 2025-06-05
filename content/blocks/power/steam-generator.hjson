@@ -22,7 +22,7 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: water
-    padding: 0.2
+    padding: 0.3
     }
     {
     type: DrawDefault
