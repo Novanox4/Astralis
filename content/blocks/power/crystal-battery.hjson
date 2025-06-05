@@ -4,10 +4,12 @@ fullLightColor: d3c6c0
 size: 1
 health: 125
 consumes: {
-  powerBuffered: 12000
+  powerBuffered: 500
     }
 research: crystal-node
 requirements: [
   item-crystalite/45
   ]
 category: power
+name: Crystal Battery
+description: Stores excess power, outputting it in times of deficit.
