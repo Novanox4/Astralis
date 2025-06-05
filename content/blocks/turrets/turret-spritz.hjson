@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Spritz
-description: Shoots liquids and gasses at enemy targets or at fire
+description: Shoots liquids and gasses at enemy targets or at fires
 health: 700
 reload: 3
 category: turret
@@ -8,6 +8,7 @@ squareSprite: false
 shootEffect: shootLiquid
 recoilTime: 35
 inaccuracy: 3.5
+range: 40
 size: 2
 drawer: {
   type: DrawTurret
