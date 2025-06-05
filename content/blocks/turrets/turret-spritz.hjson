@@ -5,7 +5,8 @@ health: 700
 reload: 3
 category: turret
 squareSprite: false
-recoilTime: 20
+shootEffect: shootLiquid
+recoilTime: 35
 size: 2
 drawer: {
   type: DrawTurret
@@ -31,8 +32,6 @@ ammoTypes: {
     liquid: water
     damage: 0.2
     status: wet
-    despawnEffect: none
-    hitEffect: none
     knocknack: 0.3
     impact: true
     statusDuration: 200
