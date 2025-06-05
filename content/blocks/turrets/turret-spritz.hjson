@@ -4,10 +4,19 @@ description: Shoots liquids and gasses at enemy targets or at fire
 health: 700
 reload: 10
 category: turret
+squareSprite: false
+size: 2
 drawer: {
   type: DrawTurret
   basePrefix: astral-
   parts: [
+    {
+    type: RegionPart
+    suffix: -bottom
+    moveX: 0
+    moveY: 0
+    layer: 0
+    }
     {
     suffix: -barrel
     progress: recoil
@@ -17,12 +26,6 @@ drawer: {
     {
     type: RegionPart
     suffix: -top
-    moveX: 0
-    moveY: 0
-    }
-    {
-    type: RegionPart
-    suffix: -bottom
     moveX: 0
     moveY: 0
     }
