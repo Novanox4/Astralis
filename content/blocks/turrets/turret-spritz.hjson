@@ -5,6 +5,7 @@ health: 700
 reload: 10
 category: turret
 squareSprite: false
+shootSound: spray
 size: 2
 drawer: {
   type: DrawTurret
@@ -37,3 +38,11 @@ drawer: {
     }
   ]
 }
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 0.2
+    status: wet
+    }
+  }
