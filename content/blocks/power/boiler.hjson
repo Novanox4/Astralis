@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: Boiler Generator
-description: Uses flammable materials and water to produce power
+name: Boiler
+description: Uses flammable materials to boil water and produce power
 consumes: {
   itemFlammable: {} 
   liquid: water/0.15
