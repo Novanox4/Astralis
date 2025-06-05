@@ -8,7 +8,7 @@ squareSprite: false
 shootEffect: shootLiquid
 recoilTime: 35
 inaccuracy: 3.5
-range: 40
+range: 125
 size: 2
 drawer: {
   type: DrawTurret
