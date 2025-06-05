@@ -1,0 +1,13 @@
+type: Battery
+emptyLightColor: aa9692
+fullLightColor: d3c6c0
+size: 1
+health: 125
+consumes: {
+  powerBuffered: 12000
+    }
+research: crystal-node
+requirements: [
+  item-crystalite/45
+  ]
+category: power
