@@ -8,7 +8,7 @@ squareSprite: false
 shootEffect: shootLiquid
 recoilTime: 35
 inaccuracy: 3.5
-range: 125
+range: 122.5
 size: 2
 drawer: {
   type: DrawTurret
@@ -34,7 +34,15 @@ ammoTypes: {
     liquid: water
     damage: 0.2
     status: wet
-    knocknack: 0.3
+    knocknack: 0.175
+    impact: true
+    statusDuration: 200
+    }
+  nitrogen: {
+    type: FireBulletType
+    damage: 3
+    status: frozen
+    knocknack: 0.4
     impact: true
     statusDuration: 200
     }
