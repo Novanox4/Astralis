@@ -102,4 +102,4 @@ requirements: [
   item-uranium/35
 ]
 range: 225
-research:
+research: turret-slice
