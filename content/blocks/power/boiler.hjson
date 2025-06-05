@@ -41,3 +41,4 @@ drawer: {
 }
 research: heat-generator
 category: power
+generateEffect: vaporSmall
