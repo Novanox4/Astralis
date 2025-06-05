@@ -25,6 +25,12 @@ drawer: {
     }
     {
     type: RegionPart
+    suffix: -wings
+    moveX: 0
+    moveY: 0
+    }
+    {
+    type: RegionPart
     suffix: -top
     moveX: 0
     moveY: 0
