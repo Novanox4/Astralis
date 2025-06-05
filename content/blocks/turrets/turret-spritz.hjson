@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Spritz
-description: Shoots liquids and gasses at enemy targets or at fires
+description: Shoots liquids at enemy targets or at fires
 health: 700
 reload: 3
 category: turret
