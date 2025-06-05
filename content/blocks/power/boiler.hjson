@@ -42,3 +42,5 @@ drawer: {
 research: heat-generator
 category: power
 generateEffect: vaporSmall
+ambientSound: smelter
+ambientSoundVolume: 0.95
