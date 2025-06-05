@@ -23,7 +23,7 @@ drawer: {
     type: DrawRegion
     suffix: -rotator
     spinSprite: true
-    rotateSpeed: 1
+    rotateSpeed: 3.25
     }
     {
     type: DrawBubbles
@@ -39,6 +39,7 @@ drawer: {
     color: 4d5ca4
     sides: 30
     strokeMax: 1.25
+    radius: 4
     }
     {
     type: DrawDefault
