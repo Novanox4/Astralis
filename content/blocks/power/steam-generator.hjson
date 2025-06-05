@@ -21,7 +21,7 @@ drawer: {
     }
     {
     type: DrawLiquidTile
-    liquid: water
+    drawLiquid: water
     padding: 0.2
     }
     {
@@ -30,3 +30,4 @@ drawer: {
   ]
 }
 research: heat-generator
+category: power
