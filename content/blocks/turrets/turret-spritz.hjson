@@ -39,11 +39,30 @@ ammoTypes: {
     statusDuration: 200
     }
   nitrogen: {
-    type: FireBulletType
-    damage: 3
-    status: freezing
-    knocknack: 0.4
-    impact: true
-    statusDuration: 200
+   damage: 3
+   shootEffect: none
+   speed: 6
+   pierce: true
+   pierceBuilding: true
+   ammoMultiplier: 3
+   status: freezing
+   statusDuration: 200
+   lifetime: 18
+   despawnEffect: none
+   width: 0.01
+   height: 0.01
+   hittable: false
+   smokeEffect: {
+     type: ParticleEffect
+     particles: 25
+     length: 140
+     lifetime: 36
+     interp: circleOut
+     cone: 3
+     colorFrom: 8270c0
+     colorTo: 4e4277
+     sizeFrom: 4
+     sizeTo: 0.6
+      }
     }
   }
