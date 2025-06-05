@@ -1,0 +1,32 @@
+type: ConsumeGenerator
+name: Steam Generator
+description: Uses flammable materials and water to produce power
+consumes: {
+  itemFlammable: {} 
+  liquid: water/0.15
+}
+requirements: [
+    item-crystalite/65
+    item-silver/20
+    metaglass/45
+  ]
+powerProduction: 3.25
+size: 2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    liquid: water
+    padding: 0.2
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+research: heat-generator
