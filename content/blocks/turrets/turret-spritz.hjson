@@ -12,13 +12,6 @@ drawer: {
   basePrefix: astral-
   parts: [
     {
-    type: RegionPart
-    suffix: -bottom
-    moveX: 0
-    moveY: 0
-    layer: 0
-    }
-    {
     suffix: -barrel
     progress: recoil
     heatProgress: warmup
@@ -27,12 +20,6 @@ drawer: {
     {
     type: RegionPart
     suffix: -wings
-    moveX: 0
-    moveY: 0
-    }
-    {
-    type: RegionPart
-    suffix: -top
     moveX: 0
     moveY: 0
     }
