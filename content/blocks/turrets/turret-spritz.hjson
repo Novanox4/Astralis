@@ -58,7 +58,7 @@ ammoTypes: {
       lifetime: 36
       interp: circleOut
       cone: 3
-      colorFrom: cbc1fd
+      colorFrom: cbc1fdff
       colorTo: ffffff
       sizeFrom: 4
       sizeTo: 0.6
