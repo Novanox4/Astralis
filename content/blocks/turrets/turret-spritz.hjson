@@ -41,7 +41,7 @@ ammoTypes: {
   nitrogen: {
     type: FireBulletType
     damage: 3
-    status: frozen
+    status: freezing
     knocknack: 0.4
     impact: true
     statusDuration: 200
