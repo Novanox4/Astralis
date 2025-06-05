@@ -29,17 +29,17 @@ drawer: {
     type: DrawBubbles
     }
     {
-    type: DrawLiquidTile
-    drawLiquid: water
-    padding: 0.5
-    alpha: 0.7
-    }
-    {
     type: DrawCircles
     color: 4d5ca4
     sides: 30
     strokeMax: 1.25
     radius: 4
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: water
+    padding: 0.5
+    alpha: 0.7
     }
     {
     type: DrawDefault
