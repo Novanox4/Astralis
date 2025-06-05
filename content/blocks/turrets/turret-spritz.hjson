@@ -37,5 +37,10 @@ ammoTypes: {
     knocknack: 0.175
     impact: true
     statusDuration: 200
-  }
+   }
  }
+requirements: [
+  item-crystalite/75
+  metaglass/45
+]
+research: turret-slice
