@@ -37,3 +37,10 @@ weapons: [
   }
 ]
 outlineColor: 323232
+research: unit-capture
+researchCost: [
+  item-crystalite/1250
+  item-silver/1450
+  item-uranium/1750
+  metaglass/850
+  ]
