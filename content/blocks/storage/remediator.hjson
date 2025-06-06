@@ -2,7 +2,7 @@ type: RegenProjector
 name: Remediator
 description: Repairs nearby allied buildings.
 range: 12
-healPercent: 0.215
+healPercent: 0.0325
 research: {
   parent: core-fort
     objectives: [
