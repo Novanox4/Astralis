@@ -1,0 +1,10 @@
+type: PowerTurret
+buildVisibility: editorOnly
+size: 3
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+recoil: 0
+alwaysShooting: true
+consumes: {}
