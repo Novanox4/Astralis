@@ -43,3 +43,8 @@ shootType: {
     }
   ]
 }
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-invisible-
+  }
