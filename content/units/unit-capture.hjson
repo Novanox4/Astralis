@@ -38,3 +38,8 @@ weapons: [
 ]
 outlineColor: 323232
 research: assault-unit-forge
+researchCost: [
+  item-crystalite/100
+  metaglass/250
+  item-uranium/350
+  ]
