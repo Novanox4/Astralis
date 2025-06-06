@@ -22,15 +22,17 @@ weapons: [
   reload: 7.75
   mirror: false
   layerOffset: 0
+  inaccuracy: 4.5
   bullet: {
   type: MissileBulletType
   damage: 20
   lifetime: 55
-  width: 7
-  height: 6
+  width: 5
+  height: 7
   speed: 4.10
   backColor: cb3535
   frontColor: ffffff
+  shootSound: missile
   }
   }
 ]
