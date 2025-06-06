@@ -9,6 +9,8 @@ research: {
   objectives: [
     crystal-kiln,
     cryogenic-distiller,
+    unit-capture,
+    assault-unit-fprge,
     {
       type: SectorComplete
       preset: burning-ravine
