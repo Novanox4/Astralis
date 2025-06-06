@@ -9,8 +9,9 @@ research: {
   objectives: [
     crystal-kiln,
     cryogenic-distiller,
-    unit-capture,
-    assault-unit-forge,
+    metaglass-wall,
+    large-metaglass-wall,
+    remediator,
     {
       type: SectorComplete
       preset: burning-ravine
