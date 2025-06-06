@@ -20,3 +20,5 @@ requirements: [
     power: 1.66
       }
 category: effect
+size: 2
+squareSprite: false
