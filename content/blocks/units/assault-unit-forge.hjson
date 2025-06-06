@@ -19,9 +19,22 @@ requirements: [
     time: 1250
     }
   ]
-research: core-fort
+research: {
+  parent: core-fort
+  objectives: [
+  {
+  type: CaptureSector
+  preset: burning-ravine
+    }
+  ]
+}
 requirements: [
   item-crystalite/150
   item-silver/80
   metaglass/65
+  ]
+researchCost: [
+  item-crystalite/125
+  metaglass/225
+  item-uranium/425
   ]
