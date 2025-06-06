@@ -10,7 +10,7 @@ research: {
     crystal-kiln,
     cryogenic-distiller,
     unit-capture,
-    assault-unit-fprge,
+    assault-unit-forge,
     {
       type: SectorComplete
       preset: burning-ravine
