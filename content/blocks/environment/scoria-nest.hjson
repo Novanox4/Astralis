@@ -22,6 +22,7 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-flu
+    createChance: 0.85
     }
     {
     type: EmptyBulletType
