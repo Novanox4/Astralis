@@ -1,0 +1,37 @@
+type: PowerTurret
+buildVisibility: editorOnly
+size: 3
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+recoil: 0
+reload: 400
+alwaysShooting: true
+consumes: {}
+shootType:
+  type: MultiBulletType
+  bullets: [
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-hunger
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-hunger
+    createChance: 0.5
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-hunger
+    createChance: 0.5
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-malady
+    createChance: 0.125
+    }
