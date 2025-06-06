@@ -1,6 +1,6 @@
 color: 303030
 explosiveness: 0
-flammability: 0.3
+flammability: 1
 radioactivity: 0
 charge: 0
 cost: 0.1
