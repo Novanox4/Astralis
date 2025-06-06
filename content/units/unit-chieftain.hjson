@@ -13,7 +13,7 @@ engines: [
 }
 ]
 name: Chieftain
-description: "Air assault unit. Attacks using missles"
+description: "Air assault unit. Attacks using missiles"
 weapons: [
   {
   x: 0
