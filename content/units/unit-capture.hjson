@@ -3,7 +3,6 @@ flying: true
 health: 325
 speed: 3.25
 hitSize: 8
-fogRadius: 0
 itemCapacity: 50
 engineSize: 0
 groundLayer: 60
