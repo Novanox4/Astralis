@@ -6,7 +6,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 recoil: 0
-reload: 2500
+reload: 2750
 alwaysShooting: true
 shootSound: none
 shootX: 0
@@ -22,25 +22,25 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-flu
-    createChance: 0.85
+    createChance: 0.7
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-flu
-    createChance: 0.65
+    createChance: 0.45
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-flu
-    createChance: 0.5
+    createChance: 0.35
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-malady
-    createChance: 0.125
+    createChance: 0.075
     }
   ]
 }
@@ -50,3 +50,10 @@ drawer: {
   basePrefix: astral-invisible-
   }
 name: Scoria Nest
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: rockBreak
+placeSound: rockBreak
+health: 1750
