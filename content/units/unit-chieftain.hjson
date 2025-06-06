@@ -23,6 +23,7 @@ weapons: [
   mirror: false
   layerOffset: 0
   inaccuracy: 4.5
+  shootSound: missile
   bullet: {
   type: MissileBulletType
   damage: 20
@@ -32,7 +33,6 @@ weapons: [
   speed: 4.10
   backColor: cb3535
   frontColor: ffffff
-  shootSound: missile
   }
   }
 ]
