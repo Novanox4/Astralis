@@ -8,6 +8,12 @@ squareSprite: false
 recoil: 0
 reload: 400
 alwaysShooting: true
+shootSound: none
+shootX: 0
+shootY: 0
+xRand: 0.4
+yRand: 0.3
+shootEffect: none
 consumes: {}
 shootType: {
   type: MultiBulletType
@@ -15,18 +21,18 @@ shootType: {
     {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-hunger
+    spawnUnit: unit-flu
     }
     {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-hunger
-    createChance: 0.5
+    spawnUnit: unit-flu
+    createChance: 0.65
     }
     {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-hunger
+    spawnUnit: unit-flu
     createChance: 0.5
     }
     {
