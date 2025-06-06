@@ -2,7 +2,7 @@ type: flying
 flying: true
 health: 675
 speed: 1.75
-hitSize: 13.5
+hitSize: 10
 itemCapacity: 65
 engines: [
 {
