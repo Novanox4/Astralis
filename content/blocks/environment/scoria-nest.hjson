@@ -9,7 +9,7 @@ recoil: 0
 reload: 400
 alwaysShooting: true
 consumes: {}
-shootType:
+shootType: {
   type: MultiBulletType
   bullets: [
     {
@@ -35,3 +35,5 @@ shootType:
     spawnUnit: unit-malady
     createChance: 0.125
     }
+  ]
+}
