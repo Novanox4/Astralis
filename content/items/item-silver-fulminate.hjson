@@ -2,7 +2,7 @@ color: b5ac10
 name: Silver Fulminate
 description: Highly explosive silver compound. Used as ammo in weaponry, or to fuel reactors.
 explosiveness: 1.5
-flammability: 0
+flammability: 1.75
 radioactivity: 0
 charge: 0
 cost: 1
