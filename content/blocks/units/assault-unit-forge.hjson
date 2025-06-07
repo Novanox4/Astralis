@@ -30,8 +30,8 @@ research: {
 }
 requirements: [
   item-crystalite/150
-  item-silver/80
-  metaglass/65
+  item-uranium/125
+  metaglass/75
   ]
 researchCost: [
   item-crystalite/125
