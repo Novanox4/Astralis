@@ -8,7 +8,7 @@ destroyBullet: {
   bullets: [
     {
     type: BulletType
-    lifetime: 20
+    lifetime: 45
     damage: 4
     splashDamage: 6
     splashDamageRadius: 20
