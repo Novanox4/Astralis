@@ -23,7 +23,7 @@ unit: unit-chieftain
 requirements: [
     item-crystalite/75
     item-uranium/120
-    silver/65
+    item-silver/65
       ]
     time: 1750
     }
