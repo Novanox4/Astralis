@@ -12,6 +12,7 @@ research: {
     metaglass-wall,
     large-metaglass-wall,
     remediator,
+    lamp,
     {
       type: SectorComplete
       preset: burning-ravine
