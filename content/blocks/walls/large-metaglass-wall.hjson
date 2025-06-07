@@ -3,19 +3,21 @@ health: 1200
 size: 2
 destroyBulletSameTeam: true
 destroyBullet: { 
-  type: MultiBulletType
-  repeat: 5
-  bullets: [
-    {
-    type: BulletType
+  type: BulletType
+  lifetime: 0
+  damage: 0
+  instantDissapear: true
+  fragBullets: 5
+  fragBullet: {
+    type: BasicBulletType
     lifetime: 45
-    damage: 4
+    damage: 4.5
     splashDamage: 6
     splashDamageRadius: 20
     backColor: d0d0e0
     frontColor: ffffff
-    }
-  ]
+    speed: 4.25
+  }
 }
 requirements: [
   metaglass/45
