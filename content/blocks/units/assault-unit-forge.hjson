@@ -18,6 +18,15 @@ requirements: [
       ]
     time: 1250
     }
+    {
+unit: unit-chieftain
+requirements: [
+    item-crystalite/75
+    item-uranium/120
+    silver/65
+      ]
+    time: 1750
+    }
   ]
 research: {
   parent: core-fort
