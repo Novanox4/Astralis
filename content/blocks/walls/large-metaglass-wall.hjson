@@ -1,0 +1,29 @@
+type: Wall
+health: 1200
+size: 2
+destroyBulletSameTeam: true
+destroyBullet: { 
+  type: MultiBulletType
+  repeat: 5
+  bullets: [
+    {
+    type: BulletType
+    lifetime: 20
+    damage: 4
+    splashDamage: 6
+    splashDamageRadius: 20
+    backColor: d0d0e0
+    frontColor: ffffff
+    }
+  ]
+}
+requirements: [
+  metaglass/45
+  ]
+researchCost: [
+  metaglass/600
+  ]
+research: metaglass-wall
+category: defense
+name: Large Metaglass Wall
+description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction
