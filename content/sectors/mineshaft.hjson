@@ -1,6 +1,12 @@
-localizedName: "Mineshaft (PLACEHOLDER)"
+localizedName: "Mineshaft"
 description: "[accent][SIGNAL INCOMING][]
-[Incoming message from superintendent TARTAR-us]"
+[Incoming message from superintendent TARTAR-us]
+[red][ENEMY BASE DETECTED][]
+A large silver mining operation has been discovered. Biological threats are higher than before, be careful. 
+
+Research and use down the [accent]Assault Unit Forge[] and attack the enemy base found. Extract silver, use it to research new technologies.
+
+[accent]Scoria nests[] are present here, and biological units will emerge soon after. They will attack Hell Inc's bases first, and will most likely not focus you."
 sector: 64
 planet: astralis
 difficulty: 2
@@ -13,6 +19,8 @@ research: {
     large-metaglass-wall,
     remediator,
     lamp,
+    assault-unit-forge,
+    unit-capture,
     {
       type: SectorComplete
       preset: burning-ravine
