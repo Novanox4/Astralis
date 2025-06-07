@@ -1,0 +1,35 @@
+type: Wall
+health: 300
+size: 1
+destroyBulletSameTeam: true
+destroyBullet: { 
+  type: MultiBulletType
+  repeat: 5
+  bullets: [
+    {
+    type: BulletType
+    lifetime: 3
+    damage: 3
+    splashDamage: 4
+    splashDamageRadius: 16
+    backColor: d0d0e0
+    frontColor: ffffff
+    }
+  ]
+}
+requirements: [
+  metaglass/15
+  ]
+researchCost: [
+  metaglass/150
+  ]
+research: {
+  parent: crystalite-wall
+  objectives: [
+    crystal-kiln,
+    turret-slice,
+    ]
+    }
+category: defense
+name: Metaglass Wall
+description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction
