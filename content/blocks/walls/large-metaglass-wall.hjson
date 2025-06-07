@@ -7,7 +7,7 @@ destroyBullet: {
   lifetime: 0
   damage: 0
   instantDissapear: true
-  fragBullets: 5
+  fragBullets: 9
   fragBullet: {
     type: BasicBulletType
     lifetime: 45
