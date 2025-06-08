@@ -66,4 +66,4 @@ explodeEffect: {
 powerProduction: 12.5
 size: 3
 category: power
-heating: 0.0001
+heating: 0.00045
