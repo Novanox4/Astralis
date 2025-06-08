@@ -39,18 +39,30 @@ drawer: {
   ]
 }
 explodeEffect: {
+  type: MultiEffectType
+  effects: [
+  {
   type: ExplosionEffect
-  smokeColor: 2abd2bff
   waveColor: 2abd2bff
-  smokes: 12
-  smokeSize: 45
+  smokes: 0
   sparks: 10
-  sparkRad: 120
-  lifetime: 250
-  smokeRad: 82.5
+  sparkRad: 150
+  lifetime: 100
   waveLife: 10
   waveRad: 145
-    }
+  }
+  {
+  type: WrapEffect
+  color: 2abd2bff
+  effect: titanSmoke
+  }
+  {
+  type: WrapEffect
+  color: 2abd2bff
+  effect: titanSmokeLarge
+  }
+]
+}
 powerProduction: 12.5
 size: 3
 category: power
