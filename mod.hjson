@@ -2,8 +2,10 @@ name: "astralis"
 displayName: "Astralis"
 description: "
 IN DEVELOPMENT, EXPECT BUGS AND UNFINISHED/UNPOLISHED CONTENT!
-Astralis is a mod focused on adding a brand new campaign on a planet harboring the same name"
-subtitle: "IT STARED BACK"
+Astralis is a mod focused on adding a brand new campaign on a planet harboring the same name.
+Set in the same universe as Hell Industries (althought not as horribly painful), fight hordes of eldritch AND mechanical horrors alike with your own mechanical horrors!
+Overthrow a government, kill god and ravage an entire planet now!"
+subtitle: "The void stared back"
 repo: novanox4/Astralis
 version: 1.0
 minGameVersion: 149
