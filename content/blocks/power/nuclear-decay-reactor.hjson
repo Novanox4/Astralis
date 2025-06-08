@@ -8,6 +8,7 @@ fuelItem: item-uranium
 itemCapacity: 25
 consumes: {
   liquid: water/2
+  item: item-uranium/1
     }
 requirements: [
   item-uranium/325
