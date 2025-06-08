@@ -7,11 +7,11 @@ hitSize: 10
 mineWalls: true
 mineFloor: true
 mineSpeed: 3.5
-mineTier: 4
+mineTier: 3
 controller: BuilderAI
-buildBeamOffset: 12
+buildBeamOffset: 10
 fogRadius: 0
-itemCapacity: 50
+itemCapacity: 75
 engineSize: 0
 groundLayer: 60
 research: {
@@ -20,15 +20,15 @@ research: {
     }
 engines: [
 {
-  x: -2.5
-  y: -5
-  radius: 1.65
+  x: -3.5
+  y: -7.75
+  radius: 2.5
   rotation: 90
 }
 {
-  x: 2.5
-  y: -5
-  radius: 1.65
+  x: 3.5
+  y: -7.75
+  radius: 2.5
   rotation: 90
 }
 ]
