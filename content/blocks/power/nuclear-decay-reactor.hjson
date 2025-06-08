@@ -40,7 +40,7 @@ drawer: {
 }
 explodeEffect: {
   type: WrapEffect
-  effect: titanSmoke
+  effect: impactReactorExplosion
   color: 2abd2bff
     }
 powerProduction: 5.75
