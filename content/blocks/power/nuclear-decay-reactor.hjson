@@ -39,9 +39,11 @@ drawer: {
   ]
 }
 explodeEffect: {
-  type: WrapEffect
-  effect: impactReactorExplosion
-  color: 2abd2bff
+  type: ExplosionEffect
+  smokeColor: 2abd2bff
+  smokes: 12
+  smokeSize: 5.25
+  sparks: 10
     }
 powerProduction: 5.75
 size: 3
