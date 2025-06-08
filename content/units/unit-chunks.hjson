@@ -1,0 +1,46 @@
+type: flying
+flying: true
+health: 325
+speed: 4.25
+buildSpeed: 1.3
+hitSize: 10
+mineWalls: true
+mineFloor: true
+mineSpeed: 3.5
+mineTier: 4
+controller: BuilderAI
+buildBeamOffset: 12
+fogRadius: 0
+itemCapacity: 50
+engineSize: 0
+groundLayer: 60
+research: {
+  parent: core-agora
+  requiresUnlock: false
+    }
+engines: [
+{
+  x: -2.5
+  y: -5
+  radius: 1.65
+  rotation: 90
+}
+{
+  x: 2.5
+  y: -5
+  radius: 1.65
+  rotation: 90
+}
+]
+name: Chunks
+description: "Defender of the Core: Agora. Better than the previous iteration, but unable to attack. Builds healer drones to aid in repairing damaged structures"
+weapons: []
+abilities: [
+    {
+    type: EnergyFieldAbility
+    effect: overdrive
+    reload: 225
+    duration: 275
+    }
+]
+outlineColor: 323232
