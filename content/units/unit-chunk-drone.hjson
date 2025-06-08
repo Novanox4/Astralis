@@ -13,15 +13,22 @@ groundLayer: 60
 targetable: false
 engines: [
 {
-  y: -3
-  radius: 1
+  y: -3.25
+  radius: 1.5
   rotation: 90
 }
 ]
 name: Chunk Drone
 description: "Repairs buildings"
 weapons: [
+  {
   continuous: true
   alwaysContinuous: true
+  bullet: {
+    type: ContinuousLaserBulletType
+    damage: 0
+    healPercent: 0.1
+    }
+  }
 ]
 outlineColor: 323232
