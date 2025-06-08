@@ -24,8 +24,10 @@ weapons: [
   {
   continuous: true
   alwaysContinuous: true
+  x: 0
+  y: 3
   bullet: {
-    type: ContinuousLaserBulletType
+    type: PointLaserBulletType
     damage: 0
     healPercent: 0.1
     }
