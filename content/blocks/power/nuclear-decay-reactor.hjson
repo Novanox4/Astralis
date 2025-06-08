@@ -41,3 +41,5 @@ explodeEffect: {
   color: 2abd2bff
     }
 powerProduction: 5.75
+size: 3
+category: power
