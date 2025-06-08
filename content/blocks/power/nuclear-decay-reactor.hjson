@@ -9,14 +9,14 @@ itemCapacity: 25
 consumes: {
   liquid: water/2
     }
-requirements: {
+requirements: [
   item-uranium/325
   item-crystalite/400
   item-cerium/175
   metaglass/250
   item-silver/275
   item-neodymium/125
-    }
+    ]
 researchCostMultiplier: 0.75
 drawer: {
   type: DrawMulti
