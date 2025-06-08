@@ -22,14 +22,14 @@ name: Chunk Drone
 description: "Repairs buildings"
 weapons: [
   {
+  type: RepairBeamWeapon
   continuous: true
   alwaysContinuous: true
   x: 0
   y: 3
-  bullet: {
-    type: PointLaserBulletType
-    damage: 0
-    healPercent: 0.1
+  targetBuildings: true
+  targetUnits: false
+  repairSpeed: 0.1
     }
   }
 ]
