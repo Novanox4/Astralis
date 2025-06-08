@@ -39,15 +39,9 @@ drawer: {
   ]
 }
 explodeEffect: {
-  type: ParticleEffect
-  colorFrom: 2abd2bff
-  colorTo: 2abd2bff
-  particles: 20
-  cone: 360
-  sizeFrom: 5
-  sizeChangeStart: 150
-  length: 20
-  lightColor: 2abd2b
+  type: WrapEffect
+  effect: titanSmoke
+  color: 2abd2bff
     }
 powerProduction: 5.75
 size: 3
