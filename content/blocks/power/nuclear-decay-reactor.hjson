@@ -31,7 +31,6 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: water
-      padding: 1
     }
     {
       type: DrawDefault
