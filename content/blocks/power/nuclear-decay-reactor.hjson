@@ -41,9 +41,11 @@ drawer: {
 explodeEffect: {
   type: ExplosionEffect
   smokeColor: 2abd2bff
+  waveColor: 2abd2bff
   smokes: 12
   smokeSize: 5.25
   sparks: 10
+  lifetime: 250
     }
 powerProduction: 5.75
 size: 3
