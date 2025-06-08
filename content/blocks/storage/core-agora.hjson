@@ -9,7 +9,7 @@ unitCapModifier: 25
 requirements: [
   item-crystalite/4500
   item-uranium/4000
-  item-metaglass/1500
+  metaglass/1500
   item-silver/3250
   ]
 research: {
