@@ -46,7 +46,7 @@ explodeEffect: {
   cone: 360
   sizeFrom: 5
   sizeChangeStart: 60
-  sizeInterp: exp3Out
+  interp: pow3In
   length: 1.75
     }
 powerProduction: 5.75
