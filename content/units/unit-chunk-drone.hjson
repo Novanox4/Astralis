@@ -31,6 +31,6 @@ weapons: [
   targetUnits: false
   repairSpeed: 0.1
     }
-  }
-]
+  ]
+}
 outlineColor: 323232
