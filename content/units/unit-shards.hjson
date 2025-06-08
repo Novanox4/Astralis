@@ -9,7 +9,7 @@ mineFloor: true
 mineSpeed: 3
 mineTier: 3
 controller: BuilderAI
-buildBeamOffset: 12
+buildBeamOffset: 6
 fogRadius: 0
 itemCapacity: 50
 engineSize: 0
