@@ -1,0 +1,27 @@
+type: CoreBlock
+squareSprite: false
+health: 12500
+itemCapacity: 8750
+size: 4
+category: effect
+unitType: unit-shards
+unitCapModifier: 25
+requirements: [
+  item-crystalite/4500
+  item-uranium/4000
+  item-metaglass/1500
+  item-silver/3250
+  ]
+research: {
+  parent: core-fort
+  objectives: [
+    turret-reverberate,
+    unit-chieftain,
+    nuclear-decay-reactor,
+      {
+      type: SectorComplete
+      preset: mineshaft
+      }
+    ]
+  }
+name: "Core: Agora"
