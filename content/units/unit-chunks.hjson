@@ -21,13 +21,13 @@ research: {
 engines: [
 {
   x: -3.5
-  y: -7.75
+  y: -7
   radius: 2.5
   rotation: 90
 }
 {
   x: 3.5
-  y: -7.75
+  y: -7
   radius: 2.5
   rotation: 90
 }
@@ -39,8 +39,9 @@ abilities: [
     {
     type: StatusFieldAbility
     effect: overdrive
-    reload: 225
-    duration: 275
+    reload: 500
+    duration: 525
+    range: 65
     }
 ]
 outlineColor: 323232
