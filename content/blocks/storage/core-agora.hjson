@@ -4,7 +4,7 @@ health: 12500
 itemCapacity: 8750
 size: 4
 category: effect
-unitType: unit-shards
+unitType: unit-chunks
 unitCapModifier: 25
 requirements: [
   item-crystalite/4500
