@@ -45,9 +45,9 @@ explodeEffect: {
   particles: 20
   cone: 360
   sizeFrom: 5
-  sizeChangeStart: 60
+  sizeChangeStart: 150
   interp: pow3In
-  length: 1.75
+  length: 20
     }
 powerProduction: 5.75
 size: 3
