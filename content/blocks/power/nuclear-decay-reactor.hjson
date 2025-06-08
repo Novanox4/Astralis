@@ -6,6 +6,7 @@ explosionRadius: 4
 explosionDamage: 10000
 fuelItem: item-uranium
 itemCapacity: 25
+coolantPower: 0.01
 consumes: {
   liquid: water/2
   items: [
