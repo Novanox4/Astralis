@@ -39,7 +39,7 @@ drawer: {
   ]
 }
 explodeEffect: {
-  type: MultiEffectType
+  type: MultiEffect
   effects: [
   {
   type: ExplosionEffect
