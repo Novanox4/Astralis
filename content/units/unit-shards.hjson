@@ -9,7 +9,6 @@ mineFloor: true
 mineSpeed: 3
 mineTier: 3
 controller: BuilderAI
-defaultController: BuilderAI
 buildBeamOffset: 12
 fogRadius: 0
 itemCapacity: 50
