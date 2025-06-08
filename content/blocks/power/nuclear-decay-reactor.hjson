@@ -43,14 +43,14 @@ explodeEffect: {
   smokeColor: 2abd2bff
   waveColor: 2abd2bff
   smokes: 12
-  smokeSize: 5.25
+  smokeSize: 45
   sparks: 10
-  sparkRad: 95
+  sparkRad: 120
   lifetime: 250
-  smokeRad: 70
-  waveLife: 24
-  waveRad: 50
+  smokeRad: 82.5
+  waveLife: 10
+  waveRad: 145
     }
-powerProduction: 5.75
+powerProduction: 12.5
 size: 3
 category: power
