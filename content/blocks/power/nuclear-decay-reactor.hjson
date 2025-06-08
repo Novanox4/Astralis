@@ -45,7 +45,11 @@ explodeEffect: {
   smokes: 12
   smokeSize: 5.25
   sparks: 10
+  sparkRad: 95
   lifetime: 250
+  smokeRad: 70
+  waveLife: 24
+  waveRad: 50
     }
 powerProduction: 5.75
 size: 3
