@@ -39,9 +39,15 @@ drawer: {
   ]
 }
 explodeEffect: {
-  type: WrapEffect
-  effect: reactorExplosion
-  color: 2abd2bff
+  type: ParticleEffect
+  colorFrom: 2abd2bff
+  colorTo: 2abd2bff
+  particles: 20
+  cone: 360
+  sizeFrom: 5
+  sizeChangeStart: 60
+  sizeInterp: expOut
+  length: 1.75
     }
 powerProduction: 5.75
 size: 3
