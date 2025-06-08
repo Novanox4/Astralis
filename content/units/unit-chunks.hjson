@@ -21,14 +21,14 @@ research: {
 engines: [
 {
   x: -3.25
-  y: -6.85
-  radius: 2.5
+  y: -6.5
+  radius: 2.25
   rotation: 90
 }
 {
   x: 3.25
-  y: -6.85
-  radius: 2.5
+  y: -6.5
+  radius: 2.25
   rotation: 90
 }
 ]
