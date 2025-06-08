@@ -37,7 +37,7 @@ description: "Defender of the Core: Agora. Better than the previous iteration, b
 weapons: []
 abilities: [
     {
-    type: EnergyFieldAbility
+    type: StatusFieldAbility
     effect: overdrive
     reload: 225
     duration: 275
