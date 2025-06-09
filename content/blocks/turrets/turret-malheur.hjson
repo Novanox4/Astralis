@@ -18,9 +18,9 @@ rotateSpeed: 2.6
 coolant: {
 type: ConsumeLiquid
 liquid: water
-amount: 0.225
+amount: 0.45
 }
-coolantMultiplier: 2.15
+coolantMultiplier: 3
 requirements: [
   item-crystalite/300
   item-silver/225
