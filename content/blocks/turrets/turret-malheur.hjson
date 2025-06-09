@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Malheur
+description: Shoots many bullets out of alternating barrels.
+category: turret
+range: 225
+size: 3
+squareSprite: false
+shootSound: shootAltLong
+reload: 10
+health: 2800
+minWarmup: 0.55
+ammoPerShot: 1
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -pointers
+    moveX: 0
+    moveY: 0.6
+    progress: warmup
+    heatProgress: warmup
+    y: -0.075
+    }
+    {
+  suffix: -barrel
+  progress: recoil
+  heatProgress: warmup
+  moveY: -1.25
+    }
+  ]
+}
+rotateSpeed: 2.6
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 0.225
+}
+coolantMultiplier: 1.25
+requirements: [
+  item-crystalite/300
+  item-silver/225
+  item-uranium/375
+]
+shoot: {
+  type: ShootAlternate
+  spread: 10
+  shotDelay: 1.75
+}
