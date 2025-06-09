@@ -28,7 +28,7 @@ weapons: [
   type: RepairBeamWeapon
   reload: 20
   x: 0
-  y: 3
+  y: 2.75
   targetBuildings: true
   targetUnits: false
   repairSpeed: 0.175
