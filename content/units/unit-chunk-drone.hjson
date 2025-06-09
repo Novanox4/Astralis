@@ -31,6 +31,15 @@ weapons: [
   targetUnits: false
   repairSpeed: 0.1
   controllable: true
+  mirror: false
+  aimDst: 0
+  shootCone: 15
+  laserColor: ffd27e
+  healColor: ffd27e
+  bullet: {
+    type: BulletType
+    maxRange: 30
+    }
   }
 ]
 outlineColor: 323232
