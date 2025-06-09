@@ -22,8 +22,8 @@ mirror: false
 shootEffect: none
 bullet: {
   type: BasicBulletType
-  width: 12
-  height: 12
+  width: 10
+  height: 8.5
   trailLength: 22.5
   trailColor: 12963c
   frontColor: ffffff
