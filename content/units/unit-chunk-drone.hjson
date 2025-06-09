@@ -42,7 +42,7 @@ weapons: [
   rotate: false
   bullet: {
     type: BulletType
-    maxRange: 30
+    maxRange: 35
     }
   }
 ]
