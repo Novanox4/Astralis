@@ -1,0 +1,38 @@
+type: legs
+legCount: 4
+legGroupSize: 2
+legLength: 8.5
+legBaseOffset: 0
+name: Pollen
+description: Spider mech that fires a barrage of energy bullets and lasers.
+flying: false
+health: 450
+baseLegStraightness: 0
+legContinuousMove: false
+legExtension: -2
+weapons: [
+{
+recoil: 0
+x: 0
+y: 3
+reload: 4
+shootX: 0
+shootSound: laserShoot
+mirror: false
+bullet: {
+  type: BasicBulletType
+  width: 6
+  height: 6
+  sprite: circle-bullet
+  trailLength: 3
+  frontColor: 12963c
+  backColor: 12963c
+  damage: 4
+  }
+}
+]
+planet: astralis
+speed: 1.2
+hitSize: 7
+legSpeed: 0.75
+outlineColor: 323232
