@@ -28,7 +28,7 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 8.75
+  spread: 8.25
   shotDelay: 1.75
 }
 ammoTypes: {
