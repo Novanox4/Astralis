@@ -23,8 +23,7 @@ description: "Repairs buildings"
 weapons: [
   {
   type: RepairBeamWeapon
-  continuous: true
-  alwaysContinuous: true
+  reload: 20
   x: 0
   y: 3
   targetBuildings: true
