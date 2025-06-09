@@ -37,6 +37,7 @@ weapons: [
   laserColor: ffd27e
   healColor: ffd27e
   beamWidth: 0.5
+  rotate: false
   bullet: {
     type: BulletType
     maxRange: 30
