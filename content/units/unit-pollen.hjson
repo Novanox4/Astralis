@@ -17,7 +17,7 @@ x: 0
 y: 3
 reload: 4
 shootX: 0
-shootSound: laserShoot
+shootSound: lasershoot
 mirror: false
 bullet: {
   type: BasicBulletType
@@ -28,6 +28,7 @@ bullet: {
   frontColor: 12963c
   backColor: 12963c
   damage: 4
+  weaveMag: 6
   }
 }
 ]
