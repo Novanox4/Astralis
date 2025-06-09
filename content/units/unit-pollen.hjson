@@ -61,3 +61,10 @@ speed: 1.2
 hitSize: 7
 legSpeed: 0.75
 outlineColor: 323232
+research: unit-receptacle
+researchCost: [
+  item-crystalite/250
+  item-silver/450
+  item-uranium/375
+  metaglass/325
+  ]
