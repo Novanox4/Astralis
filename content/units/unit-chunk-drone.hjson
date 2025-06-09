@@ -30,6 +30,7 @@ weapons: [
   targetBuildings: true
   targetUnits: false
   repairSpeed: 0.1
+  controllable: true
   }
 ]
 outlineColor: 323232
