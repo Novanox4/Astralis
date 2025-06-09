@@ -28,12 +28,30 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: 12963c
-  damage: 4.5
+  damage: 6.5
   weaveMag: 1.65
   weaveScale: 7.25
   shrinkY: 0
   lifetime: 55
   speed: 2.5
+  shootEffect: none
+  }
+}
+{
+recoil: 0
+x: 0
+y: 3
+reload: 12
+shootX: 0
+shootSound: laser
+mirror: false
+shootEffect: none
+bullet: {
+  type: LaserBulletType
+  width: 10
+  length: 100
+  colors: [aeead4, aeead4, ffffff]
+  damage: 6.5
   shootEffect: none
   }
 }
