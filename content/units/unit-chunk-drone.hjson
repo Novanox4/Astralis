@@ -4,7 +4,6 @@ health: 75
 speed: 4.5
 hitSize: 5
 controller: repairAi
-defaultController: repairAi
 buildBeamOffset: 10
 fogRadius: 0
 itemCapacity: 0
