@@ -1,0 +1,53 @@
+type: UnitFactory
+name: SupportAssault Unit Forge
+description: Creates units made for supporting in attacks/defending using raw materials, water and nitrogen.
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 1.45
+  liquids: [
+    nitrogen/0.125
+    water/0.175
+    ]
+    }
+plans: [
+    {
+unit: unit-receptacle
+requirements: [
+    item-crystalite/35
+    item-uranium/45
+    silver/35
+      ]
+    time: 1325
+    }
+    {
+unit: unit-pollen
+requirements: [
+    metaglass/55
+    item-uranium/13020
+    item-silver/75
+      ]
+    time: 1875
+    }
+  ]
+research: {
+  parent: assault-unit-forge
+  objectives: [
+  turret-augur,
+  {
+  type: CaptureSector
+  preset: mineshaft
+    }
+  ]
+}
+requirements: [
+  item-crystalite/150
+  item-uranium/125
+  silver/75
+  ]
+researchCost: [
+  item-crystalite/125
+  silver/225
+  item-uranium/425
+  ]
