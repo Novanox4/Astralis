@@ -23,7 +23,7 @@ engines: [
 }
 ]
 name: Healer Drone
-description: "Repairs buildings"
+description: "Repairs nearby buildings and units"
 weapons: [
   {
   type: RepairBeamWeapon
@@ -31,9 +31,9 @@ weapons: [
   x: 0
   y: 2
   targetBuildings: true
-  targetUnits: false
-  repairSpeed: 0.125
-  fractionRepairSpeed: 0.035
+  targetUnits: true
+  repairSpeed: 0.075
+  fractionRepairSpeed: 0.03
   mirror: false
   aimDst: 0
   shootCone: 15
