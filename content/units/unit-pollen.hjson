@@ -6,7 +6,7 @@ legBaseOffset: 0
 name: Pollen
 description: Spider mech that fires a barrage of energy bullets and lasers.
 flying: false
-health: 450
+health: 850
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -2
