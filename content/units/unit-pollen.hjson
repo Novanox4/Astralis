@@ -19,16 +19,18 @@ reload: 4
 shootX: 0
 shootSound: missile
 mirror: false
+shootEffect: none
 bullet: {
   type: BasicBulletType
   width: 12
   height: 12
-  trailLength: 10
+  trailLength: 22.5
+  trailColor: 12963c
   frontColor: ffffff
   backColor: 12963c
   damage: 4
-  weaveMag: 3
-  weaveScale: 9
+  weaveMag: 2.25
+  weaveScale: 7.25
   shrinkY: 0
   lifetime: 60
   speed: 2.5
