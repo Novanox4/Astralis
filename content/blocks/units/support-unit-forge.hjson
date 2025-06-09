@@ -25,7 +25,7 @@ requirements: [
 unit: unit-pollen
 requirements: [
     metaglass/55
-    item-uranium/13020
+    item-uranium/130
     item-silver/75
       ]
     time: 1875
