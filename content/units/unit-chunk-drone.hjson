@@ -4,7 +4,7 @@ health: 75
 speed: 4.5
 hitSize: 5
 controller: repairAi
-defaultCommand: repairCommand
+defaultCommand: repair
 fogRadius: 0
 itemCapacity: 0
 engineSize: 0
