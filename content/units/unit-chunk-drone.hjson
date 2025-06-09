@@ -28,13 +28,15 @@ weapons: [
   y: 3
   targetBuildings: true
   targetUnits: false
-  repairSpeed: 0.1
+  repairSpeed: 0.175
+  fractionRepairSpeed: 0.05
   controllable: true
   mirror: false
   aimDst: 0
   shootCone: 15
   laserColor: ffd27e
   healColor: ffd27e
+  beamWidth: 0.5
   bullet: {
     type: BulletType
     maxRange: 30
