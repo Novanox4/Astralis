@@ -9,7 +9,7 @@ itemCapacity: 0
 engineSize: 0
 groundLayer: 60
 targetable: false
-hittable: false
+hittable: true
 canHeal: true
 isEnemy: false
 logicControllable: false
