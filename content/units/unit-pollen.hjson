@@ -23,9 +23,8 @@ bullet: {
   type: BasicBulletType
   width: 6
   height: 6
-  sprite: circle-bullet
   trailLength: 3
-  frontColor: 12963c
+  frontColor: ffffff
   backColor: 12963c
   damage: 4
   weaveMag: 6
