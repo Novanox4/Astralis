@@ -6,7 +6,7 @@ range: 225
 size: 3
 squareSprite: false
 shootSound: shootAltLong
-reload: 3.5
+reload: 3.75
 health: 2800
 minWarmup: 0.55
 ammoPerShot: 1
@@ -20,7 +20,7 @@ type: ConsumeLiquid
 liquid: water
 amount: 0.225
 }
-coolantMultiplier: 1.25
+coolantMultiplier: 2.15
 requirements: [
   item-crystalite/300
   item-silver/225
