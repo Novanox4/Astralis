@@ -22,7 +22,7 @@ engines: [
   rotation: 90
 }
 ]
-name: Chunk Drone
+name: Healer Drone
 description: "Repairs buildings"
 weapons: [
   {
