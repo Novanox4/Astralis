@@ -1,5 +1,5 @@
 type: UnitFactory
-name: SupportAssault Unit Forge
+name: Support Unit Forge
 description: Creates units made for supporting in attacks/defending using raw materials, water and nitrogen.
 configurable: true
 size: 3
@@ -44,7 +44,7 @@ research: {
 requirements: [
   item-crystalite/150
   item-uranium/125
-  silver/75
+  item-silver/75
   ]
 researchCost: [
   item-crystalite/15025
