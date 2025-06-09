@@ -16,9 +16,10 @@ drawer: {
     }
 rotateSpeed: 2.6
 coolant: {
-type: ConsumeLiquid
-liquid: water
-amount: 0.45
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
 }
 coolantMultiplier: 3
 requirements: [
