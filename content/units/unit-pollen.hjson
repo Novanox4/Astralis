@@ -25,15 +25,16 @@ bullet: {
   width: 10
   height: 8.5
   trailLength: 22.5
-  trailColor: 12963c
+  trailColor: aeead4
   frontColor: ffffff
   backColor: 12963c
-  damage: 4
-  weaveMag: 2.25
+  damage: 4.5
+  weaveMag: 1.65
   weaveScale: 7.25
   shrinkY: 0
-  lifetime: 60
+  lifetime: 55
   speed: 2.5
+  shootEffect: none
   }
 }
 ]
