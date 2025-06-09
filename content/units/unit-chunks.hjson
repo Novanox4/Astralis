@@ -44,6 +44,7 @@ abilities: [
     range: 65
     }
     {
+    type: UnitSpawnAbility
     unit: unit-chunk-drone
     spawnTime: 75
     }
