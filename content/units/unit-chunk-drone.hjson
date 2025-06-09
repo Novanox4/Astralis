@@ -13,7 +13,7 @@ hittable: false
 canHeal: true
 isEnemy: false
 logicControllable: false
-playerControllable: false
+playerControllable: true
 engines: [
 {
   y: -3.3
