@@ -14,7 +14,6 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
     }
-}
 rotateSpeed: 2.6
 coolant: {
 type: ConsumeLiquid
