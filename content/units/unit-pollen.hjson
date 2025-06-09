@@ -28,7 +28,7 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: 12963c
-  damage: 6.5
+  damage: 7.75
   weaveMag: 1.65
   weaveScale: 7.25
   shrinkY: 0
@@ -51,7 +51,7 @@ bullet: {
   width: 10
   length: 100
   colors: [aeead4, aeead4, ffffff]
-  damage: 6.5
+  damage: 20
   shootEffect: none
   }
 }
