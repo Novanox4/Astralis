@@ -1,7 +1,7 @@
 type: legs
-legCount: 4
-legGroupSize: 2
-legLength: 8.5
+legCount: 6
+legGroupSize: 3
+legLength: 22
 legBaseOffset: 0
 name: Pollen
 description: Spider mech that fires a barrage of energy bullets and lasers.
