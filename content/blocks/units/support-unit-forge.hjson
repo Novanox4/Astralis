@@ -17,7 +17,7 @@ unit: unit-receptacle
 requirements: [
     item-crystalite/35
     item-uranium/45
-    silver/35
+    item-silver/35
       ]
     time: 1325
     }
@@ -47,7 +47,8 @@ requirements: [
   silver/75
   ]
 researchCost: [
-  item-crystalite/125
-  silver/225
-  item-uranium/425
+  item-crystalite/15025
+  item-silver/200
+  item-uranium/375
+  metaglass/100
   ]
