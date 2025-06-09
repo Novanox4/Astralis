@@ -6,30 +6,14 @@ range: 225
 size: 3
 squareSprite: false
 shootSound: shootAltLong
-reload: 10
+reload: 3.5
 health: 2800
 minWarmup: 0.55
 ammoPerShot: 1
 drawer: {
   type: DrawTurret
   basePrefix: astral-
-  parts: [
-    {
-    type: RegionPart
-    suffix: -pointers
-    moveX: 0
-    moveY: 0.6
-    progress: warmup
-    heatProgress: warmup
-    y: -0.075
     }
-    {
-  suffix: -barrel
-  progress: recoil
-  heatProgress: warmup
-  moveY: -1.25
-    }
-  ]
 }
 rotateSpeed: 2.6
 coolant: {
@@ -45,7 +29,7 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 10
+  spread: 8.75
   shotDelay: 1.75
 }
 ammoTypes: {
@@ -58,5 +42,7 @@ ammoTypes: {
     backColor: 38a6c9
     speed: 6
     lifetime: 75
+    height: 10
+    width: 8.5
     }
   }
