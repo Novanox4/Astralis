@@ -17,17 +17,19 @@ x: 0
 y: 3
 reload: 4
 shootX: 0
-shootSound: lasershoot
+shootSound: missile
 mirror: false
 bullet: {
   type: BasicBulletType
   width: 6
   height: 6
-  trailLength: 3
+  trailLength: 10
   frontColor: ffffff
   backColor: 12963c
   damage: 4
-  weaveMag: 6
+  weaveMag: 3
+  weaveScale: 9
+  shrinkY: 0
   }
 }
 ]
