@@ -29,11 +29,11 @@ weapons: [
   type: RepairBeamWeapon
   reload: 20
   x: 0
-  y: 2.75
+  y: 2
   targetBuildings: true
   targetUnits: false
-  repairSpeed: 0.175
-  fractionRepairSpeed: 0.05
+  repairSpeed: 0.125
+  fractionRepairSpeed: 0.035
   mirror: false
   aimDst: 0
   shootCone: 15
