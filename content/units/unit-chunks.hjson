@@ -43,5 +43,9 @@ abilities: [
     duration: 525
     range: 65
     }
+    {
+    unit: unit-chunk-drone
+    spawnTime: 75
+    }
 ]
 outlineColor: 323232
