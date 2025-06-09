@@ -46,7 +46,7 @@ abilities: [
     {
     type: UnitSpawnAbility
     unit: unit-chunk-drone
-    spawnTime: 750
+    spawnTime: 1500
     }
 ]
 outlineColor: 323232
