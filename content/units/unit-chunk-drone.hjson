@@ -4,7 +4,6 @@ health: 75
 speed: 4.5
 hitSize: 5
 controller: repairAi
-buildBeamOffset: 10
 fogRadius: 0
 itemCapacity: 0
 engineSize: 0
@@ -12,7 +11,7 @@ groundLayer: 60
 targetable: false
 engines: [
 {
-  y: -3.25
+  y: -3.3
   radius: 1.5
   rotation: 90
 }
@@ -29,7 +28,6 @@ weapons: [
   targetUnits: false
   repairSpeed: 0.175
   fractionRepairSpeed: 0.05
-  controllable: true
   mirror: false
   aimDst: 0
   shootCone: 15
