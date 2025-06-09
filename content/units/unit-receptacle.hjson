@@ -60,3 +60,9 @@ speed: 1.35
 hitSize: 4
 legSpeed: 0.75
 outlineColor: 323232
+research: support-unit-forge
+researchCost: [
+  item-crystalite/125
+  item-silver/200
+  item-uranium/300
+  ]
