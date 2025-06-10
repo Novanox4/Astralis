@@ -36,7 +36,7 @@ shoot: {
 ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
-    damage: 20
+    damage: 30
     pierce: false
     frontColor: ffffff
     backColor: 38a6c9
@@ -47,7 +47,7 @@ ammoTypes: {
     }
     item-silver: {
     type: BasicBulletType
-    damage: 26
+    damage: 35
     pierce: true
     pierceCap: 3
     frontColor: ffffff
@@ -59,9 +59,9 @@ ammoTypes: {
     }
     item-charchunk: {
     type: BasicBulletType
-    damage: 18
+    damage: 27
     frontColor: ffffff
-    backColor: c7cdc6
+    backColor: 1f1f1f
     speed: 6
     lifetime: 37.5
     height: 11
