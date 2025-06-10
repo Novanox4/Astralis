@@ -5,7 +5,7 @@ size: 2
 targetAir: false
 reload: 175
 health: 650
-shootSound: shootSmokeMissileColor
+shootSound: missileSmall
 shoot: {
   type: ShootBarrel
   barrels: 2
@@ -38,11 +38,12 @@ drawer: {
 }
 range: 345
 coolant: {
-  type: ConsumeLiquid
-  liquid: water
-  amount: 0.65
-    }
-category: turret
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
+}
+coolantMultiplier: 2.65
 squareSprite: false
 research: {
   parent: turret-burn
