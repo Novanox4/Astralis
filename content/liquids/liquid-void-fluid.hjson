@@ -6,7 +6,7 @@ colorFrom: 0c0413
 colorTo: 0c0413
 gasColor: 0c0413
 boilPoint: 0.1
-heatCapacity: 1.35
+heatCapacity: 1.2
 temperature: -0.65
 viscosity: 0.85
 explosiveness: 7.5
