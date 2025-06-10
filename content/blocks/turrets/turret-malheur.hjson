@@ -6,9 +6,10 @@ range: 225
 size: 3
 squareSprite: false
 shootSound: shootAltLong
-reload: 3.75
+reload: 4.25
 health: 2800
 minWarmup: 0.55
+inaccuracy: 2
 ammoPerShot: 1
 drawer: {
   type: DrawTurret
@@ -21,7 +22,7 @@ coolant: {
   allowLiquid: true
   amount: 0.45
 }
-coolantMultiplier: 2.75
+coolantMultiplier: 2.60
 requirements: [
   item-crystalite/300
   item-silver/225
@@ -29,20 +30,43 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 8.25
+  spread: 8
   shotDelay: 1.75
 }
 ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
     damage: 20
-    pierce: true
-    pierceCap: 3
+    pierce: false
     frontColor: ffffff
     backColor: 38a6c9
     speed: 6
     lifetime: 37.5
     height: 11
     width: 10.25
+    }
+    item-silver: {
+    type: BasicBulletType
+    damage: 26
+    pierce: true
+    pierceCap: 3
+    frontColor: ffffff
+    backColor: c7cdc6
+    speed: 6
+    lifetime: 37.5
+    height: 12
+    width: 11.25
+    }
+    item-charchunk: {
+    type: BasicBulletType
+    damage: 18
+    frontColor: ffffff
+    backColor: c7cdc6
+    speed: 6
+    lifetime: 37.5
+    height: 11
+    width: 10.25
+    reloadMultiplier: 0.80
+    status: burning
     }
   }
