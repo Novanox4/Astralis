@@ -5,7 +5,7 @@ category: turret
 name: Burn
 health: 650
 shootY: 0
-description: Fires long range incendiary bolts that burn targets. Less effective against multiple units. Can be boosted using water.
+description: Fires long range incendiary bolts that burn targets. Less effective against multiple units.
 shoot: {
   type: ShootBarrel
   shots: 3
@@ -57,9 +57,10 @@ researchCost: [
   ]
 research: core-fort
 coolant: {
-type: ConsumeLiquid
-liquid: water
-amount: 1.5
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
 }
-coolantMultiplier: 1.35
+coolantMultiplier: 2.65
 ammoPerShot: 3
