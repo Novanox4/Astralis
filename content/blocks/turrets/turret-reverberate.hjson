@@ -420,7 +420,7 @@ consumes: {
   water/0.33
   ]
 }
-coolantMultiplier: 2.25
+coolantMultiplier: 3
 requirements: [
   item-crystalite/350
   item-silver/200
