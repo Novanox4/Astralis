@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Malheur
-description: Shoots many bullets out of alternating barrels.
+description: Shoots many weak bullets out of alternating barrels.
 category: turret
 range: 225
 size: 3
@@ -68,5 +68,27 @@ ammoTypes: {
     width: 10.25
     reloadMultiplier: 0.80
     status: burning
+    }
+    metaglass: {
+    type: BasicBulletType
+    damage: 18
+    frontColor: ffffff
+    backColor: d0d0e0
+    speed: 6
+    lifetime: 37.5
+    height: 11
+    width: 10.25
+    reloadMultiplier: 1.15
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      damage: 18
+      frontColor: ffffff
+      backColor: d0d0e0
+      speed: 4
+      lifetime: 10
+      height: 5
+      width: 4.25
+      }
     }
   }
