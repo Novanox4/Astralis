@@ -21,7 +21,7 @@ coolant: {
   allowLiquid: true
   amount: 0.45
 }
-coolantMultiplier: 3
+coolantMultiplier: 2.75
 requirements: [
   item-crystalite/300
   item-silver/225
