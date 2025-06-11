@@ -3,7 +3,7 @@ name: Microplana
 description: Biological worm unit. Tramples buildings under it
 health: 250
 speed: 1.75
-drawBody: false
+drawBody: true
 rotateToBuilding: false
 segments: 3
 segmentScl: 3
