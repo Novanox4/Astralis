@@ -91,4 +91,19 @@ ammoTypes: {
       width: 4.25
       }
     }
+    {
+    item-silver-fulminate: {
+    type: BasicBulletType
+    damage: 12
+    frontColor: ffffff
+    backColor: b08203
+    speed: 6
+    lifetime: 37.5
+    height: 11
+    width: 10.25
+    status: blasted
+    splashDamage: 40
+    splashDamageRadius: 30
+    }
   }
+}
