@@ -28,4 +28,5 @@ researchCost: [
 research: metaglass-wall
 category: defense
 name: Large Metaglass Wall
-description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction
+description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction. Absorbs lasers.
+absorbLasers: true
