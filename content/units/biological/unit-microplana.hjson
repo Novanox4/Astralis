@@ -15,3 +15,4 @@ omniMovement: false
 hitSize: 5
 outlineColor: 121213
 crushDamage: 15
+segmentLayerOrder: false
