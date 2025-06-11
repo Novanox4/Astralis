@@ -1,0 +1,17 @@
+type: crawl
+name: Microplana
+description: Biological worm unit. Tramples buildings under it
+health: 250
+speed: 1.75
+drawBody: false
+rotateToBuilding: false
+segments: 3
+segmentScl: 3
+groundLayer: 60
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 6
+omniMovement: false
+hitSize: 5
+outlineColor: 121213
+crushDamage: 15
