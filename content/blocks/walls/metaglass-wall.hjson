@@ -34,4 +34,5 @@ research: {
     }
 category: defense
 name: Metaglass Wall
-description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction
+description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction. Absorbs lasers.
+absorbLasers: true
