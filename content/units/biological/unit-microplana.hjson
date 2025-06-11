@@ -7,7 +7,6 @@ drawBody: true
 rotateToBuilding: false
 segments: 3
 segmentScl: 3
-groundLayer: 60
 segmentPhase: 5
 segmentMag: 0.5
 rotateSpeed: 6
