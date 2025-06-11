@@ -16,4 +16,3 @@ hitSize: 5
 outlineColor: 121213
 crushDamage: 15
 segmentLayerOrder: true
-segmentCellRegions: [null, null, unit-microplana-segment2-cell.png]
