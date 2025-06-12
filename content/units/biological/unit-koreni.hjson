@@ -45,3 +45,4 @@ abilities: [
   spread: 2
   }
   ]
+lightRadius: 0
