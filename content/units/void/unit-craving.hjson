@@ -49,3 +49,4 @@ abilities: [
 ]
 controller: HugAi
 immunities: [status-voidgnaw]
+useUnitCap: false
