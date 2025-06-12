@@ -43,3 +43,4 @@ deathSound: plantBreak
 hitSize: 8
 layer: 77
 lightRadius: 0
+useUnitCap: false
