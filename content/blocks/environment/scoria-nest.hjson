@@ -16,6 +16,10 @@ yRand: 0.3
 shootEffect: none
 consumes: {}
 shootType: {
+  shootX: 0
+  shootY: 0
+  xRand: 0.4
+  yRand: 0.3
   type: MultiBulletType
   bullets: [
     {
@@ -81,3 +85,4 @@ breakSound: rockBreak
 destroySound: rockBreak
 placeSound: rockBreak
 health: 1750
+forceTeam: 3
