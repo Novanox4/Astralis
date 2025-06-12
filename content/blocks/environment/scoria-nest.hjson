@@ -42,6 +42,18 @@ shootType: {
     spawnUnit: unit-malady
     createChance: 0.075
     }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.4
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.275
+    }
   ]
 }
 rotateSpeed: 0
