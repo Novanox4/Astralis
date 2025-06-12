@@ -1,0 +1,18 @@
+type: CoreBlock
+unitType: unit-flu
+buildVisibility: editorOnly
+size: 3
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+drawTeam: false
+name: Scoria Nexus
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: rockBreak
+placeSound: rockBreak
+health: 3500
+forceTeam: malis
