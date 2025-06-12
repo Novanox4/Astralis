@@ -60,6 +60,12 @@ shootType: {
     spawnUnit: unit-microplana
     createChance: 0.275
     }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-koreni
+    createChance: 0.1
+    }
   ]
 }
 rotateSpeed: 0
