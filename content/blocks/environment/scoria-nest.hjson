@@ -40,7 +40,7 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-malady
-    createChance: 0.075
+    createChance: 0.1
     }
     {
     type: EmptyBulletType
