@@ -48,3 +48,4 @@ abilities: [
   }
 ]
 immunities: [status-voidgnaw]
+useUnitCap: false
