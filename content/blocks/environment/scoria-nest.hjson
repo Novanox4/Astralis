@@ -85,4 +85,4 @@ breakSound: rockBreak
 destroySound: rockBreak
 placeSound: rockBreak
 health: 1750
-forceTeam: 3
+forceTeam: malis
