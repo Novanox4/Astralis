@@ -123,3 +123,4 @@ speed: 2
 lightRadius: 0
 hitSize: 16
 layer: 150
+useUnitCap: false
