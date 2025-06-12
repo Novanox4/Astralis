@@ -9,7 +9,7 @@ Research and use down the [accent]Assault Unit Forge[] and attack the enemy base
 [accent]Scoria nests[] are present here, and biological units will emerge soon after. They will attack Hell Inc's bases first, and will most likely not focus you."
 sector: 64
 planet: astralis
-difficulty: 2
+difficulty: 3
 research: {
   parent: burning-ravine
   objectives: [
