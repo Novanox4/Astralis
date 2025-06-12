@@ -51,3 +51,4 @@ speed: 2.5
 lightRadius: 0
 hitSize: 13
 layer: 135
+useUnitCap: false
