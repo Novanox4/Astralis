@@ -13,7 +13,7 @@ rotateSpeed: 6
 omniMovement: false
 hitSize: 5
 outlineColor: 121213
-crushDamage: 2
+crushDamage: 1
 segmentLayerOrder: true
 controller: HugAi
 weapons: [
