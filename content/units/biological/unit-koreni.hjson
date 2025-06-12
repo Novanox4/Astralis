@@ -46,3 +46,4 @@ abilities: [
   }
   ]
 lightRadius: 0
+useUnitCap: false
