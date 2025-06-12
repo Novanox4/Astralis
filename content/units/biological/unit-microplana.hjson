@@ -16,3 +16,4 @@ outlineColor: 121213
 crushDamage: 15
 segmentLayerOrder: true
 controller: HugAi
+weapons: []
