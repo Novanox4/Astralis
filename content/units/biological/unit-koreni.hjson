@@ -1,0 +1,47 @@
+type: crawl
+name: Koreni
+description: Biological worm unit. Tramples buildings under it. Creates smaller units on death.
+health: 450
+speed: 1.95
+drawBody: false
+rotateToBuilding: false
+segments: 3
+segmentScl: 3
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 6
+omniMovement: false
+hitSize: 7
+outlineColor: 121213
+crushDamage: 1.75
+segmentLayerOrder: true
+controller: HugAi
+weapons: [
+{
+shootSound: none
+display: false
+bullet: {
+  type: EmptyBulletType
+  damage: 0
+  heigth: 0
+  width: 0
+  collides: false
+  shootEffect: none
+  smokeEffect: none
+  despawnEffect: none
+  hitEffect: none
+    }
+  }
+]
+planet: astralis
+deathExplosionEffect: none
+deathSound: plantBreak
+abilities: [
+  {
+  type: SpawnDeathAbility
+  unit: unit-microplana
+  amount: 1
+  randAmount: 1
+  spread: 2
+  }
+  ]
