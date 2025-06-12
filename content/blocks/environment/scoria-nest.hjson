@@ -46,6 +46,12 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-microplana
+    createChance: 0.65
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
     createChance: 0.4
     }
     {
