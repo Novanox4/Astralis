@@ -430,3 +430,4 @@ shoot: {
 shots: 4
 shotDelay: 0
 }
+research: turret-augur
