@@ -6,7 +6,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 recoil: 0
-reload: 2750
+reload: 2450750
 alwaysShooting: true
 shootSound: none
 shootX: 0
@@ -26,7 +26,13 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-flu
-    createChance: 0.7
+    createChance: 0.9
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-flu
+    createChance: 0.55
     }
     {
     type: EmptyBulletType
@@ -37,38 +43,50 @@ shootType: {
     {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-flu
+    spawnUnit: unit-malady
+    createChance: 0.175
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.9
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.5
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
     createChance: 0.35
     }
     {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-malady
-    createChance: 0.1
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-microplana
-    createChance: 0.65
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-microplana
-    createChance: 0.4
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-microplana
-    createChance: 0.275
-    }
-    {
-    type: EmptyBulletType
-    collides: false
     spawnUnit: unit-koreni
-    createChance: 0.1
+    createChance: 0.225
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.25
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-microplana
+    createChance: 0.2
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-flu
+    createChance: 0.3
     }
   ]
 }
