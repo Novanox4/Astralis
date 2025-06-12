@@ -36,3 +36,4 @@ bullet: {
 planet: astralis
 deathExplosionEffect: none
 deathSound: plantBreak
+lightRadius: 0
