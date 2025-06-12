@@ -13,7 +13,26 @@ rotateSpeed: 6
 omniMovement: false
 hitSize: 5
 outlineColor: 121213
-crushDamage: 15
+crushDamage: 2
 segmentLayerOrder: true
 controller: HugAi
-weapons: []
+weapons: [
+{
+shootSound: none
+display: false
+bullet: {
+  type: EmptyBulletType
+  damage: 0
+  heigth: 0
+  width: 0
+  collides: false
+  shootEffect: none
+  smokeEffect: none
+  despawnEffect: none
+  hitEffect: none
+    }
+  }
+]
+planet: astralis
+deathExplosionEffect: none
+deathSound: plantBreak
