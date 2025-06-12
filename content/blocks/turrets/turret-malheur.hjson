@@ -105,3 +105,4 @@ ammoTypes: {
   splashDamageRadius: 30
   }
 }
+research: turret-reverberate
