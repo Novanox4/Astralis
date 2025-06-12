@@ -12,6 +12,7 @@ legExtension: 2.5
 flying: false
 health: 300
 baseLegStraightness: 0.25
+buildSpeed: 99
 weapons: [
 {
 x: 0
