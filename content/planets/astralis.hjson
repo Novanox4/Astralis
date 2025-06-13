@@ -92,6 +92,17 @@ mesh: [
   octaves: 3
   persistence: 1.375
   }
+  {
+  //jasper
+  type: NoiseMesh
+  planet: astralis
+  color1: ec8555
+  color2: f1773f
+  radius: 3.915
+  divisions: 5
+  octaves: 3.15
+  persistence: 1.4175
+  }
 ]
 cloudMesh: [
  {
