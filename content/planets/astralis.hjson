@@ -14,7 +14,7 @@ radius: 2
 minZoom: 1.2
 drawOrbit: true
 atmosphereRadIn: 1
-atmosphereRadOut: 10
+atmosphereRadOut: 30
 accessible: true
 updateLighting: true
 sectorSeed: 42069
