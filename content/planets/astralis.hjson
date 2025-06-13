@@ -61,8 +61,8 @@ mesh: [
   //water or calcite
   type: NoiseMesh
   planet: astralis
-  color1: 27385e
-  color2: 2d3e63
+  color1: 82bbff
+  color2: 62a7f8
   radius: 3.911
   divisions: 5
   octaves: 3
