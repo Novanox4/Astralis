@@ -1,0 +1,82 @@
+type: ItemTurret
+name: Vaticinate
+description: Powerful railcannon that propels forwards metallic payloads at high speeds.
+category: turret
+range: 650
+size: 3
+squareSprite: false
+shootSound: cannon
+reload: 235
+health: 2800
+minWarmup: 0.75
+inaccuracy: 0
+ammoPerShot: 5
+itemCapacity: 20
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+rotateSpeed: 1.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.625
+}
+coolantMultiplier: 1.95
+requirements: [
+  item-crystalite/300
+  item-silver/225
+  item-uranium/375
+  item-neodymium/85
+]
+ammoTypes: {
+  item-cerium: {
+  type: BasicBulletType
+  damage: 250
+  pierce: true
+  pierceCap: 6
+  buildingDamageMultiplier: 0.15
+  frontColor: ffffff
+  backColor: 2c4035
+  speed: 9
+  trailColor: 2c4035
+  trailLength: 37.5
+  trailWidth: 12
+  lifetime: 45
+  height: 15
+  width: 13.75
+  bulletInterval: 7.5
+  intervalBullets: 1
+  intervalBullet: {
+      type: EmptyBulletType
+      collides: false
+      despawnEffect: {
+        type: WrapEffect
+        effect: sparkShoot
+        color: 2c4035
+          }
+        }
+      }
+    }
+research: {
+  parent: turret-reverberate
+  objectives: [
+    turret-malheur,
+    electrostatic-separator,
+    nuclear-decay-reactor,
+    core-agora,
+    {
+    type: SectorComplete
+    preset: mineshaft
+    }
+  ]
+}
+researchCost: [
+  item-crystalite/1225
+  item-uranium/1050
+  item-silver/975
+  metaglass/675
+  item-cerium/175
+  item-neodymium/175
+]
