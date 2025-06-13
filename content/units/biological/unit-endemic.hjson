@@ -23,8 +23,9 @@ shootSound: cannon
 bullet: {
   type: BasicBulletType
   laserAbsorb: true
-  pierceCap: 9999
+  pierceCap: 999
   pierce: true
+  pierceBuilding: true
   damage: 200
   lifetime: 200
   speed: 2
@@ -48,6 +49,9 @@ bullet: {
     lifetime: 45
     width: 17.5
     height: 87.5
+    pierce: true
+    pierceCap: 999
+    pierceBuilding: true
     laserAbsorb: true
     spawnBullets: [
       {
