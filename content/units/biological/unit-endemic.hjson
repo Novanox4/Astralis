@@ -112,7 +112,7 @@ bullet: {
   type: EmptyBulletType
   spawnUnit: unit-endemic-missile
   }
-]
+}
 abilities: [
 ]
 outlineColor: 121213
