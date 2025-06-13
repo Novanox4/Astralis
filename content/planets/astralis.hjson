@@ -1,4 +1,4 @@
-localizedName: Astralis
+localizedName: "Astralis"
 description: A faraway, dark planet. A perfect hideout (If you don't mind spiders)
 alwaysUnlocked: true
 orbitRadius: 37.5
@@ -30,8 +30,6 @@ prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
-lightSrcTo: 0.5
-lightDstFrom: 0.2
 defaultEnv: 225
 launchCandidates: []
 mesh: [
@@ -109,14 +107,14 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: astralis
-   speed: 1.21
+   speed: 0
    radius: 0.1
-   divisions: 6
-   color: eafffd7e
+   divisions: 5
+   color: 6ed1e74d
    octaves: 3
-   persistence: 0.45
+   persistence: 1.13
    scl: 1
-   thresh: 0.3
+   thresh: 1
   }
   {
    type: HexSkyMesh
