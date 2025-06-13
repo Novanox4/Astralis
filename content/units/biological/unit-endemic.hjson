@@ -100,6 +100,7 @@ bullet: {
     ]
     }    
   }
+}
 {
 reload: 560
 shootY: 5
@@ -111,7 +112,6 @@ bullet: {
   type: EmptyBulletType
   spawnUnit: unit-endemic-missile
   }
-}
 }
 ]
 abilities: [
