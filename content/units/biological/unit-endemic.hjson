@@ -33,9 +33,9 @@ bullet: {
   spin: 4
   backColor: 8439ea
   frontColor: 8439ea
-  width: 23
-  height: 22
-  shrinkY: 0.25
+  width: 18
+  height: 16.25
+  shrinkY: 0.425
   intervalBullets: 3
   intervalRandomSpread: 360
   intervalSpread: 20
