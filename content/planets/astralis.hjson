@@ -55,7 +55,7 @@ mesh: [
   persistence: 1.8
   }
   {
-  //water or calcite
+  //jasper
   type: NoiseMesh
   planet: astralis
   color1: fd8363
@@ -64,6 +64,7 @@ mesh: [
   divisions: 6
   octaves: 3.5
   persistence: 1.8
+  seed: 22
   }
   ]
 generator: AsteroidGenerator
