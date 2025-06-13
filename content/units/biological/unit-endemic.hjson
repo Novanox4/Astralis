@@ -17,6 +17,7 @@ range: 300
 weapons: [
 {
 shootY: 5
+mirror: false
 x: 0
 y: 0
 reload: 65
@@ -104,8 +105,10 @@ bullet: {
 }
 {
 reload: 560
+mirror: false
 shootY: 5
 x: 0
+useAttackRange: false
 y: 0
 reload: 650
 shootSound: missileLaunch
