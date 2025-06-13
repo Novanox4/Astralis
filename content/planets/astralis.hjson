@@ -16,7 +16,7 @@ drawOrbit: true
 atmosphereRadIn: 1
 atmosphereRadOut: 30
 accessible: true
-updateLighting: true
+updateLighting: false
 sectorSeed: 42069
 bloom: true
 visible: true
