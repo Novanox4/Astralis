@@ -13,6 +13,7 @@ flying: false
 health: 30000
 baseLegStraightness: 0
 legExtension: -15
+range: 300
 weapons: [
 {
 shootY: 5
