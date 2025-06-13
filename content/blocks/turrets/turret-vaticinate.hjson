@@ -43,11 +43,13 @@ ammoTypes: {
         type: WrapEffect
         effect: breakProp
         color: 2c4035
+        rotWithParent: true
         }
         {
         type: WrapEffect
         effect: lightningShoot
         color: 2c4035
+        rotWithParent: true
         }
       ]
     }
