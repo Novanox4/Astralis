@@ -83,6 +83,7 @@ ammoTypes: {
         colorFrom: ffffffff
         colorTo: 2c4035ff
         cone: 10
+        particles: 4
         line: true
         lifetime: 9.75
         length: 17
