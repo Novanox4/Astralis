@@ -1,0 +1,34 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 4
+physics: false
+lifetime: 95
+rotateSpeed: 4
+hitSize: 8
+trailLength: 0.75
+trailWidth: 0.65
+useUnitCap: false
+health: 375
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 120
+      splashDamageRadius: 65
+      collideAir: true
+    }
+  } 
+]
+autoFindTarget: true
+homingDelay: 0.75
+circleTarget: false
+faceTarget: true
+trailColor: 25113e
+targetAir: true
+drawCell: false
