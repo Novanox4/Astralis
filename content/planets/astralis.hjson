@@ -50,9 +50,9 @@ mesh: [
   color1: 82c6ea
   color2: 64b7e2
   radius: 1.1499
-  divisions: 6
+  divisions: 5
   octaves: 3
-  persistence: 1.8
+  persistence: 1
   seed: 38
   }
   {
