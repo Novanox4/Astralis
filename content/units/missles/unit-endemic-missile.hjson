@@ -6,8 +6,8 @@ physics: false
 lifetime: 225
 rotateSpeed: 4
 hitSize: 8
-trailLength: 0.75
-trailWidth: 0.65
+trailLength: 15
+trailWidth: 5
 useUnitCap: false
 health: 375
 weapons: [
@@ -29,7 +29,7 @@ autoFindTarget: true
 homingDelay: 0.75
 circleTarget: false
 faceTarget: true
-trailColor: 25113eff
+trailColor: 25113e
 targetAir: true
 drawCell: false
 engines: [
@@ -47,14 +47,6 @@ abilities: [
     type: WrapEffect
     effect: missileTrail
     color: 25113e
-    }
-  }
-  {
-  type: MoveEffectAbility
-  effect: {
-    type: WrapEffect
-    effect: none
-    color: 423f454d
     }
   }
   ]
