@@ -32,7 +32,7 @@ parent: sun
 solarSystem: sun
 lightSrcTo: 0.5
 lightDstFrom: 0.2
-defaultEnv: 28
+defaultEnv: 225
 launchCandidates: []
 mesh: [
  {
