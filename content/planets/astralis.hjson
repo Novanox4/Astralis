@@ -39,7 +39,7 @@ mesh: [
   color1: 5d5d5d
   color2: 4e514f
   radius: 1.15
-  divisions: 4
+  divisions: 5
   octaves: 1
   persistence: 1.4
   }
@@ -49,10 +49,11 @@ mesh: [
   planet: astralis
   color1: 82c6ea
   color2: 64b7e2
-  radius: 1.15
-  divisions: 4
-  octaves: 1
-  persistence: 1.4
+  radius: 1.151
+  divisions: 6
+  octaves: 1.2
+  persistence: 1
+  seed: 35
   }
   ]
 generator: AsteroidGenerator
