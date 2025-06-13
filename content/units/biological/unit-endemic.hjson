@@ -15,7 +15,7 @@ baseLegStraightness: 0
 legExtension: -15
 weapons: [
 {
-shootY: 0
+shootY: 1
 x: 0
 y: 0
 reload: 65
