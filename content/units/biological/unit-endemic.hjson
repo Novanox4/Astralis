@@ -111,6 +111,7 @@ shootSound: missileLaunch
 bullet: {
   type: EmptyBulletType
   spawnUnit: unit-endemic-missile
+  }
 ]
 abilities: [
 ]
