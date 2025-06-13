@@ -6,7 +6,7 @@ range: 650
 size: 3
 squareSprite: false
 shootSound: cannon
-reload: 235
+reload: 275
 health: 2800
 minWarmup: 0.75
 inaccuracy: 0
@@ -43,7 +43,7 @@ ammoTypes: {
   trailColor: 2c4035
   trailLength: 37.5
   trailWidth: 4
-  lifetime: 67.5
+  lifetime: 70
   height: 22.5
   width: 13.75
   bulletInterval: 7.5
