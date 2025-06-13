@@ -38,8 +38,8 @@ mesh: [
   planet: astralis
   color1: 5d5d5d
   color2: 4e514f
-  radius: 1.15
-  divisions: 3
+  radius: 1.151
+  divisions: 3.3
   octaves: 2.65
   persistence: 1.8
   }
@@ -50,9 +50,9 @@ mesh: [
   color1: 82c6ea
   color2: 64b7e2
   radius: 1.1499
-  divisions: 7
+  divisions: 6
   octaves: 3.2
-  persistence: 1
+  persistence: 1.5
   seed: 38
   }
   {
@@ -62,7 +62,7 @@ mesh: [
   color1: fd8363
   color2: ea5e39
   radius: 1.1499
-  divisions: 4
+  divisions: 6
   octaves: 5.25
   persistence: 4
   seed: 22
