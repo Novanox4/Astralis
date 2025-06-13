@@ -13,10 +13,10 @@ orbitOffset: 38
 radius: 2
 minZoom: 1.2
 drawOrbit: true
-atmosphereRadIn: 1
-atmosphereRadOut: 30
+atmosphereRadIn: 0
+atmosphereRadOut: 1
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 42069
 bloom: true
 visible: true
