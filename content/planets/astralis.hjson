@@ -30,6 +30,8 @@ prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
+lightSrcTo: 0.5
+lightDstFrom: 0.2
 launchCandidates: []
 mesh: [
  {
