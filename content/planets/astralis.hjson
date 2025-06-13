@@ -98,10 +98,10 @@ mesh: [
   planet: astralis
   color1: ec8555
   color2: f1773f
-  radius: 4
-  divisions: 7
+  radius: 3.914
+  divisions: 5
   octaves: 6
-  persistence: 14
+  persistence: 1.41
   }
 ]
 cloudMesh: [
