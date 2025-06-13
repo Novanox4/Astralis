@@ -41,9 +41,11 @@ engines: [
   }
 ]
 abilities: [
+  {
   type: MoveEffectAbility
   effect: {
     type: WrapEffect
     effect: trailFade
     }
+  }
   ]
