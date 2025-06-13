@@ -85,10 +85,10 @@ mesh: [
   planet: astralis
   color1: 5b4040
   color2: 453328
-  radius: 1.1485
+  radius: 1.14875
   divisions: 5
   octaves: 7.2
-  persistence: 0.85
+  persistence: 0.6
   seed: 14
   }
   ]
