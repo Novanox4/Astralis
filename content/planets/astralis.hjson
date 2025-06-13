@@ -81,6 +81,17 @@ mesh: [
   persistence: 1.35
   seed: 89
   }
+  {
+  //spooder biome
+  type: NoiseMesh
+  planet: astralis
+  color1: 5d5345
+  color2: 584d3d
+  radius: 3.915
+  divisions: 5
+  octaves: 3
+  persistence: 1.375
+  }
 ]
 cloudMesh: [
  {
