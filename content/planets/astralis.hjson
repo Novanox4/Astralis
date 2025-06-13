@@ -38,8 +38,8 @@ mesh: [
   //char
   type: NoiseMesh
   planet: astralis
-  color1: 1f1f1f
-  color2: 2d2d2d
+  color1: 5d5d5d
+  color2: 4e514f
   radius: 3.915
   divisions: 4
   octaves: 1
