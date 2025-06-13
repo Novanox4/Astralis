@@ -1,14 +1,14 @@
 localizedName: Astralis
 description: A faraway, dark planet. A perfect hideout (If you don't mind spiders)
 alwaysUnlocked: true
-orbitRadius: 45
-sectorSize: 2
+orbitRadius: 62.5
+sectorSize: 3.25
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: true
 startSector: 28
-orbitSpacing: 1
+orbitSpacing: 7
 radius: 3.9
 minZoom: 1
 drawOrbit: true
@@ -19,7 +19,7 @@ updateLighting: true
 sectorSeed: 42069
 bloom: false
 visible: true
-atmosphereColor: 6ed1e7
+atmosphereColor: 6ed1e74d
 iconColor: 196d9e
 hasAtmosphere: true
 allowWaveSimulation: false
