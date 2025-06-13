@@ -13,7 +13,7 @@ radius: 1.15
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0.01
-atmosphereRadOut: 2.4
+atmosphereRadOut: 1.95
 accessible: true
 updateLighting: true
 sectorSeed: 42069
@@ -62,7 +62,7 @@ mesh: [
   color1: fd8363
   color2: ea5e39
   radius: 1.1475
-  divisions: 6
+  divisions: 5
   octaves: 3
   persistence: 2
   seed: 22
@@ -74,7 +74,7 @@ mesh: [
   color1: 23623f
   color2: 195835
   radius: 1.148
-  divisions: 4
+  divisions: 5
   octaves: 7
   persistence: 0.75
   seed: 14
