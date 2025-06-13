@@ -49,9 +49,9 @@ ammoTypes: {
         line: true
         lifetime: 8
         length: 20
-        lenFrom: 5.5
+        lenFrom: 7.25
         lenTo: 2
-        strokeFrom: 2.75
+        strokeFrom: 3.15
         strokeTo: 0
         }
       ]
