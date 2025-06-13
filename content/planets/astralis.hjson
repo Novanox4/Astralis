@@ -13,7 +13,7 @@ radius: 1.15
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 1
-atmosphereRadOut: 4
+atmosphereRadOut: 3.25
 accessible: true
 updateLighting: true
 sectorSeed: 42069
@@ -60,7 +60,7 @@ mesh: [
   planet: astralis
   color1: fd8363
   color2: ea5e39
-  radius: 1.1501
+  radius: 1.1502
   divisions: 6
   octaves: 3.5
   persistence: 1.8
