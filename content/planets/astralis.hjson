@@ -91,7 +91,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
+   thresh: 0.45
   }
   {
    type: HexSkyMesh
@@ -115,12 +115,12 @@ cloudMesh: [
    octaves: 3
    persistence: 0.5
    scl: 1.1
-   thresh: 0.6
+   thresh: 0.45
   }
 ]
 generator: {
   octaves: 3
-  persistence: 0.5
+  persistence: 0.3
   scale: 23
   mag: 0.714
   thresh: 1.142
