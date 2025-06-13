@@ -15,6 +15,8 @@ legExtension: -15
 weapons: [
 {
 shootY: 0
+x: 0
+y: 0
 reload: 150
 shootSound: cannon
 bullet: {
@@ -23,8 +25,12 @@ bullet: {
   lifetime: 200
   speed: 2
   sprite: large-orb
+  spin: 10
   backColor: 8439ea
   frontColor: 8439ea
+  width: 25
+  height: 25
+  shrinkY: 0
   intervalBullets: 1
   intervalRandomSpread: 0
   intervalSpread: 20
