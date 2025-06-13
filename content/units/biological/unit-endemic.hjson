@@ -101,6 +101,16 @@ bullet: {
     }    
   }
 }
+{
+reload: 560
+shootY: 5
+x: 0
+y: 0
+reload: 65
+shootSound: missileLaunch
+bullet: {
+  type: EmptyBulletType
+  spawnUnit: unit-endemic-missile
 ]
 abilities: [
 ]
