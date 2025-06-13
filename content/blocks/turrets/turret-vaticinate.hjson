@@ -56,6 +56,7 @@ ammoTypes: {
         type: WrapEffect
         effect: sparkShoot
         color: 2c4035
+        rotWithParent: true
           }
         }
       }
