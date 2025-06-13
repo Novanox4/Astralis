@@ -3,6 +3,7 @@ legCount: 8
 legGroupSize: 4
 legLength: 80
 legBaseOffset: 5
+legPairOffset: 3
 name: Endemic
 description: Native (?) spider to Astralis. Highly dangerous. Shoots powerful missiles and energy orbs out of its mechanical maw. Incredibly tanky, spawns units on death.
 details: "This monstrosity could not have appeared natuarly, could it? It HAS to be a sharded experiment gone awry, right?"
