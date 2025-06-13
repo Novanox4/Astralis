@@ -42,6 +42,8 @@ bullet: {
     fromColor: ffffffff
     toColor: 8439eaff
     lifetime: 45
+    width: 17.5
+    height: 87.5
     spawnBullets: [
       {
       type: EmptyBulletType
