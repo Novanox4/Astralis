@@ -27,5 +27,5 @@ lightRadius: 0.01
 hitSize: 20
 layer: 150
 useUnitCap: false
-legSplashRange: 150
+legSplashRange: 70
 legSplashDamage: 240
