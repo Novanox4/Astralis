@@ -49,8 +49,8 @@ mesh: [
   //cerium
   type: NoiseMesh
   planet: astralis
-  color1: 182e25
-  color2: 253d34
+  color1: 8affa9
+  color2: 68fd8f
   radius: 3.92
   divisions: 5
   octaves: 2
