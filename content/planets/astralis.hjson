@@ -20,7 +20,7 @@ updateLighting: true
 sectorSeed: 42069
 bloom: true
 visible: true
-atmosphereColor: 666359
+atmosphereColor: 6663594d
 iconColor: 196d9e
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -108,7 +108,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: astralis
    speed: 0
-   radius: 0.1
+   radius: 0.12
    divisions: 5
    color: 6ed1e74d
    octaves: 3
