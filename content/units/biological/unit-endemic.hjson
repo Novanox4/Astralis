@@ -41,7 +41,7 @@ bullet: {
   intervalSpread: 20
   bulletInterval: 9.75
   intervalDelay: 37.5
-  shootEffect: titanSmokeSmall
+  shootEffect: shootBigSmoke2
   intervalBullet: {
     type: ShrapnelBulletType
     damage: 12.5
