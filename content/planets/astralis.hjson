@@ -10,7 +10,7 @@ allowSectorInvasion: true
 startSector: 28
 orbitSpacing: 0
 orbitOffset: 38
-radius: 3.9
+radius: 2
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0.02
@@ -40,7 +40,7 @@ mesh: [
   planet: astralis
   color1: 5d5d5d
   color2: 4e514f
-  radius: 3.915
+  radius: 2.15
   divisions: 4
   octaves: 1
   persistence: 1.4
@@ -51,7 +51,7 @@ mesh: [
   planet: astralis
   color1: 8affa9
   color2: 68fd8f
-  radius: 3.92
+  radius: 2.12
   divisions: 5
   octaves: 2
   persistence: 1.25
@@ -63,7 +63,7 @@ mesh: [
   planet: astralis
   color1: 82bbff
   color2: 62a7f8
-  radius: 3.911
+  radius: 2.011
   divisions: 5
   octaves: 3
   persistence: 1.74
@@ -75,7 +75,7 @@ mesh: [
   planet: astralis
   color1: 21132e
   color2: 321c3d
-  radius: 3.9125
+  radius: 2.0125
   divisions: 5
   octaves: 6.35
   persistence: 1.35
@@ -87,7 +87,7 @@ mesh: [
   planet: astralis
   color1: 5d5345
   color2: 584d3d
-  radius: 3.915
+  radius: 2.015
   divisions: 5
   octaves: 3
   persistence: 1.375
@@ -98,7 +98,7 @@ mesh: [
   planet: astralis
   color1: ec8555
   color2: f1773f
-  radius: 3.914
+  radius: 2.014
   divisions: 5
   octaves: 6
   persistence: 1.41
