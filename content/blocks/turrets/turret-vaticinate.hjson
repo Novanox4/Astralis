@@ -50,6 +50,7 @@ ammoTypes: {
   intervalBullets: 1
   intervalBullet: {
       type: EmptyBulletType
+      display: false
       collides: false
       instantDisappear: true
       despawnEffect: {
