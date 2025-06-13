@@ -113,8 +113,7 @@ y: 0
 reload: 650
 shootSound: missileLaunch
 bullet: {
-  rangeOverride: 300
-  type: EmptyBulletType
+  instantDisappear: true
   spawnUnit: unit-endemic-missile
   }
 }
