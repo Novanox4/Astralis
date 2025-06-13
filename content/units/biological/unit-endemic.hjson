@@ -100,7 +100,6 @@ bullet: {
     ]
     }    
   }
-}
 {
 reload: 560
 shootY: 5
@@ -113,6 +112,8 @@ bullet: {
   spawnUnit: unit-endemic-missile
   }
 }
+}
+]
 abilities: [
 ]
 outlineColor: 121213
