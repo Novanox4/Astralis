@@ -44,12 +44,14 @@ ammoTypes: {
         effect: smoke
         color: 2c4035
         rotWithParent: true
+        followParent: true
         }
         {
         type: WrapEffect
         effect: lightningShoot
         color: 2c4035
         rotWithParent: true
+        followParent: true
         }
       ]
     }
@@ -76,6 +78,7 @@ ammoTypes: {
         effect: sparkShoot
         color: 2c4035
         rotWithParent: true
+        followParent: true
           }
         }
       }
