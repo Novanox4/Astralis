@@ -74,9 +74,9 @@ mesh: [
   color1: 387e40
   color2: 195835
   radius: 1.1499
-  divisions: 6
-  octaves: 3.5
-  persistence: 1.8
+  divisions: 5
+  octaves: 1.2
+  persistence: 1.9
   seed: 14
   }
   ]
