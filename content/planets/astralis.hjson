@@ -39,9 +39,9 @@ mesh: [
   color1: 5d5d5d
   color2: 4e514f
   radius: 1.15
-  divisions: 5
-  octaves: 1
-  persistence: 1.4
+  divisions: 6
+  octaves: 3
+  persistence: 1.8
   }
   {
   //water or calcite
@@ -53,6 +53,7 @@ mesh: [
   divisions: 6
   octaves: 3
   persistence: 1.8
+  seed: 38
   }
   {
   //jasper
@@ -60,6 +61,18 @@ mesh: [
   planet: astralis
   color1: fd8363
   color2: ea5e39
+  radius: 1.1502
+  divisions: 6
+  octaves: 3.5
+  persistence: 1.8
+  seed: 22
+  }
+  {
+  //cerium
+  type: NoiseMesh
+  planet: astralis
+  color1: 387e40
+  color2: 195835
   radius: 1.1502
   divisions: 6
   octaves: 3.5
