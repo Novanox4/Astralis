@@ -41,7 +41,7 @@ ammoTypes: {
       effects: [
         {
         type: WrapEffect
-        effect: BreakProp
+        effect: breakProp
         color: 2c4035
         }
         {
