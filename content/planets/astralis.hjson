@@ -2,7 +2,7 @@ localizedName: "Astralis"
 description: A faraway, dark planet. A perfect hideout (If you don't mind spiders)
 alwaysUnlocked: true
 orbitRadius: 37.5
-sectorSize: 1
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
