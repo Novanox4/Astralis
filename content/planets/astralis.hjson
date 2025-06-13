@@ -9,7 +9,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: true
 startSector: 28
 orbitSpacing: 0
-radius: 0.5
+radius: 0.6
 minZoom: 1.6
 drawOrbit: true
 atmosphereRadIn: 1
