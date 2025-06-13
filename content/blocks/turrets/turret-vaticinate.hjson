@@ -45,11 +45,11 @@ ammoTypes: {
         followParent: true
         colorFrom: ffffffff
         colorTo: 2c4035ff
-        cone: 45
+        cone: 25
         line: true
         lifetime: 10.25
         length: 19.5
-        lenFrom: 30.75
+        lenFrom: 38.25
         lenTo: 6
         strokeFrom: 2.85
         strokeTo: 0
@@ -75,15 +75,23 @@ ammoTypes: {
       collides: false
       instantDisappear: true
       despawnEffect: {
-        type: WrapEffect
-        effect: sparkShoot
-        color: 2c4035
+        type: ParticleEffect
         rotWithParent: true
         followParent: true
-          }
+        colorFrom: ffffffff
+        colorTo: 2c4035ff
+        cone: -10
+        line: true
+        lifetime: 9.75
+        length: 17
+        lenFrom: 30.25
+        lenTo: 4.75
+        strokeFrom: 1.75
+        strokeTo: 0
         }
       }
     }
+  }
 research: {
   parent: turret-reverberate
   objectives: [
