@@ -100,7 +100,7 @@ mesh: [
   color2: f1773f
   radius: 385
   divisions: 5
-  octaves: 3.15
+  octaves: 32
   persistence: 14175
   }
 ]
