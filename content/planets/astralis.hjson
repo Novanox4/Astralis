@@ -108,11 +108,11 @@ cloudMesh: [
    type: HexSkyMesh
    planet: astralis
    speed: 0
-   radius: 0.12
+   radius: 0.13
    divisions: 5
    color: 6ed1e74d
-   octaves: 3
-   persistence: 1.13
+   octaves: 4
+   persistence: 0.95
    scl: 1
    thresh: 1
   }
