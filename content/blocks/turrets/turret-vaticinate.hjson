@@ -47,7 +47,7 @@ ammoTypes: {
         colorTo: 2c4035ff
         cone: -90
         line: true
-        lifetime: 12
+        lifetime: 5
         length: 22.5
         }
       ]
