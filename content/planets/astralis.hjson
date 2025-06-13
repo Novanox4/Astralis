@@ -11,10 +11,10 @@ startSector: 28
 orbitSpacing: 0
 orbitOffset: 38
 radius: 2
-minZoom: 1
+minZoom: 1.2
 drawOrbit: true
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.4
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 accessible: true
 updateLighting: true
 sectorSeed: 42069
@@ -31,7 +31,7 @@ defaultCore: core-fort
 parent: sun
 solarSystem: sun
 defaultEnv: 225
-launchCandidates: []
+rotateTime: 680
 mesh: [
  {
   //char
