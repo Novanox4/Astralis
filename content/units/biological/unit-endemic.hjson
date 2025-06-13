@@ -20,13 +20,6 @@ x: 0
 y: 0
 reload: 65
 shootSound: cannon
-spawnBullets: [
-  {
-  type: LightningBulletType
-  collides: false
-  damage: 0
-  }
-]
 bullet: {
   type: BasicBulletType
   laserAbsorb: true
@@ -48,7 +41,7 @@ bullet: {
   intervalSpread: 20
   bulletInterval: 9.75
   intervalDelay: 37.5
-  shootEffect: [shootBigSmoke2, sparkShoot]
+  shootEffect: [shootBigSmoke2, sparkShoot, lightning]
   intervalBullet: {
     type: ShrapnelBulletType
     damage: 12.5
