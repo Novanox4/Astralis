@@ -13,7 +13,7 @@ orbitOffset: 38
 radius: 2
 minZoom: 1.2
 drawOrbit: true
-atmosphereRadIn: 0
+atmosphereRadIn: 1
 atmosphereRadOut: 10
 accessible: true
 updateLighting: true
