@@ -34,8 +34,8 @@ bullet: {
   intervalBullets: 1
   intervalRandomSpread: 360
   intervalSpread: 20
-  bulletInterval: 25
-  intervalDelay: 75
+  bulletInterval: 12.5
+  intervalDelay: 37.5
   intervalBullet: {
     type: ShrapnelBulletType
     damage: 75
