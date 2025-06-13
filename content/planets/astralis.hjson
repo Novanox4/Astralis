@@ -12,7 +12,7 @@ orbitSpacing: 0
 radius: 1.15
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 1
+atmosphereRadIn: 0.01
 atmosphereRadOut: 2.4
 accessible: true
 updateLighting: true
