@@ -40,3 +40,10 @@ engines: [
   rotation: 90
   }
 ]
+abilities: [
+  type: MoveEffectAbility
+  effect: {
+    type: WrapEffect
+    effect: trailFade
+    }
+  ]
