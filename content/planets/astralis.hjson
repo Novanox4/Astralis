@@ -103,7 +103,44 @@ mesh: [
   persistence: 1.41
   }
 ]
-
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 0
+   radius: 0.13
+   divisions: 5
+   color: 6ed1e74d
+   octaves: 4
+   persistence: 0.95
+   scl: 1
+   thresh: 1
+  }
+  {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.45
+   scl: 0.9
+   thresh: 0.375
+  }
+  {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1.1
+   thresh: 0.35
+  }
+]
 generator: {
   octaves: 3
   persistence: 0.275
