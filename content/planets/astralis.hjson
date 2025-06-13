@@ -8,7 +8,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: true
 startSector: 28
-orbitSpacing: 7
+orbitSpacing: 125
 radius: 3.9
 minZoom: 1
 drawOrbit: true
