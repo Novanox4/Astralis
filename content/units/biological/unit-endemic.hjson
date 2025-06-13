@@ -36,14 +36,14 @@ bullet: {
   width: 23
   height: 22
   shrinkY: 0.25
-  intervalBullets: 2
+  intervalBullets: 3
   intervalRandomSpread: 360
   intervalSpread: 20
-  bulletInterval: 12.5
+  bulletInterval: 9.75
   intervalDelay: 37.5
   intervalBullet: {
     type: ShrapnelBulletType
-    damage: 55
+    damage: 12.5
     fromColor: ffffffff
     toColor: 8439eaff
     lifetime: 45
