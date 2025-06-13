@@ -33,3 +33,4 @@ trailColor: ffd27e
 targetAir: false
 drawCell: true
 targetable: false
+hittable: false
