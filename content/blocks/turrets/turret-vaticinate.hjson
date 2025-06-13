@@ -74,7 +74,7 @@ ammoTypes: {
       display: false
       collides: false
       instantDisappear: true
-      despawnEffect: {
+      shootEffect: {
         type: ParticleEffect
         rotWithParent: true
         followParent: true
