@@ -98,8 +98,8 @@ mesh: [
   planet: astralis
   color1: ec8555
   color2: f1773f
-  radius: 385
-  divisions: 5
+  radius: 6
+  divisions: 1
   octaves: 32
   persistence: 14175
   }
