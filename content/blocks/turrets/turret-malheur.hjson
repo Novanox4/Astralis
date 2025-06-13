@@ -27,6 +27,7 @@ requirements: [
   item-crystalite/300
   item-silver/225
   item-uranium/375
+  metaglass/75
 ]
 shoot: {
   type: ShootAlternate
@@ -105,4 +106,10 @@ ammoTypes: {
   splashDamageRadius: 30
   }
 }
-research: turret-reverberate
+research: turret-augur
+researchCost: [
+  item-crystalite/850
+  item-uranium/900
+  item-silver/250
+  metaglass/300
+]
