@@ -52,7 +52,18 @@ mesh: [
   radius: 1.1501
   divisions: 6
   octaves: 3
-  persistence: 1.75
+  persistence: 1.8
+  }
+  {
+  //water or calcite
+  type: NoiseMesh
+  planet: astralis
+  color1: fd8363
+  color2: ea5e39
+  radius: 1.1501
+  divisions: 6
+  octaves: 3.5
+  persistence: 1.8
   }
   ]
 generator: AsteroidGenerator
