@@ -25,14 +25,14 @@ bullet: {
   lifetime: 200
   speed: 2
   sprite: large-orb
-  spin: 10
+  spin: 4
   backColor: 8439ea
   frontColor: 8439ea
   width: 25
   height: 25
   shrinkY: 0
   intervalBullets: 1
-  intervalRandomSpread: 0
+  intervalRandomSpread: 360
   intervalSpread: 20
   bulletInterval: 25
   intervalDelay: 75
@@ -42,7 +42,15 @@ bullet: {
     fromColor: ffffffff
     toColor: 8439eaff
     lifetime: 45
-    }
+    spawnBullets: [
+      {
+      type: EmptyBulletType
+      collides: false
+      despawnSound: shotgun
+      instantDisappear: true
+        }
+      ]
+    }    
   }
 }
 ]
