@@ -12,9 +12,33 @@ flying: false
 health: 30000
 baseLegStraightness: 0
 legExtension: -15
-parts: [
-]
 weapons: [
+{
+shootY: 0
+reload: 150
+shootSound: cannon
+bullet: {
+  type: BasicBulletType
+  damage: 125
+  lifetime: 200
+  speed: 2
+  sprite: large-orb
+  backColor: 8439ea
+  frontColor: 8439ea
+  intervalBullets: 1
+  intervalRandomSpread: 0
+  intervalSpread: 20
+  bulletInterval: 25
+  intervalDelay: 75
+  intervalBullet: {
+    type: ShrapnelBulletType
+    damage: 75
+    fromColor: ffffffff
+    toColor: 8439eaff
+    lifetime: 45
+    }
+  }
+}
 ]
 abilities: [
 ]
