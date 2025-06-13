@@ -141,18 +141,4 @@ cloudMesh: [
    thresh: 0.35
   }
 ]
-generator: {
-  octaves: 3
-  persistence: 0.275
-  scale: 23
-  mag: 0.714
-  thresh: 1.142
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
-  berylChance: 0
-  ferricChance: 0.26
-}
+generator: AsteroidGenerator
