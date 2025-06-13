@@ -42,9 +42,9 @@ ammoTypes: {
   speed: 9
   trailColor: 2c4035
   trailLength: 37.5
-  trailWidth: 12
+  trailWidth: 4
   lifetime: 45
-  height: 15
+  height: 22.5
   width: 13.75
   bulletInterval: 7.5
   intervalBullets: 1
