@@ -41,8 +41,7 @@ ammoTypes: {
     backColor: 2c4035
     speed: 9.25
     trailColor: 2c4035
-    absorbable: false
-    shieldDamageMultiplier: 7.5
+    shieldDamageMultiplier: 11
     trailLength: 37.5
     trailWidth: 4
     lifetime: 70
