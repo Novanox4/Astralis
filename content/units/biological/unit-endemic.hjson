@@ -111,7 +111,6 @@ deathSound: plantBreak
 speed: 0.7
 lightRadius: 0.01
 hitSize: 20
-layer: 150
 useUnitCap: false
 legSplashRange: 70
 legSplashDamage: 240
