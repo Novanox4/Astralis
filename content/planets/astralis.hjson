@@ -79,5 +79,17 @@ mesh: [
   persistence: 0.75
   seed: 14
   }
+  {
+  //scoria
+  type: NoiseMesh
+  planet: astralis
+  color1: 5b4040
+  color2: 453328
+  radius: 1.1485
+  divisions: 5
+  octaves: 7.2
+  persistence: 0.85
+  seed: 14
+  }
   ]
 generator: AsteroidGenerator
