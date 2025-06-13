@@ -13,6 +13,8 @@ minWarmup: 0.75
 inaccuracy: 0
 ammoPerShot: 5
 itemCapacity: 20
+despawnHit: true
+hitColor: 2c4035ff
 despawnSound: explosion
 hitSound: explosion
 drawer: {
