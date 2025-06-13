@@ -46,6 +46,14 @@ abilities: [
   effect: {
     type: WrapEffect
     effect: missileTrailSmoke
+    color: 423f4580
+    }
+  }
+    {
+  type: MoveEffectAbility
+  effect: {
+    type: WrapEffect
+    effect: missileTrail
     color: 25113e
     }
   }
