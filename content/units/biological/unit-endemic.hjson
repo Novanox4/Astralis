@@ -5,6 +5,7 @@ legLength: 80
 legBaseOffset: 5
 legPairOffset: -5
 name: Endemic
+armor: 25
 description: Native (?) spider to Astralis. Highly dangerous. Shoots powerful missiles and energy orbs out of its mechanical maw. Incredibly tanky, spawns units on death.
 details: "This monstrosity could not have appeared natuarly, could it? It HAS to be a sharded experiment gone awry, right?"
 legMaxLength: 1.35
