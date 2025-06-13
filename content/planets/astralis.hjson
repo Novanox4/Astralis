@@ -39,8 +39,8 @@ mesh: [
   color1: 5d5d5d
   color2: 4e514f
   radius: 1.15
-  divisions: 6
-  octaves: 3
+  divisions: 3
+  octaves: 2.65
   persistence: 1.8
   }
   {
@@ -50,8 +50,8 @@ mesh: [
   color1: 82c6ea
   color2: 64b7e2
   radius: 1.1499
-  divisions: 5
-  octaves: 3
+  divisions: 7
+  octaves: 3.2
   persistence: 1
   seed: 38
   }
@@ -62,9 +62,9 @@ mesh: [
   color1: fd8363
   color2: ea5e39
   radius: 1.1499
-  divisions: 3
-  octaves: 5
-  persistence: 3
+  divisions: 4
+  octaves: 5.25
+  persistence: 4
   seed: 22
   }
   {
