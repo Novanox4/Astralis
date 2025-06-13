@@ -40,18 +40,13 @@ ammoTypes: {
       type: MultiEffect
       effects: [
         {
-        type: WrapEffect
-        effect: smoke
-        color: 2c4035
+        type: ParticleEffect
         rotWithParent: true
         followParent: true
-        }
-        {
-        type: WrapEffect
-        effect: lightningShoot
-        color: 2c4035
-        rotWithParent: true
-        followParent: true
+        colorFrom: ffffff
+        colorTo: 2c4035
+        cone: -90
+        line: true
         }
       ]
     }
