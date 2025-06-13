@@ -45,7 +45,8 @@ abilities: [
   type: MoveEffectAbility
   effect: {
     type: WrapEffect
-    effect: trailFade
+    effect: missileTrailSmoke
+    color: 25113e
     }
   }
   ]
