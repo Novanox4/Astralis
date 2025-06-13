@@ -10,7 +10,7 @@ allowSectorInvasion: true
 startSector: 28
 orbitSpacing: 0
 radius: 1.15
-minZoom: 2
+minZoom: 1.45
 drawOrbit: true
 atmosphereRadIn: 1
 atmosphereRadOut: 5
