@@ -6,7 +6,7 @@ legBaseOffset: 5
 legPairOffset: -5
 name: Endemic
 armor: 25
-description: Native (?) spider to Astralis. Highly dangerous. Shoots powerful missiles and energy orbs out of its mechanical maw. Incredibly tanky, spawns units on death.
+description: "Native [gray](?)[] spider to Astralis. Highly dangerous. Shoots powerful missiles and energy orbs out of its mechanical maw. Incredibly tanky, spawns units on death."
 details: "This monstrosity could not have appeared natuarly, could it? It HAS to be a sharded experiment gone awry, right?"
 legMaxLength: 1.35
 flying: false
@@ -36,6 +36,14 @@ bullet: {
   width: 18
   height: 16.25
   shrinkY: 0.425
+  shootEffect: {
+      type: WrapEffect
+      rotWithParent: true
+      followParent: true
+      color: 8439ea
+      rotation: 60
+      effect: dynamicSpikes
+    }
   spawnBullets: [
     {
     type: MultiBulletType
@@ -54,7 +62,6 @@ bullet: {
   intervalSpread: 20
   bulletInterval: 9.75
   intervalDelay: 37.5
-  shootEffect: [shootBigSmoke2, sparkShoot, lightning]
   intervalBullet: {
   type: MultiBulletType
   bullets: [
@@ -81,7 +88,13 @@ bullet: {
       collides: false
       despawnSound: shotgun
       instantDisappear: true
-        }
+      }
+      {
+      type: EmptyBulletType
+      collides: false
+      despawnSound: spark
+      instantDisappear: true
+      }
       ]
     }
     ]
