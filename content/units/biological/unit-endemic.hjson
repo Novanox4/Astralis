@@ -31,7 +31,7 @@ bullet: {
   width: 23
   height: 22
   shrinkY: 0.25
-  intervalBullets: 1
+  intervalBullets: 2
   intervalRandomSpread: 360
   intervalSpread: 20
   bulletInterval: 12.5
