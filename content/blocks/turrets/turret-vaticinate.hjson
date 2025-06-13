@@ -14,6 +14,7 @@ inaccuracy: 0
 ammoPerShot: 5
 itemCapacity: 20
 despawnSound: explosion
+hitSound: explosion
 drawer: {
   type: DrawTurret
   basePrefix: astral-
