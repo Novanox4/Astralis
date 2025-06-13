@@ -29,6 +29,14 @@ autoFindTarget: true
 homingDelay: 0.75
 circleTarget: false
 faceTarget: true
-trailColor: 25113e
+trailColor: 25113eff
 targetAir: true
 drawCell: false
+engines: [
+  {
+  x: 0
+  y: -7.5
+  radius: 3.25
+  rotation: 90
+  }
+]
