@@ -46,7 +46,7 @@ ammoTypes: {
   lifetime: 70
   height: 22.5
   width: 13.75
-  bulletInterval: 7.5
+  bulletInterval: 3.75
   intervalBullets: 1
   intervalBullet: {
       type: EmptyBulletType
