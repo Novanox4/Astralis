@@ -45,10 +45,14 @@ ammoTypes: {
         followParent: true
         colorFrom: ffffffff
         colorTo: 2c4035ff
-        cone: -90
+        cone: 45
         line: true
         lifetime: 5
         length: 22.5
+        lenFrom: 5.5
+        lenTo: 2
+        strokeFrom: 2.75
+        strokeTo: 0
         }
       ]
     }
