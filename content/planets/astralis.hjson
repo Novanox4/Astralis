@@ -39,7 +39,7 @@ mesh: [
   planet: astralis
   color1: 5d5d5d
   color2: 4e514f
-  radius: 1.95
+  radius: 1
   divisions: 4
   octaves: 1
   persistence: 1.4
