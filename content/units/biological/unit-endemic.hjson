@@ -20,6 +20,12 @@ x: 0
 y: 0
 reload: 65
 shootSound: cannon
+spawnBullets: [
+  {
+  type: LigthningBulletType
+  collides: false
+  damage: 0
+  }
 bullet: {
   type: BasicBulletType
   laserAbsorb: true
