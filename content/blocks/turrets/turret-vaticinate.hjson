@@ -33,17 +33,17 @@ requirements: [
 ammoTypes: {
   item-cerium: {
   type: BasicBulletType
-  damage: 250
+  damage: 265
   pierce: true
   pierceCap: 6
   buildingDamageMultiplier: 0.15
   frontColor: ffffff
   backColor: 2c4035
-  speed: 9
+  speed: 9.25
   trailColor: 2c4035
   trailLength: 37.5
   trailWidth: 4
-  lifetime: 45
+  lifetime: 67.5
   height: 22.5
   width: 13.75
   bulletInterval: 7.5
