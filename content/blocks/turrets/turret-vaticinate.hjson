@@ -41,7 +41,7 @@ ammoTypes: {
       effects: [
         {
         type: WrapEffect
-        effect: breakProp
+        effect: smoke
         color: 2c4035
         rotWithParent: true
         }
