@@ -10,6 +10,7 @@ trailLength: 15
 trailWidth: 5
 useUnitCap: false
 health: 375
+missileAccelTime: 65
 weapons: [
   {
     reload: 1
