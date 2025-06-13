@@ -53,7 +53,7 @@ abilities: [
   type: MoveEffectAbility
   effect: {
     type: WrapEffect
-    effect: missileTrailSmokDEBUG
+    effect: none
     color: 423f454d
     }
   }
