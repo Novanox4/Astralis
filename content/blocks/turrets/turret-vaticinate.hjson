@@ -69,12 +69,13 @@ ammoTypes: {
     width: 13.75
     bulletInterval: 3.75
     intervalBullets: 1
+    intervalRandomSpread: 0
     intervalBullet: {
       type: EmptyBulletType
       display: false
       collides: false
       instantDisappear: true
-      shootEffect: {
+      despawnEffect: {
         type: ParticleEffect
         rotWithParent: true
         followParent: true
