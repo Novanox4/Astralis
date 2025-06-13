@@ -18,15 +18,15 @@ weapons: [
 shootY: 0
 x: 0
 y: 0
-reload: 150
+reload: 65
 shootSound: cannon
 bullet: {
   type: BasicBulletType
   laserAbsorb: true
-  pierceCap: 999
+  pierceCap: 12
   pierce: true
   pierceBuilding: true
-  damage: 200
+  damage: 125
   lifetime: 200
   speed: 2
   sprite: large-orb
@@ -43,12 +43,12 @@ bullet: {
   intervalDelay: 37.5
   intervalBullet: {
     type: ShrapnelBulletType
-    damage: 125
+    damage: 55
     fromColor: ffffffff
     toColor: 8439eaff
     lifetime: 45
-    width: 17.5
-    height: 87.5
+    width: 12.5
+    height: 110
     pierce: true
     pierceCap: 999
     pierceBuilding: true
