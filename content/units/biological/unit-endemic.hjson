@@ -22,7 +22,7 @@ reload: 65
 shootSound: cannon
 spawnBullets: [
   {
-  type: LigthningBulletType
+  type: LightningBulletType
   collides: false
   damage: 0
   }
