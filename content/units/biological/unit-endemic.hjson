@@ -30,7 +30,7 @@ bullet: {
   frontColor: 8439ea
   width: 23
   height: 22
-  shrinkY: 0
+  shrinkY: 0.25
   intervalBullets: 1
   intervalRandomSpread: 360
   intervalSpread: 20
