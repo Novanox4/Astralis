@@ -43,10 +43,12 @@ ammoTypes: {
         type: ParticleEffect
         rotWithParent: true
         followParent: true
-        colorFrom: ffffff
-        colorTo: 2c4035
+        colorFrom: ffffffff
+        colorTo: 2c4035ff
         cone: -90
         line: true
+        lifetime: 32.5
+        length: 32.5
         }
       ]
     }
