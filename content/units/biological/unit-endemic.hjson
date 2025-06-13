@@ -22,7 +22,7 @@ outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 0.95
+speed: 0.7
 lightRadius: 0.01
 hitSize: 20
 layer: 150
