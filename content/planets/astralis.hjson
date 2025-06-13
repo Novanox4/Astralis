@@ -38,7 +38,7 @@ mesh: [
   planet: astralis
   color1: 5d5d5d
   color2: 4e514f
-  radius: 1.153
+  radius: 1.1575
   divisions: 3.3
   octaves: 2.65
   persistence: 1.8
@@ -49,7 +49,7 @@ mesh: [
   planet: astralis
   color1: 82c6ea
   color2: 64b7e2
-  radius: 1.1495
+  radius: 1.148
   divisions: 6
   octaves: 3.2
   persistence: 1.5
@@ -61,7 +61,7 @@ mesh: [
   planet: astralis
   color1: fd8363
   color2: ea5e39
-  radius: 1.1495
+  radius: 1.1485
   divisions: 6
   octaves: 3
   persistence: 2
@@ -73,7 +73,7 @@ mesh: [
   planet: astralis
   color1: 23623f
   color2: 195835
-  radius: 1.14945
+  radius: 1.149
   divisions: 4
   octaves: 7
   persistence: 0.75
