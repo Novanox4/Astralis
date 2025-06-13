@@ -51,6 +51,7 @@ ammoTypes: {
   intervalBullet: {
       type: EmptyBulletType
       collides: false
+      instantDisappear: true
       despawnEffect: {
         type: WrapEffect
         effect: sparkShoot
