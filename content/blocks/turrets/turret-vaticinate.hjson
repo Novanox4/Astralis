@@ -70,6 +70,7 @@ ammoTypes: {
     bulletInterval: 3.75
     intervalBullets: 1
     intervalRandomSpread: 0
+    intervalAngle: 180
     intervalBullet: {
       type: EmptyBulletType
       display: false
