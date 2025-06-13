@@ -36,6 +36,21 @@ ammoTypes: {
     damage: 265
     pierce: true
     pierceCap: 6
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WrapEffect
+        effect: BreakProp
+        color: 2c4035
+        }
+        {
+        type: WrapEffect
+        effect: lightningShoot
+        color: 2c4035
+        }
+      ]
+    }
     buildingDamageMultiplier: 0.15
     frontColor: ffffff
     backColor: 2c4035
