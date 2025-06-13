@@ -32,13 +32,24 @@ solarSystem: sun
 defaultEnv: 225
 rotateTime: 680
 mesh: [
- {
+  {
   //char
   type: NoiseMesh
   planet: astralis
   color1: 5d5d5d
   color2: 4e514f
-  radius: 1
+  radius: 1.15
+  divisions: 4
+  octaves: 1
+  persistence: 1.4
+  }
+  {
+  //water or calcite
+  type: NoiseMesh
+  planet: astralis
+  color1: 82c6ea
+  color2: 64b7e2
+  radius: 1.15
   divisions: 4
   octaves: 1
   persistence: 1.4
