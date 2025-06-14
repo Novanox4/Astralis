@@ -6,3 +6,4 @@ health: 1000
 buildVisibility: editorOnly
 variants: 3
 forceTeam: malis
+drawTeamOverlay: false
