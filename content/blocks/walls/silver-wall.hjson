@@ -1,0 +1,22 @@
+type: Wall
+size: 1
+name: Silver Wall
+requirements: [
+  item-silver/6
+  ]
+researchCost:  [
+  item-silver/125
+  ]
+research: {
+  parent: metaglass-wall
+  objectives: [
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
+category: defense
+description: "Wall that provides cover from enemy fire. More durable than crystalite walls."
+health: 450
+albedo: 0.5

@@ -6,7 +6,7 @@ range: 650
 size: 3
 squareSprite: false
 shootSound: shootBig
-cooldownTime: 75
+cooldownTime: 125
 reload: 275
 health: 2800
 minWarmup: 0.75

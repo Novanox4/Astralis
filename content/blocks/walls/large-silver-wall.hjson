@@ -1,0 +1,14 @@
+type: Wall
+size: 2
+name: Large Silver Wall
+requirements: [
+  item-silver/24
+  ]
+researchCost:  [
+  item-silver/350
+  ]
+research: silver-wall
+category: defense
+description: "Wall that provides cover from enemy fire. More durable than crystalite walls."
+health: 1800
+albedo: 0.5
