@@ -4,3 +4,4 @@ name: Scoria Reinforcement
 description: "Protects biological structures from attacks"
 health: 1000
 buildVisibility: editorOnly
+variants: 3
