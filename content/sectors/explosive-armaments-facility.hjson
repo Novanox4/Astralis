@@ -1,0 +1,26 @@
+localizedName: "Explosive Armaments Facility"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+[red][ENEMY BASE DETECTED][]
+A sharded facility based on creating new, powerful explosive weaponry is located here.
+Resources are plentiful, but so are threats
+Scoria nests are present, but will most likely get destroyed by sharded attacks.
+[accent]Unlock silver fulminate, a potent explosive, and produce it. Enemy bombardments are a possible threat.
+This sector is optional and not required to beat the main campaign and finish the story!"
+sector: 3
+planet: astralis
+difficulty: 4
+research: {
+  parent: mineshaft
+  objectives: [
+    turret-malheur,
+    cryogenic-distiller,
+    support-unit-forge,
+    unit-receptacle,
+    unit-pollen,
+    {
+      type: SectorComplete
+      preset: mineshaft
+    }
+  ]
+}
