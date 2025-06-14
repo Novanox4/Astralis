@@ -7,7 +7,15 @@ requirements: [
 researchCost:  [
   item-silver/125
   ]
-research: metaglass-wall
+research: {
+  parent: metaglass-wall
+  objectives: [
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
 category: defense
 description: "Wall that provides cover from enemy fire. More durable than crystalite walls."
 health: 450
