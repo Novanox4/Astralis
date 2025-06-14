@@ -26,15 +26,16 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
+    type: DrawRegion
+    suffix: -bottom
     }
     {
-      type: DrawLiquidRegion
-      drawLiquid: water
+    type: DrawLiquidTile
+    drawLiquid: water
+    padding: 0.1
     }
     {
-      type: DrawDefault
+    type: DrawDefault
     }
   ]
 }
