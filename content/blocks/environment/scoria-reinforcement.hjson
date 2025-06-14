@@ -5,3 +5,12 @@ description: "Protects biological structures from attacks"
 health: 1000
 buildVisibility: editorOnly
 variants: 3
+forceTeam: malis
+drawTeamOverlay: false
+drawCracks: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: rockBreak
+placeSound: rockBreak
