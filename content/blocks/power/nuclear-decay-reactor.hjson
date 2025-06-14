@@ -30,9 +30,8 @@ drawer: {
     suffix: -bottom
     }
     {
-    type: DrawLiquidRegion
+    type: DrawLiquidTile
     drawLiquid: water
-    liquid: water
     }
     {
     type: DrawDefault
