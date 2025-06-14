@@ -1,0 +1,6 @@
+type: Wall
+size: 1
+name: Scoria Reinforcement
+description: "Protects biological structures from attacks"
+health: 1000
+buildVisibility: editorOnly
