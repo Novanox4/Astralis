@@ -16,8 +16,8 @@ ammoPerShot: 5
 itemCapacity: 30
 unitSort: strongest
 consumes: {
-  item-neodymium/30
-  power: 6
+  item: item-neodymium/30
+  power: 12
     }
 drawer: {
   type: DrawTurret
