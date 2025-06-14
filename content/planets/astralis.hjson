@@ -93,3 +93,41 @@ mesh: [
   }
   ]
 generator: AsteroidGenerator
+cloudMesh: [
+  {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 1.5
+   radius: 0.29
+   divisions: 6
+   color: a7bcc37e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.4
+  }
+  {
+   type: HexSkyMesh
+   planet: astralis
+   speed: 1.65
+   radius: 0.3
+   divisions: 6
+   color: a7bcc37e
+   octaves: 3
+   persistence: 0.3
+   scl: 0.925
+   thresh: 0.5
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.44
+   radius: 0.31
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.12
+   thresh: 0.6
+  }
+]
