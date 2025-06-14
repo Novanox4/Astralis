@@ -16,7 +16,9 @@ ammoPerShot: 5
 itemCapacity: 30
 unitSort: strongest
 consumes: {
-  item: item-neodymium/30
+  items: [
+    item-neodymium/30
+    ]
   power: 12
     }
 drawer: {
