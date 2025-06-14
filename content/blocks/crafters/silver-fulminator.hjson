@@ -39,3 +39,12 @@ category: crafting
 size: 3
 ambientSound: glow
 ambientSoundVolume: 0.95
+research: {
+  parent: cryogenic-distiller
+  objectives: [
+    {
+    type: SectorComplete
+    preset: explosive-armaments-facility
+    }
+  ]
+}
