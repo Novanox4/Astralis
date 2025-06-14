@@ -1,0 +1,87 @@
+type: PowerTurret
+name: Halt
+description: Attempts to rip the fabric of space and time at a specific point. If successful, it will create a ring of dark spheres before imploding at said point, causing massive damage. Requires absurd amounts of power to keep running.
+category: turret
+range: 650
+size: 3
+squareSprite: false
+shootSound: shootBig
+shootEffect: instShoot
+cooldownTime: 125
+reload: 1450
+health: 2800
+minWarmup: 0.75
+inaccuracy: 0
+ammoPerShot: 5
+itemCapacity: 30
+unitSort: strongest
+consumes: {
+  item-neodymium/30
+  power: 6
+    }
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+rotateSpeed: 1.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.625
+}
+coolantMultiplier: 1.3
+requirements: [
+  item-crystalite/300
+  item-silver/225
+  item-uranium/375
+  item-neodymium/85
+]
+research: {
+  parent: turret-reverberate
+  objectives: [
+    turret-malheur,
+    electrostatic-separator,
+    nuclear-decay-reactor,
+    core-agora,
+    {
+    type: SectorComplete
+    preset: explosive-armaments-facility
+    }
+  ]
+}
+researchCost: [
+  item-crystalite/1225
+  item-uranium/1050
+  item-silver/975
+  metaglass/675
+  item-cerium/100
+  item-neodymium/275
+]
+shootType: {
+  type: RailBulletType
+  despawnSound: railHit
+  hitSound: railHit
+  damage: 15
+  hitColor: 000000ff
+  buildingDamageMultiplier: 0
+  status: [unmoving, disarmed]
+  statusDuration: 500
+  despawnHit: true
+  pierceEffect: none
+  lineEffect: {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    colorFrom: 000000ff
+    colorTo: 000000ff
+    cone: 0
+    line: true
+    lifetime: 10.25
+    length: 19.5
+    lenFrom: 70
+    lenTo: 8
+    strokeFrom: 2.85
+    strokeTo: 0
+    }
+  ]
