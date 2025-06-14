@@ -1,7 +1,8 @@
 type: GenericCrafter
 name: Silver Fulminator
 description: Uses nitrogen and silver to create an explosive compound.
-outputItem: item-silver-fulminate/3
+outputItem: item-silver-fulminate/7
+itemCapacity: 25
 consumes: {
   power: 2.5
   items: [
