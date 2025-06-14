@@ -1,11 +1,11 @@
 type: PowerTurret
 name: Halt
-description: Attempts to rip the fabric of space and time at a specific point. If successful, it will create a ring of dark spheres before imploding at said point, causing massive damage. Requires absurd amounts of power to keep running.
+description: Stalls a single unit at a specific point. Deals low damage. Requires neodymium to run.
 category: turret
-range: 650
+range: 345
 size: 3
 squareSprite: false
-shootSound: shootBig
+shootSound: railgun
 shootEffect: instShoot
 cooldownTime: 125
 reload: 1450
@@ -63,25 +63,14 @@ shootType: {
   despawnSound: railHit
   hitSound: railHit
   damage: 15
+  length: 345
   hitColor: 000000ff
   buildingDamageMultiplier: 0
   status: [unmoving, disarmed]
   statusDuration: 500
   despawnHit: true
-  pierceEffect: none
-  lineEffect: {
-    type: ParticleEffect
-    rotWithParent: true
-    followParent: true
-    colorFrom: 000000ff
-    colorTo: 000000ff
-    cone: 0
-    line: true
-    lifetime: 10.25
-    length: 19.5
-    lenFrom: 70
-    lenTo: 8
-    strokeFrom: 2.85
-    strokeTo: 0
-    }
-  }
+  pierceEffect: railHit
+  hitEffect: instHit
+  despawnEffect: instBomb
+  pointEffect: instTrail
+}
