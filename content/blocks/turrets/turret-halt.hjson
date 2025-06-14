@@ -68,7 +68,7 @@ shootType: {
   length: 345
   hitColor: 000000ff
   buildingDamageMultiplier: 0
-  status: [unmoving, disarmed]
+  status: unmoving
   statusDuration: 500
   despawnHit: true
   pierceEffect: railHit
