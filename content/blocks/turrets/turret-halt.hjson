@@ -80,11 +80,11 @@ shootType: {
     type: ShrapnelBulletType
     damage: 0
     collides: false
-    lifetime: 20
-    fromColor: 000000ff
-    toColor: 000000ff
+    lifetime: 100
+    fromColor: 242f3cff
+    toColor: 242f3cff
     serrations: 1
-    length: 30
+    length: 75
     width: 6
     }
     ]
