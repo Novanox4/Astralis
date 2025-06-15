@@ -73,14 +73,16 @@ shootType: {
   fragBullets: 40
   backColor: 004699
   frontColor: ffffffff
+  despawnEffect: none
+  hitEffect: none
   height: 15
   width: 15
   fragRandomSpread: 0
   fragVelocityMin: 0.75
   fragVelocityMax: 1.25
   fragLifeMin: 0.75
-  fragLifeMax: 1.15
-  fragSpread: 1.25
+  fragLifeMax: 1.1
+  fragSpread: 1
   fragBullet: {
     type: BasicBulletType
     backColor: 004699
@@ -90,6 +92,11 @@ shootType: {
     height: 8.5
     width: 6.25
     speed: 4
-    lifetime: 50
+    lifetime: 35
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    trailColor: 004699
+    trailLength: 22.5
+    trailWidth: 4
     }
   }
