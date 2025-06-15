@@ -13,6 +13,8 @@ hidden: false
 hideBrowser: false
 author: NV-NX, Haznobrain
 contentOrder: [
+    //items
+    
     item-crystalite,
     item-uranium,
     item-charchunk,
@@ -21,6 +23,108 @@ contentOrder: [
     item-monazite,
     item-cerium,
     item-neodymium,
-
+    
+    //factories
+    
     crystal-kiln,
+    cryogenic-distiller,
+    silver-fulminator,
+    electrostatic-separator,
+    char-burner,
+    heat-circulator,
+    
+    //walls
+    
+    crystalite-wall,
+    large-crystalite-wall,
+    metaglass-wall,
+    large-metaglass-wall,
+    silver-wall,
+    large-silver-wall,
+    
+    //effect
+    
+    remediator,
+    lamp,
+    core-fort,
+    core-agora,
+    
+    //distribution
+    
+    crystal-duct,
+    crystal-router,
+    crystal-bridge,
+    crystal-overflow-gate,
+    crystal-underflow-gate,
+
+    //liquids
+
+    crystal-pump,
+    
+    //liquid distribution
+    
+    crystal-aqueduct,
+    crystal-aqueduct-router,
+    crystal-aqueduct-junction,
+    crystal-aqueduct-bridge,
+    
+    //power
+    
+    crystal-node,
+    power-distributor,
+    crystal-battery,
+    heat-generator,
+    boiler,
+    nuclear-decay-reactor,
+    
+    //production
+    
+    beam-drill,
+    char-crusher,
+    deep-quarry,
+
+    //turrets
+
+    turret-burn,
+    turret-slice,
+    turret-spritz,
+    turret-augur,
+    turret-reverberate,
+    turret-malheur,
+    turret-benefactor,
+    turret-halt,
+
+    //unit blocks
+
+    assault-unit-forge,
+    support-unit-forge,
+
+    //units
+
+    unit-shards,
+    unit-chunks,
+    unit-capture,
+    unit-chieftain,
+    unit-receptacle,
+    unit-pollen,
+    unit-flu,
+    unit-malady,
+    unit-outbreak,
+    unit-endemic,
+    unit-microplana,
+    unit-koreni,
+    unit-hunger,
+    unit-craving,
+
+    //status
+
+    status-voidgnaw,
+    status-scrambled,
+
+    //sectors
+
+    emergence,
+    burning-ravine,
+    mineshaft,
+    explosive-armaments-facility,
 ]
