@@ -78,11 +78,11 @@ shootType: {
   spawnBullets: [
     {
     type: MultiBulletType
-    repeat: 3
+    repeat: 2
     bullets: [
     {
     type: ShrapnelBulletType
-    randomAngleOffset: 25
+    angleOffset: 45
     damage: 0
     collides: false
     fromColor: 004699ff
