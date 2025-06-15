@@ -75,7 +75,6 @@ shootType: {
   hitEffect: none
   despawnEffect: none
   pointEffect: none
-  spawnBulletRandomSpread: 35
   spawnBullets: [
     {
     type: MultiBulletType
@@ -83,6 +82,7 @@ shootType: {
     bullets: [
     {
     type: ShrapnelBulletType
+    randomAngleOffset: 15
     damage: 0
     collides: false
     fromColor: 004699ff
