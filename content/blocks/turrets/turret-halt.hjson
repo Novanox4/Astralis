@@ -88,7 +88,6 @@ shootType: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragBullet: {
-    {
     type: ShrapnelBulletType
     damage: 0
     collides: false
@@ -99,7 +98,6 @@ shootType: {
     width: 9
     lifetime: 20
     layer: 110
-    }
     }
     ]
   }
