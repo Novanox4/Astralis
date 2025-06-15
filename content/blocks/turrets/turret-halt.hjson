@@ -66,7 +66,7 @@ shootType: {
   hitSound: railHit
   damage: 15
   length: 345
-  hitColor: 000000ff
+  hitColor: 004699ff
   buildingDamageMultiplier: 0
   status: unmoving
   statusDuration: 500
@@ -80,11 +80,13 @@ shootType: {
     type: ShrapnelBulletType
     damage: 0
     collides: false
-    fromColor: 242f3cff
-    toColor: 242f3cff
-    serrations: 1
+    fromColor: 004699ff
+    toColor: 004699ff
+    serrations: 0
     length: 75
     width: 6
+    lifetime: 20
+    layer: 110
     }
     ]
 }
