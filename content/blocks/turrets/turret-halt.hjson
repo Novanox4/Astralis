@@ -76,6 +76,7 @@ shootType: {
   despawnEffect: none
   pointEffect: none
   spawnBullets: [
+    {
     type: EmptyBulletType
     damage: 0
     collides: false
@@ -98,6 +99,7 @@ shootType: {
     width: 9
     lifetime: 20
     layer: 110
+    }
     }
     ]
   }
