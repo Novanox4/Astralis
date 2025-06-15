@@ -8,7 +8,7 @@ squareSprite: false
 shootSound: railgun
 shootEffect: instShoot
 cooldownTime: 125
-reload: 1450
+reload: 1000
 health: 2800
 minWarmup: 0.75
 inaccuracy: 0
@@ -71,8 +71,31 @@ shootType: {
   status: unmoving
   statusDuration: 500
   despawnHit: true
-  pierceEffect: railHit
-  hitEffect: instHit
-  despawnEffect: instBomb
-  pointEffect: instTrail
+  pierceEffect: {
+    type: WrapEffect
+    effect: railHit
+    followParent: true
+    rotWithParent: true
+    color: 000000
+}
+  hitEffect: {
+    type: WrapEffect
+    effect: instHit
+    followParent: true
+    rotWithParent: true
+    color: 000000
+}
+  despawnEffect: {
+    type: WrapEffect
+    effect: instBomb
+    followParent: true
+    rotWithParent: true
+    color: 000000
+}
+  pointEffect: {
+    type: WrapEffect
+    effect: instTrail
+    followParent: true
+    rotWithParent: true
+    color: 000000
 }
