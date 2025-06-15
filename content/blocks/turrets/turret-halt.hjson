@@ -73,30 +73,30 @@ shootType: {
   despawnHit: true
   pierceEffect: {
     type: WrapEffect
-    effect: railHit
     followParent: true
     rotWithParent: true
+    effect: railHit
     color: 000000
 }
   hitEffect: {
     type: WrapEffect
-    effect: instHit
     followParent: true
     rotWithParent: true
+    effect: instHit
     color: 000000
 }
   despawnEffect: {
     type: WrapEffect
-    effect: instBomb
     followParent: true
     rotWithParent: true
+    effect: instBomb
     color: 000000
 }
   pointEffect: {
     type: WrapEffect
-    effect: instTrail
     followParent: true
     rotWithParent: true
+    effect: instTrail
     color: 000000
 }
 }
