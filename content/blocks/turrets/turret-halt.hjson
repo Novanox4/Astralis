@@ -82,7 +82,8 @@ shootType: {
   fragVelocityMax: 1
   fragLifeMin: 1
   fragLifeMax: 1
-  fragRandomSpread: 1
+  fragSpread: 1
+  fragRandomSpread: 0.25
   fragBullet: {
     type: BasicBulletType
     backColor: 452d56
@@ -97,6 +98,6 @@ shootType: {
     despawnEffect: hitSquaresColor
     trailColor: 452d56
     trailLength: 22.5
-    trailWidth: 4
+    trailWidth: 2
     }
   }
