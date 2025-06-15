@@ -7,8 +7,9 @@ size: 3
 squareSprite: false
 shootSound: plasmadrop
 shootY: 0.1
+recoilTime: 25
 shootEffect: none
-cooldownTime: 125
+cooldownTime: 275
 reload: 245
 health: 1250
 minWarmup: 0.75
