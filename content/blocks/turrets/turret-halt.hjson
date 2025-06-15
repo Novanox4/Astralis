@@ -64,6 +64,8 @@ researchCost: [
 shootType: {
   type: BasicBulletType
   sprite: large-orb
+  lifetime: 7.65
+  speed: 2
   damage: 0
   collides: false
   hitColor: 004699ff
@@ -74,7 +76,7 @@ shootType: {
   height: 15
   width: 15
   fragRandomSpread: 0
-  fragSpread: 5
+  fragSpread: 3
   fragBullet: {
     type: BasicBulletType
     backColor: 004699
@@ -83,5 +85,7 @@ shootType: {
     damage: 4
     height: 7
     width: 5
+    speed: 4
+    lifetime: 50
     }
   }
