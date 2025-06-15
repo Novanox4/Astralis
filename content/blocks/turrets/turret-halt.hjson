@@ -11,7 +11,7 @@ shootEffect: {
   type: RadialEffect
   effect: {
     type: WrapEffect
-    effect: ScatheSlash
+    effect: scatheSlash
     color: 004699
     followParent: true
     rotWithParent: true
