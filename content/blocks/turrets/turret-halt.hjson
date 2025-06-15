@@ -6,9 +6,20 @@ range: 345
 size: 3
 squareSprite: false
 shootSound: railgun
-shootEffect: none
+shootY: 0.1
+shootEffect: {
+  type: RadialEffect
+  effect: {
+    type: WrapEffect
+    effect: ScatheSlash
+    color: 004699
+    followParent: true
+    rotWithParent: true
+    }
+    amount: 4
+  }
 cooldownTime: 125
-reload: 1000
+reload: 750
 health: 2800
 minWarmup: 0.75
 inaccuracy: 0
@@ -69,37 +80,10 @@ shootType: {
   hitColor: 004699ff
   buildingDamageMultiplier: 0
   status: unmoving
-  statusDuration: 500
+  statusDuration: 175
   despawnHit: true
   pierceEffect: none
   hitEffect: none
   despawnEffect: none
   pointEffect: none
-  spawnBullets: [
-    {
-    type: EmptyBulletType
-    damage: 0
-    collides: false
-    instantDisappear: true
-    fragBullets: 2
-    fragRandomSpread: 0
-    fragVelocityMin: 1
-    fragSpread: 45
-    fragAngle: 4
-    fragOffsetMin: 0
-    fragOffsetMax: 0
-    fragBullet: {
-    type: ShrapnelBulletType
-    damage: 0
-    collides: false
-    fromColor: 004699ff
-    toColor: 004699ff
-    serrations: 0
-    length: 27.5
-    width: 9
-    lifetime: 20
-    layer: 110
-    }
-    }
-    ]
   }
