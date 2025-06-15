@@ -9,6 +9,7 @@ shootSound: railgun
 shootY: 0.1
 shootEffect: {
   type: RadialEffect
+  rotationOffset: 45
   effect: {
     type: WrapEffect
     effect: scatheSlash
