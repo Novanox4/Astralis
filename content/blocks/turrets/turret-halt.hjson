@@ -76,15 +76,19 @@ shootType: {
   height: 15
   width: 15
   fragRandomSpread: 0
-  fragSpread: 3
+  fragVelocityMin: 0.75
+  fragVelocityMax: 1.25
+  fragLifeMin: 0.75
+  fragLifeMax: 1.15
+  fragSpread: 1.25
   fragBullet: {
     type: BasicBulletType
     backColor: 004699
     frontColor: ffffffff
     hitColor: 004699ff
     damage: 4
-    height: 7
-    width: 5
+    height: 8.5
+    width: 6.25
     speed: 4
     lifetime: 50
     }
