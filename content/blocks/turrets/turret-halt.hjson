@@ -71,34 +71,10 @@ shootType: {
   status: unmoving
   statusDuration: 500
   despawnHit: true
-  pierceEffect: {
-    type: WrapEffect
-    followParent: true
-    rotWithParent: true
-    effect: railHit
-    color: 000000
-}
-  hitEffect: {
-    type: WrapEffect
-    followParent: true
-    rotWithParent: true
-    effect: instHit
-    color: 000000
-}
-  despawnEffect: {
-    type: WrapEffect
-    followParent: true
-    rotWithParent: true
-    effect: instBomb
-    color: 000000
-}
-  pointEffect: {
-    type: WrapEffect
-    followParent: true
-    rotWithParent: true
-    effect: instTrail
-    color: 000000
-}
+  pierceEffect: none
+  hitEffect: none
+  despawnEffect: none
+  pointEffect: none
   spawnBullets: [
     {
     type: ShrapnelBulletType
