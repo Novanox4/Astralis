@@ -76,13 +76,20 @@ shootType: {
   despawnEffect: none
   pointEffect: none
   spawnBullets: [
-    {
-    type: MultiBulletType
-    repeat: 2
-    bullets: [
+    type: EmptyBulletType
+    damage: 0
+    collides: false
+    instantDisappear: true
+    fragBullets: 2
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragSpread: 45
+    fragAngle: 4
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullet: {
     {
     type: ShrapnelBulletType
-    angleOffset: 45
     damage: 0
     collides: false
     fromColor: 004699ff
@@ -93,7 +100,6 @@ shootType: {
     lifetime: 20
     layer: 110
     }
+    }
     ]
   }
-  ]
-}
