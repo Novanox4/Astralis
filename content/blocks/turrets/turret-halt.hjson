@@ -28,7 +28,6 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
     }
-rotateSpeed: 1.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -101,5 +100,7 @@ shootType: {
     trailColor: 452d56
     trailLength: 22.5
     trailWidth: 2
+    status: status-scrambled
+    statusDuration: 100
     }
   }
