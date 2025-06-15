@@ -6,7 +6,7 @@ range: 345
 size: 3
 squareSprite: false
 shootSound: railgun
-shootEffect: instShoot
+shootEffect: none
 cooldownTime: 125
 reload: 1000
 health: 2800
@@ -99,4 +99,15 @@ shootType: {
     effect: instTrail
     color: 000000
 }
+  spawnBullets: [
+    {
+    type: ShrapnelBulletType
+    damage: 0
+    collides: false
+    display: false
+    fromColor: ffffffff
+    toColor: 000000ff
+    serrations: 0
+    }
+    ]
 }
