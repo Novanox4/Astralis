@@ -77,16 +77,22 @@ shootType: {
   pointEffect: none
   spawnBullets: [
     {
+    type: MultiBulletType
+    repeat: 5
+    bullets: [
+    {
     type: ShrapnelBulletType
     damage: 0
     collides: false
     fromColor: 004699ff
     toColor: 004699ff
     serrations: 0
-    length: 75
-    width: 6
+    length: 35
+    width: 10
     lifetime: 20
     layer: 110
     }
     ]
+  }
+  ]
 }
