@@ -75,7 +75,7 @@ shootType: {
   hitEffect: none
   despawnEffect: none
   pointEffect: none
-  spawnBulletRandomAngle: 35
+  spawnBulletRandomSpread: 35
   spawnBullets: [
     {
     type: MultiBulletType
