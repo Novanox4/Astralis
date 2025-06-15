@@ -102,5 +102,7 @@ shootType: {
     trailWidth: 2
     status: status-scrambled
     statusDuration: 100
+    knockback: 2
+    impact: true
     }
   }
