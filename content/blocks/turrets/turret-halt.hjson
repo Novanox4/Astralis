@@ -2,7 +2,7 @@ type: PowerTurret
 name: Halt
 description: Unleashes a wave of scrambling particles that stall enemies. Requires neodymium to run.
 category: turret
-range: 157.5
+range: 155
 size: 3
 squareSprite: false
 shootSound: plasmadrop
@@ -94,7 +94,7 @@ shootType: {
     height: 8.5
     width: 6.25
     speed: 4
-    lifetime: 35
+    lifetime: 36.25
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
     trailColor: 452d56
