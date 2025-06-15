@@ -1,37 +1,26 @@
 type: PowerTurret
 name: Halt
-description: Stalls a single unit at a specific point. Deals low damage. Requires neodymium to run.
+description: Unleashes a wave of scrambling particles that stall enemies. Requires neodymium to run.
 category: turret
-range: 345
+range: 200
 size: 3
 squareSprite: false
-shootSound: railgun
+shootSound: plasmadrop
 shootY: 0.1
-shootEffect: {
-  type: RadialEffect
-  rotationOffset: 45
-  effect: {
-    type: WrapEffect
-    effect: scatheSlash
-    color: 004699
-    followParent: true
-    rotWithParent: true
-    }
-    amount: 4
-  }
+shootEffect: none
 cooldownTime: 125
-reload: 750
-health: 2800
+reload: 245
+health: 1250
 minWarmup: 0.75
+heatColor: 452d56ff
 inaccuracy: 0
-ammoPerShot: 5
-itemCapacity: 30
+itemCapacity: 45
 unitSort: strongest
 consumes: {
   items: [
-    item-neodymium/30
+    item-neodymium/45
     ]
-  power: 12
+  power: 15
     }
 drawer: {
   type: DrawTurret
@@ -73,18 +62,26 @@ researchCost: [
   item-neodymium/275
 ]
 shootType: {
-  type: RailBulletType
-  despawnSound: railHit
-  hitSound: railHit
-  damage: 15
-  length: 345
+  type: BasicBulletType
+  sprite: large-orb
+  damage: 0
+  collides: false
   hitColor: 004699ff
-  buildingDamageMultiplier: 0
-  status: unmoving
-  statusDuration: 175
   despawnHit: true
-  pierceEffect: none
-  hitEffect: none
-  despawnEffect: none
-  pointEffect: none
+  fragBullets: 40
+  backColor: 004699
+  frontColor: ffffffff
+  height: 15
+  width: 15
+  fragRandomSpread: 0
+  fragSpread: 5
+  fragBullet: {
+    type: BasicBulletType
+    backColor: 004699
+    frontColor: ffffffff
+    hitColor: 004699ff
+    damage: 4
+    height: 7
+    width: 5
+    }
   }
