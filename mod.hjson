@@ -12,3 +12,15 @@ minGameVersion: 149
 hidden: false
 hideBrowser: false
 author: NV-NX, Haznobrain
+contentOrder: [
+    item-crystalite,
+    item-uranium,
+    item-charchunk,
+    item-silver,
+    item-silver-fulminate,
+    item-monazite,
+    item-cerium,
+    item-neodymium,
+
+    crystal-kiln,
+]
