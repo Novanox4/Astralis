@@ -68,26 +68,26 @@ shootType: {
   speed: 2
   damage: 0
   collides: false
-  hitColor: 004699ff
+  hitColor: 452d56ff
   despawnHit: true
   fragBullets: 40
-  backColor: 004699
-  frontColor: ffffffff
+  backColor: 452d56
+  frontColor: ffffff
   despawnEffect: none
   hitEffect: none
   height: 15
   width: 15
   fragRandomSpread: 0
-  fragVelocityMin: 0.75
-  fragVelocityMax: 1.25
-  fragLifeMin: 0.75
-  fragLifeMax: 1.1
-  fragSpread: 1
+  fragVelocityMin: 1
+  fragVelocityMax: 1
+  fragLifeMin: 1
+  fragLifeMax: 1
+  fragRandomSpread: 1
   fragBullet: {
     type: BasicBulletType
-    backColor: 004699
-    frontColor: ffffffff
-    hitColor: 004699ff
+    backColor: 452d56
+    frontColor: ffffff
+    hitColor: 452d56ff
     damage: 4
     height: 8.5
     width: 6.25
@@ -95,7 +95,7 @@ shootType: {
     lifetime: 35
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
-    trailColor: 004699
+    trailColor: 452d56
     trailLength: 22.5
     trailWidth: 4
     }
