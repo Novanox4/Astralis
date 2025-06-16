@@ -1,0 +1,15 @@
+type: AttributeCrafter
+name: Geothermal Extractor
+description: Extracts slag from hot tiles.
+baseEfficiency: 0
+consumes: {
+  power: 0.865
+    }
+outputLiquid: slag/0.4
+updateEffect: steam
+requirements: {
+  item-crystalite/50
+  metaglass/45
+  item-silver/30
+    }
+research: char-burner
