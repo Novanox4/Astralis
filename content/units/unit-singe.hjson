@@ -26,6 +26,7 @@ weapons: [
     backColor: eab678
     frontColor: ffffff
     bulletInterval: 3
+    intervalDelay: 3.25
     intervalBullet: {
       type: FireBulletType
       damage: 5
