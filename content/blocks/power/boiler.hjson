@@ -1,6 +1,6 @@
-type: ConsumeGenerator
+type: HeaterGenerator
 name: Boiler
-description: Uses flammable materials to boil water and produce power
+description: Uses flammable materials to boil water and produce power and heat.
 consumes: {
   itemFlammable: {} 
   liquid: water/0.15
@@ -44,3 +44,4 @@ category: power
 generateEffect: vaporSmall
 ambientSound: smelter
 ambientSoundVolume: 0.95
+heatOutput: 3.5
