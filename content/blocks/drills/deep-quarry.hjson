@@ -5,7 +5,7 @@ outputItem: item-monazite/1
 consumes: {
   power: 4
   liquids: [
-    water/0.59
+    nitrogen/0.25
     ]
   }
 drawer: {
@@ -18,7 +18,7 @@ drawer: {
     type: DrawRegion
     suffix: -rotator
     spinSprite: true
-    rotateSpeed: 1
+    rotateSpeed: 2.25
     }
     {
     type: DrawRegion
@@ -26,7 +26,7 @@ drawer: {
     }
   ]
 }
-craftTime: 445
+craftTime: 442.5
 updateEffect: mine
 requirements: [
   item-crystalite/115
@@ -38,3 +38,13 @@ size: 3
 category: production
 ambientSound: drill
 ambientSoundVolume: 0.75
+research: { 
+  parent: beam-drill
+  objectives: [
+    char-burner,
+    {
+    type: SectorComplete
+    preset: mineshaft
+    }
+  ]
+}
