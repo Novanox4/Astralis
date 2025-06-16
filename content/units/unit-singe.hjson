@@ -25,7 +25,7 @@ weapons: [
     lifetime: 35
     backColor: eab678
     frontColor: ffffff
-    bulletinterval: 3
+    bulletInterval: 7.5
     intervalBullet: {
       type: FireBulletType
       damage: 5
