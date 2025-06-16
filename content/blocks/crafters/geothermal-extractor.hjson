@@ -13,3 +13,20 @@ requirements: {
   item-silver/30
     }
 research: char-burner
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: slag
+    padding: 3
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
