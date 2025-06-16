@@ -6,7 +6,7 @@ health: 650
 armor: 2
 outlineColor: 323232
 mechLegOutlineColor: 323232
-speed: 1
+speed: 0.225
 weapons: {
   name: unit-singe-arm
   reload: 175
