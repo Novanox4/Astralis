@@ -39,6 +39,7 @@ ammoTypes: {
     damage: 150
     speed: 5
     reloadMultiplier: 1.25
+    buildingDamageMultiplier: 0.0001
     lifetime: 45
     backColor: 38a6c9
     frontColor: 38a6c9
@@ -66,6 +67,7 @@ ammoTypes: {
     damage: 125
     speed: 5
     lifetime: 30
+    buildingDamageMultiplier: 0.0001
     backColor: 38a6c9
     frontColor: 38a6c9
     width: 6
@@ -88,6 +90,7 @@ ammoTypes: {
     pierceCap: 2
     fragBullet: {
     type: BasicBulletType
+    buildingDamageMultiplier: 0.0001
     sprite: circle-bullet
     damage: 100
     speed: 5
@@ -116,7 +119,8 @@ ammoTypes: {
 }
   metaglass: {
     type: BasicBulletType
-    damage: 100
+    buildingDamageMultiplier: 0.0001
+    damage: 110
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
@@ -158,7 +162,8 @@ ammoTypes: {
     fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 50
+    buildingDamageMultiplier: 0.0001
+    damage: 65
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
@@ -179,7 +184,8 @@ ammoTypes: {
     fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 25
+    damage: 27.5
+    buildingDamageMultiplier: 0.0001
     pierce: true
     pierceCap: 1
     reloadMultiplier: 0.9
@@ -200,7 +206,8 @@ ammoTypes: {
     fragOnHit: false
     fragBullet: {
     type: BasicBulletType
-    damage: 12.5
+    damage: 15
+    buildingDamageMultiplier: 0.0001
     pierce: true
     pierceCap: 5
     reloadMultiplier: 0.9
@@ -226,6 +233,7 @@ ammoTypes: {
   }
   item-silver-fulminate: {
     type: BasicBulletType
+    buildingDamageMultiplier: 0.0001
     damage: 0
     collides: false
     speed: 6
@@ -262,6 +270,7 @@ ammoTypes: {
     shrinkY: 0
     fragBullet: {
     type: BasicBulletType
+    buildingDamageMultiplier: 0.0001
     damage: 0
     collides: false
     speed: 6
@@ -298,6 +307,7 @@ ammoTypes: {
     shrinkY: 0
     fragBullet: {
     type: BasicBulletType
+    buildingDamageMultiplier: 0.0001
     damage: 0
     collides: false
     speed: 6
@@ -333,6 +343,7 @@ ammoTypes: {
     shrinkX: 0
     shrinkY: 0
     fragBullet: {
+    buildingDamageMultiplier: 0.0001
     type: BasicBulletType
     damage: 0
     collides: false
@@ -369,6 +380,7 @@ ammoTypes: {
     shrinkX: 0
     shrinkY: 0
     fragBullet: {
+    buildingDamageMultiplier: 0.0001
     type: BasicBulletType
     damage: 0
     collides: false
