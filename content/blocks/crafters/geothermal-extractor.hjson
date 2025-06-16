@@ -7,11 +7,11 @@ consumes: {
     }
 outputLiquid: slag/0.4
 updateEffect: steam
-requirements: {
+requirements: [
   item-crystalite/50
   metaglass/45
   item-silver/30
-    }
+    ]
 research: char-burner
 drawer: {
   type: DrawMulti
