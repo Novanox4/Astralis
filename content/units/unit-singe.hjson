@@ -29,9 +29,12 @@ weapons: [
     intervalBullet: {
       type: FireBulletType
       damage: 5
-      velMin: 0.75
-      velMax: 1.15
-      radius: 1.5
+      velMin: 0
+      velMax: 0.2
+      radius: 1
+      fireTrailChance: 0.02
+      fireEffectChance: 0.065
+      fireEffectChance2: 0.065
         }
       }
     }
