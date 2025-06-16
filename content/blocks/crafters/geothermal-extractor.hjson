@@ -33,7 +33,7 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: slag
-    padding: 0.75
+    padding: 1
     }
     {
     type: DrawDefault
@@ -42,3 +42,4 @@ drawer: {
 }
 size: 2
 category: crafting
+squareSprite: false
