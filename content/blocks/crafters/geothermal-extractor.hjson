@@ -13,7 +13,16 @@ requirements: [
   metaglass/45
   item-silver/30
     ]
-research: char-burner
+research: {
+  parent: crystal-kiln
+  objectives: [
+    char-burner,
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
 drawer: {
   type: DrawMulti
   drawers: [
