@@ -1,0 +1,30 @@
+type: mech
+name: Singe
+description: Launches flaming bolts over short distances. Immune to burning.
+immunities: [burning]
+health: 650
+armor: 2
+outlineColor: 323232
+mechLegOutlineColor: 323232
+speed: 1
+weapons: {
+  name: unit-singe-arm
+  reload: 175
+  shootSound: bang 
+  shootX: -7
+  bullet: {
+    type: BasicBulletType
+    height: 12
+    width: 10.75
+    damage: 37.5
+    speed: 3
+    lifetime: 35
+    backColor: eab678
+    frontColor: ffffff
+    bulletinterval: 12.5
+    intervalBullet: {
+      type: FireBulletType
+      damage: 5
+        }
+      }
+    }
