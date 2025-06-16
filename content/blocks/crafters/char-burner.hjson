@@ -30,3 +30,5 @@ drawer: {
 }
 size: 2
 heatOutput: 4
+rotateDraw: 1
+regionRotated1: 1
