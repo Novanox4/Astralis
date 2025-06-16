@@ -2,6 +2,7 @@ type: AttributeCrafter
 name: Geothermal Extractor
 description: Extracts slag from hot tiles.
 baseEfficiency: 0
+minEfficiency: 0.01
 consumes: {
   power: 0.865
     }
@@ -23,7 +24,7 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: slag
-    padding: 3
+    padding: 0.2
     }
     {
     type: DrawDefault
@@ -31,3 +32,4 @@ drawer: {
   ]
 }
 size: 2
+category: crafting
