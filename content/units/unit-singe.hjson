@@ -5,9 +5,10 @@ immunities: [burning]
 health: 650
 armor: 2
 outlineColor: 323232
-mechLegOutlineColor: 323232
-speed: 0.225
-weapons: {
+mechLegColor: 323232
+speed: 0.165
+weapons: [
+  {
   name: unit-singe-arm
   reload: 175
   shootSound: bang 
@@ -28,3 +29,4 @@ weapons: {
         }
       }
     }
+  ]
