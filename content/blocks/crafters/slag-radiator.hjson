@@ -30,9 +30,6 @@ drawer: {
     type: DrawDefault
     }
     {
-    type: DrawSideRegion
-    }
-    {
     type: DrawHeatOutput
     }
   ]
