@@ -21,6 +21,8 @@ research: {
     type: SectorComplete
     preset: mineshaft
     }
+  ]
+}
 drawer: {
   type: DrawMulti
   drawers: [
