@@ -1,0 +1,41 @@
+type: HeatProducer
+consumes: {
+  liquids: [
+    slag/0.199
+  ]
+}
+name: Slag Radiator
+description: Generates heat off of slag.
+requirements: [
+  item-crystalite/20
+  item-silver/10
+  metaglass/20
+  ]
+category: crafting
+researchCostMultiplier: 0.65
+research: {
+  parent: heat-circulator
+  objectives: [
+    geothermal-extractor,
+    {
+    type: SectorComplete
+    preset: mineshaft
+    }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawSideRegion
+    }
+    {
+    type: DrawHeatOutput
+    }
+  ]
+}
+size: 2
+heatOutput: 6.5
+rotateDraw: 1
+regionRotated1: 1
