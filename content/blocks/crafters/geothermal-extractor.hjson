@@ -43,3 +43,4 @@ drawer: {
 size: 2
 category: crafting
 squareSprite: false
+liquidCapacity: 120
