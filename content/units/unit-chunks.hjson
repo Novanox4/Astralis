@@ -2,11 +2,11 @@ type: flying
 flying: true
 health: 325
 speed: 4.25
-buildSpeed: 1.3
+buildSpeed: 1.35
 hitSize: 10
 mineWalls: true
 mineFloor: true
-mineSpeed: 3.5
+mineSpeed: 4.45
 mineTier: 3
 controller: BuilderAI
 buildBeamOffset: 10
