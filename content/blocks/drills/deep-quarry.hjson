@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Deep Quarry
 description: Digs for monazite crystals deep into Astralis's crust.
-outputItem: item-monazite/1
+outputItem: item-monazite/2
 consumes: {
   power: 4
   liquids: [
@@ -26,7 +26,7 @@ drawer: {
     }
   ]
 }
-craftTime: 325
+craftTime: 275
 updateEffect: mine
 requirements: [
   item-crystalite/115
