@@ -10,6 +10,15 @@ consumes: {
     }
 plans: [
     {
+unit: unit-singe
+requirements: [
+    item-crystalite/45
+    item-uranium/45
+    metaglass/30
+      ]
+    time: 1250
+    }
+    {
 unit: unit-capture
 requirements: [
     item-crystalite/30
