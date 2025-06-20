@@ -5,7 +5,7 @@ outputItem: item-monazite/1
 consumes: {
   power: 4
   liquids: [
-    nitrogen/0.25
+    nitrogen/0.1
     ]
   }
 drawer: {
