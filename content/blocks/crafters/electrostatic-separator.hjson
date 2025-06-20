@@ -3,7 +3,7 @@ name: Electrostatic Separator
 description: Separates rare earth metals from monazite.
 heatRequirement: 12
 maxEfficiency: 1.5
-overheatScale: 1
+overheatScale: 1.1
 outputItems: [
   item-neodymium/2
   item-cerium/2
