@@ -42,3 +42,4 @@ drawer: {
 }
 ambientSound: thruster
 ambientSoundVolume: 0.95
+liquidCapacity: 250
