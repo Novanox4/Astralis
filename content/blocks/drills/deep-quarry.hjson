@@ -26,7 +26,7 @@ drawer: {
     }
   ]
 }
-craftTime: 435
+craftTime: 325
 updateEffect: mine
 requirements: [
   item-crystalite/115
