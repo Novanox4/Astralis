@@ -36,4 +36,4 @@ category: defense
 name: Metaglass Wall
 description: Defends structures from enemy attacks. Fragile, but fast to build and explodes into shrapnel on destruction. Absorbs lasers.
 absorbLasers: true
-buildTime: 20
+buildTime: 2
