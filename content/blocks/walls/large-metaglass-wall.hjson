@@ -1,5 +1,5 @@
 type: Wall
-health: 1200
+health: 560
 size: 2
 destroyBulletSameTeam: true
 destroyBullet: { 
@@ -28,5 +28,6 @@ researchCost: [
 research: metaglass-wall
 category: defense
 name: Large Metaglass Wall
-description: Defends structures from enemy attacks. Fragile, but explodes into shrapnel on destruction. Absorbs lasers.
+description: Defends structures from enemy attacks. Fragile, but fast to build and explodes into shrapnel on destruction. Absorbs lasers.
 absorbLasers: true
+buildTime: 80
