@@ -43,7 +43,7 @@ type: DrawDefault
 research: {
   parent: crystal-kiln
   objectives: [
-  cerium,
+  item-cerium,
   electrostatic-separator,
   ]
 }
