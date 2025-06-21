@@ -27,6 +27,7 @@ suffix: -bottom
 type: DrawLiquidTile
 drawLiquid: slag
 padding: 1
+  }
     {
 type: DrawCrucibleFlame
 particleRad: 3.25
