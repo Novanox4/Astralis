@@ -23,7 +23,7 @@ researchCost: [
   item-uranium/45
 ]
 optionalConsumers: [
-  liquids: [
-    water/0.2
-  ]
+  {
+  water/0.2
+  }
 ]
