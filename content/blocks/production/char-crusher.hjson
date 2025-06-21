@@ -10,6 +10,8 @@ drillTime: 75
 drillTime: 175
 consumes: {
   power: 0.80
+}
+optionalConsumers: {
   liquids: {
         liquids: [
             {
