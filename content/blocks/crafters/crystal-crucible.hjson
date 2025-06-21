@@ -2,20 +2,20 @@ type: AttributeCrafter
 consumes: {
   power: 6
   items: [
-    item-crystalite/12
-    item-charchunk/9
+    item-crystalite/9
+    item-charchunk/7
     ]
   liquids: [
-    slag/2
+    slag/0.15
     ]
   }
 name: Crystal Crucible
 description: An upgraded crystal kiln. Becomes more efficient when placed on hot tiles.
 size: 3
-craftTime: 125
-outputItem: metaglass/18
+craftTime: 85
+outputItem: metaglass/9
 category: crafting
-itemCapacity: 30
+itemCapacity: 45
 drawer: {
   type: DrawMulti
   drawers: [
