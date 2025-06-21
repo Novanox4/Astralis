@@ -22,6 +22,8 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
-optionalConsumers: [
+optionalConsumers: {
+  liquids: [
   water/0.2
-]
+  ]
+}
