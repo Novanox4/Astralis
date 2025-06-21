@@ -22,4 +22,4 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
-itemConsumer: item-uranium
+itemConsumer: item-uranium/1
