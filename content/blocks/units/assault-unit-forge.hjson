@@ -10,7 +10,7 @@ consumes: {
     }
 plans: [
     {
-unit: unit-singe
+unit: unit-sear
 requirements: [
     item-crystalite/45
     item-uranium/45
