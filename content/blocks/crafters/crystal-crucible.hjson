@@ -1,0 +1,58 @@
+type: AttributeCrafter
+consumes: {
+  power: 6
+  items: [
+    item-crystalite/12
+    item-charchunk/9
+    ]
+  liquids: [
+    slag/2
+    ]
+  }
+name: Crystal Crucible
+description: An upgraded crystal kiln. Becomes more efficient when placed on hot tiles.
+size: 3
+craftTime: 125
+outputItem: metaglass/18
+category: crafting
+itemCapacity: 30
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+{
+type: DrawLiquidTile
+drawLiquid: slag
+padding: 1
+    {
+type: DrawCrucibleFlame
+particleRad: 3.25
+particles: 6
+particleSize: 1.125
+rotateScale: 3
+  }
+{
+type: DrawDefault
+  }
+]
+}
+research: {
+  parent: crystal-kiln
+  objectives: [
+  cerium,
+  electrostatic-separator,
+  ]
+}
+requirements: [
+  item-crystalite/130
+  item-uranium/120
+  item-silver/75
+  item-cerium/60
+  ]
+researchCostMultiplier: 0.6
+maxBoost: 2
+ambientSound: smelter
+ambientSoundVolume: 0.8
