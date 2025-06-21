@@ -31,7 +31,9 @@ contentOrder: [
     geothermal-extractor,
     silver-fulminator,
     electrostatic-separator,
+    crystal-crucible,
     char-burner,
+    slag-radiator,
     heat-circulator,
     
     //walls
@@ -109,7 +111,7 @@ contentOrder: [
 
     unit-shards,
     unit-chunks,
-    unit-singe,
+    unit-sear,
     unit-capture,
     unit-chieftain,
     unit-receptacle,
