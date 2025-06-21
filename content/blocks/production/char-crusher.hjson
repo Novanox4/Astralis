@@ -10,6 +10,11 @@ drillTime: 75
 drillTime: 175
 consumes: {
   power: 0.80
+  liquids: [
+  water/0.2
+  optional: true
+  booster: true
+  ]
 }
 size: 2
 output: item-charchunk
@@ -22,8 +27,3 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
-optionalConsumers: {
-  liquids: [
-  water/0.2
-  ]
-}
