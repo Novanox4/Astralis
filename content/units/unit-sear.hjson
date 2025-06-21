@@ -1,5 +1,5 @@
 type: mech
-name: Singe
+name: Sear
 description: Launches flaming bolts over short distances. Immune to burning.
 immunities: [burning]
 health: 750
