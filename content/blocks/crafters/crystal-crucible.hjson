@@ -30,10 +30,10 @@ padding: 1
   }
     {
 type: DrawCrucibleFlame
-particleRad: 3.25
-particles: 6
-particleSize: 1.125
-rotateScale: 3
+particleRad: 4
+particles: 9
+particleSize: 1.5
+rotateScale: 5
   }
 {
 type: DrawDefault
