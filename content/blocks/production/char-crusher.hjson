@@ -17,7 +17,7 @@ consumes: {
             amount: 0.1
             booster: true
             optional: true
-            },
+            }
         ]
     }
 }
