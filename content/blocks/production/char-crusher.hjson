@@ -22,4 +22,8 @@ researchCost: [
   item-crystalite/35
   item-uranium/45
 ]
-itemBoostIntensity: 1.75
+optionalConsumers: {
+  liquids: [
+    water/0.2
+  ]
+}
