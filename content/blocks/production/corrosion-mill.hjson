@@ -1,0 +1,27 @@
+type: WallCrafter
+category: production
+requirements: [
+  item-crystalite/45
+  item-uranium/80
+  metaglass/50
+  item-cerium/20
+  ]
+name: Corrosion Mill
+description: Uses acid to drill into char walls more efficiently
+drillTime: 20
+consumes: {
+  power: 4
+}
+size: 4
+output: item-charchunk
+attribute: charchunk
+fogRadius: 6
+ambientSound: drill
+ambientSoundVolume: 0.725
+researchCost: [
+  item-crystalite/275
+  item-uranium/600
+  item-cerium/200
+  metaglass/400
+  silver/400
+]
