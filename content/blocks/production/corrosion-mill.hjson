@@ -26,3 +26,4 @@ researchCost: [
   item-silver/400
 ]
 rotateSpeed: 4.5
+itemCapacity: 120
