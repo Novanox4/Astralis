@@ -23,5 +23,5 @@ researchCost: [
   item-uranium/600
   item-cerium/200
   metaglass/400
-  silver/400
+  item-silver/400
 ]
