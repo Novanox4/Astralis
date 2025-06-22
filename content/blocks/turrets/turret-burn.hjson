@@ -5,6 +5,7 @@ category: turret
 name: Burn
 health: 650
 shootY: 0
+itemCapacity: 15
 description: Fires long range incendiary bolts that burn targets. Less effective against multiple units.
 shoot: {
   type: ShootBarrel
@@ -31,17 +32,19 @@ basePrefix: astral-
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 60
+  damage: 62.5
   backColor: 272727
   frontColor: 363636
   knockback: 0.5
   impact: true
   hitColor: 272727
   trailColor: 272727
-  lifetime: 65
+  lifetime: 67.5
+  trailLength: 10
+  trailWidth: 1
   width: 9
   height: 11
-  speed: 3
+  speed: 3.5
   inaccuracy: 6
   status: burning
   statusDuration: 250
