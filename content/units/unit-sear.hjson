@@ -9,7 +9,7 @@ mechLegColor: 323232
 speed: 0.245
 weapons: [
   {
-  name: unit-singe-arm
+  name: unit-sear-arm
   reload: 175
   shootSound: bang 
   shootX: -7
