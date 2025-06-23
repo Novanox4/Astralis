@@ -12,7 +12,7 @@ drillTime: 25
 consumes: {
   power: 4
   liquids: [
-    liquid-nitric-acid/1.25
+    liquid-nitric-acid/0.35
   ]
 }
 size: 4
