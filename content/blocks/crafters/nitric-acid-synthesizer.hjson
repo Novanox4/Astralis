@@ -1,0 +1,50 @@
+type: GenericCrafter
+name: Nitric Acid Synthesizer
+description: Synthesizes nitric acid using water, nitrogen and char.
+consumes: {
+  power: 7.355
+    }
+size: 3
+outputLiquid: nitrogen/0.8
+craftTime: 60
+updateEffect: none
+requirements: [
+  item-crystalite/100
+  metaglass/125
+  item-uranium/145
+  item-silver/65
+  item-cerium/75
+  ]
+researchCostMultiplier: 0.45
+research: crystal-kiln
+category: crafting
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    type: DrawLiquidTile
+    drawLiquid: liquid-nitric-acid
+    padding: 0.5
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawParticles
+    sides: 30
+    color: b5ac10
+    reverse: true
+    particleRad: 7
+    particles: 8
+    particleLife: 185
+    particleSize: 5
+    alpha: 0.75
+    particleSize: 3.5
+    }
+  ]
+}
+ambientSound: none
+liquidCapacity: 450
