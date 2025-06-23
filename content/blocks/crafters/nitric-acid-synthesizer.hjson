@@ -12,7 +12,7 @@ consumes: {
   ]
     }
 size: 3
-outputLiquid: nitrogen/0.8
+outputLiquid: liquid-nitric-acid/0.8
 craftTime: 60
 updateEffect: none
 requirements: [
