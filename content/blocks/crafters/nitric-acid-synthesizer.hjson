@@ -33,9 +33,11 @@ drawer: {
     type: DrawRegion
     suffix: -bottom
     }
+    {
     type: DrawLiquidTile
     drawLiquid: liquid-nitric-acid
     padding: 0.5
+    }
     {
     type: DrawDefault
     }
