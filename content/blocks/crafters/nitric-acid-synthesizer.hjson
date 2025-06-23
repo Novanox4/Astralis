@@ -35,7 +35,7 @@ drawer: {
     }
     {
     type: DrawLiquidTile
-    drawLiquid: liquid-nitric-acid
+    drawLiquid: nitrogen
     padding: 0.5
     }
     {
