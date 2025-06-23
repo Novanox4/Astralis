@@ -8,9 +8,12 @@ requirements: [
   ]
 name: Corrosion Mill
 description: Uses acid to drill into char walls more efficiently
-drillTime: 20
+drillTime: 25
 consumes: {
   power: 4
+  liquids: [
+    liquid-nitric-acid
+  ]
 }
 size: 4
 output: item-charchunk
@@ -25,5 +28,5 @@ researchCost: [
   metaglass/400
   item-silver/400
 ]
-rotateSpeed: 18
+rotateSpeed: 25
 itemCapacity: 120
