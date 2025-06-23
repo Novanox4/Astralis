@@ -3,6 +3,13 @@ name: Nitric Acid Synthesizer
 description: Synthesizes nitric acid using water, nitrogen and char.
 consumes: {
   power: 7.355
+  items: [
+    item-charchunk/2
+    ]
+  liquids: [
+    water/0.6
+    nitrogen/0.2
+  ]
     }
 size: 3
 outputLiquid: nitrogen/0.8
