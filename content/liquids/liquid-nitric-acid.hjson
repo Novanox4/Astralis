@@ -1,0 +1,10 @@
+type: liquid
+name: Nitric Acid
+description: Highly acidic and unstable compound. Reacts easily.
+color: b5ac10
+gasColor: b5ac10
+heatCapacity: 0
+coolant: false
+flammability: 0.65
+explosiveness: 0.25
+effect: corroded
