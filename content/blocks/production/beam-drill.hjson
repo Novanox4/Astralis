@@ -28,6 +28,6 @@ researchCost: [
 ]
 heatColor: 75b3ccff
 boostHeatColor: 504cb9ff
-laser: drill-laser-boost
-laserEnd: drill-laser-boost-end
-laserCenter: drill-laser-boost-center
+laser: laserBoost
+laserEnd: laserEndBoost
+laserCenter: laserCenterBoost
