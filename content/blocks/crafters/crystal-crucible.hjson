@@ -57,3 +57,4 @@ researchCostMultiplier: 0.6
 maxBoost: 2
 ambientSound: smelter
 ambientSoundVolume: 0.8
+squareSprite: false
