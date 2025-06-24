@@ -28,6 +28,3 @@ researchCost: [
 ]
 heatColor: 75b3ccff
 boostHeatColor: 504cb9ff
-laser: laserBoost
-laserEnd: laserEndBoost
-laserCenter: laserCenterBoost
