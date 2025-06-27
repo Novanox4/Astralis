@@ -25,10 +25,13 @@ mirror: false
 shootEffect: none
 alternate: false
 shoot: {
-  type: ShootAlternate
-  spread: 8
-  shotDelay: 0
-}
+  type: ShootBarrel
+  shots: 2
+  barrels: [
+    -4, 10, 0
+     4. 10, 0
+     ]
+  }
 bullet: {
   type: BasicBulletType
   width: 6
@@ -40,8 +43,8 @@ bullet: {
   backColor: aeead4
   damage: 125
   shrinkY: 0
-  lifetime: 50
-  speed: 6
+  lifetime: 37.5
+  speed: 5.5
   pierce: true
   pierceBuilding: true
   shootEffect: none
@@ -59,14 +62,14 @@ bullet: {
     width: 6
     height: 6
     sprite: circle-bullet
-    trailLength: 22.5
+    trailLength: 27.5
     trailColor: aeead4
     frontColor: ffffff
     backColor: aeead4
     damage: 125
     shrinkY: 0
     lifetime: 35
-    speed: -4
+    speed: -5
     pierce: true
     pierceBuilding: true
     shootEffect: none
