@@ -14,6 +14,7 @@ health: 1450
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -5
+commands: [move, enterPayload, rebuild, assist, mine]
 weapons: [
 {
 name: unit-stem-fangs
