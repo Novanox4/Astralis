@@ -33,9 +33,11 @@ bullet: {
   weaveMag: 1.65
   weaveScale: 7.25
   shrinkY: 0
-  lifetime: 55
+  lifetime: 30
   speed: 2.5
   shootEffect: none
+  smokeEffect: none
+  fragBullets: 1
   }
 }
 ]
