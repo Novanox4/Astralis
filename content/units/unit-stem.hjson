@@ -1,19 +1,20 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 18
-legBaseOffset: 0
+legLength: 25
+legBaseOffset: 2
 name: Stem
 description: Spider mech that can build, mine and repair buildings. Attacks using twin energy guns
 flying: false
 health: 1450
 baseLegStraightness: 0
 legContinuousMove: false
-legExtension: -2
+legExtension: -1.25
 weapons: [
 {
 name: unit-stem-fangs
 x: 0
+under: true
 y: 0
 reload: 8
 shootX: 8
