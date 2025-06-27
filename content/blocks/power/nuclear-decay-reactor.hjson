@@ -1,7 +1,7 @@
 type: NuclearReactor
 name: Nuclear Decay Reactor
 description: Uses uranium to generate large amounts of power. If insufficient water is provided, the reactor will explode violently in a very small area over a long period of time
-flashThreshold: 0.275
+flashThreshold: 0.1
 explosionRadius: 4
 explosionDamage: 10000
 fuelItem: item-uranium
@@ -67,3 +67,4 @@ powerProduction: 20
 size: 3
 category: power
 heating: 0.000625
+liquidCapacity: 150
