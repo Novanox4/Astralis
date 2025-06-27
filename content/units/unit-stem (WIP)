@@ -1,7 +1,7 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 20
+legLength: 18
 legBaseOffset: 0
 name: Stem
 description: Spider mech that can build, mine and repair buildings. Attacks using twin energy guns
@@ -15,41 +15,57 @@ weapons: [
 name: unit-stem-fangs
 x: 0
 y: 0
-reload: 4
+reload: 8
 shootX: 8
 shootSound: missile
 mirror: true
 shootEffect: none
 bullet: {
   type: BasicBulletType
-  width: 10
-  height: 10
+  width: 18
+  height: 18
   sprite: circle-bullet
   trailLength: 22.5
   trailColor: aeead4
   frontColor: ffffff
   backColor: 12963c
-  damage: 7.75
-  weaveMag: 1.65
-  weaveScale: 7.25
+  damage: 125
   shrinkY: 0
   lifetime: 30
   speed: 2.5
+  pierce: true
+  pierceBuilding: true
   shootEffect: none
   smokeEffect: none
   fragBullets: 1
+  fragVelocityMax: 1
+  fragVelocityMin: 1
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragRandomSpread: 0
+  fragBullet: {
+    type: BasicBulletType
+    width: 18
+    height: 18
+    sprite: circle-bullet
+    trailLength: 22.5
+    trailColor: aeead4
+    frontColor: ffffff
+    backColor: 12963c
+    damage: 125
+    shrinkY: 0
+    lifetime: 30
+    speed: 2.5
+    pierce: true
+    pierceBuilding: true
+    shootEffect: none
+    smokeEffect: none
+    }
   }
 }
 ]
 planet: astralis
-speed: 1.2
-hitSize: 7
+speed: 1.25
+hitSize: 11.25
 legSpeed: 0.75
 outlineColor: 323232
-research: unit-receptacle
-researchCost: [
-  item-crystalite/250
-  item-silver/450
-  item-uranium/375
-  metaglass/325
-  ]
