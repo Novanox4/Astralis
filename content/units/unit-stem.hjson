@@ -21,15 +21,16 @@ shootX: 8
 shootSound: missile
 mirror: true
 shootEffect: none
+alternate: false
 bullet: {
   type: BasicBulletType
-  width: 18
-  height: 18
+  width: 6
+  height: 6
   sprite: circle-bullet
   trailLength: 22.5
   trailColor: aeead4
   frontColor: ffffff
-  backColor: 12963c
+  backColor: aeead4
   damage: 125
   shrinkY: 0
   lifetime: 30
@@ -44,23 +45,27 @@ bullet: {
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragRandomSpread: 0
+  hitEffect: none
+  despawnEffect: none
   fragBullet: {
     type: BasicBulletType
-    width: 18
-    height: 18
+    width: 6
+    height: 6
     sprite: circle-bullet
     trailLength: 22.5
     trailColor: aeead4
     frontColor: ffffff
-    backColor: 12963c
+    backColor: aeead4
     damage: 125
     shrinkY: 0
-    lifetime: 30
-    speed: 2.5
+    lifetime: 25
+    speed: -3
     pierce: true
     pierceBuilding: true
     shootEffect: none
     smokeEffect: none
+    hitEffect: none
+    despawnEffect: none
     }
   }
 }
