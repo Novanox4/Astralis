@@ -28,8 +28,8 @@ shoot: {
   type: ShootBarrel
   shots: 2
   barrels: [
-    -4, 10, 0
-     4. 10, 0
+    -4, 10, 0,
+     4, 10, 0
      ]
   }
 bullet: {
