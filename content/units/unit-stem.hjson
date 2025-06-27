@@ -6,6 +6,8 @@ legBaseOffset: 6.5
 name: Stem
 buildSpeed: 0.65
 mineSpeed: 4.5
+mineWalls: true
+mineTier: 1
 mineRange: 100
 buildBeamOffset: 15
 description: Spider mech that can build, mine and repair buildings. Attacks using twin energy guns
