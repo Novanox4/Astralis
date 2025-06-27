@@ -4,6 +4,10 @@ legGroupSize: 2
 legLength: 35
 legBaseOffset: 6.5
 name: Stem
+buildSpeed: 0.65
+mineSpeed: 4.5
+mineRange: 100
+buildBeamOffset: 15
 description: Spider mech that can build, mine and repair buildings. Attacks using twin energy guns
 flying: false
 health: 1450
@@ -28,8 +32,8 @@ shoot: {
   type: ShootBarrel
   shots: 2
   barrels: [
-    -4, 10, 0,
-     4, 10, 0
+    -4, 8.75, 0,
+     4, 8.75, 0
      ]
   }
 bullet: {
@@ -41,7 +45,7 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: aeead4
-  damage: 125
+  damage: 45
   shrinkY: 0
   lifetime: 37.5
   speed: 5.5
@@ -55,6 +59,7 @@ bullet: {
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragRandomSpread: 0
+  fragOnHit: false
   hitEffect: none
   despawnEffect: none
   fragBullet: {
@@ -66,7 +71,7 @@ bullet: {
     trailColor: aeead4
     frontColor: ffffff
     backColor: aeead4
-    damage: 125
+    damage: 30
     shrinkY: 0
     lifetime: 35
     speed: -5
