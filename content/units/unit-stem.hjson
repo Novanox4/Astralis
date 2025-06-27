@@ -9,7 +9,7 @@ flying: false
 health: 1450
 baseLegStraightness: 0
 legContinuousMove: false
-legExtension: -2
+legExtension: -5
 weapons: [
 {
 name: unit-stem-fangs
