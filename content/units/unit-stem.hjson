@@ -4,19 +4,15 @@ legGroupSize: 2
 legLength: 35
 legBaseOffset: 6.5
 name: Stem
-buildSpeed: 0.65
-mineSpeed: 4.5
-mineWalls: true
-mineTier: 1
-mineRange: 100
+buildSpeed: 0.70
 buildBeamOffset: 15
-description: Spider mech that can build, mine and repair buildings. Attacks using twin energy guns
+description: Spider mech that can build, repair, and attack buildings. Attacks using twin energy guns and a point defense protection weapon.
 flying: false
 health: 1450
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -5
-commands: [move, enterPayload, rebuild, assist, mine]
+commands: [move, enterPayload, rebuild, assist, repair]
 weapons: [
 {
 name: unit-stem-fangs
@@ -41,6 +37,7 @@ shoot: {
   }
 bullet: {
   type: BasicBulletType
+  healPercent: 0.5
   width: 6
   height: 6
   sprite: circle-bullet
@@ -48,7 +45,7 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: aeead4
-  damage: 45
+  damage: 20
   shrinkY: 0
   lifetime: 37.5
   speed: 5.5
@@ -69,12 +66,13 @@ bullet: {
     type: BasicBulletType
     width: 6
     height: 6
+    healPercent: 0.5
     sprite: circle-bullet
     trailLength: 27.5
     trailColor: aeead4
     frontColor: ffffff
     backColor: aeead4
-    damage: 30
+    damage: 10
     shrinkY: 0
     lifetime: 35
     speed: -5
@@ -87,9 +85,28 @@ bullet: {
     }
   }
 }
+{
+type: PointDefenseWeapon
+name: unit-stem-point-defense
+rotate: true
+reload: 4
+mirror: false
+rotateSpeed: 50
+top: true
+targetInterval: 5
+targetSwitchInterval: 7.5
+x: 0
+shootY: 3
+recoil: 0
+bullet: {
+  type: BulletType
+  damage: 5
+  maxRange: 120
+    }
+  }
 ]
 planet: astralis
-speed: 1.25
+speed: 1
 hitSize: 11.25
 legSpeed: 0.75
 outlineColor: 323232
