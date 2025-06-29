@@ -8,7 +8,7 @@ fuelItem: item-uranium
 itemCapacity: 25
 coolantPower: 0.0025
 consumes: {
-  liquid: water/1.75
+  liquid: water/0.85
   items: [
     item-uranium/1
     ]
@@ -63,7 +63,7 @@ explodeEffect: {
   }
 ]
 }
-powerProduction: 20
+powerProduction: 42.5
 size: 3
 category: power
 heating: 0.000625
