@@ -1,0 +1,18 @@
+type: HeatProducer
+name: Radiation Heater
+description: Genetates heat off of uranium's radioactive properties.
+size: 1
+heatOutput: 2.5
+requirements: [
+  item-crystalite/20
+  item-silver/35
+  item-uranium/75
+  ]
+consumes: {
+  items: [
+    item-uranium/2
+    ]
+  }
+research: char-burner
+craftTime: 240
+category: crafting
