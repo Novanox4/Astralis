@@ -87,9 +87,8 @@ bullet: {
   }
 }
 {
-type: PointDefenseWeapon
 name: unit-stem-point-defense
-rotate: true
+rotate: false
 reload: 2.5
 mirror: false
 rotateSpeed: 50
@@ -98,17 +97,22 @@ targetInterval: 5
 targetSwitchInterval: 7.5
 x: 0
 shootY: 3
-recoil: 0
-shootSound: lasershoot
+recoil: 0.25
+shootSound: laser
+shootEffect: none
+smokeEffect: none
 bullet: {
-  type: BulletType
-  damage: 10
-  maxRange: 120
+  type: LaserBulletType
+  width: 17.5
+  length: 115
+  colors: [aeead4, aeead4, ffffff]
+  damage: 25
+  shootEffect: none
     }
   }
 ]
 planet: astralis
 speed: 1
-hitSize: 11.25
+hitSize: 18
 legSpeed: 0.75
 outlineColor: 323232
