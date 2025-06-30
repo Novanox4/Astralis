@@ -1,7 +1,8 @@
 type: legs
-legCount: 4
-legGroupSize: 2
+legCount: 6
+legGroupSize: 3
 legLength: 35
+legPairOffset: 10
 legBaseOffset: 6.5
 name: Stem
 buildSpeed: 0.70
@@ -89,7 +90,7 @@ bullet: {
 type: PointDefenseWeapon
 name: unit-stem-point-defense
 rotate: true
-reload: 4
+reload: 2.5
 mirror: false
 rotateSpeed: 50
 top: true
@@ -100,7 +101,7 @@ shootY: 3
 recoil: 0
 bullet: {
   type: BulletType
-  damage: 5
+  damage: 10
   maxRange: 120
     }
   }
