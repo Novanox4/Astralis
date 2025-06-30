@@ -2,7 +2,7 @@ type: legs
 legCount: 6
 legGroupSize: 3
 legLength: 35
-legPairOffset: 10
+legPairOffset: -7.5
 legBaseOffset: 6.5
 name: Stem
 buildSpeed: 0.70
