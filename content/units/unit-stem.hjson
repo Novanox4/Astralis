@@ -99,6 +99,7 @@ targetSwitchInterval: 7.5
 x: 0
 shootY: 3
 recoil: 0
+shootSound: lasershoot
 bullet: {
   type: BulletType
   damage: 10
