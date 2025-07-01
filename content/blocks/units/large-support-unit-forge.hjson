@@ -1,0 +1,50 @@
+type: UnitFactory
+name: Large Support Unit Forge
+description: Creates tier 3 and 4 units made for supporting in attacks/defending using raw materials, water and nitrogen.
+configurable: true
+size: 5
+category: units
+consumes: {
+  power: 5
+  liquids: [
+    nitrogen/0.2
+    water/0.4
+    ]
+    }
+plans: [
+    {
+unit: unit-stem
+requirements: [
+    item-crystalite/125
+    item-uranium/175
+    item-silver/80
+    item-cerium/55
+    item-neodymium/55
+      ]
+    time: 2250
+    }
+  ]
+research: {
+  parent: support-unit-forge
+  objectives: [
+  {
+  type: OnSector
+  preset: mineshaft
+    }
+  ]
+}
+requirements: [
+  item-crystalite/150
+  item-uranium/125
+  item-silver/100
+  item-cerium/50
+  item-neodymium/50
+  ]
+researchCost: [
+  item-crystalite/1000
+  item-silver/1250
+  item-uranium/1300
+  metaglass/1450
+  item-cerium/125
+  item-neodymium/75
+  ]
