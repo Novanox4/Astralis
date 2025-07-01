@@ -10,7 +10,8 @@ researchCost: [
   metaglass/25
   ]
 timerFlow: 1.2
-liquidPressure: 1.35
+liquidPressure: 99
+liquidCapacity: 20
 category: liquid
 research: {
   parent: core-fort
