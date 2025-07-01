@@ -10,4 +10,5 @@ requirements: [
   metaglass/2
 ]
 timerFlow: 1.2
-liquidPressure: 1.35
+liquidPressure: 99
+liquidCapacity: 20
