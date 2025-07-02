@@ -15,3 +15,6 @@ squareSprite: false
 liquidPadding: 1.75
 liquidPressure: 99
 liquidCapacity: 20
+timerFlow: 0
+placeableLiquid: true
+floating: true
