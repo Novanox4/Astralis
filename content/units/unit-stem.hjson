@@ -89,7 +89,7 @@ bullet: {
 {
 name: unit-stem-point-defense
 rotate: false
-reload: 60
+reload: 175
 mirror: false
 rotateSpeed: 50
 top: true
@@ -97,14 +97,25 @@ targetInterval: 5
 targetSwitchInterval: 7.5
 x: 0
 shootY: 3
-recoil: 0.25
+recoil: 3
 shoot: {
   firstShotDelay: 65
 }
 shootSound: laser
 shootEffect: none
 smokeEffect: none
-chargeEffect: {
+bullet: {
+  type: BasicBulletType
+  width: 16.75
+  length: 15.25
+  healPercent: 1
+  backColor: aeead4
+  frontColor: ffffff
+  hitColor: aeead4
+  damage: 125
+  shootEffect: none
+  lifesteal: 12.5
+  chargeEffect: {
   type: MultiEffectType
   effects: [
   {
@@ -127,17 +138,6 @@ chargeEffect: {
   }
   ]
 }
-bullet: {
-  type: BasicBulletType
-  width: 6.75
-  length: 5.25
-  healPercent: 1
-  backColor: aeead4
-  frontColor: ffffff
-  hitColor: aeead4
-  damage: 125
-  shootEffect: none
-  lifesteal: 12.5
     }
   }
 ]
