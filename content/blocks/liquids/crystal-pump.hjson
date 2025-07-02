@@ -24,3 +24,7 @@ research: {
     crystal-kiln
    ]
 }
+liquidPressure: 99
+timerFlow: 0
+placeableLiquid: true
+floating: true
