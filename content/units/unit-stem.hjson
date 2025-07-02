@@ -125,7 +125,6 @@ bullet: {
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
-    rotation: 5
     }
     {
     type: WaveEffect
@@ -134,7 +133,6 @@ bullet: {
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
-    rotation: -5
     }
   ]
 }
