@@ -92,8 +92,6 @@ rotate: false
 reload: 175
 mirror: false
 top: true
-targetInterval: 5
-targetSwitchInterval: 7.5
 x: 0
 shootY: 3
 recoil: 3
@@ -106,8 +104,8 @@ smokeEffect: none
 bullet: {
   type: BasicBulletType
   width: 11
-  height: 12
-  healPercent: 1
+  height: 15
+  healPercent: 5
   lifetime: 60
   speed: 5
   backColor: aeead4
@@ -115,7 +113,8 @@ bullet: {
   hitColor: aeead4
   damage: 125
   shootEffect: none
-  lifesteal: 12.5
+  lifesteal: 0.1
+  smokeEffect: none
   chargeEffect: {
     type: MultiEffectType
     effects: [
@@ -128,7 +127,6 @@ bullet: {
     sizeTo: 125
     sides: 4
     rotation: 5
-    interp: reverse
     }
     {
     type: WaveEffect
@@ -139,7 +137,6 @@ bullet: {
     sizeTo: 125
     sides: 4
     rotation: -5
-    interp: reverse
     }
   ]
 }
