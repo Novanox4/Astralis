@@ -106,8 +106,8 @@ shootEffect: none
 smokeEffect: none
 bullet: {
   type: BasicBulletType
-  width: 16.75
-  length: 15.25
+  width: 11
+  heigth: 12
   healPercent: 1
   backColor: aeead4
   frontColor: ffffff
