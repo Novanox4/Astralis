@@ -116,26 +116,30 @@ bullet: {
   shootEffect: none
   lifesteal: 12.5
   chargeEffect: {
-  type: MultiEffectType
-  effects: [
-  {
-  type: WaveEffect
-  colorFrom: aeead4
-  lifetime: 60
-  sizeFrom: 125
-  sizeTo: 0
-  sides: 4
-  rotation: 5
-  }
-  {
-  type: WaveEffect
-  colorFrom: aeead4
-  lifetime: 60
-  sizeFrom: 125
-  sizeTo: 0
-  sides: 4
-  rotation: -5
-  }
+    type: MultiEffectType
+    effects: [
+    {
+    type: WaveEffect
+    colorFrom: aeead4
+    colorTo: aeead4
+    lifetime: 60
+    sizeFrom: 0
+    sizeTo: 125
+    sides: 4
+    rotation: 5
+    interp: reverse
+    }
+    {
+    type: WaveEffect
+    colorFrom: aeead4
+    colorTo: aeead4
+    lifetime: 60
+    sizeFrom: 0
+    sizeTo: 125
+    sides: 4
+    rotation: -5
+    interp: reverse
+    }
   ]
 }
     }
