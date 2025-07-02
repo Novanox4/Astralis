@@ -9,6 +9,8 @@ requirements: [
   item-crystalite/3
   metaglass/2
 ]
-timerFlow: 1.2
 liquidPressure: 99
 liquidCapacity: 20
+timerFlow: 0
+placeableLiquid: true
+floating: true
