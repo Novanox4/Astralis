@@ -121,23 +121,25 @@ bullet: {
     effects: [
     {
     type: WaveEffect
-    colorFrom: aeead4
-    colorTo: aeead4
+    colorFrom: aeead4ff
+    colorTo: aeead4ff
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
     sides: 4
     rotation: 5
+    interp: reverse
     }
     {
     type: WaveEffect
-    colorFrom: aeead4
-    colorTo: aeead4
+    colorFrom: aeead4ff
+    colorTo: aeead4ff
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
     sides: 4
     rotation: -5
+    interp: reverse
     }
   ]
 }
