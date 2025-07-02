@@ -125,7 +125,6 @@ bullet: {
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
-    sides: 4
     rotation: 5
     }
     {
@@ -135,7 +134,6 @@ bullet: {
     lifetime: 60
     sizeFrom: 0
     sizeTo: 125
-    sides: 4
     rotation: -5
     }
   ]
