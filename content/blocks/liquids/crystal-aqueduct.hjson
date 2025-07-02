@@ -9,7 +9,6 @@ researchCost: [
   item-crystalite/40
   metaglass/25
   ]
-timerFlow: 1.2
 liquidPressure: 99
 liquidCapacity: 20
 category: liquid
@@ -22,3 +21,6 @@ research: {
 bridgeReplacement: crystal-aqueduct-bridge
 rotBridgeReplacement: crystal-aqueduct-bridge
 junctionReplacement: crystal-aqueduct-junction
+timerFlow: 0
+placeableLiquid: true
+floating: true
