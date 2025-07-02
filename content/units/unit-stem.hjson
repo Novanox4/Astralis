@@ -91,7 +91,6 @@ name: unit-stem-point-defense
 rotate: false
 reload: 175
 mirror: false
-rotateSpeed: 50
 top: true
 targetInterval: 5
 targetSwitchInterval: 7.5
@@ -107,8 +106,10 @@ smokeEffect: none
 bullet: {
   type: BasicBulletType
   width: 11
-  heigth: 12
+  height: 12
   healPercent: 1
+  lifetime: 60
+  speed: 5
   backColor: aeead4
   frontColor: ffffff
   hitColor: aeead4
