@@ -119,20 +119,17 @@ bullet: {
     type: MultiEffectType
     effects: [
     {
-    type: WaveEffect
+    type: ParticleEffect
+    spin: 4
+    cone: 0
+    length: 0
+    lifetime: 5
+    sizeFrom: 1
+    randLength: false
+    offset: 90
     colorFrom: aeead4ff
-    colorTo: aeead4ff
-    lifetime: 60
-    sizeFrom: 0
-    sizeTo: 125
-    }
-    {
-    type: WaveEffect
-    colorFrom: aeead4ff
-    colorTo: aeead4ff
-    lifetime: 60
-    sizeFrom: 0
-    sizeTo: 125
+    colorTo  aeead4ff
+    region: astralis-hollow-circle
     }
   ]
 }
