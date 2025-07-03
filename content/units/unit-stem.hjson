@@ -127,7 +127,7 @@ bullet: {
     baseRotation: 90
     colorFrom: aeead4ff
     colorTo: aeead4ff
-    region: "astralis-hollow-square"
+    region: "hollow-square"
     particles: 1
     }
   ]
