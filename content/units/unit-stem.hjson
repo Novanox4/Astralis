@@ -108,11 +108,9 @@ bullet: {
   lifesteal: 0.1
   spawnBullets: [
   {
-  type: EmptyBulletType
+  type: BulletType
   damage: 0
-  height: 0
   damage: 0
-  width: 0
   speed: 1
   lifetime: 175
   fragBullets: 6
