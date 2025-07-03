@@ -4,10 +4,12 @@ legGroupSize: 4
 legLength: 80
 legBaseOffset: 5
 legPairOffset: -5
-name: Endemic
+name: Pestilence
 armor: 25
 description: "Native [gray](?)[] spider to Astralis. Highly dangerous. Shoots powerful missiles and energy orbs out of its mechanical maw. Incredibly tanky, spawns units on death."
-details: "This monstrosity could not have appeared natuarly, could it? It HAS to be a sharded experiment gone awry, right?"
+details: "This creature is so large it is rotting inside. This is the largest spider ever found, Hell Inc. must have really pissed it off considering it's aggressive state.
+
+This monstrosity could not have appeared natuarlly, could it? It HAS to be a sharded experiment gone awry, right? RIGHT?"
 legMaxLength: 1.35
 flying: false
 health: 30000
@@ -126,7 +128,7 @@ deathExplosionEffect: none
 deathSound: plantBreak
 speed: 0.7
 lightRadius: 0.01
-hitSize: 20
+hitSize: 35
 useUnitCap: false
 legSplashRange: 70
 legSplashDamage: 240
