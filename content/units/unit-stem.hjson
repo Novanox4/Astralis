@@ -21,7 +21,7 @@ x: 0
 top: false
 layerOffset: -0.00001
 y: 0
-reload: 8
+reload: 9
 shootX: 0
 shootY: 10
 shootSound: missile
@@ -46,7 +46,7 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: aeead4
-  damage: 7.5
+  damage: 3
   shrinkY: 0
   lifetime: 37.5
   speed: 5.5
@@ -74,7 +74,7 @@ bullet: {
     trailColor: aeead4
     frontColor: ffffff
     backColor: aeead4
-    damage: 4
+    damage: 2.5
     shrinkY: 0
     lifetime: 35
     speed: -5
