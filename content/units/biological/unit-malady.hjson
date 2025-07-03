@@ -49,6 +49,6 @@ deathExplosionEffect: none
 deathSound: plantBreak
 speed: 2.5
 lightRadius: 0
-hitSize: 15
+hitSize: 13.5
 layer: 135
 useUnitCap: false
