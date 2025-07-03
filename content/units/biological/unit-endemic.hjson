@@ -123,27 +123,27 @@ bullet: {
 abilities: [
   {
   type: SpawnDeathAbility
-  unitType: unit-flu
+  unit: unit-flu
   amount: 28
   }
   {
   type: SpawnDeathAbility
-  unitType: unit-microplana
+  unit: unit-microplana
   amount: 45
   }
   {
   type: SpawnDeathAbility
-  unitType: unit-malady
+  unit: unit-malady
   amount: 12
   }
   {
   type: SpawnDeathAbility
-  unitType: unit-koreni
+  unit: unit-koreni
   amount: 9
   }
   {
   type: SpawnDeathAbility
-  unitType: unit-outbreak
+  unit: unit-outbreak
   amount: 3
   }
 ]
