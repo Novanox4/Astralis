@@ -46,7 +46,7 @@ bullet: {
   trailColor: aeead4
   frontColor: ffffff
   backColor: aeead4
-  damage: 20
+  damage: 7.5
   shrinkY: 0
   lifetime: 37.5
   speed: 5.5
@@ -63,6 +63,7 @@ bullet: {
   fragOnHit: false
   hitEffect: none
   despawnEffect: none
+  collidesTeam: true
   fragBullet: {
     type: BasicBulletType
     width: 6
@@ -73,7 +74,7 @@ bullet: {
     trailColor: aeead4
     frontColor: ffffff
     backColor: aeead4
-    damage: 10
+    damage: 4
     shrinkY: 0
     lifetime: 35
     speed: -5
@@ -83,6 +84,7 @@ bullet: {
     smokeEffect: none
     hitEffect: none
     despawnEffect: none
+    collidesTeam: true
     }
   }
 }
@@ -103,7 +105,7 @@ bullet: {
   healPercent: 2
   lifetime: 70
   colors: [aeead466, aeead4ff, ffffff]
-  damage: 150
+  damage: 125
   shootEffect: none
   lifesteal: 0.1
     }
