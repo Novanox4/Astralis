@@ -99,10 +99,9 @@ shootSound: laser
 bullet: {
   type: LaserBulletType
   width: 17.5
-  length: 150
+  length: 175
   healPercent: 2
   lifetime: 70
-  speed: 3
   backColor: [aeead466, aeead4ff, ffffff]
   damage: 150
   shootEffect: none
@@ -118,7 +117,6 @@ bullet: {
     length: 90
     healPercent: 1
     lifetime: 80
-    speed: 2
     backColor: [aeead466, aeead4ff, ffffff]
     damage: 30
     shootEffect: none
