@@ -114,8 +114,7 @@ bullet: {
   damage: 125
   shootEffect: none
   lifesteal: 0.1
-  smokeEffect: none
-  chargeEffect: {
+  smokeEffect: [
     type: MultiEffectType
     effects: [
     {
@@ -132,7 +131,7 @@ bullet: {
     region: astralis-hollow-circle
     }
   ]
-}
+]
     }
   }
 ]
