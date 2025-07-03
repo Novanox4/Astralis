@@ -11,7 +11,7 @@ segmentPhase: 5
 segmentMag: 0.5
 rotateSpeed: 6
 omniMovement: false
-hitSize: 5
+hitSize: 5.5
 outlineColor: 121213
 crushDamage: 1
 segmentLayerOrder: true
