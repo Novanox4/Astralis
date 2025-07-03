@@ -114,7 +114,7 @@ bullet: {
   damage: 125
   shootEffect: none
   lifesteal: 0.1
-  smokeEffect: [
+  smokeEffect: {
     type: MultiEffectType
     effects: [
     {
@@ -129,9 +129,10 @@ bullet: {
     colorFrom: aeead4ff
     colorTo: aeead4ff
     region: astralis-hollow-circle
+    particles: 1
     }
   ]
-]
+}
     }
   }
 ]
