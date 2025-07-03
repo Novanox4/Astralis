@@ -98,7 +98,7 @@ recoil: 3
 shootSound: laser
 bullet: {
   type: LaserBulletType
-  width: 15
+  width: 17.5
   length: 150
   healPercent: 2
   lifetime: 70
@@ -114,7 +114,7 @@ bullet: {
   fragSpread: 60
   fragBullet: {
     type: LaserBulletType
-    width: 12.5
+    width: 15
     length: 90
     healPercent: 1
     lifetime: 80
