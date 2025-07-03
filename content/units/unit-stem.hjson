@@ -99,22 +99,7 @@ shoot: {
   firstShotDelay: 65
 }
 shootSound: laser
-shootEffect: none
-smokeEffect: none
-bullet: {
-  type: BasicBulletType
-  width: 11
-  height: 15
-  healPercent: 5
-  lifetime: 60
-  speed: 5
-  backColor: aeead4
-  frontColor: ffffff
-  hitColor: aeead4
-  damage: 125
-  shootEffect: none
-  lifesteal: 0.1
-  smokeEffect: {
+shootEffect: {
     type: MultiEffectType
     effects: [
     {
@@ -128,11 +113,24 @@ bullet: {
     offset: 90
     colorFrom: aeead4ff
     colorTo: aeead4ff
-    region: astralis-hollow-circle
+    region: astralis-hollow-square
     particles: 1
     }
   ]
 }
+bullet: {
+  type: BasicBulletType
+  width: 11
+  height: 15
+  healPercent: 5
+  lifetime: 60
+  speed: 5
+  backColor: aeead4
+  frontColor: ffffff
+  hitColor: aeead4
+  damage: 125
+  shootEffect: none
+  lifesteal: 0.1
     }
   }
 ]
