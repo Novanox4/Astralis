@@ -121,6 +121,26 @@ bullet: {
 }
 ]
 abilities: [
+  {
+  type: unit-flu
+  amount: 28
+  }
+  {
+  type: unit-microplana
+  amount: 45
+  }
+  {
+  type: unit-malady
+  amount: 12
+  }
+  {
+  type: unit-koreni
+  amount: 9
+  }
+  {
+  type: unit-outbreak
+  amount: 3
+  }
 ]
 outlineColor: 121213
 planet: astralis
