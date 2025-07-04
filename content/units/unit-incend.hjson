@@ -43,3 +43,4 @@ weapons: [
   ]
 research: unit-sear
 baseRegion: white
+hitSize: 13
