@@ -19,7 +19,7 @@ segmentLayerOrder: true
 controller: HugAi
 weapons: [
 {
-shootSound: none
+shootSound: noammo
 reload: 15
 x: 0
 y: 3
@@ -27,7 +27,7 @@ mirror: false
 bullet: {
   type: BasicBulletType
   damage: 6
-  heigth: 14
+  heigth: 22
   width: 4
   shootEffect: none
   smokeEffect: none
@@ -39,6 +39,20 @@ bullet: {
   lifetime: 40
   sticky: true
   stickyExtraLifetime: 80
+  spawnBullets: [
+    {
+    type: BulletType
+    damage: 6
+    heigth: 22
+    width: 4
+    shootEffect: none
+    smokeEffect: none
+    despawnEffect: none
+    hitEffect: none
+    speed: 4
+    lifetime: 40
+    }
+    ]
     }
   }
 ]
