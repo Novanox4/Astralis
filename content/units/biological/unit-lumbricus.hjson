@@ -1,6 +1,6 @@
 type: crawl
 name: Lumbricus
-description: Biological worm unit. Tramples buildings under it and attacks with lethal stingers. Creates smaller units on death.
+description: Biological worm unit. Tramples buildings under it and spits lethal stingers. Creates smaller units on death.
 health: 1750
 speed: 1.3
 armor: 10
@@ -21,6 +21,9 @@ weapons: [
 {
 shootSound: none
 reload: 15
+x: 0
+y: 3
+mirror: false
 bullet: {
   type: BasicBulletType
   damage: 6
