@@ -1,5 +1,5 @@
 type: crawl
-name: Koreni
+name: Lumbricus
 description: Biological worm unit. Tramples buildings under it and attacks with lethal stingers. Creates smaller units on death.
 health: 1750
 speed: 1.3
