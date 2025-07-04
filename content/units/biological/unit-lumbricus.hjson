@@ -23,10 +23,11 @@ shootSound: noammo
 reload: 15
 x: 0
 y: 3
+shootY: 8
 mirror: false
 bullet: {
   type: BasicBulletType
-  damage: 6
+  damage: 50
   heigth: 22
   width: 4
   shootEffect: none
@@ -42,7 +43,7 @@ bullet: {
   spawnBullets: [
     {
     type: BulletType
-    damage: 6
+    damage: 50
     heigth: 22
     width: 4
     shootEffect: none
