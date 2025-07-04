@@ -20,15 +20,19 @@ controller: HugAi
 weapons: [
 {
 shootSound: noammo
-reload: 15
+reload: 60
 x: 0
 y: 3
-shootY: 10
+shoot: {
+  shots: 5
+  shotDelay: 5
+  }
+shootY: 12.5
 mirror: false
 bullet: {
   type: BasicBulletType
   damage: 50
-  heigth: 30
+  heigth: 40
   width: 4
   shootEffect: none
   smokeEffect: none
@@ -39,12 +43,12 @@ bullet: {
   speed: 4
   lifetime: 40
   sticky: true
-  stickyExtraLifetime: 80
+  stickyExtraLifetime: 40
   spawnBullets: [
     {
     type: BulletType
     damage: 50
-    heigth: 30
+    heigth: 40
     width: 4
     shootEffect: none
     smokeEffect: none
