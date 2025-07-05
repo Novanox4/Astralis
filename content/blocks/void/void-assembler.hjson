@@ -7,7 +7,7 @@ requirements: []
 buildTime: 450
 visibility: sandboxOnly
 areaSize: 7
-dronesCreated: 8
+dronesCreated: 4
 droneConstructTime: 200
 plans: [
   {
@@ -16,6 +16,6 @@ plans: [
   requirements: [
     astralis-crystalite-wall/1
     ]
-  time: 175
+  time: 400
     }
 ]
