@@ -2,8 +2,8 @@ type: HeatCrafter
 name: Electrostatic Separator
 description: Separates rare earth metals from monazite.
 heatRequirement: 12
-maxEfficiency: 1.75 
-overheatScale: 1.1
+maxEfficiency: 2
+overheatScale: 1.25
 outputItems: [
   item-neodymium/4
   item-cerium/4
