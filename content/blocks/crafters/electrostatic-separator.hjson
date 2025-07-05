@@ -5,8 +5,8 @@ heatRequirement: 12
 maxEfficiency: 1.75 
 overheatScale: 1.1
 outputItems: [
-  item-neodymium/2
-  item-cerium/2
+  item-neodymium/4
+  item-cerium/4
   ]
 consumes: {
   power: 2.85
@@ -14,15 +14,15 @@ consumes: {
     item-monazite/1
   ]
   liquids: [
-  water/0.1
+  water/0.12
   ]
 }
 craftTime: 220
 requirements: [
   item-crystalite/75
-  item-silver/45
-  metaglass/20
-  item-uranium/45
+  item-silver/60
+  metaglass/55
+  item-uranium/65
   ]
 drawer: {
   type: DrawMulti
@@ -64,4 +64,4 @@ category: crafting
 size: 3
 ambientSound: glow
 ambientSoundVolume: 0.95
-liquidCapacity: 30
+liquidCapacity: 75
