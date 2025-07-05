@@ -1,0 +1,21 @@
+type: UnitAssembler
+name: Void Assembler
+description: Creates void pods that burst out units.
+size: 3
+category: units
+requirements: []
+buildTime: 450
+visibility: sandboxOnly
+areaSize: 7
+dronesCreated: 8
+droneConstructTime: 200
+plans: [
+  {
+  type: AssemblerUnitPlan
+  unit: unit-hunger
+  requirements: [
+    crystalite-wall/1
+    ]
+  time: 175
+    }
+]
