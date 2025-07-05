@@ -14,7 +14,7 @@ plans: [
   type: AssemblerUnitPlan
   unit: unit-hunger
   requirements: [
-    crystalite-wall/1
+    astralis-crystalite-wall/1
     ]
   time: 175
     }
