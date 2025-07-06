@@ -7,3 +7,4 @@ requirements: [
 research: silver-wall
 name: Gate
 description: Opens automatically to let ground based units through.
+category: defense
