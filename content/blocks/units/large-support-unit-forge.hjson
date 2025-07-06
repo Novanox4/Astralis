@@ -2,7 +2,7 @@ type: UnitFactory
 name: Large Support Unit Forge
 description: Creates tier 3 and 4 units made for supporting in attacks/defending using raw materials, water and nitrogen.
 configurable: true
-size: 5
+size: 6
 category: units
 consumes: {
   power: 5
