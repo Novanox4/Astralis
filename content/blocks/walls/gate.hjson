@@ -1,0 +1,9 @@
+type: autoDoor
+health: 320
+requirements: [
+  item-crystalite/6
+  item-silver/6
+  ]
+research: silver-wall
+name: Gate
+description: Opens automatically to let ground based units through.
