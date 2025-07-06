@@ -102,8 +102,9 @@ shootType: {
   type: LaserBulletType
   colors: [f5d738, d49d00, ffffff]
   width: 10.5
-  length: 315
+  length: 325
   damage: 45
+  collidesGround: false
       }
 requirements: [
   item-crystalite/200
