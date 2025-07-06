@@ -52,10 +52,11 @@ drawer: {
 reload: 60
 shootType: {
   type: BasicBulletType
-  damage: 3.5
+  damage: 2.75
   backColor: f5d738
   frontColor: f5d738
   lifetime: 70
+  buildingDamageMultiplier: 0.15
   sprite: circle-bullet
   speed: 4
   width: 4
@@ -78,7 +79,7 @@ shootType: {
     damage: 5.5
     length: 150
     lifetime: 20
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.15
     lineEffect: {
       type: ParticleEffect
       line: true
