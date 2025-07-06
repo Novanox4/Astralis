@@ -38,7 +38,7 @@ requirements: [
 ammoTypes: {
   item-cerium: {
     type: BasicBulletType
-    damage: 265
+    damage: 625
     pierce: true
     pierceCap: 6
     despawnEffect: {
@@ -61,7 +61,7 @@ ammoTypes: {
         }
       ]
     }
-    buildingDamageMultiplier: 0.15
+    buildingDamageMultiplier: 0.075
     frontColor: ffffff
     backColor: 2c4035
     speed: 9.25
