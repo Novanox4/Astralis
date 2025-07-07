@@ -7,7 +7,7 @@ legBaseOffset: 6.5
 name: Stem
 buildSpeed: 0.70
 buildBeamOffset: 15
-description: Spider mech that can build, repair, and attack buildings. Attacks using twin rebounding energy guns and a laser cannon.
+description: Spider mech that can build, repair, and attack buildings, while shielding allied units. Attacks using twin rebounding energy guns and a laser cannon.
 flying: false
 health: 1450
 baseLegStraightness: 0
@@ -116,3 +116,12 @@ speed: 1
 hitSize: 18
 legSpeed: 0.75
 outlineColor: 323232
+abilities: [
+  {
+  type: ShieldRegenFieldAbility
+  amount: 5
+  max: 125
+  reload: 125
+  range: 120
+  }
+]
