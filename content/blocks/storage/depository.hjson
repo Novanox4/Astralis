@@ -1,0 +1,12 @@
+type: StorageBlock
+name: Depository
+description: Stores items. Does not connect to the core. Items have to be retrieved via unloaders.
+coreMerge: false
+itemCapacity: 800
+health: 1000
+requirements: [
+  item-uranium/125
+  item-silver/125
+  item-cerium/50
+  ]
+researchCostMultiplier: 0.5
