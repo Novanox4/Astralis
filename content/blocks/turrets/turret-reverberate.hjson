@@ -443,6 +443,8 @@ ammoTypes: {
   homingPower: 1
   hitColor: 5438c9
   shrinkY: 0
+  pierce: true
+  pierceBuilding: true
   }
 }
 coolant: {
