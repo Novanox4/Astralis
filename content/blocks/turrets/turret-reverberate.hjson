@@ -439,8 +439,8 @@ ammoTypes: {
   suppressionRange: 80
   suppressColor: 5438c9ff
   homingDelay: 10
-  homingRange: 100
-  homingPower: 1
+  homingRange: 200
+  homingPower: 1.25
   hitColor: 5438c9
   shrinkY: 0
   pierce: true
