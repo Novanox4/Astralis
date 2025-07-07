@@ -421,6 +421,28 @@ ammoTypes: {
       }
     }
   }
+  item-neodymium: {
+  type: BasicBulletType
+  sprite: circle-bullet
+  backColor: 5e238a
+  frontColor: 5e238a
+  height: 7
+  width: 7
+  inaccuracy: 10
+  damage: 100
+  lifetime: 55
+  speed: 10
+  trailLength: 30
+  trailWidth: 7
+  trailColor: 5e238a
+  buildingDamageMultiplier: 0.00001
+  suppressionRange: 80
+  suppressColor: 5e238aff
+  homingDelay: 10
+  homingRange: 100
+  homingPower: 1
+  hitColor: 5e238a
+  }
 }
 coolant: {
 type: ConsumeLiquid
