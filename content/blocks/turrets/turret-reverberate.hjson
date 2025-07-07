@@ -425,7 +425,7 @@ ammoTypes: {
   type: BasicBulletType
   sprite: circle-bullet
   backColor: 5438c9
-  frontColor: 5438c9
+  frontColor: ffffff
   height: 6
   width: 6
   inaccuracy: 10
@@ -433,7 +433,7 @@ ammoTypes: {
   lifetime: 55
   speed: 10
   trailLength: 30
-  trailWidth: 5.5
+  trailWidth: 3.25
   trailColor: 5438c9
   buildingDamageMultiplier: 0.00001
   suppressionRange: 80
