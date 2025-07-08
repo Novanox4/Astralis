@@ -16,10 +16,24 @@ parts: [
   x: 9.5
   y: 1.25
   layer: 114.8
-  moveRot: -85
+  moveRot: -75
   mirror: true
   heatColor: db5151
-  moveX: 4.25
+  moveX: 3.85
+  heatLayerOffset: 0.1
+  }
+  {
+  type: RegionPart
+  suffix: -blade
+  progress: warmup
+  rotation: 90
+  x: 9.5
+  y: 1.25
+  layer: 114.6
+  moveRot: -65
+  mirror: true
+  heatColor: db5151
+  moveX: 3.8
   heatLayerOffset: 0.1
   }
 ]
