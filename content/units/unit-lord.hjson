@@ -140,3 +140,10 @@ faceTarget: false
 targetAir: false
 circleTarget: true
 range: 180
+abilities: [
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1
+  }
+]
