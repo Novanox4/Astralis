@@ -55,3 +55,4 @@ outlineColor: 323232
 faceTarget: false
 targetAir: false
 circleTarget: true
+range: 160
