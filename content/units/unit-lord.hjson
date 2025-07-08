@@ -6,7 +6,6 @@ hitSize: 18
 rotateSpeed: 10
 itemCapacity: 50
 armor: 10
-accel: 0.009
 drag: 0.03
 engines: [
 {
@@ -17,7 +16,7 @@ engines: [
 }
 ]
 name: Lord
-description: "Air assault unit. Very tanky and slow. Attacks by dropping bombs in quick succession. Is faster while attacking."
+description: "Air assault unit. Very tanky and slow. Attacks by dropping bombs in quick succession. Is much faster while attacking."
 weapons: [
   {
   x: 2
@@ -31,15 +30,15 @@ weapons: [
   shootSound: none
   ignoreRotation: true
   shootStatus: status-lord-boosting
-  statusDuration: 6
+  statusDuration: 0.5
   bullet: {
   type: BombBulletType
   damage: 20
   lifetime: 55
   collidesAir: false
   sprite: large-bomb
-  width: 7
-  height: 7
+  width: 7.5
+  height: 7.5
   backColor: cb3535
   frontColor: ffffff
   despawnSound: explosion
