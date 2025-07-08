@@ -1,12 +1,12 @@
 type: flying
 flying: true
 health: 2250
-speed: 0.6
+speed: 0.725
 hitSize: 18
 itemCapacity: 50
 armor: 10
-accel: 0.004
-drag: 0.0175
+accel: 0.008
+drag: 0.01
 engines: [
 {
   x: 0
