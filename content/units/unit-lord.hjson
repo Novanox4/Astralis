@@ -146,6 +146,7 @@ abilities: [
   teamColor: true
   minVelocity: 1
   y: -9
-  interval: -1
+  interval: 0
+  amount: 2
   }
 ]
