@@ -148,5 +148,6 @@ abilities: [
   y: -9
   interval: 0
   amount: 2
+  chance: -1.0E-4
   }
 ]
