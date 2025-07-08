@@ -1,3 +1,15 @@
 type: unloader
 name: Crystal Unloader
 description: Unloads items from storage blocks and outputs them to all directions.
+requirements: [
+  item-cerium/2
+  item-silver/5
+  item-uranium/5
+  ]
+speed: 2.5
+research: {
+  parent: crystal-duct
+  objectives: [
+  item-cerium,
+  ]
+}
