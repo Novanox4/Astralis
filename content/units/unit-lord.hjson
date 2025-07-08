@@ -144,9 +144,9 @@ abilities: [
   {
   type: MoveEffectAbility
   teamColor: true
-  minVelocity: 1
+  minVelocity: 1.75
   y: -9
-  interval: 0.000000001
+  interval: 1
   amount: 2
   }
 ]
