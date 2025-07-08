@@ -3,14 +3,15 @@ flying: true
 health: 2250
 speed: 0.725
 hitSize: 18
+rotateSpeed: 10
 itemCapacity: 50
 armor: 10
-accel: 0.008
-drag: 0.01
+accel: 0.009
+drag: 0.03
 engines: [
 {
   x: 0
-  y: -9
+  y: -9.5
   radius: 3.25
   rotation: 90
 }
