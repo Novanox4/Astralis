@@ -147,7 +147,7 @@ abilities: [
   minVelocity: 1.75
   y: -9
   interval: -1
-  amount: 1
+  amount: 5
   effect: missileTrail
   chance: 1
   }
