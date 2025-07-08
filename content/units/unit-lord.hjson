@@ -33,7 +33,7 @@ parts: [
   moveRot: -60
   mirror: true
   heatColor: db5151
-  moveX: 3.65
+  moveX: 3.4
   moveY: 2.5
   heatLayerOffset: 0.1
   }
