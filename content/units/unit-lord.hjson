@@ -73,9 +73,9 @@ weapons: [
   smokeEffect: none
   shrinkX: 0.5
   shrinkY: 0.5
-  splashDamage: 50
+  splashDamage: 24
   scaledSplashDamage: true
-  splashDamageRadius: 24
+  splashDamageRadius: 36
   maxRange: 160
   rangeOverride: 160
   despawnEffect: {
