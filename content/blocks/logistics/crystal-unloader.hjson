@@ -1,0 +1,3 @@
+type: unloader
+name: Crystal Unloader
+description: Unloads items from storage blocks and outputs them to all directions.
