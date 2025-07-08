@@ -7,7 +7,6 @@ rotateSpeed: 5
 itemCapacity: 50
 armor: 10
 drag: 0.03
-omniMovement: true
 engines: [
 {
   x: 0
@@ -27,7 +26,7 @@ weapons: [
   mirror: true
   alternate: true
   layerOffset: 0
-  inaccuracy: 4.5
+  inaccuracy: 1
   shootSound: none
   ignoreRotation: true
   shootStatus: status-lord-boosting
