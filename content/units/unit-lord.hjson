@@ -20,6 +20,12 @@ engines: [
   radius: 1.95
   rotation: 90
 }
+{
+  x: -5.25
+  y: -9.3
+  radius: 1.95
+  rotation: 90
+}
 ]
 name: Lord
 description: "Air assault unit. Very tanky and slow. Attacks by dropping bombs in quick succession. Is much faster while attacking."
