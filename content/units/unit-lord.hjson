@@ -163,4 +163,16 @@ abilities: [
   chance: 1
   effectParam: 2
   }
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -8.75
+  x: -5.25
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
+  chance: 1
+  effectParam: 2
+  }
 ]
