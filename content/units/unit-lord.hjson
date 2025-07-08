@@ -1,0 +1,43 @@
+type: flying
+flying: true
+health: 2250
+speed: 0.6
+hitSize: 18
+itemCapacity: 50
+engines: [
+{
+  x: 0
+  y: -9
+  radius: 3.25
+  rotation: 90
+}
+]
+name: Lord
+description: "Air assault unit. Very tanky and slow. Attacks by dropping bombs in quick succession. Is faster while attacking."
+weapons: [
+  {
+  x: 2
+  y: 0
+  shootY: -5
+  reload: 4
+  mirror: true
+  alternate: true
+  layerOffset: 0
+  inaccuracy: 4.5
+  shootSound: none
+  bullet: {
+  type: BombBulletType
+  damage: 20
+  lifetime: 55
+  sprite: large-bomb
+  width: 7
+  height: 7
+  backColor: cb3535
+  frontColor: ffffff
+  despawnSound: explosion
+  hitSound: explosion
+  randomAngleOffset: 360
+    }
+  }
+]
+outlineColor: 323232
