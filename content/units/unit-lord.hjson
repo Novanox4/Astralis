@@ -13,10 +13,12 @@ parts: [
   suffix: -blade
   progress: warmup
   rotation: 90
-  x: 10
-  y: 0
+  x: 9.5
+  y: 1.25
   layer: 114.9
-  moveRot: -90
+  moveRot: -85
+  mirror: true
+  heatColor: db5151
   }
 ]
 engines: [
