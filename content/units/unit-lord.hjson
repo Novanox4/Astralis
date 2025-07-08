@@ -6,7 +6,7 @@ hitSize: 18
 rotateSpeed: 5
 itemCapacity: 50
 armor: 10
-drag: 0.03
+drag: 0.05
 engines: [
 {
   x: 0
