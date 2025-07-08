@@ -52,6 +52,8 @@ weapons: [
   splashDamage: 50
   scaledSplashDamage: true
   splashDamageRadius: 24
+  maxRange: 160
+  rangeOverride: 160
     }
   }
 ]
