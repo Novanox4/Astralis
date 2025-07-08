@@ -19,6 +19,7 @@ parts: [
   moveRot: -85
   mirror: true
   heatColor: db5151
+  moveX: 5
   }
 ]
 engines: [
