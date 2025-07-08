@@ -76,7 +76,7 @@ weapons: [
     type: WaveEffect
     lightColor: cb3535
     colorTo: cb3535ff
-    sizeTo: 60
+    sizeTo: 35
     strokeFrom: 1.25
       }
     }
