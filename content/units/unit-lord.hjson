@@ -19,8 +19,8 @@ parts: [
   moveRot: -85
   mirror: true
   heatColor: db5151
-  moveX: 5
-  heatLayeroffset: 0.1
+  moveX: 4.25
+  heatLayerOffset: 0.1
   }
 ]
 engines: [
