@@ -148,6 +148,7 @@ abilities: [
   y: -9
   interval: -1
   amount: 1
-  effect: trailFade
+  effect: missileTrail
+  chance: 1
   }
 ]
