@@ -27,10 +27,10 @@ engines: [
   rotation: 90
 }
 {
-  x: 9.35
-  y: -5
+  x: 9.25
+  y: -4.75
   radius: 2.15
-  rotation: 0
+  rotation: 45
 }
 ]
 name: Lord
