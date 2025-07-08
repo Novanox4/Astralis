@@ -13,7 +13,7 @@ parts: [
   suffix: -blade
   progress: warmup
   rotation: 90
-  x: 7
+  x: 10
   y: 0
   layer: 114.9
   moveRot: -90
