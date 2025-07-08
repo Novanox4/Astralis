@@ -147,7 +147,7 @@ abilities: [
   minVelocity: 1.75
   y: -9
   interval: -1
-  amount: 5
+  amount: 1
   effect: missileTrail
   chance: 1
   }
@@ -158,8 +158,9 @@ abilities: [
   y: -8.75
   x: 5.25
   interval: -1
-  amount: 5
+  amount: 1
   effect: missileTrailShort
   chance: 1
+  effectParam: 2
   }
 ]
