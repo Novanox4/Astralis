@@ -76,8 +76,9 @@ weapons: [
   splashDamage: 24
   scaledSplashDamage: true
   splashDamageRadius: 36
-  maxRange: 160
-  rangeOverride: 160
+  maxRange: 180
+  rangeOverride: 180
+  hitEffect: none
   despawnEffect: {
     type: WaveEffect
     lightColor: cb3535
@@ -92,4 +93,4 @@ outlineColor: 323232
 faceTarget: false
 targetAir: false
 circleTarget: true
-range: 160
+range: 180
