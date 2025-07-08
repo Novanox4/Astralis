@@ -1,4 +1,4 @@
-type: flying
+dtype: flying
 flying: true
 health: 2250
 speed: 0.725
@@ -145,5 +145,6 @@ abilities: [
   type: MoveEffectAbility
   teamColor: true
   minVelocity: 1
+  y: -9
   }
 ]
