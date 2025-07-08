@@ -13,10 +13,10 @@ parts: [
   suffix: -blade
   progress: warmup
   rotation: 90
-  x: 9.5
+  x: 9
   y: 1.25
   layer: 114.8
-  moveRot: -65
+  moveRot: -75
   mirror: true
   heatColor: db5151
   moveX: 3.65
@@ -30,11 +30,11 @@ parts: [
   x: 9.5
   y: 1.25
   layer: 114.6
-  moveRot: -70
+  moveRot: -60
   mirror: true
   heatColor: db5151
   moveX: 3.65
-  moveY: 2.25
+  moveY: 2.5
   heatLayerOffset: 0.1
   }
 ]
