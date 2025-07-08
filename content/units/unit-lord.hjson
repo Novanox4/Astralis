@@ -146,7 +146,8 @@ abilities: [
   teamColor: true
   minVelocity: 1.75
   y: -9
-  interval: 3.25
+  interval: -1
   amount: 1
+  effect: instTrail
   }
 ]
