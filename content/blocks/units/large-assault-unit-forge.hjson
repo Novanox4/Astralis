@@ -1,0 +1,49 @@
+type: UnitFactory
+name: Advanced Assault Unit Forge
+description: Creates tier 3 and 4 units made for attacking by using resources and nitrogen.
+configurable: true
+size: 6
+category: units
+consumes: {
+  power: 5.5
+  liquids: [
+    nitrogen/0.5
+    ]
+    }
+plans: [
+    {
+unit: unit-lord
+requirements: [
+    item-crystalite/150
+    item-uranium/150
+    metaglass/80
+    item-cerium/50
+    item-neodymium/30
+      ]
+    time: 2200
+    }
+  ]
+research: {
+  parent: assault-unit-forge
+  objectives: [
+  {
+  type: OnSector
+  preset: mineshaft
+    }
+  ]
+}
+requirements: [
+  item-crystalite/100
+  item-uranium/140
+  item-silver/120
+  item-cerium/75
+  item-neodymium/40
+  ]
+researchCost: [
+  item-crystalite/1000
+  item-silver/1250
+  item-uranium/1300
+  metaglass/1450
+  item-cerium/100
+  item-neodymium/100
+  ]
