@@ -7,6 +7,18 @@ rotateSpeed: 5
 itemCapacity: 50
 armor: 10
 drag: 0.05
+parts: [
+  {
+  type: RegionPart
+  suffix: -blade
+  progress: warmup
+  rotation: 90
+  x: 7
+  y: 0
+  layer: 114.9
+  moveRot: -90
+  }
+]
 engines: [
 {
   x: 0
