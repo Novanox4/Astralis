@@ -32,8 +32,10 @@ contentOrder: [
     silver-fulminator,
     electrostatic-separator,
     crystal-crucible,
+    nitric-acid-synthesizer,
     char-burner,
     slag-radiator,
+    radiation-heater,
     heat-circulator,
     
     //walls
@@ -44,6 +46,7 @@ contentOrder: [
     large-metaglass-wall,
     silver-wall,
     large-silver-wall,
+    gate,
     
     //effect
     
@@ -51,6 +54,7 @@ contentOrder: [
     lamp,
     core-fort,
     core-agora,
+    depository,
     
     //distribution
     
@@ -59,6 +63,7 @@ contentOrder: [
     crystal-bridge,
     crystal-overflow-gate,
     crystal-underflow-gate,
+    crystal-unloader,
 
     //liquids
 
@@ -84,6 +89,7 @@ contentOrder: [
     
     beam-drill,
     char-crusher,
+    corrosion-mill,
     deep-quarry,
 
     //turrets
@@ -102,7 +108,8 @@ contentOrder: [
 
     assault-unit-forge,
     support-unit-forge,
-
+    large-support-unit-forge,
+    
     //logic
 
     small-processing-unit,
@@ -116,12 +123,14 @@ contentOrder: [
     unit-chieftain,
     unit-receptacle,
     unit-pollen,
+    unit-stem,
     unit-flu,
     unit-malady,
     unit-outbreak,
     unit-endemic,
     unit-microplana,
     unit-koreni,
+    unit-lumbricus,
     unit-hunger,
     unit-craving,
 
