@@ -4,6 +4,7 @@ health: 2250
 speed: 0.6
 hitSize: 18
 itemCapacity: 50
+armor: 10
 engines: [
 {
   x: 0
@@ -25,10 +26,12 @@ weapons: [
   layerOffset: 0
   inaccuracy: 4.5
   shootSound: none
+  ignoreRotation: true
   bullet: {
   type: BombBulletType
   damage: 20
   lifetime: 55
+  collidesAir: false
   sprite: large-bomb
   width: 7
   height: 7
@@ -37,7 +40,14 @@ weapons: [
   despawnSound: explosion
   hitSound: explosion
   randomAngleOffset: 360
+  shootEffect: none
+  smokeEffect: none
+  shrinkX: 0.5
+  shrinkY: 0.5
     }
   }
 ]
 outlineColor: 323232
+faceTarget: false
+targetAir: false
+circleTarget: true
