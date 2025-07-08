@@ -31,7 +31,7 @@ weapons: [
   shootSound: none
   ignoreRotation: true
   shootStatus: status-lord-boosting
-  statusDuration: 0.5
+  shootStatusDuration: 6
   shootCone: 361
   bullet: {
   type: BombBulletType
