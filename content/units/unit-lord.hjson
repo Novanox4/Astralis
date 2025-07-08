@@ -15,11 +15,12 @@ parts: [
   rotation: 90
   x: 9.5
   y: 1.25
-  layer: 114.9
+  layer: 114.8
   moveRot: -85
   mirror: true
   heatColor: db5151
   moveX: 5
+  heatLayeroffset: 0.1
   }
 ]
 engines: [
