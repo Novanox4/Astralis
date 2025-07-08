@@ -15,9 +15,9 @@ engines: [
   rotation: 90
 }
 {
-  x: 4
+  x: 6
   y: -9.35
-  radius: 3.25
+  radius: 2.5
   rotation: 90
 }
 ]
