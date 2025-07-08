@@ -27,6 +27,8 @@ weapons: [
   inaccuracy: 4.5
   shootSound: none
   ignoreRotation: true
+  shootStatus: status-lord-boosting
+  statusDuration: 6
   bullet: {
   type: BombBulletType
   damage: 20
