@@ -146,8 +146,7 @@ abilities: [
   teamColor: true
   minVelocity: 1
   y: -9
-  interval: 0
+  interval: 0.000000001
   amount: 2
-  chance: -1.0E-4
   }
 ]
