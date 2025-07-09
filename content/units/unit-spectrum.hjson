@@ -20,6 +20,8 @@ weapons: [
 {
 name: unit-spectrum-weapon
 reload: 65
+x: 0
+y: 0
 mirror: false
 rotate: true
 shootSound: bolt
