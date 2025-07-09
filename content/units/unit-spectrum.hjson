@@ -1,0 +1,18 @@
+type: tank
+name: Spectrum
+description: Shoots a homing bolt of light. Can build and boost.
+buildSpeed: 0.25
+canBoost: true
+omniMovement: true
+//TODO make parts
+parts: []
+treadRects: [
+  {
+  x: 0
+  y: 0
+  width: 20
+  height: 48
+  }
+]
+//TODO make weapon
+weapons: []
