@@ -9,7 +9,7 @@ parts: []
 treadRects: [
   {
   x: 0
-  y: -9
+  y: -8
   width: 15
   height: 28
   }
