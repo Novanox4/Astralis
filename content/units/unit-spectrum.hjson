@@ -28,7 +28,8 @@ shootSound: bolt
 bullet: {
   type: BulletType
   damage: 20
-  speed: 15
+  speed: 3
+  lifetime: 60
   despawnEffect: {
     type: WaveEffect
     colorTo: 7cd656ff
