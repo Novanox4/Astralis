@@ -10,8 +10,8 @@ treadRects: [
   {
   x: 0
   y: -5
-  width: 10
-  height: 48
+  width: 12
+  height: 60
   }
 ]
 //TODO make weapon
