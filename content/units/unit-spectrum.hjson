@@ -15,6 +15,39 @@ treadRects: [
   height: 40
   }
 ]
-//TODO make weapon
-weapons: []
+//TODO finish weapon
+weapons: [
+{
+name: unit-spectrum-weapon
+reload: 65
+mirror: false
+rotate: true
+shootSound: bolt
+bullet: {
+  type: BulletType
+  damage: 20
+  speed: 15
+  despawnEffect: {
+    type: WaveEffect
+    colorTo: 7cd656ff
+    sizeTo: 20
+    strokeFrom: 1
+    }
+  trailLength: 20
+  trailColor: 7cd656
+  trailWidth: 2
+  parts: [
+    {
+    type: FlarePart
+    progress: life
+    radius: 0
+    radiusTo: 16
+    color1: 7cd656
+    rotation: 45
+    stroke: 2
+    followRotation: true
+    }
+    ]
+  }
+]
 outlineColor: 323232
