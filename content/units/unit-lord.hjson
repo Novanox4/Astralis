@@ -119,7 +119,7 @@ weapons: [
   smokeEffect: none
   shrinkX: 0.5
   shrinkY: 0.5
-  splashDamage: 24
+  splashDamage: 12
   scaledSplashDamage: true
   splashDamageRadius: 36
   maxRange: 180
