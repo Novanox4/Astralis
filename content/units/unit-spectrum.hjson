@@ -46,8 +46,9 @@ bullet: {
     rotation: 45
     stroke: 2
     followRotation: true
+        }
+      ]
     }
-    ]
   }
 ]
 outlineColor: 323232
