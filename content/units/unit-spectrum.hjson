@@ -21,7 +21,7 @@ weapons: [
 name: unit-spectrum-weapon
 reload: 65
 x: 0
-y: 0
+y: -1.75
 mirror: false
 rotate: true
 shootSound: bolt
@@ -33,7 +33,7 @@ bullet: {
   despawnEffect: {
     type: WaveEffect
     colorTo: 7cd656ff
-    sizeTo: 20
+    sizeTo: 30
     strokeFrom: 1
     }
   trailLength: 20
@@ -44,10 +44,10 @@ bullet: {
     type: FlarePart
     progress: life
     radius: 0
-    radiusTo: 16
+    radiusTo: 22
     color1: 7cd656
     rotation: 45
-    stroke: 2
+    stroke: 3
     followRotation: true
         }
       ]
