@@ -8,7 +8,7 @@ omniMovement: true
 parts: []
 treadRects: [
   {
-  x: 0
+  x: 1
   y: -8
   width: 12
   height: 60
