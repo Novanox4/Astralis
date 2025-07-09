@@ -30,6 +30,7 @@ bullet: {
   damage: 20
   speed: 3
   lifetime: 60
+  followAimSpeed: 1
   despawnEffect: {
     type: WaveEffect
     colorTo: 7cd656ff
