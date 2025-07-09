@@ -9,9 +9,9 @@ parts: []
 treadRects: [
   {
   x: 0
-  y: -15
+  y: -18
   width: 12
-  height: 35
+  height: 38
   }
 ]
 //TODO make weapon
