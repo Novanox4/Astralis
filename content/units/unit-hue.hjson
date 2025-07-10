@@ -38,8 +38,8 @@ weapons: [
   sprite: missile
   backColor: ffffff
   frontColor: ffffff
-  maxRange: 180
-  rangeOverride: 180
+  maxRange: 240
+  rangeOverride: 240
   width: 5
   height: 8
   damage: 0
