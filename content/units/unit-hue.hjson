@@ -31,7 +31,7 @@ weapons: [
   y: 0
   shootSound: laser
   bullet: {
-    type: BasicBulletType
+  type: BasicBulletType
   sprite: missile
   backColor: ffffff
   frontColor: ffffff
@@ -43,12 +43,7 @@ weapons: [
   collides: false
   followAimSpeed: 2.25
   hitEffect: none
-  despawnEffect: {
-    type: WaveEffect
-    colorTo: 7cd656ff
-    sizeTo: 30
-    strokeFrom: 1
-    }
+  despawnEffect: none
   trailLength: 15
   trailColor: ffffff
   trailWidth: 2
