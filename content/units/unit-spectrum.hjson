@@ -58,7 +58,7 @@ bullet: {
   frontColor: ffffff
   width: 5
   height: 8
-  damage: 20
+  damage: 15
   speed: 3
   lifetime: 60
   followAimSpeed: 2.25
@@ -71,6 +71,8 @@ bullet: {
   trailLength: 20
   trailColor: 7cd656
   trailWidth: 2
+  splashDamage: 5
+  splashDamageRadius: 12
   parts: [
     {
     type: FlarePart
