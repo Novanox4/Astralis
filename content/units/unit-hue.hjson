@@ -10,9 +10,9 @@ boostMultiplier: 0.75
 treadRects: [
   {
   x: 0
-  y: -21
+  y: -21.5
   width: 12
-  height: 41
+  height: 41.5
   }
 ]
 weapons: []
