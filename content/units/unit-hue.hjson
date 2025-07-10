@@ -42,7 +42,6 @@ weapons: [
   damage: 0
   speed: 3
   lifetime: 30
-  collides: false
   followAimSpeed: 2.25
   hitEffect: none
   despawnEffect: {
