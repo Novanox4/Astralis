@@ -1,5 +1,5 @@
 type: tank
-name: Spectrum
+name: Hue
 description: Shoots a homing bolt of light. Can build and boost.
 buildSpeed: 0.25
 canBoost: true
@@ -10,9 +10,9 @@ boostMultiplier: 0.75
 treadRects: [
   {
   x: 0
-  y: -20
+  y: -21
   width: 12
-  height: 40
+  height: 41
   }
 ]
 weapons: []
