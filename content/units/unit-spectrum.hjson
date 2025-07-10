@@ -4,7 +4,6 @@ description: Shoots a homing bolt of light. Can build and boost.
 buildSpeed: 0.25
 canBoost: true
 omniMovement: false
-//TODO make parts
 parts: [
   {
   type: RegionPart
@@ -62,6 +61,7 @@ bullet: {
   speed: 3
   lifetime: 60
   followAimSpeed: 2.25
+  hitEffect: none
   despawnEffect: {
     type: WaveEffect
     colorTo: 7cd656ff
@@ -73,6 +73,8 @@ bullet: {
   trailWidth: 2
   splashDamage: 5
   splashDamageRadius: 12
+  healPercent: 1
+  collidesTeam: true
   parts: [
     {
     type: FlarePart
