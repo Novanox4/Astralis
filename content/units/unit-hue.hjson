@@ -15,9 +15,9 @@ treadRects: [
   height: 42
   }
   {
-  x: 3
+  x: 5
   y: -2
-  width: 15
+  width: 17
   height: 40
   }
 ]
