@@ -23,6 +23,7 @@ treadRects: [
 ]
 //good luck understanding this
 weapons: [
+  {
   name: unit-hue-weapon
   mirror: false
   rotate: true
@@ -104,8 +105,9 @@ weapons: [
               }
             ]
           }
-          ]
-        }
+        ]
       }
-    ]
+    }
+  }
+]
 outlineColor: 323232
