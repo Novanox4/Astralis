@@ -30,7 +30,7 @@ bullet: {
   backColor: 7cd656ff
   frontColor: ffffff
   width: 5
-  height: 6
+  height: 8
   damage: 20
   speed: 3
   lifetime: 60
