@@ -350,5 +350,5 @@ weapons: [
   }
 ]
 engineSize: 2
-engineOffset: 3
+engineOffset: 6
 outlineColor: 323232
