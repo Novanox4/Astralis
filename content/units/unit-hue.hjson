@@ -1,7 +1,7 @@
 type: tank
 name: Hue
 description: Shoots a homing bolt of light. Can build and boost.
-buildSpeed: 0.25
+buildSpeed: 0.6
 canBoost: true
 omniMovement: false
 speed: 0.85
@@ -16,9 +16,9 @@ treadRects: [
   }
   {
   x: 4
-  y: -30
+  y: -40
   width: 16
-  height: 64
+  height: 40
   }
 ]
 weapons: []
