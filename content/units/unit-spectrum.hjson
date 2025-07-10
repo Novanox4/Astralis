@@ -15,8 +15,8 @@ parts: [
   y: 0.25
   rotation: -90
   layer: 59.9
-  moveRot: 45
-  moveX: -2
+  moveRot: 60
+  moveX: -2.75
   moveY: 0
   }
 ]
