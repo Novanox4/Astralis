@@ -1,0 +1,19 @@
+type: tank
+name: Spectrum
+description: Shoots a homing bolt of light. Can build and boost.
+buildSpeed: 0.25
+canBoost: true
+omniMovement: false
+speed: 0.85
+boostMultiplier: 0.75
+//HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
+treadRects: [
+  {
+  x: 0
+  y: -20
+  width: 12
+  height: 40
+  }
+]
+weapons: []
+outlineColor: 323232
