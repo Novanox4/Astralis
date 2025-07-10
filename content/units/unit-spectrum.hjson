@@ -12,11 +12,11 @@ parts: [
   mirror: true
   under: true
   x: -3.75
-  y: -1
+  y: 0.25
   rotation: -90
   layer: 59.9
   moveRot: 45
-  moveX: -3.25
+  moveX: -2
   moveY: 0
   }
 ]
