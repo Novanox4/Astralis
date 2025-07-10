@@ -149,6 +149,84 @@ weapons: [
               }
             ]
           }
+          {
+        type: BasicBulletType
+        sprite: missile
+        angleOffset: 20
+        backColor: fffb00
+        frontColor: ffffff
+        width: 5
+        height: 8
+        damage: 15
+        speed: 3
+        lifetime: 60
+        followAimSpeed: 1
+        hitEffect: none
+        despawnEffect: {
+          type: WaveEffect
+          colorTo: fffb00ff
+          sizeTo: 30
+          strokeFrom: 1
+          }
+        trailLength: 20
+        trailColor: fffb00
+        trailWidth: 2
+        splashDamage: 5
+        splashDamageRadius: 12
+        healPercent: 1
+        collidesTeam: true
+        parts: [
+          {
+          type: FlarePart
+          progress: life
+          radius: 25
+          radiusTo: 0
+          color1: fffb00
+          rotation: 45
+          stroke: 3
+          followRotation: true
+              }
+            ]
+          }
+          {
+        type: BasicBulletType
+        sprite: missile
+        angleOffset: 0
+        backColor: 00ff26
+        frontColor: ffffff
+        width: 5
+        height: 8
+        damage: 15
+        speed: 3
+        lifetime: 60
+        followAimSpeed: 1
+        hitEffect: none
+        despawnEffect: {
+          type: WaveEffect
+          colorTo: 00ff26ff
+          sizeTo: 30
+          strokeFrom: 1
+          }
+        trailLength: 20
+        trailColor: 00ff26
+        trailWidth: 2
+        splashDamage: 5
+        splashDamageRadius: 12
+        healPercent: 1
+        collidesTeam: true
+        parts: [
+          {
+          type: FlarePart
+          progress: life
+          radius: 25
+          radiusTo: 0
+          color1: 00ff26
+          rotation: 45
+          stroke: 3
+          followRotation: true
+              }
+            ]
+          }
         ]
       }
     }
