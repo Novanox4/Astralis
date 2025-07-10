@@ -11,12 +11,12 @@ parts: [
   suffix: -blade
   mirror: true
   under: true
-  x: 3.75
+  x: -3.75
   y: -1
-  rotation: 90
+  rotation: -90
   layer: 59.9
-  moveRot: -45
-  moveX: 3.25
+  moveRot: 45
+  moveX: -3.25
   moveY: 0
   }
 ]
