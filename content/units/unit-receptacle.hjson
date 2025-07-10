@@ -2,15 +2,15 @@ type: legs
 legCount: 4
 legGroupSize: 2
 legLength: 8.5
-legBaseOffset: 0
+legBaseOffset: 1
 name: Receptacle
 description: Spider mech that uses s continuous laser to attack. Heals nearby allies.
 flying: false
 health: 450
 baseLegStraightness: 0
 legContinuousMove: false
-legExtension: -2
-legForwardScl: 1
+legExtension: -1
+legForwardScl: 2
 weapons: [
 {
 x: 0
