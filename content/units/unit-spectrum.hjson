@@ -8,7 +8,7 @@ omniMovement: false
 parts: [
   {
   type: RegionPart
-  name: unit-spectrum-blade
+  suffix: -blade
   mirror: true
   under: true
   x: 5
