@@ -11,7 +11,7 @@ parts: [
   suffix: -blade
   mirror: true
   under: true
-  x: 5
+  x: -5
   y: -1
   }
 ]
