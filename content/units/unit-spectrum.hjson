@@ -15,7 +15,6 @@ treadRects: [
   height: 40
   }
 ]
-//TODO finish weapon
 weapons: [
 {
 name: unit-spectrum-weapon
@@ -26,7 +25,12 @@ mirror: false
 rotate: true
 shootSound: bolt
 bullet: {
-  type: BulletType
+  type: BasicBulletType
+  sprite: missile
+  backColor: 7cd656ff
+  frontColor: ffffff
+  width: 5
+  height: 6
   damage: 20
   speed: 3
   lifetime: 60
