@@ -82,7 +82,7 @@ weapons: [
         damage: 15
         speed: 3
         lifetime: 60
-        followAimSpeed: 2.25
+        followAimSpeed: 1
         hitEffect: none
         despawnEffect: {
           type: WaveEffect
@@ -113,7 +113,7 @@ weapons: [
           {
         type: BasicBulletType
         sprite: missile
-        angleOffset: 60
+        angleOffset: 40
         backColor: ff7700
         frontColor: ffffff
         width: 5
@@ -121,7 +121,7 @@ weapons: [
         damage: 15
         speed: 3
         lifetime: 60
-        followAimSpeed: 2.25
+        followAimSpeed: 1
         hitEffect: none
         despawnEffect: {
           type: WaveEffect
