@@ -1,5 +1,6 @@
 type: tank
 name: Prism
+health: 600
 description: Shoots a bolt of energy whch splits into 7 homming bullets. Can boost and build.
 buildSpeed: 0.6
 canBoost: true
@@ -37,6 +38,8 @@ weapons: [
   sprite: missile
   backColor: ffffff
   frontColor: ffffff
+  maxRange: 180
+  rangeOverride: 180
   width: 5
   height: 8
   damage: 0
