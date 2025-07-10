@@ -12,6 +12,7 @@ legContinuousMove: false
 legExtension: -1
 legForwardScl: 1
 lockLegBase: true
+legSpeed: 0.5
 weapons: [
 {
 x: 0
