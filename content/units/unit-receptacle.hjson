@@ -10,7 +10,8 @@ health: 450
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -1
-legForwardScl: 2
+legForwardScl: 1
+lockLegBase: true
 weapons: [
 {
 x: 0
