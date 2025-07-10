@@ -349,11 +349,6 @@ weapons: [
     }
   }
 ]
-engines: [
-  {
-  x: 0
-  y: -15
-  size: 2.5
-  }
-  ]
+engineSize: 2
+engineOffset: 3
 outlineColor: 323232
