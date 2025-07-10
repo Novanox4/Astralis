@@ -74,7 +74,7 @@ weapons: [
         {
         type: BasicBulletType
         sprite: missile
-        angleOffset: -60
+        angleOffset: 60
         backColor: ff0000
         frontColor: ffffff
         width: 5
@@ -104,6 +104,45 @@ weapons: [
           radius: 25
           radiusTo: 0
           color1: ff0000
+          rotation: 45
+          stroke: 3
+          followRotation: true
+              }
+            ]
+          }
+          {
+        type: BasicBulletType
+        sprite: missile
+        angleOffset: 60
+        backColor: ff7700
+        frontColor: ffffff
+        width: 5
+        height: 8
+        damage: 15
+        speed: 3
+        lifetime: 60
+        followAimSpeed: 2.25
+        hitEffect: none
+        despawnEffect: {
+          type: WaveEffect
+          colorTo: ff7700ff
+          sizeTo: 30
+          strokeFrom: 1
+          }
+        trailLength: 20
+        trailColor: ff7700
+        trailWidth: 2
+        splashDamage: 5
+        splashDamageRadius: 12
+        healPercent: 1
+        collidesTeam: true
+        parts: [
+          {
+          type: FlarePart
+          progress: life
+          radius: 25
+          radiusTo: 0
+          color1: ff7700
           rotation: 45
           stroke: 3
           followRotation: true
