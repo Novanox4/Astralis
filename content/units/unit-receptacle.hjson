@@ -4,7 +4,7 @@ legGroupSize: 2
 legLength: 8.5
 legBaseOffset: 0
 name: Receptacle
-description: Spider mech that uses two continuous laser cannons to attack. Heals nearby allies.
+description: Spider mech that uses s continuous laser to attack. Heals nearby allies.
 flying: false
 health: 450
 baseLegStraightness: 0
@@ -13,25 +13,21 @@ legExtension: -2
 legForwardScl: 1
 weapons: [
 {
-name: unit-receptacle-weapon
-recoil: 0
 x: 0
 y: 0
-shootX: -2.85
+shootY: 4
 continuous: true
 alwaysContinuous: true
 shootSound: torch
 alternate: false
-top: false
-rotate: true
-rotationLimit: 12.5
 bullet: {
   type: ContinuousFlameBulletType
   width: 1.5
+  length: 110
   flareLength: 10
   flareColor: 7cd656
   colors: [12963c8c, 2abd2bb2, 7cd656cc, ffffff8c, ffffffff]
-  damage: 1.225
+  damage: 2
   hitEffect: none
   hitEffect: {
       type: RadialEffect
