@@ -6,7 +6,7 @@ buildSpeed: 1.35
 hitSize: 10
 mineWalls: true
 mineFloor: true
-mineSpeed: 4.45
+mineSpeed: 7.25
 mineTier: 3
 controller: BuilderAI
 buildBeamOffset: 10
