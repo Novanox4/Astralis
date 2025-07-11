@@ -30,6 +30,24 @@ requirements: [
       ]
     time: 1875
     }
+    {
+unit: unit-spectrum
+requirements: [
+    item-crystalite/25
+    item-uranium/30
+    metaglass/15
+      ]
+    time: 750
+    }
+    {
+unit: unit-spectrum
+requirements: [
+    item-crystalite/50
+    item-uranium/40
+    item-silver/25
+      ]
+    time: 750
+    }
   ]
 research: {
   parent: assault-unit-forge
