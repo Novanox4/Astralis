@@ -117,14 +117,16 @@ contentOrder: [
 
     //units
 
+    unit-shards,
     unit-chunks,
-    unit-sear,
     unit-capture,
     unit-chieftain,
     unit-lord,
     unit-receptacle,
     unit-pollen,
     unit-stem,
+    unit-spectrum,
+    unit-hue,
     unit-flu,
     unit-malady,
     unit-outbreak,
@@ -139,6 +141,7 @@ contentOrder: [
 
     status-voidgnaw,
     status-scrambled,
+    status-boosting,
 
     //sectors
 
