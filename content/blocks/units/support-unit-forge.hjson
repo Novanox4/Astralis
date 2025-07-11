@@ -40,7 +40,7 @@ requirements: [
     time: 750
     }
     {
-unit: unit-spectrum
+unit: unit-hue
 requirements: [
     item-crystalite/50
     item-uranium/40
