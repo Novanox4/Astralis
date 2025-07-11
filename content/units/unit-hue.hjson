@@ -355,4 +355,4 @@ weapons: [
 engineSize: 2
 engineOffset: 7.25
 outlineColor: 323232
-research: support-unit-forge
+research: unit-spectrum
