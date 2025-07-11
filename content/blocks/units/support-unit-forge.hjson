@@ -46,7 +46,7 @@ requirements: [
     item-uranium/40
     item-silver/25
       ]
-    time: 750
+    time: 1000
     }
   ]
 research: {
