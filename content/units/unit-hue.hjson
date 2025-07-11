@@ -1,7 +1,7 @@
 type: tank
 name: Prism
 health: 600
-description: Shoots a bolt of energy whch splits into 7 homming bullets. Can boost and build.
+description: Shoots a bolt of energy whch splits into 7 homing bullets. Can boost and build.
 buildSpeed: 0.6
 canBoost: true
 omniMovement: false
@@ -355,3 +355,4 @@ weapons: [
 engineSize: 2
 engineOffset: 7.25
 outlineColor: 323232
+research: support-unit-forge
