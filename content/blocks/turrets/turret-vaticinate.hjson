@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Vaticinate
-description: Powerful railcannon that propels forwards metallic payloads at high speeds.
+description: Powerful railcannon that propels forwards metallic payloads at high speeds. Deals very high damage to shields.
 category: turret
 range: 650
 size: 3
@@ -66,7 +66,7 @@ ammoTypes: {
     backColor: 2c4035
     speed: 9.25
     trailColor: 2c4035
-    shieldDamageMultiplier: 11
+    shieldDamageMultiplier: 9999999
     trailLength: 37.5
     trailWidth: 4
     lifetime: 70
@@ -77,10 +77,11 @@ ammoTypes: {
     intervalRandomSpread: 2
     intervalAngle: 180
     intervalBullet: {
-      type: EmptyBulletType
+      type: BulletType
       display: false
       collides: false
       instantDisappear: true
+      damage: 0
       despawnEffect: {
         type: ParticleEffect
         rotWithParent: true
