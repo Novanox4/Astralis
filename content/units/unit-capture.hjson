@@ -43,3 +43,4 @@ researchCost: [
   metaglass/250
   item-uranium/350
   ]
+researchCostMultiplier: 5
