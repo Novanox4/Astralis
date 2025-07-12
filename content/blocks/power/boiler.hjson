@@ -52,3 +52,4 @@ category: power
 generateEffect: vaporSmall
 ambientSound: smelter
 ambientSoundVolume: 0.9
+researchCostMultiplier: 0.3
