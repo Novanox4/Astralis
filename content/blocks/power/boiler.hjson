@@ -46,6 +46,8 @@ research: {
     type: OnSector
     preset: mineshaft
     }
+  ]
+}
 category: power
 generateEffect: vaporSmall
 ambientSound: smelter
