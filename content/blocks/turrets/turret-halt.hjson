@@ -106,3 +106,4 @@ shootType: {
     impact: true
     }
   }
+researchCostMultiplier: 0.5
