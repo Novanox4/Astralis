@@ -5,10 +5,10 @@ itemCapacity: 6000
 size: 3
 category: effect
 unitType: unit-shards
-unitCapModifier: 15
+unitCapModifier: 10
 requirements: [
-  item-crystalite/1500
-  item-uranium/1200
+  item-crystalite/1200
+  item-uranium/1000
   ]
 research: {
   root: true
