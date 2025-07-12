@@ -15,7 +15,7 @@ consumes: {
   }
 requirements: [
   item-uranium/300
-  item-crystalite/200
+  item-crystalite/175
   item-cerium/100
   metaglass/150
   item-silver/275
