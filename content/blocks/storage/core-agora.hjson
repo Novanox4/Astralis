@@ -17,7 +17,6 @@ research: {
   objectives: [
     turret-reverberate,
     unit-chieftain,
-    nuclear-decay-reactor,
       {
       type: SectorComplete
       preset: mineshaft
