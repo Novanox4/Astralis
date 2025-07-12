@@ -8,7 +8,7 @@ consumes: {
     }
 research: crystal-node
 requirements: [
-  item-crystalite/45
+  item-crystalite/25
   ]
 category: power
 name: Crystal Battery
