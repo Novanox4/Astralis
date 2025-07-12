@@ -5,7 +5,7 @@ itemCapacity: 8750
 size: 4
 category: effect
 unitType: unit-chunks
-unitCapModifier: 25
+unitCapModifier: 15
 requirements: [
   item-crystalite/4500
   item-uranium/4000
