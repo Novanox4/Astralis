@@ -8,7 +8,7 @@ consumes: {
 name: Char Burner
 description: Uses char and small amounts of power to produce heat
 requirements: [
-  item-crystalite/45
+  item-crystalite/40
   item-silver/30
   ]
 category: crafting
