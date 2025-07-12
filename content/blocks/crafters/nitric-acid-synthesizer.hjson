@@ -57,3 +57,4 @@ drawer: {
 }
 ambientSound: none
 liquidCapacity: 450
+research: electrostatic-separator
