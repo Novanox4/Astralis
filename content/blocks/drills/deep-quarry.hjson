@@ -43,8 +43,8 @@ research: {
   objectives: [
     char-burner,
     {
-    type: SectorComplete
-    preset: mineshaft
+    type: OnSector
+    preset: remnants
     }
   ]
 }
