@@ -114,3 +114,10 @@ requirements: [
 ]
 range: 350
 researchCostMultiplier: 0.15
+research: {
+  parent: turret-augur
+  objectives: [
+    item-neodymium,
+    turret-reverberate,
+    ]
+  }
