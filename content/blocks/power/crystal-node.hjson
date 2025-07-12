@@ -2,7 +2,7 @@ type: PowerNode
 category: power
 size: 1
 requirements: [
-  item-crystalite/5
+  item-crystalite/3
   ]
 researchCost: [
   item-crystalite/10
