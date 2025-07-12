@@ -1,0 +1,24 @@
+localizedName: "Remnants"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+
+An old [accent]monazite[] mining operation existed here. While monazite itself is [accent]useless in buildings, it is a key ingredient to producing new materials[].
+
+This area is heavily guarded, but it may take a while before detection. The enemies will attack in few but dense groups. Expect tier 3 units.
+  
+Make neodymium and cerium, upgrade infrastructure and survive the waves."
+sector: 190
+planet: astralis
+difficulty: 4
+research: {
+  parent: mineshaft
+  objectives: [
+    support-unit-forge,
+    turret-malheur,
+    turret-reverberate,
+    {
+      type: SectorComplete
+      preset: mineshaft
+    }
+  ]
+}
