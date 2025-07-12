@@ -1,7 +1,7 @@
 type: OverflowDuct
 health: 100
 requirements: [
-  item-crystalite/5
+  item-crystalite/3
   ]
 speed: 2.5
 name: Crystal Overflow Gate
