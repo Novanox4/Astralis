@@ -102,16 +102,9 @@ ammoTypes: {
     }
   }
 research: {
-  parent: turret-reverberate
+  parent: turret-malheur
   objectives: [
-    turret-malheur,
     electrostatic-separator,
-    nuclear-decay-reactor,
-    core-agora,
-    {
-    type: SectorComplete
-    preset: mineshaft
-    }
   ]
 }
 researchCostMultiplier: 0.15
