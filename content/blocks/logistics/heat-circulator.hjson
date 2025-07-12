@@ -16,7 +16,7 @@ drawer: {
   ]
 }
 requirements: [
-  item-crystalite/15
+  item-crystalite/10
   metaglass/5
   item-silver/10
   ]
