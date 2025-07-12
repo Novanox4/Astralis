@@ -15,8 +15,11 @@ itemCapacity: 75
 engineSize: 0
 groundLayer: 60
 research: {
-  parent: core-agora
+  parent: unit-shards
   requiresUnlock: false
+  objectives: [
+    core-agora,
+    ]
     }
 engines: [
 {
