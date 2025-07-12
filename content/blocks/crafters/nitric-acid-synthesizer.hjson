@@ -16,13 +16,13 @@ outputLiquid: liquid-nitric-acid/0.8
 craftTime: 60
 updateEffect: none
 requirements: [
-  item-crystalite/100
-  metaglass/125
-  item-uranium/145
+  item-crystalite/50
+  metaglass/100
+  item-uranium/100
   item-silver/65
-  item-cerium/75
+  item-cerium/45
   ]
-researchCostMultiplier: 0.45
+researchCostMultiplier: 0.2
 research: crystal-kiln
 category: crafting
 squareSprite: false
