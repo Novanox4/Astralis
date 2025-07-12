@@ -24,3 +24,4 @@ research: {
     ]
   }
 name: "Core: Agora"
+researchCostMultiplier: 0.075
