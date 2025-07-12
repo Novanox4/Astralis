@@ -114,11 +114,4 @@ research: {
     }
   ]
 }
-researchCost: [
-  item-crystalite/1225
-  item-uranium/1050
-  item-silver/975
-  metaglass/675
-  item-cerium/175
-  item-neodymium/175
-]
+researchCostMultiplier: 0.15
