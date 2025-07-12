@@ -39,7 +39,13 @@ drawer: {
     }
   ]
 }
-research: heat-generator
+research: {
+  parent: heat-generator
+  objectives: [
+    {
+    type: OnSector
+    preset: mineshaft
+    }
 category: power
 generateEffect: vaporSmall
 ambientSound: smelter
