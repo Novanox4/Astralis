@@ -103,4 +103,13 @@ requirements: [
   item-uranium/35
 ]
 range: 225
-research: turret-slice
+research: {
+  parent: turret-slice
+  objectives: [
+    { 
+    type: OnSector
+    preset: Mineshaft
+    }
+  ]
+}
+researchCostMultiplier: 0.2
