@@ -3,7 +3,7 @@ health: 100
 squareSprite: false
 range: 4
 requirements: [
-  item-crystalite/10
+  item-crystalite/3
   ]
   research: crystal-duct
 speed: 2.5
