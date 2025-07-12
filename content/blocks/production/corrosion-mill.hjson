@@ -24,9 +24,15 @@ ambientSoundVolume: 0.725
 researchCost: [
   item-crystalite/275
   item-uranium/600
-  item-cerium/200
+  item-cerium/125
   metaglass/400
   item-silver/400
 ]
 rotateSpeed: 25
 itemCapacity: 120
+research: {
+  parent: char-crusher
+  objectives: [
+    nitric-acid-synthesizer,
+    ]
+  }
