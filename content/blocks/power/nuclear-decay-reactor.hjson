@@ -14,14 +14,14 @@ consumes: {
     ]
   }
 requirements: [
-  item-uranium/325
-  item-crystalite/400
-  item-cerium/175
-  metaglass/250
+  item-uranium/300
+  item-crystalite/200
+  item-cerium/100
+  metaglass/150
   item-silver/275
-  item-neodymium/125
+  item-neodymium/75
     ]
-researchCostMultiplier: 0.75
+researchCostMultiplier: 0.1
 drawer: {
   type: DrawMulti
   drawers: [
