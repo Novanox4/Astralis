@@ -69,3 +69,9 @@ category: power
 heating: 0.000625
 liquidCapacity: 150
 researchCostMultiplier: 0.1
+research: {
+  parent: boiler
+  objectives: [
+    electrostatic-separator,
+    ]
+  }
