@@ -11,9 +11,9 @@ maxEfficiency: 2.5
 craftTime: 60
 updateEffect: none
 requirements: [
-  item-crystalite/120
-  metaglass/75
-  item-uranium/100
+  item-crystalite/80
+  metaglass/35
+  item-uranium/70
   ]
 researchCostMultiplier: 0.95
 research: crystal-kiln
