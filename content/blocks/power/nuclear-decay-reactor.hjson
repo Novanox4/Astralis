@@ -68,3 +68,4 @@ size: 3
 category: power
 heating: 0.000625
 liquidCapacity: 150
+researchCostMultiplier: 0.1
