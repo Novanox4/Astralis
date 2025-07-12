@@ -6,7 +6,7 @@ health: 100
 category: distribution
 research: crystal-duct
 requirements: [
-  item-crystalite/3
+  item-crystalite/2
   ]
 researchCost: [
     item-crystalite/10
