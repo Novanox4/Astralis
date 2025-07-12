@@ -108,7 +108,7 @@ research: {
   objectives: [
     { 
     type: OnSector
-    preset: Mineshaft
+    preset: mineshaft
     }
   ]
 }
