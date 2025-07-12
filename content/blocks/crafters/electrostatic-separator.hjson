@@ -65,3 +65,10 @@ size: 3
 ambientSound: glow
 ambientSoundVolume: 0.95
 liquidCapacity: 75
+research: {
+  parent: cryogenic-distiller
+  objectives: [
+    deep-quarry,
+    ]
+  }
+researchCostMultiplier: 0.35
