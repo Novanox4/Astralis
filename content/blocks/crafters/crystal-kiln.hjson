@@ -41,8 +41,8 @@ research: {
   ]
 }
 requirements: [
-  item-crystalite/65
-  item-uranium/45
+  item-crystalite/45
+  item-uranium/50
   ]
   researchCostMultiplier: 0.80
 maxBoost: 2
