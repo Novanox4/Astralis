@@ -10,7 +10,7 @@ requirements: [
     item-silver/20
     metaglass/45
   ]
-powerProduction: 4.10
+powerProduction: 5.2
 size: 2
 drawer: {
   type: DrawMulti
