@@ -107,3 +107,9 @@ shootType: {
     }
   }
 researchCostMultiplier: 0.5
+research: {
+  parent: turret-malheur
+  objectives: [
+    item-neodymium,
+    ]
+  }
