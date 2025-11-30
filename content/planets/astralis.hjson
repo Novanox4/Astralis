@@ -36,12 +36,12 @@ mesh: [
   color: 5e5a5a
   seed: 0
   planet: astralis
-  radius: 0
+  radius: 0.78
   octaves: 4.25
-  persistence: 1
+  persistence: 0.8
   divisions: 4
   scale: 1
-  mag: 1.1
+  mag: 1.05
   }
 ]
 generator: {
