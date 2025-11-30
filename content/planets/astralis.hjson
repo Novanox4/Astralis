@@ -25,7 +25,7 @@ hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: true
+prebuildBase: false
 defaultCore: core-shard
 parent: sun
 solarSystem: sun
