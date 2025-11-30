@@ -11,8 +11,8 @@ orbitSpacing: 1
 radius: 1.95
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 3
-atmosphereRadOut: 2
+atmosphereRadIn: 5
+atmosphereRadOut: 4
 accessible: true
 updateLighting: true
 sectorSeed: 69420
