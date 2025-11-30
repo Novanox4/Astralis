@@ -16,7 +16,7 @@ atmosphereRadOut: 0.35
 accessible: true
 updateLighting: true
 sectorSeed: 69420
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 94e3f1
 iconColor: 94e3f1
