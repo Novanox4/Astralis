@@ -38,7 +38,7 @@ mesh: [
   octaves: 5
   persistence: 1
   divisions: 4
-  scale: 1
+  scale: 0.5
   mag: 1
   }
 ]
