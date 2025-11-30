@@ -12,7 +12,7 @@ radius: 1.95
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 8
-atmosphereRadOut: 4
+atmosphereRadOut: 7
 clipSize: 1000
 accessible: true
 updateLighting: true
@@ -36,7 +36,7 @@ mesh: [
   color: 5e5a5a
   seed: 0
   planet: astralis
-  radius: 0.7125
+  radius: 1.25
   octaves: 4.25
   persistence: 1
   divisions: 4
@@ -67,7 +67,7 @@ cloudMesh: [
    speed: 2.45
    radius: 0.1
    divisions: 6
-   color: 5e5e5a7e
+   color: 94e3f17e
    octaves: 3
    persistence: 0.3
    scl: 1
