@@ -1,6 +1,6 @@
 localizedName: Astralis
 description: Varied environment, powerful enemy presence. Proceed with caution.
-orbitRadius: 120
+orbitRadius: 50
 sectorSize: 1.75
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
