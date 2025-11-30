@@ -31,14 +31,13 @@ solarSystem: sun
 mesh: [
   {
   type: NoiseMesh
-  color1: 858282
-  color2: 5e5a5a
+  color: 5e5a5a
   seed: 0
   planet: astralis
   radius: 2.25
-  octaves: 1
+  octaves: 5
   persistence: 1
-  divisions: 5
+  divisions: 4
   scale: 1
   mag: 1
   }
