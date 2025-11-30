@@ -11,12 +11,12 @@ orbitSpacing: 1
 radius: 1.7525
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.2
+atmosphereRadIn: 1
+atmosphereRadOut: 0.35
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 69420
-bloom: true
+bloom: false
 visible: true
 atmosphereColor: 94e3f1
 iconColor: 94e3f1
