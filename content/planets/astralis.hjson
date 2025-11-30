@@ -11,8 +11,8 @@ orbitSpacing: 1
 radius: 1.95
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 2
-atmosphereRadOut: 1
+atmosphereRadIn: 3
+atmosphereRadOut: 2
 accessible: true
 updateLighting: true
 sectorSeed: 69420
@@ -28,6 +28,7 @@ prebuildBase: true
 defaultCore: core-shard
 parent: sun
 solarSystem: sun
+tidalLock: true
 mesh: [
   {
   type: NoiseMesh
