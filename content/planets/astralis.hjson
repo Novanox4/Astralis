@@ -1,0 +1,45 @@
+localizedName: Astralis
+description: Varied environment, powerful enemy presence. Proceed with caution.
+orbitRadius: 180
+sectorSize: 1.75
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 7
+orbitSpacing: 1
+radius: 2.25
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0.2
+atmosphereRadOut: 0.2
+accessible: true
+updateLighting: false
+sectorSeed: 69420
+bloom: true
+visible: true
+atmosphereColor: 94e3f1
+iconColor: 94e3f1
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+mesh: [
+  {
+  type: NoiseMesh
+  color1: 858282
+  color2: 5e5e5a
+  seed: 0
+  planet: astralis
+  radius: 2.25
+  octaves: 1
+  persistence: 1
+  divisions: 1
+  scale: 1
+  mag: 1
+  }
+]
