@@ -8,11 +8,11 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 7
 orbitSpacing: 1
-radius: 1.95
+radius: 1.22
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 8
-atmosphereRadOut: 7
+atmosphereRadIn: 13
+atmosphereRadOut: 12
 clipSize: 1000
 accessible: true
 updateLighting: true
@@ -36,7 +36,7 @@ mesh: [
   color: 5e5a5a
   seed: 0
   planet: astralis
-  radius: 1.25
+  radius: 1.1
   octaves: 4.25
   persistence: 1
   divisions: 4
