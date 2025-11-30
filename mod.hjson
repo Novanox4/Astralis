@@ -1,0 +1,8 @@
+name: "astralis"
+displayName: Astralis
+description: Work in progress hjson campaign mod.
+subtitle: "The stars... gorgeous, aren't they?"
+author: "NV-NX, Haznobrain"
+version: 0.0.1
+repo: "Novanox4/Astralis"
+minGameVersion: 153
