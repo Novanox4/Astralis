@@ -32,7 +32,7 @@ mesh: [
   color: 5e5a5a
   seed: 2781
   planet: ring
-  radius: 0.03
+  radius: 0.06
   octaves: 0.4
   persistence: 3.5
   divisions: 1
