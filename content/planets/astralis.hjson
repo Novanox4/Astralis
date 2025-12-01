@@ -63,7 +63,7 @@ mesh: [
   planet: astralis
   radius: 0.951
   octaves: 3
-  persistence: 2
+  persistence: 0.3
   divisions: 5
   scale: 2
   mag: 1.05
