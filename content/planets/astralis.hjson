@@ -75,10 +75,10 @@ mesh: [
   planet: astralis
   radius: 0.895
   octaves: 1
-  persistence: 8
+  persistence: 9
   divisions: 4
-  scale: 2
-  mag: 1.1
+  scale: 2.275
+  mag: 1.2
   }
 ]
 generator: {
