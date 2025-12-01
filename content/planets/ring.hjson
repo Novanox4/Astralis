@@ -39,6 +39,18 @@ mesh: [
   scale: 1
   mag: 1.5
   }  
+  {
+  type: NoiseMesh
+  color: 5e5a5a
+  seed: 456
+  planet: ring
+  radius: 0.033
+  octaves: 1
+  persistence: 12
+  divisions: 1
+  scale: 1.6
+  mag: 8
+  }  
 ]
 generator: {
   octaves: 3
