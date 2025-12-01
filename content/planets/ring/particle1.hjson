@@ -7,10 +7,9 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 orbitSpacing: 4
-radius: 0.05
+radius: 0.03
 minZoom: 1
 drawOrbit: false
-clipSize: 8500
 accessible: false
 updateLighting: true
 sectorSeed: 69420
@@ -27,14 +26,14 @@ parent: astralis
 solarSystem: sun
 minZoom: 1.4
 maxZoom: 3
-orbitTime: 500
+orbitTime: 0.0002
 mesh: [
   {
   type: NoiseMesh
   color: 5e5a5a
   seed: 456
   planet: particle1
-  radius: 0.033
+  radius: 0.022
   octaves: 1
   persistence: 12
   divisions: 1
