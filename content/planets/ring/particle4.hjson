@@ -32,7 +32,7 @@ mesh: [
   {
   type: NoiseMesh
   color: 5e5a5a
-  seed: 45674
+  seed: 18827
   planet: particle4
   radius: 0.022
   octaves: 1
