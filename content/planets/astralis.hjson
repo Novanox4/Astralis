@@ -56,6 +56,18 @@ mesh: [
   scale: 1
   mag: 1
   }
+  {
+  type: NoiseMesh
+  color: 47548f
+  seed: 0
+  planet: astralis
+  radius: 0.951
+  octaves: 3
+  persistence: 2
+  divisions: 5
+  scale: 2
+  mag: 1.05
+  }
 ]
 generator: {
   octaves: 3
