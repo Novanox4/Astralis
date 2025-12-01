@@ -33,7 +33,7 @@ mesh: [
   type: NoiseMesh
   color: 5e5a5a
   seed: 38274
-  planet: particle5
+  planet: particle6
   radius: 0.0285
   octaves: 1
   persistence: 12
