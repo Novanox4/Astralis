@@ -1,6 +1,6 @@
 localizedName: Astralis
 description: Varied environment, powerful enemy presence. Proceed with caution.
-orbitRadius: 135
+orbitRadius: 130
 sectorSize: 2.6
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
@@ -8,7 +8,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 7
 orbitSpacing: 1
-radius: 0.95
+radius: 0.99
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0.02
@@ -30,6 +30,7 @@ defaultCore: core-shard
 parent: sun
 solarSystem: sun
 tidalLock: true
+orbitTime: 60
 mesh: [
   {
   type: NoiseMesh
@@ -65,7 +66,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: astralis
    speed: 2.45
-   radius: 0.1
+   radius: 0.11
    divisions: 6
    color: 94e3f17e
    octaves: 3
