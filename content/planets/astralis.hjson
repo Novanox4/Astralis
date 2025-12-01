@@ -73,11 +73,11 @@ mesh: [
   color: 99180f
   seed: 35
   planet: astralis
-  radius: 0.94
+  radius: 0.933
   octaves: 1.2
   persistence: 0.6
   divisions: 4
-  scale: 0.7
+  scale: 0.3
   mag: 1.1
   }
 ]
