@@ -29,7 +29,7 @@ mesh: [
   type: NoiseMesh
   color: 5e5a5a
   seed: 0
-  planet: astralis-rings
+  planet: ring
   radius: 0.2
   octaves: 4.25
   persistence: 0.8
