@@ -50,11 +50,11 @@ mesh: [
   seed: 67
   planet: astralis
   radius: 0.96
-  octaves: 0.9
-  persistence: 7.25
-  divisions: 2
-  scale: 0.8
-  mag: 0.95
+  octaves: 1
+  persistence: 7
+  divisions: 1
+  scale: 1
+  mag: 1
   }
 ]
 generator: {
