@@ -103,7 +103,7 @@ cloudMesh: [
     type: HexSkyMesh
     planet: astralis
     speed: 120
-    radius: 0.1111
+    radius: 0.135
     divisions: 6
     color: c7cdc666
     octaves: 3
