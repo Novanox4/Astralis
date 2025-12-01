@@ -6,7 +6,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-orbitOffset: 115
+orbitOffset: 137.5
 radius: 0.03
 minZoom: 1
 drawOrbit: false
