@@ -1,7 +1,7 @@
 localizedName: Astralis
 description: Varied environment, powerful enemy presence. Proceed with caution.
 orbitRadius: 130
-sectorSize: 2.6
+sectorSize: 2.975
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -59,13 +59,25 @@ mesh: [
   {
   type: NoiseMesh
   color: 47548f
-  seed: 45
+  seed: 22
   planet: astralis
-  radius: 0.951
+  radius: 0.949
   octaves: 3
   persistence: 0.3
   divisions: 5
   scale: 0.6
+  mag: 1.05
+  }
+  {
+  type: NoiseMesh
+  color: 99180f
+  seed: 35
+  planet: astralis
+  radius: 0.9515
+  octaves: 2.25
+  persistence: 0.4
+  divisions: 4
+  scale: 0.8
   mag: 1.05
   }
 ]
