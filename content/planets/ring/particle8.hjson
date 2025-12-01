@@ -6,7 +6,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-orbitOffset: 305
+orbitOffset: 100
 radius: 0.03
 minZoom: 1
 drawOrbit: false
@@ -34,7 +34,7 @@ mesh: [
   color: ffffff
   seed: 3783478
   planet: particle8
-  radius: 0.025
+  radius: 0.023
   octaves: 1
   persistence: 12
   divisions: 1
