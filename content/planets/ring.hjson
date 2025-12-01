@@ -32,11 +32,11 @@ mesh: [
   color: 5e5a5a
   seed: 2781
   planet: ring
-  radius: 0.06
-  octaves: 0.4
+  radius: 0.03
+  octaves: 1
   persistence: 3.5
   divisions: 1
-  scale: 0.2
+  scale: 1
   mag: 1.5
   }  
 ]
