@@ -13,7 +13,7 @@ minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.4
-clipSize: 1000
+clipSize: 8500
 accessible: true
 updateLighting: true
 sectorSeed: 69420
