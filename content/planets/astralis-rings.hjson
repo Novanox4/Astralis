@@ -1,0 +1,45 @@
+localizedName: Astralis Rings
+description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!! HEAVY WORK IN PROGRESS
+orbitRadius: 0
+sectorSize: 2.6
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 7
+orbitSpacing: 1
+radius: 0.99
+minZoom: 1
+drawOrbit: true
+clipSize: 8500
+accessible: false
+updateLighting: true
+sectorSeed: 69420
+bloom: true
+visible: true
+iconColor: 94e3f1
+hasAtmosphere: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: astralis
+solarSystem: sun
+tidalLock: false
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+alwaysUnlocked: true
