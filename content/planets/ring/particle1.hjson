@@ -1,7 +1,7 @@
 localizedName: particle1
 //rip mobile
 description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!!
-orbitRadius: 5.5
+orbitRadius: 2.35
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -27,7 +27,7 @@ parent: astralis
 solarSystem: sun
 minZoom: 1.4
 maxZoom: 3
-orbitTime: 0.05
+orbitTime: 500
 mesh: [
   {
   type: NoiseMesh
