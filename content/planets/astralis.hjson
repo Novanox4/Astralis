@@ -36,7 +36,7 @@ mesh: [
   color: 5e5a5a
   seed: 0
   planet: astralis
-  radius: 1.14
+  radius: 1.1
   octaves: 4.25
   persistence: 0.8
   divisions: 4
