@@ -1,16 +1,14 @@
 localizedName: Astralis Rings
 description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!! HEAVY WORK IN PROGRESS
-orbitRadius: 0
-sectorSize: 2.6
+orbitRadius: 8
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-startSector: 7
 orbitSpacing: 1
 radius: 0.99
 minZoom: 1
-drawOrbit: true
+drawOrbit: false
 clipSize: 8500
 accessible: false
 updateLighting: true
@@ -27,6 +25,20 @@ defaultCore: core-shard
 parent: astralis
 solarSystem: sun
 tidalLock: false
+mesh: [
+  {
+  type: NoiseMesh
+  color: 5e5a5a
+  seed: 0
+  planet: astralis-rings
+  radius: 0.95
+  octaves: 4.25
+  persistence: 0.8
+  divisions: 4
+  scale: 1
+  mag: 1.05
+  }  
+]
 generator: {
   octaves: 3
   persistence: 0.52
