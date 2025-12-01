@@ -99,4 +99,17 @@ cloudMesh: [
     thresh: 0.2
     seed: 69
   }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: 120
+    radius: 0.1111
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.6
+    scl: 0.81
+    thresh: 0.16725
+    seed: 420
+  }
 ]
