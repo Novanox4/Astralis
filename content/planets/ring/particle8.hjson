@@ -31,7 +31,7 @@ rotateTime: 4
 mesh: [
   {
   type: NoiseMesh
-  color: ffffff
+  color: 5e5a5a
   seed: 3783478
   planet: particle8
   radius: 0.023
