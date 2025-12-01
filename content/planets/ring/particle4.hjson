@@ -1,0 +1,60 @@
+localizedName: particle2
+//rip mobile
+description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!!
+orbitRadius: 1.67
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+orbitOffset: 72
+radius: 0.03
+minZoom: 1
+drawOrbit: false
+accessible: false
+updateLighting: true
+sectorSeed: 69420
+bloom: true
+visible: true
+iconColor: 94e3f1
+hasAtmosphere: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: astralis
+solarSystem: sun
+minZoom: 1.4
+maxZoom: 3
+orbitTime: 0.2
+rotateTime: 24
+mesh: [
+  {
+  type: NoiseMesh
+  color: 5e5a5a
+  seed: 45674
+  planet: particle4
+  radius: 0.022
+  octaves: 1
+  persistence: 12
+  divisions: 1
+  scale: 1.6
+  mag: 8
+  }  
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+alwaysUnlocked: false
