@@ -46,7 +46,7 @@ mesh: [
   }
   {
   type: NoiseMesh
-  color: ffffff
+  color: 858282
   seed: 67
   planet: astralis
   radius: 0.96
