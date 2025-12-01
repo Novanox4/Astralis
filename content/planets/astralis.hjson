@@ -80,10 +80,10 @@ cloudMesh: [
    speed: 2.45
    radius: 0.11
    divisions: 6
-   color: 94e3f17e
+   color: c7cdc68c
    octaves: 3
    persistence: 0.3
-   scl: 1
-   thresh: 0.6
+   scl: 0.6
+   thresh: 0.78
   }
 ]
