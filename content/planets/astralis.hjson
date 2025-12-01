@@ -65,7 +65,7 @@ mesh: [
   octaves: 3
   persistence: 0.3
   divisions: 5
-  scale: 2
+  scale: 0.6
   mag: 1.05
   }
 ]
