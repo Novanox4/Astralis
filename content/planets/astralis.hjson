@@ -30,8 +30,20 @@ defaultCore: core-shard
 parent: sun
 solarSystem: sun
 tidalLock: true
-orbitTime: 60
+orbitTime: 20
 mesh: [
+  {
+  type: NoiseMesh
+  color: 5e5a5a
+  seed: 0
+  planet: astralis
+  radius: 0.95
+  octaves: 4.25
+  persistence: 0.8
+  divisions: 4
+  scale: 1
+  mag: 1.05
+  }
   {
   type: NoiseMesh
   color: 5e5a5a
