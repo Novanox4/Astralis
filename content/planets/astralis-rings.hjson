@@ -6,7 +6,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 orbitSpacing: 1
-radius: 0.99
+radius: 0.2
 minZoom: 1
 drawOrbit: false
 clipSize: 8500
@@ -30,7 +30,7 @@ mesh: [
   color: 5e5a5a
   seed: 0
   planet: astralis-rings
-  radius: 0.95
+  radius: 0.2
   octaves: 4.25
   persistence: 0.8
   divisions: 4
