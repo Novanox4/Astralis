@@ -30,18 +30,6 @@ mesh: [
   {
   type: NoiseMesh
   color: 5e5a5a
-  seed: 2781
-  planet: ring
-  radius: 0.03
-  octaves: 1
-  persistence: 3.5
-  divisions: 1
-  scale: 1
-  mag: 1.5
-  }  
-  {
-  type: NoiseMesh
-  color: 5e5a5a
   seed: 456
   planet: ring
   radius: 0.033
