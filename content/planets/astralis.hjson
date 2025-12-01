@@ -78,7 +78,7 @@ mesh: [
   persistence: 9
   divisions: 4
   scale: 2.275
-  mag: 1.2
+  mag: 1.6
   }
 ]
 generator: {
