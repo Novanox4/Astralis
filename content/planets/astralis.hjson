@@ -46,14 +46,14 @@ mesh: [
   }
   {
   type: NoiseMesh
-  color: 858282
+  color: 5e5a5a
   seed: 67
   planet: astralis
   radius: 0.96
-  octaves: 1.1
+  octaves: 0.9
   persistence: 7.25
   divisions: 2
-  scale: 1
+  scale: 0.8
   mag: 0.95
   }
 ]
