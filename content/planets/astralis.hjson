@@ -30,7 +30,7 @@ defaultCore: core-shard
 parent: sun
 solarSystem: sun
 tidalLock: true
-orbitTime: 20
+orbitTime: 0.3
 mesh: [
   {
   type: NoiseMesh
