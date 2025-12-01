@@ -1,12 +1,13 @@
-localizedName: Astralis Rings
-description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!! HEAVY WORK IN PROGRESS
-orbitRadius: 8
+localizedName: particle1
+//rip mobile
+description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!!
+orbitRadius: 5.5
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-orbitSpacing: 1
-radius: 0.2
+orbitSpacing: 4
+radius: 0.05
 minZoom: 1
 drawOrbit: false
 clipSize: 8500
@@ -26,12 +27,13 @@ parent: astralis
 solarSystem: sun
 minZoom: 1.4
 maxZoom: 3
+orbitTime: 0.05
 mesh: [
   {
   type: NoiseMesh
   color: 5e5a5a
   seed: 456
-  planet: ring
+  planet: particle1
   radius: 0.033
   octaves: 1
   persistence: 12
@@ -55,4 +57,4 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-alwaysUnlocked: true
+alwaysUnlocked: false
