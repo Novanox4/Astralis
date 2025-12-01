@@ -34,7 +34,7 @@ mesh: [
   color: 5e5a5a
   seed: 18827
   planet: particle4
-  radius: 0.022
+  radius: 0.02
   octaves: 1
   persistence: 12
   divisions: 1
