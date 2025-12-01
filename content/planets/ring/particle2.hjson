@@ -1,7 +1,7 @@
 localizedName: particle2
 //rip mobile
 description: YOU ARE NOT SUPPOSED TO SEE THIS!!!!!!!!!!!!
-orbitRadius: 1.6
+orbitRadius: 1.82
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
