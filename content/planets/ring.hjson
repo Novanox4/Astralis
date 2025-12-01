@@ -24,18 +24,20 @@ prebuildBase: false
 defaultCore: core-shard
 parent: astralis
 solarSystem: sun
+minZoom: 1.4
+maxZoom: 3
 mesh: [
   {
   type: NoiseMesh
   color: 5e5a5a
-  seed: 0
+  seed: 2781
   planet: ring
-  radius: 0.095
-  octaves: 2
-  persistence: 2
-  divisions: 3
-  scale: 0.8
-  mag: 1.05
+  radius: 0.03
+  octaves: 0.4
+  persistence: 3.5
+  divisions: 1
+  scale: 0.2
+  mag: 1.5
   }  
 ]
 generator: {
