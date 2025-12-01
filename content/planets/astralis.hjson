@@ -74,16 +74,29 @@ generator: {
 }
 alwaysUnlocked: true
 cloudMesh: [
- {
-   type: HexSkyMesh
-   planet: astralis
-   speed: 2.45
-   radius: 0.1085
-   divisions: 6
-   color: c7cdc666
-   octaves: 3
-   persistence: 0.3
-   scl: 1
-   thresh: 0.3
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: 2.45
+    radius: 0.1085
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.3
+  }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: 6
+    radius: 0.1075
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.3
+    scl: 0.9
+    thresh: 0.2
+    seed: 69
   }
 ]
