@@ -121,7 +121,7 @@ cloudMesh: [
     color: c7cdc640
     octaves: 3
     persistence: 0.6
-    scl: 0.005
+    scl: 0.00005
     thresh: 0.4
     seed: 67
   }
