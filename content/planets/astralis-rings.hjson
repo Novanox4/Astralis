@@ -23,8 +23,7 @@ allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
 parent: astralis
-solarSystem: astralis
-tidalLock: false
+solarSystem: sun
 mesh: [
   {
   type: NoiseMesh
