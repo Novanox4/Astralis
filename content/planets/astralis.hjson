@@ -98,6 +98,7 @@ generator: {
 }
 alwaysUnlocked: true
 cloudMesh: [
+  //clockwise
   {
     type: HexSkyMesh
     planet: astralis
@@ -108,7 +109,7 @@ cloudMesh: [
     octaves: 3
     persistence: 0.3
     scl: 1
-    thresh: 0.3
+    thresh: 0.15
   }
   {
     type: HexSkyMesh
@@ -120,7 +121,7 @@ cloudMesh: [
     octaves: 3
     persistence: 0.3
     scl: 0.9
-    thresh: 0.2
+    thresh: 0.1
     seed: 69
   }
   {
@@ -133,7 +134,7 @@ cloudMesh: [
     octaves: 3
     persistence: 0.6
     scl: 0.81
-    thresh: 0.26725
+    thresh: 0.06725
     seed: 420
   }
   {
@@ -146,7 +147,7 @@ cloudMesh: [
     octaves: 3
     persistence: 0.6
     scl: 0.0005
-    thresh: 0.25
+    thresh: 0.125
     seed: 67
   }
   {
@@ -161,5 +162,71 @@ cloudMesh: [
     scl: 1
     thresh: 0.4
     seed: 834
+  }
+  //counter clockwise
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: -2.45
+    radius: 0.1085
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.15
+    seed: 3746
+  }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: -6
+    radius: 0.1075
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.3
+    scl: 0.9
+    thresh: 0.1
+    seed: 8346
+  }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: -20
+    radius: 0.135
+    divisions: 6
+    color: c7cdc666
+    octaves: 3
+    persistence: 0.6
+    scl: 0.81
+    thresh: 0.06725
+    seed: 15263
+  }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: -55
+    radius: 0.15
+    divisions: 6
+    color: c7cdc633
+    octaves: 3
+    persistence: 0.6
+    scl: 0.0005
+    thresh: 0.125
+    seed: 80085
+  }
+  {
+    type: HexSkyMesh
+    planet: astralis
+    speed: -1
+    radius: 0.09
+    divisions: 6
+    color: c7cdc640
+    octaves: 3
+    persistence: 0.6
+    scl: 1
+    thresh: 0.4
+    seed: 456
   }
 ]
