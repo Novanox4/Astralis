@@ -126,27 +126,27 @@ cloudMesh: [
   {
     type: HexSkyMesh
     planet: astralis
-    speed: 120
+    speed: 20
     radius: 0.135
     divisions: 6
     color: c7cdc666
     octaves: 3
     persistence: 0.6
     scl: 0.81
-    thresh: 0.16725
+    thresh: 0.26725
     seed: 420
   }
   {
     type: HexSkyMesh
     planet: astralis
-    speed: 175
+    speed: 55
     radius: 0.15
     divisions: 6
     color: c7cdc633
     octaves: 3
     persistence: 0.6
     scl: 0.0005
-    thresh: 0.225
+    thresh: 0.25
     seed: 67
   }
   {
