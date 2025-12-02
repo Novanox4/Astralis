@@ -61,9 +61,9 @@ mesh: [
   color: 5e5a5a
   seed: 4556
   planet: astralis
-  radius: 0.96
-  octaves: 1
-  persistence: 7
+  radius: 0.9
+  octaves: 0.5
+  persistence: 56
   divisions: 1
   scale: 1
   mag: 1
