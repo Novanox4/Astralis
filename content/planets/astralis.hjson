@@ -71,7 +71,31 @@ mesh: [
   {
   type: NoiseMesh
   color: 704131
-  seed: 35
+  seed: 42
+  planet: astralis
+  radius: 0.882
+  octaves: 1.25
+  persistence: 6.75
+  divisions: 4
+  scale: 2.25
+  mag: 1.25
+  }
+  {
+  type: NoiseMesh
+  color: 995733
+  seed: 63
+  planet: astralis
+  radius: 0.881
+  octaves: 1.25
+  persistence: 6.75
+  divisions: 4
+  scale: 2.25
+  mag: 1.25
+  }
+  {
+  type: NoiseMesh
+  color: c28d57
+  seed: 74
   planet: astralis
   radius: 0.8825
   octaves: 1.25
