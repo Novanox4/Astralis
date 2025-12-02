@@ -153,7 +153,7 @@ cloudMesh: [
     speed: 2.45
     radius: 0.12
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.3
     scl: 1
@@ -165,7 +165,7 @@ cloudMesh: [
     speed: 6
     radius: 0.1075
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.3
     scl: 0.9
@@ -178,7 +178,7 @@ cloudMesh: [
     speed: 20
     radius: 0.135
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.6
     scl: 0.81
@@ -204,7 +204,7 @@ cloudMesh: [
     speed: 1
     radius: 0.09
     divisions: 6
-    color: c7cdc640
+    color: c7cdc64d
     octaves: 3
     persistence: 0.6
     scl: 1
@@ -218,7 +218,7 @@ cloudMesh: [
     speed: -2.45
     radius: 0.121
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.3
     scl: 1
@@ -231,7 +231,7 @@ cloudMesh: [
     speed: -6
     radius: 0.1175
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.3
     scl: 0.9
@@ -244,7 +244,7 @@ cloudMesh: [
     speed: -20
     radius: 0.14
     divisions: 6
-    color: c7cdc666
+    color: c7cdc64d
     octaves: 3
     persistence: 0.6
     scl: 0.81
@@ -270,7 +270,7 @@ cloudMesh: [
     speed: -1
     radius: 0.095
     divisions: 6
-    color: c7cdc640
+    color: c7cdc64d
     octaves: 3
     persistence: 0.6
     scl: 1
