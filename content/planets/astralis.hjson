@@ -128,6 +128,18 @@ mesh: [
   scale: 2
   mag: 1.225
   }
+  {
+  type: NoiseMesh
+  color: 286348
+  seed: 23456
+  planet: astralis
+  radius: 0.87
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
 ]
 generator: {
   octaves: 3
