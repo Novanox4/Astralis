@@ -2,4 +2,4 @@ type: CoreBlock
 requirements: []
 health: 6000
 itemCapacity: 1750
-landMusic: astralis-astralis_land_1
+landMusic: astralis_land_1
