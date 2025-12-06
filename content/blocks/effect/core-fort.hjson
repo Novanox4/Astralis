@@ -1,1 +1,4 @@
 type: CoreBlock
+requirements: []
+health: 6000
+itemCapacity: 1750
