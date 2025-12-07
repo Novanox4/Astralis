@@ -3,3 +3,4 @@ requirements: []
 health: 6000
 itemCapacity: 1750
 landMusic: fortLand
+size: 3
