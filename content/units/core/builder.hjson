@@ -9,7 +9,7 @@ mineFloor: true
 mineSpeed: 6
 mineTier: 3
 controller: BuilderAI
-buildBeamOffset: 0.5
+buildBeamOffset: 0.25
 fogRadius: 0
 itemCapacity: 50
 engineSize: 0
@@ -19,6 +19,7 @@ outlineColor: 323232
 name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
 rotateToBuilding: false
+shootY: 0
 engines: [
   {  
   x: -2.5
@@ -38,7 +39,7 @@ weapons: [
   type: BuildWeapon
   rotate: true
   x: 4.75
-  y: 4
+  y: 4.5
   mirror: true
   }
 ]
