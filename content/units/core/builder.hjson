@@ -21,20 +21,20 @@ description: "Defender of the Core: Fort. Agile and capable of building. Unable 
 rotateToBuilding: true
 engines: [
   {  
-  x: -2.5
+  x: -2.25
   y: -5.2
   radius: 1.225
   rotation: 270
   }
   {
-  x: 2.5
+  x: 2.25
   y: -5.2
   radius: 1.225
   rotation: 270
   }
   {
-  x: -8
-  y: -4
+  x: -7
+  y: -3.8
   radius: 1.75
   rotation: 225
   }
