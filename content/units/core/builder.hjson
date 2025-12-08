@@ -21,15 +21,16 @@ name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
 rotateToBuilding: false
 engines: [
-{
+  {  
   x: -2.5
   y: -5
   radius: 1.5
   rotation: 90
-}
-{
+  }
+  {
   x: 2.5
   y: -5
   radius: 1.5
   rotation: 90
-}
+  }
+]
