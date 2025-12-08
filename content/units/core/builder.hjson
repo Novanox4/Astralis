@@ -19,7 +19,7 @@ research: core-fort
 outlineColor: 323232
 name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
-rotateToBuilding: false
+rotateToBuilding: true
 engines: [
   {  
   x: -2.5
