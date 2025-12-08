@@ -18,3 +18,5 @@ radioactivity: 0
 charge: 0.2
 explosiveness: 0
 color: 38a6c9
+research: core-fort
+alwaysUnlocked: true
