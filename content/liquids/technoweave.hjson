@@ -1,0 +1,21 @@
+type: liquid
+color: 4a4236
+gasColor: 4a4236
+lightColor: 4a4236
+barColor: 4a4236
+flammability: 0
+explosiveness: 0
+viscosity: 0.8
+heatCapacity: 0
+coolant: false
+research: hadalrock
+name: Technoweave
+description: Amalgam of nanomachines. Can either solidify or
+details: 
+'''
+RESOURCE REPORT #15
+
+Technoweave is a nanobot array developed by the DCHQ which can be commanded into multiple formations.
+
+They can either be solidified into picocarapace or be used within high-grade reparation and construction technology.
+'''
