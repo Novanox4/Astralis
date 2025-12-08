@@ -1,0 +1,20 @@
+name: Crystalite
+description: "Incredibly common resource. Vital towards any base's survival."
+details: 
+'''
+RESOURCE ANALYSIS #1
+
+A crystal compound found abundantly on Astralis. Can be manipulated into a transparent yet durable form by forming it into a thin, flexible yet durable membrane. Holds a blue-ish hue. 
+
+It naturally appears near flowing bodies of water, bringing them along the surface. With the unpredictable weather and environment of a newly forming planet, rivers change course or dry up, leaving abundant outcrops where they once were. 
+
+Crystalite is both common, durable and has conductive properties, while it can also be used in optics and lasers, making them the main and most important building material on Astralis, and heavily sought after for industrialization and automation purposes.
+'''
+cost: 1.5
+healthScaling: 0.5
+hardness: 1
+flammability: 0
+radioactivity: 0
+charge: 0.2
+explosiveness: 0
+color: 38a6c9
