@@ -1,0 +1,21 @@
+name: Silver
+description: "Decently durable ore. Used in fine electronics. Can be used as ammo."
+details: 
+'''
+RESOURCE ANALYSIS #6
+
+Found near the surface. Abundance and size varies from sector to sector.
+
+Is conductive, and can be fashioned into wires. Can also conduct heat.
+
+Somewhat more durable than crystalite and uranium.
+'''
+cost: 1.4
+healthScaling: 0.675 //DO NOT SAY ANYTHING ABOUT THIS NUMBER ELSE I WILL KILL YOU WITH MY BARE HANDS
+hardness: 1.1
+flammability: 0
+radioactivity: 0
+charge: 0
+explosiveness: 0
+color: ced6d5
+research: uranium
