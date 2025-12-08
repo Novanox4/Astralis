@@ -1,0 +1,20 @@
+type: liquid
+color: c5c93a
+gasColor: c5c93a
+lightColor: c5c93a
+barColor: c5c93a
+flammability: 0.125
+explosiveness: 1
+viscosity: -0.2
+coolant: false
+research: silver
+name: Nitric Acid
+description: Highly corrosive fluid. Very volatile.
+details: 
+'''
+RESOURCE REPORT #10
+
+Nitric acid is a powerul corrosive substance that can be manufactured.
+
+It can aid in resource extraction and weaken enemy armor.
+'''
