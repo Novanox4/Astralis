@@ -1,0 +1,31 @@
+type: CellLiquid
+name: Void Fluid
+description: Incredibly potent coolant. Slowly reacts through water, creating more of itself.
+details: 
+'''
+RESOURCE ANALYSIS #13
+
+Void fluid is an artifical coolant made to aid in the function of high-grade machinery.
+
+It was spread accross the surface of Astralis by misterious means, but the main theory is it being a result of a ship carrying void fluid' crash, spreading it through the atmosphere, and it falling down due to precipitation.
+
+It is partially explosive, and even though it acts as if alive, consistent and long studies show it holds no signs of life.
+'''
+color: 0c0413
+colorFrom: 0c0413
+colorTo: 0c0413
+gasColor: 0c0413
+boilPoint: 999
+heatCapacity: 1.3
+temperature: -0.65
+viscosity: 0.2
+explosiveness: 0.4
+research: cerium
+spreadTarget: water
+canStayOn: [water]
+capPuddles: false
+cells: 9
+spreadDamage: 0
+maxSpread: 1
+spreadConversion: 0.1
+removeScaling: 0
