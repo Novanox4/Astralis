@@ -25,7 +25,7 @@ spreadTarget: water
 canStayOn: [water]
 capPuddles: false
 cells: 9
-spreadDamage: 0
-maxSpread: 1
-spreadConversion: 0.1
+spreadDamage: 0.001
+maxSpread: 5
+spreadConversion: 0.5
 removeScaling: 0
