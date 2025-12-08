@@ -36,7 +36,7 @@ engines: [
   {
   x: -6.5
   y: -4.75
-  radius: 1.75
+  radius: 1.6
   rotation: 225
   }
 ]
