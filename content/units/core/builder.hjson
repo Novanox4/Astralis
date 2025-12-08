@@ -22,21 +22,21 @@ rotateToBuilding: true
 engines: [
   {  
   x: -2.5
-  y: -5.5
-  radius: 1.2
+  y: -5.2
+  radius: 1.225
   rotation: 270
   }
   {
   x: 2.5
-  y: -5.5
-  radius: 1.2
+  y: -5.2
+  radius: 1.225
   rotation: 270
   }
   {
   x: 8
   y: -3
   radius: 1.75
-  rotation: 0
+  rotation: 45
   }
 ]
 weapons: [
