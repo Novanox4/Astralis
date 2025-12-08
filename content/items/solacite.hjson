@@ -1,0 +1,19 @@
+name: Solacite
+description: "Powerful, advanced compound. Holds an incredible amount of charge."
+details: 
+'''
+RESOURCE ANALYSIS #15
+
+Solacite is rare yet very useful in electrical production, transport and weaponry.
+
+It's discovery is due to Urban Nightshade Inc, courtesy of scientists Hazneus Brian and Solacia Sebastian, who the compound was named after.
+'''
+cost: 1.5
+healthScaling: 0
+hardness: 0.5
+flammability: 0
+radioactivity: 0
+charge: 2.25
+explosiveness: 0.4
+color: 94e3f1
+research: abyssal-alloy
