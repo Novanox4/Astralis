@@ -22,20 +22,20 @@ rotateToBuilding: true
 engines: [
   {  
   x: -2.5
-  y: -5
-  radius: 1.5
+  y: -4.25
+  radius: 1.65
   rotation: 90
   }
   {
   x: 2.5
-  y: -5
-  radius: 1.5
+  y: -4.25
+  radius: 1.65
   rotation: 90
   }
   {
-  x: 5
-  y: -2
-  radius: 1.5
+  x: 8
+  y: -3
+  radius: 1.75
   rotation: 90
   }
 ]
