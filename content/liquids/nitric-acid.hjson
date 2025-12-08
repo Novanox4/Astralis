@@ -5,7 +5,8 @@ lightColor: c5c93a
 barColor: c5c93a
 flammability: 0.125
 explosiveness: 1
-viscosity: -0.2
+viscosity: 0
+heatCapacity: 0
 coolant: false
 research: silver
 name: Nitric Acid
