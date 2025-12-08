@@ -1,0 +1,22 @@
+type: liquid
+color: c28d57
+gasColor: c28d57
+flammability: 1.5
+explosiveness: 0.75
+gas: true
+lightColor: c28d57
+barColor: c28d57
+coolant: false
+research: biomatter
+name: Biofuel
+description: Orange, flammable and explosive gas.
+details: 
+'''
+RESOURCE REPORT #4
+
+Biofuel is a gas lighter than air produced by the symbiosis of biomatter and bacteria.
+
+The production process can be artificially replicated by compressing and heating biomatter.
+
+Biofuel is highly flammable and explosive, making it fit for weaponry, excavation and production.
+'''
