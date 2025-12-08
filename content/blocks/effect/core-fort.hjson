@@ -9,3 +9,8 @@ landDuration: 300
 category: effect
 details: "The low landing time appears here due to the core's relative fragility, allowing it to slow down as to not be damaged from impact. It releases an audible signal upon descent, although distorted because of the low-tech sound emitters used to cheapen costs. The signal serves the purpose of both driving away biological threats and letting allies know of nearby friendly presence."
 unitType: builder
+isFirstTier: true
+requirements: [
+  crystalite/1250
+  uranium/800
+]
