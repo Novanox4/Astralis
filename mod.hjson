@@ -10,6 +10,13 @@ minGameVersion: 153
 //"Every mod.hjson must die" - Erlking Anuke
 contentOrder: [
 
+  //units
+  builder
+  flu
+
+  //core
+  core-fort
+
   //items
   crystalite
   uranium
@@ -24,12 +31,5 @@ contentOrder: [
   solacite
   auric-multiplating
   khora
-
-  //core
-  core-fort
-
-  //units
-  builder
-  flu
 
 ]
