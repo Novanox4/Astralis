@@ -40,10 +40,10 @@ engines: [
   rotation: 225
   }
   {
-  x: -6.5
-  y: 4.75
+  x: 6.5
+  y: -4.75
   radius: 1.6
-  rotation: 135
+  rotation: 315
   }
 ]
 weapons: [
