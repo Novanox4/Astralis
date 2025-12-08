@@ -6,3 +6,30 @@ author: "NV-NX, Haznobrain"
 version: 0.0.1
 repo: "Novanox4/Astralis"
 minGameVersion: 153
+
+//"Every mod.hjson must die" - Erlking Anuke
+contentOrder: [
+
+  //items
+  crystalite
+  uranium
+  biomatter
+  char-chunks
+  silver
+  fulminate
+  cerium
+  neodymium
+  hadalrock
+  abyssal-alloy
+  solacite
+  auric-multiplating
+  khora
+
+  //core
+  core-fort
+
+  //units
+  builder
+  flu
+
+]
