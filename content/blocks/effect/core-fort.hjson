@@ -14,3 +14,9 @@ requirements: [
   crystalite/1250
   uranium/800
 ]
+research: {
+  root: true
+  planet: astralis
+  name: Astralis
+  requiresUnlock: false
+    }
