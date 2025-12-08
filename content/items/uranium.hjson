@@ -1,0 +1,20 @@
+name: Uranium
+description: "Incredibly common resource. Vital towards any base's survival."
+details: 
+'''
+RESOURCE ANALYSIS #2
+
+A radioactive and explosive material. Can be found near or on the surface on Astralis. 
+
+Can be easily mined with rudimentary technology. Holds radioactive and explosive properties useful in ammuniton and power production.
+
+Outcrops are few yet large, it is crucial to exploit them to their fullest potential.
+'''
+cost: 1.2
+healthScaling: -0.2
+hardness: 1
+flammability: 0
+radioactivity: 1
+charge: 0
+explosiveness: 0.75
+color: 2abd2b
