@@ -24,13 +24,13 @@ engines: [
   x: -2.5
   y: -4.25
   radius: 1.65
-  rotation: 90
+  rotation: 270
   }
   {
   x: 2.5
   y: -4.25
   radius: 1.65
-  rotation: 90
+  rotation: 270
   }
   {
   x: 8
