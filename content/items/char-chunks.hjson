@@ -1,0 +1,15 @@
+name: Char Chunks
+description: "Burnt biomatter. Residue that can be used as ammunition or for resource retrieval. The core will incinerate it upon insertion."
+details: 
+'''
+RESOURCE ANALYSIS #5
+
+Burnt. No building applications, crumbly and weak. Usable as weak ammunition.
+'''
+buildable: false
+hardness: 0.2
+flammability: 0
+radioactivity: 0
+charge: 0
+explosiveness: 0
+color: 261f1b
