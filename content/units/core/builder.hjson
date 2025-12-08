@@ -2,8 +2,6 @@ type: flying
 flying: true
 health: 200
 speed: 8
-drag: 999
-accel: 999
 buildSpeed: 1.4
 mineWalls: true
 mineFloor: true
@@ -19,7 +17,7 @@ research: core-fort
 outlineColor: 323232
 name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
-rotateToBuilding: true
+rotateToBuilding: false
 engines: [
   {  
   x: -2.5
