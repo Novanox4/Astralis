@@ -1,0 +1,21 @@
+name: Khora
+description: "Unbelievably powerful crystal used in superweapon productions."
+details: 
+'''
+RESOURCE ANALYSIS #18
+
+Khora originates from [red]"[REDACTED, YOU'RE NOT DATAMINING THIS THING'S ORIGIN UNTIL IT COMES TO CAMPAIGN >XD]"[]
+
+It's unique round shape allows it to reflect light passing through it within a more detailed degree.
+
+Khora holds the ability to manipulate matter, giving it the strength to damage even the most powerful horrors this world has seen.
+'''
+cost: 1
+healthScaling: 1
+hardness: 1
+flammability: 0.2
+radioactivity: -1
+charge: -0.35
+explosiveness: 1.2
+color: c44d2f
+research: auric-multiplating
