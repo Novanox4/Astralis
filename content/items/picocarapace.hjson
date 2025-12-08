@@ -1,0 +1,21 @@
+name: Picocarapace
+description: "Millions of microscopic robots clung together into a solid."
+details: 
+'''
+RESOURCE ANALYSIS #16
+
+Picocarapace isn't durable, yet makes up for it by having self-regenerative properties.
+
+Can reflect bullets, decently lightweight.
+
+Picocarapace is actually technoweave, but programmed to solidify into powerful plates.
+'''
+cost: 1.1
+healthScaling: 1.5
+hardness: 0.5
+flammability: 0
+radioactivity: 0
+charge: 0
+explosiveness: 0
+color: 4a453a
+research: technoweave
