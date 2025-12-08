@@ -1,0 +1,35 @@
+type: flying
+flying: true
+health: 200
+speed: 8
+drag: 999
+accel: 999
+buildSpeed: 1.4
+mineWalls: true
+mineFloor: true
+mineSpeed: 6
+mineTier: 3
+controller: BuilderAI
+drawBuildBeam: false
+fogRadius: 0
+itemCapacity: 50
+engineSize: 0
+alwaysUnlocked: true
+research: core-fort
+outlineColor: 323232
+name: Builder
+description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
+rotateToBuilding: false
+engines: [
+{
+  x: -2.5
+  y: -5
+  radius: 1.5
+  rotation: 90
+}
+{
+  x: 2.5
+  y: -5
+  radius: 1.5
+  rotation: 90
+}
