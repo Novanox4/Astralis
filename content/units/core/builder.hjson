@@ -2,6 +2,7 @@ type: flying
 flying: true
 health: 200
 speed: 8
+rotateSpeed: 8.5
 buildSpeed: 1.4
 mineWalls: true
 mineFloor: true
@@ -30,5 +31,14 @@ engines: [
   y: -5
   radius: 1.5
   rotation: 90
+  }
+]
+weapons: [
+  {
+  type: BuildWeapon
+  rotate: true
+  x: 6
+  y: 6
+  mirror: true
   }
 ]
