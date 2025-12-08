@@ -1,0 +1,21 @@
+name: Hadalrock
+description: "Highly durable rocky compound. Used in"
+details: 
+'''
+RESOURCE ANALYSIS #12
+
+Hadalrock is a powerful substance that has many uses in unit production, defenses and resource production.
+
+It is made using uranium as a base, void fluid and water being added to react and create hadalrock.
+
+Is partially charged, and can be used as a main resource in higher tech.
+'''
+cost: 1.4
+healthScaling: 2.1
+hardness: 0.5
+flammability: 0
+radioactivity: 0
+charge: 0.3
+explosiveness: 0
+color: 392447
+research: cerium
