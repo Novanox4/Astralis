@@ -1,0 +1,19 @@
+name: Fulminate
+description: "Crumbly, highly explosive and flammable material."
+details: 
+'''
+RESOURCE ANALYSIS #9
+
+Fulminate doesn't occur naturally, and must be produced.
+
+Highly explosive and flammable, it obviously is used in ammunition, but ore extraction as well.
+'''
+cost: 0.1
+healthScaling: 0.1
+hardness: 1.1
+flammability: 0.8
+radioactivity: 0
+charge: 0
+explosiveness: 1.25
+color: ced6d5
+research: silver
