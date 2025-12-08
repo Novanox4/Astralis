@@ -19,7 +19,6 @@ outlineColor: 323232
 name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
 rotateToBuilding: false
-shootY: 0
 engines: [
   {  
   x: -2.5
@@ -41,5 +40,6 @@ weapons: [
   x: 4.75
   y: 4.5
   mirror: true
+  shootY: 0
   }
 ]
