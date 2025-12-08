@@ -13,7 +13,7 @@ Cerium is a very durable rock-like material that can withstand high temperatures
 Neodymium is not durable, yet highly magnetic, giving it many uses in transportation.
 '''
 cost: 2
-healthScaling: 2
+healthScaling: 1.3
 hardness: 1.8
 flammability: 0
 radioactivity: 0
