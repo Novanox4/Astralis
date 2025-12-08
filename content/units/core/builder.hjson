@@ -9,7 +9,7 @@ mineFloor: true
 mineSpeed: 6
 mineTier: 3
 controller: BuilderAI
-drawBuildBeam: false
+buildBeamOffset: 0.5
 fogRadius: 0
 itemCapacity: 50
 engineSize: 0
@@ -37,8 +37,8 @@ weapons: [
   {
   type: BuildWeapon
   rotate: true
-  x: 6
-  y: 6
+  x: 4.75
+  y: 4
   mirror: true
   }
 ]
