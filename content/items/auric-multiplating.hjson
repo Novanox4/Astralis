@@ -1,0 +1,21 @@
+name: Auric Multiplating
+description: "Highly flexible plating. Lightweight and tough."
+details: 
+'''
+RESOURCE ANALYSIS #16
+
+Auric multiplating is a powerful and easily manipulated array of gold-colored rectangular plates.
+
+It's low weight renders it great for air-based technology and defenses.
+
+The flexibility it posesses allows it to reflect certain bullets under the right circumstances.
+'''
+cost: 0.5
+healthScaling: 1.75
+hardness: 3
+flammability: 0
+radioactivity: 0
+charge: 0
+explosiveness: 0
+color: f5d738
+research: abyssal-alloy
