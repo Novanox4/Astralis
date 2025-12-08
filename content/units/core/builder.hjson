@@ -8,7 +8,7 @@ mineWalls: true
 mineFloor: true
 mineSpeed: 6
 mineTier: 3
-accel: 0.025
+accel: 0.2
 controller: BuilderAI
 buildBeamOffset: 0.6
 fogRadius: 0
