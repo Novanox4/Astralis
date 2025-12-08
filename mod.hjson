@@ -17,16 +17,20 @@ contentOrder: [
   //core
   core-fort
 
-  //items
+  //resources
   crystalite
   uranium
   biomatter
+  biofuel
   char-chunks
   silver
+  nitric-acid
   fulminate
   cerium
   neodymium
   hadalrock
+  technoweave
+  picocarapace
   abyssal-alloy
   solacite
   auric-multiplating
