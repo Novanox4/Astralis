@@ -1,16 +1,16 @@
-type: liquid
+stype: liquid
 color: 4a4236
 gasColor: 4a4236
 lightColor: 4a4236
 barColor: 4a4236
 flammability: 0
 explosiveness: 0
-viscosity: 0.8
+viscosity: 0.94
 heatCapacity: 0
 coolant: false
 research: hadalrock
 name: Technoweave
-description: Amalgam of nanomachines. Can either solidify or
+description: Amalgam of nanomachines. Can either solidify or be used in their current state.
 details: 
 '''
 RESOURCE REPORT #15
