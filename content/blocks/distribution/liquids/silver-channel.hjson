@@ -1,0 +1,13 @@
+type: Conduit
+name: Silver Channel
+description: Transports liquids.
+category: liquid
+research: core-fort
+requirements: [
+  silver/2
+  metaglass/1
+]
+health: 100
+junctionReplacement: junction
+bridgeReplacement: junction
+underBullets: true
