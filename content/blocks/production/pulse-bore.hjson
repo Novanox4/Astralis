@@ -1,0 +1,30 @@
+type: BeamDrill
+drillTime: 72.5
+range: 7
+tier: 3
+name: Pulse Bore
+optionalBoostIntensity: 1.45
+description: Uses a high energy pulse to excavate ores. Can be boosted.
+consumes: {
+ liquids: {
+  liquids: [
+   water/0.2
+  ]
+ booster: true
+ optional: true
+}
+ power: 1.15
+}
+size: 2
+requirements: [
+  crystalite/25
+]
+fogRadius: 4
+category: production
+itemCapacity: 10
+research: core-fort
+researchCost: [
+ item-crystalite/60
+]
+heatColor: 75b3ccff
+boostHeatColor: bc96ffff
