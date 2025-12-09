@@ -1,0 +1,11 @@
+type: Duct
+speed: 2.5
+health: 100
+alwaysUnlocked: true
+name: Funnel
+description: Moves items.
+requirements: [
+    crystalite/1
+    ]
+research: core-fort
+//junctionReplacement: funnel-tunnel
