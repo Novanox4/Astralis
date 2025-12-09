@@ -11,4 +11,4 @@ health: 100
 junctionReplacement: junction
 bridgeReplacement: junction
 underBullets: true
-botColor: ffffff
+botColor: ffffff00
