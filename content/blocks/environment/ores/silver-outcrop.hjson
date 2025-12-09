@@ -1,0 +1,5 @@
+type: OreBlock
+name: Silver Outcrop
+wallOre: true
+itemDrop: silver
+variants: 4
