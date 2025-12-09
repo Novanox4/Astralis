@@ -1,0 +1,5 @@
+type: OreBlock
+name: Uranium Outcrop
+wallOre: true
+itemDrop: uranium
+variants: 4
