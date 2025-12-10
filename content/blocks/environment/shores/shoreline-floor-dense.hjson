@@ -1,3 +1,4 @@
 type: floor
 name: Shoreline Floor (Dense)
 variants: 4
+blendGroup: shoreline-floor
