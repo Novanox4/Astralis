@@ -37,4 +37,15 @@ contentOrder: [
   auric-multiplating
   khora
 
+  //env
+  shoreline-wall
+  shoreline-floor
+  shoreline-floor-medium
+  shoreline-floor-dense
+  shoreline-floor-very-dense
+  shoreline-floor-hyper-dense
+  
+  crystalite-outcrop
+  uranium-outcrop
+  silver-outcrop
 ]
