@@ -90,7 +90,7 @@ mesh: [
   seed: 22
   planet: astralis
   radius: 0.927725
-  octaves: 2.75
+  octaves: 3.5
   persistence: 0.45
   divisions: 5
   scale: 0.6
