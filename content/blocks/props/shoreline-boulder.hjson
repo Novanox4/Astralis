@@ -1,3 +1,4 @@
 type: prop
 name: Shoreline Boulder
 variants: 3
+hasShadow: false
