@@ -76,7 +76,7 @@ mesh: [
   color: 84b6b2
   seed: 22
   planet: astralis
-  radius: 0.9275
+  radius: 0.92775
   octaves: 2.75
   persistence: 0.45
   divisions: 5
@@ -89,7 +89,7 @@ mesh: [
   color: e9daa6
   seed: 22
   planet: astralis
-  radius: 0.92775
+  radius: 0.9275
   octaves: 1
   persistence: 3
   divisions: 6
