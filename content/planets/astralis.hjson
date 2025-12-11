@@ -35,7 +35,7 @@ mesh: [
   //baseplate
   {
   type: NoiseMesh
-  color: 5e5a5a
+  color: 4a453a
   seed: 0
   planet: astralis
   radius: 0.95
@@ -48,7 +48,7 @@ mesh: [
   //mountain
   {
   type: NoiseMesh
-  color: 5e5a5a
+  color: 4a453a
   seed: 67
   planet: astralis
   radius: 0.96
@@ -60,7 +60,7 @@ mesh: [
   }
   {
   type: NoiseMesh
-  color: 5e5a5a
+  color: 4a453a
   seed: 4556
   planet: astralis
   radius: 0.9
