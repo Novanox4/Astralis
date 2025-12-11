@@ -92,7 +92,7 @@ mesh: [
   radius: 0.9275
   octaves: 1
   persistence: 3
-  divisions: 6
+  divisions: 4
   scale: 0.7
   mag: 1.05
   }
