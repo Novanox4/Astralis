@@ -221,10 +221,9 @@ mesh: [
   mag: 1.225
   }
   //voidscar
-  493152
   {
   type: NoiseMesh
-  color: 173f82
+  color: 493152
   seed: 0763
   planet: astralis
   radius: 0.87525
