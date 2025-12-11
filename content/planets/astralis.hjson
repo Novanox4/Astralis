@@ -86,14 +86,14 @@ mesh: [
   //shore
   {
   type: NoiseMesh
-  color: e9daa6
+  color: cfb886
   seed: 22
   planet: astralis
   radius: 0.9275
-  octaves: 1
-  persistence: 3
-  divisions: 4
-  scale: 0.7
+  octaves: 2.75
+  persistence: 0.46
+  divisions: 5
+  scale: 0.6
   mag: 1.05
   }
   {
