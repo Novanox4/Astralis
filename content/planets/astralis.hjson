@@ -70,7 +70,7 @@ mesh: [
   }
   {
   type: NoiseMesh
-  color: 47548f
+  color: 84b6b2
   seed: 22
   planet: astralis
   radius: 0.9275
@@ -78,6 +78,18 @@ mesh: [
   persistence: 0.45
   divisions: 5
   scale: 0.6
+  mag: 1.05
+  }
+  {
+  type: NoiseMesh
+  color: 84b6b2
+  seed: 22
+  planet: astralis
+  radius: 0.92775
+  octaves: 1
+  persistence: 3
+  divisions: 6
+  scale: 0.7
   mag: 1.05
   }
   {
