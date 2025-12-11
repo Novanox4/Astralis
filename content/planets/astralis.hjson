@@ -195,6 +195,31 @@ mesh: [
   scale: 2
   mag: 1.225
   }
+  //astral
+  {
+  type: NoiseMesh
+  color: 1e5997
+  seed: 457641
+  planet: astralis
+  radius: 0.87
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 173f82
+  seed: 91453
+  planet: astralis
+  radius: 0.87
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
 ]
 generator: {
   octaves: 3
