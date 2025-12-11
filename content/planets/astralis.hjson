@@ -201,7 +201,7 @@ mesh: [
   color: 1e5997
   seed: 457641
   planet: astralis
-  radius: 0.87
+  radius: 0.876
   octaves: 1.5
   persistence: 11
   divisions: 4
@@ -213,7 +213,7 @@ mesh: [
   color: 173f82
   seed: 91453
   planet: astralis
-  radius: 0.87
+  radius: 0.874
   octaves: 1.5
   persistence: 11
   divisions: 4
