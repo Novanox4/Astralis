@@ -32,6 +32,7 @@ solarSystem: sun
 tidalLock: true
 orbitTime: 0.3
 mesh: [
+  //baseplate
   {
   type: NoiseMesh
   color: 5e5a5a
@@ -44,6 +45,7 @@ mesh: [
   scale: 1
   mag: 1.05
   }
+  //mountain
   {
   type: NoiseMesh
   color: 5e5a5a
@@ -68,6 +70,7 @@ mesh: [
   scale: 1
   mag: 1
   }
+  //water
   {
   type: NoiseMesh
   color: 84b6b2
@@ -80,9 +83,10 @@ mesh: [
   scale: 0.6
   mag: 1.05
   }
+  //shore
   {
   type: NoiseMesh
-  color: 84b6b2
+  color: e9daa6
   seed: 22
   planet: astralis
   radius: 0.92775
