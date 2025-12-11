@@ -188,8 +188,8 @@ mesh: [
   color: f2e9f2
   seed: 9413
   planet: astralis
-  radius: 0.875
-  octaves: 1.5
+  radius: 0.874
+  octaves: 1.6
   persistence: 11
   divisions: 4
   scale: 2
