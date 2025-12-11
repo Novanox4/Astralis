@@ -96,6 +96,7 @@ mesh: [
   scale: 0.6
   mag: 1.05
   }
+  //growth
   {
   type: NoiseMesh
   color: 704131
@@ -144,6 +145,7 @@ mesh: [
   scale: 2.25
   mag: 1.225
   }
+  //nest
   {
   type: NoiseMesh
   color: 387862
@@ -172,6 +174,19 @@ mesh: [
   type: NoiseMesh
   color: 174f28
   seed: 837
+  planet: astralis
+  radius: 0.875
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  //pale
+  {
+  type: NoiseMesh
+  color: f2e9f2
+  seed: 9413
   planet: astralis
   radius: 0.875
   octaves: 1.5
