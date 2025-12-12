@@ -16,3 +16,4 @@ breakSound: rockBreak
 destroySound: rockBreak
 drawCracks: false
 createRubble: false
+variants: 2
