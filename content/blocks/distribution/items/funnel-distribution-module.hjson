@@ -1,0 +1,8 @@
+type: DuctRouter
+name: Funnel Distribution Module
+description: Distributes items into 3 directions. Can't distribute items backwards. Can sort items.
+research: funnel
+speed: 2.5
+requirements: [
+  crystalite/3
+  ]
