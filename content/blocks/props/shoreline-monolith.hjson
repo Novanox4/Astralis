@@ -10,7 +10,7 @@ buildVisibility: sandboxOnly
 solid: true
 destructible: true
 health: 600
-buildTime: 240
+buildTime: 150
 instantDeconstruct: false
 clipSize: 256
 breakSound: rockBreak
@@ -22,4 +22,4 @@ requirements: [
   crystalite/80
   silver/80
   ]
-forceTeam: 6
+forceTeam: 5
