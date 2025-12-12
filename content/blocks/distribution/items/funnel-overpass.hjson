@@ -1,0 +1,10 @@
+type: ItemBridge
+range: 7
+name: Funnel Overpass
+description: Transports items over terrain and buildings.
+requirements: [
+  crystalite/4
+  ]
+transportTime: 13
+research: funnel
+solid: false
