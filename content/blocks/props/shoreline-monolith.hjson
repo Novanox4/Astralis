@@ -1,7 +1,7 @@
 type: Wall
 size: 2
 update: true
-customShadow: tru
+customShadow: true
 hasShadow: false
 drawTeamOverlay: false
 allowDerelictRepair: false
