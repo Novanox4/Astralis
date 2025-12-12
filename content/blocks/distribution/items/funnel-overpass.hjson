@@ -9,3 +9,4 @@ transportTime: 13
 research: funnel
 solid: false
 bridgeWidth: 8
+squareSprite: false
