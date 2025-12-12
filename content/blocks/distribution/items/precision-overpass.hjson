@@ -1,0 +1,11 @@
+type: DuctBridge
+name: Precision Overpass
+description: Transports items over terrain and buildings. Only outputs to one side.
+range: 7
+requirements: [
+  crystalite/4
+  ]
+research: funnel-overpass
+solid: false
+squareSprite: false
+speed: 2.5
