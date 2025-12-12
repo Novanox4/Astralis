@@ -5,7 +5,7 @@ description: Transports items over terrain and buildings.
 requirements: [
   crystalite/4
   ]
-transportTime: 2.425
+transportTime: 2.5025
 research: funnel
 solid: false
 bridgeWidth: 8
