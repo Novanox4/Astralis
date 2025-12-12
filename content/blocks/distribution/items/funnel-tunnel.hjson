@@ -1,0 +1,6 @@
+type: junction
+research: funnel
+requirements: [
+  crystalite/2
+  ]
+health: 100
