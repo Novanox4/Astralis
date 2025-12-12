@@ -8,3 +8,4 @@ requirements: [
 transportTime: 13
 research: funnel
 solid: false
+bridgeWidth: 7
