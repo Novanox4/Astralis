@@ -1,4 +1,4 @@
-type: TallBlock
+type: Wall
 size: 2
 update: true
 customShadow: true
@@ -17,3 +17,10 @@ destroySound: rockBreak
 drawCracks: false
 createRubble: false
 variants: 2
+roationRand: 0
+shadowAlpha: 0
+requirements: [
+  crystalite/80
+  silver/80
+  ]
+forceTeam: derelict
