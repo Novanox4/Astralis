@@ -10,7 +10,7 @@ buildVisibility: sandboxOnly
 solid: true
 destructible: true
 health: 600
-buildTime: 150
+buildTime: 100
 instantDeconstruct: false
 clipSize: 256
 breakSound: rockBreak
