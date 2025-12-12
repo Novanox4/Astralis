@@ -8,4 +8,4 @@ requirements: [
     crystalite/1
     ]
 research: core-fort
-//junctionReplacement: funnel-tunnel
+junctionReplacement: funnel-tunnel
