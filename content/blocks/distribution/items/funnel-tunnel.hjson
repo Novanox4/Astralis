@@ -6,3 +6,4 @@ requirements: [
 health: 100
 name: Funnel Tunnel
 description: Allows two funnels to intersect without mixing items.
+speed: 13
