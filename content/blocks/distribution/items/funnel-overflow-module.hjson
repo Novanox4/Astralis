@@ -1,0 +1,8 @@
+type: OverflowGate
+name: Funnel Overflow Module
+description: Outputs to the sides when the front is blocked.
+research: funnel-distribution-module
+speed: 2.5
+requirements: [
+  crystalite/3
+  ]
