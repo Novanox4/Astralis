@@ -1,5 +1,5 @@
 name: Fulminate
-description: "Crumbly, highly explosive and flammable material."
+description: "Crumbly, highly explosive and flammable material. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
 details: 
 '''
 RESOURCE ANALYSIS #11
@@ -17,3 +17,4 @@ charge: 0
 explosiveness: 1.25
 color: b5ac10
 research: silver
+buildable: false
