@@ -8,8 +8,8 @@ requirements: [
   metaglass/1
 ]
 health: 100
-junctionReplacement: channel-junction
-bridgeReplacement: channel-bridge
+//junctionReplacement: channel-junction
+//bridgeReplacement: channel-bridge
 underBullets: true
 botColor: 979ca1
 liquidCapacity: 15
