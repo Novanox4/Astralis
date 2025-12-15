@@ -1,0 +1,13 @@
+type: LiquidRouter
+name: Channel Router
+description: Splits liquids into 3 directions.
+category: liquid
+research: silver-channel
+requirements: [
+  silver/2
+  metaglass/2
+]
+health: 100
+underBullets: true
+liquidCapacity: 15
+solid: false
