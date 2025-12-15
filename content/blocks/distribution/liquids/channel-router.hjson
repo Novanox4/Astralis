@@ -12,3 +12,4 @@ underBullets: true
 liquidCapacity: 15
 solid: false
 liquidPadding: 0.5
+squareSprite: false
