@@ -11,3 +11,4 @@ health: 100
 underBullets: true
 liquidCapacity: 15
 solid: false
+liquidPadding: 0.5
