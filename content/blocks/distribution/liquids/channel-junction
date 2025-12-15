@@ -1,0 +1,14 @@
+type: LiquidJunction
+name: Channel Junction
+description: Allows channels to intersect without mixing liquids.
+category: liquid
+research: silver-channel
+requirements: [
+  silver/2
+  metaglass/2
+]
+health: 100
+underBullets: true
+liquidCapacity: 15
+solid: false
+squareSprite: false
