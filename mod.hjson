@@ -14,10 +14,25 @@ contentOrder: [
   builder
   flu
 
-  //core
-  core-fort
+  //distribution
 
+  //items
+
+  funnel
+  funnel-tunnel
+  funnel-distribution-module
+  funnel-distribution-module-alternate
+  funnel-overflow-module
+  funnel-underflow-module
+  funnel-overpass
+  precision-overpass
+
+  //liquids
+
+  silver-channel
+  
   //resources
+
   crystalite
   uranium
   biomatter
@@ -37,13 +52,21 @@ contentOrder: [
   auric-multiplating
   khora
 
+  //core
+
+  core-fort
+
   //env
+  //(this is for editor ordering)
+  
   shoreline-wall
   shoreline-floor
   shoreline-floor-medium
   shoreline-floor-dense
   shoreline-floor-very-dense
   shoreline-floor-hyper-dense
+  shoreline-boulder
+  shoreline-monolith
   
   crystalite-outcrop
   uranium-outcrop
