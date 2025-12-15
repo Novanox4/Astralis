@@ -1,0 +1,8 @@
+type: Router
+name: Funnel Distribution Module (Alternate)
+description: "Distributes items into 3 directions. [accent]Can distribute items backwards.[]"
+research: funnel
+speed: 2.5
+requirements: [
+  crystalite/3
+  ]
