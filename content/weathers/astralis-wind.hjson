@@ -1,9 +1,11 @@
 type: ParticleWeather
 particleRegion: astralis-wind-particle
 color: ffffffb3
-padding: 48
-xspeed: -0.8
+padding: 600
+xspeed: -2
 yspeed: -0.15
-minAlpha: 0.2
+minAlpha: 0.3
 maxAlpha: 0.5
-density: 600
+density: 4000
+sizeMin: 4
+sizeMax: 14
