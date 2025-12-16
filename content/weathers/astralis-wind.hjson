@@ -1,4 +1,4 @@
 type: ParticleWeather
-particleRegion: wind-particle
+particleRegion: astralis-wind-particle
 color: ffffffb3
 useWindVector: true
