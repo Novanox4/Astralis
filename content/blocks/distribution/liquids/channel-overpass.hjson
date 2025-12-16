@@ -1,0 +1,11 @@
+type: LiquidBridge
+name: Channel Overpass
+description: Transports liquids over buildings and terrain.
+requirements: [
+  silver/3
+  metaglass/2
+  ]
+research: channel-junction
+liquidCapacity: 15
+bridgeWidth: 7
+range: 7
