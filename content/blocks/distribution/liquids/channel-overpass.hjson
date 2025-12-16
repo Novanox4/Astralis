@@ -13,6 +13,8 @@ category: liquid
 squareSprite: false
 solid: false
 arrowTimeScl: 6.2
+arrowPeriod: 0.4
+arrowOffset: 2
+arrowSpacing: 4
 moveArrows: true
 fadeIn: true
-pulse: true
