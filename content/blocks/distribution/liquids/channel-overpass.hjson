@@ -7,7 +7,7 @@ requirements: [
   ]
 research: channel-junction
 liquidCapacity: 15
-bridgeWidth: 7
+bridgeWidth: 7.5
 range: 7
 category: liquid
 squareSprite: false
