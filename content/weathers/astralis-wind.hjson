@@ -1,0 +1,4 @@
+type: ParticleWeather
+particleRegion: wind-particle
+color: ffffffb3
+useWindVector: true
