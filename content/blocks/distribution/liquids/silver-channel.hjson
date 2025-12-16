@@ -9,7 +9,7 @@ requirements: [
 ]
 health: 100
 junctionReplacement: channel-junction
-//bridgeReplacement: channel-bridge
+//bridgeReplacement: channel-overpass
 underBullets: true
 botColor: 979ca1
 liquidCapacity: 15
