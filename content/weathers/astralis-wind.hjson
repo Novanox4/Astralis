@@ -8,4 +8,4 @@ minAlpha: 0.28
 maxAlpha: 0.5475
 sizeMin: 4
 sizeMax: 14
-force: 20
+force: 200
