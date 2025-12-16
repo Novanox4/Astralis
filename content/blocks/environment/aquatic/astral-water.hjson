@@ -1,0 +1,11 @@
+type: Floor
+name: Astral Water
+speedMultiplier: 0.85
+variants: 1
+status: wet
+statusDuration: 30
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
