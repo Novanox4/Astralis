@@ -1,0 +1,10 @@
+type: OverlayFloor
+name: Astral Water Overlay
+speedMultiplier: 0.925
+variants: 1
+status: wet
+statusDuration: 20
+liquidDrop: water
+liquidMultiplier: 0.6
+isLiquid: true
+cacheLayer: water
