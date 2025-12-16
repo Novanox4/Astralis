@@ -9,3 +9,6 @@ research: channel-junction
 liquidCapacity: 15
 bridgeWidth: 7
 range: 7
+category: liquid
+squareSprite: false
+solid: false
