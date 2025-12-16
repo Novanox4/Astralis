@@ -1,4 +1,6 @@
 type: ParticleWeather
 particleRegion: astralis-wind-particle
 color: ffffffb3
-useWindVector: true
+padding: 48
+xSpeed: -0.4
+ySpeed: -0.1
