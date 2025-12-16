@@ -58,6 +58,9 @@ contentOrder: [
 
   //env
   //(this is for editor ordering)
+
+  deep-astral-water
+  astral-water
   
   shoreline-wall
   shoreline-floor
