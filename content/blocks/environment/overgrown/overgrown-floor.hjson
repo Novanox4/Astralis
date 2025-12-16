@@ -1,3 +1,4 @@
 type: floor
 name: Overgrown Floor
 variants: 8
+decoration: shrub
