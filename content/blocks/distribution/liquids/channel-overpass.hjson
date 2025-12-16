@@ -12,3 +12,6 @@ range: 7
 category: liquid
 squareSprite: false
 solid: false
+arrowTimeScl: 6.2
+moveArrows: true
+fadeIn: true
