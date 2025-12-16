@@ -1,0 +1,4 @@
+type: SeaBush
+lobesMin: 7
+lobesMax: 11
+name: Shrub
