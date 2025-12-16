@@ -1,7 +1,7 @@
 type: ParticleWeather
 particleRegion: astralis-wind-particle
 color: ffffffb3
-padding: 600
+padding: 6000
 xspeed: -2
 yspeed: -0.15
 minAlpha: 0.3
