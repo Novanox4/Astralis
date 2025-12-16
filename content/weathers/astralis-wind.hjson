@@ -9,3 +9,4 @@ maxAlpha: 0.3
 sizeMin: 4
 sizeMax: 14
 density: 1000
+sound: wind2
