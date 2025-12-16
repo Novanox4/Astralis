@@ -8,5 +8,3 @@ drownTime: 500
 liquidDrop: water
 isLiquid: true
 cacheLayer: water
-albedo: 0.9
-supportsOverlay: true
