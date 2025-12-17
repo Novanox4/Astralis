@@ -2,7 +2,7 @@ type: TallBlock
 shadowOffset: 0
 size: 1
 layer: 25
-shadowLayer: 21
+shadowLayer: -11
 name: Thorny Vine
 variants: 3
 drawTeamOverlay: false
