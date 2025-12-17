@@ -30,6 +30,9 @@ contentOrder: [
   //liquids
 
   silver-channel
+  channel-junction
+  channel-router
+  channel-overpass
   
   //resources
 
