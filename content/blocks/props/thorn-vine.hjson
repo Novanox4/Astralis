@@ -4,7 +4,7 @@ size: 1
 name: Thorny Vine
 layer: 30
 shadowLayer: 28
-variants: 3
+variants: 2
 drawTeamOverlay: false
 allowDerelictRepair: false
 alwaysReplace: false
