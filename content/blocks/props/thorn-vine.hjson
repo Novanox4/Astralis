@@ -21,3 +21,4 @@ drawCracks: false
 createRubble: false
 shadowAlpha: 0.33
 hasShadow: false
+rotationRand: 360
