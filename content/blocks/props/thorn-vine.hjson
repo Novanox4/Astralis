@@ -1,0 +1,21 @@
+type: TallBlock
+shadowOffset: 0
+size: 1
+layer: 22
+shadowLayer: 21
+name: Thorny Vine
+variants: 3
+drawTeamOverlay: false
+allowDerelictRepair: false
+alwaysReplace: false
+destructible: true
+buildTime: 60
+instantDeconstruct: false
+requirements: [
+  biomatter/10
+  ]
+clipSize: 240
+breakSound: plantBreak
+destroySound: plantBreak
+drawCracks: false
+createRubble: false
