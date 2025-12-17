@@ -19,6 +19,7 @@ breakSound: plantBreak
 destroySound: plantBreak
 drawCracks: false
 createRubble: false
-shadowAlpha: 0.6
+shadowAlpha: 0.8
 hasShadow: false
 rotationRand: 360
+solid: false
