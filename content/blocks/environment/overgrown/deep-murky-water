@@ -1,0 +1,10 @@
+type: Floor
+name: Deep Murky Water
+speedMultiplier: 0.4
+variants: 1
+status: wet
+statusDuration: 30
+drownTime: 525
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
