@@ -19,4 +19,4 @@ breakSound: plantBreak
 destroySound: plantBreak
 drawCracks: false
 createRubble: false
-shadowAlpha: 1
+shadowAlpha: 0.33
