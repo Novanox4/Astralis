@@ -7,3 +7,6 @@ statusDuration: 30
 liquidDrop: water
 isLiquid: true
 cacheLayer: water
+attributes: {
+  turbine: 0.2
+}
