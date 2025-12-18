@@ -1,0 +1,15 @@
+type: PowerNode
+category: power
+size: 2
+requirements: [
+  crystalite/6
+  uranium/6
+  ]
+name: Energy Distributor
+description: Transports power. Efficient.
+laserScale: 0.65
+laserRange: 15
+maxNodes: 15
+research: core-fort
+laserColor1: 6ed1e7
+laserColor2: 2b67a9
