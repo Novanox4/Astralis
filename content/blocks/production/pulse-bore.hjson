@@ -8,7 +8,7 @@ description: Uses a high energy pulse to excavate ores. Can be boosted.
 consumes: {
  liquids: {
   liquids: [
-   water/0.2
+   water/0.15
   ]
  booster: true
  optional: true
