@@ -1,3 +1,4 @@
 type: floor
 name: Wastes Floor (Light)
 variants: 4
+blendGroup: wastes-floor
