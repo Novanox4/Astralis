@@ -22,8 +22,8 @@ drawer: [
   suffix: -spinner-1
   spinSprite: true
   rotateSpeed: 5
-  x: -4
-  y: -4
+  x: -3
+  y: -3.5
   }
   {
   type: DrawDefault
