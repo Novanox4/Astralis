@@ -2,4 +2,4 @@ type: AttributeCrafter
 buildVisibility: debugOnly
 inEditor: false
 
-attribute: astralis-water
+attribute: turbine-water
