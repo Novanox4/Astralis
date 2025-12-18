@@ -4,7 +4,7 @@ name: Water Turbine
 description: Generates power on water tiles.
 //hate. let me tell you
 attribute: turbine
-minEfficiency: 0.99
+minEfficiency: 0.79
 requirements: [
   crystalite/30
   uranium/25
