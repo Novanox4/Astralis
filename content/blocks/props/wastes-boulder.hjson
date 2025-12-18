@@ -1,0 +1,5 @@
+type: prop
+name: Waster Boulder
+variants: 2
+customShadow: true
+clipSize: 1
