@@ -23,7 +23,7 @@ drawer: [
   spinSprite: true
   rotateSpeed: 5
   x: -1.5
-  y: 0
+  y: -3
   color: ffffff4d
   }
   {
