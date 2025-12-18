@@ -22,7 +22,7 @@ drawer: [
   suffix: -spinner-1
   spinSprite: true
   rotateSpeed: 5
-  x: 0
+  x: -1.5
   y: 0
   color: ffffff4d
   }
