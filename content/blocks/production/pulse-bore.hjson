@@ -29,3 +29,4 @@ researchCost: [
 heatColor: 75b3ccff
 boostHeatColor: bc96ffff
 sparkColor: 75b3cc
+squareSprite: false
