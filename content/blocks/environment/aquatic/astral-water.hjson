@@ -7,3 +7,6 @@ statusDuration: 30
 liquidDrop: water
 isLiquid: true
 cacheLayer: water
+attributes: {
+  astralis-water: 0.25
+}
