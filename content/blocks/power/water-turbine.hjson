@@ -12,10 +12,12 @@ requirements: [
 powerProduction: 1.1
 size: 2
 category: power
-drawer: [
+drawer: {
+  type: DrawMulti
   iconOverride: [
   -icon
   ]
+  drawers: [
   {
   type: DrawRegion
   suffix: -support-1
@@ -32,3 +34,4 @@ drawer: [
   type: DrawDefault
   }
 ]
+}
