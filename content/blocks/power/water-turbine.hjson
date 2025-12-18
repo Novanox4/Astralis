@@ -3,7 +3,7 @@ research: energy-distributor
 name: Water Turbine
 description: Generates power on water tiles.
 attribute: turbine-water
-minEfficiency: 1
+minEfficiency: 0.99
 requirements: [
   crystalite/30
   uranium/25
