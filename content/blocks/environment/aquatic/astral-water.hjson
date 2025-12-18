@@ -8,5 +8,5 @@ liquidDrop: water
 isLiquid: true
 cacheLayer: water
 attributes: {
-  astralis-water: 0.25
+  astralis-water: 0.2
 }
