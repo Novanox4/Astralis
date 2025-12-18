@@ -8,6 +8,6 @@ liquidDrop: water
 isLiquid: true
 cacheLayer: water
 attributes: {
-  turbinewater: 0.25
+  turbine: 0.25
 }
 
