@@ -3,10 +3,11 @@ research: energy-distributor
 name: Water Turbine
 description: Generates power on water tiles.
 attribute: astralis-water
-minEfficiency: 0.8
+minEfficiency: 0.79
 requirements: [
   crystalite/30
   uranium/25
   ]
 powerProduction: 1.1
 size: 2
+category: power
