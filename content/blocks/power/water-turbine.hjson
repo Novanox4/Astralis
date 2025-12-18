@@ -2,7 +2,7 @@ type: ThermalGenerator
 research: energy-distributor
 name: Water Turbine
 description: Generates power on water tiles.
-attribute: turbine-water
+attribute: turbinewater
 minEfficiency: 0.99
 requirements: [
   crystalite/30
