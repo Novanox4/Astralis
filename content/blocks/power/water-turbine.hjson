@@ -32,7 +32,7 @@ drawer: {
   spinSprite: true
   rotateSpeed: -5
   x: 1.5
-  y: 2.5
+  y: 2
   }
   {
   type: DrawRegion
