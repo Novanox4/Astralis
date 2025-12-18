@@ -2,4 +2,4 @@ type: AttributeCrafter
 buildVisibility: debugOnly
 inEditor: false
 
-attribute: turbine-water
+attribute: turbinewater
