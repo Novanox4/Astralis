@@ -11,8 +11,13 @@ minGameVersion: 154
 contentOrder: [
 
   //units
+
   builder
   flu
+
+  //power
+
+  energy-distributor
 
   //distribution
 
@@ -59,11 +64,16 @@ contentOrder: [
 
   core-fort
 
+  //production
+
+  pulse-bore
+
   //env
   //(this is for editor ordering)
 
   deep-astral-water
   astral-water
+  murky-water-deep
   
   shoreline-wall
   shoreline-floor
@@ -73,6 +83,16 @@ contentOrder: [
   shoreline-floor-hyper-dense
   shoreline-boulder
   shoreline-monolith
+
+  wastes-wall
+  wastes-floor
+  wastes-boulder
+
+  overgrown-wall
+  overgrown-floor
+  shrub
+  thorny-vine
+  thick-vine
   
   crystalite-outcrop
   uranium-outcrop
