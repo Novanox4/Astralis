@@ -24,7 +24,6 @@ drawer: [
   rotateSpeed: 5
   x: -1.5
   y: -3
-  color: ffffff4d
   }
   {
   type: DrawDefault
