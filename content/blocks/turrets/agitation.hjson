@@ -16,8 +16,8 @@ category: turret
 shoot: {
   type: ShootBarrel
   barrels: [
-    -4.3, 1.5, 0,
-    4.3, 1.5, 0
+    -4.3, 1.25, 0,
+    4.3, 1.25, 0
     ]
   }
 drawer: {
@@ -51,8 +51,9 @@ ammoTypes: {
     trailWidth: 1
     width: 6
     height: 13
-    speed: 7
+    speed: 7.5
     lifetime: 14
+    buildingDamageMultiplier: 0.7
     shootEffect: [
       {
       type: ParticleEffect
