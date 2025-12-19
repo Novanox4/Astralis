@@ -45,6 +45,7 @@ drawer: {
     y: 0
     mirror: true
     layerOffset: -0.2
+    heatLayerOffset: 0.1
     moves: [
       {
       type: PartMove
