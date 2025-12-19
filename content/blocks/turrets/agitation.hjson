@@ -46,6 +46,7 @@ drawer: {
     mirror: false
     layerOffset: -2
     heatLayerOffset: -1
+    recoilIndex: 0
     moves: [
       {
       type: PartMove
@@ -63,6 +64,7 @@ drawer: {
     mirror: false
     layerOffset: -2
     heatLayerOffset: -1
+    recoilIndex: 1
     moves: [
       {
       type: PartMove
