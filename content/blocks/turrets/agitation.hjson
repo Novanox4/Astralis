@@ -10,7 +10,7 @@ research: core-fort
 maxAmmo: 25
 squareSprite: false
 reload: 12
-range: 99
+range: 95
 recoils: 2
 category: turret
 shoot: {
@@ -51,8 +51,8 @@ ammoTypes: {
     trailWidth: 1
     width: 6
     height: 13
-    speed: 10
-    lifetime: 10
+    speed: 7
+    lifetime: 14
     shootEffect: [
       {
       type: ParticleEffect
