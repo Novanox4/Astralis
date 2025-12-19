@@ -125,9 +125,9 @@ drawer: {
       }
     ]
     }
-    //LEFT MID
+    //RIGHT MID
     {
-    suffix: -side
+    suffix: -side-flip
     progress: warmup
     moveX: 8
     y: -1
@@ -146,9 +146,9 @@ drawer: {
       }
     ]
     }
-    //LEFT UPPER
+    //RIGHT UPPER
      {
-    suffix: -side
+    suffix: -side-flip
     progress: warmup
     moveX: 8
     y: 1
