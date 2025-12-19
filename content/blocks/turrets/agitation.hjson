@@ -39,7 +39,7 @@ drawer: {
     mirror: false
     }
     {
-    suffix: -blade
+    suffix: -side
     progress: warmup
     moveX: -8
     y: 0
