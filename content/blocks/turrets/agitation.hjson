@@ -51,13 +51,12 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      rot: 22
-      y: -1
+      x: 3
       }
     ]
     }
     {
-    suffix: -side-fli[
+    suffix: -side-flip
     progress: warmup
     moveX: 8
     y: -2.5
@@ -69,8 +68,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      rot: -22
-      y: -1
+      x: -3
       }
     ]
     }
