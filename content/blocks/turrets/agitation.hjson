@@ -38,6 +38,22 @@ drawer: {
     recoilIndex: 1
     mirror: false
     }
+    {
+    suffix: -blade
+    progress: warmup
+    moveX: -0.65
+    y: 0
+    mirror: true
+    layerOffset: -0.2
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      rot: -22
+      y: -1
+      }
+    ]
+    }
   ]
 }
 ammoTypes: {
