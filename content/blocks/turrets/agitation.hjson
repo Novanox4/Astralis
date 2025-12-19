@@ -187,50 +187,25 @@ ammoTypes: {
     despawnEffect: [
       {
       type: ParticleEffect
-      colorFrom: a12413
-      colorTo: 1a1e26
-      interp: pow5Out
-      sizeFrom: 3
-      sizeTo: 0
-      length: 24
-      lifetime: 40
-      particles: 3
-      layer: 99
-      }
-      {
-      type: ParticleEffect
       colorFrom: db9e60
-      colorTo: 1a1e26
-      interp: pow5Out
-      sizeFrom: 3
+      colorTo: db9e60
+      interp: pow3Out
+      sizeFrom: 3.75
       sizeTo: 0
-      length: 24
+      length: 18
       lifetime: 40
       particles: 3
-      layer: 99
-      }
-      {
-      type: ParticleEffect
-      colorFrom: a43131
-      colorTo: 1a1e26
-      interp: pow5Out
-      sizeFrom: 3
-      sizeTo: 0
-      length: 24
-      lifetime: 40
-      particles: 3
-      layer: 99
       }
       {
       type: WaveEffect
       colorFrom: a12413
       colorTo: a12413
-      interp: pow10Out
+      interp: pow3Out
       sizeFrom: 0
       sizeTo: 8
       strokeFrom: 3
       strokeTo: 0
-      lifetime: 40
+      lifetime: 30
       sides: 4
       }
     ]
