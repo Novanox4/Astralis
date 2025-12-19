@@ -38,6 +38,28 @@ drawer: {
     recoilIndex: 1
     mirror: false
     }
+    //LEFT LOWER
+    {
+    suffix: -side
+    progress: warmup
+    moveX: -8
+    y: -2
+    rotation: 20
+    mirror: false
+    layerOffset: -7
+    heatLayerOffset: -8
+    turretHeatLayer: 49
+    recoilIndex: 0
+    under: true
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      y: -0.5
+      rot: 27.5
+      }
+    ]
+    }
     //LEFT MID
     {
     suffix: -side
