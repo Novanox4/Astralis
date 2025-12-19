@@ -41,7 +41,7 @@ drawer: {
     {
     suffix: -blade
     progress: warmup
-    moveX: -0.65
+    moveX: -6
     y: 0
     mirror: true
     layerOffset: -0.2
