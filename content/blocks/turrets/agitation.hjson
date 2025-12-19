@@ -28,14 +28,14 @@ drawer: {
     suffix: -barrel-1
     progress: recoil
     moveY: -0.6
-    recoilIndex: 1
+    recoilIndex: 0
     mirror: false
     }
     {
     suffix: -barrel-2
     progress: recoil
     moveY: -0.6
-    recoilIndex: 2
+    recoilIndex: 1
     mirror: false
     }
   ]
