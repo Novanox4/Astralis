@@ -206,7 +206,6 @@ ammoTypes: {
       strokeFrom: 3
       strokeTo: 0
       lifetime: 30
-      sides: 4
       }
     ]
     shootEffect: [
