@@ -11,11 +11,13 @@ maxAmmo: 25
 squareSprite: false
 reload: 12
 range: 99
+recoils: 2
+category: turret
 shoot: {
   type: ShootBarrel
   barrels: [
-    -4.8, 2.5, 0,
-    4.8, 2.5, 0
+    -4.5, 2, 0,
+    4.5, 2, 0
     ]
   }
 drawer: {
@@ -26,11 +28,15 @@ drawer: {
     suffix: -barrel-1
     progress: recoil
     moveY: -0.6
+    recoilIndex: 1
+    mirror: false
     }
     {
     suffix: -barrel-2
     progress: recoil
     moveY: -0.6
+    recoilIndex: 2
+    mirror: false
     }
   ]
 }
@@ -52,34 +58,37 @@ ammoTypes: {
       type: ParticleEffect
       colorFrom: a12413
       colorTo: 1a1e26
-      interp: pow3Out
+      interp: pow5Out
       sizeFrom: 2
       sizeTo: 0
       length: 24
       lifetime: 16
       particles: 3
+      cone: 8
       }
       {
       type: ParticleEffect
       colorFrom: db9e60
       colorTo: 1a1e26
-      interp: pow3Out
+      interp: pow5Out
       sizeFrom: 2
       sizeTo: 0
       length: 24
       lifetime: 16
       particles: 3
+      cone: 8
       }
       {
       type: ParticleEffect
       colorFrom: a43131
       colorTo: 1a1e26
-      interp: pow3Out
+      interp: pow5Out
       sizeFrom: 2
       sizeTo: 0
       length: 24
       lifetime: 16
       particles: 3
+      cone: 8
       }
     ]
   }
