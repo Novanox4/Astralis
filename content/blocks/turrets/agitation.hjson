@@ -53,7 +53,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      x: 3
+      y: -1
       rot: 40
       }
     ]
@@ -73,7 +73,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      x: -3
+      y: -1
       rot: -40
       }
     ]
