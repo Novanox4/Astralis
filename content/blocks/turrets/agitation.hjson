@@ -109,12 +109,12 @@ drawer: {
     progress: warmup
     moveX: 8
     y: -3
-    rotation: 20
+    rotation: -20
     mirror: false
     layerOffset: -7
     heatLayerOffset: -8
     turretHeatLayer: 49
-    recoilIndex: 0
+    recoilIndex: 1
     under: true
     moves: [
       {
@@ -135,7 +135,7 @@ drawer: {
     layerOffset: -7
     heatLayerOffset: -8
     turretHeatLayer: 49
-    recoilIndex: 0
+    recoilIndex: 1
     under: true
     moves: [
       {
@@ -157,7 +157,7 @@ drawer: {
     layerOffset: -7
     heatLayerOffset: -8
     turretHeatLayer: 49
-    recoilIndex: 0
+    recoilIndex: 1
     under: true
     moves: [
       {
