@@ -8,8 +8,6 @@ requirements: [
   ]
 research: core-fort
 maxAmmo: 25
-heatRequirement: 0
-maxHeatEfficiency: 1.2
 squareSprite: false
 reload: 12
 range: 95
@@ -186,6 +184,7 @@ ammoTypes: {
     speed: 7.5
     lifetime: 14
     buildingDamageMultiplier: 0.7
+    despawnHit: true
     despawnEffect: none
     hitEffect: [
       {
