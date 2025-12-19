@@ -184,7 +184,8 @@ ammoTypes: {
     speed: 7.5
     lifetime: 14
     buildingDamageMultiplier: 0.7
-    despawnEffect: [
+    despawnEffect: none
+    hitEffect: [
       {
       type: ParticleEffect
       colorFrom: db9e60
