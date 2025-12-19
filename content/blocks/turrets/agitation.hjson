@@ -43,7 +43,7 @@ drawer: {
     suffix: -side
     progress: warmup
     moveX: -8
-    y: -2
+    y: -3
     rotation: 20
     mirror: false
     layerOffset: -7
