@@ -103,8 +103,31 @@ drawer: {
       }
     ]
     }
+    //RIGHT LOWER
     {
     suffix: -side-flip
+    progress: warmup
+    moveX: 8
+    y: -3
+    rotation: 20
+    mirror: false
+    layerOffset: -7
+    heatLayerOffset: -8
+    turretHeatLayer: 49
+    recoilIndex: 0
+    under: true
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      y: -1
+      rot: -27.5
+      }
+    ]
+    }
+    //LEFT MID
+    {
+    suffix: -side
     progress: warmup
     moveX: 8
     y: -1
@@ -112,14 +135,36 @@ drawer: {
     layerOffset: -7
     heatLayerOffset: -8
     turretHeatLayer: 49
-    recoilIndex: 1
+    recoilIndex: 0
     under: true
     moves: [
       {
       type: PartMove
       progress: recoil
       y: -1
-      rot: -40
+      rot: -25
+      }
+    ]
+    }
+    //LEFT UPPER
+     {
+    suffix: -side
+    progress: warmup
+    moveX: 8
+    y: 1
+    rotation: 20
+    mirror: false
+    layerOffset: -7
+    heatLayerOffset: -8
+    turretHeatLayer: 49
+    recoilIndex: 0
+    under: true
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      y: -1
+      rot: -22.5
       }
     ]
     }
