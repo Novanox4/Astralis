@@ -1,0 +1,86 @@
+type: ItemTurret
+size: 2
+name: Agitation
+description: Fires rapid bolts towards enemies. Consumes heat.
+requirements: [
+  crystalite/50
+  uranium/40
+  ]
+research: core-fort
+maxAmmo: 25
+squareSprite: false
+reload: 12
+range: 99
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    -4.8, 2.5, 0,
+    4.8, 2.5, 0
+    ]
+  }
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    parts: [
+    {
+    suffix: -barrel-1
+    progress: recoil
+    moveY: -0.6
+    }
+    {
+    suffix: -barrel-2
+    progress: recoil
+    moveY: -0.6
+    }
+  ]
+}
+ammoTypes: {
+  crystalite: {
+    type: BasicBulletType
+    damage: 20
+    backColor: 38a6c9
+    frontColor: ffffff
+    trailColor: 38a6c9
+    trailLength: 10
+    trailWidth: 1
+    width: 6
+    height: 13
+    speed: 10
+    lifetime: 10
+    shootEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: a12413
+      colorTo: 1a1e26
+      interp: pow3Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 16
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: db9e60
+      colorTo: 1a1e26
+      interp: pow3Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 16
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: a43131
+      colorTo: 1a1e26
+      interp: pow3Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 16
+      particles: 3
+      }
+    ]
+  }
+  
