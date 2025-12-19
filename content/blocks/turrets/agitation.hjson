@@ -8,6 +8,8 @@ requirements: [
   ]
 research: core-fort
 maxAmmo: 25
+heatRequirement: 0
+maxHeatEfficiency: 1.2
 squareSprite: false
 reload: 12
 range: 95
