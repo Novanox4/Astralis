@@ -44,7 +44,7 @@ drawer: {
     progress: warmup
     moveX: -8
     y: -2
-    rotation: 20
+    rotation: 40
     mirror: false
     layerOffset: -7
     heatLayerOffset: -8
