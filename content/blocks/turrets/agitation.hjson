@@ -189,8 +189,8 @@ ammoTypes: {
     hitEffect: [
       {
       type: ParticleEffect
-      colorFrom: db9e60
-      colorTo: db9e60
+      colorFrom: 38a6c9
+      colorTo: 38a6c9
       interp: pow3Out
       sizeFrom: 3
       sizeTo: 0
@@ -200,22 +200,22 @@ ammoTypes: {
       }
       {
       type: ParticleEffect
-      colorFrom: db9e60
-      colorTo: db9e60
+      colorFrom: 38a6c9
+      colorTo: 38a6c9
       interp: pow3Out
       line: true
-      lenFrom: 8.5
+      lenFrom: 6
       lenTo: 0
-      strokeFrom: 5
+      strokeFrom: 3.75
       strokeTo: 0
-      length: 16
+      length: 20
       lifetime: 25
       particles: 4
       }
       {
       type: WaveEffect
-      colorFrom: db9e60
-      colorTo: db9e60
+      colorFrom: 38a6c9
+      colorTo: 38a6c9
       interp: pow3Out
       sizeFrom: 0
       sizeTo: 8
