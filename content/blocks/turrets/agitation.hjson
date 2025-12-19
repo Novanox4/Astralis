@@ -193,8 +193,9 @@ ammoTypes: {
       sizeFrom: 3
       sizeTo: 0
       length: 24
-      lifetime: 24
+      lifetime: 40
       particles: 3
+      layer: 99
       }
       {
       type: ParticleEffect
@@ -204,8 +205,9 @@ ammoTypes: {
       sizeFrom: 3
       sizeTo: 0
       length: 24
-      lifetime: 24
+      lifetime: 40
       particles: 3
+      layer: 99
       }
       {
       type: ParticleEffect
@@ -215,13 +217,14 @@ ammoTypes: {
       sizeFrom: 3
       sizeTo: 0
       length: 24
-      lifetime: 24
+      lifetime: 40
       particles: 3
+      layer: 99
       }
       {
       type: WaveEffect
-      colorFrom: a43131
-      colorTo: a43131
+      colorFrom: a12413
+      colorTo: a12413
       interp: pow10Out
       sizeFrom: 0
       sizeTo: 8
