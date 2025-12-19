@@ -192,13 +192,25 @@ ammoTypes: {
       colorFrom: db9e60
       colorTo: db9e60
       interp: pow3Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 16
+      lifetime: 25
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: db9e60
+      colorTo: db9e60
+      interp: pow3Out
+      line: true
       lenFrom: 8.5
       lenTo: 0
       strokeFrom: 5
       strokeTo: 0
       length: 16
       lifetime: 25
-      particles: 3
+      particles: 4
       }
       {
       type: WaveEffect
