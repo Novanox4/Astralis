@@ -44,7 +44,7 @@ drawer: {
     progress: warmup
     moveX: -8
     y: -2
-    rotation: 40
+    rotation: 20
     mirror: false
     layerOffset: -7
     heatLayerOffset: -8
@@ -55,7 +55,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      y: -0.5
+      y: -1
       rot: 27.5
       }
     ]
@@ -98,7 +98,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      y: -1.5
+      y: -1
       rot: 22.5
       }
     ]
