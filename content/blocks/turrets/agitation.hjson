@@ -16,8 +16,8 @@ category: turret
 shoot: {
   type: ShootBarrel
   barrels: [
-    -4.5, 2, 0,
-    4.5, 2, 0
+    -4.3, 1.5, 0,
+    4.3, 1.5, 0
     ]
   }
 drawer: {
@@ -27,14 +27,14 @@ drawer: {
     {
     suffix: -barrel-1
     progress: recoil
-    moveY: -0.6
+    moveY: -0.65
     recoilIndex: 0
     mirror: false
     }
     {
     suffix: -barrel-2
     progress: recoil
-    moveY: -0.6
+    moveY: -0.65
     recoilIndex: 1
     mirror: false
     }
@@ -62,7 +62,7 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 0
       length: 24
-      lifetime: 16
+      lifetime: 24
       particles: 3
       cone: 8
       }
@@ -74,7 +74,7 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 0
       length: 24
-      lifetime: 16
+      lifetime: 24
       particles: 3
       cone: 8
       }
@@ -86,7 +86,7 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 0
       length: 24
-      lifetime: 16
+      lifetime: 24
       particles: 3
       cone: 8
       }
