@@ -72,6 +72,15 @@ contentOrder: [
 
   pulse-bore
 
+  //defense
+
+  crystalite-wall
+  crystalite-wall-large
+
+  //turrets
+
+  agitation
+  
   //env
   //(this is for editor ordering)
 
