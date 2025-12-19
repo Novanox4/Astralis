@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 2
 name: Agitation
-description: Fires rapid bolts towards enemies. Consumes heat.
+description: Fires rapid bolts towards enemies. Can be boosted with heat.
 requirements: [
   crystalite/50
   uranium/40
@@ -184,6 +184,53 @@ ammoTypes: {
     speed: 7.5
     lifetime: 14
     buildingDamageMultiplier: 0.7
+    despawnEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: a12413
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: db9e60
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: a43131
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      }
+      {
+      type: WaveEffect
+      colorFrom: a43131
+      colorTo: a43131
+      interp: pow10Out
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 3
+      strokeTo: 0
+      lifetime: 40
+      sides: 4
+      }
+    ]
     shootEffect: [
       {
       type: ParticleEffect
