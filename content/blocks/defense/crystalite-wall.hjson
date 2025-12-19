@@ -1,0 +1,13 @@
+type: Wall
+size: 1
+name: Crystalite Wall
+requirements: [
+  item-crystalite/6
+  ]
+researchCost:  [
+  item-crystalite/20
+  ]
+research: core-fort
+category: defense
+description: Small, simple wall that provides cover from enemy attacks.
+health: 360
