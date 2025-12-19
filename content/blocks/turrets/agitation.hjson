@@ -64,7 +64,7 @@ ammoTypes: {
       length: 24
       lifetime: 24
       particles: 3
-      cone: 8
+      cone: 15
       }
       {
       type: ParticleEffect
@@ -76,7 +76,7 @@ ammoTypes: {
       length: 24
       lifetime: 24
       particles: 3
-      cone: 8
+      cone: 15
       }
       {
       type: ParticleEffect
@@ -88,7 +88,7 @@ ammoTypes: {
       length: 24
       lifetime: 24
       particles: 3
-      cone: 8
+      cone: 15
       }
     ]
   }
