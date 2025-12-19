@@ -22,6 +22,8 @@ contentOrder: [
   //power
 
   energy-distributor
+  water-turbine
+  uranium-decay-generator
 
   //distribution
 
