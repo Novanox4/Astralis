@@ -44,14 +44,15 @@ drawer: {
     moveX: -8
     y: -1
     mirror: false
-    layerOffset: -2
-    heatLayerOffset: -1
+    layerOffset: -4
+    heatLayerOffset: -3
     recoilIndex: 0
     moves: [
       {
       type: PartMove
       progress: recoil
       x: 3
+      rot: -20
       }
     ]
     }
@@ -61,14 +62,15 @@ drawer: {
     moveX: 8
     y: -1
     mirror: false
-    layerOffset: -2
-    heatLayerOffset: -1
+    layerOffset: -4
+    heatLayerOffset: -3
     recoilIndex: 1
     moves: [
       {
       type: PartMove
       progress: recoil
       x: -3
+      rot: 20
       }
     ]
     }
