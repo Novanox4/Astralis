@@ -16,8 +16,8 @@ category: turret
 shoot: {
   type: ShootBarrel
   barrels: [
-    -4.1, 1.25, 0,
-    4.1, 1.25, 0
+    -3.8, 1.25, 0,
+    3.8, 1.25, 0
     ]
   }
 drawer: {
