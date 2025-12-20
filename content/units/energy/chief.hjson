@@ -6,10 +6,10 @@ hitSize: 9
 engineSize: 0
 engines: [
 {
-  x: 0
+  x: 1.25
   y: -5
   radius: 2.5
-  rotation: 90
+  rotation: 180
 }
 ]
 name: Chief
