@@ -37,7 +37,6 @@ weapons: [
     type: BasicBulletType
     backColor: db5151
     frontColor: ffffff 
-    sprite: missile-large
     speed: 8
     lifetime: 14
     damage: 10
