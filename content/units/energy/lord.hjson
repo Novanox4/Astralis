@@ -20,7 +20,7 @@ engines: [
   rotation: 270
 }
 ]
-name: Chief
+name: Lord
 description: Launches shotgun blasts of energy towards enemy targets.
 outlineColor: 323232
 //research: energy-fabricator
