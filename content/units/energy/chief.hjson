@@ -39,6 +39,7 @@ weapons: [
     type: BasicBulletType
     backColor: db5151
     frontColor: ffffff
+    sprite: large-orb
     speed: 8
     lifetime: 14
     damage: 10
