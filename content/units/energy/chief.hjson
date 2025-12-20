@@ -1,10 +1,11 @@
 type: flying
 flying: true
 health: 450
-speed: 2.5
+speed: 3
 hitSize: 9
 engineSize: 0
-rotateSpeed: 6.25
+rotateSpeed: 6.5
+moveSound: shipMove
 engines: [
 {
   x: 2.625
@@ -24,4 +25,46 @@ description: Launches shotgun blasts of energy towards enemy targets.
 outlineColor: 323232
 //research: energy-fabricator
 parts: []
-weapons: []
+shoot: {
+  firstShotDelay: 30
+}
+weapons: [
+  {
+  reload: 60
+  shootSound: shootSalvo
+  chargeSound: shieldWave
+  bulletType: {
+    type: BasicBulletType
+    backColor: db5151
+    frontColor: ffffff
+    speed: 8
+    lifetime: 14
+    damage: 10
+    splashDamage: 10
+    splashDamageRadius: 8
+    shootEffect: [
+      {
+      type: WaveEffect
+      colorTo: db5151
+      sizeTo: 10
+      strokeFrom: 3
+      lifetime: 28.5
+      interp: pow3Out
+      }
+      {
+      type: ParticleEffect
+      colorTo: db5151
+      line: true
+      cone: 9
+      particles: 5
+      lenFrom: 6
+      lenTo: 5.5
+      strokeFrom: 3
+      lifetime: 28.5
+      length: 18
+      interp: pow3Out
+      }
+    ]
+  }
+}
+]
