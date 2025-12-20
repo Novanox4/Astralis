@@ -173,9 +173,9 @@ drawer: {
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
-    damage: 20
-    splashDamage: 5
-    splashDamageRadius: 6
+    damage: 17.5
+    splashDamage: 10
+    splashDamageRadius: 9
     splashDamagePierce: true
     backColor: 38a6c9
     frontColor: ffffff
@@ -186,7 +186,7 @@ ammoTypes: {
     height: 13
     speed: 7.5
     lifetime: 25
-    buildingDamageMultiplier: 0.7
+    buildingDamageMultiplier: 0.6
     despawnHit: true
     despawnEffect: none
     hitEffect: [
