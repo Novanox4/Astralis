@@ -3,6 +3,7 @@ flying: true
 health: 450
 speed: 2
 hitSize: 9
+engineSize: 0
 engines: [
   {
   x: 1.25
