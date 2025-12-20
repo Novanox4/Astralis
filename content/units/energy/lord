@@ -1,4 +1,5 @@
 type: flying
+//wip till resprite
 flying: true
 health: 450
 speed: 3
