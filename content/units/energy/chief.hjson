@@ -6,9 +6,15 @@ hitSize: 9
 engineSize: 0
 engines: [
 {
-  x: 2.5
-  y: -4.5
-  radius: 1.75
+  x: 2.75
+  y: -4.25
+  radius: 1.65
+  rotation: 270
+}
+{
+  x: -2.75
+  y: -4.25
+  radius: 1.65
   rotation: 270
 }
 ]
