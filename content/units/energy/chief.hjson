@@ -1,16 +1,16 @@
 type: flying
 flying: true
 health: 450
-speed: 2
+speed: 2.5
 hitSize: 9
 engineSize: 0
 engines: [
-  {
-  x: 1.25
-  y: -4
+{
+  x: 0
+  y: -5
+  radius: 2.5
   rotation: 90
-  size: 2
-  }
+}
 ]
 name: Chief
 description: Launches shotgun blasts of energy towards enemy targets.
