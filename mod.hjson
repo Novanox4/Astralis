@@ -16,7 +16,16 @@ contentOrder: [
 
   //units
 
+  //core
+
   builder
+
+  //energy
+
+  chief
+
+  //bio
+
   flu
 
   //power
