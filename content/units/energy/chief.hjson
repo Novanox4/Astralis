@@ -4,6 +4,7 @@ health: 450
 speed: 2.5
 hitSize: 9
 engineSize: 0
+rotateSpeed: 6.25
 engines: [
 {
   x: 2.75
