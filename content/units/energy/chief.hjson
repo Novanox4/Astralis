@@ -33,6 +33,8 @@ weapons: [
   reload: 60
   shootSound: shootSalvo
   chargeSound: shieldWave
+  x: 0
+  y: -2
   bulletType: {
     type: BasicBulletType
     backColor: db5151
