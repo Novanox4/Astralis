@@ -25,21 +25,19 @@ description: Launches shotgun blasts of energy towards enemy targets.
 outlineColor: 323232
 //research: energy-fabricator
 parts: []
-shoot: {
-  firstShotDelay: 30
-}
 weapons: [
   {
-  reload: 60
+  reload: 80
   shootSound: shootSalvo
-  chargeSound: shieldWave
   x: 0
   y: -2
+  shootStatus: slow
+  shootStatusDuration: 85
   bulletType: {
     type: BasicBulletType
     backColor: db5151
-    frontColor: ffffff
-    sprite: large-orb
+    frontColor: ffffff 
+    sprite: missile-large
     speed: 8
     lifetime: 14
     damage: 10
