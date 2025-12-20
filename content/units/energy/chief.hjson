@@ -7,14 +7,14 @@ engineSize: 0
 rotateSpeed: 6.25
 engines: [
 {
-  x: 2.75
-  y: -4.25
+  x: 2.625
+  y: -4.5
   radius: 1.65
   rotation: 270
 }
 {
-  x: -2.75
-  y: -4.25
+  x: -2.625
+  y: -4.5
   radius: 1.65
   rotation: 270
 }
