@@ -1,0 +1,19 @@
+type: flying
+flying: true
+health: 450
+speed: 2
+hitSize: 9
+engines: [
+  {
+  x: 1.25
+  y: -2
+  rotation: 90
+  size: 2
+  }
+]
+name: Chief
+description: Launches shotgun blasts of energy towards enemy targets.
+outlineColor: 323232
+//research: energy-fabricator
+parts: []
+weapons: []
