@@ -24,6 +24,7 @@ weapons: [
     shots: 3
     spread: 6
   }
+  rotate: true
   bullet: {
     type: BasicBulletType
     backColor: 979ca1
