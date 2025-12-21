@@ -13,9 +13,9 @@ Khora holds the ability to manipulate matter, giving it the strength to damage e
 cost: 1
 healthScaling: 1
 hardness: 1
-flammability: 0.2
+flammability: 8
 radioactivity: -1
-charge: -0.35
-explosiveness: 1.2
+charge: 3
+explosiveness: -0.2
 color: c44d2f
 research: auric-multiplating
