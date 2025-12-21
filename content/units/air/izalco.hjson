@@ -71,10 +71,26 @@ weapons: [
       shrinkY: 0
       sprite: "astralis-triangle-bullet"
       lifetime: 40
-      speed: 0.0015
+      speed: 0.005
       followAimSpeed: 2000
       damage: 0
       collides: false
+      despawnEffect: none
+      hitEffect: none
+      parts: [
+        {
+        type: FlarePart
+        color1: 979ca1
+        radius: 0
+        radiusTo: 75
+        stroke: 5.5
+        }
+      ]
+      fragRandomSpread: 0
+      fragBullets: 1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragVelocityMin: 1
       }
     }
   }
