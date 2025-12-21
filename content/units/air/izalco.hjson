@@ -31,6 +31,7 @@ weapons: [
     backColor: 979ca1
     sprite: "astralis-triangle-bullet"
     shrinkY: 0
+    keepVelocity: false
     speed: 3.15
     lifetime: 50
     damage: 2
