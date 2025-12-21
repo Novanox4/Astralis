@@ -29,7 +29,9 @@ weapons: [
   bullet: {
     type: BasicBulletType
     backColor: 979ca1
-    sprite: "astralis-triangle-bullet"
+    sprite: "missile"
+    width: 4
+    height: 8
     shrinkY: 0
     keepVelocity: false
     speed: 3.15
