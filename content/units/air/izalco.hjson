@@ -42,8 +42,8 @@ weapons: [
     weaveMag: 1.5
     despawnEffect: none
     despawnHit: true
-    trailChance: 1
-    trailInterval: 17.5
+    trailInterval: 50
+    trailChance: 5
     trailEffect: {
       type: ParticleEffect
       colorTo: 979ca1
