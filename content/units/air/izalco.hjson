@@ -28,7 +28,7 @@ weapons: [
     backColor: 979ca1
     sprite: "astralis-triangle-bullet"
     speed: 8
-    lifetime: 15
+    lifetime: 40
     damage: 0
     collides: false
     accel: -0.5
