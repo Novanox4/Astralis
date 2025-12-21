@@ -5,7 +5,7 @@ outlineColor: 323232
 health: 450
 speed: 1.85
 engineSize: 2
-engineOffset: 2
+engineOffset: 5
 rotateSpeed: 5.1
 moveSound: shipMove
 name: Izalco
