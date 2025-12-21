@@ -4,8 +4,8 @@ lowAltitude: true
 outlineColor: 323232
 health: 450
 speed: 1.85
-engineSize: 3
-engineOffset: 5.25
+engineSize: 2.85
+engineOffset: 6.25
 rotateSpeed: 5.1
 moveSound: shipMove
 name: Izalco
@@ -17,12 +17,12 @@ weapons: [
   mirror: false
   name: izalco-blaster
   recoil: 1
-  reload: 77.5
+  reload: 20
   shootSound: shootAvert
   shoot: {
     type: ShootSpread
     shots: 3
-    spread: 17.5
+    spread: 11
   }
   bullet: {
     type: BasicBulletType
@@ -31,11 +31,10 @@ weapons: [
     shrinkY: 0
     speed: 3.15
     lifetime: 50
-    damage: 7.5
+    damage: 2
     accel: -0.02
-    despawnEffect: none
-    hitEffect: none
-    followAimSpeed: 2
+    weaveScale: 2
+    weaveMag: 0.75
     shootEffect: [
       {
       type: WaveEffect
