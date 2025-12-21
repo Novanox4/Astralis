@@ -33,8 +33,8 @@ weapons: [
     lifetime: 50
     damage: 2
     accel: -0.02
-    weaveScale: 6
-    weaveMag: 3
+    weaveScale: 4.85
+    weaveMag: 1.75
     shootEffect: [
       {
       type: WaveEffect
