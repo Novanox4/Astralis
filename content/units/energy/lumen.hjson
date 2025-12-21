@@ -1,7 +1,7 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 7
+legLength: 20
 legBaseOffset: 0.3
 name: Lumen
 description: Shoots homing bullets from it's sides. Explodes on death.
