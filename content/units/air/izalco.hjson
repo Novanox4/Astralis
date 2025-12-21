@@ -40,11 +40,10 @@ weapons: [
       {
       type: WaveEffect
       layer: 99
-      sizeTo: 3
+      sizeTo: 6.5
       strokeFrom: 1.85
       lifetime: 40
       interp: pow3Out
-      sides: 6
       }
       {
       type: ParticleEffect
