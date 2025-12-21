@@ -71,8 +71,7 @@ weapons: [
       sprite: "astralis-triangle-bullet"
       lifetime: 40
       speed: 0.01
-      homingRange: 80
-      homingPower: 20
+      followAimSpeed: 20
       damage: 0
       collides: false
       }
