@@ -48,13 +48,14 @@ weapons: [
       type: ParticleEffect
       line: true
       layer: 99
-      strokeFrom: 3
-      lenFrom: 8
-      lenTo: 7
+      strokeFrom: 2
+      lenFrom: 5
+      lenTo: 4
       interp: pow3Out
       lifetime: 27.5
-      length: 28
-      cone: 5
+      length: 20
+      cone: 4
+      particles: 2
       }
     ]
   }
