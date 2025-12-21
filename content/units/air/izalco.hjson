@@ -32,7 +32,7 @@ weapons: [
     speed: 3.75
     lifetime: 50
     damage: 7.5
-    accel: -0.085
+    accel: -0.02
     despawnEffect: none
     hitEffect: none
     followAimSpeed: 2
