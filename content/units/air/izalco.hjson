@@ -52,11 +52,11 @@ weapons: [
       line: true
       layer: 99
       strokeFrom: 2
-      lenFrom: 5
-      lenTo: 4
+      lenFrom: 4
+      lenTo: 3.5
       interp: pow3Out
       lifetime: 27.5
-      length: 20
+      length: 12
       particles: 5
       }
       ]
