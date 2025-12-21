@@ -71,7 +71,7 @@ weapons: [
       sprite: "astralis-triangle-bullet"
       lifetime: 40
       speed: 0.01
-      followAimSpeed: 20
+      followAimSpeed: 2000
       damage: 0
       collides: false
       }
