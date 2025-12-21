@@ -4,8 +4,8 @@ lowAltitude: true
 outlineColor: 323232
 health: 450
 speed: 1.85
-engineSize: 2
-engineOffset: 5
+engineSize: 3
+engineOffset: 5.25
 rotateSpeed: 5.1
 moveSound: shipMove
 name: Izalco
@@ -13,7 +13,7 @@ description: Shoots a spread of 3 energy blasts.
 weapons: [
   {
   x: 0
-  y: -1
+  y: -2
   mirror: false
   name: izalco-blaster
   recoil: 1
@@ -56,6 +56,21 @@ weapons: [
       length: 20
       cone: 4
       particles: 2
+      }
+    fragRandomSpread: 0
+    fragBullets: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullet: {
+      type: BasicBulletType
+      backColor: 979ca1
+      sprite: "astralis-triangle-bullet"
+      lifetime: 40
+      homingRange: 40
+      homingPower: 2
+      damage: 0
+      collides: false
+      speed: 0
       }
     ]
   }
