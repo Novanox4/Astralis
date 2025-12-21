@@ -15,7 +15,7 @@ healthScaling: 1
 hardness: 1
 flammability: 8
 radioactivity: -1
-charge: 3
-explosiveness: -0.2
+charge: 6.5
+explosiveness: 0.1
 color: c44d2f
 research: auric-multiplating
