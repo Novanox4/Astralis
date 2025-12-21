@@ -64,6 +64,7 @@ weapons: [
     fragBullets: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
+    fragVelocityMin: 1
     fragBullet: {
       type: BasicBulletType
       backColor: 979ca1
