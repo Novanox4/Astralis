@@ -2,16 +2,15 @@ type: legs
 legCount: 4
 legGroupSize: 2
 legLength: 15
-legBaseOffset: 2
-legExtension: -0.5
+legBaseOffset: 3
+legExtension: -1.25
 legSpeed: 0.15
-legStraightness: 0.1
-legMaxLength: 1
+legStraightness: 0
+legMaxLength: 1.2
 legForwardScl: 1.25
 name: Lumen
 description: Shoots homing bullets from it's sides. Explodes on death.
 health: 300
 speed: 2
-lockLegBase: true
 outlineColor: 323232
 weapons: []
