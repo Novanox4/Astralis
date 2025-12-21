@@ -45,7 +45,7 @@ weapons: [
     trailInterval: 50
     trailColor: 979ca1
     trailWidth: 2
-    trailLength: 10
+    trailLength: 13
     hitEffect: [
       {
       type: WaveEffect
