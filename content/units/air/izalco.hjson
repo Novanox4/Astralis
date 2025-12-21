@@ -8,6 +8,8 @@ engineSize: 2
 engineOffset: 2
 rotateSpeed: 5.1
 moveSound: shipMove
+name: Izalco
+description: Shoots a spread of 3 energy blasts.
 weapons: [
   {
   x: 0
@@ -15,10 +17,11 @@ weapons: [
   mirror: false
   name: izalco-blaster
   recoil: 1
+  reload: 77.5
   shoot: {
     type: ShootSpread
     shots: 3
-    spread: 20
+    spread: 17.5
   }
   bullet: {
     type: BasicBulletType
@@ -31,7 +34,6 @@ weapons: [
     accel: -0.5
     despawnEffect: none
     hitEffect: none
-    layer: 99
     shootEffect: [
       {
       type: WaveEffect
@@ -52,7 +54,7 @@ weapons: [
       interp: pow3Out
       lifetime: 27.5
       length: 28
-      cone: 9.5
+      cone: 5
       }
     ]
   }
