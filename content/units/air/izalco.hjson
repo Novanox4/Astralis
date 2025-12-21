@@ -75,7 +75,6 @@ weapons: [
       homingPower: 20
       damage: 0
       collides: false
-      speed: 0
       }
     }
   }
