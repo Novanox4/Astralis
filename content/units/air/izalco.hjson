@@ -67,12 +67,10 @@ weapons: [
       length: 12
       particles: 5
       }
-      ]
-    shootEffect: [
-      {
+    ]
+    shootEffect: {
       type: ParticleEffect
       line: true
-      layer: 99
       strokeFrom: 2
       lenFrom: 5
       lenTo: 4
@@ -82,7 +80,6 @@ weapons: [
       cone: 4
       particles: 2
       }
-      ]
     }
   }
 ]
