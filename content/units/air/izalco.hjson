@@ -22,7 +22,7 @@ weapons: [
   shoot: {
     type: ShootSpread
     shots: 3
-    spread: 6
+    spread: 3.75
   }
   rotate: true
   bullet: {
@@ -36,15 +36,31 @@ weapons: [
     accel: -0.02
     weaveScale: 4
     weaveMag: 1.5
-    shootEffect: [
+    despawnEffect: none
+    despawnHit: true
+    hitEffect: [
       {
       type: WaveEffect
       layer: 99
-      sizeTo: 6.5
-      strokeFrom: 1.85
+      sizeTo: 6
+      strokeFrom: 2.15
       lifetime: 40
       interp: pow3Out
       }
+      {
+      type: ParticleEffect
+      line: true
+      layer: 99
+      strokeFrom: 2
+      lenFrom: 5
+      lenTo: 4
+      interp: pow3Out
+      lifetime: 27.5
+      length: 20
+      particles: 5
+      }
+      ]
+    shootEffect: [
       {
       type: ParticleEffect
       line: true
