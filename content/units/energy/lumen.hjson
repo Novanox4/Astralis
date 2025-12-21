@@ -1,9 +1,9 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 15
-legBaseOffset: 3
-legExtension: -1.25
+legLength: 13
+legBaseOffset: 4.5
+legExtension: -1.75
 legSpeed: 0.15
 legStraightness: 0
 legMaxLength: 1.2
