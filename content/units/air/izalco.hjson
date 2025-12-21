@@ -43,7 +43,7 @@ weapons: [
     despawnEffect: none
     despawnHit: true
     trailChance: 1
-    trailInterval: 12
+    trailInterval: 17.5
     trailEffect: {
       type: ParticleEffect
       colorTo: 979ca1
