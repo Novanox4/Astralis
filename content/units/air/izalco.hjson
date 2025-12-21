@@ -30,12 +30,12 @@ weapons: [
     sprite: "astralis-triangle-bullet"
     shrinkY: 0
     speed: 8
-    lifetime: 30
-    damage: 0
-    collides: false
-    accel: -1
+    lifetime: 50
+    damage: 7.5
+    accel: -0.15
     despawnEffect: none
     hitEffect: none
+    followAimSpeed: 2
     shootEffect: [
       {
       type: WaveEffect
@@ -66,33 +66,25 @@ weapons: [
     fragOffsetMax: 0
     fragVelocityMin: 1
     fragBullet: {
-      type: BasicBulletType
-      backColor: 979ca1
-      shrinkY: 0
-      sprite: "astralis-triangle-bullet"
-      lifetime: 40
-      speed: 0.08
-      followAimSpeed: 20000
-      damage: 0
-      collides: false
-      despawnEffect: none
-      hitEffect: none
-      parts: [
+      type: RailBulletType
+      damage: 10
+      pierce: false
+      pierceBuilding: false
+      length: 70
+      pointEffectSpace: 10
+      pierceEffect: none
+      lineEffect: [
         {
-        type: FlarePart
-        color1: 979ca1
-        radius: 0
-        radiusTo: 6
-        stroke: 1.8
-        rotMove: 45
+        type: ParticleEffect
+        line: true
+        lenFrom: 8
+        lenTo: 7
+        strokeFrom: 2
+        lifetime: 30
+        particle: 1
+        length: 0
         }
-      ]
-      fragRandomSpread: 0
-      fragBullets: 1
-      fragOffsetMin: 0
-      fragOffsetMax: 0
-      fragVelocityMin: 1
-      //fragBullet: {
+        ]
       }
     }
   }
