@@ -42,9 +42,8 @@ weapons: [
     weaveMag: 1.5
     despawnEffect: none
     despawnHit: true
-    trailInterval: 50
     trailColor: 979ca1
-    trailWidth: 2
+    trailWidth: 1.8
     trailLength: 13
     hitEffect: [
       {
