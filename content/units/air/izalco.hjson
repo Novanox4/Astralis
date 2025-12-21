@@ -29,10 +29,10 @@ weapons: [
     backColor: 979ca1
     sprite: "astralis-triangle-bullet"
     shrinkY: 0
-    speed: 2.75
+    speed: 4
     lifetime: 50
     damage: 7.5
-    accel: -0.15
+    accel: -0.1
     despawnEffect: none
     hitEffect: none
     followAimSpeed: 2
@@ -59,32 +59,7 @@ weapons: [
       cone: 4
       particles: 2
       }
-    ]
-    fragRandomSpread: 0
-    fragBullets: 1
-    fragOffsetMin: 0
-    fragOffsetMax: 0
-    fragVelocityMin: 1
-    fragBullet: {
-      type: RailBulletType
-      damage: 10
-      pierce: false
-      pierceBuilding: false
-      length: 70
-      pointEffectSpace: 10
-      pierceEffect: none
-      lineEffect: [
-        {
-        type: ParticleEffect
-        line: true
-        lenFrom: 8
-        lenTo: 7
-        strokeFrom: 2
-        lifetime: 30
-        particle: 1
-        length: 0
-        }
-        ]
+      ]
       }
     }
   }
