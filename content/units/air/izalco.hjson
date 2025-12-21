@@ -43,15 +43,9 @@ weapons: [
     despawnEffect: none
     despawnHit: true
     trailInterval: 50
-    trailChance: 5
-    trailEffect: {
-      type: ParticleEffect
-      colorTo: 979ca1
-      sizeFrom: 1.5
-      sizeTo: 0
-      length: 0
-      particles: 1
-    }
+    trailColor: ffffff
+    trailWidth: 2
+    trailLength: 10
     hitEffect: [
       {
       type: WaveEffect
