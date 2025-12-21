@@ -29,7 +29,7 @@ weapons: [
     backColor: 979ca1
     sprite: "astralis-triangle-bullet"
     shrinkY: 0
-    speed: 8
+    speed: 2.75
     lifetime: 50
     damage: 7.5
     accel: -0.15
