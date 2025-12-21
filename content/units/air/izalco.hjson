@@ -30,7 +30,7 @@ weapons: [
     type: BasicBulletType
     backColor: 979ca1
     sprite: "missile"
-    width: 4
+    width: 6
     height: 8
     shrinkY: 0
     keepVelocity: false
@@ -43,7 +43,7 @@ weapons: [
     despawnEffect: none
     despawnHit: true
     trailInterval: 50
-    trailColor: ffffff
+    trailColor: 979ca1
     trailWidth: 2
     trailLength: 10
     hitEffect: [
