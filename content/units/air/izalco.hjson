@@ -82,8 +82,9 @@ weapons: [
         type: FlarePart
         color1: 979ca1
         radius: 0
-        radiusTo: 75
-        stroke: 5.5
+        radiusTo: 10
+        stroke: 2
+        rotMove: 45
         }
       ]
       fragRandomSpread: 0
