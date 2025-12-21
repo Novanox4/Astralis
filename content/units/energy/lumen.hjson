@@ -1,1 +1,12 @@
-
+type: legs
+legCount: 4
+legGroupSize: 2
+legLength: 7
+legBaseOffset: 0.3
+name: Lumen
+description: Shoots homing bullets from it's sides. Explodes on death.
+health: 300
+speed: 2
+lockLegBase: true
+outlineColor: 323232
+weapons: []
