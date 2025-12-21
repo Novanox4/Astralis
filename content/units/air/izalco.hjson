@@ -57,6 +57,7 @@ weapons: [
       cone: 4
       particles: 2
       }
+    ]
     fragRandomSpread: 0
     fragBullets: 1
     fragOffsetMin: 0
