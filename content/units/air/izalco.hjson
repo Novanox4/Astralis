@@ -47,7 +47,7 @@ weapons: [
     trailEffect: {
       type: ParticleEffect
       colorTo: 979ca1
-      sizeFrom: 8
+      sizeFrom: 2
       sizeTo: 0
       length: 0
       particles: 1
