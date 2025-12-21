@@ -22,7 +22,7 @@ weapons: [
   shoot: {
     type: ShootSpread
     shots: 3
-    spread: 11
+    spread: 6
   }
   bullet: {
     type: BasicBulletType
@@ -33,8 +33,8 @@ weapons: [
     lifetime: 50
     damage: 2
     accel: -0.02
-    weaveScale: 4.85
-    weaveMag: 1.75
+    weaveScale: 4
+    weaveMag: 1.5
     shootEffect: [
       {
       type: WaveEffect
