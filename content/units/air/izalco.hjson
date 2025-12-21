@@ -73,7 +73,6 @@ weapons: [
       collides: false
       speed: 0
       }
-    ]
+    }
   }
-}
 ]
