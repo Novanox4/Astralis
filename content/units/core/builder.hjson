@@ -7,6 +7,7 @@ buildSpeed: 1.4
 mineWalls: true
 mineFloor: true
 mineSpeed: 6
+mineRange: 180
 mineTier: 3
 accel: 0.2
 controller: BuilderAI
