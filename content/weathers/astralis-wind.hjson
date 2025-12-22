@@ -4,8 +4,8 @@ color: ffffffb3
 padding: 0
 xspeed: -4.25
 yspeed: -0.175
-minAlpha: 0.1
-maxAlpha: 0.3
+minAlpha: 0.05
+maxAlpha: 0.175
 sizeMin: 4
 sizeMax: 14
 density: 1000
