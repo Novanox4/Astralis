@@ -27,3 +27,4 @@ placeableLiquid: true
 health: 600
 replaceable: true
 alwaysReplace: true
+targetable: false
