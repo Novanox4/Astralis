@@ -3,7 +3,7 @@ category: power
 size: 2
 requirements: [
   crystalite/6
-  uranium/6
+  silver/6
   ]
 name: Energy Distributor
 description: Transports power. Efficient.
