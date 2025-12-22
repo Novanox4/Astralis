@@ -15,7 +15,8 @@ The signal serves the purpose of both driving away biological threats and lettin
 unitType: builder
 isFirstTier: true
 requirements: [
-  crystalite/1250
+  crystalite/800
+  silver/800
   uranium/800
 ]
 research: {
