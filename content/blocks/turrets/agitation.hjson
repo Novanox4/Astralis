@@ -174,7 +174,7 @@ ammoTypes: {
   crystalite: {
     type: BasicBulletType
     damage: 17.5
-    splashDamage: 10
+    splashDamage: 12
     splashDamageRadius: 9
     splashDamagePierce: true
     backColor: 38a6c9
