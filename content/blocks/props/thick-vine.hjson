@@ -9,7 +9,7 @@ drawTeamOverlay: false
 allowDerelictRepair: false
 alwaysReplace: false
 destructible: true
-buildTime: 125
+buildTime: 90
 instantDeconstruct: false
 requirements: [
   biomatter/75
@@ -25,3 +25,5 @@ rotationRand: 18
 solid: false
 placeableLiquid: true
 health: 600
+replaceable: true
+alwaysReplace: true
