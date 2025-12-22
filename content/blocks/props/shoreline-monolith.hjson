@@ -6,6 +6,7 @@ hasShadow: false
 drawTeamOverlay: false
 allowDerelictRepair: false
 alwaysReplace: false
+replaceable: false
 buildVisibility: sandboxOnly
 solid: true
 destructible: true
