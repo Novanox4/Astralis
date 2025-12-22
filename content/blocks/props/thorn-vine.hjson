@@ -24,3 +24,5 @@ hasShadow: false
 rotationRand: 360
 solid: false
 placeableLiquid: true
+replaceable: true
+alwaysReplace: true
