@@ -25,3 +25,4 @@ requirements: [
   ]
 forceTeam: 5
 name: Large Pillars
+targetable: false
