@@ -9,7 +9,7 @@ drawTeamOverlay: false
 allowDerelictRepair: false
 alwaysReplace: false
 destructible: true
-buildTime: 60
+buildTime: 45
 instantDeconstruct: false
 requirements: [
   biomatter/10
