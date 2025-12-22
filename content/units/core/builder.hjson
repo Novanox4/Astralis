@@ -60,12 +60,20 @@ abilities: [
   {
   type: EnergyFieldAbility
   damage: 0
-  reload: 30
+  reload: 15
   range: 80
   maxTargets: 15
-  healPercent: 1
+  healPercent: 0.45
   sameTypeHealMult: 1.75
   layer: -11
   color: 94e3f1
+  healEffect: {
+    type: WaveEffect
+    colorTo: 94e3f1
+    sizeTo: 4
+    lifetime: 15
+    interp: pow3Out
+    strokeFrom: 1
+    }
   }
 ]
