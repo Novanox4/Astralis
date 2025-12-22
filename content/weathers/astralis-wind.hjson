@@ -8,6 +8,6 @@ minAlpha: 0.05
 maxAlpha: 0.175
 sizeMin: 4
 sizeMax: 14
-density: 1000
+density: 1600
 sound: wind2
 soundVol: 0.875
