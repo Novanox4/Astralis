@@ -18,9 +18,9 @@ alwaysUnlocked: true
 research: core-fort
 outlineColor: 323232
 name: Builder
-description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, creates drones to heal any nearby units."
+description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, heals units and buildings with pulses of energy."
 rotateToBuilding: true
-engines: [
+engines
   {  
   x: -2.25
   y: -5.2
@@ -54,5 +54,18 @@ weapons: [
   y: 4.75
   mirror: true
   shootY: 0
+  }
+]
+abilities: [
+  {
+  type: EnergyFieldAbility
+  damage: 0
+  reload: 30
+  range: 80
+  maxTargets: 15
+  healPercent: 1
+  sameTypeHealMult: 1.75
+  layer: -11
+  color: 94e3f1
   }
 ]
