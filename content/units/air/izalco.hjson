@@ -33,7 +33,6 @@ weapons: [
     width: 6
     height: 8
     shrinkY: 0
-    keepVelocity: false
     speed: 3.15
     velocityScaleRandMin: 0.9
     lifetime: 50
