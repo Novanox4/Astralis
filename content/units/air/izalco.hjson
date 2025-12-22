@@ -51,7 +51,7 @@ weapons: [
       layer: 99
       sizeTo: 6
       strokeFrom: 2.15
-      lifetime: 40
+      lifetime: 30
       interp: pow3Out
       }
       {
@@ -62,7 +62,7 @@ weapons: [
       lenFrom: 4
       lenTo: 3.5
       interp: pow3Out
-      lifetime: 27.5
+      lifetime: 22
       length: 12
       particles: 5
       }
@@ -74,7 +74,7 @@ weapons: [
       lenFrom: 5
       lenTo: 4
       interp: pow3Out
-      lifetime: 27.5
+      lifetime: 20
       length: 20
       cone: 4
       particles: 2
