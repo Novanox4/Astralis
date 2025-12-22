@@ -27,4 +27,3 @@ placeableLiquid: true
 replaceable: true
 alwaysReplace: true
 targetable: false
-forceTeam: 0
