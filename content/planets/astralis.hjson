@@ -6,7 +6,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-startSector: 7
+startSector: 246
 orbitSpacing: 1
 radius: 0.99
 minZoom: 1
