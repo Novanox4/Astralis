@@ -1,3 +1,5 @@
 damageMultiplier: 0.9
 speedMultipler: 0.875
 reloadMultiplier: 0.9
+name: Zapped
+show: false
