@@ -26,3 +26,5 @@ solid: false
 placeableLiquid: true
 replaceable: true
 alwaysReplace: true
+targetable: false
+forceTeam: none
