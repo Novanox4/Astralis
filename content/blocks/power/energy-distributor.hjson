@@ -5,6 +5,10 @@ requirements: [
   crystalite/6
   silver/6
   ]
+researchCost: [
+  crystalite/30
+  silver/20
+  ]
 name: Energy Distributor
 description: Transports power. Efficient.
 laserScale: 0.65
