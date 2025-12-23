@@ -1,0 +1,13 @@
+localizedName: "Deserted Wastes"
+description: "[accent]INCOMING SIGNAL FROM RESISTANCE OFFICIALS[]
+  
+Land on the sector. You should know what to do by now.
+  
+Get resources, defend, research, move on."
+sector: 246
+planet: astralis
+difficulty: 1
+research: core-fort
+alwaysVisible: true
+captureWave: 6
+alwaysUnlocked: true
