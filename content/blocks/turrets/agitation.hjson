@@ -267,4 +267,4 @@ ammoTypes: {
     ]
   }
 }
-  
+researchCostMultiplier: 0.1
