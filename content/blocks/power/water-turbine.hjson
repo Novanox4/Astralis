@@ -9,6 +9,10 @@ requirements: [
   crystalite/30
   silver/25
   ]
+researchCost: [
+  crystalite/40
+  silver/30
+  ]
 powerProduction: 1.1
 size: 2
 category: power
