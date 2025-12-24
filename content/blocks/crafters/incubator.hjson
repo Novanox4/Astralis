@@ -12,7 +12,7 @@ outputItem: biomatter/3
 attribute: growth
 maxBoost: 2
 craftTime: 240
-category: production
+category: crafting
 //research: metaglass-hearth
 consumes: {
   power: 3
