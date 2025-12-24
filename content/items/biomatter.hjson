@@ -10,7 +10,6 @@ It's orange color is given by a symbiotic relationship with a bacteria which pro
 
 Can be obtained from overgrowths or cultivated. They grow via absorption of environmental metals, which can be retrieved via chemical processes.
 '''
-buildable: false
 hardness: 0.3
 flammability: 1.1
 radioactivity: 0
