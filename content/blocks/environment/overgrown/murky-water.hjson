@@ -9,4 +9,5 @@ isLiquid: true
 cacheLayer: water
 attributes: {
   turbine: 0.2
+  growth: 0.25
 }
