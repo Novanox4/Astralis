@@ -13,6 +13,7 @@ contentOrder: [
   //attributes
 
   attribute-turbine
+  attribute-growth
 
   //units
 
