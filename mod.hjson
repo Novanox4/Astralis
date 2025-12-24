@@ -22,7 +22,7 @@ contentOrder: [
 
   //energy
 
-  chief
+  izalco
 
   //bio
 
@@ -33,6 +33,8 @@ contentOrder: [
   energy-distributor
   water-turbine
   uranium-decay-generator
+
+  //crafting
 
   //distribution
 
