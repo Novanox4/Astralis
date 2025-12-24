@@ -1,5 +1,5 @@
 name: Biomatter
-description: "Orange-hued plant based lifeform. Flammable. Can be further produced or burnt to generate power. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
+description: "Orange-hued plant based lifeform. Flammable. Can be further produced or burnt to generate power. [accent]While it cannot be used to build, the core will accept it's insertion.[]"
 details: 
 '''
 RESOURCE ANALYSIS #3
