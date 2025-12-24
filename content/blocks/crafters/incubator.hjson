@@ -19,6 +19,7 @@ consumes: {
   liquids: [
     water/1
   ]
+}
 drawer: [
   {
   type: DrawRegion
