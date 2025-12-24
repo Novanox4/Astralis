@@ -7,6 +7,7 @@ requirements: [
 ]
 researchCostMultiplier: 0.5
 health: 125
+itemCapacity: 25
 name: Incubator
 description: Cultivates biomatter using water and power. More efficient on overgrowths or water.
 outputItem: biomatter/3
