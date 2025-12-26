@@ -265,7 +265,7 @@ ammoTypes: {
       particles: 3
       cone: 15
       }
-      type: ParticleEffec
+      type: ParticleEffect
       casingFlip: true
       colorFrom: db9e60ff
       colorTo: 4d474700
