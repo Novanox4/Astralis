@@ -277,16 +277,16 @@ ammoTypes: {
       strokeFrom: 1.9
       strokeTo: 1.85
       lifetime: 40
-      cone: 30
+      cone: 6
       particles: 1
       offsetX: 10
       offsetY: -2
       spin: 1.2
       baseRotation: 90
       randLength: false
-      length: 15
-      interp: pow5Out
-      offset: 30
+      length: 14
+      interp: pow10Out
+      offset: 90
       }
     ]
   }
