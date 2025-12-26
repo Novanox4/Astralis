@@ -279,10 +279,10 @@ ammoTypes: {
       lifetime: 40
       cone: 30
       particles: 1
-      offsetX: 1
+      offsetX: 10
       offsetY: -2
-      spin: 0.8
-      baseRotation: 0
+      spin: 1.2
+      baseRotation: 90
       randLength: false
       length: 20
       interp: pow3Out
