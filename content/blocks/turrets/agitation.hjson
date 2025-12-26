@@ -273,7 +273,7 @@ ammoTypes: {
       alpha: 0.33
       sizeFrom: 1.8
       sizeTo: 1.7
-      region: "astralis-bullet-casing"
+      region: astralis-bullet-casing
       lifetime: 40
       cone: 6
       particles: 1
