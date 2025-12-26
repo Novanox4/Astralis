@@ -287,5 +287,5 @@ ammoUseEffect: {
   length: 14
   interp: pow10Out
   offset: 90
-  lightOpacity
+  lightOpacity: 0.8
 }
