@@ -284,8 +284,9 @@ ammoTypes: {
       spin: 1.2
       baseRotation: 90
       randLength: false
-      length: 20
-      interp: pow3Out
+      length: 15
+      interp: pow5Out
+      offset: 30
       }
     ]
   }
