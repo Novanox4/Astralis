@@ -265,28 +265,28 @@ ammoTypes: {
       particles: 3
       cone: 15
       }
-      {
-      type: ParticleEffect
-      casingFlip: true
-      colorFrom: db9e60ff
-      colorTo: 4d474700
-      alpha: 0.33
-      sizeFrom: 1.8
-      sizeTo: 1.7
-      region: astralis-bullet-casing
-      lifetime: 40
-      cone: 6
-      particles: 1
-      offsetX: 0
-      offsetY: -5
-      spin: 1.2
-      baseRotation: 90
-      randLength: false
-      length: 14
-      interp: pow10Out
-      offset: 90
-      }
     ]
   }
 }
 researchCostMultiplier: 0.1
+ammoUseEffect: {
+  type: ParticleEffect
+  casingFlip: true
+  colorFrom: db9e60ff
+  colorTo: 4d474700
+  alpha: 0.33
+  sizeFrom: 2.6
+  sizeTo: 2.5
+  region: astralis-bullet-casing
+  lifetime: 75
+  cone: 6
+  particles: 1
+  offsetX: 0
+  offsetY: -5
+  spin: 1.2
+  baseRotation: 90
+  randLength: false
+  length: 14
+  interp: pow10Out
+  offset: 90
+}
