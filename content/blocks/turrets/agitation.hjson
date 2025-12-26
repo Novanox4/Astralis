@@ -265,6 +265,7 @@ ammoTypes: {
       particles: 3
       cone: 15
       }
+      {
       type: ParticleEffect
       casingFlip: true
       colorFrom: db9e60ff
@@ -285,6 +286,7 @@ ammoTypes: {
       randLength: false
       length: 20
       interp: pow3Out
+      }
     ]
   }
 }
