@@ -13,6 +13,7 @@ reload: 12
 range: 180
 recoils: 2
 category: turret
+outlineColor: 323232
 shoot: {
   type: ShootBarrel
   barrels: [
@@ -263,6 +264,27 @@ ammoTypes: {
       lifetime: 24
       particles: 3
       cone: 15
+      }
+      {
+      type: ParticleEffec
+      casingFlip: true
+      colorFrom: db9e60ff
+      colorTo: 4d474700
+      alpha: 0.33
+      line: true
+      lenFrom: 3
+      lenTo: 3
+      strokeFrom: 3
+      strokeTo: 3
+      lifetime: 40
+      cone: 30
+      particles: 1
+      offsetX: 1
+      offsetY: -2
+      spin: 0.2
+      baseRotation: -90
+      randLength: false
+      length: 20
       }
     ]
   }
