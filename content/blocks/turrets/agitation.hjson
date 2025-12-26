@@ -273,4 +273,5 @@ ammoUseEffect: {
   type: WrapEffect
   effect: casing2
   baseRotation: -90
+  rotation: -90
 }
