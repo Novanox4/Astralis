@@ -272,19 +272,19 @@ researchCostMultiplier: 0.1
 ammoUseEffect: {
   type: ParticleEffect
   casingFlip: true
-  colorFrom: ff8100ff
-  colorTo: 52363000
+  colorFrom: edbf7ed9
+  colorTo: 4d474700
   alpha: 0.33
   sizeFrom: 2.6
   sizeTo: 2.5
   region: astralis-bullet-casing
-  lifetime: 70
+  lifetime: 75
   cone: 6
   particles: 1
   baseRotation: 90
   randLength: false
-  length: 12
-  interp: pow5Out
+  length: 11
+  interp: pow10Out
   offset: 90
   lightOpacity: 1
   lightColor: ff8100ff
