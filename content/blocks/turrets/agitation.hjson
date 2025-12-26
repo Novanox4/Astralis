@@ -272,4 +272,5 @@ researchCostMultiplier: 0.1
 ammoUseEffect: {
   type: WrapEffect
   effect: casing2
+  baseRotation: -90
 }
