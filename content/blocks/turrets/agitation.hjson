@@ -273,17 +273,17 @@ ammoUseEffect: {
   type: ParticleEffect
   casingFlip: true
   colorFrom: ff8100ff
-  colorTo: 4d474700
+  colorTo: 52363000
   alpha: 0.33
   sizeFrom: 2.6
   sizeTo: 2.5
   region: astralis-bullet-casing
-  lifetime: 75
+  lifetime: 77
   cone: 6
   particles: 1
   baseRotation: 90
   randLength: false
-  length: 14
+  length: 10
   interp: pow10Out
   offset: 90
   lightOpacity: 1
