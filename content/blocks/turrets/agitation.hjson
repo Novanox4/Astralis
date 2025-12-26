@@ -265,6 +265,26 @@ ammoTypes: {
       particles: 3
       cone: 15
       }
+      type: ParticleEffec
+      casingFlip: true
+      colorFrom: db9e60ff
+      colorTo: 4d474700
+      alpha: 0.33
+      line: true
+      lenFrom: 2.05
+      lenTo: 2
+      strokeFrom: 1.9
+      strokeTo: 1.85
+      lifetime: 40
+      cone: 30
+      particles: 1
+      offsetX: 1
+      offsetY: -2
+      spin: 0.2
+      baseRotation: -90
+      randLength: false
+      length: 20
+      interp: pow3Out
     ]
   }
 }
