@@ -270,22 +270,48 @@ ammoTypes: {
 }
 researchCostMultiplier: 0.1
 ammoUseEffect: {
-  type: ParticleEffect
-  casingFlip: true
-  colorFrom: ff8100ff
-  colorTo: 52363000
-  alpha: 0.33
-  sizeFrom: 2.6
-  sizeTo: 2.5
-  region: astralis-bullet-casing
-  lifetime: 77
-  cone: 6
-  particles: 1
-  baseRotation: 90
-  randLength: false
-  length: 10
-  interp: pow10Out
-  offset: 90
-  lightOpacity: 1
-  lightColor: ff8100ff
+  type: SeqEffect
+  lifetime: 80
+  effects: [
+    {
+    type: ParticleEffect
+    casingFlip: true
+    colorFrom: ff8100ff
+    colorTo: 52363080
+    alpha: 0.33
+    sizeFrom: 2.6
+    sizeTo: 2.5
+    region: astralis-bullet-casing
+    lifetime: 60
+    cone: 6
+    particles: 1
+    baseRotation: 90
+    randLength: false
+    length: 7.5
+    interp: pow3Out
+    offset: 90
+    lightOpacity: 1
+    lightColor: ff8100ff
+    }
+    {
+    type: ParticleEffect
+    casingFlip: true
+    colorFrom: 52363080
+    colorTo: 52363000
+    alpha: 0.33
+    sizeFrom: 2.5
+    sizeTo: 2.4
+    region: astralis-bullet-casing
+    lifetime: 20
+    cone: 0
+    particles: 1
+    baseRotation: 90
+    randLength: false
+    length: 2
+    interp: pow3Out
+    offset: 90
+    lightOpacity: 1
+    lightColor: 523630ff
+    }
+  ]
 }
