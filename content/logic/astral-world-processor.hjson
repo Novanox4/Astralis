@@ -1,5 +1,5 @@
 type: LogicBlock
-name: Universe Processor
+name: Astral World Processor
 category: logic
 requirements: [
   copper/1
