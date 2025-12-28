@@ -5,7 +5,7 @@ requirements: []
 buildVisibility: worldProcessorOnly
 size: 1
 targetable: false
-privileged: true
+privileged: false
 forceDark: true
 range: 2147483646
 maxInstructionsPerTick: 1000
