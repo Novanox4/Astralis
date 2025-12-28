@@ -4,7 +4,7 @@ category: logic
 requirements: []
 buildVisibility: worldProcessorOnly
 size: 1
-targetavle: false
+targetable: false
 privileged: true
 forceDark: true
 range: 2147483647
