@@ -7,7 +7,7 @@ requirements: [
 buildVisibility: editorOnly
 size: 1
 targetable: false
-privileged: true
+
 forceDark: true
 range: 99999999
 maxInstructionsPerTick: 1000
