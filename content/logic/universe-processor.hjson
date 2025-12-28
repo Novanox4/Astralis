@@ -2,14 +2,14 @@ type: LogicBlock
 name: Universe Processor
 category: logic
 requirements: [
-  crystalite/1
+  copper/1
 ]
-buildVisibility: worldProcessorOnly
+buildVisibility: editorOnly
 size: 1
 targetable: false
 privileged: true
 forceDark: true
-range: 2147483646
+range: 99999999
 maxInstructionsPerTick: 1000
 instructionsPerTick: 8
 canOverdrive: false
