@@ -1,15 +1,10 @@
 type: LogicBlock
-name: Astral World Processor
-category: logic
-requirements: [
-  copper/1
-]
-buildVisibility: editorOnly
-size: 1
-targetable: false
-privileged: true
+name: thing
+description: "Testing something..."
 forceDark: true
-range: 99999999
-maxInstructionsPerTick: 1000
-instructionsPerTick: 8
-canOverdrive: false
+targetable: false
+requirements: []
+category: logic
+buildVisibility: worldProcessorOnly
+logicConfigurable: true
+privileged: true
