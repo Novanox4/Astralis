@@ -1,7 +1,9 @@
 type: LogicBlock
 name: Universe Processor
 category: logic
-requirements: []
+requirements: [
+  crystalite/1
+]
 buildVisibility: worldProcessorOnly
 size: 1
 targetable: false
