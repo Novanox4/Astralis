@@ -1,0 +1,15 @@
+type: LogicBlock
+name: Astral World Processor
+category: logic
+requirements: [
+  copper/1
+]
+buildVisibility: editorOnly
+size: 1
+targetable: false
+privileged: true
+forceDark: true
+range: 99999999
+maxInstructionsPerTick: 1000
+instructionsPerTick: 8
+canOverdrive: false
