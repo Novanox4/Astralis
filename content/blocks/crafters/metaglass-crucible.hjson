@@ -21,7 +21,7 @@ drawer: [
   circleStroke: 0.825
   particleRad: 10.5
   particleLife: 47.5
-  flameRadiusMag: 1.5
+  flameRadiusMag: 1.2
   flameRad: 0
   }
   {
