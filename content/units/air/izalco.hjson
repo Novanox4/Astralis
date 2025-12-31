@@ -10,7 +10,6 @@ rotateSpeed: 5.1
 moveSound: shipMove
 faceTarget: false
 databaseTag: "astralis-unit-energy"
-databaseCategory: "test-category"
 name: Izalco
 description: Shoots a spread of 3 energy blasts.
 weapons: [
