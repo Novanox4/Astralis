@@ -1,0 +1,32 @@
+type: HeatCrafter
+name: Metaglass Crucible
+description: Produces metaglass. Requires heat.
+requirements: [
+  crystalite/40
+  silver/45
+  uranium/40
+]
+researchCostMultiplier: 0.425
+size: 3
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawArcSmelt
+  particles: 0
+  }
+]
+maxEfficiency: 2
+overheatScale: 1.5
+outputItems: [
+  metaglass/3
+  char-chunks/1
+]
+consumes: {
+  power: 3
+  items: [
+    crystalite/4
+    ]
+  }
