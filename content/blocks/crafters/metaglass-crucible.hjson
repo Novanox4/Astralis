@@ -18,20 +18,20 @@ drawer: [
   particles: 45
   particleStroke: 0.75
   particleLen: 2.25
-  circleStroke: 0.75
+  circleStroke: 0.825
   particleRad: 10.5
   particleLife: 47.5
   }
   {
   type: DrawArcSmelt
   particles: 0
-  circleStroke: 0.775
+  circleStroke: 0.85
   circleSpace: 5.25
   }
   {
   type: DrawArcSmelt
   particles: 0
-  circleStroke: 0.775
+  circleStroke: 0.875
   circleSpace: 8
   }
   {
