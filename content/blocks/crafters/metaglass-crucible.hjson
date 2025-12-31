@@ -26,9 +26,7 @@ drawer: [
   type: DrawArcSmelt
   particles: 0
   circleStroke: 0.775
-  circleSpace: 5.5
-  flameRadiusMag: 0.6
-  flameRad: 0
+  circleSpace: 5.25
   }
   {
   type: DrawDefault
@@ -37,7 +35,7 @@ drawer: [
   type: DrawHeatRegion
   color: ffffffff
   alpha: 0.5
-  blending: normal
+  blending: additive
   }
   {
   type: DrawHeatInput
