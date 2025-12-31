@@ -19,6 +19,8 @@ drawer: [
   particleStroke: 0.75
   particleLen: 2.25
   circleStroke: 0.75
+  particleRad: 12
+  particleLife: 60
   }
   {
   type: DrawDefault
