@@ -34,13 +34,13 @@ drawer: [
   type: DrawDefault
   }
   {
-  type: DrawHeatInput
-  }
-  {
   type: DrawHeatRegion
   color: ffffffff
   alpha: 0.75
   blending: normal
+  }
+  {
+  type: DrawHeatInput
   }
 ]
 maxEfficiency: 2
