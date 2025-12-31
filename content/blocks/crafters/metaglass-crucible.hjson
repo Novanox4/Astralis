@@ -29,6 +29,12 @@ drawer: [
   circleSpace: 5.25
   }
   {
+  type: DrawArcSmelt
+  particles: 0
+  circleStroke: 0.775
+  circleSpace: 8
+  }
+  {
   type: DrawDefault
   }
   {
