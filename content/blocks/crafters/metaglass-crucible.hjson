@@ -27,7 +27,8 @@ drawer: [
   particles: 0
   circleStroke: 0.85
   circleSpace: 5.25
-  flameRadiusMag: 3
+  flameRadiusMag: 1
+  drawCenter: false
   }
   {
   type: DrawArcSmelt
