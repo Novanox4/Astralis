@@ -38,6 +38,9 @@ drawer: [
   }
   {
   type: DrawHeatRegion
+  color: ffffffff
+  alpha: 0.75
+  blending: normal
   }
 ]
 maxEfficiency: 2
