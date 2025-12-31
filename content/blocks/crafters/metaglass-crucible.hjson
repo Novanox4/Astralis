@@ -15,7 +15,10 @@ drawer: [
   }
   {
   type: DrawArcSmelt
-  particles: 3
+  particles: 45
+  particleStroke: 0.75
+  particleLen: 2.25
+  circleStroke: 0.75
   }
   {
   type: DrawDefault
@@ -40,3 +43,4 @@ consumes: {
     ]
   }
 squareSprite: false
+itemCapacity: 25
