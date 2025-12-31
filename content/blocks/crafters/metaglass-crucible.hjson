@@ -28,7 +28,7 @@ drawer: [
   circleStroke: 0.85
   circleSpace: 5.25
   flameRadiusMag: 1
-  drawCenter: false
+  flameRad: 0
   }
   {
   type: DrawArcSmelt
