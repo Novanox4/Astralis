@@ -62,3 +62,4 @@ consumes: {
   }
 squareSprite: false
 itemCapacity: 25
+category: crafting
