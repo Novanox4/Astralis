@@ -23,6 +23,13 @@ drawer: [
   particleLife: 47.5
   }
   {
+  type: DrawArcSmelt
+  particles: 0
+  circleStroke: 0.775
+  circleSpace: 4
+  flameRad: 0
+  }
+  {
   type: DrawDefault
   }
   {
