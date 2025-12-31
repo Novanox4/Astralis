@@ -15,7 +15,16 @@ drawer: [
   }
   {
   type: DrawArcSmelt
-  particles: 0
+  particles: 3
+  }
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawHeatInput
+  }
+  {
+  type: DrawHeatRegion
   }
 ]
 maxEfficiency: 2
@@ -30,3 +39,4 @@ consumes: {
     crystalite/4
     ]
   }
+squareSprite: false
