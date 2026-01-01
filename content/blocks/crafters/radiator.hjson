@@ -1,0 +1,19 @@
+type: HeatProducer
+name: Radiator
+description: Genetates heat using power and crystalite.
+size: 2
+heatOutput: 4
+requirements: [
+  crystalite/20
+  silver/35
+  uranium/25
+  ]
+consumes: {
+  power: 0.4
+  items: [
+    crystalite/1
+    ]
+  }
+craftTime: 240
+category: crafting
+warmupRate: 0.0125
