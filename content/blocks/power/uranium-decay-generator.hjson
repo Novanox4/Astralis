@@ -2,15 +2,16 @@ type: HeaterGenerator
 name: Uranium Decay Generator
 description: Generates power using uranium. Outputs a small amount of heat to all sides. Warms up slowly. Uses water to stabilize itself.
 rotate: false
-heatOutput: 1.25
+//haha ratios go bye bye
+heatOutput: 1.65
 itemDuration: 150
-powerProduction: 0.3
+powerProduction: 0.32
 consumes: {
   items: [
   uranium/1
   ]
   liquids: [
-  water/0.1
+  water/0.099
   ]
 }
 requirements: [
