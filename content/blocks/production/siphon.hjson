@@ -1,5 +1,5 @@
 type: pump
-pumpAmount: 0.25
+pumpAmount: 0.26
 name: Siphon
 description: Slowly pumps liquids it is placed on when powered. Can be placed on deep water.
 pumpAmount: 0.3
