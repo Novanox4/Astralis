@@ -53,7 +53,6 @@ drawer: [
   }
 ]
 maxEfficiency: 2
-overheatScale: 1.5
 outputItems: [
   metaglass/3
   char-chunks/2
