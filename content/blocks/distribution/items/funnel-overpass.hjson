@@ -10,3 +10,7 @@ research: funnel
 solid: false
 bridgeWidth: 8
 squareSprite: false
+hasPower: false
+consumesPower: false
+connectedPower: false
+conductivePower: true
