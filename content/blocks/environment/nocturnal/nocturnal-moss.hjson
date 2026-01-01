@@ -1,0 +1,6 @@
+type: floor
+name: Nocturnal Moss
+variants: 8
+attributes: {
+  growth: 0.125
+}
