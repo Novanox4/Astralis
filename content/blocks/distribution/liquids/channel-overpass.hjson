@@ -18,3 +18,7 @@ arrowOffset: 2
 arrowSpacing: 4
 moveArrows: true
 fadeIn: true
+hasPower: false
+consumesPower: false
+connectedPower: false
+conductivePower: true
