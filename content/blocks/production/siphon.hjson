@@ -1,0 +1,29 @@
+type: pump
+pumpAmount: 0.25
+name: Siphon
+description: Slowly pumps liquids it is placed on when powered. Can be placed on deep water.
+consumes: {
+ power: 0.2
+}
+size: 1
+health: 100
+requirements: [
+  crystalite/12
+  metaglass/9
+]
+squareSprite: false
+category: liquid
+placeableLiquid: true
+floating: true
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawPumpLiquid
+  }
+  {
+  type: DrawDefault
+  }
+]
