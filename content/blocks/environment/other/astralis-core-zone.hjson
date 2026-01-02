@@ -1,0 +1,4 @@
+type: floor
+variants: 1
+name: Core Zone (Astralis)
+allowCorePlacement: true
