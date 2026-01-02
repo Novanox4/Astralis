@@ -103,6 +103,7 @@ contentOrder: [
   murky-water-deep
   murky-water
   
+  
   shoreline-wall
   shoreline-floor
   shoreline-floor-medium
@@ -116,11 +117,17 @@ contentOrder: [
   wastes-floor
   wastes-boulder
 
+  nocturnal-moss-wall
+  nocturnal-moss-floor
+  nocturnal-shrub
+
   overgrown-wall
   overgrown-floor
   shrub
   thorny-vine
   thick-vine
+
+  astralis-core-zone
   
   crystalite-outcrop
   uranium-outcrop
