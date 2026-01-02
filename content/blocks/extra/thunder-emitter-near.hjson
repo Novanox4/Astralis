@@ -1,0 +1,14 @@
+type: LogicBlock
+name: Thunder Emitter (Near)
+description: "[red]WARNING, ADVANCED USE ONLY![] Emits thunder. Will break your ears unless properly controlled by a world processor!"
+forceDark: true
+targetable: false
+ambientSound: thunder1
+requirements: []
+category: logic
+buildVisibility: worldProcessorOnly
+ambientSoundVolume: 99999999
+priority: -999999999
+logicConfigurable: true
+privileged: true
+breakable: false
