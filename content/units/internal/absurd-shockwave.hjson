@@ -1,0 +1,38 @@
+type: flying
+name: BOOM
+hidden: true
+hittable: false
+drawBody: false  
+drawCell: false
+health: 1000000
+speed: 0
+physics: false
+deathShake: 6
+deathExplosionEffect: {
+  type: WaveEffect
+  strokeFrom: 40
+  strokeTo: 30
+  sizeTo: 80000
+  lifetime: 900
+  colorFrom: ffffff
+  colorTo: ff0000
+  lifetime: 6000
+  }
+weapons: [
+  {
+  x: 0
+  y: 0
+  shootY: 0
+  alwaysShooting: true
+  shootEffect: none
+  smokeEffect: none
+  bullet: {
+    type: BulletType
+    hitEffect: none
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 0
+    }
+  }
+]
