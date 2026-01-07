@@ -26,6 +26,7 @@ weapons: [
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
+  shootSound: none
   bullet: {
     type: BulletType
     hitEffect: none
@@ -33,6 +34,7 @@ weapons: [
     shootEffect: none
     smokeEffect: none
     lifetime: 0
+    killShooter: true
     }
   }
 ]
