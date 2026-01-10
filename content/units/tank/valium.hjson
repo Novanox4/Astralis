@@ -1,0 +1,68 @@
+type: tank
+name: Valium
+description: Shoots explosives with splash damage.
+omniMovement: false
+health: 600
+speed: 1
+//HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
+treadRects: [
+  {
+    x: -11
+    y: -16
+    width: 22
+    height: 36
+  }
+]
+weapons: [
+{
+name: valium-weapon
+reload: 100
+x: 0
+y: 0
+mirror: false
+rotate: true
+shootSound: shootArtillerySmall
+bullet: {
+  type: BasicBulletType
+  backColor: f5d738
+  frontColor: ffffff
+  width: 4
+  height: 6
+  damage: 10
+  speed: 3
+  splashDamage: 30
+  splashDamageRadius: 24
+  lifetime: 40
+  hitEffect: none
+  despawnEffect: [
+    {
+    type: WaveEffect
+    colorTo: f5d738
+    sizeTo: 30
+    strokeFrom: 1
+    lifetime: 45
+    interp: pow3Out
+    }
+    {
+    type: ParticleEffect
+    colorTo: f5d738
+    sizeFrom: 3
+    siceChangeStart: 80
+    interp: pow10Out
+    sizeInterp: pow3Out
+    lifetime: 120
+    length: 40
+    particles: 8
+    }
+  ]
+  trailLength: 20
+  trailColor: f5d738
+  trailWidth: 1
+  splashDamage: 5
+  splashDamageRadius: 12
+  healPercent: 1
+  collidesTeam: true
+  }
+  }
+]
+outlineColor: 323232
