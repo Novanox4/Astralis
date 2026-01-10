@@ -46,13 +46,13 @@ bullet: {
     {
     type: ParticleEffect
     colorTo: f5d738
-    sizeFrom: 3
+    sizeFrom: 5.75
     siceChangeStart: 80
     interp: pow10Out
     sizeInterp: pow3Out
     lifetime: 120
     length: 40
-    particles: 8
+    particles: 9
     }
   ]
   trailLength: 20
