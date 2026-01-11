@@ -3,6 +3,7 @@ name: Valium
 description: Shoots explosives with splash damage.
 omniMovement: false
 health: 600
+hitSize: 10
 speed: 1
 tankMoveSound: tankMoveSmall
 tankMove: 0.32
@@ -69,4 +70,4 @@ bullet: {
   }
 ]
 outlineColor: 323232
-crushDamage: 0.075
+crushDamage: 0.0075
