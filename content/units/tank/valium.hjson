@@ -70,4 +70,4 @@ bullet: {
   }
 ]
 outlineColor: 323232
-crushDamage: 0.0075
+crushDamage: 0.01
