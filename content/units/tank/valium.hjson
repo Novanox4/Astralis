@@ -35,8 +35,9 @@ bullet: {
   splashDamage: 30
   splashDamageRadius: 24
   lifetime: 40
-  hitEffect: none
-  despawnEffect: [
+  despawnEffect: none
+  despawnHit: true
+  hitEffect: [
     {
     type: WaveEffect
     colorTo: f5d738
