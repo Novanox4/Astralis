@@ -44,9 +44,9 @@ weapons: [
     despawnEffect: none
     shootEffect: none
     smokeEffect: none
-    lifetime: 125
+    lifetime: 100
     speed: 10
-    accel: 0.3
+    accel: 0.55
     killShooter: true
     angleOffset: -135
     }
