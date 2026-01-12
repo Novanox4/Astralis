@@ -29,6 +29,7 @@ weapons: [
     trailWidth: 8
     splashDamage: 3749
     splashRadius: 70
+    lightRadius: 80
     hitEffect: [
       {
       type: WaveEffect
