@@ -3,10 +3,9 @@ flying: true
 lowAltitude: true
 outlineColor: 323232
 health: 850
-speed: 1.575
-engineSize: 3.8
-engineOffset: 6.25
-rotateSpeed: 5
+speed: 1.2
+engineSize: 3.7
+engineOffset: 7.2
 moveSound: shipMove
 faceTarget: false
 databaseTag: "astralis-unit-energy"
