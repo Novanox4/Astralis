@@ -9,12 +9,13 @@ speed: 0
 physics: false
 deathExplosionEffect: none
 createScorch: false
+deathSound: none
 weapons: [
   {
   x: 0
   y: 0
-  shootY: 2500
-  shootX: 2500
+  shootY: 250
+  shootX: 250
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
