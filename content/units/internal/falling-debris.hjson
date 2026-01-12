@@ -20,6 +20,7 @@ weapons: [
   shootEffect: none
   smokeEffect: none
   mirror: false
+  shootSound: none
   bullet: {
     type: BulletType
     despawnHit: true
