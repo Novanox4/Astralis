@@ -55,7 +55,7 @@ weapons: [
   bullet: {
     type: LaserBulletType
     colors: [a3abad66, a3abadff, ffffffff]	
-    damage: 35
+    damage: 48
     length: 130
     width: 16
     hitEffect: [
