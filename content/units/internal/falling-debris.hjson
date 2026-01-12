@@ -14,18 +14,21 @@ weapons: [
   {
   x: 0
   y: 0
-  shootY: 250
-  shootX: 250
+  shootY: 2500
+  shootX: 2500
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
   shootSound: padLand
+  collides: false
   bullet: {
     type: BulletType
     despawnHit: true
     trailColor: ff0000
     trailLength: 40
     trailWidth: 8
+    splashDamage: 3749
+    splashRadius: 70
     hitEffect: [
       {
       type: WaveEffect
@@ -40,8 +43,9 @@ weapons: [
     despawnEffect: none
     shootEffect: none
     smokeEffect: none
-    lifetime: 250
+    lifetime: 125
     speed: 10
+    accel: 0.1
     killShooter: true
     angleOffset: 225
     }
