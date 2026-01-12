@@ -46,7 +46,7 @@ weapons: [
     smokeEffect: none
     lifetime: 125
     speed: 10
-    accel: 0.1
+    accel: 0.3
     killShooter: true
     angleOffset: 135
     }
