@@ -14,8 +14,8 @@ weapons: [
   {
   x: 0
   y: 0
-  shootY: -3700
-  shootX: -100
+  shootY: -3725
+  shootX: -900
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
