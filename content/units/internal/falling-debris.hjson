@@ -8,6 +8,7 @@ health: 1000000
 speed: 0
 physics: false
 deathExplosionEffect: none
+createScorch: false
 weapons: [
   {
   x: 0
@@ -21,6 +22,9 @@ weapons: [
   bullet: {
     type: BulletType
     despawnHit: true
+    trailColor: ff0000
+    trailLength: 40
+    trailWidth: 8
     hitEffect: [
       {
       type: WaveEffect
