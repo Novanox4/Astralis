@@ -20,7 +20,6 @@ weapons: [
   shootEffect: none
   smokeEffect: none
   shootSound: padLand
-  collides: false
   mirror: false
   bullet: {
     type: BulletType
@@ -31,6 +30,7 @@ weapons: [
     splashDamage: 3749
     splashRadius: 70
     lightRadius: 80
+    collides: false
     hitEffect: [
       {
       type: WaveEffect
