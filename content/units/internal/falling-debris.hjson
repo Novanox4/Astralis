@@ -48,7 +48,7 @@ weapons: [
     speed: 10
     accel: 0.55
     killShooter: true
-    angleOffset: 20
+    angleOffset: -20
     }
   }
 ]
