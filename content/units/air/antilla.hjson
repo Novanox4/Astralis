@@ -1,0 +1,45 @@
+type: flying
+flying: true
+lowAltitude: true
+outlineColor: 323232
+health: 850
+speed: 1.575
+engineSize: 3.8
+engineOffset: 6.25
+rotateSpeed: 5
+moveSound: shipMove
+faceTarget: false
+databaseTag: "astralis-unit-energy"
+name: Antilla
+description: Shoots a powerful laser. Has dual point defense guns.
+weapons: [
+  {
+  type: PointDefenseWeapon
+  x: -3
+  y: -2
+  mirror: true
+  name: antilla-point
+  recoil: 0.5
+  reload: 7
+  targetInterval: 7
+  targetSwitchInterval: 10
+  rotate: true
+  bullet: {
+    maxRange: 80
+    damage: 28
+    hitEffect: pointHit
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      strokeFrom: 2
+      lenFrom: 5
+      lenTo: 4
+      interp: pow3Out
+      lifetime: 20
+      length: 20
+      cone: 4
+      particles: 2
+      }
+    }
+  }
+]
