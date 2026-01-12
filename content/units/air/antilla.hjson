@@ -20,14 +20,67 @@ weapons: [
   mirror: true
   name: antilla-point
   recoil: 0.5
-  reload: 7
-  targetInterval: 7
-  targetSwitchInterval: 10
+  reload: 6
+  targetInterval: 6
+  targetSwitchInterval: 9
   rotate: true
+  shootSound: shootSegment
   bullet: {
-    maxRange: 80
-    damage: 28
+    maxRange: 90
+    damage: 24
     hitEffect: pointHit
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      strokeFrom: 2
+      lenFrom: 5
+      lenTo: 4
+      interp: pow3Out
+      lifetime: 20
+      length: 20
+      cone: 4
+      particles: 2
+      }
+    }
+  }
+  {
+  type: PointDefenseWeapon
+  x: 0
+  y: -1.85
+  mirror: false
+  name: antilla-blaster
+  recoil: 1.25
+  reload: 75
+  rotate: true
+  shootSound: shootSap
+  bullet: {
+    type: LaserBulletType
+    colors: [a3abad66, a3abadff, ffffffff]	
+    damage: 35
+    length: 150
+    width: 17.5
+    hitEffect: [
+      {
+      type: WaveEffect
+      layer: 99
+      sizeTo: 8.5
+      strokeFrom: 2.3
+      lifetime: 34
+      interp: pow3Out
+      }
+      {
+      type: ParticleEffect
+      line: true
+      layer: 99
+      strokeFrom: 2
+      lenFrom: 4
+      lenTo: 3.5
+      interp: pow3Out
+      lifetime: 22
+      length: 12
+      particles: 5
+      }
+    ] 
     shootEffect: {
       type: ParticleEffect
       line: true
