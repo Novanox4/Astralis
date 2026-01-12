@@ -1,0 +1,44 @@
+type: flying
+name: Falling Debris
+hidden: true
+hittable: false
+drawBody: false  
+drawCell: false
+health: 1000000
+speed: 0
+physics: false
+deathExplosionEffect: none
+weapons: [
+  {
+  x: 0
+  y: 0
+  shootY: 2500
+  shootX: 2500
+  alwaysShooting: true
+  shootEffect: none
+  smokeEffect: none
+  shootSound: padLand
+  bullet: {
+    type: BulletType
+    despawnHit: true
+    hitEffect: [
+      {
+      type: WaveEffect
+      strokeFrom: 18
+      sizeTo: 160
+      colorFrom: ffffff
+      colorTo: ff0000
+      lifetime: 120
+      interp: pow10Out
+      }
+    ]
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 250
+    speed: 10
+    killShooter: true
+    angleOffset: -45
+    }
+  }
+]
