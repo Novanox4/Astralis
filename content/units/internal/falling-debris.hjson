@@ -19,7 +19,6 @@ weapons: [
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
-  shootSound: padLand
   mirror: false
   bullet: {
     type: BulletType
