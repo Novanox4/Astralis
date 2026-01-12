@@ -14,13 +14,14 @@ weapons: [
   {
   x: 0
   y: 0
-  shootY: 4500
-  shootX: 2000
+  shootY: 2000
+  shootX: 4500
   alwaysShooting: true
   shootEffect: none
   smokeEffect: none
   shootSound: padLand
   collides: false
+  mirror: false
   bullet: {
     type: BulletType
     despawnHit: true
