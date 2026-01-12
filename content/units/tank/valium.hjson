@@ -64,8 +64,6 @@ bullet: {
   trailWidth: 1
   splashDamage: 5
   splashDamageRadius: 12
-  healPercent: 1
-  collidesTeam: true
   }
   }
 ]
