@@ -3,6 +3,7 @@ flying: true
 lowAltitude: true
 outlineColor: 323232
 health: 850
+hitSize: 11.5
 speed: 1.2
 engineSize: 3.7
 engineOffset: 7.2
