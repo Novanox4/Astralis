@@ -15,8 +15,8 @@ description: Shoots a powerful laser. Has dual point defense guns.
 weapons: [
   {
   type: PointDefenseWeapon
-  x: -3
-  y: -2
+  x: -4.5
+  y: -2.2
   mirror: true
   name: antilla-point
   recoil: 0.5
