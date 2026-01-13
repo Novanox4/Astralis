@@ -109,7 +109,73 @@ weapons: [
       colorTo: ff0000
       lifetime: 120
       interp: pow10Out
-      layer: 109
+      }
+      {
+      type: ParticleEffect
+      particles: 35
+      len: 120
+      sizeFrom: 45
+      interp: pow10Out
+      sizeInterp: pow5Out
+      colorFrom: 242424ff
+      colorTo: 242424ff
+      lifetime: 240
+      sizeChangeStart: 40
+      useRotation: false
+      followParent: false
+      layer: 109.5
+      }
+      {
+      type: ParticleEffect
+      particles: 4
+      len: 340
+      sizeFrom: 8.5
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: e5861cff
+      colorTo: e5861cbf
+      lifetime: 90
+      useRotation: false
+      followParent: false
+      }
+      {
+      type: ParticleEffect
+      particles: 3
+      len: 340
+      sizeFrom: 8
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: e5861cff
+      colorTo: 242424bf
+      lifetime: 90
+      useRotation: false
+      followParent: false
+      }
+      {
+      type: ParticleEffect
+      particles: 5
+      len: 340
+      sizeFrom: 7.5
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: b5520aff
+      colorTo: b5520abf
+      lifetime: 90
+      useRotation: false
+      followParent: false
+      }
+      {
+      type: ParticleEffect
+      particles: 4
+      len: 340
+      sizeFrom: 7
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: b5520aff
+      colorTo: 242424bf
+      lifetime: 90
+      useRotation: false
+      followParent: false
       }
     ]
     despawnEffect: none
