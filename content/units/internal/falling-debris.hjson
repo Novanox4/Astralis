@@ -51,6 +51,7 @@ weapons: [
     accel: 0.6
     killShooter: true
     angleOffset: 0
+    scaleLife: true
     }
   }
 ]
