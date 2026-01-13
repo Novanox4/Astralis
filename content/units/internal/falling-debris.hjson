@@ -36,7 +36,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 2
+      len: 20
       sizeFrom: 80
       colorFrom: 242424ff
       colorTo: 242424bf
@@ -44,6 +44,7 @@ weapons: [
       sizeChangeStart: 300
       useRotation: false
       followParent: false
+      layer: 160.2
       }
     ]
     hitEffect: [
@@ -65,6 +66,7 @@ weapons: [
     accel: 0.6
     killShooter: true
     angleOffset: 0
+    layer: 160.1
     }
   }
 ]
