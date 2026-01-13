@@ -29,7 +29,7 @@ bullet: {
   width: 5
   colorTo: 38a6c9
   colorFrom: ffffff
-  damage: 10
+  damage: 15
   shrinkY: 0
   shootEffect: none
   }
