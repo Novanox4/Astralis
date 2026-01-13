@@ -45,7 +45,7 @@ weapons: [
       sizeChangeStart: 7.5
       useRotation: false
       followParent: false
-      layer: 109.8
+      layer: 109
       }
       {
       type: ParticleEffect
@@ -113,17 +113,17 @@ weapons: [
       {
       type: ParticleEffect
       particles: 35
-      len: 120
+      len: 400
       sizeFrom: 45
       interp: pow10Out
-      sizeInterp: pow5Out
+      sizeInterp: linear
       colorFrom: 242424ff
       colorTo: 242424ff
-      lifetime: 240
-      sizeChangeStart: 40
+      lifetime: 300
+      sizeChangeStart: 100
       useRotation: false
       followParent: false
-      layer: 109.5
+      layer: 99
       }
       {
       type: ParticleEffect
