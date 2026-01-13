@@ -1,4 +1,4 @@
-type: flying 192 238 158 115
+type: flying
 name: Falling Debris
 hidden: true
 hittable: false
