@@ -21,7 +21,9 @@ shootX: 0
 shootSound: shockBullet
 mirror: false
 shootEffect: none
-shootStatus: energetic
+shootStatus: madine-speed
+controllable: false
+aiControllable: false
 shootStatusDuration: 6
 bullet: {
   type: ShrapnelBulletType
