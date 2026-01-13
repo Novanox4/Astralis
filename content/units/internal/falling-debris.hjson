@@ -22,28 +22,30 @@ weapons: [
   shootSound: none
   bullet: {
     type: BulletType
+    lightColor: e5861cff
+    lightOpacity: 0.55
     despawnHit: true
     splashDamage: 3749
     splashRadius: 70
     lightRadius: 80
     collides: false
-    trailChance: 0.08
+    trailChance: 0.8
     hitSound: explosionReactor
     trailEffect: [
       {
       type: ParticleEffect
       particles: 2
-      len: 60
+      len: 40
       sizeFrom: 20
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: 242424ff
       colorTo: 242424bf
-      lifetime: 60
-      sizeChangeStart: 5
+      lifetime: 80
+      sizeChangeStart: 7.5
       useRotation: false
       followParent: false
-      layer: 160.2
+      layer: 160.1
       }
     ]
     hitEffect: [
@@ -65,7 +67,6 @@ weapons: [
     accel: 0.6
     killShooter: true
     angleOffset: 0
-    layer: 160.1
     }
   }
 ]
