@@ -37,11 +37,12 @@ weapons: [
       type: ParticleEffect
       particles: 2
       len: 20
-      sizeFrom: 80
+      sizeFrom: 20
+      interp: pow10Out
       colorFrom: 242424ff
       colorTo: 242424bf
-      lifetime: 600
-      sizeChangeStart: 300
+      lifetime: 60
+      sizeChangeStart: 15
       useRotation: false
       followParent: false
       layer: 160.2
