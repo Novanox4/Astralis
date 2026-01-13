@@ -50,13 +50,13 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 88
-      sizeFrom: 6
+      len: 160
+      sizeFrom: 8.5
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: e5861cff
       colorTo: e5861cbf
-      lifetime: 60
+      lifetime: 90
       useRotation: false
       followParent: false
       layer: 160.2
@@ -64,13 +64,41 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 88
-      sizeFrom: 6
+      len: 160
+      sizeFrom: 8
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: e5861cff
       colorTo: 242424bf
-      lifetime: 65
+      lifetime: 90
+      useRotation: false
+      followParent: false
+      layer: 160.2
+      }
+      {
+      type: ParticleEffect
+      particles: 2
+      len: 160
+      sizeFrom: 7.5
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: b5520aff
+      colorTo: b5520abf
+      lifetime: 90
+      useRotation: false
+      followParent: false
+      layer: 160.2
+      }
+      {
+      type: ParticleEffect
+      particles: 2
+      len: 160
+      sizeFrom: 7
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: b5520aff
+      colorTo: 242424bf
+      lifetime: 90
       useRotation: false
       followParent: false
       layer: 160.2
