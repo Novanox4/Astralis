@@ -23,14 +23,12 @@ weapons: [
   bullet: {
     type: BulletType
     despawnHit: true
-    trailColor: ff0000
-    trailLength: 40
-    trailWidth: 8
     splashDamage: 3749
     splashRadius: 70
     lightRadius: 80
     collides: false
     trailChance: 0.08
+    hitSound: explosionReactor
     trailEffect: [
       {
       type: ParticleEffect
