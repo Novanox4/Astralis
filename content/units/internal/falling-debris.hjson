@@ -1,4 +1,4 @@
-type: flying
+type: flying 192 238 158 115
 name: Falling Debris
 hidden: true
 hittable: false
@@ -12,8 +12,8 @@ createScorch: false
 deathSound: none
 weapons: [
   {
-  x: 0
-  y: 0
+  x: 2800
+  y: 2184
   shootY: 0
   shootX: 0
   alwaysShooting: true
