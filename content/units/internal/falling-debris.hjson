@@ -44,8 +44,7 @@ weapons: [
       lifetime: 100
       sizeChangeStart: 7.5
       useRotation: false
-      followParent: false
-      layer: 160.1
+      followParent: false   
       }
       {
       type: ParticleEffect
@@ -59,7 +58,6 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
-      layer: 160.2
       }
       {
       type: ParticleEffect
@@ -73,7 +71,6 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
-      layer: 160.2
       }
       {
       type: ParticleEffect
@@ -87,7 +84,6 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
-      layer: 160.2
       }
       {
       type: ParticleEffect
@@ -101,7 +97,6 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
-      layer: 160.2
       }
     ]
     hitEffect: [
