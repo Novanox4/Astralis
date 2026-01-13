@@ -112,14 +112,14 @@ weapons: [
       }
       {
       type: ParticleEffect
-      particles: 35
-      length: 120
+      particles: 40
+      length: 190
       sizeFrom: 45
       interp: pow10Out
-      sizeInterp: pow3Out
+      sizeInterp: pow5Out
       colorFrom: 242424ff
       colorTo: 242424ff
-      lifetime: 300
+      lifetime: 600
       sizeChangeStart: 100
       useRotation: false
       followParent: false
@@ -128,7 +128,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 4
-      sizeFrom: 8.5
+      sizeFrom: 12.5
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: e5861cff
@@ -136,11 +136,12 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
+      length: 45
       }
       {
       type: ParticleEffect
       particles: 3
-      sizeFrom: 8
+      sizeFrom: 12
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: e5861cff
@@ -148,11 +149,12 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
+      length: 45
       }
       {
       type: ParticleEffect
       particles: 5
-      sizeFrom: 7.5
+      sizeFrom: 11.25
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: b5520aff
@@ -160,11 +162,12 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
+      length: 45
       }
       {
       type: ParticleEffect
       particles: 4
-      sizeFrom: 7
+      sizeFrom: 10
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: b5520aff
@@ -172,6 +175,7 @@ weapons: [
       lifetime: 90
       useRotation: false
       followParent: false
+      length: 45
       }
     ]
     despawnEffect: none
