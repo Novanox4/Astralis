@@ -23,7 +23,7 @@ mirror: false
 shootEffect: none
 shootStatus: madine-speed
 controllable: false
-aiControllable: false
+aiControllable: true
 shootStatusDuration: 6
 bullet: {
   type: ShrapnelBulletType
