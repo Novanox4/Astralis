@@ -5,7 +5,7 @@ legLength: 21
 legBaseOffset: 2
 legExtension: -4.5
 name: Madine
-description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically. Fragile.
+description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically. Fragile while attacking.
 flying: false
 health: 500
 armor: -3
