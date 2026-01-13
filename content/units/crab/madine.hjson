@@ -35,6 +35,7 @@ bullet: {
   damage: 15
   shrinkY: 0
   shootEffect: none
+  serrationLenScl: 6
   }
 }
 ]
