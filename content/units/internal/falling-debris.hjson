@@ -1,7 +1,8 @@
 type: flying
 name: Falling Debris
-hidden: true
+hidden: false
 hittable: false
+internal: true
 drawBody: false  
 drawCell: false
 health: 1000000
