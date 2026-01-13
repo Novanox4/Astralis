@@ -12,7 +12,7 @@ createScorch: false
 deathSound: none
 weapons: [
   {
-  x: 3800
+  x: 1800
   y: 2184
   shootY: 0
   shootX: 0
