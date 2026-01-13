@@ -2,3 +2,4 @@ show: false
 name: Weak (Madine)
 reloadMultiplier: 1.5
 healthMultiplier: 0.5
+dragMultiplier: 0.33
