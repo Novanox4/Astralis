@@ -24,6 +24,7 @@ shootEffect: none
 shootStatus: madine-speed
 controllable: false
 aiControllable: true
+autoTarget: true
 shootStatusDuration: 6
 bullet: {
   type: ShrapnelBulletType
