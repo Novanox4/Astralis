@@ -27,6 +27,7 @@ controllable: false
 aiControllable: true
 autoTarget: true
 shootStatusDuration: 6
+rotateSpeed: 25
 bullet: {
   type: ShrapnelBulletType
   length: 40
@@ -37,7 +38,7 @@ bullet: {
   shrinkY: 0
   shootEffect: none
   serrationLenScl: 6
-  recoil: -1
+  recoil: -0.6
   }
 }
 ]
