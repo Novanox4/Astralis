@@ -16,7 +16,7 @@ weapons: [
   y: 2184
   shootY: 0
   shootX: 0
-  alwaysShooting: true
+  alwaysShooting: false
   shootEffect: none
   smokeEffect: none
   mirror: false
