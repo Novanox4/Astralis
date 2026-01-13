@@ -34,8 +34,8 @@ weapons: [
     trailEffect: [
       {
       type: ParticleEffect
-      particles: 2
-      len: 40
+      particles: 3
+      len: 48
       sizeFrom: 20
       interp: pow10Out
       sizeInterp: pow3Out
@@ -46,6 +46,20 @@ weapons: [
       useRotation: false
       followParent: false
       layer: 160.1
+      }
+      {
+      type: ParticleEffect
+      particles: 2
+      len: 80
+      sizeFrom: 3.5
+      interp: pow10Out
+      sizeInterp: pow3Out
+      colorFrom: e5861cff
+      colorTo: e5861cbf
+      lifetime: 60
+      useRotation: false
+      followParent: false
+      layer: 160.2
       }
     ]
     hitEffect: [
