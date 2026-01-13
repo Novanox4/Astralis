@@ -39,6 +39,7 @@ bullet: {
   shootEffect: none
   serrationLenScl: 6
   recoil: -1
+  rangeOverride: 24
   }
 }
 ]
