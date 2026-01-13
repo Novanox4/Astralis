@@ -44,7 +44,8 @@ weapons: [
       lifetime: 100
       sizeChangeStart: 7.5
       useRotation: false
-      followParent: false   
+      followParent: false
+      layer: 109.8
       }
       {
       type: ParticleEffect
