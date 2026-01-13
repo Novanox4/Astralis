@@ -13,6 +13,7 @@ baseLegStraightness: 0
 weapons: [
 {
 name: madine-weapon
+rotate: true
 recoil: 0
 x: 0
 y: 0
