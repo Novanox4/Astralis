@@ -29,7 +29,7 @@ weapons: [
     splashRadius: 70
     lightRadius: 80
     collides: false
-    trailChance: 0.8
+    trailChance: 1.2
     hitSound: explosionReactor
     trailEffect: [
       {
