@@ -1,0 +1,39 @@
+type: legs
+legCount: 4
+legGroupSize: 2
+legLength: 22
+legBaseOffset: 0
+legExtension: -3
+name: Madine
+description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically.
+flying: false
+health: 750
+baseLegStraightness: 0
+weapons: [
+{
+name: madine-weapon
+recoil: 0
+x: 0
+y: 0
+reload: 4
+shootX: 0
+shootSound: shockBullet
+mirror: false
+shootEffect: none
+shootStatus: energetic
+shootStatusDuration: 6
+bullet: {
+  type: ShrapnelBulletType
+  length: 40
+  height: 7
+  colorTo: 38a6c9
+  colorFrom: ffffff
+  damage: 10
+  shrinkY: 0
+  shootEffect: none
+  }
+}
+]
+speed: 1.2
+hitSize: 11.75
+outlineColor: 323232
