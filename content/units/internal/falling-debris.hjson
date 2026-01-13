@@ -30,8 +30,7 @@ weapons: [
     splashRadius: 70
     lightRadius: 80
     collides: false
-    trailChance: 1
-    trailinterval: 2.5
+    trailChance: 0.08
     trailEffect: [
       {
       type: ParticleEffect
