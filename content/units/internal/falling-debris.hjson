@@ -13,8 +13,6 @@ deathSound: none
 bounded: false
 weapons: [
   {
-  x: 1800
-  y: 2184
   shootY: 0
   shootX: 0
   alwaysShooting: true
@@ -51,10 +49,6 @@ weapons: [
     accel: 0.6
     killShooter: true
     angleOffset: 0
-    scaleLife: true
-    followAimSpeed: 9999999
-    rangeOverride: 1
-    maxRange: 1
     }
   }
 ]
