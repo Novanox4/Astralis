@@ -1,13 +1,14 @@
 type: legs
 legCount: 4
 legGroupSize: 2
-legLength: 22
-legBaseOffset: 0
-legExtension: -3
+legLength: 21
+legBaseOffset: 2
+legExtension: -4.5
 name: Madine
-description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically.
+description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically. Fragile.
 flying: false
-health: 750
+health: 500
+armor: -3
 baseLegStraightness: 0
 weapons: [
 {
@@ -25,7 +26,7 @@ shootStatusDuration: 6
 bullet: {
   type: ShrapnelBulletType
   length: 40
-  height: 7
+  width: 5
   colorTo: 38a6c9
   colorFrom: ffffff
   damage: 10
