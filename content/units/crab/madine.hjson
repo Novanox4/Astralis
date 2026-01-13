@@ -21,11 +21,12 @@ shootX: 0
 shootSound: shockBullet
 mirror: false
 shootEffect: none
-shootStatus: madine-speed
+shootStatus: madine-weak
 controllable: false
 aiControllable: true
 autoTarget: true
 shootStatusDuration: 6
+knockback: -1
 bullet: {
   type: ShrapnelBulletType
   length: 40
