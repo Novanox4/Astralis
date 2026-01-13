@@ -50,7 +50,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 160
+      len: 340
       sizeFrom: 8.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -63,7 +63,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 160
+      len: 340
       sizeFrom: 8
       interp: pow10Out
       sizeInterp: pow3Out
@@ -76,7 +76,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 160
+      len: 340
       sizeFrom: 7.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -89,7 +89,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 160
+      len: 340
       sizeFrom: 7
       interp: pow10Out
       sizeInterp: pow3Out
