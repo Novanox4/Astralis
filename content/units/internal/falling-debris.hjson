@@ -30,6 +30,20 @@ weapons: [
     splashRadius: 70
     lightRadius: 80
     collides: false
+    trailEffect: [
+      {
+      type: ParticleEffect
+      particles: 2
+      len: 2
+      sizeFrom: 80
+      colorFrom: 242424ff
+      colorTo: 242424bf
+      lifetime: 600
+      sizeChangeStart: 300
+      useRotation: false
+      followParent: false
+      }
+    ]
     hitEffect: [
       {
       type: WaveEffect
