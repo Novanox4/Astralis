@@ -1,6 +1,6 @@
 type: flying
 name: Falling Debris
-hidden: false
+hidden: true
 hittable: false
 internal: true
 drawBody: false  
@@ -17,7 +17,7 @@ weapons: [
   y: 2184
   shootY: 0
   shootX: 0
-  alwaysShooting: false
+  alwaysShooting: true
   shootEffect: none
   smokeEffect: none
   mirror: false
@@ -52,6 +52,7 @@ weapons: [
     killShooter: true
     angleOffset: 0
     scaleLife: true
+    followAimSpeed: 9999999
     }
   }
 ]
