@@ -53,6 +53,8 @@ weapons: [
     angleOffset: 0
     scaleLife: true
     followAimSpeed: 9999999
+    rangeOverride: 1
+    maxRange: 1
     }
   }
 ]
