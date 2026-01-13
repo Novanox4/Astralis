@@ -2,7 +2,6 @@ type: flying
 name: Falling Debris
 hidden: true
 hittable: false
-internal: true
 drawBody: false  
 drawCell: false
 health: 1000000
@@ -11,6 +10,7 @@ physics: false
 deathExplosionEffect: none
 createScorch: false
 deathSound: none
+bounded: false
 weapons: [
   {
   x: 1800
