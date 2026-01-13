@@ -35,7 +35,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 3
-      len: 60
+      length: 30
       sizeFrom: 35
       interp: pow10Out
       sizeInterp: pow3Out
@@ -50,7 +50,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 340
+      length: 35
       sizeFrom: 8.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -63,7 +63,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 340
+      length: 35
       sizeFrom: 8
       interp: pow10Out
       sizeInterp: pow3Out
@@ -76,7 +76,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 340
+      length: 35
       sizeFrom: 7.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -89,7 +89,7 @@ weapons: [
       {
       type: ParticleEffect
       particles: 2
-      len: 340
+      length: 35
       sizeFrom: 7
       interp: pow10Out
       sizeInterp: pow3Out
@@ -113,10 +113,10 @@ weapons: [
       {
       type: ParticleEffect
       particles: 35
-      len: 400
+      length: 120
       sizeFrom: 45
       interp: pow10Out
-      sizeInterp: linear
+      sizeInterp: pow3Out
       colorFrom: 242424ff
       colorTo: 242424ff
       lifetime: 300
@@ -128,7 +128,6 @@ weapons: [
       {
       type: ParticleEffect
       particles: 4
-      len: 340
       sizeFrom: 8.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -141,7 +140,6 @@ weapons: [
       {
       type: ParticleEffect
       particles: 3
-      len: 340
       sizeFrom: 8
       interp: pow10Out
       sizeInterp: pow3Out
@@ -154,7 +152,6 @@ weapons: [
       {
       type: ParticleEffect
       particles: 5
-      len: 340
       sizeFrom: 7.5
       interp: pow10Out
       sizeInterp: pow3Out
@@ -167,7 +164,6 @@ weapons: [
       {
       type: ParticleEffect
       particles: 4
-      len: 340
       sizeFrom: 7
       interp: pow10Out
       sizeInterp: pow3Out
