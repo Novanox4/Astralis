@@ -127,15 +127,33 @@ weapons: [
       }
       {
       type: ParticleEffect
-      particles: 28
+      particles: 15
       length: 400
-      sizeFrom: 22.5
       interp: pow10Out
-      colorFrom: 242424ff
-      colorTo: 242424ff
+      colorFrom: e5861cff
+      colorTo: e5861cff
       lifetime: 600
       useRotation: false
       followParent: false
+      line: true
+      lenFrom: 20
+      strokeFrom: 18
+      lenTo: 18.25
+      }
+      {
+      type: ParticleEffect
+      particles: 15
+      length: 400
+      interp: pow10Out
+      colorFrom: ff0000ff
+      colorTo: ff0000ff
+      lifetime: 600
+      useRotation: false
+      followParent: false
+      line: true
+      lenFrom: 20
+      strokeFrom: 18
+      lenTo: 18.25
       }
       {
       type: ParticleEffect
