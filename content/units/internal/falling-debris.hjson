@@ -128,13 +128,13 @@ weapons: [
       {
       type: ParticleEffect
       particles: 40
-      length: 190
+      length: 250
       sizeFrom: 45
       interp: pow10Out
       colorFrom: 242424ff
       colorTo: 242424ff
       lifetime: 600
-      sizeChangeStart: 100
+      sizeChangeStart: 300
       useRotation: false
       followParent: false
       layer: 99
@@ -142,13 +142,13 @@ weapons: [
       {
       type: ParticleEffect
       particles: 40
-      length: 190
+      length: 250
       sizeFrom: 45
       interp: pow10Out
       colorFrom: 242424ff
       colorTo: 242424ff
       lifetime: 600
-      sizeChangeStart: 100
+      sizeChangeStart: 300
       useRotation: false
       followParent: false
       layer: 109
