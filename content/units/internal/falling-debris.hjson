@@ -142,6 +142,21 @@ weapons: [
       }
       {
       type: ParticleEffect
+      particles: 40
+      length: 190
+      sizeFrom: 45
+      interp: pow10Out
+      sizeInterp: pow5Out
+      colorFrom: 242424ff
+      colorTo: 242424ff
+      lifetime: 600
+      sizeChangeStart: 100
+      useRotation: false
+      followParent: false
+      layer: 109
+      }
+      {
+      type: ParticleEffect
       particles: 4
       sizeFrom: 12.5
       interp: pow10Out
