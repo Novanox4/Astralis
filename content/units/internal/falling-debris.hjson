@@ -30,7 +30,7 @@ weapons: [
     lightRadius: 80
     collides: false
     trailChance: 1.2
-    hitShake: 8
+    despawnShake: 15
     hitSound: explosionReactor
     trailEffect: [
       {
