@@ -28,9 +28,10 @@ weapons: [
     splashDamage: 3749
     splashRadius: 70
     lightRadius: 80
-    collides: false
+    collidesTiles: false
+    collidesGround: false
     trailChance: 1.2
-    despawnShake: 15
+    hitShake: 15
     hitSound: explosionReactor
     trailEffect: [
       {
