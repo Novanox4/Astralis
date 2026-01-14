@@ -51,7 +51,7 @@ weapons: [
       type: ParticleEffect
       particles: 3
       length: 45
-      sizeFrom: 02
+      sizeFrom: 30
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: 242424ff
