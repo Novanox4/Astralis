@@ -51,7 +51,7 @@ weapons: [
       type: ParticleEffect
       particles: 3
       length: 45
-      sizeFrom: 35
+      sizeFrom: 02
       interp: pow10Out
       sizeInterp: pow3Out
       colorFrom: 242424ff
@@ -60,8 +60,7 @@ weapons: [
       sizeChangeStart: 7.5
       useRotation: false
       followParent: false
-      layer: 109
-      region: "particle"
+      layer: 99
       }
       {
       type: ParticleEffect
