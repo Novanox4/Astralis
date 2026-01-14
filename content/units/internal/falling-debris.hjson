@@ -119,11 +119,23 @@ weapons: [
       {
       type: WaveEffect
       strokeFrom: 18
-      sizeTo: 160
+      sizeTo: 280
       colorFrom: ffffff
       colorTo: ff0000
-      lifetime: 120
+      lifetime: 130
       interp: pow10Out
+      }
+      {
+      type: ParticleEffect
+      particles: 28
+      length: 400
+      sizeFrom: 22.5
+      interp: pow10Out
+      colorFrom: 242424ff
+      colorTo: 242424ff
+      lifetime: 600
+      useRotation: false
+      followParent: false
       }
       {
       type: ParticleEffect
