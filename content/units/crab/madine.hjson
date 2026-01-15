@@ -28,6 +28,9 @@ aiControllable: true
 autoTarget: true
 shootStatusDuration: 6
 rotateSpeed: 250
+//say not a word about this
+targetInterval: 6
+targetSwitchInterval: 7
 bullet: {
   type: ShrapnelBulletType
   length: 40
