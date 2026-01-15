@@ -1,0 +1,27 @@
+type: PowerTurret
+rotateSpeed: 5.5
+name: Mouthpiece
+description: "Shoots long range bolts of electricity. Requires silver to work. [accent]The silver will not be consumed post input."
+requirements: [
+  crystalite/40
+  uranium/25
+]
+targetInterval: 10
+minWarmup: 1
+shootY: 1
+warmupMaintainTime: 60
+shootSound: shootPulsar
+recoilTime: 6
+recoil: 0.5
+reload: 9
+category: turret
+consume: {
+  power: 1.5
+  items: [
+    silver/50
+  ]
+}
+//placeholder till I finish the moving parts
+shootType: {
+  type: BasicBulleType
+}
