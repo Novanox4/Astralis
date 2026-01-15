@@ -15,6 +15,7 @@ recoilTime: 6
 recoil: 0.5
 reload: 9
 category: turret
+size: 1
 consume: {
   power: 1.5
   items: [
