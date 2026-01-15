@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 rotateSpeed: 5.5
 name: Mouthpiece
 description: "Shoots long range bolts of electricity. Requires silver to work. [accent]The silver will not be consumed post input."
@@ -19,6 +19,7 @@ size: 2
 itemCapacity: 50
 maxAmmo: 50
 outlineColor: 323232
+ammoPerShot: 0
 consume: {
   power: 1.5
   items: [
@@ -26,13 +27,15 @@ consume: {
   ]
 }
 //placeholder till I finish the moving parts
-shootType: {
-  type: LaserBulletType
-  colors: [f5d73866, f5d738ff, ffffffff]
-  width: 9.75
-  length: 70
-  damage: 52.5
-  collidesGround: false
+ammoTypes: {
+  silver: {
+    type: LaserBulletType
+    colors: [f5d73866, f5d738ff, ffffffff]
+    width: 9.75
+    length: 70
+    damage: 52.5
+    collidesGround: false
+  }
 }
 drawer: {
   type: DrawTurret
