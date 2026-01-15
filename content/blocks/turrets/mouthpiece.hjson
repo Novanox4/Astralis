@@ -6,11 +6,11 @@ requirements: [
   crystalite/40
   uranium/25
 ]
-targetInterval: 10
-minWarmup: 1
+minWarmup: 0.9
 shootY: 1
 warmupMaintainTime: 60
 shootSound: shootPulsar
+squareSprite: false
 recoilTime: 6
 recoil: 0.5
 reload: 9
@@ -37,3 +37,5 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
   }
+range: 70
+trackingRange: 140
