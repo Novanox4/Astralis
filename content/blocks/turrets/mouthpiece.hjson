@@ -17,6 +17,7 @@ reload: 9
 category: turret
 size: 2
 itemCapacity: 50
+maxAmmo: 50
 consume: {
   power: 1.5
   items: [
@@ -25,7 +26,12 @@ consume: {
 }
 //placeholder till I finish the moving parts
 shootType: {
-  type: BasicBulleType
+  type: LaserBulletType
+  colors: [f5d73866, f5d738ff, ffffffff]
+  width: 10.5
+  length: 325
+  damage: 52.5
+  collidesGround: false
 }
 drawer: {
   type: DrawTurret
