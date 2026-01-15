@@ -16,6 +16,7 @@ recoil: 0.5
 reload: 9
 category: turret
 size: 2
+itemCapacity: 50
 consume: {
   power: 1.5
   items: [
