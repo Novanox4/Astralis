@@ -15,7 +15,7 @@ recoilTime: 6
 recoil: 0.5
 reload: 9
 category: turret
-size: 1
+size: 2
 consume: {
   power: 1.5
   items: [
@@ -26,3 +26,7 @@ consume: {
 shootType: {
   type: BasicBulleType
 }
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  }
