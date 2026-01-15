@@ -21,7 +21,7 @@ consume: {
   power: 1.5
 }
 //placeholder till I finish the moving parts
-shooType: {
+shootType: {
     type: LaserBulletType
     colors: [f5d73866, f5d738ff, ffffffff]
     width: 9.75
