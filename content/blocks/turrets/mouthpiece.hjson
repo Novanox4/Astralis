@@ -40,11 +40,11 @@ drawer: {
     type: RegionPart
     suffix: -prongs
     progress: warmup
-    moveY: 12
+    moveY: 10.75
     growY: 1
     yScl: 0
     replaceOutline: true
-    layerOffset: -0.000001
+    layerOffset: -0.000002
     heatLayerOffset: 0.0001
     }
   ]
