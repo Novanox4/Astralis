@@ -17,8 +17,11 @@ category: turret
 size: 2
 outlineColor: 323232
 ammoPerShot: 0
-consume: {
+consumes: {
   power: 1.5
+  items: [
+    silver/50
+  ]
 }
 //placeholder till I finish the moving parts
 shootType: {
