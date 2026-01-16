@@ -42,6 +42,8 @@ drawer: {
     moveY: 8
     growY: 1
     yScl: 0
+    layerOffset: -0.1
+    replaceOutline: true
     }
   ]
   }
