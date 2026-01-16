@@ -44,8 +44,40 @@ drawer: {
     growY: 1
     yScl: 0
     replaceOutline: true
-    layerOffset: -0.000009
-    heatLayerOffset: 0.0001
+    layerOffset: -0.1
+    heatLayerOffset: 0.001
+    }
+    {
+    type: RegionPart
+    suffix: -arrow
+    progress: warmup
+    moveY: 10.75
+    replaceOutline: true
+    layerOffset: -0.1
+    heatLayerOffset: 0.001
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      y: -1
+      }
+    ]
+    }
+    {
+    type: RegionPart
+    suffix: -arrow
+    progress: warmup
+    moveY: 8
+    replaceOutline: true
+    layerOffset: -0.1
+    heatLayerOffset: 0.001
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      y: -1
+      }
+    ]
     }
   ]
   }
