@@ -37,9 +37,10 @@ drawer: {
   basePrefix: astral-
   parts: [
     {
+    type: RegionPart
     suffix: -prongs
     progress: warmup
-    moveY: 8
+    moveY: 12
     growY: 1
     yScl: 0
     replaceOutline: true
