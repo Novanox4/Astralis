@@ -16,7 +16,7 @@ reload: 9
 category: turret
 size: 2
 outlineColor: 323232
-ammoPerShot: 0
+itemCapacity: 50
 consumes: {
   power: 1.5
   items: [
