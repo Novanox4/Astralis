@@ -44,7 +44,8 @@ drawer: {
     growY: 1
     yScl: 0
     replaceOutline: true
-    under: true
+    layerOffset: -0.00001
+    heatLayerOffset: 0.0001
     }
   ]
   }
