@@ -6,7 +6,6 @@ requirements: [
   uranium/25
 ]
 minWarmup: 0.95
-shootY: 1
 warmupMaintainTime: 45
 shootSound: shootPulsar
 squareSprite: false
@@ -17,6 +16,7 @@ category: turret
 size: 2
 outlineColor: 323232
 itemCapacity: 50
+shootY: 3
 consumes: {
   power: 1.5
   items: [
@@ -35,6 +35,15 @@ shootType: {
 drawer: {
   type: DrawTurret
   basePrefix: astral-
+  parts: [
+    {
+    suffix: -prongs
+    progress: warmup
+    moveY: 8
+    growY: 1
+    yScl: 0
+    }
+  ]
   }
 range: 70
 trackingRange: 140
