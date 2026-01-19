@@ -62,32 +62,6 @@ weapons: [
       strokeFrom: 5
       strokeTo: 0
       lifetime: 60
-      startDelay: 380
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 385
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
       startDelay: 390
       interp: pow10Out
       sides: 6
@@ -128,6 +102,32 @@ weapons: [
       strokeTo: 0
       lifetime: 60
       startDelay: 405
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 410
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 415
       interp: pow10Out
       sides: 6
       }
