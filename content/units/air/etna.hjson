@@ -19,16 +19,21 @@ weapons: [
   reload: 600
   shoot: {
     //nice
-    firstShotDelay: 420
+    firstShotDelay: 460
   }
   mirror: false
   x: 0
   shootY: 1
+  rotate: true
   shootSound: etna-railgun-shoot
   chargeSound: etna-chargeup
+  activeSound: loopThoriumReactor
+  activeSoundVolume: 0.45
   bullet: {
     type: LaserBulletType
     damage: 300
+    width: 20
+    length: 700
     }
   }
 ]
