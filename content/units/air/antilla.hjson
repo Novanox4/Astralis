@@ -9,7 +9,7 @@ engineSize: 3.7
 engineOffset: 7.2
 moveSound: shipMove
 faceTarget: false
-databaseTag: "astralis-unit-energy"
+databaseTag: "astralis-unit-tier-2"
 name: Antilla
 description: Shoots a powerful laser. Has dual point defense guns.
 weapons: [
