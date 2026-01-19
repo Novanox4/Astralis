@@ -61,7 +61,7 @@ weapons: [
       strokeFrom: 5
       strokeTo: 0
       lifetime: 60
-      startDelay: 375
+      startDelay: 360
       interp: pow10Out
       sides: 6
       }
@@ -74,7 +74,7 @@ weapons: [
       strokeFrom: 5
       strokeTo: 0
       lifetime: 60
-      startDelay: 380
+      startDelay: 365
       interp: pow10Out
       sides: 6
       }
@@ -87,7 +87,7 @@ weapons: [
       strokeFrom: 5
       strokeTo: 0
       lifetime: 60
-      startDelay: 385
+      startDelay: 370
       interp: pow10Out
       sides: 6
       }
