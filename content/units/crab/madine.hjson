@@ -8,6 +8,7 @@ name: Madine
 description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically. Fragile while attacking.
 flying: false
 health: 1000
+hovering: true
 armor: 2
 baseLegStraightness: 0
 weapons: [
