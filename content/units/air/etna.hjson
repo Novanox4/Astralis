@@ -131,6 +131,85 @@ weapons: [
       interp: pow10Out
       sides: 6
       }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      //nice
+      startDelay: 420
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 425
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 430
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 435
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 440
+      interp: pow10Out
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: 979ca1
+      colorFrom: ced6d5
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 5
+      strokeTo: 0
+      lifetime: 60
+      startDelay: 445
+      interp: pow10Out
+      sides: 6
+      }
       ]
     }
   }
