@@ -20,7 +20,7 @@ weapons: [
   cooldownTime: 420
   shoot: {
     //nice
-    firstShotDelay: 490
+    firstShotDelay: 475
   }
   mirror: false
   x: 0
