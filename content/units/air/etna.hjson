@@ -10,7 +10,25 @@ engineOffset: 12
 rotateSpeed: 3.25
 moveSound: shipMove
 faceTarget: false
-databaseTag: "astralis-unit-tier-4"
+databaseTag: "astralis-unit-tier-3"
 name: Etna
-description: Shoots a ginormous deathray
-weapons: []
+description: Shoots a powerful beam of energy.
+weapons: [
+  {
+  name: etna-railgun
+  reload: 600
+  shoot: {
+    //nice
+    firstShotDelay: 420
+  }
+  mirror: false
+  x: 0
+  shootY: 1
+  shootSound: etna-railgun-shoot
+  chargeSound: etna-chargeup
+  bullet: {
+    type: LaserBulletType
+    damage: 300
+    }
+  }
+]
