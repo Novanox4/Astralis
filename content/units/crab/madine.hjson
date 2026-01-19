@@ -6,6 +6,7 @@ legBaseOffset: 2
 legExtension: -4.5
 name: Madine
 description: Close range rushdown unit. Faster while attacking, can't target it's weapons automatically. Fragile while attacking.
+databaseTag: "astralis-unit-tier-2"
 flying: false
 health: 1000
 hovering: true
