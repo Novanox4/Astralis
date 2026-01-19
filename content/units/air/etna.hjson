@@ -20,7 +20,7 @@ weapons: [
   cooldownTime: 420
   shoot: {
     //nice
-    firstShotDelay: 472.5
+    firstShotDelay: 477.5
   }
   mirror: false
   x: 0
@@ -47,7 +47,7 @@ weapons: [
       strokeFrom: 0
       strokeTo: 12
       lifetime: 472.5
-      interp: pow5In
+      interp: pow10In
       }
       ]
     }
