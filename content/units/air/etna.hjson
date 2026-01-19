@@ -20,13 +20,14 @@ weapons: [
   cooldownTime: 420
   shoot: {
     //nice
-    firstShotDelay: 460
+    firstShotDelay: 520
   }
   mirror: false
   x: 0
   shootY: 1
   rotate: true
   shootSound: etna-railgun-shoot
+  shootSoundVolume: 1.5
   chargeSound: etna-chargeup
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
