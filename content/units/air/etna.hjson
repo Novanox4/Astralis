@@ -1,0 +1,16 @@
+type: flying
+flying: true
+lowAltitude: true
+outlineColor: 323232
+health: 6750
+speed: 0.85
+hitSize: 28.5
+engineSize: 6
+engineOffset: 12
+rotateSpeed: 3.25
+moveSound: shipMove
+faceTarget: false
+databaseTag: "astralis-unit-tier-4"
+name: Etna
+description: Shoots a ginormous deathray
+weapons: []
