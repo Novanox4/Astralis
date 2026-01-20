@@ -25,22 +25,111 @@ consumes: {
 }
 shootType: {
   type: BasicBulletType
-  damage: 2
+  damage: 0
+  shrinkY: 0
+  width: 7
+  height: 7
   pierce: true
   backColor: f5d738
   frontColor: ffffff
-  sprite: "circle-bullet"
+  sprite: "mine-bullet"
   speed: 5
   lifetime: 28
-  bulletInterval: 1
+  bulletInterval: 1.25
+  trailColor: f5d738
+  trailWidth: 1
+  trailLength: 3
   intervalBullet: {
-    type: Lightning
-    status: none
-    hitEffect: none
-    despawnEffect: none
-    hitEffect: none
-    despawnEffect: none
-    color: f5d738
+    type: BasicBulletType
+    sprite: "mine-bullet"
+    backColor: f5d738
+    frontColor: ffffff
+    damage: 5
+    homingPower: 0.8
+    height: 4
+    width: 4
+    shrinkY: 0
+    speed: 1
+    lifetime: 90
+    despawnHit: true
+    accel: -0.0075
+    hitEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 16
+      lifetime: 25
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      line: true
+      lenFrom: 6
+      lenTo: 0
+      strokeFrom: 3.75
+      strokeTo: 0
+      length: 20
+      lifetime: 25
+      particles: 4
+      }
+      {
+      type: WaveEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 2.65
+      strokeTo: 0
+      lifetime: 25
+      }
+    ]
+    }
+    hitEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 16
+      lifetime: 25
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      line: true
+      lenFrom: 6
+      lenTo: 0
+      strokeFrom: 3.75
+      strokeTo: 0
+      length: 20
+      lifetime: 25
+      particles: 4
+      }
+      {
+      type: WaveEffect
+      colorFrom: f5d738
+      colorTo: f5d738
+      interp: pow3Out
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 2.65
+      strokeTo: 0
+      lifetime: 25
+      }
+    ]
   }
 }
 drawer: {
