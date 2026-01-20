@@ -47,7 +47,7 @@ shootType: {
   weaveScale: 4
   despawnEffect: none
   despawnHit: true
-  intervalAngle: 90
+  intervalAngle: 0
   intervalBullets: 2
   intervalBullet: {
     type: BasicBulletType
