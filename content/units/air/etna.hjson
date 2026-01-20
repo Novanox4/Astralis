@@ -32,6 +32,7 @@ weapons: [
   chargeSound: etna-chargeup
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
+  shootStatus: etna-vulnerable
   bullet: {
     //bullet not done
     type: LaserBulletType
