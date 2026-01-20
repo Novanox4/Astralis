@@ -70,7 +70,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      y: -12
+      y: -1
       }
     ]
     }
@@ -86,7 +86,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      y: -8
+      y: -1
       }
     ]
     }
@@ -102,7 +102,7 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      y: -4
+      y: -1
       }
     ]
     }
