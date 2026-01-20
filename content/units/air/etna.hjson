@@ -29,7 +29,7 @@ weapons: [
   shootY: 1
   rotate: true
   shootSound: etna-railgun-shoot
-  shootSoundVolume: 1.5
+  shootSoundVolume: 1.15
   chargeSound: etna-chargeup
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
