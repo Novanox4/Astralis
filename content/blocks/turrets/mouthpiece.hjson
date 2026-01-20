@@ -35,7 +35,7 @@ shootType: {
   sprite: "mine-bullet"
   speed: 5
   lifetime: 28
-  bulletInterval: 1.25
+  bulletInterval: 5
   trailColor: f5d738
   trailWidth: 1
   trailLength: 3
@@ -50,10 +50,10 @@ shootType: {
     width: 4
     shrinkY: 0
     speed: 1
-    lifetime: 90
+    lifetime: 900
     despawnHit: true
     despawnEffect: none
-    accel: -0.02
+    accel: -0.002
     spin: 2
     weaveMag: 2
     weaveScale: 8
