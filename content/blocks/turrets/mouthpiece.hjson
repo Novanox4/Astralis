@@ -25,12 +25,27 @@ consumes: {
 }
 //placeholder till I finish the moving parts
 shootType: {
-    type: LaserBulletType
-    colors: [f5d73866, f5d738ff, ffffffff]
-    width: 9.75
-    length: 70
-    damage: 52.5
-    collidesGround: false
+  type: BasicBulletType
+  damage: 5
+  pierce: true
+  backColor: f5d738
+  frontColor: ffffff
+  sprite: "circle-bullet"
+  speed: 5
+  lifetime: 28
+  bulletInterval: 1
+  intervalBullet: {
+    type: BulletType
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    damage: 0
+    lifetime: 0
+    lightningColor: f5d738
+    lightningLength: 1
+    lightningLengthRand: 1
+    lightningDamage: 3
+  }
 }
 drawer: {
   type: DrawTurret
@@ -97,5 +112,5 @@ drawer: {
     }
   ]
   }
-range: 70
-trackingRange: 140
+range: 140
+trackingRange: 160
