@@ -36,10 +36,8 @@ shootType: {
   sprite: "mine-bullet"
   speed: 5
   lifetime: 29
-  bulletInterval: 9
-  intervalDelay: 2
-  intervalRandomSpread: 0
-  intervalSpread: 180
+  fragRandomSpread: 0
+  fragSpread: 180
   trailColor: f5d738
   trailWidth: 1.75
   trailLength: 6
@@ -48,14 +46,18 @@ shootType: {
   despawnEffect: none
   despawnHit: true
   intervalAngle: 0
-  intervalBullets: 2
-  intervalBullet: {
+  fragBullets: 2
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragVelocityMin: 1
+  fragBullet: {
     type: BasicBulletType
     homingDelay: 5
     sprite: "circle-bullet"
     backColor: f5d738
     frontColor: f5d738
     damage: 2
+    pierce: true
     homingPower: 1
     homingRange: 130
     height: 4
