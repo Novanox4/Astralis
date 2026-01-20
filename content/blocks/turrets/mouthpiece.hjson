@@ -34,11 +34,10 @@ shootType: {
   lifetime: 28
   bulletInterval: 1
   intervalBullet: {
-    type: LightningBulletType
+    type: Lightning
     status: none
     hitEffect: none
     despawnEffect: none
-    damage: 0
     hitEffect: none
     despawnEffect: none
   }
