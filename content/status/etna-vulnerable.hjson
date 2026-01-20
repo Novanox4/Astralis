@@ -1,0 +1,5 @@
+show: false
+name: Vulnerable (Etna)
+healthMultiplier: 0.3
+dragMultiplier: 2
+speedMultiplier: 0
