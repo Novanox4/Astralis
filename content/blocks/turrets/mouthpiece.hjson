@@ -50,6 +50,7 @@ shootType: {
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragVelocityMin: 1
+  fragPierceCap: 0
   fragBullet: {
     type: BasicBulletType
     homingDelay: 5
