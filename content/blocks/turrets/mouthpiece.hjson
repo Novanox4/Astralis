@@ -36,7 +36,8 @@ shootType: {
   sprite: "mine-bullet"
   speed: 5
   lifetime: 28
-  bulletInterval: 13
+  bulletInterval: 9
+  intervalDelay: 9
   trailColor: f5d738
   trailWidth: 1.75
   trailLength: 6
