@@ -36,7 +36,6 @@ shootType: {
   bulletInterval: 1
   intervalBullet: {
     type: BulletType
-    collides: false
     hitEffect: none
     despawnEffect: none
     damage: 0
