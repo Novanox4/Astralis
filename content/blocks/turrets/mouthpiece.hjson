@@ -67,7 +67,7 @@ shootType: {
       colorFrom: f5d738
       colorTo: f5d738
       interp: pow3Out
-      sizeFrom: 2.5
+      sizeFrom: 1.75
       sizeTo: 0
       length: 16
       lifetime: 25
@@ -79,9 +79,9 @@ shootType: {
       colorTo: f5d738
       interp: pow3Out
       line: true
-      lenFrom: 5
+      lenFrom: 3
       lenTo: 0
-      strokeFrom: 3
+      strokeFrom: 2
       strokeTo: 0
       length: 20
       lifetime: 25
@@ -93,8 +93,8 @@ shootType: {
       colorTo: f5d738
       interp: pow3Out
       sizeFrom: 0
-      sizeTo: 5
-      strokeFrom: 1.85
+      sizeTo: 3
+      strokeFrom: 1.5
       strokeTo: 0
       lifetime: 25
       }
