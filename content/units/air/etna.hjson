@@ -18,7 +18,7 @@ weapons: [
   name: etna-railgun
   reloadWhileChargin: false
   reload: 600
-  nice
+  //nice
   cooldownTime: 420
   shoot: {
     firstShotDelay: 475
