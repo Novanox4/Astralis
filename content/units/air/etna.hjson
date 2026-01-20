@@ -2,7 +2,7 @@ type: flying
 flying: true
 lowAltitude: true
 outlineColor: 323232
-health: 6750
+health: 2000
 speed: 0.85
 hitSize: 28.5
 engineSize: 6
@@ -18,9 +18,9 @@ weapons: [
   name: etna-railgun
   reloadWhileChargin: false
   reload: 600
+  nice
   cooldownTime: 420
   shoot: {
-    //nice
     firstShotDelay: 475
   }
   mirror: false
@@ -33,6 +33,7 @@ weapons: [
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
   shootStatus: etna-vulnerable
+  shootStatusDuration: 476
   bullet: {
     //bullet not done
     type: LaserBulletType
