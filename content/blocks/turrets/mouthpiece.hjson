@@ -26,7 +26,7 @@ consumes: {
 //placeholder till I finish the moving parts
 shootType: {
   type: BasicBulletType
-  damage: 5
+  damage: 2
   pierce: true
   backColor: f5d738
   frontColor: ffffff
