@@ -16,7 +16,7 @@ description: Shoots a powerful beam of energy.
 weapons: [
   {
   name: etna-railgun
-  reloadWhileChargin: false
+  reloadWhileCharging: false
   reload: 600
   //nice
   cooldownTime: 420
