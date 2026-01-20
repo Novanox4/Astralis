@@ -43,8 +43,8 @@ shootType: {
     lifetime: 0
     lightning: 3
     lightningColor: f5d738
-    lightningLength: 1
-    lightningLengthRand: 1
+    lightningLength: 2
+    lightningLengthRand: 2
     lightningDamage: 3
   }
 }
