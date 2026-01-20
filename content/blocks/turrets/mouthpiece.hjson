@@ -131,7 +131,6 @@ shootType: {
       }
     ]
   }
-}
 drawer: {
   type: DrawTurret
   basePrefix: astral-
