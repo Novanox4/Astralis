@@ -2,7 +2,7 @@ type: flying
 flying: true
 lowAltitude: true
 outlineColor: 323232
-health: 975
+health: 1650
 armor: 7
 speed: 0.85
 hitSize: 28.5
