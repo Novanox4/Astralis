@@ -9,6 +9,7 @@ description: Close range rushdown unit. Faster while attacking, can't target it'
 databaseTag: "astralis-unit-tier-2"
 flying: false
 health: 1000
+armor: 4
 hovering: true
 armor: 2
 baseLegStraightness: 0
