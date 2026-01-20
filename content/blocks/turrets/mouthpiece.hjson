@@ -1,7 +1,7 @@
 type: PowerTurret
 rotateSpeed: 5.5
 name: Mouthpiece
-description: Lays a field of explosives.
+description: Attacks with a flurry of power.
 requirements: [
   crystalite/40
   uranium/25
@@ -26,7 +26,7 @@ consumes: {
 }
 shootType: {
   type: BasicBulletType
-  damage: 0
+  damage: 5
   shrinkY: 0
   width: 7
   height: 7
@@ -35,9 +35,9 @@ shootType: {
   frontColor: ffffff
   sprite: "mine-bullet"
   speed: 5
-  lifetime: 28
+  lifetime: 29
   bulletInterval: 9
-  intervalDelay: 9
+  intervalDelay: 2
   trailColor: f5d738
   trailWidth: 1.75
   trailLength: 6
@@ -45,24 +45,22 @@ shootType: {
   weaveScale: 4
   intervalBullet: {
     type: BasicBulletType
-    sprite: "mine-bullet"
+    sprite: "circle-bullet"
     backColor: f5d738
-    frontColor: ffffff
-    damage: 5
+    frontColor: f5d738
+    damage: 2
     homingPower: 2
     homingRange: 100
     height: 4
     width: 4
     shrinkY: 0
-    speed: 0.2
-    lifetime: 900
+    speed: 2
+    lifetime: 40
     despawnHit: true
-    despawnEffect: none
-    accel: -0.00095
     spin: 2
     trailColor: f5d738
-    trailWidth: 1
-    trailLength: 6
+    trailWidth: 1.25
+    trailLength: 5
     hitEffect: [
       {
       type: ParticleEffect
