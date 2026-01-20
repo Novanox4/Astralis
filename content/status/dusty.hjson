@@ -1,0 +1,16 @@
+show: false
+name: Dusty
+healthMultiplier: 0.95
+dragMultiplier: 1.5
+speedMultiplier: 0.75
+damage: 4
+intervalDamageTime: 60
+intervalDamagePierce: true
+effect: {
+  type: ParticleEffect
+  particles: 1
+  length: 0
+  lifetime: 30
+  colorFrom: 4a453a
+  colorTo: 4a453a00
+}
