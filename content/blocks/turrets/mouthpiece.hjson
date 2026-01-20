@@ -41,6 +41,7 @@ shootType: {
     despawnEffect: none
     damage: 0
     lifetime: 0
+    lightning: 3
     lightningColor: f5d738
     lightningLength: 1
     lightningLengthRand: 1
