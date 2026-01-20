@@ -44,7 +44,7 @@ shootType: {
     lightningColor: f5d738
     lightningLength: 2
     lightningLengthRand: 2
-    lightningDamage: 3
+    lightningDamage: 0.1
     despawnHit: true
   }
 }
