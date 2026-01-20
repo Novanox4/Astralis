@@ -40,6 +40,7 @@ shootType: {
     despawnEffect: none
     hitEffect: none
     despawnEffect: none
+    color: f5d738
   }
 }
 drawer: {
