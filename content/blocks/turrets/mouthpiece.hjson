@@ -1,6 +1,7 @@
 type: PowerTurret
 rotateSpeed: 5.5
 name: Mouthpiece
+
 requirements: [
   crystalite/40
   uranium/25
@@ -51,13 +52,13 @@ shootType: {
     height: 4
     width: 4
     shrinkY: 0
-    speed: 1.25
+    speed: 0.45
     lifetime: 900
     despawnHit: true
     despawnEffect: none
     accel: -0.01
     spin: 2
-    bulletInterval: 7.5
+    bulletInterval: 14
     trailColor: f5d738
     trailWidth: 0.5
     trailLength: 2
