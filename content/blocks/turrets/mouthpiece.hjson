@@ -162,8 +162,8 @@ drawer: {
     growY: 1
     yScl: 0
     replaceOutline: true
-    layerOffset: -0.1
-    heatLayerOffset: 0.001
+    under: true
+    y: 0.005
     }
     {
     type: RegionPart
