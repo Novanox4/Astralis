@@ -52,14 +52,18 @@ shootType: {
     speed: 1
     lifetime: 90
     despawnHit: true
-    accel: -0.0075
+    despawnEffect: none
+    accel: -0.075
+    spin: 2
+    weaveMag: 2
+    weaveScale: 8
     hitEffect: [
       {
       type: ParticleEffect
       colorFrom: f5d738
       colorTo: f5d738
       interp: pow3Out
-      sizeFrom: 3
+      sizeFrom: 2.5
       sizeTo: 0
       length: 16
       lifetime: 25
@@ -71,9 +75,9 @@ shootType: {
       colorTo: f5d738
       interp: pow3Out
       line: true
-      lenFrom: 6
+      lenFrom: 5
       lenTo: 0
-      strokeFrom: 3.75
+      strokeFrom: 3
       strokeTo: 0
       length: 20
       lifetime: 25
@@ -85,8 +89,8 @@ shootType: {
       colorTo: f5d738
       interp: pow3Out
       sizeFrom: 0
-      sizeTo: 8
-      strokeFrom: 2.65
+      sizeTo: 5
+      strokeFrom: 1.85
       strokeTo: 0
       lifetime: 25
       }
