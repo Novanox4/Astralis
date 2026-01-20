@@ -51,13 +51,13 @@ shootType: {
   intervalBullets: 2
   intervalBullet: {
     type: BasicBulletType
-    homingDelay: 10
+    homingDelay: 5
     sprite: "circle-bullet"
     backColor: f5d738
     frontColor: f5d738
     damage: 2
-    homingPower: 2
-    homingRange: 100
+    homingPower: 1
+    homingRange: 130
     height: 4
     width: 4
     shrinkY: 0
