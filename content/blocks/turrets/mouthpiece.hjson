@@ -23,7 +23,6 @@ consumes: {
     silver/50
   ]
 }
-//placeholder till I finish the moving parts
 shootType: {
   type: BasicBulletType
   damage: 2
@@ -44,7 +43,7 @@ shootType: {
     lightningColor: f5d738
     lightningLength: 2
     lightningLengthRand: 2
-    lightningDamage: 0.01
+    lightningDamage: 0.001
     despawnHit: true
   }
 }
