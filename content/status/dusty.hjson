@@ -1,9 +1,8 @@
-show: false
 name: Dusty
 healthMultiplier: 0.95
 dragMultiplier: 1.5
 speedMultiplier: 0.75
-damage: 4
+intervalDamage: 4
 intervalDamageTime: 60
 intervalDamagePierce: true
 effect: {
