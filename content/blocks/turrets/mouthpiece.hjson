@@ -58,7 +58,7 @@ shootType: {
     lifetime: 900
     despawnHit: true
     despawnEffect: none
-    accel: -0.002
+    accel: -0.00095
     spin: 2
     trailColor: f5d738
     trailWidth: 1
