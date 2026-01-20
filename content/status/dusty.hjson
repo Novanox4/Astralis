@@ -5,6 +5,7 @@ speedMultiplier: 0.75
 intervalDamage: 4
 intervalDamageTime: 60
 intervalDamagePierce: true
+effectChance: 0.25
 effect: {
   type: ParticleEffect
   particles: 1
@@ -12,4 +13,7 @@ effect: {
   lifetime: 30
   colorFrom: 4a453a
   colorTo: 4a453a00
+  layer: 111
+  offsetX: 1
+  offsetY: 1
 }
