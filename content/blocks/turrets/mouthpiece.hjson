@@ -42,7 +42,7 @@ shootType: {
   trailWidth: 1.75
   trailLength: 6
   weaveMag: 2
-  weaveScale: 8
+  weaveScale: 4
   intervalBullet: {
     type: BasicBulletType
     sprite: "mine-bullet"
