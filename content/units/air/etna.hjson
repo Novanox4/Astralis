@@ -5,7 +5,7 @@ outlineColor: 323232
 health: 1650
 armor: 7
 speed: 0.85
-hitSize: 28.5
+hitSize: 23.25
 engineSize: 6
 engineOffset: 12
 rotateSpeed: 3.25
