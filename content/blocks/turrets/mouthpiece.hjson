@@ -61,8 +61,8 @@ shootType: {
     height: 4
     width: 4
     shrinkY: 0
-    speed: 2
-    lifetime: 40
+    speed: 4
+    lifetime: 20
     despawnHit: true
     spin: 2
     trailColor: f5d738
