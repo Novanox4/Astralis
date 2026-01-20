@@ -46,6 +46,7 @@ shootType: {
     lightningLength: 2
     lightningLengthRand: 2
     lightningDamage: 3
+    despawnHit: true
   }
 }
 drawer: {
