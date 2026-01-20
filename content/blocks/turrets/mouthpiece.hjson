@@ -41,11 +41,6 @@ shootType: {
     damage: 0
     hitEffect: none
     despawnEffect: none
-    lightning: 3
-    lightningColor: f5d738
-    lightningLength: 2
-    lightningLengthRand: 2
-    lightningDamage: 3
   }
 }
 drawer: {
