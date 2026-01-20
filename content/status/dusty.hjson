@@ -14,6 +14,4 @@ effect: {
   colorFrom: 4a453a
   colorTo: 4a453a00
   layer: 111
-  offsetX: 1
-  offsetY: 1
 }
