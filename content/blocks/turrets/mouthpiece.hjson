@@ -53,7 +53,7 @@ shootType: {
     lifetime: 90
     despawnHit: true
     despawnEffect: none
-    accel: -0.075
+    accel: -0.02
     spin: 2
     weaveMag: 2
     weaveScale: 8
