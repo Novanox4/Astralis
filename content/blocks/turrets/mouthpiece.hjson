@@ -38,13 +38,18 @@ shootType: {
   lifetime: 29
   bulletInterval: 9
   intervalDelay: 2
+  intervalRandomSpread: 0
+  intervalSpread: 180
   trailColor: f5d738
   trailWidth: 1.75
   trailLength: 6
   weaveMag: 2
   weaveScale: 4
+  despawnEffect: none
+  despawnHit: true
   intervalBullet: {
     type: BasicBulletType
+    homingDelay: 10
     sprite: "circle-bullet"
     backColor: f5d738
     frontColor: f5d738
@@ -61,6 +66,7 @@ shootType: {
     trailColor: f5d738
     trailWidth: 1.25
     trailLength: 5
+    despawnEffect: none
     hitEffect: [
       {
       type: ParticleEffect
