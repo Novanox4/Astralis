@@ -10,7 +10,7 @@ loopSoundVolume: 1
 category: turret
 recoilTime: 60
 cooldownTime: 60
-shootY: 8
+shootY: 10
 shoot: {
   shots: 2
 }
