@@ -1,7 +1,8 @@
 name: Dusty
-healthMultiplier: 0.95
+healthMultiplier: 0.9
 dragMultiplier: 1.5
-speedMultiplier: 0.75
+speedMultiplier: 0.7
+reloadMultiplier: 0.8
 intervalDamage: 4
 intervalDamageTime: 60
 intervalDamagePierce: true
