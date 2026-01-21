@@ -26,17 +26,21 @@ ammoTypes: {
     shrinkY: 0
     hitEffect: none
     despawnEffect: none
-    backColor: 261f1b
-    frontColor: 261f1b
+    backColor: 261f1b66
+    frontColor: 261f1b66
+    layer: 111
     width: 8
     height: 8
     sprite: "circle-bullet"
     status: dusty
     statusDuration: 420
-    damage: 1
+    damage: 0.2
     shootEffect: none
     smokeEffect: none
     speed: 5
+    knockback: 0.05
+    impact: true
     }
   }
 range: 140
+outlineColor: 323232
