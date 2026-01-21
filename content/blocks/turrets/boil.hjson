@@ -46,6 +46,7 @@ ammoTypes: {
     knockback: 0.05
     impact: true
     accel: -0.004
+    shrinkInterp: pow10Out
     }
   }
 range: 140
