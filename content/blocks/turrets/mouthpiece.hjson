@@ -171,7 +171,7 @@ drawer: {
     progress: warmup
     moveY: 12
     replaceOutline: true
-    layerOffset: -0.1
+    under: true
     heatLayerOffset: 0.001
     moves: [
       {
@@ -187,7 +187,7 @@ drawer: {
     progress: warmup
     moveY: 8
     replaceOutline: true
-    layerOffset: -0.1
+    under: true
     heatLayerOffset: 0.001
     moves: [
       {
@@ -203,7 +203,7 @@ drawer: {
     progress: warmup
     moveY: 4
     replaceOutline: true
-    layerOffset: -0.1
+    under: true
     heatLayerOffset: 0.001
     moves: [
       {
