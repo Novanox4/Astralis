@@ -1,0 +1,29 @@
+type: ItemTurret
+name: Boil
+description: Shoots a plume of heated char dust which impedes enemies.
+size: 2
+reload: 3
+inaccuracy: 12.5
+loopSound: loopSteam
+loopSoundVolume: 1
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+}
+ammoTypes: {
+  char-chunks: {
+    type: BasicBulletType
+    shrinkX: 0
+    shrinkY: 0
+    hitEffect: none
+    despawnEffect: none
+    backColor: 261f1b
+    frontColor: 261f1b
+    width: 8
+    height: 8
+    sprite: "circle-bullet"
+    status: dusty
+    statusDuration: 420
+    damage: 1
+    }
+  }

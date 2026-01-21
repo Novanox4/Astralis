@@ -1,9 +1,0 @@
-type: ItemTurret
-name: Boil
-description: Shoots a plume of heated char dust which impedes enemies.
-size: 2
-drawer: {
-  type: DrawTurret
-  basePrefix: astral-
-}
-    //WIP
