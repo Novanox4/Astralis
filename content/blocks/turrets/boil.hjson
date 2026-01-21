@@ -3,7 +3,7 @@ name: Boil
 description: Shoots a plume of heated char dust which impedes enemies.
 size: 2
 reload: 1
-inaccuracy: 12.5
+inaccuracy: 10
 loopSound: loopSteam
 shootSound: none
 loopSoundVolume: 1
@@ -46,7 +46,7 @@ ammoTypes: {
     lifetime: 60
     knockback: 0.05
     impact: true
-    accel: -0.004
+    accel: -0.01
     shrinkInterp: pow10Out
     }
   }
