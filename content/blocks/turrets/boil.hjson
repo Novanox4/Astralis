@@ -5,8 +5,11 @@ size: 2
 reload: 3
 inaccuracy: 12.5
 loopSound: loopSteam
+shootSound: none
 loopSoundVolume: 1
 category: turret
+recoilTime: 60
+cooldownTime: 60
 requirements: [
   crystalite/30
   metaglass/30
@@ -31,5 +34,9 @@ ammoTypes: {
     status: dusty
     statusDuration: 420
     damage: 1
+    shootEffect: none
+    smokeEffect: none
+    speed: 5
     }
   }
+range: 140
