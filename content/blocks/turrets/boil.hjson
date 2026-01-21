@@ -6,6 +6,12 @@ reload: 3
 inaccuracy: 12.5
 loopSound: loopSteam
 loopSoundVolume: 1
+category: turret
+requirements: [
+  crystalite/30
+  metaglass/30
+  silver/30
+]
 drawer: {
   type: DrawTurret
   basePrefix: astral-
