@@ -44,9 +44,9 @@ ammoTypes: {
     smokeEffect: none
     speed: 6
     lifetime: 60
-    knockback: 0.075
+    knockback: 0.05
     impact: true
-    accel: -0.04
+    accel: -0.08
     shrinkInterp: pow10Out
     }
   }
