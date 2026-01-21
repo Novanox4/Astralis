@@ -26,8 +26,8 @@ ammoTypes: {
   char-chunks: {
     type: BasicBulletType
     hittable: false
-    shrinkX: 1
-    shrinkY: 1
+    shrinkX: 0.85
+    shrinkY: 0
     hitEffect: none
     despawnEffect: none
     backColor: 261f1b00
