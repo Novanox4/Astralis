@@ -25,6 +25,7 @@ drawer: {
 ammoTypes: {
   char-chunks: {
     type: BasicBulletType
+    hittable: false
     shrinkX: 1
     shrinkY: 1
     hitEffect: none
