@@ -11,6 +11,7 @@ category: turret
 recoilTime: 60
 cooldownTime: 60
 shootY: 10
+rotateSpeed: 99
 shoot: {
   shots: 2
 }
