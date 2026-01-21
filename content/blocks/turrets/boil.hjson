@@ -46,7 +46,7 @@ ammoTypes: {
     lifetime: 60
     knockback: 0.05
     impact: true
-    accel: -0.01
+    accel: -0.04
     shrinkInterp: pow10Out
     }
   }
