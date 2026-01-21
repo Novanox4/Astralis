@@ -42,12 +42,20 @@ ammoTypes: {
     damage: 0.2
     shootEffect: none
     smokeEffect: none
-    speed: 5
+    speed: 6
+    lifetime: 60
     knockback: 0.05
     impact: true
     accel: -0.004
     shrinkInterp: pow10Out
     }
   }
-range: 140
+range: 200
+trackingRange: 220
 outlineColor: 323232
+squareSprite: false
+consumes: {
+  liquids: [
+    biofuel/0.2
+  ]
+}
