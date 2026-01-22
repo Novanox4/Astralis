@@ -27,5 +27,5 @@ drawer: {
   basePrefix: rejuvenator-
 }
 playerControllable: false
-rotateSpeed: 0
+rotateSpeed: 9999
 shootCone: 360
