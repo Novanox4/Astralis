@@ -52,7 +52,6 @@ ammoTypes: {
     }
   }
 range: 200
-trackingRange: 220
 outlineColor: 323232
 squareSprite: false
 consumes: {
