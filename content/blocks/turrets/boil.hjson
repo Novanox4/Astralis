@@ -4,16 +4,14 @@ description: Shoots a plume of heated char dust which impedes enemies. Focuses o
 size: 2
 reload: 1.25
 inaccuracy: 8
-loopSound: loopSteam
 shootSound: none
-loopSoundVolume: 1
 category: turret
 recoilTime: 60
 cooldownTime: 60
 shootY: 10
 rotateSpeed: 99
 shoot: {
-  shots: 3
+  shots: 40
 }
 requirements: [
   crystalite/30
@@ -43,15 +41,19 @@ ammoTypes: {
     damage: 0.2
     shootEffect: none
     smokeEffect: none
-    speed: 6
-    lifetime: 60
+    speed: 5
+    lifetime: 40
     knockback: 0.05
     impact: true
     accel: -0.08
     shrinkInterp: pow10Out
+    velocityScaleRandMin: 0.75
+    velocityScaleRandMax: 1.5
+    lifeScaleRandMin: 0.75
+    lifeScaleRandMax: 1.5
     }
   }
-range: 200
+range: 220
 outlineColor: 323232
 squareSprite: false
 consumes: {
