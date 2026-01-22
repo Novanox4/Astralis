@@ -5,7 +5,6 @@ requirements: [
   metaglass/80
   silver/75
 ]
-healPercent: 0.02
 name: Rejuvenator
 description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed."
 consumes: {
@@ -20,42 +19,3 @@ consumes: {
 }
 category: effect
 size: 3
-effect: healBlock
-drawer: [
-  {
-  type: DrawDefault
-  }
-  {
-  type: DrawPulseShape
-  minStroke: 0
-  stroke: 3
-  layer: 32
-  color: 7cd656
-  }
-  {
-  type: DrawSpikes
-  color: 7cd656ff
-  radius: 30
-  layer: 76
-  rotateSpeed: 1
-  layers: 2
-  length: 0.1
-  stroke: 3
-  amount: 5
-  }
-  {
-  type: DrawSpikes
-  color: 7cd656ff
-  radius: 65
-  layer: 76
-  rotateSpeed: 1.5
-  layers: 2
-  length: 0.1
-  stroke: 3
-  amount: 15
-  }
-  {
-  type: DrawTurret
-  basePrefix: "hawk-tuah"
-  }
-]
