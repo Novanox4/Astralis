@@ -39,8 +39,8 @@ drawer: [
   layer: 110
   rotateSpeed: 1
   layers: 2
-  length: 2
-  stroke: 8
+  length: 0.1
+  stroke: 15
   amount: 5
   }
   {
@@ -50,7 +50,7 @@ drawer: [
   layer: 110
   rotateSpeed: 1.5
   layers: 2
-  length: 2
+  length: 0.1
   stroke: 8
   amount: 12
   }
