@@ -33,9 +33,8 @@ drawer: [
   color: 7cd656
   }
   {
-  type: DrawShape
-  radius: 200
+  type: DrawSpikes
   color: 7cd656ff
-  layer: 110
+  radius: 40
   }
 ]
