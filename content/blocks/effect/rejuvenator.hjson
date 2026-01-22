@@ -41,7 +41,7 @@ drawer: [
   layers: 2
   length: 0.1
   stroke: 3
-  amount: 40
+  amount: 5
   }
   {
   type: DrawSpikes
@@ -52,6 +52,6 @@ drawer: [
   layers: 2
   length: 0.1
   stroke: 3
-  amount: 12
+  amount: 15
   }
 ]
