@@ -33,7 +33,7 @@ rotateSpeed: 99
       lenFrom: 4
       lenTo: 3.5
       strokeFrom: 1.75
-      strokeTo: 1.45
+      strokeTo: 0
       length: 24
       lifetime: 24
       particles: 3
