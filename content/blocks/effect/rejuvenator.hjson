@@ -20,8 +20,22 @@ consumes: {
 }
 category: effect
 size: 3
-effect: {
-  type: WrapEffect
+effect: none
+drawer: [
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawPulseShape
+  minStroke: 0
+  stroke: 3
+  layer: 32
   color: 7cd656
-  effect: regenParticle
-}
+  }
+  {
+  type: DrawShape
+  radius: 200
+  color: 7cd656ff
+  layer: 110
+  }
+]
