@@ -22,7 +22,7 @@ shootEffect: {
   particles: 1
   cone: 27.5
   layer: 99
-  offsetY: -1
+  offsetX: -1.5
 }
 shoot: {
   shots: 40
