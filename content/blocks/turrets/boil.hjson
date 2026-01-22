@@ -2,7 +2,7 @@ type: ItemTurret
 name: Boil
 description: Shoots a plume of heated char dust which impedes enemies. Focuses on weakening enemies rather than pure damage dealing.
 size: 2
-reload: 1
+reload: 1.25
 inaccuracy: 8
 loopSound: loopSteam
 shootSound: none
@@ -13,7 +13,7 @@ cooldownTime: 60
 shootY: 10
 rotateSpeed: 99
 shoot: {
-  shots: 2
+  shots: 3
 }
 requirements: [
   crystalite/30
