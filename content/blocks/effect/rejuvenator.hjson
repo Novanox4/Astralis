@@ -19,11 +19,8 @@ targetHealing: true
 shootSound: none
 shootY: 0
 shootType: {
-  type: ExplosionBulletType
-  killShooter: false
-  rangeOverride: 200
+  type: BasicBulletType
   healPercent: 1
-  splashRadius: 200
 }
 drawer: {
   type: DrawTurret
