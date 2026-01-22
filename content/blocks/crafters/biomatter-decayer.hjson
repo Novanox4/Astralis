@@ -1,0 +1,34 @@
+type: HeatCrafter
+size: 3
+requirements: [
+  crystalite/20
+  metaglass/40
+  uranium/15
+]
+name: Biomatter Decay Chamber
+description: Accelerates the decay of biomatter into biofuel by putting it in a dry, heated environment.
+consumes: {
+  items: [
+    biomatter/2
+  ]
+}
+heatRequirement: 12
+maxEfficiency: 1
+outputLiquids: [
+  biofuel/0.5
+  ]
+craftTime: 60
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  padding: 1
+  drawLiquid: biofuel
+  }
+  {
+  type: DrawDefault
+  }
+]
