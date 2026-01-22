@@ -31,4 +31,8 @@ drawer: [
   {
   type: DrawDefault
   }
+  {
+  type: DrawHeatInput
+  }
 ]
+liquidCapacity: 300
