@@ -7,7 +7,7 @@ requirements: [
 ]
 targetHealing: true
 name: Rejuvenator
-description: "Slowly regenerates buildings and units alike in a large range. Can be boosted with technoweave for extra speed."
+description: "Slowly regenerates buildings and units alike in a large range. Can be boosted with technoweave for extra speed. Can push back enemies within limited a extent."
 consumes: {
   power: 5
 }
