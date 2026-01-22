@@ -5,7 +5,6 @@ requirements: [
   metaglass/80
   silver/75
 ]
-targetHealing: true
 name: Rejuvenator
 description: "Slowly regenerates buildings and units alike in a large range. Can be boosted with technoweave for extra speed. Can push back enemies within limited a extent."
 consumes: {
