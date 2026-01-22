@@ -57,7 +57,7 @@ ammoTypes: {
     shootEffect: none
     speed: 4.20
     lifetime: 47.5
-    knockback: 0.05
+    knockback: 0.175
     impact: true
     accel: -0.08
     shrinkInterp: pow10Out
