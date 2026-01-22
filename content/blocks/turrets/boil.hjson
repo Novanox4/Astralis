@@ -10,7 +10,7 @@ recoilTime: 35
 cooldownTime: 60
 shootY: 9
 rotateSpeed: 99
-ammoUseEffect: [
+shootEffect: [
       {
       type: ParticleEffect
       colorFrom: 261f1b
@@ -20,7 +20,7 @@ ammoUseEffect: [
       sizeTo: 0
       length: 24
       lifetime: 24
-      particles: 6
+      particles: 1
       cone: 20
       layer: 99
       }
@@ -36,7 +36,7 @@ ammoUseEffect: [
       strokeTo: 0
       length: 24
       lifetime: 24
-      particles: 5
+      particles: 1
       cone: 15
       layer: 99
       }
