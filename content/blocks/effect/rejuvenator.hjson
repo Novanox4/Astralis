@@ -1,21 +1,33 @@
-type: RegenProjector
-range: 25
+type: PowerTurret
+range: 200
 requirements: [
   crystalite/65
   metaglass/80
   silver/75
 ]
+targetHealing: true
 name: Rejuvenator
-description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed."
+description: "Slowly regenerates buildings and units alike in a large range. Can be boosted with technoweave for extra speed."
 consumes: {
   power: 5
-  items: {
-    liquids: [
-      technoweave/1
-    ]
-    optional: true
-    booster: true
-  }
 }
 category: effect
 size: 3
+shootEffect: none
+smokeEffect: none
+reload: 1
+targetHea
+shootType: {
+  type: ExplosionBulletType
+  killShooter: false
+  rangeOverride: 200
+  healPercent: 1
+  splashRadius: 200
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: rejuvenator-
+}
+playerControllable: false
+rotateSpeed: 0
+shootCone: 360
