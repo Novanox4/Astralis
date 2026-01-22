@@ -39,7 +39,37 @@ ammoTypes: {
     status: dusty
     statusDuration: 420
     damage: 0.2
-    shootEffect: none
+    shootEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: 261f1b
+      colorTo: 261f1b
+      interp: pow5Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      cone: 20
+      layer: 99
+      }
+      {
+      type: ParticleEffect
+      colorFrom: 261f1b
+      colorTo: 261f1b
+      interp: pow5Out
+      line: true
+      lenFrom: 4
+      lenTo: 0
+      strokeFrom: 1.75
+      strokeTo: 1.45
+      length: 24
+      lifetime: 24
+      particles: 3
+      cone: 15
+      layer: 99
+      }
+    ]
     smokeEffect: none
     speed: 4
     lifetime: 40
