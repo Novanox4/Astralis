@@ -35,11 +35,9 @@ drawer: [
   {
   type: DrawCircles
   sides: 4
-  '''
-  >DrawCircles
-  >looks inside
-  >square
-  '''
+  #>DrawCircles
+  #>looks inside
+  #>square
   layer: 76
   color: 7cd656
   amount: 5
