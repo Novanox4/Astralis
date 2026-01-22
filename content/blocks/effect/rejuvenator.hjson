@@ -19,6 +19,8 @@ reload: 1
 targetHealing: true
 shootSound: none
 shootY: 0
+targetAir: false
+targetGround: false
 shootType: {
   type: ExplosionBulletType
   killShooter: false
