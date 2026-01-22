@@ -10,35 +10,6 @@ recoilTime: 35
 cooldownTime: 60
 shootY: 10
 rotateSpeed: 99
-shoot: {
-  shots: 40
-}
-requirements: [
-  crystalite/30
-  metaglass/30
-  silver/30
-]
-drawer: {
-  type: DrawTurret
-  basePrefix: astral-
-}
-ammoTypes: {
-  char-chunks: {
-    type: BasicBulletType
-    hittable: false
-    shrinkX: 1
-    shrinkY: 1
-    hitEffect: none
-    despawnEffect: none
-    backColor: 261f1b00
-    frontColor: 261f1b66
-    layer: 111
-    width: 17
-    height: 17
-    sprite: "circle-bullet"
-    status: dusty
-    statusDuration: 420
-    damage: 0.2
     shootEffect: [
       {
       type: ParticleEffect
@@ -70,6 +41,35 @@ ammoTypes: {
       layer: 99
       }
     ]
+shoot: {
+  shots: 40
+}
+requirements: [
+  crystalite/30
+  metaglass/30
+  silver/30
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+}
+ammoTypes: {
+  char-chunks: {
+    type: BasicBulletType
+    hittable: false
+    shrinkX: 1
+    shrinkY: 1
+    hitEffect: none
+    despawnEffect: none
+    backColor: 261f1b00
+    frontColor: 261f1b66
+    layer: 111
+    width: 17
+    height: 17
+    sprite: "circle-bullet"
+    status: dusty
+    statusDuration: 420
+    damage: 0.2
     smokeEffect: none
     speed: 4
     lifetime: 40
