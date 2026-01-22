@@ -15,15 +15,15 @@ shootEffect: {
   colorFrom: 261f1b
   colorTo: 261f1b
   interp: pow5Out
-  sizeFrom: 2
+  sizeFrom: 4
   sizeTo: 0
-  length: 24
-  lifetime: 24
+  length: 20
+  lifetime: 45
   particles: 1
-  cone: 20
+  cone: 27.5
   layer: 99
+  offsetY: -1
 }
-
 shoot: {
   shots: 40
 }
