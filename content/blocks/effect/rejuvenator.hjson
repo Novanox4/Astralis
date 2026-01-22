@@ -5,7 +5,7 @@ requirements: [
   metaglass/80
   silver/75
 ]
-healPercent: 0.1
+healPercent: 0.02
 name: Rejuvenator
 description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed."
 consumes: {
