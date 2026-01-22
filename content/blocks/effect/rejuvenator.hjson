@@ -16,7 +16,7 @@ size: 3
 shootEffect: none
 smokeEffect: none
 reload: 1
-targetHea
+targetHealing: true
 shootType: {
   type: ExplosionBulletType
   killShooter: false
