@@ -35,6 +35,9 @@ drawer: [
   {
   type: DrawSpikes
   color: 7cd656ff
-  radius: 40
+  radius: 50
+  layer: 110
+  rotateSpeed: 1.25
+  layers: 2
   }
 ]
