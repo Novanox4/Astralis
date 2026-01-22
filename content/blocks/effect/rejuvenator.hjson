@@ -1,0 +1,21 @@
+type: RegenProjector
+range: 25
+requirements: [
+  crystalite/65
+  metaglass/80
+  silver/75
+]
+healPercent: 0.1
+name: Rejuvenator
+description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed."
+consumes: {
+  power: 5
+  items: {
+    liquids: [
+      technoweave/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: effect
