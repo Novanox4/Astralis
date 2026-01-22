@@ -40,8 +40,8 @@ drawer: [
   rotateSpeed: 1
   layers: 2
   length: 0.1
-  stroke: 15
-  amount: 5
+  stroke: 3
+  amount: 40
   }
   {
   type: DrawSpikes
@@ -51,7 +51,7 @@ drawer: [
   rotateSpeed: 1.5
   layers: 2
   length: 0.1
-  stroke: 8
+  stroke: 3
   amount: 12
   }
 ]
