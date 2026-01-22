@@ -33,19 +33,6 @@ drawer: [
   color: 7cd656
   }
   {
-  type: DrawCircles
-  sides: 4
-  #>DrawCircles
-  #>looks inside
-  #>square
-  layer: 76
-  color: 7cd656
-  amount: 5
-  strokeMin: 0.2
-  strokeMax: 3
-  radius: 200
-  }
-  {
   type: DrawSpikes
   color: 7cd656ff
   radius: 30
@@ -66,5 +53,9 @@ drawer: [
   length: 0.1
   stroke: 3
   amount: 15
+  }
+  {
+  type: DrawTurret
+  basePrefix: "hawk-tuah"
   }
 ]
