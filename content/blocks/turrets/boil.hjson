@@ -41,7 +41,7 @@ ammoTypes: {
     damage: 0.2
     shootEffect: none
     smokeEffect: none
-    speed: 5
+    speed: 4
     lifetime: 40
     knockback: 0.05
     impact: true
