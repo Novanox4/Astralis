@@ -17,6 +17,8 @@ shootEffect: none
 smokeEffect: none
 reload: 1
 targetHealing: true
+shootSound: none
+shootY: 0
 shootType: {
   type: ExplosionBulletType
   killShooter: false
