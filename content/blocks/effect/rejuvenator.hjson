@@ -20,7 +20,7 @@ consumes: {
 }
 category: effect
 size: 3
-effect: none
+effect: healBlock
 drawer: [
   {
   type: DrawDefault
