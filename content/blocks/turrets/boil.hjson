@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Boil
-description: Shoots a plume of heated char dust which impedes enemies.
+description: Shoots a plume of heated char dust which impedes enemies. Focuses on weakening enemies rather than pure damage dealing.
 size: 2
 reload: 1
 inaccuracy: 8
