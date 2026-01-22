@@ -60,7 +60,7 @@ ammoTypes: {
       interp: pow5Out
       line: true
       lenFrom: 4
-      lenTo: 0
+      lenTo: 3.5
       strokeFrom: 1.75
       strokeTo: 1.45
       length: 24
