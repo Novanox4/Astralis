@@ -16,6 +16,6 @@ hardness: 1
 flammability: 8
 radioactivity: -1
 charge: 6.5
-explosiveness: 0.1
+explosiveness: 0.25
 color: c44d2f
 research: geolustel
