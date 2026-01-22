@@ -1,4 +1,5 @@
 type: PowerTurret
+//WIP
 range: 200
 requirements: [
   crystalite/65
@@ -29,3 +30,4 @@ drawer: {
 playerControllable: false
 rotateSpeed: 9999
 shootCone: 360
+buildVisibility: debugOnly
