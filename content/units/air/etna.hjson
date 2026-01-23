@@ -84,6 +84,7 @@ weapons: [
     intervalBullet: {
       type: BulletType
       hitSound: explosion
+      keepVelocity: false
       damage: 0
       lifetime: 0
       splashDamage: 10
@@ -104,7 +105,6 @@ weapons: [
         strokeTo: 0
         lifetime: 45
         interp: pow3Out
-        offsetY: 4
         }
         {
         type: ParticleEffect
@@ -115,7 +115,6 @@ weapons: [
         length: 45
         particles: 8
         interp: pow3Out
-        offsetY: 4
         }
       ]
     }
