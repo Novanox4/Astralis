@@ -54,9 +54,9 @@ drawer: {
     type: HaloPart
     layer: 110
     hollow: true
-    radius: 199
+    radius: 196
     stroke: 0
-    strokeTo: 2
+    strokeTo: 8
     shapes: 1
     sides: 60
     color: 7cd656ff
