@@ -22,6 +22,8 @@ weapons: [
   cooldownTime: 150
   shoot: {
     firstShotDelay: 45
+    shotDelay: 5
+    shots: 40
   }
   mirror: false
   x: 0
@@ -30,9 +32,10 @@ weapons: [
   shootSound: explosionAfflict
   chargeSound: chargeLancer
   activeSound: loopThoriumReactor
-  activeSoundVolume: 0.45
+  activeSoundVolume: 0.1
   shootStatus: etna-vulnerable
   shootStatusDuration: 46
+  inaccuracy: 5
   bullet: {
     //bullet not done
     type: BasicBulletType
