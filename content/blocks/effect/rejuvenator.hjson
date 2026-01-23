@@ -19,6 +19,8 @@ reload: 60
 targetHealing: true
 shootSound: none
 shootY: 0
+loopSound: loopRegen
+loopSoundVolume: 0.75
 shootType: {
   type: BulletType
   healPercent: 0.5
