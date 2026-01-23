@@ -235,22 +235,22 @@ drawer: {
     shapeRotation: 180
     radius: 6
     }
-    //THIRD TRI RING CCW
+    //THIRD TRI RING CW
     {
     type: HaloPart
     layer: 110
-    haloRadius: 120
+    haloRadius: 160
     tri: true
     triLength: 0
-    triLengthTo: 10
+    triLengthTo: 15
     shapes: 10
     color: 7cd656ff
     x: 0
     y: 0
     moveY: 0
     moveX: 0
-    haloRotateSpeed: -1
-    radius: 9
+    haloRotateSpeed: 1
+    radius: 15
     shapeRotation: 90
     }
   ]
