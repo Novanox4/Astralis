@@ -22,6 +22,7 @@ shootY: 0
 shootType: {
   type: BasicBulletType
   healPercent: 1
+  collidesTeam: true
 }
 drawer: {
   type: DrawTurret
