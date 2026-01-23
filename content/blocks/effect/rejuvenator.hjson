@@ -12,6 +12,8 @@ consumes: {
   power: 5.75
 }
 category: effect
+recoil: 0
+rotate: false
 size: 3
 shootEffect: none
 smokeEffect: none
@@ -44,6 +46,7 @@ drawer: {
     heatLight: true
     color: 7cd65600
     colorTo: 7cd656ff
+    layer: 50.1
     }
   ]
 }
@@ -55,3 +58,8 @@ type: ConsumeLiquid
 liquid: technoweave
 amount: 0.5
 }
+lockRotation: true
+rotateSpeed: true
+rotateDrawEditor: false
+rotateDraw: false
+drawArrow: false
