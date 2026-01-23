@@ -69,10 +69,10 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 15
+    haloRadius: 12
     tri: true
     triLength: 0
-    triLengthTo: 12
+    triLengthTo: 9
     shapes: 1
     color: 7cd656ff
     x: 0
@@ -84,7 +84,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 15
+    haloRadius: 12
     tri: true
     triLength: 0
     triLengthTo: 4
