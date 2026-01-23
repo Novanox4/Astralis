@@ -25,14 +25,14 @@ weapons: [
   }
   mirror: false
   x: 0
-  shootY: 1
+  shootY: 3
   rotate: true
   shootSound: explosionAfflict
   chargeSound: chargeLancer
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
   shootStatus: etna-vulnerable
-  shootStatusDuration: 476
+  shootStatusDuration: 46
   bullet: {
     //bullet not done
     type: BasicBulletType
