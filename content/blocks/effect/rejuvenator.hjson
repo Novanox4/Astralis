@@ -39,6 +39,7 @@ drawer: {
   type: DrawTurret
   basePrefix: rejuvenator-
   parts: [
+    //HEAT
     {
     type: RegionPart
     suffix: -glow
@@ -48,6 +49,7 @@ drawer: {
     colorTo: 7cd65666
     layer: 50.1
     }
+    //GLOW
     {
     type: HaloPart
     layer: 110
@@ -63,6 +65,7 @@ drawer: {
     moveY: 0
     moveX: 0
     }
+    //FIRST TRI RING
     {
     type: HaloPart
     layer: 110
@@ -77,6 +80,22 @@ drawer: {
     moveY: 0
     moveX: 0
     haloRotateSpeed: -1
+    }
+    {
+    type: HaloPart
+    layer: 110
+    haloRadius: 15
+    tri: true
+    triLength: 0
+    triLengthTo: 12
+    shapes: 1
+    color: 7cd656ff
+    x: 0
+    y: 0
+    moveY: 0
+    moveX: 0
+    haloRotateSpeed: -1
+    shapeRotation: 180
     }
   ]
 }
