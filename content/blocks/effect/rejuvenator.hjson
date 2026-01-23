@@ -167,15 +167,15 @@ drawer: {
     haloRotateSpeed: -1
     shapeRotation: 180
     }
-    //SECOND TRI RING
+    //SECOND TRI RING CCW
     {
     type: HaloPart
     layer: 110
-    haloRadius: 47.5
+    haloRadius: 62.5
     tri: true
     triLength: 0
     triLengthTo: 15
-    shapes: 6
+    shapes: 10
     color: 7cd656ff
     x: 0
     y: 0
@@ -187,11 +187,11 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 47.5
+    haloRadius: 62.5
     tri: true
     triLength: 0
     triLengthTo: 5
-    shapes: 6
+    shapes: 10
     color: 7cd656ff
     x: 0
     y: 0
