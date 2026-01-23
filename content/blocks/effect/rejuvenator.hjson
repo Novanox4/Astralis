@@ -50,7 +50,7 @@ drawer: {
     }
   ]
 }
-rotateSpeed: 9999
+rotateSpeed: 0
 shootCone: 360
 coolantMultiplier: 100
 coolant: {
@@ -59,7 +59,6 @@ liquid: technoweave
 amount: 0.5
 }
 lockRotation: true
-rotateSpeed: true
 rotateDrawEditor: false
 rotateDraw: false
 drawArrow: false
