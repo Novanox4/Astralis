@@ -53,10 +53,13 @@ drawer: {
     layer: 110
     hollow: true
     radius: 199
-    stroke: 2
+    stroke: 0
+    strokeTo: 2
     shapes: 1
     sides: 30
     color: 7cd656ff
+    x: 0
+    y: 0
     }
   ]
 }
