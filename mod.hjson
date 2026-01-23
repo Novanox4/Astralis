@@ -34,9 +34,19 @@ contentOrder: [
 
   builder
 
-  //energy
+  //t1
 
   izalco
+  valium
+
+  //t2
+
+  antilla
+  madine
+
+  //t3
+
+  etna
 
   //bio
 
@@ -50,7 +60,14 @@ contentOrder: [
 
   //crafting
 
-  //distribution
+  metaglass-crucible
+  incubator
+  biomatter-decay-chamber
+
+  //heat
+
+  heat-circulator
+  radiator
 
   //items
 
@@ -65,6 +82,7 @@ contentOrder: [
 
   //liquids
 
+  siphon
   silver-channel
   channel-junction
   channel-router
@@ -94,6 +112,7 @@ contentOrder: [
   //core
 
   core-fort
+  rejuvenator
 
   //production
 
@@ -103,10 +122,14 @@ contentOrder: [
 
   crystalite-wall
   crystalite-wall-large
+  metaglass-wall
+  metaglass-wall-large
 
   //turrets
 
   agitation
+  mouthpiece
+  boil
   
   //env
   //(this is for editor ordering)
