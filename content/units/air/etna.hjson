@@ -18,7 +18,7 @@ weapons: [
   {
   name: etna-railgun
   reloadWhileCharging: false
-  reload: 300
+  reload: 455
   cooldownTime: 150
   shoot: {
     firstShotDelay: 45
@@ -45,6 +45,8 @@ weapons: [
     recoil: 0.5
     knockback: 0.5
     impact: true
+    sticky: true
+    stickyExtraLifetime: 60
     chargeEffect: [
       {
       type: WaveEffect
@@ -63,7 +65,7 @@ weapons: [
       colorFrom: 979ca1
       colorTo: ced6d5
       lifetime: 44
-      sizeTo: 5
+      sizeTo: 4.20
       interp: reverse
       length: 30
       cone: 120
