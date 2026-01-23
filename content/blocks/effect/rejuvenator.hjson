@@ -26,6 +26,8 @@ shootType: {
   splashDamageRadius: 200
   splashDamage: 1
   lifetime: 0
+  knockback: 1
+  impact: true
 }
 drawer: {
   type: DrawTurret
@@ -33,4 +35,3 @@ drawer: {
 }
 rotateSpeed: 9999
 shootCone: 360
-buildVisibility: debugOnly
