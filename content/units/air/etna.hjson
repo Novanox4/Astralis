@@ -54,6 +54,30 @@ weapons: [
     stickyExtraLifetime: 60
     shrinkX: 0
     shrinkY: 0
+    despawnHit: true
+    despawnEffect: none
+    hitEffect: [
+      {
+      type: WaveEffect
+      colorFrom: ced6d5
+      colorTo: 979ca1
+      sizeFrom: 0
+      sizeTo: 5
+      strokeFrom: 1.8
+      strokeTo: 0
+      lifetime: 30
+      interp: pow3Out
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ced6d5
+      colorTo: 979ca1
+      lifetime: 44
+      sizeFrom: 2.6
+      length: 30
+      particles: 8
+      }
+    ]
     chargeEffect: [
       {
       type: WaveEffect
