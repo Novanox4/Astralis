@@ -78,10 +78,10 @@ drawer: {
     shapeRotation: 180
     haloRotateSpeed: 2
     triLength: 0
-    triLengthTo: 20
+    triLengthTo: 15
     moveY: 0
     moveX: 0
-    radius: 30
+    radius: 25
     }
     //FIRST TRI RING
     {
