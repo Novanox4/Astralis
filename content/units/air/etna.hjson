@@ -22,8 +22,8 @@ weapons: [
   cooldownTime: 150
   shoot: {
     firstShotDelay: 45
-    shotDelay: 3.75
-    shots: 35
+    shotDelay: 8
+    shots: 10
   }
   mirror: false
   x: 0
@@ -57,7 +57,7 @@ weapons: [
     shrinkY: 0
     hitEffect: none
     despawnEffect: none
-    bulletInterval: 10
+    bulletInterval: 15
     intervalDelay: 29
     intervalBullet: {
       type: BulletType
