@@ -33,6 +33,7 @@ drawer: {
 }
 rotateSpeed: 9999
 shootCone: 360
+coolantMultiplier: 100
 coolant: {
 type: ConsumeLiquid
 liquid: technoweave
