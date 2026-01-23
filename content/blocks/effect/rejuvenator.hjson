@@ -9,7 +9,7 @@ requirements: [
 name: Rejuvenator
 description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed. Stackable. Can deal very low amounts of damage to enemies."
 consumes: {
-  power: 5.75
+  power: 11
 }
 category: effect
 recoil: 0
