@@ -45,7 +45,7 @@ drawer: {
     outline: false
     heatLight: true
     color: 7cd65600
-    colorTo: 7cd6564d
+    colorTo: 7cd65666
     layer: 50.1
     }
     {
@@ -66,8 +66,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    hollow: true
-    radius: 40
+    haloRadius: 40
     tri: true
     triLength: 0
     triLengthTo: 80
@@ -78,7 +77,6 @@ drawer: {
     moveY: 0
     moveX: 0
     haloRotateSpeed: -1
-    stroke: 0.1
     }
   ]
 }
