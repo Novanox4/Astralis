@@ -26,7 +26,8 @@ weapons: [
     lightOpacity: 0.55
     despawnHit: true
     splashDamage: 3749
-    splashRadius: 70
+    splashDamageRadius: 70
+    splashDamagePierce: true
     lightRadius: 80
     collidesTiles: false
     collidesGround: false
