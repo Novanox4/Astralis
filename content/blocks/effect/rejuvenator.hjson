@@ -20,7 +20,7 @@ targetHealing: true
 shootSound: none
 shootY: 0
 loopSound: loopRegen
-loopSoundVolume: 0.75
+loopSoundVolume: 0.35
 shootType: {
   type: BulletType
   healPercent: 0.5
@@ -36,6 +36,16 @@ shootType: {
 drawer: {
   type: DrawTurret
   basePrefix: rejuvenator-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -glow
+    outline: false
+    heatLight: true
+    color: 7cd65600
+    colorTO: 7cd656ff
+    }
+  ]
 }
 rotateSpeed: 9999
 shootCone: 360
