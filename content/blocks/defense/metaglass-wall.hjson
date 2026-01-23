@@ -20,3 +20,4 @@ research: {
 category: defense
 description: Small, fragile wall that can absorb lasers.
 health: 250
+absorbsLasers: true
