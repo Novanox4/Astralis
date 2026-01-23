@@ -51,8 +51,8 @@ weapons: [
     damage: 20
     speed: 10
     lifetime: 30
-    recoil: 0.5
-    knockback: 0.5
+    recoil: 0.25
+    knockback: 1
     impact: true
     sticky: true
     stickyExtraLifetime: 60
@@ -88,6 +88,7 @@ weapons: [
       type: BulletType
       hitSound: explosion
       keepVelocity: false
+      recoil: -0.3
       damage: 5
       lifetime: 0
       splashDamage: 3
