@@ -48,6 +48,16 @@ drawer: {
     colorTo: 7cd6564d
     layer: 50.1
     }
+    {
+    type: HaloPart
+    layer: 110
+    hollow: true
+    radius: 199
+    stroke: 2
+    shapes: 1
+    sides: 30
+    color: 7cd656ff
+    }
   ]
 }
 rotateSpeed: 0
