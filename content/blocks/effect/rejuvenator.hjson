@@ -101,6 +101,40 @@ drawer: {
     moveX: 0
     radius: 25
     }
+    //FARTHEST RING TRIANGLES OUTER CW
+    {
+    type: HaloPart
+    layer: 110
+    haloRadius: 200
+    shapes: 12
+    color: 7cd656ff
+    x: 0
+    y: 0
+    tri: true
+    haloRotateSpeed: 2
+    triLength: 0
+    triLengthTo: 15
+    moveY: 0
+    moveX: 0
+    radius: 25
+    }
+    //FARTHEST RING TRIANGLES OUTER CCW
+    {
+    type: HaloPart
+    layer: 110
+    haloRadius: 200
+    shapes: 12
+    color: 7cd656ff
+    x: 0
+    y: 0
+    tri: true
+    haloRotateSpeed: -2
+    triLength: 0
+    triLengthTo: 15
+    moveY: 0
+    moveX: 0
+    radius: 25
+    }
     //FIRST TRI RING
     {
     type: HaloPart
