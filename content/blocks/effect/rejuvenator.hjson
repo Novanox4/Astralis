@@ -29,6 +29,7 @@ shootType: {
   lifetime: 0
   hitEffect: none
   despawnEffect: none
+  splashDamagePierce: true
 }
 drawer: {
   type: DrawTurret
