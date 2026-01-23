@@ -25,16 +25,19 @@ weapons: [
     lightColor: e5861cff
     lightOpacity: 0.55
     despawnHit: true
+    damage: 0
+    pierce: true
     splashDamage: 3749
     splashDamageRadius: 70
     splashDamagePierce: true
     lightRadius: 80
-    collidesTiles: false
+    collidesTiles: true
     collidesGround: false
     collidesAir: true
     trailChance: 1.2
     hitShake: 25
     hitSound: blockExplodeExplosive
+    hitEffect: none
     trailEffect: [
       {
       type: ParticleEffect
@@ -119,7 +122,7 @@ weapons: [
       followParent: false
       }
     ]
-    hitEffect: [
+    despawnEffect: [
       {
       type: WaveEffect
       strokeFrom: 18
