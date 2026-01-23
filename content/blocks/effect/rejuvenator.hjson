@@ -63,6 +63,22 @@ drawer: {
     moveY: 0
     moveX: 0
     }
+    {
+    type: HaloPart
+    layer: 110
+    hollow: true
+    radius: 188
+    tri: true
+    triLength: 0
+    triLengthTo: 3
+    shapes: 12
+    color: 7cd656ff
+    x: 0
+    y: -10
+    moveY: 0
+    moveX: 0
+    haloRotateSpeed: -1
+    }
   ]
 }
 rotateSpeed: 0
