@@ -20,7 +20,7 @@ targetHealing: true
 shootSound: none
 shootY: 0
 loopSound: loopRegen
-loopSoundVolume: 0.35
+loopSoundVolume: 0.5
 shootType: {
   type: BulletType
   healPercent: 0.5
@@ -43,7 +43,7 @@ drawer: {
     outline: false
     heatLight: true
     color: 7cd65600
-    colorTO: 7cd656ff
+    colorTo: 7cd656ff
     }
   ]
 }
