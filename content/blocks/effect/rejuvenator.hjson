@@ -70,7 +70,7 @@ drawer: {
     radius: 40
     tri: true
     triLength: 0
-    triLengthTo: 8
+    triLengthTo: 2
     shapes: 1
     color: 7cd656ff
     x: 0
