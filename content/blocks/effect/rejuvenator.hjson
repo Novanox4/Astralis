@@ -253,6 +253,24 @@ drawer: {
     radius: 15
     shapeRotation: 90
     }
+    //THIRD TRI RING CCW
+    {
+    type: HaloPart
+    layer: 110
+    haloRadius: 140
+    tri: true
+    triLength: 0
+    triLengthTo: 15
+    shapes: 10
+    color: 7cd656ff
+    x: 0
+    y: 0
+    moveY: 0
+    moveX: 0
+    haloRotateSpeed: -1.5
+    radius: 15
+    shapeRotation: -90
+    }
   ]
 }
 rotateSpeed: 0
