@@ -7,7 +7,7 @@ requirements: [
   silver/75
 ]
 name: Rejuvenator
-description: "Slowly regenerates buildings and units alike in a large range. Can be boosted with technoweave for extra speed. Can push back enemies within limited a extent."
+description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed. Can slow down enemies within limited a extent."
 consumes: {
   power: 5
 }
@@ -26,8 +26,6 @@ shootType: {
   splashDamageRadius: 200
   splashDamage: 1
   lifetime: 0
-  knockback: 1
-  impact: true
 }
 drawer: {
   type: DrawTurret
@@ -35,3 +33,8 @@ drawer: {
 }
 rotateSpeed: 9999
 shootCone: 360
+coolant: {
+type: ConsumeLiquid
+liquid: technoweave
+amount: 0.225
+}
