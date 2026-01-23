@@ -11,3 +11,4 @@ research: metaglass-wall
 category: defense
 description: Large, fragile wall that can absorb lasers.
 health: 1000
+absorbsLasers: true
