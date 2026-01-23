@@ -39,6 +39,11 @@ weapons: [
   bullet: {
     //bullet not done
     type: BasicBulletType
+    width: 6
+    height: 8
+    sprite: "shell"
+    frontColor: ced6d5
+    backColor: 979ca1
     damage: 20
     speed: 10
     lifetime: 30
