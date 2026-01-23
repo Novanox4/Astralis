@@ -26,7 +26,7 @@ consumes: {
 }
 shootType: {
   type: BasicBulletType
-  damage: 8
+  damage: 7
   shrinkY: 0
   width: 7
   height: 7
@@ -57,7 +57,7 @@ shootType: {
     sprite: "circle-bullet"
     backColor: f5d738
     frontColor: f5d738
-    damage: 2.25
+    damage: 4.25
     pierce: true
     homingPower: 1
     homingRange: 130
