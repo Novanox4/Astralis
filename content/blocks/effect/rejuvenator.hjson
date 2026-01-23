@@ -2,14 +2,14 @@ type: PowerTurret
 //WIP
 range: 200
 requirements: [
-  crystalite/65
+  crystalite/75
   metaglass/80
-  silver/75
+  silver/85
 ]
 name: Rejuvenator
-description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed. Can slow down enemies within limited a extent."
+description: "Slowly regenerates buildings in a large range. Can be boosted with technoweave for extra speed. Stackable. Can deal very low amounts of damage to enemies."
 consumes: {
-  power: 5
+  power: 5.75
 }
 category: effect
 size: 3
@@ -21,11 +21,13 @@ shootSound: none
 shootY: 0
 shootType: {
   type: BulletType
-  healPercent: 1
+  healPercent: 0.5
   collidesTeam: true
   splashDamageRadius: 200
-  splashDamage: 1
+  splashDamage: 3
   lifetime: 0
+  hitEffect: none
+  despawnEffect: none
 }
 drawer: {
   type: DrawTurret
@@ -33,9 +35,9 @@ drawer: {
 }
 rotateSpeed: 9999
 shootCone: 360
-coolantMultiplier: 300
+coolantMultiplier: 100
 coolant: {
 type: ConsumeLiquid
 liquid: technoweave
-amount: 0.25
+amount: 0.5
 }
