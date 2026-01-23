@@ -69,7 +69,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 199
+    haloRadius: 196
     shapes: 12
     color: 7cd656ff
     x: 0
