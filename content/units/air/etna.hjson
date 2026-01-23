@@ -98,6 +98,7 @@ weapons: [
       despawnHit: true
       speed: 0
       intervalRandomSpread: 0
+      scaledSplashDamage: true
       hitEffect: [
         {
         type: WaveEffect
