@@ -22,6 +22,7 @@ shootY: 0
 shootType: {
   type: BulletType
   healPercent: 0.5
+  damage: 0
   collidesTeam: true
   splashDamageRadius: 200
   splashDamage: 3
