@@ -70,7 +70,7 @@ drawer: {
     type: HaloPart
     layer: 110
     haloRadius: 199
-    stroke: 5
+    stroke: 15
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -79,7 +79,7 @@ drawer: {
     shapeRotation: 180
     haloRotateSpeed: 2
     triLength: 0
-    triLengthTo: 5
+    triLengthTo: 20
     moveY: 0
     moveX: 0
     }
