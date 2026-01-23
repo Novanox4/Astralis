@@ -54,7 +54,7 @@ drawer: {
     type: HaloPart
     layer: 110
     hollow: true
-    haloRadius: 199
+    radius: 199
     stroke: 0
     strokeTo: 2
     shapes: 1
