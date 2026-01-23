@@ -36,11 +36,11 @@ weapons: [
   activeSoundVolume: 0.1
   shootStatus: etna-vulnerable
   shootStatusDuration: 46
-  inaccuracy: 5
+  inaccuracy: 6
   bullet: {
     type: BasicBulletType
     intervalRandomSpread: 0
-    homingPower: 0.25
+    homingPower: 0.1
     homingDelay: 15
     homingRange: 80
     width: 6
