@@ -57,27 +57,28 @@ weapons: [
     shrinkY: 0
     hitEffect: none
     despawnEffect: [
-        {
-        type: WaveEffect
-        colorFrom: ced6d5
-        colorTo: 979ca1
-        sizeFrom: 0
-        sizeTo: 8
-        strokeFrom: 2
-        strokeTo: 0
-        lifetime: 35
-        interp: pow3Out
-        }
-        {
-        type: ParticleEffect
-        colorFrom: ced6d5
-        colorTo: 979ca1
-        lifetime: 35
-        sizeFrom: 2.25
-        length: 16
-        particles: 6
-        interp: pow3Out
-        }
+      {
+      type: WaveEffect
+      colorFrom: ced6d5
+      colorTo: 979ca1
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 35
+      interp: pow3Out
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ced6d5
+      colorTo: 979ca1
+      lifetime: 35
+      sizeFrom: 2.25
+      length: 16
+      particles: 6
+      interp: pow3Out
+      }
+    ]
     bulletInterval: 15
     intervalDelay: 29
     intervalBullet: {
