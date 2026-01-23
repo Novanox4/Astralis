@@ -39,7 +39,7 @@ drawer: {
   type: DrawTurret
   basePrefix: rejuvenator-
   parts: [
-    //HEAT
+    //GLOW
     {
     type: RegionPart
     suffix: -glow
@@ -49,12 +49,12 @@ drawer: {
     colorTo: 7cd65666
     layer: 50.1
     }
-    //GLOW
+    //FARTHEST RING
     {
     type: HaloPart
     layer: 110
     hollow: true
-    radius: 199
+    haloRadius: 199
     stroke: 0
     strokeTo: 2
     shapes: 1
@@ -62,6 +62,23 @@ drawer: {
     color: 7cd656ff
     x: 0
     y: -10
+    moveY: 0
+    moveX: 0
+    }
+    //FARTHEST RING DECO
+    {
+    type: HaloPart
+    layer: 110
+    haloRadius: 199
+    stroke: 2
+    shapes: 12
+    color: 7cd656ff
+    x: 0
+    y: 0
+    tri: true
+    shapeRotation: 180
+    haloRotateSpeed: 2
+    triLengthTo: 2
     moveY: 0
     moveX: 0
     }
