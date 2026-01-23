@@ -104,6 +104,7 @@ weapons: [
         strokeTo: 0
         lifetime: 45
         interp: pow3Out
+        offsetY: -4
         }
         {
         type: ParticleEffect
@@ -114,6 +115,7 @@ weapons: [
         length: 45
         particles: 8
         interp: pow3Out
+        offsetY: -4
         }
       ]
     }
