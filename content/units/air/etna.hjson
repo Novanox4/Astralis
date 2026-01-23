@@ -13,7 +13,7 @@ moveSound: shipMove
 faceTarget: false
 databaseTag: "astralis-unit-tier-3"
 name: Etna
-description: Shoots a powerful beam of energy.
+description: Bursts down enemy targets with sticky, homing bombs.
 weapons: [
   {
   name: etna-railgun
