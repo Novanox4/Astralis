@@ -54,9 +54,9 @@ drawer: {
     type: HaloPart
     layer: 110
     hollow: true
-    radius: 198
+    radius: 197
     stroke: 0
-    strokeTo: 4
+    strokeTo: 6
     shapes: 1
     sides: 60
     color: 7cd656ff
@@ -69,7 +69,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 198
+    haloRadius: 197
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -87,7 +87,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 198
+    haloRadius: 197
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -105,7 +105,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 200
+    haloRadius: 199.5
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -122,7 +122,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 200
+    haloRadius: 199.5
     shapes: 12
     color: 7cd656ff
     x: 0
