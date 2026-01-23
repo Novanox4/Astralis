@@ -38,7 +38,6 @@ weapons: [
   shootStatusDuration: 46
   inaccuracy: 5
   bullet: {
-    //bullet not done
     type: BasicBulletType
     intervalRandomSpread: 0
     homingPower: 0.25
@@ -89,7 +88,7 @@ weapons: [
       type: BulletType
       hitSound: explosion
       keepVelocity: false
-      damage: 0
+      damage: 7.5
       lifetime: 0
       splashDamage: 7.75
       splashDamageRadius: 16
