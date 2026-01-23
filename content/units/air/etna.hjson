@@ -22,8 +22,8 @@ weapons: [
   cooldownTime: 150
   shoot: {
     firstShotDelay: 45
-    shotDelay: 8
-    shots: 10
+    shotDelay: 2.25
+    shots: 13
   }
   mirror: false
   x: 0
@@ -88,7 +88,7 @@ weapons: [
       keepVelocity: false
       damage: 0
       lifetime: 0
-      splashDamage: 10
+      splashDamage: 7.75
       splashDamageRadius: 16
       despawnEffect: none
       instantDisappear: true
