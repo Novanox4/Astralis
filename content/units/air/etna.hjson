@@ -18,278 +18,48 @@ weapons: [
   {
   name: etna-railgun
   reloadWhileCharging: false
-  reload: 600
-  //nice
-  cooldownTime: 420
+  reload: 300
+  cooldownTime: 150
   shoot: {
-    firstShotDelay: 475
+    firstShotDelay: 45
   }
   mirror: false
   x: 0
   shootY: 1
   rotate: true
-  shootSound: etna-railgun-shoot
-  shootSoundVolume: 1.15
-  chargeSound: etna-chargeup
+  shootSound: explosionAfflict
+  chargeSound: chargeLancer
   activeSound: loopThoriumReactor
   activeSoundVolume: 0.45
   shootStatus: etna-vulnerable
   shootStatusDuration: 476
   bullet: {
     //bullet not done
-    type: LaserBulletType
-    damage: 300
-    width: 35
-    length: 700
+    type: BasicBulletType
+    damage: 20
     chargeEffect: [
-      //BEEG wave
       {
       type: WaveEffect
       colorFrom: 979ca1
       colorTo: ced6d5
-      sizeFrom: 80
+      sizeFrom: 9
       sizeTo: 0
       strokeFrom: 0
-      strokeTo: 10.75
-      lifetime: 470
+      strokeTo: 3
+      lifetime: 44
       interp: pow3In
       lightInterp: linear
       }
-      //VVVVVVVVVRRRRRRRRRRRRRR
       {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 390
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 395
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 400
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 405
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 410
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 415
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      //nice
-      startDelay: 420
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 425
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 430
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 435
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 440
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 445
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 450
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 455
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 460
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 465
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 470
-      interp: pow10Out
-      sides: 6
-      }
-      {
-      type: WaveEffect
-      colorTo: 979ca1
-      colorFrom: ced6d5
-      sizeFrom: 0
-      sizeTo: 30
-      strokeFrom: 5
-      strokeTo: 0
-      lifetime: 60
-      startDelay: 475
-      interp: pow10Out
-      sides: 6
+      type: ParticleEffect
+      colorFrom: 979ca1
+      colorTo: ced6d5
+      lifetime: 44
+      sizeTo: 5
+      interp: reverse
+      length: 30
+      cone: 120
+      particles: 8
       }
       ]
     }
