@@ -78,7 +78,7 @@ drawer: {
     shapeRotation: 180
     haloRotateSpeed: 2
     triLength: 0
-    triLengthTo: 15
+    triLengthTo: 10
     moveY: 0
     moveX: 0
     radius: 25
@@ -96,7 +96,7 @@ drawer: {
     shapeRotation: 180
     haloRotateSpeed: -2
     triLength: 0
-    triLengthTo: 15
+    triLengthTo: 10
     moveY: 0
     moveX: 0
     radius: 25
@@ -113,7 +113,7 @@ drawer: {
     tri: true
     haloRotateSpeed: 2
     triLength: 0
-    triLengthTo: 15
+    triLengthTo: 10
     moveY: 0
     moveX: 0
     radius: 25
@@ -130,7 +130,7 @@ drawer: {
     tri: true
     haloRotateSpeed: -2
     triLength: 0
-    triLengthTo: 15
+    triLengthTo: 10
     moveY: 0
     moveX: 0
     radius: 25
