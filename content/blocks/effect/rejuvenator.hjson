@@ -44,8 +44,8 @@ drawer: {
     suffix: -glow
     outline: false
     heatLight: true
-    color: ab340000
-    colorTo: ab3400
+    color: 7cd65600
+    colorTo: 7cd6564d
     layer: 50.1
     }
   ]
