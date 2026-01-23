@@ -25,6 +25,7 @@ weapons: [
     lightColor: e5861cff
     lightOpacity: 0.55
     despawnHit: true
+    hitSize: 24
     damage: 9999
     pierce: true
     lightRadius: 80
@@ -242,7 +243,7 @@ weapons: [
     fragBullet: {
       type: ExplosionBulletType
       splashDamage: 2000
-      splashDamageRadius: 70
+      splashDamageRadius: 120
       splashDamagePierce: true
       scaledSplashDamage: false
     }
