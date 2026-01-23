@@ -41,8 +41,8 @@ weapons: [
     //bullet not done
     type: BasicBulletType
     intervalRandomSpread: 0
-    homingPower: 0.333
-    homingDelay: 8
+    homingPower: 0.25
+    homingDelay: 15
     homingRange: 80
     width: 6
     height: 8
