@@ -65,12 +65,12 @@ drawer: {
     moveY: 0
     moveX: 0
     }
-    //FARTHEST RING DECO
+    //FARTHEST RING TRIANGLES INNER
     {
     type: HaloPart
     layer: 110
     haloRadius: 199
-    stroke: 2
+    stroke: 5
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -78,7 +78,8 @@ drawer: {
     tri: true
     shapeRotation: 180
     haloRotateSpeed: 2
-    triLengthTo: 2
+    triLength: 0
+    triLengthTo: 5
     moveY: 0
     moveX: 0
     }
