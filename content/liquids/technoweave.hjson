@@ -6,7 +6,7 @@ barColor: 4a4236
 flammability: 0
 explosiveness: 0
 viscosity: 0.94
-heatCapacity: 0
+heatCapacity: 0.01
 coolant: false
 research: hadalrock
 name: Technoweave
