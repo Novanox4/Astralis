@@ -21,5 +21,13 @@ requirements: [
   ]
 size: 2
 visualMaxHeat: 10
-category: distribution
+category: crafting
 regionRotated1: 1
+research: {
+  parent: core-fort
+  objectives: [
+    #{
+    #type: OnSector
+    #preset: gloom
+    #}
+  ]
