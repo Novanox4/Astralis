@@ -56,7 +56,7 @@ drawer: {
     stroke: 0
     strokeTo: 2
     shapes: 1
-    sides: 30
+    sides: 60
     color: 7cd656ff
     x: 0
     y: -10
