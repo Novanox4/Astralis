@@ -15,16 +15,17 @@ category: effect
 size: 3
 shootEffect: none
 smokeEffect: none
-reload: 1
+reload: 60
 targetHealing: true
 shootSound: none
 shootY: 0
 shootType: {
-  type: BasicBulletType
+  type: BulletType
   healPercent: 1
   collidesTeam: true
-  splashRadius: 999
-  splashDamage: 0.00001
+  splashRadius: 200
+  splashDamage: 1
+  lifetime: 0
 }
 drawer: {
   type: DrawTurret
