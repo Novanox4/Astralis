@@ -22,7 +22,7 @@ weapons: [
   cooldownTime: 150
   shoot: {
     firstShotDelay: 45
-    shotDelay: 5
+    shotDelay: 3.75
     shots: 40
   }
   mirror: false
@@ -52,6 +52,8 @@ weapons: [
     impact: true
     sticky: true
     stickyExtraLifetime: 60
+    shrinkX: 0
+    shrinkY: 0
     chargeEffect: [
       {
       type: WaveEffect
