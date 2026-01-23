@@ -31,6 +31,7 @@ weapons: [
     lightRadius: 80
     collidesTiles: false
     collidesGround: false
+    collidesAir: true
     trailChance: 1.2
     hitShake: 15
     hitSound: explosionReactor
