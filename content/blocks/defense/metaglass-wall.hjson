@@ -1,0 +1,22 @@
+type: Wall
+size: 1
+name: Metaglass Wall
+requirements: [
+  metaglass/8
+  ]
+researchCost:  [
+  metaglass/100
+  ]
+research: {
+  parent: crystalite-wall
+  objectives: [
+    metaglass-crucible,
+    #{
+    #type: OnSector
+    #preset: gloom
+    #}
+  ]
+}
+category: defense
+description: Small, fragile wall that can absorb lasers.
+health: 250
