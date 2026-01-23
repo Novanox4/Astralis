@@ -88,9 +88,9 @@ weapons: [
       type: BulletType
       hitSound: explosion
       keepVelocity: false
-      damage: 7.5
+      damage: 5
       lifetime: 0
-      splashDamage: 7.75
+      splashDamage: 3
       splashDamageRadius: 16
       despawnEffect: none
       instantDisappear: true
