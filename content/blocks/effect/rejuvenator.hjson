@@ -87,7 +87,7 @@ drawer: {
     haloRadius: 15
     tri: true
     triLength: 0
-    triLengthTo: 12
+    triLengthTo: 4
     shapes: 1
     color: 7cd656ff
     x: 0
