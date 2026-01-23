@@ -116,7 +116,7 @@ weapons: [
         length: 45
         particles: 8
         interp: pow3Out
-        offsetX: -20
+        offsetX: -10
         }
       ]
     }
