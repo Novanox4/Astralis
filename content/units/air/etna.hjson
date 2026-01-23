@@ -65,17 +65,18 @@ weapons: [
       sizeTo: 5
       strokeFrom: 1.8
       strokeTo: 0
-      lifetime: 30
+      lifetime: 27
       interp: pow3Out
       }
       {
       type: ParticleEffect
       colorFrom: ced6d5
       colorTo: 979ca1
-      lifetime: 44
+      lifetime: 27
       sizeFrom: 2.6
       length: 30
       particles: 8
+      interp: pow3Out
       }
     ]
     chargeEffect: [
