@@ -23,6 +23,8 @@ shootType: {
   type: BasicBulletType
   healPercent: 1
   collidesTeam: true
+  splashRadius: 999
+  splashDamage: 0
 }
 drawer: {
   type: DrawTurret
