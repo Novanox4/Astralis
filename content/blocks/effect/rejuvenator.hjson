@@ -76,7 +76,7 @@ drawer: {
     y: 0
     tri: true
     shapeRotation: 180
-    haloRotateSpeed: 4
+    haloRotateSpeed: 1.2
     triLength: 0
     triLengthTo: 10
     moveY: 0
@@ -94,7 +94,7 @@ drawer: {
     y: 0
     tri: true
     shapeRotation: 180
-    haloRotateSpeed: -4
+    haloRotateSpeed: -1.2
     triLength: 0
     triLengthTo: 10
     moveY: 0
