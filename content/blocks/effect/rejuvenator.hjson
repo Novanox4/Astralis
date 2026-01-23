@@ -78,7 +78,7 @@ drawer: {
     moveY: 0
     moveX: 0
     haloRotateSpeed: -1
-    stroke: 1
+    stroke: 0.1
     }
   ]
 }
