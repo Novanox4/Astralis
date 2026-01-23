@@ -41,6 +41,9 @@ weapons: [
     //bullet not done
     type: BasicBulletType
     intervalRandomSpread: 0
+    homingPower: 0.333
+    homingDelay: 8
+    homingRange: 80
     width: 6
     height: 8
     sprite: "shell"
