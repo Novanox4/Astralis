@@ -36,5 +36,5 @@ shootCone: 360
 coolant: {
 type: ConsumeLiquid
 liquid: technoweave
-amount: 0.225
+amount: 0.25
 }
