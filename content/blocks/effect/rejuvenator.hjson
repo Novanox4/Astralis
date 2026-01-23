@@ -82,6 +82,7 @@ drawer: {
     triLengthTo: 20
     moveY: 0
     moveX: 0
+    radius: 6
     }
     //FIRST TRI RING
     {
