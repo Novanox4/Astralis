@@ -40,8 +40,8 @@ weapons: [
     //bullet not done
     type: BasicBulletType
     damage: 20
-    speed: 50
-    lifetime: 3
+    speed: 10
+    lifetime: 30
     recoil: 0.5
     knockback: 0.5
     impact: true
