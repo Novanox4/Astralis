@@ -106,6 +106,7 @@ weapons: [
         strokeTo: 0
         lifetime: 45
         interp: pow3Out
+        offsetX: -10
         }
         {
         type: ParticleEffect
