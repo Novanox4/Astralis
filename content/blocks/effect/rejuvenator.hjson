@@ -23,7 +23,7 @@ shootType: {
   type: BulletType
   healPercent: 1
   collidesTeam: true
-  splashRadius: 200
+  splashDamageRadius: 200
   splashDamage: 1
   lifetime: 0
 }
