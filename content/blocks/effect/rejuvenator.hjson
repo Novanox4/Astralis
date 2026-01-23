@@ -175,7 +175,7 @@ drawer: {
     tri: true
     triLength: 0
     triLengthTo: 15
-    shapes: 10
+    shapes: 8
     color: 7cd656ff
     x: 0
     y: 0
@@ -191,7 +191,7 @@ drawer: {
     tri: true
     triLength: 0
     triLengthTo: 5
-    shapes: 10
+    shapes: 8
     color: 7cd656ff
     x: 0
     y: 0
@@ -209,7 +209,7 @@ drawer: {
     tri: true
     triLength: 0
     triLengthTo: 15
-    shapes: 10
+    shapes: 8
     color: 7cd656ff
     x: 0
     y: 0
@@ -225,7 +225,7 @@ drawer: {
     tri: true
     triLength: 0
     triLengthTo: 5
-    shapes: 10
+    shapes: 8
     color: 7cd656ff
     x: 0
     y: 0
