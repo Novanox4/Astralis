@@ -59,7 +59,7 @@ drawer: {
     sides: 60
     color: 7cd656ff
     x: 0
-    y: 0
+    y: -10
     moveY: 0
     moveX: 0
     }
@@ -70,7 +70,7 @@ drawer: {
     radius: 188
     tri: true
     triLength: 0
-    triLengthTo: 3
+    triLengthTo: 1
     shapes: 12
     color: 7cd656ff
     x: 0
