@@ -71,7 +71,7 @@ drawer: {
     tri: true
     triLength: 0
     triLengthTo: 8
-    shapes: 12
+    shapes: 1
     color: 7cd656ff
     x: 0
     y: 0
