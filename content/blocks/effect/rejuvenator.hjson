@@ -70,7 +70,6 @@ drawer: {
     type: HaloPart
     layer: 110
     haloRadius: 199
-    stroke: 30
     shapes: 12
     color: 7cd656ff
     x: 0
@@ -82,7 +81,7 @@ drawer: {
     triLengthTo: 20
     moveY: 0
     moveX: 0
-    radius: 6
+    radius: 30
     }
     //FIRST TRI RING
     {
