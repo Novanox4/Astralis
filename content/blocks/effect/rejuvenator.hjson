@@ -27,7 +27,6 @@ drawer: {
   type: DrawTurret
   basePrefix: rejuvenator-
 }
-playerControllable: false
 rotateSpeed: 9999
 shootCone: 360
 buildVisibility: debugOnly
