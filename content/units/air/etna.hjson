@@ -69,6 +69,8 @@ weapons: [
       despawnEffect: none
       instantDisappear: true
       despawnHit: true
+      speed: 0
+      intervalRandomSpread: 0
       hitEffect: [
         {
         type: WaveEffect
