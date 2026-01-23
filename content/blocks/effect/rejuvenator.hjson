@@ -239,7 +239,7 @@ drawer: {
     {
     type: HaloPart
     layer: 110
-    haloRadius: 160
+    haloRadius: 140
     tri: true
     triLength: 0
     triLengthTo: 15
@@ -249,7 +249,7 @@ drawer: {
     y: 0
     moveY: 0
     moveX: 0
-    haloRotateSpeed: 1
+    haloRotateSpeed: 1.5
     radius: 15
     shapeRotation: 90
     }
