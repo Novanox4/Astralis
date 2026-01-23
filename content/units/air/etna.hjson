@@ -40,6 +40,11 @@ weapons: [
     //bullet not done
     type: BasicBulletType
     damage: 20
+    speed: 50
+    lifetime: 3
+    recoil: 0.5
+    knockback: 0.5
+    impact: true
     chargeEffect: [
       {
       type: WaveEffect
