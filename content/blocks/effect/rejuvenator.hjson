@@ -50,10 +50,26 @@ drawer: {
     colorTo: 7cd65666
     layer: 50.1
     }
-    //FARTHEST RING
+    //RANGE INDICATOR
     {
     type: HaloPart
     layer: 110
+    hollow: true
+    radius: 199.5
+    stroke: 0
+    strokeTo: 1
+    shapes: 1
+    sides: 60
+    color: 7cd656ff
+    x: 0
+    y: -10
+    moveY: 0
+    moveX: 0
+    }
+    //FARTHEST RING
+    {
+    type: HaloPart
+    layer: 29
     hollow: true
     radius: 197
     stroke: 0
@@ -69,7 +85,7 @@ drawer: {
     //FARTHEST RING TRIANGLES INNER CW
     {
     type: HaloPart
-    layer: 110
+    layer: 29
     haloRadius: 197
     shapes: 12
     color: 7cd656ff
@@ -87,7 +103,7 @@ drawer: {
     //FARTHEST RING TRIANGLES INNER CCW
     {
     type: HaloPart
-    layer: 110
+    layer: 29
     haloRadius: 197
     shapes: 12
     color: 7cd656ff
@@ -105,7 +121,7 @@ drawer: {
     //FARTHEST RING TRIANGLES OUTER CW
     {
     type: HaloPart
-    layer: 110
+    layer: 29
     haloRadius: 199.5
     shapes: 12
     color: 7cd656ff
@@ -122,7 +138,7 @@ drawer: {
     //FARTHEST RING TRIANGLES OUTER CCW
     {
     type: HaloPart
-    layer: 110
+    layer: 29
     haloRadius: 199.5
     shapes: 12
     color: 7cd656ff
