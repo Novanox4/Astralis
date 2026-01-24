@@ -11,6 +11,6 @@ sizeMax: 14
 density: 1600
 sound: wind2
 soundVol: 0.875
-attrs: [
+attrs: {
   growth: 0.2
-]
+}
