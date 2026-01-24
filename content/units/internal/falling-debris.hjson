@@ -242,7 +242,7 @@ weapons: [
     fragOffsetMax: 0
     fragBullet: {
       type: ExplosionBulletType
-      splashDamage: 2000
+      splashDamage: 800
       splashDamageRadius: 120
       splashDamagePierce: true
       scaledSplashDamage: false
