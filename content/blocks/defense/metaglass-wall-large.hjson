@@ -12,3 +12,4 @@ category: defense
 description: Large, fragile wall that can absorb lasers.
 health: 1000
 absorbLasers: true
+buildTime: 80
