@@ -16,6 +16,8 @@ ammoTypes: {
     layer: -11
 	colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
 	drawFlare: false
+	lightColor: ffffff
+	collides: false
   }
 }
 drawer: {
