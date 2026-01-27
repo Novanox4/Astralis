@@ -4,6 +4,12 @@ targetGround: false
 targetBlocks: false
 alwaysShooting: true
 size: 2
+requirements: [
+  crystalite/40
+  metaglass/30
+  silver/50
+  uranium/39
+]
 consumes: {
   power: 1.75
 }
