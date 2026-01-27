@@ -25,6 +25,7 @@ ammoTypes: {
 	collides: false
 	length: 400
 	width: 50
+	lightStroke: 65
   }
 }
 drawer: {
