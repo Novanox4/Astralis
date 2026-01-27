@@ -14,9 +14,10 @@ ammoTypes: {
   biofuel: {
     type: ContinuousFlameBulletType
     layer: -11
+	  colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
   }
 }
 drawer: {
   type: DrawTurret
-  basePrefix: astral
+  basePrefix: astral-
 }
