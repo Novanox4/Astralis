@@ -5,13 +5,14 @@ targetBlocks: false
 alwaysShooting: true
 size: 2
 category: effect
+rotateSpeed: 1.25
 requirements: [
   crystalite/40
   metaglass/30
   silver/50
   uranium/39
 ]
-shootY: 15
+shootY: 19
 consumes: {
   power: 1.75
 }
@@ -21,7 +22,7 @@ outlineColor: 323232
 shoot: {
 	type: ShootSpread
 	shots: 3
-	spread: 8
+	spread: 7
 }
 ammoTypes: {
   biofuel: {
