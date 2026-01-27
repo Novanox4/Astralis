@@ -13,7 +13,7 @@ outlineColor: 323232
 shoot: {
 	type: ShootSpread
 	shots: 3
-	spread: 20
+	spread: 10
 }
 ammoTypes: {
   biofuel: {
@@ -23,6 +23,8 @@ ammoTypes: {
 	drawFlare: false
 	lightColor: ffffff
 	collides: false
+	length: 400
+	width: 50
   }
 }
 drawer: {
