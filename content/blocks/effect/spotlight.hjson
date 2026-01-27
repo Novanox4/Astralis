@@ -6,7 +6,7 @@ alwaysShooting: true
 size: 2
 category: effect
 rotateSpeed: 1.25
-range: 450
+range: 525
 requirements: [
   crystalite/40
   metaglass/30
