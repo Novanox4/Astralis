@@ -14,7 +14,8 @@ ammoTypes: {
   biofuel: {
     type: ContinuousFlameBulletType
     layer: -11
-	  colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
+	colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
+	drawFlare: false
   }
 }
 drawer: {
