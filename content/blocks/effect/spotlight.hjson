@@ -21,7 +21,7 @@ ammoTypes: {
     layer: -11
 	colors: [ffffffff, ffffffff, ffffffff, ffffffff, ffffffff]
 	drawFlare: false
-	lightColor: ffffff
+	lightColor: fbd367
 	collides: false
 	length: 400
 	width: 50
