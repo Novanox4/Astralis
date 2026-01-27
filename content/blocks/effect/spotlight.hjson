@@ -35,6 +35,7 @@ ammoTypes: {
 	length: 400
 	width: 50
 	lightStroke: 75
+	damage: 0
   }
 }
 drawer: {
