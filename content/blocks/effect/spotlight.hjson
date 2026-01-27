@@ -4,12 +4,14 @@ targetGround: false
 targetBlocks: false
 alwaysShooting: true
 size: 2
+category: effect
 requirements: [
   crystalite/40
   metaglass/30
   silver/50
   uranium/39
 ]
+shootY: 15
 consumes: {
   power: 1.75
 }
@@ -19,7 +21,7 @@ outlineColor: 323232
 shoot: {
 	type: ShootSpread
 	shots: 3
-	spread: 4.5
+	spread: 8
 }
 ammoTypes: {
   biofuel: {
@@ -31,7 +33,7 @@ ammoTypes: {
 	collides: false
 	length: 400
 	width: 50
-	lightStroke: 65
+	lightStroke: 75
   }
 }
 drawer: {
