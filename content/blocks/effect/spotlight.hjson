@@ -1,0 +1,22 @@
+type: ContinuousLiquidTurret
+targetAir: false
+targetGround: false
+targetBlocks: false
+alwaysShooting: true
+size: 2
+consumes: {
+  power: 1.75
+}
+name: Spotlight
+description: "Illuminates an area in front of it. [accent]Must be positioned manually by controlling it."
+outlineColor: 323232
+ammoTypes: {
+  biofuel: {
+    type: ContinuousFlameBulletType
+    layer: -11
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: astral
+}
