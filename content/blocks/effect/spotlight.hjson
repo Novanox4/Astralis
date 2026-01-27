@@ -36,6 +36,8 @@ ammoTypes: {
 	width: 50
 	lightStroke: 75
 	damage: 0
+	pierce: false
+	pierceArmor: false
   }
 }
 drawer: {
