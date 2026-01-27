@@ -10,6 +10,11 @@ consumes: {
 name: Spotlight
 description: "Illuminates an area in front of it. [accent]Must be positioned manually by controlling it."
 outlineColor: 323232
+shoot: {
+	type: ShootSpread
+	shots: 3
+	spread: 20
+}
 ammoTypes: {
   biofuel: {
     type: ContinuousFlameBulletType
@@ -24,3 +29,5 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
+recoil: 0
+shootSound: none
