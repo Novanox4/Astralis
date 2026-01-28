@@ -47,3 +47,12 @@ drawer: {
 }
 recoil: 0
 shootSound: none
+research: {
+	parent: core-fort
+	objectives: [
+		{
+		type: OnSector
+		preset: gloom
+		}
+	]
+}
