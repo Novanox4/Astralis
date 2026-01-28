@@ -38,3 +38,8 @@ drawer: [
 liquidCapacity: 300
 category: crafting
 research: metaglass-crucible
+researchCost: [
+  crystalite/250
+  uranium/125
+  metaglass/300
+]
