@@ -6,7 +6,7 @@ requirements: [
   silver/45
   uranium/40
 ]
-researchCostMultiplier: 0.425
+researchCostMultiplier: 0.325
 size: 3
 drawer: [
   {
@@ -66,3 +66,12 @@ consumes: {
 squareSprite: false
 itemCapacity: 25
 category: crafting
+research: {
+	parent: core-fort
+	objectives: [
+		{
+		type: OnSector
+		preset: gloom
+		}
+	]
+}
