@@ -18,7 +18,13 @@ requirements: [
   crystalite/12
   uranium/10
   ]
-research: energy-distributor
+research: {
+  parent: energy-distributor
+  objectives: [
+    metaglass-crucible,
+    radiator,
+    ]
+  }
 warmupRate: 0.05
 category: power
 squareSprite: false
