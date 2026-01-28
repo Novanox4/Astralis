@@ -1,0 +1,21 @@
+localizedName: "Gloom"
+description: "[accent]INCOMING SIGNAL FROM RESISTANCE OFFICIALS[]
+  
+This sector is in an area of heavy precipitations. Expect darkness and storms.
+
+Research better turrets, metaglass production, liquid distribution and biofuel production.
+  
+This should prove to be a trivial challenge."
+sector: 249
+planet: astralis
+difficulty: 2
+research: {
+  parent: deserted-wastes
+  objectives: [
+    {
+      type: SectorComplete
+      preset: deserted-wastes
+    }
+  ]
+}
+captureWave: 30
