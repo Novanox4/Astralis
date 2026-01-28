@@ -75,3 +75,10 @@ consumes: {
     biofuel/0.2
   ]
 }
+research: {
+	parent: agitation
+	objectives: [
+    siphon,
+    biomatter-decayer,
+	]
+}
