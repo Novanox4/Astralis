@@ -217,3 +217,12 @@ drawer: {
   }
 range: 140
 trackingRange: 160
+research: {
+  parent: agitation
+  objectives: [
+    {
+    type: SectorComplete
+    preset: deserted-wastes
+    }
+  ]
+}
