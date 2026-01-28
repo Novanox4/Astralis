@@ -15,7 +15,7 @@ attribute: growth
 maxBoost: 2
 craftTime: 240
 category: crafting
-//research: metaglass-hearth
+research: metaglass-crucible
 consumes: {
   power: 3
   liquids: [
