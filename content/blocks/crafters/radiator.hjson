@@ -17,3 +17,4 @@ consumes: {
 craftTime: 240
 category: crafting
 warmupRate: 0.0125
+research: metaglass-crucible
