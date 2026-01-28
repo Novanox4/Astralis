@@ -11,10 +11,10 @@ research: {
   parent: crystalite-wall
   objectives: [
     metaglass-crucible,
-    #{
-    #type: OnSector
-    #preset: gloom
-    #}
+    {
+    type: OnSector
+    preset: gloom
+    }
   ]
 }
 category: defense
