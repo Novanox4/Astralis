@@ -11,7 +11,7 @@ requirements: [
   crystalite/40
   metaglass/30
   silver/50
-  uranium/39
+  uranium/35
 ]
 shootY: 19
 consumes: {
@@ -56,3 +56,4 @@ research: {
 		}
 	]
 }
+researchCostMultiplier: 0.4
