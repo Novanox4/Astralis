@@ -26,9 +26,9 @@ regionRotated1: 1
 research: {
   parent: core-fort
   objectives: [
-    #{
-    #type: OnSector
-    #preset: gloom
-    #}
+    {
+    type: OnSector
+    preset: gloom
+    }
   ]
 }
