@@ -23,7 +23,7 @@ outlineColor: 323232
 shoot: {
 	type: ShootSpread
 	shots: 7
-	spread: 13.25
+	spread: 6
 }
 ammoTypes: {
   biofuel: {
