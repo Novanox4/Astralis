@@ -6,7 +6,7 @@ Work in progress hjson campaign mod.
 
 Astralis is a mod which aims to add a new planet with unique gameplay mechanics.
 
-The difficulty spike is vertical.
+The difficulty spike is vertical. Intended for people familiar with mindustry/mindustry mods.
 
 Not reccomended on low end devices!
 
@@ -114,6 +114,10 @@ contentOrder: [
   //core
 
   core-fort
+
+  //effect
+
+  spotlight
   rejuvenator
 
   //production
