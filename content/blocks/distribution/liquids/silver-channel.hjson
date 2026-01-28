@@ -13,3 +13,9 @@ bridgeReplacement: channel-overpass
 underBullets: true
 botColor: 979ca1
 liquidCapacity: 15
+research: {
+  parent: core-fort
+  objectives: [
+    metaglass-crucible,
+  ]
+}
