@@ -1,6 +1,6 @@
 type: floor
-name: Veins
-variants: 10
+name: Astral Floor
+variants: 8
 attributes: {
   growth: -0.175
 }
