@@ -9,11 +9,14 @@ consumes: {
   liquid: nitrogen/0.3
     }
 plans: [
-    {
-unit: unit-capture
-requirements: [
-  crystalite/30
-  silver/25
+  {
+  unit: izalco
+  requirements: [
+    crystalite/30
+    silver/25
+  ]
+  time: 1500
+  }
 ]
 research: {
   parent: core-fort
