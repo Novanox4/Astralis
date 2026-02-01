@@ -31,3 +31,25 @@ liquidCapacity: 120
 outputLiquids: [
   nitrogen/0.15
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawHeatInput
+    }
+    {
+    type: DrawParticles
+    sides: 30
+    color: d4f0ff
+    particleRad: 7
+    particles: 8
+    particleLife: 80
+    alpha: 0.6
+    particleSize: 3.5
+    }
+  ]
+}
+ambientSo
