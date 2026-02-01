@@ -1,0 +1,33 @@
+type: HeatCrafter
+requirements: [
+  crystalite/50
+  silver/30
+  metaglass/20
+]
+research: {
+  parent: radiator
+  objectives: [
+    {
+    type: CapureSector
+    preset: gloom
+    }
+    heat-circulator,
+    uranium-decay-generator,
+  ]
+}
+name: Cryogenic Distiller
+description: Uses temperature differences to extract nitrogen from the atmosphere.
+consumes: {
+  power: 5.85
+  liquids: [
+    water: 0.1
+  ]
+}
+squareSprite: false
+heatRequirement: 8
+maxEfficiency: 4
+size: 2
+liquidCapacity: 120
+outputLiquids: [
+  nitrogen/0.15
+]
