@@ -7,3 +7,5 @@ requirements: [
   crystalite/5
 ]
 buildTime: 0
+instantDeconstruct: false
+buildVisibility: sandboxOnly
