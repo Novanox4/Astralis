@@ -4,7 +4,7 @@ variants: 2
 customShadow: true
 clipSize: 1
 requirements: [
-  crystalite/5
+  crystalite/3
 ]
 buildTime: 0
 instantDeconstruct: false
