@@ -1,0 +1,9 @@
+type: prop
+name: Crystal Spike
+variants: 2
+customShadow: true
+clipSize: 1
+requirements: [
+  crystalite/5
+]
+buildTime: 0
