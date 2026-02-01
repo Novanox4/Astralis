@@ -20,7 +20,7 @@ description: Uses temperature differences to extract nitrogen from the atmospher
 consumes: {
   power: 5.85
   liquids: [
-    water: 0.1
+    water/0.1
   ]
 }
 squareSprite: false
