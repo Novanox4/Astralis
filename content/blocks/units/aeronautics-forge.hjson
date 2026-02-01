@@ -1,0 +1,33 @@
+type: UnitFactory
+name: Aeronautics Forge
+description: Creates flying units that use energy-based weapons.
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 2.5
+  liquid: nitrogen/0.3
+    }
+plans: [
+    {
+unit: unit-capture
+requirements: [
+  crystalite/30
+  silver/25
+]
+research: {
+  parent: core-fort
+  objectives: [
+  cryogenic-distiller,
+  #{
+  #type: OnSector
+  #preset: gloom
+  #}
+  ]
+}
+requirements: [
+  crystalite/65
+  silver/85
+  metaglass/35
+  ]
+researchCostMultiplier: 0.425
