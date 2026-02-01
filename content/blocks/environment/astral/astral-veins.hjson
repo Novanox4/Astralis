@@ -1,6 +1,6 @@
 type: floor
 name: Veins
-variants: 6
+variants: 4
 attributes: {
   growth: -0.175
 }
