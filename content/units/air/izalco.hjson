@@ -84,5 +84,5 @@ weapons: [
     }
   }
 ]
-layer: 0.001
+flyingLayer: 0.001
 //fucking around
