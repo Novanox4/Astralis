@@ -8,4 +8,4 @@ requirements: [
 ]
 buildTime: 0
 instantDeconstruct: false
-buildVisibility: sandboxOnly
+buildVisibility: editorOnly
