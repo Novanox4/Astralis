@@ -1,7 +1,6 @@
 type: HeaterGenerator
 name: Biofuel Reactor
 description: Generates power by burning biomatter. Outputs biofuel, explodes if full. Outputs heat.
-rotate: false
 heatOutput: 8
 powerProduction: 6
 itemDuration: 30
