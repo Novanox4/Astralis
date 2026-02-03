@@ -24,13 +24,13 @@ research: {
     }
   ]
 }
-explosionRadius: 50
-explosionDamage: 35
+explosionRadius: 20
+explosionDamage: 185
 explodeSound: blockExplodeExplosiveAlt
 explodeOnFull: true
-outputLiquid: biofuel/0.1
-liquidCapacity: 60
-warmupRate: 0.025
+outputLiquid: biofuel/0.35
+liquidCapacity: 150
+warmupRate: 0.015
 category: power
 squareSprite: false
 drawer: [
