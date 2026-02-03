@@ -51,3 +51,4 @@ drawer: [
   type: DrawHeatOutput
   }
 ]
+size: 4
