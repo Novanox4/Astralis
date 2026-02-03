@@ -42,4 +42,4 @@ drawer: [
   blending: normal
   }
 ]
-squareSprite: true
+squareSprite: false
