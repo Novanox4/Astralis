@@ -11,6 +11,7 @@ planet: astralis
 difficulty: 2
 research: {
   parent: deserted-wastes
+  requiresUnlock: false
   objectives: [
     {
       type: SectorComplete
