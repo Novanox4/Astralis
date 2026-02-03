@@ -5,6 +5,7 @@ rotate: false
 heatOutput: 8
 powerProduction: 6
 itemDuration: 30
+itemCapacity: 20
 consumes: {
   items: [
   biomatter/1
@@ -28,7 +29,7 @@ explosionRadius: 50
 explosionDamage: 35
 explodeSound: blockExplodeExplosiveAlt
 explodeOnFull: true
-outputLiquid: biofuel/1
+outputLiquid: biofuel/0.1
 liquidCapacity: 60
 warmupRate: 0.025
 category: power
