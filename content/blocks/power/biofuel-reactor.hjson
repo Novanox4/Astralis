@@ -1,0 +1,52 @@
+type: HeaterGenerator
+name: Biofuel Reactor
+description: Generates power by burning biomatter. Outputs biofuel, explodes if full. Outputs heat.
+rotate: false
+heatOutput: 8
+powerProduction: 6
+itemDuration: 30
+consumes: {
+  items: [
+  biomatter/1
+  ]
+}
+requirements: [
+  crystalite/200
+  metaglass/40
+  ]
+research: {
+  parent: uranium-decay-generator
+  objectives: [
+    biomatter-decayer,
+    {
+    type: CaptureSector
+    preset: gloom
+    }
+  ]
+}
+explosionRadius: 50
+explosionDamage: 35
+explodeSound: blockExplodeExplosiveAlt
+explodeOnFull: true
+outputLiquid: biofuel/1
+liquidCapacity: 60
+warmupRate: 0.025
+category: power
+squareSprite: false
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: biofuel
+  padding: 1
+  }
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawHeatOutput
+  }
+]
