@@ -9,6 +9,9 @@ consumes: {
   items: [
   biomatter/1
   ]
+  liquids: [
+  nitrogen/0.2
+  ]
 }
 requirements: [
   crystalite/200
