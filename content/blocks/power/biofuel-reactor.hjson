@@ -72,7 +72,7 @@ explodeEffect: [
   sizeInterp: pow5Out
   particles: 34
   length: 137.5
-  sizeChangeStart: 35
+  sizeChangeStart: 75
   } 
   {
   type: ParticleEffect
@@ -84,6 +84,6 @@ explodeEffect: [
   sizeInterp: pow5Out
   particles: 25
   length: 175
-  sizeChangeStart: 20
+  sizeChangeStart: 65
   }
 ]
