@@ -43,8 +43,14 @@ drawer: [
   }
   {
   type: DrawLiquidTile
+  drawLiquid: nitrogen
+  padding: 1
+  }
+  {
+  type: DrawLiquidTile
   drawLiquid: biofuel
   padding: 1
+  alpha: 0.775
   }
   {
   type: DrawDefault
