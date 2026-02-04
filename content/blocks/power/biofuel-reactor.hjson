@@ -55,9 +55,9 @@ flammabilityScale: 90
 explodeEffect: [
   {
   type: WaveEffect
-  lifetime: 75
-  sizeTo: 80
-  strokeFrom: 4
+  lifetime: 95
+  sizeTo: 250
+  strokeFrom: 7
   colorFrom: c28d57
   colorTo: 704131
   interp: pow5Out
