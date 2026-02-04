@@ -70,8 +70,20 @@ explodeEffect: [
   colorTo: 704131
   interp: pow5Out
   sizeInterp: pow3Out
-  particles: 38
-  length: 100
+  particles: 34
+  length: 137.5
   sizeChangeStart: 120
+  }
+  {
+  type: ParticleEffect
+  lifetime: 165
+  sizeFrom: 17.5
+  colorFrom: c28d57
+  colorTo: 704131
+  interp: pow5Out
+  sizeInterp: pow3Out
+  particles: 25
+  length: 175
+  sizeChangeStart: 90
   }
 ]
