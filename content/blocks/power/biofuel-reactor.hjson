@@ -64,14 +64,14 @@ explodeEffect: [
   }
   {
   type: ParticleEffect
-  lifetime: 300
+  lifetime: 200
   sizeFrom: 12.5
   colorFrom: c28d57
   colorTo: 704131
-  interp: pow10Out
+  interp: pow5Out
   sizeInterp: pow3Out
-  particles: 12
-  length: 100
+  particles: 30
+  length: 180
   sizeChangeStart: 120
   }
 ]
