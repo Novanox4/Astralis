@@ -56,7 +56,7 @@ explodeEffect: [
   {
   type: WaveEffect
   lifetime: 75
-  sizeTo: 25
+  sizeTo: 80
   strokeFrom: 4
   colorFrom: c28d57
   colorTo: 704131
