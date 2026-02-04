@@ -52,3 +52,14 @@ drawer: [
 ]
 size: 4
 flammabilityScale: 90
+explosionEffect: [
+  {
+  type: WaveEffect
+  lifetime: 75
+  sizeTo: 25
+  strokeFrom: 4
+  colorFrom: c28d57
+  colorTo: 704131
+  interp: pow5Out
+  }
+]
