@@ -72,8 +72,8 @@ explodeEffect: [
   sizeInterp: pow3Out
   particles: 34
   length: 137.5
-  sizeChangeStart: 120
-  }
+  sizeChangeStart: 35
+  } 
   {
   type: ParticleEffect
   lifetime: 165
@@ -84,6 +84,6 @@ explodeEffect: [
   sizeInterp: pow3Out
   particles: 25
   length: 175
-  sizeChangeStart: 90
+  sizeChangeStart: 20
   }
 ]
