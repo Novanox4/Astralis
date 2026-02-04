@@ -52,7 +52,7 @@ drawer: [
 ]
 size: 4
 flammabilityScale: 90
-explosionEffect: [
+explodeEffect: [
   {
   type: WaveEffect
   lifetime: 75
