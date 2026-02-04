@@ -56,10 +56,22 @@ explodeEffect: [
   {
   type: WaveEffect
   lifetime: 70
-  sizeTo: 125
+  sizeTo: 120
   strokeFrom: 7
   colorFrom: c28d57
   colorTo: 704131
   interp: pow5Out
+  }
+  {
+  type: ParticleEffect
+  lifetime: 300
+  sizeFrom: 12.5
+  colorFrom: c28d57
+  colorTo: 704131
+  interp: pow10Out
+  sizeInterp: pow3Out
+  particles: 12
+  length: 100
+  sizeChangeStart: 120
   }
 ]
