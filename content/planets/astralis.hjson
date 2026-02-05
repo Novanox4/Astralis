@@ -31,7 +31,7 @@ parent: sun
 solarSystem: sun
 tidalLock: true
 orbitTime: 60
-rotateTime: 0.01
+rotateTime: 5
 mesh: [
   //baseplate
   {
