@@ -19,7 +19,7 @@ requirements: [
   khora/4000
 ]
 details: BE VERY AFRAID
-size: 21
+size: 14
 health: 10000
 itemCapacity: 6666
 buildVisibility: sandboxOnly
