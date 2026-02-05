@@ -1,0 +1,24 @@
+type: Router
+name: God.
+description: "Bow to new your god, or make ammends with your old ones."
+speed: 800
+requirements: [
+  crystalite/4000
+  uranium/4000
+  silver/4000
+  biomatter/4000
+  metaglass/4000
+  fulminate/4000
+  neodymium/4000
+  cerium/4000
+  hadalrock/4000
+  abyssal-alloy/4000
+  picocarapace/4000
+  geolustel/4000
+  solacite/4000
+  khora/4000
+]
+details: BE VERY AFRAID
+size: 21
+health: 10000
+itemCapacity: 6666
