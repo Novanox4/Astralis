@@ -4,7 +4,7 @@ description: Generates power by burning biomatter. Outputs biofuel, explodes vio
 heatOutput: 8
 powerProduction: 20
 itemDuration: 27.5
-itemCapacity: 24.5
+itemCapacity: 25
 consumes: {
   items: [
   biomatter/1
