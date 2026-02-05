@@ -1,0 +1,12 @@
+type: Router
+name: Distribution Epicenter
+description: "A beautiful creation that will forever take care of any sorting yor heart will need."
+research: funnel
+speed: 4
+requirements: [
+  crystalite/1000
+]
+details: BE NOT AFRAID
+size: 7
+health: 1605
+itemCapacity: 450
