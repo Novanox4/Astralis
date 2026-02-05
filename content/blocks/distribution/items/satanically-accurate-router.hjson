@@ -22,3 +22,4 @@ details: BE VERY AFRAID
 size: 21
 health: 10000
 itemCapacity: 6666
+buildVisibility: sandboxOnly
