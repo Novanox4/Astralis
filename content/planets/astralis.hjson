@@ -30,7 +30,7 @@ defaultCore: core-fort
 parent: sun
 solarSystem: sun
 tidalLock: true
-orbitTime: 0
+orbitTime: 999999
 rotateTime: 0.01
 mesh: [
   //baseplate
