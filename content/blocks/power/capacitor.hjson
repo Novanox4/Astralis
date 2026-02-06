@@ -1,0 +1,16 @@
+type: Battery
+emptyLightColor: aa9692
+fullLightColor: d3c6c0
+size: 1
+health: 125
+consumes: {
+  powerBuffered: 250
+    }
+research: water-turbine
+requirements: [
+  crystalite/15
+  ]
+category: power
+name: Capacitor
+description: Stores excess power, outputting it in times of deficit. Explodes upon destruction.
+baseExplosiveness: 2
