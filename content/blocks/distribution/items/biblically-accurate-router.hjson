@@ -9,4 +9,4 @@ details: BE NOT AFRAID
 size: 7
 health: 1605
 itemCapacity: 450
-buildVisibility: sandboxOnly
+buildVisibility: debugOnly
