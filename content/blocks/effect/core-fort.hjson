@@ -32,3 +32,4 @@ research: {
 }
 alwaysUnlocked: true
 incinerateNonBuildable: true
+enableDrawStatus: true
