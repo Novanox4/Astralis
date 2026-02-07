@@ -9,7 +9,7 @@ maxAlpha: 0.3
 sizeMin: 2
 sizeMax: 14
 density: 900
-sound: wind2
+sound: swarm-buzzing
 soundVol: 0.875
 attrs: {
   growth: -0.8
