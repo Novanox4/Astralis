@@ -9,7 +9,7 @@ sizeMin: 7
 sizeMax: 14
 density: 600
 sound: swarm-buzzing
-soundVol: 1.1
+soundVol: 1.6
 attrs: {
   growth: -0.8
 }
