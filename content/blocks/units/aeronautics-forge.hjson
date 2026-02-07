@@ -22,10 +22,6 @@ research: {
   parent: core-fort
   objectives: [
   cryogenic-distiller,
-  #{
-  #type: OnSector
-  #preset: gloom
-  #}
   ]
 }
 requirements: [
