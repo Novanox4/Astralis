@@ -1,0 +1,16 @@
+type: ParticleWeather
+particleRegion: astralis-scarab-shadow
+color: ffffffb3
+padding: 0
+xspeed: 12
+yspeed: -0.175
+minAlpha: 0.15
+maxAlpha: 0.3
+sizeMin: 2
+sizeMax: 14
+density: 900
+sound: wind2
+soundVol: 0.875
+attrs: {
+  growth: -0.8
+}
