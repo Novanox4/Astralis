@@ -1,0 +1,11 @@
+type: PowerDiode
+size: 1
+health: 100
+research: capacitor
+requirements: [
+  crystalite/5
+  silver/5
+  ]
+category: power
+name: Energy Restrictor
+description: Takes power from the battery behind it and outputs it to the battery in front of it, without letting power from the battery in front of it go to the battery behind it. Only transfers power if the battery in front has less power.
