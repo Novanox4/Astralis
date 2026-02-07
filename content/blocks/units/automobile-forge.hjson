@@ -30,3 +30,4 @@ requirements: [
   metaglass/40
   ]
 researchCostMultiplier: 0.425
+squareSprite: false
