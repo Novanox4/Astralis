@@ -1,5 +1,5 @@
 type: UnitFactory
-name: Aeronautics Forge
+name: Automobile Forge
 description: Creates tanks that use explosive weapons.
 configurable: true
 size: 3
