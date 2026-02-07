@@ -1,12 +1,15 @@
 type: CoreBlock
 name: Core: Fort
-description: "Heart of the base. [accent]Once destroyed, the sector is lost.[] Holds items for building."
+description: "Heart of the base. [accent]Once destroyed, the sector is lost.[] Holds items for building, and holds power to output in times of deficit."
 health: 3750
 itemCapacity: 2000
 landMusic: fortLand
 size: 3
 landDuration: 300
 category: effect
+consumes: {
+  powerBuffered: 2500
+    }
 details: "The low landing time appears here due to the core's relative fragility, allowing it to slow down as to not be damaged from impact. 
 
 It releases an audible signal upon descent, although distorted because of the low-tech sound emitters used to cheapen costs. 
