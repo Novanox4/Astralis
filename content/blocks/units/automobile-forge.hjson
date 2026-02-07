@@ -1,0 +1,32 @@
+type: UnitFactory
+name: Aeronautics Forge
+description: Creates tanks that use explosive weapons.
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 1
+  liquid: nitrogen/0.45
+    }
+plans: [
+  {
+  unit: valium
+  requirements: [
+    silver/30
+    uranium/40
+  ]
+  time: 1400
+  }
+]
+research: {
+  parent: core-fort
+  objectives: [
+  cryogenic-distiller,
+  ]
+}
+requirements: [
+  crystalite/50
+  uranium/60
+  metaglass/40
+  ]
+researchCostMultiplier: 0.425
