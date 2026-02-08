@@ -8,7 +8,7 @@ itemCapacity: 60
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 12
+speed: 9
 name: Cicada
 description: Cicada that damages anything within it's path.
 abilities: [
@@ -32,8 +32,8 @@ abilities: [
       length: 0
       spin: -25
       lifetime: 3.05
-      sizeFrom: 14
-      sizeTo: 14
+      sizeFrom: 9
+      sizeTo: 9
       // worse than tank treads
       baseRotation: -85
       lightOpacity: 0
@@ -59,8 +59,8 @@ abilities: [
       length: 0
       spin: 25
       lifetime: 3.05
-      sizeFrom: 14
-      sizeTo: 14
+      sizeFrom: 9
+      sizeTo: 9
       baseRotation: -100
       lightOpacity: 0
       }
