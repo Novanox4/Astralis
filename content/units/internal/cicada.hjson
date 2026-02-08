@@ -93,7 +93,7 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    damage: 3
+    damage: 8
     hitSize: 10
     }
   }
