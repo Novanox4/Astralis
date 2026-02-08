@@ -95,6 +95,7 @@ weapons: [
     hitEffect: none
     damage: 8
     hitSize: 10
+    hitUnder: true
     }
   }
 ]
