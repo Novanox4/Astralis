@@ -69,6 +69,7 @@ abilities: [
 //bro he's literally one shot
 health: 1500
 weapons: [
+  {
   reload: 5
   alwaysShooting: true
   x: 0
@@ -94,5 +95,7 @@ weapons: [
     hitEffect: none
     damage: 0.2
     hitSize: 10
+    }
+  }
 ]
 crushDamage: 0.2
