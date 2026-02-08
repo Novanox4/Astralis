@@ -68,5 +68,31 @@ abilities: [
   ]
 //bro he's literally one shot
 health: 1500
-weapons: []
+weapons: [
+  reload: 5
+  alwaysShooting: true
+  x: 0
+  y: 0
+  shootSound: none
+  rotate: false
+  mirror: false
+  bullet: {
+    type: BulletType
+    lifetime: 5
+    pierce: true
+    pierceBuilding: true
+    //locked onto the unit's hitbox
+    circleShooter: true
+    circleShooterRadius: 0.001
+    circleShooterRadiusSmooth: 0.001
+    speed: 30
+    circleShooterRotateSpeed: 99999
+    shootEffect: none
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+    damage: 0.2
+    hitSize: 10
+]
 crushDamage: 0.2
