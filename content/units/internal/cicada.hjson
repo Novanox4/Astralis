@@ -79,8 +79,8 @@ weapons: [
   rotate: false
   mirror: false
   bullet: {
-    type: BasicBulletType
-    lifetime: 5
+    type: BulletType
+    lifetime: 5.1
     pierce: true
     pierceBuilding: true
     //locked onto the unit's hitbox
@@ -94,8 +94,8 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    damage: 8
-    hitSize: 16
+    damage: 12
+    hitSize: 18
     hitUnder: true
     collidesAir: false
     }
