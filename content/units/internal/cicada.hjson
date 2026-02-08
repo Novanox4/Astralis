@@ -1,0 +1,72 @@
+type: tether
+flying: true
+lowAltitude: true
+engineSize: 0
+hitSize: 7
+useUnitCap: false
+itemCapacity: 60
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+speed: 12
+name: Cicada
+description: Cicada that damages anything within it's path.
+abilities: [
+  {
+    type: MoveEffectAbility
+    //me when asthosus code:
+    minVelocity: 0
+    interval: 3
+    x: 2.5
+    y: 1
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 90
+      followParent: true
+      rotWithParent: true
+      region: astralis-cicada-wing-r
+      particles: 1
+      length: 0
+      spin: -25
+      lifetime: 3.05
+      sizeFrom: 14
+      sizeTo: 14
+      // worse than tank treads
+      baseRotation: -85
+      lightOpacity: 0
+      }
+    }
+    {
+    type: MoveEffectAbility
+    //winging my ding till I gaster
+    minVelocity: 0
+    interval: 3
+    x: -2.5
+    y: 1
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 90
+      followParent: true
+      rotWithParent: true
+      region: astralis-cicada-wing-l
+      particles: 1
+      length: 0
+      spin: 25
+      lifetime: 3.05
+      sizeFrom: 14
+      sizeTo: 14
+      baseRotation: -100
+      lightOpacity: 0
+      }
+    }
+  ]
+//bro he's literally one shot
+health: 1500
+weapons: []
+crushDamage: 0.2
