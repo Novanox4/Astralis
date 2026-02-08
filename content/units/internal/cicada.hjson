@@ -1,4 +1,4 @@
-type: tether
+type: flying
 flying: true
 lowAltitude: true
 engineSize: 0
