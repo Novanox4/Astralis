@@ -11,6 +11,7 @@ deathSound: plantBreak
 speed: 9
 name: Cicada
 description: Cicada that damages anything within it's path.
+bounded: false
 abilities: [
   {
     type: MoveEffectAbility
