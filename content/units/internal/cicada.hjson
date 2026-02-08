@@ -78,7 +78,7 @@ weapons: [
   rotate: false
   mirror: false
   bullet: {
-    type: BulletType
+    type: BasicBulletType
     lifetime: 5
     pierce: true
     pierceBuilding: true
