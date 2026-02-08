@@ -87,7 +87,7 @@ weapons: [
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
     speed: 30
-    circleShooterRotateSpeed: 99999
+    circleShooterRotateSpeed: 8
     shootEffect: none
     despawnEffect: none
     smokeEffect: none
