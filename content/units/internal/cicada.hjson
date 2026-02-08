@@ -96,6 +96,7 @@ weapons: [
     damage: 8
     hitSize: 10
     hitUnder: true
+    collidesAir: false
     }
   }
 ]
