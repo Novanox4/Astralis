@@ -95,10 +95,9 @@ weapons: [
     shootEffect: none
     hitEffect: none
     damage: 8
-    hitSize: 10
+    hitSize: 16
     hitUnder: true
     collidesAir: false
     }
   }
 ]
-crushDamage: 0.2
