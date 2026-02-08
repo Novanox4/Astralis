@@ -8,7 +8,7 @@ itemCapacity: 60
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 9
+speed: 25
 name: Cicada
 description: Cicada that damages anything within it's path.
 bounded: false
@@ -87,15 +87,15 @@ weapons: [
     circleShooter: true
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
-    speed: 3
+    speed: 1
     circleShooterRotateSpeed: 1
     shootEffect: none
     despawnEffect: none
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    damage: 12
-    hitSize: 18
+    damage: 15
+    hitSize: 30
     hitUnder: true
     collidesAir: false
     }
