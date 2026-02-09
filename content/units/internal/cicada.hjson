@@ -12,6 +12,7 @@ speed: 25
 name: Cicada
 description: Cicada that damages anything within it's path.
 bounded: false
+circleTarget: true
 abilities: [
   {
     type: MoveEffectAbility
@@ -67,8 +68,8 @@ abilities: [
       }
     }
   ]
-//bro he's literally one shot
-health: 1500
+//bro he's literally full health
+health: 15
 weapons: [
   {
   reload: 5
@@ -94,8 +95,8 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    damage: 15
-    hitSize: 30
+    damage: 11
+    hitSize: 5
     hitUnder: true
     collidesAir: false
     }
