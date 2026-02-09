@@ -8,7 +8,7 @@ itemCapacity: 60
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 25
+speed: 12
 name: Cicada
 description: Cicada that damages anything within it's path.
 bounded: false
