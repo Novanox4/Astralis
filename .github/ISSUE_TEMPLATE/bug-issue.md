@@ -32,6 +32,6 @@ Add any other context about the problem here.
 # **Other mods**
 State what other mods you have used while encountering the feature.
 
-- [ ] I have read BUGREPORTS.MD
+- [ ] I have read astralis/main/BUGREPORTS.md
 - [ ] I have updated to the latest mod version to check if it has not been fixed
 - [ ] I have made sure the issue is not caused by other mods.
