@@ -95,8 +95,8 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    damage: 4
-    hitSize: 12
+    damage: 5
+    hitSize: 20
     hitUnder: true
     collidesAir: false
     }
