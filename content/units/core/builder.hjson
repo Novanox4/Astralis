@@ -22,6 +22,7 @@ name: Builder
 description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, heals units and buildings with pulses of energy."
 databaseTag: "astralis-unit-core"
 rotateToBuilding: true
+faceTarget: false
 engines: [
   {  
   x: -2.25
