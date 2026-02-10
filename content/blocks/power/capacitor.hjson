@@ -8,7 +8,7 @@ consumes: {
     }
 research: water-turbine
 requirements: [
-  crystalite/15
+  crystalite/5
   ]
 category: power
 name: Capacitor
