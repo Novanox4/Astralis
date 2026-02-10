@@ -3,7 +3,7 @@ name: Bug/Issue
 about: Choose this when something isn't working properly.
 title: Bug Report
 labels: bug
-assignees: Novanox4
+assignees: ''
 
 ---
 
@@ -32,6 +32,6 @@ Add any other context about the problem here.
 # **Other mods**
 State what other mods you have used while encountering the feature.
 
-- [ ] I have read astralis/main/BUGREPORTS.md
+- [ ] I have read main/BUGREPORTS.md
 - [ ] I have updated to the latest mod version to check if it has not been fixed
 - [ ] I have made sure the issue is not caused by other mods.
