@@ -3,11 +3,11 @@ particleRegion: astralis-scarab-shadow
 padding: 0
 xspeed: 22
 yspeed: -0.175
-minAlpha: 0.1
-maxAlpha: 0.3
+minAlpha: 0.2
+maxAlpha: 0.4
 sizeMin: 7
-sizeMax: 14
-density: 800
+sizeMax: 13
+density: 900
 sound: swarm-buzzing
 soundVol: 1.6
 attrs: {
