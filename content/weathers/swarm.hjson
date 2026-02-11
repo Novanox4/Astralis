@@ -1,13 +1,13 @@
 type: ParticleWeather
 particleRegion: astralis-scarab-shadow
 padding: 0
-xspeed: 24
+xspeed: 22
 yspeed: -0.175
 minAlpha: 0.1
 maxAlpha: 0.3
 sizeMin: 7
 sizeMax: 14
-density: 600
+density: 800
 sound: swarm-buzzing
 soundVol: 1.6
 attrs: {
