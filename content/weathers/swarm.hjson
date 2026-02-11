@@ -1,7 +1,7 @@
 type: ParticleWeather
 particleRegion: astralis-scarab-shadow
 padding: 0
-xspeed: 22
+xspeed: 20
 yspeed: -0.175
 minAlpha: 0.2
 maxAlpha: 0.4
