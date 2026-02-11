@@ -96,7 +96,7 @@ weapons: [
     shootEffect: none
     hitEffect: none
     damage: 4
-    hitSize: 7
+    hitSize: 12
     hitUnder: true
     collidesAir: false
     }
