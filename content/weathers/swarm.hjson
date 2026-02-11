@@ -5,8 +5,8 @@ xspeed: 19
 yspeed: -0.25
 minAlpha: 0.2
 maxAlpha: 0.45
-sizeMin: 12
-sizeMax: 16
+sizeMin: 18
+sizeMax: 22
 density: 1200
 sound: swarm-buzzing
 soundVol: 1.6
