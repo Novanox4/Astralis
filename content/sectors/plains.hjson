@@ -1,0 +1,18 @@
+localizedName: "Plains"
+description: "[accent]INCOMING SIGNAL FROM RESISTANCE OFFICIALS[]
+  
+This is a relatively peaceful sector. You will be testing a new weapon against a weak enemy base.
+
+All that is required from you is following orders and having basic critical thinking skills."
+sector: 15
+planet: astralis
+difficulty: 2
+research: {
+  parent: gloom
+  objectives: [
+    {
+      type: SectorComplete
+      preset: gloom
+    }
+  ]
+}
