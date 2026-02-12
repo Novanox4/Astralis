@@ -45,14 +45,14 @@ updateEffectSpread: 0
 updateEffect: [
   {
   type: ParticleEffect
-  colorFrom: d4f0ff73
+  colorFrom: d4f0ff1a
   colorTo: d4f0ff00
-  lifetime: 600
-  length: 75
-  interp: pow5Out
+  lifetime: 800
+  length: 90
+  interp: pow3Out
   sizeInterp: linear
-  sizeFrom: 5
-  sizeTo: 3
-  cone: 8
+  sizeFrom: 2
+  sizeTo: 1.5
+  cone: 9
   }
 ]
