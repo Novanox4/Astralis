@@ -55,5 +55,6 @@ updateEffect: [
   sizeTo: 2.5
   cone: 9
   particles: 1
+  baseRotation: -45
   }
 ]
