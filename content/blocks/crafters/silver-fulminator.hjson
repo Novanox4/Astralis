@@ -40,8 +40,8 @@ outputItems: [
   fulminate/8
   char-chunks/1
 ]
-updateEffectChance: 1
-updateEffectSpread: 0
+updateEffectChance: 0.9
+updateEffectSpread: 0.1
 updateEffect: [
   {
   type: ParticleEffect
@@ -51,8 +51,8 @@ updateEffect: [
   length: 90
   interp: pow3Out
   sizeInterp: linear
-  sizeFrom: 2
-  sizeTo: 1.5
+  sizeFrom: 3.5
+  sizeTo: 2.5
   cone: 9
   particles: 1
   }
