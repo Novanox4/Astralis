@@ -18,12 +18,6 @@ plans: [
   time: 1500
   }
 ]
-research: {
-  parent: core-fort
-  objectives: [
-  cryogenic-distiller,
-  ]
-}
 requirements: [
   crystalite/65
   silver/85
@@ -31,3 +25,12 @@ requirements: [
   ]
 researchCostMultiplier: 0.425
 squareSprite: false
+research: {
+  parent: automobile-forge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: plains
+    }
+  ]
+}
