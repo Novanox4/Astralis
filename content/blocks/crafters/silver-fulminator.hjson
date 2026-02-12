@@ -44,23 +44,17 @@ updateEffectChance: 0.8
 updateEffectSpread: 0
 updateEffect: [
   {
-  type: RadialEffect
-  amount: 3
-  lengthOffset: 6
-  rotationSpacing: 0
-  effect: {
-    type: ParticleEffect
-    colorFrom: d4f0ff1a
-    colorTo: d4f0ff00
-    lifetime: 800
-    length: 90
-    interp: pow3Out
-    sizeInterp: linear
-    sizeFrom: 3.5
-    sizeTo: 2.5
-    cone: 9
-    particles: 1
-    baseRotation: 45
-    }
+  type: ParticleEffect
+  colorFrom: d4f0ff1a
+  colorTo: d4f0ff00
+  lifetime: 800
+  length: 90
+  interp: pow3Out
+  sizeInterp: linear
+  sizeFrom: 4.5
+  sizeTo: 3.25
+  cone: 9
+  particles: 1
+  baseRotation: 45
   }
 ]
