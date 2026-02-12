@@ -20,7 +20,7 @@ requirements: [
 research: {
   parent: uranium-decay-generator
   objectives: [
-    biomatter-decayer,
+    incubator,
     {
     type: CaptureSector
     preset: gloom
