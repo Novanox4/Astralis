@@ -54,5 +54,6 @@ updateEffect: [
   sizeFrom: 2
   sizeTo: 1.5
   cone: 9
+  particles: 1
   }
 ]
