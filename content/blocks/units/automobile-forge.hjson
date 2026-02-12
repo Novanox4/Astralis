@@ -18,12 +18,7 @@ plans: [
   time: 1400
   }
 ]
-research: {
-  parent: core-fort
-  objectives: [
-  cryogenic-distiller,
-  ]
-}
+
 requirements: [
   crystalite/50
   uranium/60
@@ -31,3 +26,12 @@ requirements: [
   ]
 researchCostMultiplier: 0.425
 squareSprite: false
+research: {
+  parent: core-fort
+  objectives: [
+    {
+      type: SectorComplete
+      preset: plains
+    }
+  ]
+}
