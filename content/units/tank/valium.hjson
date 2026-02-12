@@ -70,3 +70,5 @@ bullet: {
 ]
 outlineColor: 323232
 crushDamage: 0.01
+research: automobile-forge
+researchCostMultiplier: 2
