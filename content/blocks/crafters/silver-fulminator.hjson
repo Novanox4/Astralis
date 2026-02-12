@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Silver Fulminator
+size: 4
+description: Uses nitrogen, silver and power to create an explosive compound.
+requirements: [
+  crystalite/60
+  silver/75
+  metaglass/50
+]
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: nitrogen
+  padding: 1
+  }
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawRegion
+  suffix: -rotator
+  spinSprite: true
+  rotateSpeed: 1
+  }
+]
+itemCapacity: 30
+consumes: {
+  power: 7
+  liquid: nitrogen/0.2
+  item: silver/8
+}
+craftTime: 240
+outputItems: [
+  fulminate/8
+  char-chunks/1
+]
