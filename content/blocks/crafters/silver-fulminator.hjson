@@ -47,8 +47,7 @@ updateEffect: [
   type: RadialEffect
   amount: 3
   lengthOffset: 6
-  rotationSpacing: 120
-  rotationOffset: -120
+  rotationSpacing: 0
   effect: {
     type: ParticleEffect
     colorFrom: d4f0ff1a
