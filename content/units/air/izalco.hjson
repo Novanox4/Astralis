@@ -84,3 +84,5 @@ weapons: [
     }
   }
 ]
+research: aeronautics-forge
+researchCostMultiplier: 10
