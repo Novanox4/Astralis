@@ -31,7 +31,9 @@ itemCapacity: 30
 consumes: {
   power: 7
   liquid: nitrogen/0.2
-  item: silver/8
+  items: [
+    silver/8
+  ]
 }
 craftTime: 240
 outputItems: [
