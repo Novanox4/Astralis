@@ -27,16 +27,31 @@ drawer: [
   rotateSpeed: 1
   }
 ]
-itemCapacity: 30
+itemCapacity: 35
 consumes: {
   power: 7
-  liquid: nitrogen/0.2
+  liquid: nitrogen/0.199999999999999999999999
   items: [
-    silver/8
+    silver/15
   ]
 }
 craftTime: 240
 outputItems: [
   fulminate/8
   char-chunks/1
+]
+updateEffectChance: 1
+updateEffectSpread: 0
+updateEffect: [
+  {
+  type: ParticleEffect
+  colorFrom: d4f0ff
+  colorTo: d4f0ff00
+  lifetime: 120
+  length: 60
+  interp: pow5Out
+  sizeInterp: linear
+  sizeFrom: 10
+  sizeTo: 8
+  }
 ]
