@@ -31,7 +31,7 @@ drawer: {
     //barrel heat
     {
     type: RegionPart
-    progress: recoil
+    progress: heat
     suffix: -heat-barrel-1
     moveY: -1
     mirror: false
@@ -43,6 +43,7 @@ drawer: {
     }
   ]
 }
+cooldownTime: 30
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
