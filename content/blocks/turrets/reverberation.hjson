@@ -6,11 +6,11 @@ reload: 180
 range: 245
 category: turret
 outlineColor: 323232
-recoil: 0.25
+recoil: 0.4
 recoils: 7
 warmupMaintainTime: 120
-minWarmup: 0.5
-shootWarmupSpeed: 0.05
+minWarmup: 0.9
+shootWarmupSpeed: 0.025
 shoot: {
   shots: 7
   shotDelay: 8
