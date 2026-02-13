@@ -2,22 +2,24 @@ type: ItemTurret
 name: Reverberation
 description: Shoots bouncing bullets at enemies.
 size: 3
-reload: 180
+reload: 240
 range: 245
 category: turret
 outlineColor: 323232
 recoil: 0.4
 recoils: 7
-warmupMaintainTime: 120
+warmupMaintainTime: 240
 minWarmup: 0.9
 shootWarmupSpeed: 0.025
+cooldownTime: 120
 shoot: {
   shots: 7
   shotDelay: 8
 }
 requirements: [
-  crystalite/50
+  crystalite/120
   metaglass/80
+  silver/75
 ]
 shootSound: shootTank
 drawer: {
