@@ -51,24 +51,24 @@ updateEffect: [
   length: 90
   interp: pow3Out
   sizeInterp: linear
-  sizeFrom: 4.5
-  sizeTo: 3.25
+  sizeFrom: 5.5
+  sizeTo: 4.25
   cone: 9
   particles: 1
-  baseRotation: 45
+  baseRotation: 55
   }
   {
   type: ParticleEffect
-  colorFrom: b5ac101a
-  colorTo: b5ac1000
+  colorFrom: b082031a
+  colorTo: b0820300
   lifetime: 800
   length: 90
   interp: pow3Out
   sizeInterp: linear
-  sizeFrom: 4.5
-  sizeTo: 3.25
+  sizeFrom: 5.5
+  sizeTo: 4.25
   cone: 9
   particles: 1
-  baseRotation: 45
+  baseRotation: 55
   }
 ]
