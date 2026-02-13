@@ -28,32 +28,25 @@ drawer: {
     suffix: -barrel
     moveY: -1
     mirror: false
-    }
-    //barrel heat
-    {
-    type: RegionPart
-    suffix: -heat-barrel-1
-    mirror: false
-    recoilIndex: 1
-    layer: 50.1
-    outline: false
-    color: 38a6c900
-    colorTo: 38a6c9ff
-    progress: {
-      type: warmup
-      op: delay
-      amount: 0.5
-      }
-    moves: [
+    children: [
       {
-      type: PartMove
-      y: -1.25
-      progress: recoil
+      type: RegionPart
+      suffix: -heat-barrel-1
+      mirror: false
+      recoilIndex: 1
+      layer: 50.1
+      outline: false
+      color: 38a6c900
+      colorTo: 38a6c9ff
+      progress: {
+        type: warmup
+        op: delay
+        amount: 0.5
+        }
       }
-      ]    
-    }
-  ]
-}
+    ]
+  }
+]
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
