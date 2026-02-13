@@ -31,19 +31,28 @@ drawer: {
     //barrel heat
     {
     type: RegionPart
-    progress: heat
     suffix: -heat-barrel-1
-    moveY: -1
     mirror: false
     recoilIndex: 1
-    color: 38a6c900
-    colorTo: 38a6c9ff
     layer: 50.1
     outline: false
+    color: 38a6c900
+    colorTo: 38a6c9ff
+    progress: {
+      type: warmup
+      op: delay
+      amount: 0.5
+      }
+    moves: [
+      {
+      type: PartMove
+      y: -1
+      progress: recoil
+      }
+      ]    
     }
   ]
 }
-cooldownTime: 30
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
