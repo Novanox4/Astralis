@@ -150,6 +150,6 @@ ammoTypes: {
   crystalite: {
     type: BasicBulletType
     //placeholder
-    }
   }
-
+}
+squareSprite: false
