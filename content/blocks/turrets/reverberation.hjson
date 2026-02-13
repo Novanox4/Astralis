@@ -5,6 +5,7 @@ size: 3
 reload: 180
 range: 245
 category: turret
+outlineColor: 323232
 requirements: [
   crystalite/50
   metaglass/80
