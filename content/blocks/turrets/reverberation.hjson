@@ -6,6 +6,11 @@ reload: 180
 range: 245
 category: turret
 outlineColor: 323232
+recoils: 7
+shoot: {
+  shots: 7
+  shotDelay: 8
+}
 requirements: [
   crystalite/50
   metaglass/80
@@ -22,6 +27,7 @@ drawer: {
     suffix: -barrel
     moveY: -1
     mirror: false
+      
     }
   ]
 }
