@@ -37,7 +37,7 @@ drawer: {
       layer: 50.1
       outline: false
       color: ab340000
-      colorTo: ab3400ff
+      colorTo: ab3400cc
       progress: {
         type: warmup
         op: delay
