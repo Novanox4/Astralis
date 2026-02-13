@@ -1,0 +1,21 @@
+type: ItemTurret
+name: Reverberation
+description: Shoots bouncing bullets at enemies.
+size: 3
+reload: 180
+range: 245
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    //barrel
+    {
+    type: RegionPart
+    progress: recoil
+    suffix: -barrel
+    moveY: -1
+    mirror: false
+    }
+  ]
+}
+    
