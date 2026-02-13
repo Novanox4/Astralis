@@ -384,9 +384,9 @@ ammoTypes: {
             }
           ]
           lightningColor: 38a6c9
-          lightningLength: 2
-          lightningLengthRand: 4
-          lightning: 5
+          lightningLength: 5
+          lightningLengthRand: 9
+          lightning: 4
           lightningDamage: 3
         }
       }
