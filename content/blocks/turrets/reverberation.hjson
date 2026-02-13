@@ -47,6 +47,7 @@ drawer: {
     ]
   }
 ]
+}
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
