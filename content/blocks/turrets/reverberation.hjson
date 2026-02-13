@@ -18,4 +18,10 @@ drawer: {
     }
   ]
 }
-    
+ammoTypes: {
+  crystalite: {
+    type: BasicBulletType
+    //placeholder
+    }
+  }
+
