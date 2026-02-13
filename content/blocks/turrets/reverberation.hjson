@@ -4,6 +4,11 @@ description: Shoots bouncing bullets at enemies.
 size: 3
 reload: 180
 range: 245
+category: turret
+requirements: [
+  crystalite/50
+  metaglass/80
+]
 drawer: {
   type: DrawTurret
   basePrefix: astral-
