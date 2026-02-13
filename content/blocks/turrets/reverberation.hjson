@@ -154,6 +154,8 @@ ammoTypes: {
     width: 7.25
     height: 10
     trailColor: 38a6c9
+    speed: 3
+    lifetime: 35
   }
 }
 squareSprite: false
