@@ -73,8 +73,8 @@ updateEffect: [
   }
   {
   type: ParticleEffect
-  colorFrom: d0c2d11a
-  colorTo: d0c2d100
+  colorFrom: d4f0ff1a
+  colorTo: d4f0ff00
   lifetime: 820
   length: 100
   interp: pow3Out
