@@ -41,8 +41,8 @@ drawer: {
       recoilIndex: 1
       layer: 50.1
       outline: false
-      color: 94e3f100
-      colorTo: 94e3f1cc
+      color: 38a6c900
+      colorTo: 38a6c9cc
       blending: additive
       progress: {
         type: warmup
@@ -57,8 +57,8 @@ drawer: {
       recoilIndex: 1
       layer: 50.1
       outline: false
-      color: 94e3f100
-      colorTo: 94e3f1cc
+      color: 38a6c900
+      colorTo: 38a6c9cc
       blending: additive
       progress: {
         type: warmup
