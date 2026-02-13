@@ -79,6 +79,7 @@ drawer: {
       op: delay
       amount: 0.525
       }
+    }
   }
 ]
 }
