@@ -87,3 +87,5 @@ updateEffect: [
   layer: 109
   }
 ]
+category: crafting
+squareSprite: false
