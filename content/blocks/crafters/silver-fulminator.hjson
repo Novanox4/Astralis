@@ -71,4 +71,19 @@ updateEffect: [
   particles: 1
   baseRotation: 55
   }
+  {
+  type: ParticleEffect
+  colorFrom: d0c2d11a
+  colorTo: d0c2d100
+  lifetime: 820
+  length: 100
+  interp: pow3Out
+  sizeInterp: linear
+  sizeFrom: 5.25
+  sizeTo: 4.25
+  cone: 9.15
+  particles: 1
+  baseRotation: 55
+  layer: 109
+  }
 ]
