@@ -9,7 +9,7 @@ outlineColor: 323232
 recoil: 0.4
 recoils: 7
 warmupMaintainTime: 240
-minWarmup: 0.9
+minWarmup: 0.95
 shootWarmupSpeed: 0.025
 cooldownTime: 120
 shoot: {
