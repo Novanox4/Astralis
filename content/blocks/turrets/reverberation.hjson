@@ -6,6 +6,7 @@ reload: 180
 range: 245
 category: turret
 outlineColor: 323232
+recoil: 0.25
 recoils: 7
 shoot: {
   shots: 7
@@ -46,7 +47,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      y: -1
+      y: -1.25
       progress: recoil
       }
       ]    
