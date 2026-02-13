@@ -43,6 +43,7 @@ drawer: {
       outline: false
       color: 94e3f100
       colorTo: 94e3f1cc
+      blending: additive
       progress: {
         type: warmup
         op: delay
@@ -51,13 +52,14 @@ drawer: {
       }
       {
       type: RegionPart
-      suffix: -heat-barrel-2
+      suffix: -heat-body-2
       mirror: false
       recoilIndex: 1
       layer: 50.1
       outline: false
       color: 94e3f100
       colorTo: 94e3f1cc
+      blending: additive
       progress: {
         type: warmup
         op: delay
