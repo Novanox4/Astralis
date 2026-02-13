@@ -45,7 +45,7 @@ drawer: {
     //heat 2
     {
     type: RegionPart
-    suffix: -heat-body-1
+    suffix: -heat-body-2
     mirror: false
     layer: 50.1
     outline: false
