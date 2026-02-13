@@ -45,8 +45,8 @@ updateEffectSpread: 0.2
 updateEffect: [
   {
   type: ParticleEffect
-  colorFrom: d4f0ff1a
-  colorTo: d4f0ff00
+  colorFrom: c5c93a1a
+  colorTo: c5c93a00
   lifetime: 800
   length: 90
   interp: pow3Out
