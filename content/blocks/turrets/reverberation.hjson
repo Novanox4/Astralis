@@ -58,6 +58,52 @@ drawer: {
       amount: 0.7
       }
     }
+    {
+    type: RegionPart
+    suffix: -heat-body-3
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: 38a6c900
+    colorTo: 38a6c9cc
+    blending: additive
+    progress: {
+      type: warmup
+      op: delay
+      //intended behavior
+      amount: 0.7
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -heat-body-4
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: 38a6c900
+    colorTo: 38a6c9cc
+    blending: additive
+    progress: {
+      type: warmup
+      op: delay
+      amount: 0.825
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -heat-body-5
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: 38a6c900
+    colorTo: 38a6c9cc
+    blending: additive
+    progress: {
+      type: warmup
+      op: delay
+      amount: 0.925
+      }
+    }
     //barrel
     {
     type: RegionPart
