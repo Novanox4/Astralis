@@ -203,7 +203,7 @@ ammoTypes: {
       }
     ]
     fragBullets: 1
-    fragRandomSpread: 10
+    fragRandomSpread: 25
     fragVelocityMin: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
@@ -263,7 +263,7 @@ ammoTypes: {
         }
       ]
       fragBullets: 1
-      fragRandomSpread: 10
+      fragRandomSpread: 25
       fragVelocityMin: 1
       fragOffsetMin: 0
       fragOffsetMax: 0
