@@ -49,6 +49,21 @@ drawer: {
         amount: 0.5
         }
       }
+      {
+      type: RegionPart
+      suffix: -heat-barrel-2
+      mirror: false
+      recoilIndex: 1
+      layer: 50.1
+      outline: false
+      color: 94e3f100
+      colorTo: 94e3f1cc
+      progress: {
+        type: warmup
+        op: delay
+        amount: 1
+        }
+      }
     ]
   }
 ]
