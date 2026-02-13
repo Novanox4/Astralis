@@ -162,6 +162,7 @@ ammoTypes: {
     speed: 4
     lifetime: 15
     damage: 40
+    despawnHit: true
     despawnEffect: none
     hitEffect: [
       {
