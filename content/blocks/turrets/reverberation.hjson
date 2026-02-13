@@ -162,7 +162,7 @@ ammoTypes: {
     trailLength: 5
     speed: 4
     lifetime: 15
-    damage: 20
+    damage: 50
     despawnHit: true
     despawnEffect: none
     hitEffect: [
@@ -224,7 +224,7 @@ ammoTypes: {
       trailLength: 5
       speed: 4
       lifetime: 15
-      damage: 40
+      damage: 70
       despawnHit: true
       despawnEffect: none
       hitEffect: [
@@ -286,7 +286,7 @@ ammoTypes: {
         trailLength: 5
         speed: 4
         lifetime: 15
-        damage: 60
+        damage: 70
         despawnHit: true
         despawnEffect: none
         hitEffect: [
