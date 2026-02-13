@@ -52,7 +52,7 @@ drawer: {
       }
       {
       type: RegionPart
-      suffix: -heat-body-2
+      suffix: -heat-barrel-2
       mirror: false
       recoilIndex: 1
       layer: 50.1
@@ -63,7 +63,7 @@ drawer: {
       progress: {
         type: warmup
         op: delay
-        amount: 1
+        amount: 0.8
         }
       }
     ]
