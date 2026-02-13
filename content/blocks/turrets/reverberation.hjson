@@ -63,7 +63,7 @@ drawer: {
       progress: {
         type: warmup
         op: delay
-        amount: 0.35
+        amount: 0.425
         }
       }
     ]
