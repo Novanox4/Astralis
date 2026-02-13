@@ -149,7 +149,10 @@ drawer: {
 ammoTypes: {
   crystalite: {
     type: BasicBulletType
-    //placeholder
+    backColor: 38a6c9
+    frontColor: ffffff
+    width: 4
+    height: 8
   }
 }
 squareSprite: false
