@@ -160,7 +160,7 @@ amount: 0.225
 }
 consumes: {
   liquids: [
-  water/2.22222222222221
+  water/0.22222222222221
   ]
 }
 coolantMultiplier: 3.25
