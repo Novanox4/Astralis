@@ -33,7 +33,7 @@ drawer: {
     type: RegionPart
     progress: recoil
     suffix: -heat-barrel-1
-    moveY: -1
+    moveY: -3
     mirror: false
     recoilIndex: 0
     color: 38a6c900
