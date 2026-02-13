@@ -383,11 +383,6 @@ ammoTypes: {
             lifetime: 25
             }
           ]
-          fragBullets: 1
-          fragRandomSpread: 25
-          fragVelocityMin: 1
-          fragOffsetMin: 0
-          fragOffsetMax: 0
           lightningColor: 38a6c9
           lightningLength: 2
           lightningLengthRand: 4
