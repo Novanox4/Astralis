@@ -207,6 +207,67 @@ ammoTypes: {
     fragVelocityMin: 1
     fragOffsetMin: 0
     fragOffsetMax: 0
+    fragBullet: {
+      type: BasicBulletType
+
+      //CRYSTALITE FRAG 2
+  
+      backColor: 38a6c9
+      frontColor: ffffff
+      width: 7.25
+      height: 10
+      trailColor: 38a6c9
+      trailWidth: 2
+      trailLength: 5
+      speed: 4
+      lifetime: 15
+      damage: 40
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+        type: ParticleEffect
+        colorFrom: 38a6c9
+        colorTo: 38a6c9
+        interp: pow3Out
+        sizeFrom: 3
+        sizeTo: 0
+        length: 16
+        lifetime: 25
+        particles: 3
+        }
+        {
+        type: ParticleEffect
+        colorFrom: 38a6c9
+        colorTo: 38a6c9
+        interp: pow3Out
+        line: true
+        lenFrom: 6
+        lenTo: 0
+        strokeFrom: 3.75
+        strokeTo: 0
+        length: 20
+        lifetime: 25
+        particles: 4
+        }
+        {
+        type: WaveEffect
+        colorFrom: 38a6c9
+        colorTo: 38a6c9
+        interp: pow3Out
+        sizeFrom: 0
+        sizeTo: 8
+        strokeFrom: 2.65
+        strokeTo: 0
+        lifetime: 25
+        }
+      ]
+      fragBullets: 1
+      fragRandomSpread: 10
+      fragVelocityMin: 1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+    }
   }
 }
 squareSprite: false
