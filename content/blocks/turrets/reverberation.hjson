@@ -36,8 +36,8 @@ drawer: {
       recoilIndex: 1
       layer: 50.1
       outline: false
-      color: ff383800
-      colorTo: ff3838cc
+      color: 94e3f100
+      colorTo: 94e3f1cc
       progress: {
         type: warmup
         op: delay
