@@ -151,8 +151,9 @@ ammoTypes: {
     type: BasicBulletType
     backColor: 38a6c9
     frontColor: ffffff
-    width: 4
-    height: 8
+    width: 7.25
+    height: 10
+    trailColor: 38a6c9
   }
 }
 squareSprite: false
