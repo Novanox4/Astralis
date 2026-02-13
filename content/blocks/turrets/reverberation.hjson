@@ -8,6 +8,9 @@ category: turret
 outlineColor: 323232
 recoil: 0.25
 recoils: 7
+warmupMaintainTime: 120
+minWarmup: 1
+shootWarmupSpeed: 0.05
 shoot: {
   shots: 7
   shotDelay: 8
