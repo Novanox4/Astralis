@@ -27,7 +27,17 @@ drawer: {
     suffix: -barrel
     moveY: -1
     mirror: false
-      
+    }
+    //barrel heat
+    {
+    type: RegionPart
+    progress: recoil
+    suffix: -barrel-heat-1
+    moveY: -1
+    mirror: false
+    recoilIndex: 0
+    color: 38a6c900
+    colorTo: 38a6c9ff
     }
   ]
 }
