@@ -56,6 +56,7 @@ updateEffect: [
   cone: 9
   particles: 1
   baseRotation: 55
+  layer: 140
   }
   {
   type: ParticleEffect
@@ -70,6 +71,7 @@ updateEffect: [
   cone: 9
   particles: 1
   baseRotation: 55
+  layer: 140
   }
   {
   type: ParticleEffect
@@ -84,7 +86,7 @@ updateEffect: [
   cone: 9.15
   particles: 1
   baseRotation: 55
-  layer: 109
+  layer: 140
   }
 ]
 category: crafting
