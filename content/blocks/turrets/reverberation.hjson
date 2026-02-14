@@ -401,7 +401,7 @@ ammoTypes: {
           lightning: 4
           lightningDamage: 3
           pierce: true
-          fragOnHit: false
+          hitSound: shootArc
         }
       }
     }
@@ -749,6 +749,7 @@ fulminate: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragOnHit: false
+    hitSound: explosionTitan
   }
 }
 squareSprite: false
