@@ -2,7 +2,7 @@ type: ItemTurret
 name: Reverberation
 description: Shoots bouncing bullets at enemies.
 size: 3
-reload: 450
+reload: 500
 range: 245
 category: turret
 outlineColor: 323232
@@ -659,11 +659,11 @@ squareSprite: false
 coolant: {
 type: ConsumeLiquid
 liquid: nitrogen
-amount: 0.225
+amount: 0.25
 }
 consumes: {
   liquids: [
   water/0.44999999999999999999999999999999
   ]
 }
-coolantMultiplier: 3.25
+coolantMultiplier: 2.75
