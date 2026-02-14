@@ -400,6 +400,252 @@ ammoTypes: {
       }
     }
   }
+metaglass: {
+    type: BasicBulletType
+
+    //METAGLASS FRAG 1
+  
+    backColor: d0d0e0
+    frontColor: ffffff
+    width: 7.25
+    height: 10
+    trailColor: d0d0e0
+    trailWidth: 2
+    trailLength: 5
+    speed: 4
+    lifetime: 15
+    damage: 10
+    despawnHit: true
+    despawnEffect: none
+    hitEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: d0d0e0
+      colorTo: d0d0e0
+      interp: pow3Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 16
+      lifetime: 25
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: d0d0e0
+      colorTo: d0d0e0
+      interp: pow3Out
+      line: true
+      lenFrom: 6
+      lenTo: 0
+      strokeFrom: 3.75
+      strokeTo: 0
+      length: 20
+      lifetime: 25
+      particles: 4
+      }
+      {
+      type: WaveEffect
+      colorFrom: d0d0e0
+      colorTo: d0d0e0
+      interp: pow3Out
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 2.65
+      strokeTo: 0
+      lifetime: 25
+      }
+    ]
+    fragBullets: 3
+    fragRandomSpread: 25
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    pierce: true
+    fragOnHit: false
+    fragBullet: {
+      type: BasicBulletType
+
+      //METAGLASS FRAG 2
+  
+      backColor: d0d0e0
+      frontColor: ffffff
+      width: 7.25
+      height: 10
+      trailColor: 38a6c9
+      trailWidth: 2
+      trailLength: 5
+      speed: 4
+      lifetime: 15
+      damage: 20
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+        type: ParticleEffect
+        colorFrom: d0d0e0
+        colorTo: d0d0e0
+        interp: pow3Out
+        sizeFrom: 3
+        sizeTo: 0
+        length: 16
+        lifetime: 25
+        particles: 3
+        }
+        {
+        type: ParticleEffect
+        colorFrom: d0d0e0
+        colorTo: d0d0e0
+        interp: pow3Out
+        line: true
+        lenFrom: 6
+        lenTo: 0
+        strokeFrom: 3.75
+        strokeTo: 0
+        length: 20
+        lifetime: 25
+        particles: 4
+        }
+        {
+        type: WaveEffect
+        colorFrom: d0d0e0
+        colorTo: d0d0e0
+        interp: pow3Out
+        sizeFrom: 0
+        sizeTo: 8
+        strokeFrom: 2.65
+        strokeTo: 0
+        lifetime: 25
+        }
+      ]
+      fragBullets: 3
+      fragRandomSpread: 25
+      fragVelocityMin: 1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      pierce: true
+      fragOnHit: false
+      fragBullet: {
+        type: BasicBulletType
+
+        //METAGLASS FRAG 3
+  
+        backColor: d0d0e0
+        frontColor: ffffff
+        width: 7.25
+        height: 10
+        trailColor: d0d0e0
+        trailWidth: 2
+        trailLength: 5
+        speed: 4
+        lifetime: 15
+        damage: 25
+        despawnHit: true
+        despawnEffect: none
+        hitEffect: [
+          {
+          type: ParticleEffect
+          colorFrom: d0d0e0
+          colorTo: d0d0e0
+          interp: pow3Out
+          sizeFrom: 3
+          sizeTo: 0
+          length: 16
+          lifetime: 25
+          particles: 3
+          }
+          {
+          type: ParticleEffect
+          colorFrom: d0d0e0
+          colorTo: d0d0e0
+          interp: pow3Out
+          line: true
+          lenFrom: 6
+          lenTo: 0
+          strokeFrom: 3.75
+          strokeTo: 0
+          length: 20
+          lifetime: 25
+          particles: 4
+          }
+          {
+          type: WaveEffect
+          colorFrom: d0d0e0
+          colorTo: d0d0e0
+          interp: pow3Out
+          sizeFrom: 0
+          sizeTo: 8
+          strokeFrom: 2.65
+          strokeTo: 0
+          lifetime: 25
+          }
+        ]
+        fragBullets: 2
+        fragRandomSpread: 25
+        fragVelocityMin: 1
+        fragOffsetMin: 0
+        fragOffsetMax: 0
+        pierce: true
+        fragOnHit: false
+        fragBullet: {
+          type: BasicBulletType
+
+          //CRYSTALITE FRAG 4
+  
+          backColor: d0d0e0
+          frontColor: ffffff
+          width: 7.25
+          height: 10
+          trailColor: d0d0e0
+          trailWidth: 2
+          trailLength: 5
+          speed: 4
+          lifetime: 15
+          damage: 70
+          despawnHit: true
+          despawnEffect: none
+          hitEffect: [
+            {
+            type: ParticleEffect
+            colorFrom: d0d0e0
+            colorTo: d0d0e0
+            interp: pow3Out
+            sizeFrom: 3
+            sizeTo: 0
+            length: 30
+            lifetime: 37.5
+            particles: 4
+            }
+            {
+            type: ParticleEffect
+            colorFrom: d0d0e0
+            colorTo: d0d0e0
+            interp: pow3Out
+            line: true
+            lenFrom: 6
+            lenTo: 0
+            strokeFrom: 3.75
+            strokeTo: 0
+            length: 32.5
+            lifetime: 37
+            particles: 5
+            }
+            {
+            type: WaveEffect
+            colorFrom: d0d0e0
+            colorTo: d0d0e0
+            interp: pow3Out
+            sizeFrom: 0
+            sizeTo: 14
+            strokeFrom: 3
+            strokeTo: 0
+            lifetime: 25
+            }
+          ]
+          pierce: true
+        }
+      }
+    }
+  }
 }
 squareSprite: false
 coolant: {
