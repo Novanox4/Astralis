@@ -750,7 +750,6 @@ fulminate: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     hitSound: explosionTitan
-    scaleLife: true
     fragBullet: {
       type: BasicBulletType
 
