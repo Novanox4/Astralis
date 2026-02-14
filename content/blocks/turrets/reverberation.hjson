@@ -663,6 +663,7 @@ fulminate: {
   
     backColor: c5c93a
     frontColor: ffffff
+    pierce: true
     rangeChange: 40
     buildingDamageMultiplier: 0.05
     width: 9
@@ -758,6 +759,7 @@ fulminate: {
   
       backColor: c5c93a
       frontColor: ffffff
+      pierce: true
       buildingDamageMultiplier: 0.05
       width: 9
       height: 14
@@ -851,6 +853,7 @@ fulminate: {
   
         backColor: c5c93a
         frontColor: ffffff
+        pierce: true
         buildingDamageMultiplier: 0.05
         width: 9
         height: 14
@@ -944,6 +947,7 @@ fulminate: {
     
           backColor: c5c93a
           frontColor: ffffff
+          pierce: true
           buildingDamageMultiplier: 0.05
           width: 9
           height: 14
