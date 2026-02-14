@@ -13,6 +13,8 @@ minWarmup: 0.975
 shootWarmupSpeed: 0.025
 inaccuracy: 8
 cooldownTime: 120
+ammoPerShot: 1
+consumeAmmoOnce: false
 shoot: {
   shots: 7
   shotDelay: 8
@@ -654,6 +656,72 @@ metaglass: {
       }
     }
   }
+fulminate: {
+    type: BasicBulletType
+
+    //FULMINATE FRAG 1
+  
+    backColor: c5c93a
+    frontColor: ffffff
+    buildingDamageMultiplier: 0.05
+    width: 9
+    height: 14
+    trailColor: c5c93a
+    trailWidth: 2.25
+    trailLength: 13
+    speed: 2
+    lifetime: 45
+    damage: 40
+    despawnHit: true
+    despawnEffect: none
+    splashDamage: 50
+    splashDamageRadius: 30
+    reloadMultiplier: 0.75
+    hitEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: c5c93a
+      colorTo: c5c93a
+      interp: pow5Out
+      sizeFrom: 4
+      sizeTo: 0
+      length: 80
+      lifetime: 90
+      particles: 9
+      }
+      {
+      type: ParticleEffect
+      colorFrom: c5c93a
+      colorTo: c5c93a
+      interp: pow5Out
+      line: true
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      length: 65
+      lifetime: 60
+      particles: 5
+      }
+      {
+      type: WaveEffect
+      colorFrom: c5c93a
+      colorTo: c5c93a
+      interp: pow5Out
+      sizeFrom: 0
+      sizeTo: 28
+      strokeFrom: 4
+      strokeTo: 0
+      lifetime: 35
+      }
+    ]
+    fragBullets: 3
+    fragRandomSpread: 25
+    fragVelocityMin: 0.9
+    fragLifeMin: 0.925
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragOnHit: false
 }
 squareSprite: false
 coolant: {
