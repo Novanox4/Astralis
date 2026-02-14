@@ -722,6 +722,7 @@ fulminate: {
     fragOffsetMin: 0
     fragOffsetMax: 0
     fragOnHit: false
+  }
 }
 squareSprite: false
 coolant: {
