@@ -669,7 +669,7 @@ fulminate: {
     trailColor: c5c93a
     trailWidth: 2.25
     trailLength: 13
-    speed: 2
+    speed: 3
     lifetime: 45
     damage: 40
     despawnHit: true
@@ -684,6 +684,17 @@ fulminate: {
       colorTo: c5c93a
       interp: pow5Out
       sizeFrom: 4
+      sizeTo: 0
+      length: 57.5
+      lifetime: 60
+      particles: 9
+      }
+      {
+      type: ParticleEffect
+      colorFrom: c5c93a
+      colorTo: c5c93a
+      interp: pow5Out
+      sizeFrom: 12
       sizeTo: 0
       length: 80
       lifetime: 90
