@@ -678,7 +678,6 @@ fulminate: {
     splashDamageRadius: 30
     reloadMultiplier: 0.75
     scaledSplashDamage: true
-    layer: 110
     hitEffect: [
       {
       type: ParticleEffect
@@ -703,7 +702,6 @@ fulminate: {
       length: 75
       lifetime: 125
       particles: 5
-      layer: 108.9
       }
       {
       type: ParticleEffect
@@ -746,7 +744,7 @@ fulminate: {
       }
     ]
     fragBullets: 1
-    fragRandomSpread: 40
+    fragRandomSpread: 30
     fragVelocityMin: 0.9
     fragLifeMin: 0.925
     fragOffsetMin: 0
@@ -774,7 +772,6 @@ fulminate: {
       splashDamage: 10
       splashDamageRadius: 30
       scaledSplashDamage: true
-      layer: 109
       hitEffect: [
         {
         type: ParticleEffect
@@ -799,7 +796,6 @@ fulminate: {
         length: 75
         lifetime: 125
         particles: 5
-        layer: 107.9
         }
         {
         type: ParticleEffect
@@ -835,19 +831,113 @@ fulminate: {
         colorTo: c5c93a
         interp: pow5Out
         sizeFrom: 0
-        sizeTo: 40
+        sizeTo: 30
         strokeFrom: 6
         strokeTo: 0
         lifetime: 40
         }
       ]
-      fragBullets: 3
+      fragBullets: 1
       fragRandomSpread: 40
       fragVelocityMin: 1
       fragLifeMin: 1
       fragOffsetMin: 0
       fragOffsetMax: 0
       hitSound: explosionTitan
+      fragBullet: {
+        type: BasicBulletType
+
+        //FULMINATE FRAG 3
+  
+        backColor: c5c93a
+        frontColor: ffffff
+        buildingDamageMultiplier: 0.05
+        width: 9
+        height: 14
+        trailColor: c5c93a
+        trailWidth: 2.25
+        trailLength: 13
+        speed: 3
+        lifetime: 10
+        damage: 0
+        despawnHit: true
+        despawnEffect: none
+        splashDamage: 10
+        splashDamageRadius: 30
+        scaledSplashDamage: true
+        hitEffect: [
+          {
+          type: ParticleEffect
+          colorFrom: c5c93a
+          colorTo: c5c93a
+          interp: pow5Out
+          sizeFrom: 4
+          sizeTo: 0
+          length: 57.5
+          lifetime: 60
+          particles: 9
+          }
+          {
+          type: ParticleEffect
+          colorFrom: c5c93aa6
+          colorTo: c5c93aa6
+          interp: pow10Out
+          sizeInterp: linear
+          sizeChangeStart: 40
+          sizeFrom: 19
+          sizeTo: 0
+          length: 75
+          lifetime: 125
+          particles: 5
+          }
+          {
+          type: ParticleEffect
+          colorFrom: c5c93aa6
+          colorTo: c5c93aa6
+          interp: pow10Out
+          sizeInterp: linear
+          sizeChangeStart: 40
+          sizeFrom: 19
+          sizeTo: 0
+          length: 75
+          lifetime: 125
+          particles: 5
+          layer: 99
+          }
+          {
+          type: ParticleEffect
+          colorFrom: c5c93a
+          colorTo: c5c93a
+          interp: pow5Out
+          line: true
+          lenFrom: 9
+          lenTo: 0
+          strokeFrom: 4
+          strokeTo: 0
+          length: 65
+          lifetime: 60
+          particles: 5
+          }
+          {
+          type: WaveEffect
+          colorFrom: c5c93a
+          colorTo: c5c93a
+          interp: pow5Out
+          sizeFrom: 0
+          sizeTo: 30
+          strokeFrom: 6
+          strokeTo: 0
+          lifetime: 40
+          }
+        ]
+        fragBullets: 3
+        fragRandomSpread: 40
+        fragVelocityMin: 1
+        fragLifeMin: 1
+        fragOffsetMin: 0
+        fragOffsetMax: 0
+        hitSound: explosionTitan
+      }
     }
   }
 }
