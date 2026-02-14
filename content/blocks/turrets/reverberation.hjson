@@ -414,7 +414,7 @@ metaglass: {
     trailLength: 5
     speed: 4
     lifetime: 15
-    damage: 10
+    damage: 80
     despawnHit: true
     despawnEffect: none
     hitEffect: [
@@ -476,7 +476,7 @@ metaglass: {
       trailLength: 5
       speed: 4
       lifetime: 15
-      damage: 20
+      damage: 60
       despawnHit: true
       despawnEffect: none
       hitEffect: [
@@ -538,7 +538,7 @@ metaglass: {
         trailLength: 5
         speed: 4
         lifetime: 15
-        damage: 25
+        damage: 40
         despawnHit: true
         despawnEffect: none
         hitEffect: [
@@ -600,7 +600,7 @@ metaglass: {
           trailLength: 5
           speed: 4
           lifetime: 15
-          damage: 70
+          damage: 20
           despawnHit: true
           despawnEffect: none
           hitEffect: [
