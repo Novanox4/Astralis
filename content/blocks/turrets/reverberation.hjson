@@ -471,7 +471,7 @@ metaglass: {
       frontColor: ffffff
       width: 7.25
       height: 10
-      trailColor: 38a6c9
+      trailColor: d0d0e0
       trailWidth: 2
       trailLength: 5
       speed: 4
