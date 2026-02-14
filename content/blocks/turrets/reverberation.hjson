@@ -663,6 +663,7 @@ fulminate: {
   
     backColor: c5c93a
     frontColor: ffffff
+    rangeChange: 40
     buildingDamageMultiplier: 0.05
     width: 9
     height: 14
