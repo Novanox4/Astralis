@@ -838,7 +838,7 @@ fulminate: {
         }
       ]
       fragBullets: 3
-      fragRandomSpread: 25
+      fragRandomSpread: 40
       fragVelocityMin: 1
       fragLifeMin: 1
       fragOffsetMin: 0
