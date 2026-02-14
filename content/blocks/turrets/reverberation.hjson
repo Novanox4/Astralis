@@ -670,7 +670,7 @@ fulminate: {
     trailWidth: 2.25
     trailLength: 13
     speed: 3
-    lifetime: 65
+    lifetime: 50
     damage: 0
     despawnHit: true
     despawnEffect: none
@@ -678,6 +678,7 @@ fulminate: {
     splashDamageRadius: 30
     reloadMultiplier: 0.75
     scaledSplashDamage: true
+    layer: 110
     hitEffect: [
       {
       type: ParticleEffect
@@ -702,6 +703,7 @@ fulminate: {
       length: 75
       lifetime: 125
       particles: 5
+      layer: 108.9
       }
       {
       type: ParticleEffect
@@ -743,8 +745,8 @@ fulminate: {
       lifetime: 40
       }
     ]
-    fragBullets: 3
-    fragRandomSpread: 25
+    fragBullets: 1
+    fragRandomSpread: 40
     fragVelocityMin: 0.9
     fragLifeMin: 0.925
     fragOffsetMin: 0
@@ -772,6 +774,7 @@ fulminate: {
       splashDamage: 10
       splashDamageRadius: 30
       scaledSplashDamage: true
+      layer: 109
       hitEffect: [
         {
         type: ParticleEffect
@@ -796,6 +799,7 @@ fulminate: {
         length: 75
         lifetime: 125
         particles: 5
+        layer: 107.9
         }
         {
         type: ParticleEffect
