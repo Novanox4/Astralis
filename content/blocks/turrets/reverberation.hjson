@@ -691,13 +691,15 @@ fulminate: {
       }
       {
       type: ParticleEffect
-      colorFrom: c5c93a
-      colorTo: c5c93a
-      interp: pow5Out
-      sizeFrom: 12
+      colorFrom: c5c93aa6
+      colorTo: c5c93aa6
+      interp: pow10Out
+      sizeInterp: linear
+      sizeChangeStart: 40
+      sizeFrom: 19
       sizeTo: 0
-      length: 80
-      lifetime: 90
+      length: 45
+      lifetime: 125
       particles: 9
       }
       {
