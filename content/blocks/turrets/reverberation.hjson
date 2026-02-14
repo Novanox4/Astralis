@@ -736,10 +736,10 @@ fulminate: {
       colorTo: c5c93a
       interp: pow5Out
       sizeFrom: 0
-      sizeTo: 28
-      strokeFrom: 4
+      sizeTo: 40
+      strokeFrom: 6
       strokeTo: 0
-      lifetime: 35
+      lifetime: 40
       }
     ]
     fragBullets: 3
