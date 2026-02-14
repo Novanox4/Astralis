@@ -670,7 +670,7 @@ fulminate: {
     trailWidth: 2.25
     trailLength: 13
     speed: 3
-    lifetime: 50
+    lifetime: 30
     damage: 0
     despawnHit: true
     despawnEffect: none
