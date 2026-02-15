@@ -55,6 +55,11 @@ contentOrder: [
   flu
   cicada
 
+  //unit blocks
+
+  aeronautics-forge
+  automobile-forge
+
   //power
 
   energy-distributor
