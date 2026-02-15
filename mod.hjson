@@ -53,18 +53,24 @@ contentOrder: [
   //bio
 
   flu
+  cicada
 
   //power
 
   energy-distributor
   water-turbine
   uranium-decay-generator
+  biofuel-reactor
+  capacitor
+  energy-restrictor
 
   //crafting
 
   metaglass-crucible
   incubator
   biomatter-decayer
+  cryogenic-distiller
+  silver-fulminator
 
   //heat
 
@@ -136,6 +142,7 @@ contentOrder: [
   agitation
   mouthpiece
   boil
+  reverberation
   
   //env
   //(this is for editor ordering)
