@@ -16,7 +16,7 @@ NV-NX - Main dev and spriter
 Haznobrain - Occasional sprite and code help. Making music.
 
 '''
-subtitle: "What if I gave everyone ptsd in 2 sectors"
+subtitle: "THE SWARM"
 author: "NV-NX, Haznobrain (FULL CREDITS IN DESC.)"
 version: 0.0.1
 repo: "Novanox4/Astralis"
@@ -68,6 +68,12 @@ contentOrder: [
   biofuel-reactor
   capacitor
   energy-restrictor
+
+  //sectors
+
+  deserted-wastes
+  gloom
+  plains
 
   //crafting
 
