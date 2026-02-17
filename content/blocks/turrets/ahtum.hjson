@@ -32,7 +32,7 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93acc
+    colorTo: c5c93aff
     blending: additive
     progress: recoil
     }
@@ -44,7 +44,7 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93ab3
+    colorTo: c5c93acc
     blending: additive
     progress: recoil
     }
@@ -66,7 +66,7 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93a80
+    colorTo: c5c93a66
     blending: additive
     progress: recoil
     }
