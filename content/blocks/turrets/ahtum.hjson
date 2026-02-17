@@ -111,8 +111,7 @@ ammoTypes: {
       {
       type: ParticleEffect
       sizeFrom: 10
-      lifetime: 45
-      sizeChangeStart: 20
+      lifetime: 27.5
       particles: 1
       length: 0
       region: "astralis-effect-spike"
