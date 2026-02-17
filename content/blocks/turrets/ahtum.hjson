@@ -118,9 +118,9 @@ ammoTypes: {
       length: 0
       region: "astralis-effect-spike"
       colorFrom: c5c93a
-      colorTo: b08203
+      colorTo: b082038c
       offset: 112.5
-      interp: pow5Out
+      interp: pow7Out
       }
     ]
   }
