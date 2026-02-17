@@ -17,11 +17,9 @@ requirements: [
 ]
 shootSound: shootRipple
 ammoUseEffect: {
+  type: SoundEffect
   sound: shootFlame
-  effect: {
-    type: ParticleEffect
-    particles: 0
-  }
+  effect: none
 }
 drawer: {
   type: DrawTurret
