@@ -95,5 +95,7 @@ ammoTypes: {
     lifetime: 30
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
+    width: 5
+    length: 110
     }
   }
