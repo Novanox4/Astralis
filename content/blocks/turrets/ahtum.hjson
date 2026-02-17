@@ -120,7 +120,7 @@ ammoTypes: {
       colorFrom: c5c93a
       colorTo: b082038c
       offset: 112.5
-      interp: pow7Out
+      interp: pow8Out
       }
     ]
   }
