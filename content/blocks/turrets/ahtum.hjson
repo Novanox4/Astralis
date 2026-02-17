@@ -17,7 +17,7 @@ requirements: [
 ]
 shootSound: shootRipple
 ammoUseEffect: {
-  sound: shootDisperse
+  sound: shootFlame
   effect: none
 }
 drawer: {
@@ -85,6 +85,6 @@ drawer: {
 }
 ammoTypes: {
   char-chunks: {
-    type: BulletType
+    type: ContinuousFlameBulletType
     }
   }
