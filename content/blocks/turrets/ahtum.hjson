@@ -82,8 +82,8 @@ drawer: {
       amount: 0.4
       }
     }
-    }
-  }
+  ]
+}
 ammoTypes: {
   char-chunks: {
     type: BulletType
