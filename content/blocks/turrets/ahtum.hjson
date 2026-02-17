@@ -18,7 +18,7 @@ requirements: [
   metaglass/60
 ]
 rotateSpeed: 2.5
-targetGround: false
+targetAir: false
 shootSound: shootRipple
 ammoUseEffect: {
   type: SoundEffect
