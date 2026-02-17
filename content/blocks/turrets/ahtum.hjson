@@ -15,6 +15,8 @@ requirements: [
   uranium/120
   metaglass/60
 ]
+rotateSpeed: 2.5
+targetGround: false
 shootSound: shootRipple
 ammoUseEffect: {
   type: SoundEffect
@@ -89,5 +91,9 @@ drawer: {
 ammoTypes: {
   char-chunks: {
     type: ContinuousFlameBulletType
+    collidesGround: false
+    lifetime: 30
+    drawFlare: false
+    colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     }
   }
