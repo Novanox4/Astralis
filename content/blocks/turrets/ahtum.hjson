@@ -159,7 +159,7 @@ ammoTypes: {
         backColor: 4a453a
         frontColor: ffffff
         trailColor: 4a453a
-        trailWidth: 2
+        trailWidth: 1.75
         trailLength: 10
         damage: 20
         status: dusty
@@ -179,6 +179,8 @@ ammoTypes: {
           particles: 1
         }
         smokeEffect: none
+        despawnHit: true
+        despawnEffect: none
         hitEffect: [
         {
         type: ParticleEffect
