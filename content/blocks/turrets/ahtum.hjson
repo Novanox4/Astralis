@@ -30,11 +30,7 @@ drawer: {
     color: c5c93a00
     colorTo: c5c93acc
     blending: additive
-    progress: {
-      type: recoil
-      op: delay
-      amount: 0.2
-      }
+    progress: recoil
     }
     //heat 2
     {
@@ -44,13 +40,9 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93acc
+    colorTo: c5c93ab3
     blending: additive
-    progress: {
-      type: recoil
-      op: delay
-      amount: 0.3
-      }
+    progress: recoil
     }
     {
     type: RegionPart
@@ -59,13 +51,9 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93acc
+    colorTo: c5c93a99
     blending: additive
-    progress: {
-      type: recoil
-      op: delay
-      amount: 0.35
-      }
+    progress: recoil
     }
     {
     type: RegionPart
@@ -74,13 +62,20 @@ drawer: {
     layer: 50.1
     outline: false
     color: c5c93a00
-    colorTo: c5c93acc
+    colorTo: c5c93a80
     blending: additive
-    progress: {
-      type: recoil
-      op: delay
-      amount: 0.4
-      }
+    progress: recoil
+    }
+    {
+    type: RegionPart
+    suffix: -heat-shoot
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: ab340000
+    colorTo: ab3400cc
+    blending: additive
+    progress: recoil
     }
   ]
 }
