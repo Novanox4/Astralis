@@ -110,14 +110,15 @@ ammoTypes: {
       }
       {
       type: ParticleEffect
-      sizeFrom: 10
+      sizeFrom: 30
       lifetime: 27.5
       particles: 1
       length: 0
       region: "astralis-effect-spike"
       colorFrom: c5c93a
       colorTo: b08203
-      offset: 22.5
+      offset: 112.5
+      interp: pow10Out
       }
     ]
   }
