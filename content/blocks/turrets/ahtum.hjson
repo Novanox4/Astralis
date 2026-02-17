@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Ahtum
+description: Shoots a powerful flame and a voley of bullets.
+size: 3
+reload: 60
+range: 245
+category: turret
+outlineColor: 323232
+recoil: 1
+cooldownTime: 120
+ammoPerShot: 8
+maxAmmo: 40
+requirements: [
+  crystalite/80
+  uranium/120
+  metaglass/60
+]
+shootSound: shootRipple
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    //heat 1
+    {
+    type: RegionPart
+    suffix: -heat-1
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: c5c93a00
+    colorTo: c5c93acc
+    blending: additive
+    progress: {
+      type: recoil
+      op: delay
+      amount: 0.2
+      }
+    }
+    //heat 2
+    {
+    type: RegionPart
+    suffix: -heat-2
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: c5c93a00
+    colorTo: c5c93acc
+    blending: additive
+    progress: {
+      type: recoil
+      op: delay
+      amount: 0.3
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -heat-3
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: c5c93a00
+    colorTo: c5c93acc
+    blending: additive
+    progress: {
+      type: recoil
+      op: delay
+      amount: 0.35
+      }
+    }
+    {
+    type: RegionPart
+    suffix: -heat-4
+    mirror: false
+    layer: 50.1
+    outline: false
+    color: c5c93a00
+    colorTo: c5c93acc
+    blending: additive
+    progress: {
+      type: recoil
+      op: delay
+      amount: 0.4
+      }
+    }
+    }
+  }
+ammoTypes: {
+  char-chunks: {
+    type: BulletType
+    }
+  }
