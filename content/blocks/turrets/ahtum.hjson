@@ -101,12 +101,24 @@ ammoTypes: {
     shootEffect: [
       {
       type: WaveEffect
-      strokeFrom: 2.5
-      sizeTo: 20
+      strokeFrom: 5
+      sizeTo: 17.5
       colorFrom: c5c93a
       colorTo: b08203
       lifetime: 22.5
       interp: pow5Out
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 10
+      lifetime: 45
+      sizeChangeStart: 20
+      particles: 1
+      length: 0
+      region: "astralis-effect-spike"
+      colorFrom: c5c93a
+      colorTo: b08203
+      offset: 22.5
       }
     ]
   }
