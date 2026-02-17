@@ -94,13 +94,13 @@ ammoTypes: {
   char-chunks: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    lifetime: 15
+    lifetime: 10
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     width: 5
     length: 110
     hitColor: c5c93a
-    damage: 5
+    damage: 40
     shootEffect: [
       {
       type: WaveEffect
