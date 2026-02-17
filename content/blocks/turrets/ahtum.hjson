@@ -2,7 +2,7 @@ type: ItemTurret
 name: Ahtum
 description: Shoots a powerful flame and a voley of bullets.
 size: 3
-reload: 60
+reload: 120
 range: 245
 category: turret
 outlineColor: 323232
@@ -97,5 +97,17 @@ ammoTypes: {
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     width: 5
     length: 110
-    }
+    hitColor: c5c93a
+    shootEffect: [
+      {
+      type: WaveEffect
+      strokeFrom: 2.5
+      sizeTo: 20
+      colorFrom: c5c93a
+      colorTo: b08203
+      lifetime: 22.5
+      interp: pow5Out
+      }
+    ]
   }
+}
