@@ -20,6 +20,8 @@ ammoUseEffect: {
   type: SoundEffect
   sound: shootDisperse
   effect: none
+  minVolume: 0.675
+  maxVolume: 0.75
 }
 drawer: {
   type: DrawTurret
