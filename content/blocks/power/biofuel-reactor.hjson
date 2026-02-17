@@ -22,7 +22,7 @@ research: {
   objectives: [
     incubator,
     {
-    type: CaptureSector
+    type: SectorComplete
     preset: gloom
     }
   ]
