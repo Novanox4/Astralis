@@ -92,7 +92,7 @@ ammoTypes: {
   char-chunks: {
     type: ContinuousFlameBulletType
     collidesGround: false
-    lifetime: 30
+    lifetime: 15
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     width: 5
