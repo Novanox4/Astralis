@@ -100,7 +100,7 @@ ammoTypes: {
     width: 5
     length: 110
     hitColor: c5c93a
-    damage: 40
+    damage: 120
     shootEffect: [
       {
       type: WaveEffect
