@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Ahtum
-description: Shoots a powerful flame and a voley of bullets.
+description: Shoots a powerful flame and a volley of bullets. Uses heat.
 size: 3
 reload: 120
 range: 245
@@ -10,6 +10,8 @@ recoil: 1
 cooldownTime: 120
 ammoPerShot: 8
 maxAmmo: 40
+heatRequirement: 12
+maxHeatEfficiency: 2
 requirements: [
   crystalite/80
   uranium/120
@@ -110,15 +112,15 @@ ammoTypes: {
       }
       {
       type: ParticleEffect
-      sizeFrom: 30
-      lifetime: 27.5
+      sizeFrom: 60
+      lifetime: 37.5
       particles: 1
       length: 0
       region: "astralis-effect-spike"
       colorFrom: c5c93a
       colorTo: b08203
       offset: 112.5
-      interp: pow10Out
+      interp: pow5Out
       }
     ]
   }
