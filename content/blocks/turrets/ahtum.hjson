@@ -16,6 +16,9 @@ requirements: [
   metaglass/60
 ]
 shootSound: shootRipple
+ammoUseEffect: {
+  sound: shootDisperse
+}
 drawer: {
   type: DrawTurret
   basePrefix: astral-
