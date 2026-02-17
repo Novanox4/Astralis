@@ -146,7 +146,9 @@ ammoTypes: {
       fragRandomSpread: 20
       fragBullets: 8
       fragVelocityMin: 0.5
+      fragVelocityMax: 1.15
       fragLifeMin: 0.8
+      fragLifeMax: 1.1
       fragOffsetMin: 0
       fragOffsetMax: 0
       fragBullet: {
