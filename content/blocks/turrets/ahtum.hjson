@@ -3,7 +3,7 @@ name: Ahtum
 description: Shoots a powerful flame and a volley of bullets. Uses heat.
 size: 3
 reload: 120
-range: 245
+range: 110
 category: turret
 outlineColor: 323232
 recoil: 1
@@ -94,13 +94,15 @@ ammoTypes: {
   char-chunks: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    lifetime: 10
+    lifetime: 12
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     width: 5
     length: 110
     hitColor: c5c93a
-    damage: 120
+    damage: 90
+    smokeEffect: none
+    damageInterval: 10
     shootEffect: [
       {
       type: WaveEffect
@@ -136,5 +138,87 @@ ammoTypes: {
       interp: pow10Out
       }
     ]
+    spawnBullets: [
+      {
+      type: BulletType
+      colldies: false
+      damage: 0
+      lifetime: 0
+      hittable: false
+      fragRandomSpread: 20
+      fragBullets: 8
+      fragVelocityMin: 0.5
+      fragLifeMin: 0.8
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragBullet: {
+        type: BasicBulletType
+        height: 10
+        width: 5
+        layer: 99
+        backColor: 4a453a
+        frontColor: ffffff
+        trailColor: 4a453a
+        trailWidth: 2
+        trailLength: 10
+        damage: 20
+        status: dusty
+        statusDuration: 300
+        collidesAir: false
+        speed: 5
+        lifetime: 22
+        shootEffect: {
+          type: ParticleEffect
+          colorFrom: 4a453a
+          colorTo: 4a453a
+          interp: pow3Out
+          sizeFrom: 3
+          sizeTo: 0
+          length: 16
+          lifetime: 25
+          particles: 1
+        }
+        smokeEffect: none
+        hitEffect: [
+        {
+        type: ParticleEffect
+        colorFrom: 4a453a
+        colorTo: 4a453a
+        interp: pow3Out
+        sizeFrom: 3
+        sizeTo: 0
+        length: 16
+        lifetime: 25
+        particles: 3
+        }
+        {
+        type: ParticleEffect
+        colorFrom: 4a453a
+        colorTo: 4a453a
+        interp: pow3Out
+        line: true
+        lenFrom: 6
+        lenTo: 0
+        strokeFrom: 3.75
+        strokeTo: 0
+        length: 20
+        lifetime: 25
+        particles: 4
+        }
+        {
+        type: WaveEffect
+        colorFrom: 4a453a
+        colorTo: 4a453a
+        interp: pow3Out
+        sizeFrom: 0
+        sizeTo: 8
+        strokeFrom: 2.65
+        strokeTo: 0
+        lifetime: 25
+        }
+      ]
+    }
   }
+  ]
+}
 }
