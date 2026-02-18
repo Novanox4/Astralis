@@ -1,0 +1,16 @@
+name: Dusty
+healthMultiplier: 0.9
+dragMultiplier: 0.9
+speedMultiplier: 0.7
+reloadMultiplier: 0.8
+damage: 5
+effectChance: 0.2
+effect: {
+  type: ParticleEffect
+  particles: 2
+  length: 0
+  lifetime: 30
+  colorFrom: c44d2f
+  colorTo: cc764700
+  layer: 111
+}
