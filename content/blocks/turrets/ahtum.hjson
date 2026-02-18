@@ -100,7 +100,7 @@ ammoTypes: {
     width: 5
     length: 120
     hitColor: c5c93a
-    damage: 50
+    damage: 30
     status: burning
     statusDuration: 480
     shootEffect: [
@@ -233,13 +233,13 @@ ammoTypes: {
   biomatter: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    lifetime: 12
+    lifetime: 12.5
     drawFlare: false
     colors: [7041318c, 995733b2, c28d57cc, ffffffcc, ffffffff]
     width: 5
     length: 120
     hitColor: c5c93a
-    damage: 50
+    damage: 65
     status: burning
     statusDuration: 600
     shootEffect: [
@@ -306,7 +306,7 @@ ammoTypes: {
         trailColor: c28d57
         trailWidth: 1.75
         trailLength: 14
-        damage: 20
+        damage: 27.5
         status: burning
         statusDuration: 360
         collidesAir: false
