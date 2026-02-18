@@ -96,11 +96,13 @@ ammoTypes: {
     collidesAir: false
     lifetime: 12
     drawFlare: false
-    colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
+    colors: [f680218c, f8ad42b2, f6e096cc, ffffffcc, ffffffff]
     width: 5
     length: 120
     hitColor: c5c93a
-    damage: 90
+    damage: 50
+    status: burning
+    statusDuration: 480
     shootEffect: [
       {
       type: WaveEffect
