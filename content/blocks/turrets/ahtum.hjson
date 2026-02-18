@@ -108,8 +108,8 @@ ammoTypes: {
       type: WaveEffect
       strokeFrom: 5
       sizeTo: 17.5
-      colorFrom: c5c93a
-      colorTo: b08203
+      colorFrom: f6e096
+      colorTo: f68021
       lifetime: 22.5
       interp: pow5Out
       }
@@ -120,8 +120,8 @@ ammoTypes: {
       particles: 1
       length: 0
       region: "astralis-effect-spike"
-      colorFrom: c5c93a
-      colorTo: b082038c
+      colorFrom: f6e096
+      colorTo: f680218c
       offset: 112.5
       interp: pow10Out
       }
@@ -132,8 +132,8 @@ ammoTypes: {
       particles: 1
       length: 0
       region: "astralis-effect-spike"
-      colorFrom: c5c93a
-      colorTo: b082038c
+      colorFrom: f6e096
+      colorTo: f680218c
       offset: -112.5
       interp: pow10Out
       }
