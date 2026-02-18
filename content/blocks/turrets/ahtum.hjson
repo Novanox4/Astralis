@@ -227,6 +227,142 @@ ammoTypes: {
         }
       ]
     }
+  biomatter: {
+    type: ContinuousFlameBulletType
+    collidesAir: false
+    lifetime: 12
+    drawFlare: false
+    colors: [7041318c, 995733b2, c28d57cc, ffffffcc, ffffffff]
+    width: 5
+    length: 120
+    hitColor: c5c93a
+    damage: 50
+    status: burning
+    statusDuration: 600
+    shootEffect: [
+      {
+      type: WaveEffect
+      strokeFrom: 5
+      sizeTo: 17.5
+      colorFrom: c28d57
+      colorTo: 704131
+      lifetime: 22.5
+      interp: pow5Out
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 65
+      lifetime: 45
+      particles: 1
+      length: 0
+      region: "astralis-effect-spike"
+      colorFrom: c28d57
+      colorTo: 7041318c
+      offset: 112.5
+      interp: pow10Out
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 65
+      lifetime: 45
+      particles: 1
+      length: 0
+      region: "astralis-effect-spike"
+      colorFrom: c28d57
+      colorTo: 7041318c
+      offset: -112.5
+      interp: pow10Out
+      }
+    ]
+    spawnBullets: [
+      {
+      type: BulletType
+      colldies: false
+      damage: 0
+      lifetime: 0
+      hittable: false
+      fragRandomSpread: 20
+      fragBullets: 8
+      fragVelocityMin: 0.5
+      fragVelocityMax: 1.15
+      fragLifeMin: 0.8
+      fragLifeMax: 1.1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+      fragBullet: {
+        type: BasicBulletType
+        height: 10
+        width: 5
+        layer: 99
+        backColor: c28d57
+        frontColor: ffffff
+        trailColor: c28d57
+        trailWidth: 1.75
+        trailLength: 14
+        damage: 20
+        status: burning
+        statusDuration: 360
+        collidesAir: false
+        speed: 5
+        lifetime: 23
+        shootEffect: {
+          type: ParticleEffect
+          colorFrom: c28d57
+          colorTo: c28d57
+          interp: pow3Out
+          sizeFrom: 3
+          sizeTo: 0
+          length: 16
+          lifetime: 25
+          particles: 1
+          cone: 15
+        }
+        smokeEffect: none
+        despawnHit: true
+        despawnEffect: none
+        hitEffect: [
+        {
+        type: ParticleEffect
+        colorFrom: c28d57
+        colorTo: c28d57
+        interp: pow3Out
+        sizeFrom: 3
+        sizeTo: 0
+        length: 16
+        lifetime: 25
+        particles: 3
+        }
+        {
+        type: ParticleEffect
+        colorFrom: c28d57
+        colorTo: c28d57
+        interp: pow3Out
+        line: true
+        lenFrom: 6
+        lenTo: 0
+        strokeFrom: 3.75
+        strokeTo: 0
+        length: 20
+        lifetime: 25
+        particles: 4
+        }
+        {
+        type: WaveEffect
+        colorFrom: c28d57
+        colorTo: c28d57
+        interp: pow3Out
+        sizeFrom: 0
+        sizeTo: 8
+        strokeFrom: 2.65
+        strokeTo: 0
+        lifetime: 25
+        }
+      ]
+    }
   }
   ]
 }
