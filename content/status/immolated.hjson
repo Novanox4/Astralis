@@ -1,8 +1,5 @@
 name: Immolated
-healthMultiplier: 0.9
-dragMultiplier: 0.9
-speedMultiplier: 0.7
-reloadMultiplier: 0.8
+healthMultiplier: 0.95
 damage: 4
 effectChance: 0.25
 effect: {
