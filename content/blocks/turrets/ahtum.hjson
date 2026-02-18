@@ -376,7 +376,7 @@ fulminate: {
   lifetime: 0
   hittable: false
   fragRandomSpread: 0
-  fragSpread: 30
+  fragSpread: 17.5
   fragBullets: 3
   fragOffsetMin: 0
   fragOffsetMax: 0
@@ -440,8 +440,8 @@ fulminate: {
       damage: 0
       lifetime: 0
       hittable: false
-      fragRandomSpread: 20
-      fragBullets: 5
+      fragRandomSpread: 10
+      fragBullets: 2
       fragVelocityMin: 0.5
       fragVelocityMax: 1.15
       fragLifeMin: 0.8
