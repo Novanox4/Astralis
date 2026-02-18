@@ -371,6 +371,7 @@ ammoTypes: {
 }
 fulminate: {
   type: BulletType
+  reloadMultiplier: 0.7
   colldies: false
   damage: 0
   lifetime: 0
@@ -384,6 +385,7 @@ fulminate: {
   smokeEffect: none
   hitEffect: none
   despawnEffect: none
+  rangeChange: 4
   shootEffect: [
     {
     type: WaveEffect
@@ -426,7 +428,7 @@ fulminate: {
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
     width: 5
-    length: 120
+    length: 130
     hitColor: c5c93a
     damage: 0
     status: immolated
