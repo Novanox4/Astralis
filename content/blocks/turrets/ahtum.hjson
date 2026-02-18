@@ -430,7 +430,7 @@ fulminate: {
     width: 5
     length: 130
     hitColor: c5c93a
-    damage: 0
+    damage: 0.1
     status: immolated
     statusDuration: 30
     shootEffect: none
