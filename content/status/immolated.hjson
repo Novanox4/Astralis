@@ -11,6 +11,6 @@ effect: {
   length: 0
   lifetime: 30
   colorFrom: f5d738
-  colorTo: cc764700
+  colorTo: 66120000
   layer: 110
 }
