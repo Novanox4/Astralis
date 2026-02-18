@@ -227,6 +227,9 @@ ammoTypes: {
         }
       ]
     }
+  }
+]
+}
   biomatter: {
     type: ContinuousFlameBulletType
     collidesAir: false
