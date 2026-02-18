@@ -4,7 +4,7 @@ dragMultiplier: 0.9
 speedMultiplier: 0.7
 reloadMultiplier: 0.8
 damage: 4
-effectChance: 0.2
+effectChance: 0.25
 effect: {
   type: ParticleEffect
   particles: 2
@@ -13,4 +13,5 @@ effect: {
   colorFrom: f5d738
   colorTo: 66120000
   layer: 110
+  length: 3
 }
