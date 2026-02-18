@@ -371,7 +371,7 @@ ammoTypes: {
 }
 fulminate: {
   type: BulletType
-  reloadMultiplier: 0.7
+  reloadMultiplier: 0.825
   colldies: false
   damage: 0
   lifetime: 0
@@ -385,7 +385,7 @@ fulminate: {
   smokeEffect: none
   hitEffect: none
   despawnEffect: none
-  rangeChange: 4
+  rangeChange: 28
   shootEffect: [
     {
     type: WaveEffect
