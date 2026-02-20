@@ -32,6 +32,9 @@ solarSystem: sun
 tidalLock: true
 orbitTime: 300
 loadPlanetData: true
+attackSectors: [
+  15,
+]
 mesh: [
   //baseplate
   {
