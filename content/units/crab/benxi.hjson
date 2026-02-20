@@ -2,17 +2,17 @@ type: legs
 legCount: 6
 legGroupSize: 3
 legLength: 15
-legBaseOffset: 3.25
-legExtension: -2.5
+legBaseOffset: 3
+legExtension: -3
 name: Benxi
 description: Close range mech unit that acts as a meat-shield for other units. releases a shock upon death.
 databaseTag: "astralis-unit-tier-1"
 flying: false
 health: 600
 hovering: true
-baseLegStraightness: 0
-legMaxLength: 0.9
-legForwardScl: 1.25
+baseLegStraightness: 0.2
+legMaxLength: 1
+legForwardScl: 1.325
 weapons: [
 {
 recoil: 0
