@@ -1,7 +1,7 @@
 type: legs
 legCount: 6
 legGroupSize: 3
-legLength: 15
+legLength: 14
 legBaseOffset: 3.15
 legExtension: -3
 name: Benxi
@@ -10,9 +10,10 @@ databaseTag: "astralis-unit-tier-1"
 flying: false
 health: 600
 hovering: true
-baseLegStraightness: 0.2
-legMaxLength: 1.15
-legForwardScl: 1.35
+baseLegStraightness: 0
+legMaxLength: 1
+legMinLength: 0.5
+legForwardScl: 1.5
 weapons: [
 {
 recoil: 0
