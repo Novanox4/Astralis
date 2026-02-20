@@ -4,13 +4,14 @@ legGroupSize: 3
 legLength: 15
 legBaseOffset: 1
 legExtension: -3
-name: Madine
+name: Benxi
 description: Close range mech unit that acts as a meat-shield for other units. releases a shock upon death.
 databaseTag: "astralis-unit-tier-1"
 flying: false
 health: 600
 hovering: true
 baseLegStraightness: 0
+legMaxLength: 1.1
 weapons: [
 {
 recoil: 0
