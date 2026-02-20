@@ -11,9 +11,9 @@ flying: false
 health: 600
 hovering: true
 baseLegStraightness: 0
-legMaxLength: 1
+legMaxLength: 0.85
 legMinLength: 0.5
-legForwardScl: 1.5
+legForwardScl: 1.2
 weapons: [
 {
 recoil: 0
