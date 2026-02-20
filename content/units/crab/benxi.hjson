@@ -27,7 +27,7 @@ shootSound: shootArc
 mirror: false
 shootEffect: none
 bullet: {
-  type: BulletType
+  type: LightningBulletType
   speed: 0
   hitEffect: none
   despawnEffect: none
