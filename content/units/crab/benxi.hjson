@@ -5,7 +5,7 @@ legLength: 14
 legBaseOffset: 3.15
 legExtension: -3
 name: Benxi
-description: Close range mech unit that can shield other units. Attacks using lightning.
+description: Close range mech unit that can shield other units. Attacks nearby using lightning.
 databaseTag: "astralis-unit-tier-1"
 flying: false
 health: 600
@@ -14,32 +14,23 @@ baseLegStraightness: 0
 legMaxLength: 0.85
 legMinLength: 0.5
 legForwardScl: 1.2
-weapons: [
-{
-recoil: 0
-x: 0
-y: 0
-shootOnDeath: true
-shootX: 0
-shootSound: shootArc
-mirror: false
-shootEffect: none
-reload: 30
-bullet: {
-  type: LightningBulletType
-  speed: 0
-  hitEffect: none
-  despawnEffect: none
-  collides: false
-  lifetime: 0
-  status: none
-  lightningDamage: 20
-  lightningLength: 6
-  keepVelocity: true
-  hitSize: 0
-  }
-}
-]
+faceTarget: false
+weapons: []
 speed: 1.6
 hitSize: 8
 outlineColor: 323232
+abilities: [
+  {
+  type: EnergyFieldAbility
+  damage: 20
+  reload: 120
+  healPercent: 0
+  layer: 74
+  color: 38a6c9
+  status: none
+  healEffect: none
+  maxTargets: 3
+  displayHeal: false
+  sectors: 7
+  }
+]
