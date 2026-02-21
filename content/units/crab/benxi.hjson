@@ -32,7 +32,6 @@ abilities: [
   maxTargets: 3
   displayHeal: false
   range: 85
-  sectors: 7
-  sectorRad: 0.07
+  layer: -11
   }
 ]
