@@ -36,6 +36,7 @@ bullet: {
   lightningDamage: 20
   lightningLength: 6
   keepVelocity: true
+  hitSize: 0
   }
 }
 ]
