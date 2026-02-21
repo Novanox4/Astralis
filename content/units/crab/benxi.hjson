@@ -33,11 +33,7 @@ bullet: {
   collides: false
   lifetime: 0
   status: none
-  lightning: 1
-  lightningLength: 8
-  lightningLengthRand: 2
-  lightningDamage: 2
-  lightningCone: 2
+  damage: 20
   }
 }
 ]
