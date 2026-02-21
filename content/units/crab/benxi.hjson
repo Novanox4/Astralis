@@ -13,7 +13,7 @@ hovering: true
 baseLegStraightness: 0
 legMaxLength: 0.85
 legMinLength: 0
-legForwardScl: 1.2
+legForwardScl: 1.6
 faceTarget: false
 weapons: []
 speed: 1.6
