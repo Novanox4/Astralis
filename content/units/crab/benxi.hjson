@@ -5,7 +5,7 @@ legLength: 14
 legBaseOffset: 3.15
 legExtension: -3
 name: Benxi
-description: Close range mech unit that can shield other units. Can't attack.
+description: Mech unit that can shield other units. Can't attack.
 databaseTag: "astralis-unit-tier-1"
 flying: false
 health: 600
@@ -26,13 +26,5 @@ abilities: [
   max: 60
   reload: 300
   range: 100
-  activeEffect: {
-    type: WaveEffect
-    sizeTo: 100
-    colorFrom: ffffff
-    colorTo: 38a6c9
-    strokeFrom: 5
-    interp: pow5Out
-    }
   }
 ]
