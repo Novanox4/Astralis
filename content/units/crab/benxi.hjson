@@ -24,6 +24,7 @@ shootX: 0
 shootSound: shootArc
 mirror: false
 shootEffect: none
+reload: 30
 bullet: {
   type: LightningBulletType
   speed: 0
@@ -32,10 +33,11 @@ bullet: {
   collides: false
   lifetime: 0
   status: none
-  lightning: 3
+  lightning: 1
   lightningLength: 8
   lightningLengthRand: 2
   lightningDamage: 2
+  lightningCone: 2
   }
 }
 ]
