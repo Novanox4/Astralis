@@ -12,10 +12,11 @@ health: 600
 hovering: true
 baseLegStraightness: 0
 legMaxLength: 0.85
-legMinLength: 0
+legMinLength: 0.3
 legForwardScl: 1.6
 faceTarget: false
-weapons: []
+weapons: [
+]
 speed: 1.6
 hitSize: 8
 outlineColor: 323232
