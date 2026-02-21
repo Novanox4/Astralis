@@ -25,12 +25,12 @@ abilities: [
   damage: 20
   reload: 120
   healPercent: 0
-  layer: 74
+  layer: 59
   color: 38a6c9
   status: none
   healEffect: none
   maxTargets: 3
   displayHeal: false
-  sectors: 7
+  sectors: 2
   }
 ]
