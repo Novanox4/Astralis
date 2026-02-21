@@ -12,7 +12,7 @@ health: 600
 hovering: true
 baseLegStraightness: 0
 legMaxLength: 0.85
-legMinLength: 0.85
+legMinLength: 0
 legForwardScl: 1.2
 faceTarget: false
 weapons: []
