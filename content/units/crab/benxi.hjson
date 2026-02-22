@@ -20,6 +20,7 @@ weapons: [
   mirror: false
   x: 0
   recoil: 0
+  rotate: false
   parts: [
     {
     type: RegionPart
@@ -27,7 +28,7 @@ weapons: [
     outline: false
     xScl: 0.25
     yScl: 0.25
-    growX: 1
+    growX: 0
     growY: 1
     progress: recoil
     }
