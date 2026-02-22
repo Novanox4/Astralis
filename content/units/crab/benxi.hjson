@@ -43,6 +43,8 @@ weapons: [
     hitColor: 38a6c9
     layer: 101
     sprite: "astralis-white-laser"
+    followRotation: true
+    rotation: 45
     }
   }
 ]
