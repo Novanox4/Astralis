@@ -21,16 +21,13 @@ weapons: [
   x: 0
   recoil: 0
   rotate: false
+  continuous: true
   parts: [
     {
-    type: RegionPart
-    name: "astralis-star"
-    outline: false
-    xScl: 0.1
-    yScl: 0.1
-    growX: 0
-    growY: 1
-    progress: recoil
+    type: FlarePart
+    radius: 10
+    radiusTo: 25
+    color1: 38a6c9
     }
     ]
   }
