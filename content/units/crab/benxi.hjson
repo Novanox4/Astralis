@@ -28,7 +28,9 @@ parts: [
   }
 ]
 weapons: [
-  reload: 1
+  {
+  reload: 45
+  }
 ]
 speed: 1.6
 hitSize: 8
