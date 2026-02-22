@@ -22,6 +22,9 @@ weapons: [
   recoil: 0
   rotate: false
   continuous: true
+  shootY: 0
+  loopSound: beamLustre
+  shootSound: none
   parts: [
     {
     type: FlarePart
