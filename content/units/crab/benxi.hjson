@@ -14,7 +14,6 @@ baseLegStraightness: 0
 legMaxLength: 0.85
 legMinLength: 0.3
 legForwardScl: 1.6
-faceTarget: false
 weapons: [
   {
   mirror: false
@@ -34,7 +33,7 @@ weapons: [
     radiusTo: 8
     stroke: 2.75
     color1: 38a6c9
-    layer: 76
+    layer: 110
     }
     ]
   bullet: {
@@ -43,7 +42,7 @@ weapons: [
     damage: 1
     rangeOverride: 80
     hitColor: 38a6c9
-    layer: 75.1
+    layer: 101
     }
   }
 ]
