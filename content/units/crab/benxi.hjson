@@ -15,7 +15,20 @@ legMaxLength: 0.85
 legMinLength: 0.3
 legForwardScl: 1.6
 faceTarget: false
+parts: [
+  {
+  type: RegionPart
+  name: star
+  outline: false
+  xScl: 0.5
+  yScl: 0.5
+  growX: 0
+  growY: 0
+  progress: recoil
+  }
+]
 weapons: [
+  reload: 1
 ]
 speed: 1.6
 hitSize: 8
