@@ -52,7 +52,7 @@ bullet: {
     type: ParticleEffect
     colorTo: f5d738
     sizeFrom: 5.75
-    siceChangeStart: 80
+    sizeChangeStart: 80
     interp: pow10Out
     sizeInterp: pow3Out
     lifetime: 120
