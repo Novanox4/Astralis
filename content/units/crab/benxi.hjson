@@ -21,6 +21,7 @@ weapons: [
   recoil: 0
   rotate: false
   continuous: true
+  alwaysContinuous: true
   shootY: 0
   loopSound: beamLustre
   shootSound: none
@@ -38,6 +39,7 @@ weapons: [
     color: 38a6c9
     damage: 1
     rangeOverride: 80
+    hitColor: 38a6c9
     }
   }
 ]
