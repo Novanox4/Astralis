@@ -21,7 +21,7 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    name: "star"
+    name: "astralis-star"
     outline: false
     xScl: 0.5
     yScl: 0.5
