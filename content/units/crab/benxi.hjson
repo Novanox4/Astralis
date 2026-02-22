@@ -43,7 +43,7 @@ weapons: [
     rangeOverride: 80
     hitColor: 38a6c9
     layer: 101
-    sprite: "white-laser"
+    sprite: "astralis-white-laser"
     }
   }
 ]
