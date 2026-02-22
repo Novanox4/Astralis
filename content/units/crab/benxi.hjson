@@ -25,6 +25,7 @@ weapons: [
   loopSound: beamLustre
   shootSound: none
   shootCone: 360
+  rotate: true
   parts: [
     {
     type: FlarePart
