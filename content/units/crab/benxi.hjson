@@ -16,7 +16,6 @@ legMinLength: 0.3
 legForwardScl: 1.6
 weapons: [
   {
-  reload: 45
   mirror: false
   x: 0
   recoil: 0
@@ -34,6 +33,12 @@ weapons: [
     color1: 38a6c9
     }
     ]
+  bullet: {
+    type: PointLaserBulletType
+    color: 38a6c9
+    damage: 1
+    rangeOverride: 80
+    }
   }
 ]
 speed: 1.6
