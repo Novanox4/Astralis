@@ -14,17 +14,19 @@ baseLegStraightness: 0
 legMaxLength: 0.85
 legMinLength: 0.3
 legForwardScl: 1.6
-faceTarget: false
 weapons: [
   {
   reload: 45
+  mirror: false
+  x: 0
+  recoil: 0
   parts: [
     {
     type: RegionPart
     name: "astralis-star"
     outline: false
     xScl: 0.5
-    yScl: 0.5
+    yScl: 0.05
     growX: 0
     growY: 0
     progress: recoil
