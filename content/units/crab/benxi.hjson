@@ -25,8 +25,9 @@ weapons: [
   parts: [
     {
     type: FlarePart
-    radius: 10
-    radiusTo: 25
+    radius: 5
+    radiusTo: 8
+    stroke: 4.75
     color1: 38a6c9
     }
     ]
