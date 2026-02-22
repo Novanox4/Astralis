@@ -26,8 +26,8 @@ weapons: [
     type: RegionPart
     name: "astralis-star"
     outline: false
-    xScl: 0.25
-    yScl: 0.25
+    xScl: 0.1
+    yScl: 0.1
     growX: 0
     growY: 1
     progress: recoil
