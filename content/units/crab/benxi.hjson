@@ -19,7 +19,6 @@ weapons: [
   mirror: false
   x: 0
   recoil: 0
-  rotate: false
   continuous: true
   alwaysContinuous: true
   shootY: 0
