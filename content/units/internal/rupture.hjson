@@ -29,6 +29,7 @@ weapons: [
   shootSound: shootTank
   bullet: {
     spawnUnit: scathe-missile
+    }
   }
 ]
 envEnabled: -1
