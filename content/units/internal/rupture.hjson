@@ -1,0 +1,35 @@
+type: tether
+controller: FlyingAI
+hitSize: 0
+health: 6000
+speed: 0
+rotateSpeed: 2
+groundLayer: 50
+flyingLayer: 50
+controlSelectGlobal: false
+physics: false
+targetable: false
+outlines: false
+drawCell: false
+internal: true
+hittable: false
+softShadowScl: 0
+weapons: [
+  {
+  mirror: false
+  x: 0
+  y: 0
+  rotate: true
+  rotateSpeed: 0.8
+  rotationLimit: 45
+  shootY: 5
+  reload: 1200
+  shake: 1
+  shootCone: 0.25
+  shootSound: shootTank
+  bullet: {
+    spawnUnit: scathe-missile
+  }
+]
+envEnabled: -1
+envDisabled: 0
