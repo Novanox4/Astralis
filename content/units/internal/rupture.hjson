@@ -35,6 +35,7 @@ weapons: [
   noAttack: true
   top: false
   recoil: 0
+  outlineRegion: rupture-outline
   }
   {
   mirror: false
