@@ -14,6 +14,8 @@ drawCell: false
 internal: true
 hittable: false
 softShadowScl: 0
+outlineColor: 323232
+name: Rupture
 weapons: [
   {
   mirror: false
