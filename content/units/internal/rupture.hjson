@@ -3,13 +3,13 @@ controller: FlyingAI
 hitSize: 0
 health: 99999999
 speed: 0
+payloadCapacity: 0
 rotateSpeed: 2
 groundLayer: 50
 flyingLayer: 50
 controlSelectGlobal: false
 physics: false
 targetable: false
-outlines: false
 drawCell: false
 internal: true
 hittable: false
