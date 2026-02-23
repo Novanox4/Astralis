@@ -2,6 +2,7 @@ type: tether
 controller: FlyingAI
 hitSize: 0
 rotateSpeed: 0
+useUnitCap: false
 faceTarget: false
 health: 99999999
 speed: 0
@@ -32,6 +33,7 @@ weapons: [
   reload: 999
   shootSound: none
   noAttack: true
+  top: false
   }
   {
   mirror: false
