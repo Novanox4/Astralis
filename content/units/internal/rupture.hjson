@@ -1,6 +1,8 @@
 type: tether
 controller: FlyingAI
 hitSize: 0
+rotateSpeed: 0
+faceTarget: false
 health: 99999999
 speed: 0
 payloadCapacity: 0
@@ -15,6 +17,7 @@ internal: true
 hittable: false
 softShadowScl: 0
 outlineColor: 323232
+drawBody: false
 name: Rupture
 weapons: [
   {
@@ -32,6 +35,7 @@ weapons: [
   }
   {
   mirror: false
+  name: rupture
   x: 0
   y: 0
   rotate: true
