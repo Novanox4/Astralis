@@ -33,7 +33,6 @@ weapons: [
   reload: 999
   shootSound: none
   noAttack: true
-  top: false
   recoil: 0
   outlineRegion: rupture-outline
   }
