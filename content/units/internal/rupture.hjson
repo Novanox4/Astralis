@@ -18,17 +18,27 @@ outlineColor: 323232
 name: Rupture
 weapons: [
   {
+  //HIDE
+  x: 0
+  y: 0
+  name: rupture-base-hider
+  layerOffset: -19.9999
+  mirror: false
+  rotate: false
+  shootY: 0
+  reload: 999
+  shootSound: none
+  noAttack: true
+  }
+  {
   mirror: false
   x: 0
   y: 0
   rotate: true
-  rotateSpeed: 0.8
-  rotationLimit: 45
   shootY: 5
   reload: 1200
   shake: 1
-  shootCone: 0.25
-  shootSound: shootTank
+  shootSound: shootMissile
   bullet: {
     spawnUnit: scathe-missile
     }
