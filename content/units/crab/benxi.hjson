@@ -8,7 +8,7 @@ name: Benxi
 description: Mech unit that can shield other units.
 databaseTag: "astralis-unit-tier-1"
 flying: false
-health: 600
+health: 300
 hovering: true
 baseLegStraightness: 0
 legMaxLength: 0.85
@@ -39,7 +39,7 @@ weapons: [
   bullet: {
     type: PointLaserBulletType
     color: 38a6c9
-    damage: 2
+    damage: 1.75
     rangeOverride: 80
     hitColor: 38a6c9
     layer: 101
@@ -55,8 +55,8 @@ outlineColor: 323232
 abilities: [
   {
   type: ShieldRegenFieldAbility
-  amount: 15
-  max: 60
+  amount: 20
+  max: 100
   reload: 300
   range: 100
   }
