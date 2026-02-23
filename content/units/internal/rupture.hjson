@@ -34,7 +34,7 @@ weapons: [
   shootSound: none
   noAttack: true
   recoil: 0
-  outlineRegion: astralis-rupture-outline
+  outlineRegion: "astralis-rupture-outline"
   }
   {
   mirror: false
