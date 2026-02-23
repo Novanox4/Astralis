@@ -1,0 +1,15 @@
+type: UnitCargoLoader
+size: 5
+itemCapacity: 0
+unitType: rupture
+category: effect
+consumes: {}
+requirements: [
+  crystalite/800
+  uranium/550
+  silver/650
+  metaglass/675
+]
+name: Rupture
+unitBuildTime: 0
+polyColor: ffffff00
