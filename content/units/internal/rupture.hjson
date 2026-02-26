@@ -53,8 +53,9 @@ weapons: [
     type: RegionPart
     suffix: "-side-r"
     progress: warmup
-    moveY: -0.1
-    moveRot: -30
+    moveY: -0.225
+    moveRot: -25
+    moveX: 5.5
     }
   ]
   bullet: {
