@@ -30,11 +30,13 @@ weapons: [
   mirror: false
   rotate: false
   shootY: 0
-  reload: 999
+  reload: 999999
   shootSound: none
   noAttack: true
   recoil: 0
   outlineRegion: "astralis-rupture-outline"
+  controllable: false
+  aiControllable: false
   }
   {
   mirror: false
@@ -46,10 +48,17 @@ weapons: [
   reload: 1200
   shake: 1
   shootSound: shootMissile
+  parts: [
+    {
+    type: RegionPart
+    suffix: "-side-l"
+    progress: warmup
+    moveY: -0.1
+    moveRot: -30
+    }
+  ]
   bullet: {
     spawnUnit: scathe-missile
     }
   }
 ]
-envEnabled: -1
-envDisabled: 0
