@@ -48,6 +48,8 @@ weapons: [
   reload: 1200
   shake: 1
   shootSound: shootMissile
+  minWarmup: 0.75
+  recoil: 0
   parts: [
     {
     type: RegionPart
