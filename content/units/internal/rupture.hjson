@@ -57,6 +57,14 @@ weapons: [
     moveRot: -25
     moveX: 1
     }
+    {
+    type: RegionPart
+    suffix: "-side-r"
+    progress: warmup
+    moveY: -0.225
+    moveRot: 25
+    moveX: -1
+    }
   ]
   bullet: {
     spawnUnit: scathe-missile
