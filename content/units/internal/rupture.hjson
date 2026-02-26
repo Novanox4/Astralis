@@ -55,7 +55,7 @@ weapons: [
     progress: warmup
     moveY: -0.225
     moveRot: -25
-    moveX: 5.5
+    moveX: 1
     }
   ]
   bullet: {
