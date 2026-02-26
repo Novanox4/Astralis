@@ -51,7 +51,7 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    suffix: "-side-l"
+    suffix: "-side-r"
     progress: warmup
     moveY: -0.1
     moveRot: -30
