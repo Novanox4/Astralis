@@ -37,7 +37,8 @@ mesh: [
   //baseplate
   {
   type: NoiseMesh
-  color: 4a453a
+  color: 22e222
+  #4a453a
   seed: 0
   planet: astralis
   radius: 0.95
