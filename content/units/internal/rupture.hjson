@@ -50,6 +50,7 @@ weapons: [
   shootSound: shootMissile
   minWarmup: 0.75
   recoil: 0
+  shootWarmupSpeed: 0.05
   parts: [
     {
     type: RegionPart
