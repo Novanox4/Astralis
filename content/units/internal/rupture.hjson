@@ -45,10 +45,10 @@ weapons: [
   y: 0
   rotate: true
   shootY: 5
-  reload: 1200
+  reload: 1000
   shake: 1
   shootSound: shootMissile
-  minWarmup: 0.75
+  minWarmup: 0.875
   recoil: 0
   shootWarmupSpeed: 0.05
   parts: [
