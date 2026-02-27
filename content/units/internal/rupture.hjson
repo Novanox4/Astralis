@@ -80,7 +80,7 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 5.5
+  shootY: 5.75
   rotateSpeed: 17.5
   reload: 2.5
   shootSound: shootTank
