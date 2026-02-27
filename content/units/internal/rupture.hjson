@@ -87,14 +87,14 @@ weapons: [
   minWarmup: 0.875
   recoil: 0.75
   recoilTime: 3.25
-  length: 11
-  width: 8
   shootWarmupSpeed: 0.025
   shootSoundVolume: 0.325
   inaccuracy: 1
   bullet: {
   type: BasicBulletType
     speed: 13
+    length: 11
+    width: 8
     lifetime: 70
     backColor: cc7647
     frontColor: edbf7e
