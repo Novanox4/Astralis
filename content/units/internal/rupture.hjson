@@ -78,6 +78,7 @@ weapons: [
     layerOffset: -0.5
     }
   ]
+  }
   {
   mirror: false
   name: rupture-auxiliary
