@@ -52,7 +52,7 @@ weapons: [
   shake: 1
   shootSound: shootMissileLarge
   minWarmup: 0.875
-  rotateSpeed: 4
+  rotateSpeed: 1.75
   recoil: 0
   shootWarmupSpeed: 0.035
   parts: [
@@ -81,7 +81,7 @@ weapons: [
   y: 0
   rotate: true
   shootY: 7.25
-  rotateSpeed: 17.5
+  rotateSpeed: 15
   reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
