@@ -20,12 +20,14 @@ softShadowScl: 0.325
 outlineColor: 323232
 drawBody: false
 name: Rupture
+hidden: true
 weapons: [
   {
   //HIDE
   x: 0
   y: 0
   name: rupture-base-hider
+  showStatSprite: false
   layerOffset: -19.9999
   mirror: false
   rotate: false
@@ -52,7 +54,7 @@ weapons: [
   minWarmup: 0.875
   rotateSpeed: 4
   recoil: 0
-  shootWarmupSpeed: 0.05
+  shootWarmupSpeed: 0.035
   parts: [
     {
     type: RegionPart
@@ -78,17 +80,22 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 3.25
+  shootY: 3.5
   rotateSpeed: 17.5
   reload: 5
   shootSound: shootTank
   minWarmup: 0.875
   recoil: 1
   shootWarmupSpeed: 0.025
+  shootSoundVolume: 0.6 
+  inaccuracy: 1.25
+  shoot: {
+    shots: 2
+  }
   bullet: {
   type: BasicBulletType
-    speed: 10
-    lifetime: 75
+    speed: 13
+    lifetime: 80
     }
   }
 ]
