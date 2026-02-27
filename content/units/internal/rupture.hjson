@@ -16,7 +16,7 @@ targetable: false
 drawCell: false
 internal: true
 hittable: false
-softShadowScl: 0.2
+softShadowScl: 0.325
 outlineColor: 323232
 drawBody: false
 name: Rupture
@@ -87,6 +87,7 @@ weapons: [
   bullet: {
   type: BasicBulletType
     speed: 10
+    lifetime: 75
     }
   }
 ]
