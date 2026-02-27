@@ -16,7 +16,7 @@ targetable: false
 drawCell: false
 internal: true
 hittable: false
-softShadowScl: 1
+softShadowScl: 0.2
 outlineColor: 323232
 drawBody: false
 name: Rupture
