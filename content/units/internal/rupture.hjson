@@ -177,6 +177,7 @@ weapons: [
       particles: 3
       cone: 15
       }
-    }
+    ]
   }
+}
 ]
