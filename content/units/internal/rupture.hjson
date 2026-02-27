@@ -80,7 +80,7 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 5.35
+  shootY: 5.5
   rotateSpeed: 17.5
   reload: 2.5
   shootSound: shootTank
@@ -104,6 +104,7 @@ weapons: [
     damage: 15
     despawnEffect: none
     despawnHit: true
+    smokeEffect: none
     hitEffect: [
       {
       type: ParticleEffect
