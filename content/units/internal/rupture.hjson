@@ -184,3 +184,4 @@ weapons: [
   }
 }
 ]
+immunities: [burning, wet]
