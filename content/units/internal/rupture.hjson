@@ -76,15 +76,15 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 2
-  reload: 10
-  shake: 1
+  shootY: 3.25
+  reload: 5
   shootSound: shootTank
   minWarmup: 0.875
-  recoil: 0.2
+  recoil: 1
   shootWarmupSpeed: 0.025
   bullet: {
   type: BasicBulletType
+    speed: 10
     }
   }
 ]
