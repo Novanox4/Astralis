@@ -7,7 +7,7 @@ faceTarget: false
 health: 99999999
 speed: 0
 payloadCapacity: 0
-rotateSpeed: 2
+rotateSpeed: 0
 groundLayer: 50
 flyingLayer: 50
 controlSelectGlobal: false
@@ -29,6 +29,7 @@ weapons: [
   layerOffset: -19.9999
   mirror: false
   rotate: false
+  rotateSpeed: 0
   shootY: 0
   reload: 999999
   shootSound: none
