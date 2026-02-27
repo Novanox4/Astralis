@@ -80,12 +80,12 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 5.75
+  shootY: 6.25
   rotateSpeed: 17.5
   reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
-  recoil: 1
+  recoil: 0.75
   recoilTime: 3.25
   length: 11
   width: 8
@@ -95,7 +95,7 @@ weapons: [
   bullet: {
   type: BasicBulletType
     speed: 13
-    lifetime: 80
+    lifetime: 70
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
