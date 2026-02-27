@@ -1,6 +1,6 @@
 type: tether
 controller: FlyingAI
-hitSize: 0
+hitSize: 10
 rotateSpeed: 0
 useUnitCap: false
 faceTarget: false
@@ -16,7 +16,7 @@ targetable: false
 drawCell: false
 internal: true
 hittable: false
-softShadowScl: 0
+softShadowScl: 1
 outlineColor: 323232
 drawBody: false
 name: Rupture
@@ -67,15 +67,6 @@ weapons: [
     moveY: -0.225
     moveRot: 25
     moveX: -1
-    }
-    {
-    type: RegionPart
-    name: "circle-shadow"
-    progress: warmup
-    moveY: 0
-    moveRot: 0
-    moveX: 0
-    layerOffset: -0.5
     }
   ]
   }
