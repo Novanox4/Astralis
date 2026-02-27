@@ -82,16 +82,20 @@ weapons: [
   rotate: true
   shootY: 3.5
   rotateSpeed: 17.5
-  reload: 5
+  reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
   recoil: 1
+  length: 11
+  width: 8
   shootWarmupSpeed: 0.025
-  shootSoundVolume: 0.6 
-  inaccuracy: 1.25
-  shoot: {
-    shots: 2
-  }
+  shootSoundVolume: 0.325
+  inaccuracy: 1
+  backColor: cc7647
+  frontColor: edbf7e
+  trailColor: cc7627
+  trailWidth: 1.75
+  trailLength: 10
   bullet: {
   type: BasicBulletType
     speed: 13
