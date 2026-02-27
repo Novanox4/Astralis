@@ -101,7 +101,9 @@ weapons: [
     trailColor: cc7627
     trailWidth: 1.75
     trailLength: 10
-    damage: 10
+    damage: 15
+    despawnEffect: none
+    despawnHit: true
     hitEffect: [
       {
       type: ParticleEffect
