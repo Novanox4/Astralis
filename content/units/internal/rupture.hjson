@@ -91,15 +91,16 @@ weapons: [
   shootWarmupSpeed: 0.025
   shootSoundVolume: 0.325
   inaccuracy: 1
-  backColor: cc7647
-  frontColor: edbf7e
-  trailColor: cc7627
-  trailWidth: 1.75
-  trailLength: 10
   bullet: {
   type: BasicBulletType
     speed: 13
     lifetime: 80
+    backColor: cc7647
+    frontColor: edbf7e
+    trailColor: cc7627
+    trailWidth: 1.75
+    trailLength: 10
+    damage: 10
     }
   }
 ]
