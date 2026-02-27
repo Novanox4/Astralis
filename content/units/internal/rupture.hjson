@@ -68,9 +68,31 @@ weapons: [
     moveRot: 25
     moveX: -1
     }
+    {
+    type: RegionPart
+    name: "circle-shadow"
+    progress: warmup
+    moveY: 0
+    moveRot: 0
+    moveX: 0
+    layerOffset: -0.5
+    }
   ]
+  {
+  mirror: false
+  name: rupture-auxiliary
+  x: 0
+  y: 0
+  rotate: true
+  shootY: 2
+  reload: 10
+  shake: 1
+  shootSound: shootTank
+  minWarmup: 0.875
+  recoil: 0.2
+  shootWarmupSpeed: 0.025
   bullet: {
-    spawnUnit: scathe-missile
+  type: BasicBulletType
     }
   }
 ]
