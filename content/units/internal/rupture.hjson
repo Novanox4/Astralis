@@ -86,7 +86,7 @@ weapons: [
   shootSound: shootTank
   minWarmup: 0.875
   recoil: 1
-  recoilTime: 120
+  recoilTime: 3.25
   length: 11
   width: 8
   shootWarmupSpeed: 0.025
