@@ -82,8 +82,8 @@ weapons: [
   x: 0
   y: 0
   rotate: true
-  shootY: 7.25
-  rotateSpeed: 6
+  shootY: 8
+  rotateSpeed: 2.5
   reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
