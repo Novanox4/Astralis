@@ -100,17 +100,17 @@ weapons: [
     {
     type: RegionPart
     layer: 49.999
-    blending: additive
+    blending: multiplicative
     name: "circle"
     y: 4
     growProgress: recoil
     progress: recoil
-    color: a12413
+    color: a12413ff
     colorTo: 7d000000
-    mixColor: a12413
+    mixColor: a12413ff
     mixColorTo: 7d000000
-    growX: 0.000001
-    growY: 0.000001
+    growX: -0.3
+    growY: -0.3
     xScl: 0.3
     yScl: 0.3
     outline: false
