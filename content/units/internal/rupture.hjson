@@ -73,8 +73,8 @@ weapons: [
     lifetime: 160
     trailColor: a12413
     trailLength: 24
-    trailWidth: 3
-    height: 30
+    trailWidth: 5.5
+    height: 25
     width: 20
     shrinkY: 0
     }
@@ -99,11 +99,11 @@ weapons: [
     type: HaloPart
     layer: 49.5
     shapes: 1
-    radius: 0
-    radiusTo: 30
+    radius: 30
+    radiusTo: 0
     y: 20
     color: a12413
-    progress: charge
+    progress: recoil
     haloRadius: 0
     }
   ]
