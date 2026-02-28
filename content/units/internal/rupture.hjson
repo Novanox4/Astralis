@@ -74,8 +74,9 @@ weapons: [
     trailColor: a12413
     trailLength: 24
     trailWidth: 3
-    height: 20
+    height: 30
     width: 20
+    shrinkY: 0
     }
   parts: [
     {
@@ -93,6 +94,17 @@ weapons: [
     moveY: -0.225
     moveRot: 25
     moveX: -1
+    }
+    {
+    type: HaloPart
+    layer: 49.5
+    shapes: 1
+    radius: 0
+    radiusTo: 30
+    y: 4
+    color: a12413
+    progress: charge
+    haloRadius: 0
     }
   ]
   }
