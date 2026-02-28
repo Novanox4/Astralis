@@ -40,6 +40,25 @@ weapons: [
   outlineRegion: "astralis-rupture-outline"
   controllable: false
   aiControllable: false
+  bullet: {
+    type: BasicBulletType
+    sprite: "missile-large"
+    frontColor: ffffff
+    backColor: a12413
+    speed: 10
+    accel: 0.03
+    backColor: a12413
+    damage: 200
+    splashDamage: 125
+    splashDamagePierce: true
+    splashDamageRadius: 56
+    followAimSpeed: 0.25
+    lifetime: 160
+    trailColor: a12413
+    trailLength: 24
+    trailWidth: 3
+    height: 20
+    width: 20
   }
   {
   mirror: false
