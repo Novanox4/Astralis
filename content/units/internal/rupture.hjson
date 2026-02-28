@@ -116,7 +116,7 @@ weapons: [
   mirror: false
   name: rupture-auxiliary
   x: 0
-  y: -4
+  y: 0
   rotate: true
   shootY: 8
   rotateSpeed: 2.5
