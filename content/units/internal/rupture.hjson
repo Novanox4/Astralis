@@ -59,6 +59,7 @@ weapons: [
     trailWidth: 3
     height: 20
     width: 20
+    }
   }
   {
   mirror: false
