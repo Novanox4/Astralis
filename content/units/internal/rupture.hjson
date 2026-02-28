@@ -48,7 +48,7 @@ weapons: [
   y: 0
   rotate: true
   shootY: 5
-  reload: 1000
+  reload: 725
   shake: 1
   shootSound: shootMissileLarge
   minWarmup: 0.875
