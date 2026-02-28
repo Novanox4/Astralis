@@ -99,9 +99,9 @@ weapons: [
     type: HaloPart
     layer: 49.5
     shapes: 1
-    radius: 30
+    radius: 12
     radiusTo: 0
-    y: 5
+    y: 4.5
     color: 7d000000
     colorTo: a12413ff
     progress: recoil
