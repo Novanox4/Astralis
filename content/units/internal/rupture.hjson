@@ -101,14 +101,14 @@ weapons: [
     blending: additive
     name: "circle"
     y: 4
-    growProgress: charge
-    progress: charge
-    colorTo: a12413
-    color: 7d000000
-    xScl: 0
-    yScl: 0
-    growX: 0.3
-    growY: 0.3
+    growProgress: recoil
+    progress: recoil
+    color: a12413
+    colorTo: 7d000000
+    growX: 0
+    growY: 0
+    xScl: 0.3
+    yScl: 0.3
     }
   ]
   }
@@ -116,7 +116,7 @@ weapons: [
   mirror: false
   name: rupture-auxiliary
   x: 0
-  y: 0
+  y: -4
   rotate: true
   shootY: 8
   rotateSpeed: 2.5
