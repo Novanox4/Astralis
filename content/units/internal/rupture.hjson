@@ -105,8 +105,10 @@ weapons: [
     progress: recoil
     color: a12413
     colorTo: 7d000000
-    growX: -1
-    growY: -1
+    mixColor: a12413
+    mixColorTo: 7d000000
+    growX: 0.000001
+    growY: 0.000001
     xScl: 0.3
     yScl: 0.3
     }
