@@ -103,7 +103,7 @@ weapons: [
     radiusTo: 0
     y: 5
     color: 7d000000
-    colorTo: a12413
+    colorTo: a12413ff
     progress: recoil
     haloRadius: 0
     sides: 25
