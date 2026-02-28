@@ -100,7 +100,6 @@ weapons: [
     {
     type: RegionPart
     layer: 49.999
-    blending: multiplicative
     name: "circle"
     y: 4
     growProgress: recoil
