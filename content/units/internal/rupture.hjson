@@ -96,10 +96,10 @@ weapons: [
   targetSwitchInterval: 100
   bullet: {
   type: BasicBulletType
-    speed: 13
-    length: 11
+    speed: 12
+    height: 11
     width: 8
-    lifetime: 70
+    lifetime: 62.5
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
