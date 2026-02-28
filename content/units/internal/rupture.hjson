@@ -86,7 +86,6 @@ weapons: [
     moveY: -0.225
     moveRot: -25
     moveX: 1
-    under: true
     }
     {
     type: RegionPart
@@ -95,7 +94,6 @@ weapons: [
     moveY: -0.225
     moveRot: 25
     moveX: -1
-    under: true
     }
     {
     type: RegionPart
