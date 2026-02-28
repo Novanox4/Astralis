@@ -40,6 +40,23 @@ weapons: [
   outlineRegion: "astralis-rupture-outline"
   controllable: false
   aiControllable: false
+  }
+  {
+  mirror: false
+  name: rupture
+  x: 0
+  y: 0
+  rotate: true
+  shootY: 5
+  reload: 1000
+  shake: 1
+  shootSound: shootMissileLarge
+  minWarmup: 0.875
+  rotateSpeed: 1.75
+  recoil: 0
+  shootWarmupSpeed: 0.035
+  targetInterval: 60
+  targetSwitchInterval: 100
   bullet: {
     type: BasicBulletType
     sprite: "missile-large"
@@ -60,23 +77,6 @@ weapons: [
     height: 20
     width: 20
     }
-  }
-  {
-  mirror: false
-  name: rupture
-  x: 0
-  y: 0
-  rotate: true
-  shootY: 5
-  reload: 1000
-  shake: 1
-  shootSound: shootMissileLarge
-  minWarmup: 0.875
-  rotateSpeed: 1.75
-  recoil: 0
-  shootWarmupSpeed: 0.035
-  targetInterval: 60
-  targetSwitchInterval: 100
   parts: [
     {
     type: RegionPart
