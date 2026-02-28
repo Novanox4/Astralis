@@ -86,6 +86,7 @@ weapons: [
     moveY: -0.225
     moveRot: -25
     moveX: 1
+    under: true
     }
     {
     type: RegionPart
@@ -94,10 +95,11 @@ weapons: [
     moveY: -0.225
     moveRot: 25
     moveX: -1
+    under: true
     }
     {
     type: RegionPart
-    layer: 49.5
+    layer: 49.999
     blending: additive
     name: "circle"
     y: 4
@@ -111,6 +113,7 @@ weapons: [
     growY: 0.000001
     xScl: 0.3
     yScl: 0.3
+    outline: false
     }
   ]
   }
