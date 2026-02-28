@@ -96,17 +96,19 @@ weapons: [
     moveX: -1
     }
     {
-    type: HaloPart
+    type: RegionPart
     layer: 49.5
-    shapes: 1
-    radius: 12
-    radiusTo: 0
-    y: 4.5
-    colorTo: 7d000000
-    color: a12413ff
-    progress: recoil
-    haloRadius: 0
-    sides: 25
+    blending: additive
+    name: "circle"
+    y: 4
+    growProgress: charge
+    progress: charge
+    colorTo: a12413
+    color: 7d000000
+    xScl: 0
+    yScl: 0
+    growX: 0.3
+    growY: 0.3
     }
   ]
   }
