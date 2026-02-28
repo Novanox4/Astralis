@@ -101,7 +101,7 @@ weapons: [
     shapes: 1
     radius: 0
     radiusTo: 30
-    y: 4
+    y: 20
     color: a12413
     progress: charge
     haloRadius: 0
