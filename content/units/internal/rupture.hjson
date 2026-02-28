@@ -55,6 +55,8 @@ weapons: [
   rotateSpeed: 1.75
   recoil: 0
   shootWarmupSpeed: 0.035
+  targetInterval: 60
+  targetSwitchInterval: 100
   parts: [
     {
     type: RegionPart
@@ -81,7 +83,7 @@ weapons: [
   y: 0
   rotate: true
   shootY: 7.25
-  rotateSpeed: 15
+  rotateSpeed: 6
   reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
@@ -90,6 +92,8 @@ weapons: [
   shootWarmupSpeed: 0.025
   shootSoundVolume: 0.325
   inaccuracy: 1
+  targetInterval: 60
+  targetSwitchInterval: 100
   bullet: {
   type: BasicBulletType
     speed: 13
