@@ -85,6 +85,7 @@ weapons: [
     color: ffffff00
     colorTo: ffffffff
     moveY: -8
+    y: -4
     moveX: 0
     }
   ]
