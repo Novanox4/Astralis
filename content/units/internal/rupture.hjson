@@ -57,6 +57,7 @@ weapons: [
   shootWarmupSpeed: 0.035
   targetInterval: 60
   targetSwitchInterval: 100
+  predictTarget: false
   bullet: {
     type: BulletType
     spawnUnit: rupture-missile
