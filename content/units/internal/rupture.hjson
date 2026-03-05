@@ -52,11 +52,9 @@ weapons: [
   shake: 1
   shootSound: shootMissileLarge
   minWarmup: 0.875
-  rotateSpeed: 1.75
+  rotateSpeed: 1
   recoil: 0
   shootWarmupSpeed: 0.035
-  targetInterval: 60
-  targetSwitchInterval: 100
   predictTarget: false
   bullet: {
     type: BulletType
