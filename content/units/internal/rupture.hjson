@@ -60,6 +60,7 @@ weapons: [
   bullet: {
     type: BulletType
     spawnUnit: rupture-missile
+  }
   parts: [
     {
     type: RegionPart
@@ -190,7 +191,6 @@ weapons: [
       }
     ]
   }
-}
 }
 ]
 immunities: [burning, wet]
