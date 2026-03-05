@@ -88,6 +88,13 @@ weapons: [
     moveY: 4
     y: -4
     moveX: 0
+    moves: [
+      {
+      type: PartMove
+      progress: warmup
+      y: 3
+      }
+    ]
     }
   ]
   }
