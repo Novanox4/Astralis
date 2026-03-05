@@ -118,6 +118,7 @@ weapons: [
   inaccuracy: 1
   targetInterval: 60
   targetSwitchInterval: 100
+  predictTarget: false
   bullet: {
     type: BasicBulletType
     speed: 12
