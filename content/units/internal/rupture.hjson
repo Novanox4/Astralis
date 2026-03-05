@@ -55,7 +55,7 @@ weapons: [
   rotateSpeed: 1
   recoil: 0
   shootWarmupSpeed: 0.035
-  predictTarget: false
+  predictTarget: true
   bullet: {
     type: BulletType
     spawnUnit: rupture-missile
