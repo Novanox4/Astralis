@@ -21,7 +21,7 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 1
-    predictTarget: false
+    predictTarget: true
     bullet: {
       type: ExplosionBulletType
       splashDamage: 500
