@@ -12,8 +12,8 @@ useUnitCap: false
 armor: 10
 health: 2000
 missileAccelTime: 180
-engineOffset: 3
-engineSize: 5
+engineOffset: 6
+engineSize: 3
 weapons: [
   {
     reload: 1
