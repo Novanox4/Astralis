@@ -86,7 +86,8 @@ weapons: [
     colorTo: ffffff
     layerOffset: -0.2
     moveY: 4
-    y: -2
+    y: -3.25
+    outline: false
     moveX: 0
     moves: [
       {
