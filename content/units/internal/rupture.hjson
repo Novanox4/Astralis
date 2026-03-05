@@ -191,5 +191,6 @@ weapons: [
     ]
   }
 }
+}
 ]
 immunities: [burning, wet]
