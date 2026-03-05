@@ -4,7 +4,7 @@ flying: true
 speed: 8
 physics: false
 lifetime: 600
-rotateSpeed: 4
+rotateSpeed: 1
 hitSize: 8
 trailLength: 32.5
 trailWidth: 5
