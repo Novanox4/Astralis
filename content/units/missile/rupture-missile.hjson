@@ -11,7 +11,7 @@ trailWidth: 5
 useUnitCap: false
 armor: 10
 health: 2000
-missileAccelTime: 180
+missileAccelTime: 40
 engineOffset: 6
 engineSize: 3
 weapons: [
