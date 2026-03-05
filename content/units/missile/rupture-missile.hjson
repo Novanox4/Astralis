@@ -4,7 +4,7 @@ flying: true
 speed: 8
 physics: false
 lifetime: 600
-rotateSpeed: 1
+rotateSpeed: 3
 hitSize: 8
 trailLength: 32.5
 trailWidth: 5
@@ -12,8 +12,8 @@ useUnitCap: false
 armor: 10
 health: 2000
 missileAccelTime: 40
-engineOffset: 6
-engineSize: 3
+engineOffset: 8.5
+engineSize: 3.5
 weapons: [
   {
     reload: 1
@@ -23,14 +23,14 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 475
-      splashDamageRadius: 65
+      splashDamage: 500
+      splashDamageRadius: 72
       scaledSplashDamage: true
       collideAir: true
     }
   } 
 ]
-autoFindTarget: true
+autoFindTarget: false
 homingDelay: 0.75
 circleTarget: false
 faceTarget: true
