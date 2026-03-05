@@ -82,9 +82,10 @@ weapons: [
     type: RegionPart
     suffix: "-missile-full"
     progress: recoil
-    color: ffffff00
-    colorTo: ffffffff
-    moveY: -8
+    color: ffffff
+    colorTo: ffffff00
+    layerOffset: -0.2
+    moveY: -5
     y: -4
     moveX: 0
     }
