@@ -49,13 +49,13 @@ weapons: [
   rotate: true
   shootY: 5
   reload: 725
-  shake: 1
+  shake: 2
   shootSound: shootMissileLarge
   minWarmup: 0.875
   rotateSpeed: 1
   recoil: 0
   shootWarmupSpeed: 0.035
-  predictTarget: true
+  predictTarget: false
   bullet: {
     type: BulletType
     spawnUnit: rupture-missile
