@@ -78,6 +78,15 @@ weapons: [
     moveRot: 25
     moveX: -1
     }
+    {
+    type: RegionPart
+    suffix: "-missile-full"
+    progress: recoil
+    color: ffffff00
+    colorTo: ffffffff
+    moveY: -8
+    moveX: 0
+    }
   ]
   }
   {
