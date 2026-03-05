@@ -58,26 +58,8 @@ weapons: [
   targetInterval: 60
   targetSwitchInterval: 100
   bullet: {
-    type: BasicBulletType
-    sprite: "missile-large"
-    frontColor: ffffff
-    backColor: a12413
-    speed: 10
-    accel: 0.03
-    backColor: a12413
-    damage: 200
-    splashDamage: 125
-    splashDamagePierce: true
-    splashDamageRadius: 56
-    followAimSpeed: 0.25
-    lifetime: 160
-    trailColor: a12413
-    trailLength: 24
-    trailWidth: 5.5
-    height: 25
-    width: 20
-    shrinkY: 0
-    }
+    type: BulletType
+    spawnUnit: rupture-missile
   parts: [
     {
     type: RegionPart
@@ -94,23 +76,6 @@ weapons: [
     moveY: -0.225
     moveRot: 25
     moveX: -1
-    }
-    {
-    type: RegionPart
-    layer: 49.999
-    name: "circle"
-    y: 4
-    growProgress: recoil
-    progress: recoil
-    color: a12413ff
-    colorTo: 7d000000
-    mixColor: a12413ff
-    mixColorTo: 7d000000
-    growX: -0.3
-    growY: -0.3
-    xScl: 0.3
-    yScl: 0.3
-    outline: false
     }
   ]
   }
