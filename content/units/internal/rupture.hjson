@@ -3,7 +3,6 @@ controller: FlyingAI
 hitSize: 10
 rotateSpeed: 0
 useUnitCap: false
-faceTarget: false
 health: 99999999
 speed: 0
 payloadCapacity: 0
@@ -14,7 +13,6 @@ controlSelectGlobal: false
 physics: false
 targetable: false
 drawCell: false
-internal: true
 hittable: false
 softShadowScl: 0.325
 outlineColor: 323232
