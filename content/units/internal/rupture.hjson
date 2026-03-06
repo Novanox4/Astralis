@@ -47,7 +47,7 @@ weapons: [
   y: 0
   rotate: true
   shootY: 5
-  reload: 725
+  reload: 700
   shake: 2
   shootSound: shootMissileLarge
   minWarmup: 0.875
@@ -104,7 +104,7 @@ weapons: [
   y: 0
   rotate: true
   shootY: 8
-  rotateSpeed: 5
+  rotateSpeed: 7.5
   reload: 2.5
   shootSound: shootTank
   minWarmup: 0.875
@@ -118,10 +118,10 @@ weapons: [
   predictTarget: false
   bullet: {
     type: BasicBulletType
-    speed: 20
+    speed: 40
     height: 11
     width: 8
-    lifetime: 40
+    lifetime: 20
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
