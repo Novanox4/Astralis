@@ -118,14 +118,16 @@ weapons: [
   predictTarget: false
   bullet: {
     type: BasicBulletType
-    speed: 40
+    speed: 55
     height: 11
     width: 8
-    lifetime: 20
+    lifetime: 22.5
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
     trailWidth: 1.75
+    homingPower: 0.05
+    homingRange: 500
     trailLength: 10
     damage: 20
     despawnEffect: none
