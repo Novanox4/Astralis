@@ -29,6 +29,9 @@ weapons: [
       scaledSplashDamage: true
       collideAir: true
       rangeOverride: 45
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
     }
   } 
 ]
@@ -43,8 +46,20 @@ abilities: [
   type: MoveEffectAbility
   minVelocity: 0
   y: -1
+  layer: 99
+  rangeX: 1
+  effect: {
+    type: ParticleEffect
+    particles: 2
+    cone: 10
+    lifetime: 60
+    length: 10
+    interp: pow10Out
+    sizeInterp: pow3Out
+    sizeChangeStart: 4
+    }
   }
-  ]
+]
 outlineColor: 323232
 drawCell: true
 deathEffect: none
