@@ -57,7 +57,7 @@ weapons: [
   predictTarget: false
   bullet: {
     type: BulletType
-    speed: 0.001
+    speed: 0.0001
     spawnUnit: rupture-missile
     smokeEffect: {
       type: ParticleEffect
