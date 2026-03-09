@@ -53,6 +53,7 @@ abilities: [
     type: WrapEffect
     effect: missileTrailSmoke
     color: db9e60
+    lifetime: 200
     }
   }
 ]
