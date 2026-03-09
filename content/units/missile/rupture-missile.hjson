@@ -66,9 +66,14 @@ faceTarget: true
 targetAir: true
 outlineColor: 323232
 drawCell: true
+deathShake: 2
 deathEffect: [
   {
   type: WaveEffect
   colorTo: edbf7e
   lifetime: 70
-  
+  strokeFrom: 5
+  sizeTo: 80
+  interp: pow3Out
+  }
+]
