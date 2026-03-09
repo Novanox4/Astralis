@@ -90,8 +90,8 @@ deathExplosionEffect: [
   }
   {
   type: ParticleEffect
-  lifetime: 200
-  sizeFrom: 25
+  lifetime: 175
+  sizeFrom: 22
   colorFrom: edbf7e
   colorTo: db9e60
   length: 75
