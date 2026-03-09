@@ -1,7 +1,7 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 17.5
+speed: 8.75
 physics: false
 lifetime: 240
 rotateSpeed: 3.75
