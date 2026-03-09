@@ -44,7 +44,7 @@ abilities: [
   {
   //first trail
   type: MoveEffectAbility
-  minVelocity: 0
+  minVelocity: 0.1
   y: -1
   layer: 99
   rangeX: 1
