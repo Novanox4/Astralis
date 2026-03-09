@@ -67,7 +67,7 @@ targetAir: true
 outlineColor: 323232
 drawCell: true
 deathShake: 2
-deathEffect: [
+deathExplosionEffect: [
   {
   type: WaveEffect
   colorTo: edbf7e
