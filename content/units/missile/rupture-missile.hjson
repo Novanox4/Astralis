@@ -4,7 +4,7 @@ flying: true
 speed: 7
 physics: false
 lifetime: 325
-rotateSpeed: 2.5
+rotateSpeed: 2
 hitSize: 15
 useUnitCap: false
 armor: 10
@@ -50,10 +50,10 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 650
-      splashDamageRadius: 72
+      splashDamageRadius: 80
       scaledSplashDamage: true
       collideAir: true
-      rangeOverride: 45
+      rangeOverride: 79
       shootEffect: none
       hitEffect: none
       despawnEffect: none
@@ -66,4 +66,9 @@ faceTarget: true
 targetAir: true
 outlineColor: 323232
 drawCell: true
-deathEffect: none
+deathEffect: [
+  {
+  type: WaveEffect
+  colorTo: edbf7e
+  lifetime: 70
+  
