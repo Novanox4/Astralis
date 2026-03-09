@@ -31,9 +31,9 @@ weapons: [
       type: ContinuousFlameBulletType
       collides: false
       damage: 0
-      length: 25
-      flareWidth: 5
-      flareLength: 17.5
+      length: 20
+      flareWidth: 5.25
+      flareLength: 20
       rotateFlare: true
       flareColor: edbf7e
       flareRotSpeed: 2.4
