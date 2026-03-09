@@ -72,6 +72,7 @@ weapons: [
       cone: 10
       baseRotation: 180
       particles: 25
+      lightColor: c44d2f
     }
   }
   parts: [
