@@ -35,7 +35,7 @@ weapons: [
       flareWidth: 2
       flareLength: 17.5
       rotateFlare: true
-      colors: [cc76478c, db9e60b2, edbf7ecc, 91a4ffff, ffffffff]
+      colors: [cc76478c, db9e60b2, edbf7ecc, 91a4ffcc, ffffffff]
     }
   } 
   {
