@@ -1,19 +1,17 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 20
+speed: 17.5
 physics: false
 lifetime: 240
 rotateSpeed: 3.75
 hitSize: 15
-trailLength: 32.5
-trailWidth: 5
 useUnitCap: false
 armor: 10
 health: 2000
 missileAccelTime: 45
 engineOffset: 8.5
-engineSize: 3.5
+engineSize: 0
 weapons: [
   {
     continuous: true
@@ -33,6 +31,9 @@ weapons: [
       type: ContinuousFlameBulletType
       collides: false
       damage: 0
+      length: 100
+      flareWidth: 1.25
+      rotateFlare: true
     }
   } 
   {
@@ -58,7 +59,6 @@ weapons: [
 homingDelay: 0.75
 circleTarget: false
 faceTarget: true
-trailColor: 7d0000
 targetAir: true
 outlineColor: 323232
 drawCell: true
