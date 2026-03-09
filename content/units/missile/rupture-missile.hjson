@@ -94,9 +94,9 @@ deathExplosionEffect: [
   sizeFrom: 22
   colorFrom: edbf7e
   colorTo: db9e60
-  length: 75
+  length: 85
   interp: pow10Out
-  particles: 18
+  particles: 16
   sizeInterp: pow3Out
   sizeChangeStart: 50
   }
