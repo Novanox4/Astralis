@@ -226,3 +226,5 @@ weapons: [
 }
 ]
 immunities: [burning, wet]
+//reverse priorities
+targetFlags: [repair, extinguisher, storage, shield, turret, drill, battery, generator, reactor, factory, core]
