@@ -48,9 +48,11 @@ abilities: [
   y: -1
   layer: 99
   rangeX: 1
+  interval: 1
   effect: {
     type: WrapEffect
     effect: missileTrailSmoke
+    color: db9e60
     }
   }
 ]
