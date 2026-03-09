@@ -11,7 +11,7 @@ trailWidth: 5
 useUnitCap: false
 armor: 10
 health: 2000
-missileAccelTime: 65
+missileAccelTime: 45
 engineOffset: 8.5
 engineSize: 3.5
 weapons: [
@@ -39,10 +39,12 @@ trailColor: 7d0000
 targetAir: true
 abilities: [
   {
+  //first trail
   type: MoveEffectAbility
-  effect: none 
-  //not done
+  minVelocity: 0
+  y: -1
   }
   ]
 outlineColor: 323232
 drawCell: true
+deathEffect: none
