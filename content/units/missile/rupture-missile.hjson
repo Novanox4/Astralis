@@ -49,14 +49,8 @@ abilities: [
   layer: 99
   rangeX: 1
   effect: {
-    type: ParticleEffect
-    particles: 2
-    cone: 10
-    lifetime: 60
-    length: 10
-    interp: pow10Out
-    sizeInterp: pow3Out
-    sizeChangeStart: 4
+    type: WrapEffect
+    effect: missileTrailSmoke
     }
   }
 ]
