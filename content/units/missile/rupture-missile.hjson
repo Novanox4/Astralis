@@ -57,6 +57,8 @@ weapons: [
       shootEffect: none
       hitEffect: none
       despawnEffect: none
+      cone: 10
+      baseRotation: 180
     }
   } 
 ]
