@@ -16,6 +16,26 @@ engineOffset: 8.5
 engineSize: 3.5
 weapons: [
   {
+    continuous: true
+    alwaysContinuous: true
+    mirror: false
+    shootCone: 360
+    alwaysShooting: true
+    shake: 1
+    shootSound: none
+    display: false
+    shootEffect: none
+    smokeEffect: none
+    x: 0
+    y: -5
+    baseRotation: 180
+    bullet: {
+      type: ContinuousFlameBulletType
+      collides: false
+      damage: 0
+    }
+  } 
+  {
     reload: 1
     shootOnDeath: true
     mirror: false
@@ -40,23 +60,6 @@ circleTarget: false
 faceTarget: true
 trailColor: 7d0000
 targetAir: true
-abilities: [
-  {
-  //first trail
-  type: MoveEffectAbility
-  minVelocity: 0.1
-  y: -1
-  layer: 99
-  rangeX: 1
-  interval: 1
-  effect: {
-    type: WrapEffect
-    effect: missileTrailSmoke
-    color: db9e60
-    lifetime: 200
-    }
-  }
-]
 outlineColor: 323232
 drawCell: true
 deathEffect: none
