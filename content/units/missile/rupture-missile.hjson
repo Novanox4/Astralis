@@ -1,10 +1,10 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 8.75
+speed: 7
 physics: false
-lifetime: 240
-rotateSpeed: 3.75
+lifetime: 325
+rotateSpeed: 2.5
 hitSize: 15
 useUnitCap: false
 armor: 10
