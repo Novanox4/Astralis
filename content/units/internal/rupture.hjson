@@ -58,11 +58,15 @@ weapons: [
   bullet: {
     type: BulletType
     spawnUnit: rupture-missile
-    //epitome of lazyness
     smokeEffect: {
-      type: WrapEffect
-      effect: shootSmokeMissileColor
-      color: cc7647
+      type: ParticleEffect
+      lifetime: 300
+      sizeFrom: 9.25
+      colorFrom: edbf7e
+      colorTo: db9e60
+      length: 130
+      interp: pow3Out
+      particles: 15
     }
   }
   parts: [
