@@ -53,7 +53,7 @@ weapons: [
       splashDamageRadius: 80
       scaledSplashDamage: true
       collideAir: true
-      rangeOverride: 79
+      rangeOverride: 70
       shootEffect: none
       hitEffect: none
       despawnEffect: none
