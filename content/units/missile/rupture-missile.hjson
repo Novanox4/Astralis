@@ -73,7 +73,7 @@ deathExplosionEffect: [
   type: WaveEffect
   colorTo: edbf7e
   lifetime: 50
-  strokeFrom: 5
+  strokeFrom: 8
   sizeTo: 80
   interp: pow3Out
   }
