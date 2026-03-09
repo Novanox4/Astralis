@@ -66,12 +66,13 @@ faceTarget: true
 targetAir: true
 outlineColor: 323232
 drawCell: true
-deathShake: 2
+deathShake: 10
+deathSound: blockExplodeExplosive
 deathExplosionEffect: [
   {
   type: WaveEffect
   colorTo: edbf7e
-  lifetime: 70
+  lifetime: 50
   strokeFrom: 5
   sizeTo: 80
   interp: pow3Out
