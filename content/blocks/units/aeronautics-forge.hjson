@@ -15,7 +15,15 @@ plans: [
     crystalite/30
     silver/25
   ]
-  time: 1500
+  time: 1450
+  }
+  {
+  unit: antilla
+  requirements: [
+    uranium/35
+    metaglass/20
+  ]
+  time: 1750
   }
 ]
 requirements: [
