@@ -5,7 +5,7 @@ speed: 20
 physics: false
 lifetime: 240
 rotateSpeed: 3.75
-hitSize: 8
+hitSize: 15
 trailLength: 32.5
 trailWidth: 5
 useUnitCap: false
@@ -28,6 +28,7 @@ weapons: [
       splashDamageRadius: 72
       scaledSplashDamage: true
       collideAir: true
+      rangeOverride: 45
     }
   } 
 ]
