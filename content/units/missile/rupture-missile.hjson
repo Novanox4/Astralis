@@ -25,7 +25,7 @@ weapons: [
     shootEffect: none
     smokeEffect: none
     x: 0
-    y: -5
+    y: -4.25
     baseRotation: 180
     bullet: {
       type: ContinuousFlameBulletType
@@ -36,6 +36,7 @@ weapons: [
       flareLength: 17.5
       rotateFlare: true
       flareColor: edbf7e
+      flareRotSpeed: 2.4
       colors: [c44d2f8c, cc7647b2, db9e60cc, edbf7ecc, ffffffff]
     }
   } 
