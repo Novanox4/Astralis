@@ -61,7 +61,7 @@ weapons: [
     spawnUnit: rupture-missile
     smokeEffect: {
       type: ParticleEffect
-      lifetime: 150
+      lifetime: 125
       sizeFrom: 9.25
       colorFrom: edbf7e
       colorTo: db9e60
@@ -70,6 +70,7 @@ weapons: [
       particles: 25
       cone: 10
       baseRotation: 180
+      interp: powOut
     }
   }
   parts: [
