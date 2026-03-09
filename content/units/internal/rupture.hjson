@@ -62,11 +62,11 @@ weapons: [
       type: ParticleEffect
       colorFrom: db9e60
       colorTo: c44d2f
-      lifetime: 90
+      lifetime: 145
       interp: pow5Out
       sizeInterp: pow3Out
-      length: 20
-      sizeFrom: 9
+      length: 80
+      sizeFrom: 13
       sizeTo: 0
       sizeChangeStart: 20
       cone: -45
