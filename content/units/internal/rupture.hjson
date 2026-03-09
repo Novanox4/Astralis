@@ -70,7 +70,7 @@ weapons: [
       particles: 25
       cone: 10
       baseRotation: 180
-      interp: powOut
+      interp: pow3Out
     }
   }
   parts: [
