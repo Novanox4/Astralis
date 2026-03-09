@@ -65,11 +65,13 @@ weapons: [
       lifetime: 145
       interp: pow5Out
       sizeInterp: pow3Out
-      length: 80
+      length:150
       sizeFrom: 13
       sizeTo: 0
       sizeChangeStart: 20
-      cone: -45
+      cone: 35
+      baseRotation: 180
+      particles: 15
     }
   }
   parts: [
