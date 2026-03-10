@@ -134,7 +134,7 @@ weapons: [
     speed: 10
     height: 11
     width: 8
-    lifetime: 70
+    lifetime: 210
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
