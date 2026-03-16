@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 2
 name: Agitation
-description: Fires rapid bolts towards enemies. Can be boosted with heat.
+description: Fires rapid bolts towards enemies. Can't be boosted.
 requirements: [
   crystalite/50
   uranium/40
