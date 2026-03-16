@@ -1,6 +1,6 @@
 type: tank
 name: Valium
-description: Shoots explosives with splash damage.
+description: Shoots explosives that deal splash damage.
 omniMovement: false
 health: 600
 hitSize: 11.5
