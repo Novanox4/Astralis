@@ -3,7 +3,7 @@ name: Uranium Decay Generator
 description: Generates power using uranium. Outputs a small amount of heat to all sides. Warms up slowly. Uses water to stabilize itself.
 rotate: false
 //haha ratios go bye bye
-heatOutput: 1.65
+heatOutput: 1.7
 itemDuration: 150
 powerProduction: 0.32
 consumes: {
