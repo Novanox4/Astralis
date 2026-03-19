@@ -14,7 +14,7 @@ consumeAmmoOnce: false
 drawer: {
   type: DrawTurret
   basePrefix: astral-
-  part: [
+  parts: [
     {
     type: RegionPart
     suffix: -right
