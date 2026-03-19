@@ -60,8 +60,8 @@ shootSound: shootScatter
 ammoTypes: {
   uranium: {
     type: BasicBulletType
-    height: 8.5
-    width: 6.5
+    height: 8.15
+    width: 7
     backColor: 12963c
     frontColor: ffffff
     lifetime: 45
