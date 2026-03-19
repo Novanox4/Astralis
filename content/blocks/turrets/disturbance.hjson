@@ -25,9 +25,6 @@ requirements: [
   crystalite/80
 ]
 shootSound: shootScatter
-  }
-]
-}
 ammoTypes: {
   uranium: {
   }
