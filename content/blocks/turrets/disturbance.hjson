@@ -62,10 +62,10 @@ ammoTypes: {
     type: BasicBulletType
     height: 8.5
     width: 6.5
-    backColor: 2abd2b
+    backColor: 12963c
     frontColor: ffffff
-    lifetime: 60
-    speed: 3.5
+    lifetime: 45
+    speed: 4.7
   }
 }
 squareSprite: false
