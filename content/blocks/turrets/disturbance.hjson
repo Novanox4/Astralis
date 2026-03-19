@@ -3,7 +3,7 @@ name: Disturbance
 description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
 size: 3
 reload: 32.5
-range: 200
+range: 210
 category: turret
 outlineColor: 323232
 recoil: 0.4
@@ -64,7 +64,8 @@ ammoTypes: {
     width: 6.5
     backColor: 2abd2b
     frontColor: ffffff
-    
+    lifetime: 60
+    speed: 3.5
   }
 }
 squareSprite: false
