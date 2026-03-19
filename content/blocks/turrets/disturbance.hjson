@@ -2,7 +2,7 @@ type: ItemTurret
 name: Disturbance
 description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
 size: 3
-reload: 10
+reload: 30
 range: 200
 category: turret
 outlineColor: 323232
@@ -43,6 +43,8 @@ drawer: {
 }
 shoot: {
   type: ShootBarrel
+  shots: 3
+  shotDelay: 5
   barrels: [
     -4, -2, 0
      0, -1, 0
@@ -57,6 +59,12 @@ requirements: [
 shootSound: shootScatter
 ammoTypes: {
   uranium: {
+    type: BasicBulletType
+    height: 8.5
+    width: 6.5
+    backColor: 2abd2b
+    frontColor: ffffff
+    
   }
 }
 squareSprite: false
