@@ -12,18 +12,24 @@ cooldownTime: 110
 ammoPerShot: 2
 consumeAmmoOnce: false
 shoot: {
+ type: ShootBarrel
+ barrels: [
+  -4, -2, 0
+  0, -1, 0
+  4, -2, 0
+  ]
 }
 requirements: [
   uranium/100
   metaglass/70
   crystalite/80
 ]
-shootSound: shsghagw
+shootSound: shootScatter
   }
 ]
 }
 ammoTypes: {
-  crystalite: {
+  uranium: {
   }
 }
 squareSprite: false
