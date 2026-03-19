@@ -30,14 +30,14 @@ drawer: {
     moveY: -1.25
     progress: recoil
     y: -0.1
-    recoilIndex: 1
+    recoilIndex: 2
     }
     {
     type: RegionPart
     suffix: -mid
     moveY: -2
     progress: recoil
-    recoilIndex: 2
+    recoilIndex: 1
     }
   ]
 }
