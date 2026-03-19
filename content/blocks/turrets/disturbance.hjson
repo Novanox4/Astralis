@@ -11,6 +11,7 @@ inaccuracy: 2
 cooldownTime: 110
 ammoPerShot: 2
 consumeAmmoOnce: false
+recoils: 3
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -19,19 +20,24 @@ drawer: {
     type: RegionPart
     suffix: -right
     moveY: -1.25
+    y: -0.1
     progress: recoil
+    recoilIndex: 0
     }
     {
     type: RegionPart
     suffix: -left
     moveY: -1.25
     progress: recoil
+    y: -0.1
+    recoilIndex: 1
     }
     {
     type: RegionPart
     suffix: -mid
     moveY: -2
     progress: recoil
+    recoilIndex: 2
     }
   ]
 }
