@@ -3,7 +3,7 @@ name: Disturbance
 description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
 size: 3
 reload: 10
-range: 250
+range: 200
 category: turret
 outlineColor: 323232
 recoil: 0.4
@@ -11,12 +11,36 @@ inaccuracy: 2
 cooldownTime: 110
 ammoPerShot: 2
 consumeAmmoOnce: false
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  part: [
+    {
+    type: RegionPart
+    suffix: -right
+    moveY: -1.25
+    progress: recoil
+    }
+    {
+    type: RegionPart
+    suffix: -left
+    moveY: -1.25
+    progress: recoil
+    }
+    {
+    type: RegionPart
+    suffix: -mid
+    moveY: -2
+    progress: recoil
+    }
+  ]
+}
 shoot: {
- type: ShootBarrel
- barrels: [
-  -4, -2, 0
-  0, -1, 0
-  4, -2, 0
+  type: ShootBarrel
+  barrels: [
+    -4, -2, 0
+     0, -1, 0
+     4, -2, 0
   ]
 }
 requirements: [
