@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Disturbance
+description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
+size: 3
+reload: 10
+range: 250
+category: turret
+outlineColor: 323232
+recoil: 0.4
+inaccuracy: 2
+cooldownTime: 110
+ammoPerShot: 2
+consumeAmmoOnce: false
+shoot: {
+}
+requirements: [
+  uranium/100
+  metaglass/70
+  crystalite/80
+]
+shootSound: shsghagw
+  }
+]
+}
+ammoTypes: {
+  crystalite: {
+  }
+}
+squareSprite: false
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
+}
+coolantMultiplier: 2
