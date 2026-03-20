@@ -66,6 +66,9 @@ ammoTypes: {
     frontColor: ffffff
     lifetime: 45
     speed: 4.7
+    trailLength: 5
+    trailWidth: 1
+    
   }
 }
 squareSprite: false
@@ -75,4 +78,4 @@ coolant: {
   allowLiquid: true
   amount: 0.45
 }
-coolantMultiplier: 2
+coolantMultiplier: 2.25
