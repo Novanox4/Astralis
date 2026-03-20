@@ -30,14 +30,14 @@ drawer: [
 itemCapacity: 35
 consumes: {
   power: 7
-  liquid: nitrogen/0.199999999999999999999999
+  liquid: nitrogen/0.199999999999999999999
   items: [
     silver/15
   ]
 }
 craftTime: 240
 outputItems: [
-  fulminate/8
+  fulminate/14
   char-chunks/1
 ]
 updateEffectChance: 0.8
