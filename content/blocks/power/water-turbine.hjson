@@ -13,7 +13,7 @@ researchCost: [
   crystalite/40
   silver/30
   ]
-powerProduction: 1.1
+powerProduction: 1.6
 size: 2
 category: power
 drawer: {
