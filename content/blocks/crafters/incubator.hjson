@@ -10,10 +10,10 @@ health: 125
 itemCapacity: 25
 name: Incubator
 description: Cultivates biomatter using water and power. More efficient on overgrowths or water.
-outputItem: biomatter/3
+outputItem: biomatter/1
 attribute: growth
 maxBoost: 2
-craftTime: 240
+craftTime: 80
 category: crafting
 research: metaglass-crucible
 consumes: {
