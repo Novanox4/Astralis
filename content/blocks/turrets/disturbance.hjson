@@ -71,6 +71,9 @@ ammoTypes: {
     trailWidth: 1
     trailColor: 12963c
     buildingDamageMultiplier: 0.3
+    smokeEffect: none
+    splashDamage: 12
+    splashDamageRadius: 9
     despawnHit: true
     despawnEffect: none
     hitEffect: [
