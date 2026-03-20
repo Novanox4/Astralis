@@ -46,9 +46,9 @@ shoot: {
   shots: 3
   shotDelay: 5
   barrels: [
-    -4, -2, 0
+    -3.2, -2, 0
      0, -1, 0
-     4, -2, 0
+     3.2, -2, 0
   ]
 }
 requirements: [
@@ -60,6 +60,7 @@ shootSound: shootScatter
 ammoTypes: {
   uranium: {
     type: BasicBulletType
+    damage: 25
     height: 8.15
     width: 7
     backColor: 12963c
@@ -68,7 +69,86 @@ ammoTypes: {
     speed: 4.7
     trailLength: 5
     trailWidth: 1
-    
+    trailColor: 12963c
+    buildingDamageMultiplier: 0.3
+    despawnHit: true
+    despawnEffect: none
+    hitEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: 12963c
+      colorTo: 12963c
+      interp: pow3Out
+      sizeFrom: 3
+      sizeTo: 0
+      length: 16
+      lifetime: 25
+      particles: 3
+      }
+      {
+      type: ParticleEffect
+      colorFrom: 12963c
+      colorTo: 12963c
+      interp: pow3Out
+      line: true
+      lenFrom: 6
+      lenTo: 0
+      strokeFrom: 3.75
+      strokeTo: 0
+      length: 20
+      lifetime: 25
+      particles: 4
+      }
+      {
+      type: WaveEffect
+      colorFrom: 12963c
+      colorTo: 12963c
+      interp: pow3Out
+      sizeFrom: 0
+      sizeTo: 8
+      strokeFrom: 2.65
+      strokeTo: 0
+      lifetime: 25
+      }
+    ]
+    shootEffect: [
+      {
+      type: ParticleEffect
+      colorFrom: a12413
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      cone: 15
+      }
+      {
+      type: ParticleEffect
+      colorFrom: db9e60
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      cone: 15
+      }
+      {
+      type: ParticleEffect
+      colorFrom: a43131
+      colorTo: 1a1e26
+      interp: pow5Out
+      sizeFrom: 2
+      sizeTo: 0
+      length: 24
+      lifetime: 24
+      particles: 3
+      cone: 15
+      }
+    ]
   }
 }
 squareSprite: false
