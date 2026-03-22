@@ -1,0 +1,44 @@
+type: UnitFactory
+name: Arachnid Forge
+description: Creates spider units that can cross terrain.
+configurable: true
+size: 3
+category: units
+consumes: {
+  power: 1.75
+  liquid: nitrogen/0.4
+    }
+plans: [
+  {
+  unit: benxi
+  requirements: [
+    crystalite/30
+    uranium/25
+  ]
+  time: 1400
+  }
+  {
+  unit: madine
+  requirements: [
+    metaglass/30
+    crystalite/40
+  ]
+  time: 1920
+  }
+]
+requirements: [
+  uranium/70
+  silver/70
+  metaglass/35
+  ]
+researchCostMultiplier: 0.425
+squareSprite: false
+research: {
+  parent: automobile-forge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: plains
+    }
+  ]
+}
