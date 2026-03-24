@@ -3,6 +3,7 @@ name: Questran
 description: Uses twin repeaters to shred targets.
 omniMovement: false
 health: 1200
+armor: 3.5
 hitSize: 15
 speed: 1.3
 tankMoveSound: tankMoveSmall
@@ -45,7 +46,7 @@ bullet: {
   height: 7
   damage: 12
   speed: 4
-  splashDamage: 20
+  splashDamage: 16
   splashDamageRadius: 22
   lifetime: 42.5
   despawnEffect: none
