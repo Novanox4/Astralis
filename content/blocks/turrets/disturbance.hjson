@@ -3,6 +3,7 @@ name: Disturbance
 description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
 size: 3
 reload: 30
+health: 800
 range: 210
 category: turret
 outlineColor: 323232
