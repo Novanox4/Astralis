@@ -20,10 +20,10 @@ plans: [
   {
   unit: antilla
   requirements: [
-    uranium/35
-    metaglass/20
+    uranium/50
+    metaglass/50
   ]
-  time: 1750
+  time: 2160
   }
 ]
 requirements: [
