@@ -26,7 +26,7 @@ treadRects: [
 weapons: [
 {
 name: questran-weapon
-reload: 175
+reload: 160
 x: 4.5
 y: -0.1
 shoot: {
@@ -44,10 +44,10 @@ bullet: {
   width: 3.8
   height: 7
   damage: 8
-  speed: 3.5
-  splashDamage: 30
-  splashDamageRadius: 24
-  lifetime: 40
+  speed: 4
+  splashDamage: 20
+  splashDamageRadius: 22
+  lifetime: 42.5
   despawnEffect: none
   despawnHit: true
   hitEffect: [
@@ -104,8 +104,6 @@ bullet: {
   trailLength: 20
   trailColor: f5d738
   trailWidth: 0.8
-  splashDamage: 7
-  splashDamageRadius: 18
   }
   }
 ]
