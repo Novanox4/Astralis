@@ -43,7 +43,7 @@ bullet: {
   frontColor: ffffff
   width: 3.8
   height: 7
-  damage: 8
+  damage: 12
   speed: 4
   splashDamage: 20
   splashDamageRadius: 22
