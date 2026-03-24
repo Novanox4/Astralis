@@ -17,6 +17,14 @@ plans: [
   ]
   time: 1400
   }
+  {
+  unit: questran
+  requirements: [
+    silver/55
+    metaglass/45
+  ]
+  time: 1900
+  }
 ]
 
 requirements: [
