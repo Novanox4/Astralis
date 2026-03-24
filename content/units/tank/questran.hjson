@@ -1,0 +1,79 @@
+type: tank
+name: Questran
+description: Uses twin repeaters to shred targets.
+omniMovement: false
+health: 1200
+hitSize: 15
+speed: 1.3
+tankMoveSound: tankMoveSmall
+tankMoveVolume: 0.5
+databaseTag: "astralis-unit-tier-2"
+//HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
+treadRects: [
+  {
+    x: -22
+    y: -30
+    width: 44
+    height: 58
+  }
+]
+weapons: [
+{
+name: questran-weapon
+reload: 300
+x: 4.5
+y: -0.1
+shoot: {
+  shots: 5
+  shotDelay: 5
+}
+mirror: true
+alternate: true
+rotate: true
+shootSound: shootCyclone
+bullet: {
+  type: BasicBulletType
+  backColor: f5d738
+  frontColor: ffffff
+  width: 4
+  height: 6
+  damage: 10
+  speed: 3
+  splashDamage: 30
+  splashDamageRadius: 24
+  lifetime: 40
+  despawnEffect: none
+  despawnHit: true
+  hitEffect: [
+    {
+    type: WaveEffect
+    colorTo: f5d738
+    sizeTo: 30
+    strokeFrom: 1
+    lifetime: 45
+    interp: pow3Out
+    }
+    {
+    type: ParticleEffect
+    colorTo: f5d738
+    sizeFrom: 5.75
+    sizeChangeStart: 80
+    interp: pow10Out
+    sizeInterp: pow3Out
+    lifetime: 120
+    length: 40
+    particles: 9
+    }
+  ]
+  trailLength: 20
+  trailColor: f5d738
+  trailWidth: 1
+  splashDamage: 5
+  splashDamageRadius: 12
+  }
+  }
+]
+outlineColor: 323232
+crushDamage: 0.03
+research: valium
+researchCostMultiplier: 10
