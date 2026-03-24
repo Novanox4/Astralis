@@ -82,23 +82,23 @@ bullet: {
     colorTo: f5d738b3
     interp: pow10Out
     sizeInterp: linear
-    sizeChangeStart: 40
+    sizeChangeStart: 32.5
     sizeFrom: 8.5
     sizeTo: 0
-    length: 60
-    lifetime: 125
+    length: 30
+    lifetime: 100
     particles: 5
     }
     {
     type: WaveEffect
     colorFrom: f5d738
     colorTo: f5d738
-    interp: pow3Out
+    interp: pow5Out
     sizeFrom: 0
-    sizeTo: 18
-    strokeFrom: 2.5
+    sizeTo: 22
+    strokeFrom: 3.5
     strokeTo: 0
-    lifetime: 27.5
+    lifetime: 36
     }
   ]
   trailLength: 20
