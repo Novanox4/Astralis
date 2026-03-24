@@ -20,10 +20,10 @@ plans: [
   {
   unit: questran
   requirements: [
-    silver/55
+    silver/60
     metaglass/45
   ]
-  time: 1900
+  time: 2070
   }
 ]
 
