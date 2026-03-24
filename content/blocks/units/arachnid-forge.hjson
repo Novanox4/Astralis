@@ -20,10 +20,10 @@ plans: [
   {
   unit: madine
   requirements: [
-    metaglass/30
-    crystalite/40
+    metaglass/45
+    crystalite/50
   ]
-  time: 1920
+  time: 2100
   }
 ]
 requirements: [
