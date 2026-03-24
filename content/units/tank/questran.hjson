@@ -27,7 +27,7 @@ treadRects: [
 weapons: [
 {
 name: questran-weapon
-reload: 160
+reload: 120
 x: 4.5
 y: -0.1
 shoot: {
@@ -46,7 +46,7 @@ bullet: {
   height: 7
   damage: 12
   speed: 4
-  splashDamage: 16
+  splashDamage: 12
   splashDamageRadius: 22
   lifetime: 42.5
   despawnEffect: none
