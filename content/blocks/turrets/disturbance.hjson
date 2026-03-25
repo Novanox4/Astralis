@@ -68,8 +68,8 @@ ammoTypes: {
     width: 7
     backColor: 12963c
     frontColor: ffffff
-    lifetime: 45
-    speed: 4.7
+    lifetime: 37
+    speed: 5.75
     trailLength: 5
     trailWidth: 1
     trailColor: 12963c
