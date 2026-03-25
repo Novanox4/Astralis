@@ -161,7 +161,7 @@ ammoTypes: {
   }
   fulminate: {
     type: BasicBulletType
-    damage: 20
+    damage: 25
     impact: true
     height: 8.25
     width: 7
@@ -175,8 +175,9 @@ ammoTypes: {
     trailColor: c5c93a
     buildingDamageMultiplier: 0.2
     smokeEffect: none
-    splashDamage: 40
-    splashDamageRadius: 32
+    splashDamage: 45
+    splashDamageRadius: 36
+    splashDamagePierce: true
     despawnHit: true
     despawnEffect: none
     hitEffect: [
