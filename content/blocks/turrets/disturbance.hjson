@@ -62,7 +62,7 @@ shootSound: shootScatter
 ammoTypes: {
   uranium: {
     type: BasicBulletType
-    damage: 40
+    damage: 32.5
     pierce: true
     pierceCap: 2
     height: 8.15
