@@ -7,6 +7,7 @@ health: 800
 range: 210
 category: turret
 outlineColor: 323232
+rotateSpeed: 7.5
 recoil: 0.4
 inaccuracy: 2
 cooldownTime: 110
@@ -61,19 +62,19 @@ shootSound: shootScatter
 ammoTypes: {
   uranium: {
     type: BasicBulletType
-    damage: 32.5
+    damage: 40
     pierce: true
     pierceCap: 2
     height: 8.15
     width: 7
     backColor: 12963c
     frontColor: ffffff
-    lifetime: 37
-    speed: 5.75
+    lifetime: 31
+    speed: 7
     trailLength: 5
     trailWidth: 1
     trailColor: 12963c
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.2
     smokeEffect: none
     splashDamage: 12
     splashDamageRadius: 9
