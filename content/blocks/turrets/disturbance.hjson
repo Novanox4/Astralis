@@ -65,7 +65,7 @@ ammoTypes: {
     damage: 32.5
     pierce: true
     pierceCap: 1
-    knockback: 0.5
+    knockback: 1.5
     impact: true
     height: 8.15
     width: 7
