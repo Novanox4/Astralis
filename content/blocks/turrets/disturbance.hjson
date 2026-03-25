@@ -62,6 +62,8 @@ ammoTypes: {
   uranium: {
     type: BasicBulletType
     damage: 32.5
+    pierce: true
+    pierceCap: 2
     height: 8.15
     width: 7
     backColor: 12963c
