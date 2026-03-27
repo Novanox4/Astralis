@@ -272,13 +272,14 @@ ammoTypes: {
   }
 metaglass: {
   type: BasicBulletType
-  damage: 65
+  damage: 75
+  pierce: true
   height: 9.3
   width: 4
   backColor: ebeef5
   frontColor: ffffff
-  lifetime: 21
-  speed: 10
+  lifetime: 16.175
+  speed: 13
   trailLength: 5.5
   reloadMultiplier: 0.65
   trailWidth: 0.5
