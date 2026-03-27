@@ -270,6 +270,100 @@ ammoTypes: {
       }
     ]
   }
+metaglass: {
+  type: BasicBulletType
+  damage: 65
+  height: 9.3
+  width: 4
+  backColor: ebeef5
+  frontColor: ffffff
+  lifetime: 21
+  speed: 10
+  trailLength: 5.5
+  reloadMultiplier: 0.65
+  trailWidth: 0.5
+  trailColor: ebeef5
+  buildingDamageMultiplier: 0.2
+  smokeEffect: none
+  despawnHit: true
+  despawnEffect: none
+  hitEffect: [
+    {
+    type: ParticleEffect
+    colorFrom: ebeef5
+    colorTo: ebeef5
+    interp: pow3Out
+    sizeFrom: 3
+    sizeTo: 0
+    length: 16
+    lifetime: 25
+    particles: 3
+    }
+    {
+    type: ParticleEffect
+    colorFrom: ebeef5
+    colorTo: ebeef5
+    interp: pow3Out
+    line: true
+    lenFrom: 6
+    lenTo: 0
+    strokeFrom: 3.75
+    strokeTo: 0
+    length: 20
+    lifetime: 25
+    particles: 4
+    }
+    {
+    type: WaveEffect
+    colorFrom: ebeef5
+    colorTo: ebeef5
+    interp: pow3Out
+    sizeFrom: 0
+    sizeTo: 8
+    strokeFrom: 2.65
+    strokeTo: 0
+    lifetime: 25
+    }
+  ]
+  shootEffect: [
+    {
+    type: ParticleEffect
+    colorFrom: a12413
+    colorTo: 1a1e26
+    interp: pow5Out
+    sizeFrom: 2
+    sizeTo: 0
+    length: 24
+    lifetime: 24
+    particles: 3
+    cone: 15
+    }
+    {
+    type: ParticleEffect
+    colorFrom: db9e60
+    colorTo: 1a1e26
+    interp: pow5Out
+    sizeFrom: 2
+    sizeTo: 0
+    length: 24
+    lifetime: 24
+    particles: 3
+    cone: 15
+    }
+    {
+    type: ParticleEffect
+    colorFrom: a43131
+    colorTo: 1a1e26
+    interp: pow5Out
+    sizeFrom: 2
+    sizeTo: 0
+    length: 24
+    lifetime: 24
+    particles: 3
+    cone: 15
+    }
+  ]
+}
 }
 squareSprite: false
 coolant: {
