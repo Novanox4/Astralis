@@ -65,7 +65,7 @@ ammoTypes: {
     damage: 32.5
     pierce: true
     pierceCap: 1
-    knockback: 1.5
+    knockback: 2.25
     impact: true
     height: 8.15
     width: 7
@@ -161,7 +161,7 @@ ammoTypes: {
   }
   fulminate: {
     type: BasicBulletType
-    damage: 25
+    damage: 30
     impact: true
     height: 8.25
     width: 7
@@ -272,9 +272,9 @@ ammoTypes: {
   }
 metaglass: {
   type: BasicBulletType
-  damage: 75
+  damage: 70
   pierce: true
-  height: 9.3
+  height: 11
   width: 4
   backColor: ebeef5
   frontColor: ffffff
