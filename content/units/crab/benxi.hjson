@@ -73,3 +73,5 @@ abilities: [
   range: 100
   }
 ]
+research: arachnid-forge
+researchCostMultiplier: 10
