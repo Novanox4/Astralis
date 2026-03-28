@@ -38,7 +38,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: plains
+      preset: offset
     }
   ]
 }
