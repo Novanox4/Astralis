@@ -38,8 +38,8 @@ research: {
   parent: core-fort
   objectives: [
     {
-      type: SectorComplete
-      preset: plains
+      type: OnSector
+      preset: offset
     }
   ]
 }
