@@ -37,8 +37,8 @@ research: {
   parent: automobile-forge
   objectives: [
     {
-      type: SectorComplete
-      preset: plains
+      type: OnSector
+      preset: offset
     }
   ]
 }
