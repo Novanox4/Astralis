@@ -8,7 +8,7 @@ Their technology is more powerful than ours, but that should not pose a problem.
 Research unit forges and capture it quickly."
 sector: 128
 planet: astralis
-difficulty: 2
+difficulty: 3
 research: {
   parent: plains
   objectives: [
