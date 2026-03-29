@@ -53,7 +53,7 @@ drawer: {
     shapes: 2
     radius: 5
     triLength: 10
-    triLengthTo: 0.1
+    triLengthTo: 8
     haloRotation: 70
     layer: 49
     recoilIndex: 0
@@ -69,7 +69,7 @@ drawer: {
     shapes: 2
     radiusTo: 0.1
     triLength: 10
-    triLengthTo: 0.1
+    triLengthTo: 8
     haloRotation: 90
     layer: 49
     recoilIndex: 1
@@ -85,7 +85,7 @@ drawer: {
     shapes: 2
     radius: 5
     triLength: 10
-    triLengthTo: 0.1
+    triLengthTo: 8
     haloRotation: 110
     layer: 49
     recoilIndex: 2
