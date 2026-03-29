@@ -39,7 +39,7 @@ weapons: [
   bullet: {
     type: PointLaserBulletType
     color: 38a6c9
-    damage: 1.75
+    damage: 2.25
     rangeOverride: 80
     hitColor: 38a6c9
     layer: 101
@@ -56,7 +56,7 @@ weapons: [
       colorFrom: ffffff
       colorTo: 38a6c9
       interp: pow3Out
-      particles: 3
+      particles: 4
     }
     }
   }
