@@ -52,7 +52,9 @@ drawer: {
     progress: recoil
     shapes: 2
     radius: 5
+    radiusTo: 0
     triLength: 10
+    triLengthTo: 0
     haloRotation: 70
     layer: 49
     recoilIndex: 0
@@ -67,7 +69,9 @@ drawer: {
     progress: recoil
     shapes: 2
     radius: 5
+    radiusTo: 0
     triLength: 10
+    triLengthTo: 0
     haloRotation: 90
     layer: 49
     recoilIndex: 1
@@ -82,7 +86,9 @@ drawer: {
     progress: recoil
     shapes: 2
     radius: 5
+    radiusTo: 0
     triLength: 10
+    triLengthTo: 0
     haloRotation: 110
     layer: 49
     recoilIndex: 2
