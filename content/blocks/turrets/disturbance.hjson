@@ -46,15 +46,15 @@ drawer: {
     color: db5151
     colorTo: db5151
     tri: true
-    haloRadius: 12.5
+    haloRadius: 6
     haloRadiusTo: 0
     progress: recoil
     shapes: 2
-    stroke: 3.5
-    triLength: 7.5
+    stroke: 4.25
+    triLength: 9
     haloRotation: 90
     layer: 109
-    recoilindex: 1
+    recoilIndex: 1
     }
   ]
 }
