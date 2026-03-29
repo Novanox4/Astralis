@@ -2,7 +2,6 @@ type: ItemTurret
 name: Disturbance
 description: Shoots enemies with a rapid flurry of bullets from three barrels. Can be cooled.
 size: 3
-//showcase purpose
 reload: 28
 health: 800
 range: 210
@@ -95,7 +94,6 @@ drawer: {
 shoot: {
   type: ShootBarrel
   shots: 3
-  //showcase purpose
   shotDelay: 3.75
   barrels: [
     -3.2, -2, 0
