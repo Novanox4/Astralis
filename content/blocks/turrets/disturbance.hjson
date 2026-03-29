@@ -50,7 +50,7 @@ drawer: {
     haloRadiusTo: 0
     progress: recoil
     shapes: 2
-    stroke: 13
+    stroke: 25
     triLength: 13
     haloRotation: 90
     layer: 49
