@@ -49,7 +49,7 @@ drawer: {
     tri: true
     haloRadius: 7.5
     haloRadiusTo: 0
-    progress: smoothRecoil
+    progress: smoothReload
     shapes: 2
     radius: 5
     triLength: 10
@@ -64,7 +64,7 @@ drawer: {
     tri: true
     haloRadius: 7.5
     haloRadiusTo: 0
-    progress: smoothRecoil
+    progress: smoothReload
     shapes: 2
     radius: 5
     triLength: 10
@@ -79,7 +79,7 @@ drawer: {
     tri: true
     haloRadius: 7.5
     haloRadiusTo: 0
-    progress: smoothRecoil
+    progress: smoothReload
     shapes: 2
     radius: 5
     triLength: 10
