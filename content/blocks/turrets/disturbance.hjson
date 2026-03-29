@@ -52,7 +52,6 @@ drawer: {
     progress: recoil
     shapes: 2
     radius: 5
-    radiusTo: 0.1
     triLength: 10
     triLengthTo: 0.1
     haloRotation: 70
@@ -68,7 +67,6 @@ drawer: {
     haloRadiusTo: 0
     progress: recoil
     shapes: 2
-    radius: 5
     radiusTo: 0.1
     triLength: 10
     triLengthTo: 0.1
@@ -86,7 +84,6 @@ drawer: {
     progress: recoil
     shapes: 2
     radius: 5
-    radiusTo: 0.1
     triLength: 10
     triLengthTo: 0.1
     haloRotation: 110
