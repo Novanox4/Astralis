@@ -46,7 +46,7 @@ drawer: {
     color: db5151
     colorTo: db5151
     tri: true
-    haloRadius: 17
+    haloRadius: 12.5
     haloRadiusTo: 0
     progress: recoil
     shapes: 2
