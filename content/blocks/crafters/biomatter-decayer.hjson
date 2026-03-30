@@ -43,3 +43,4 @@ researchCost: [
   uranium/125
   metaglass/300
 ]
+squareSprite: false
