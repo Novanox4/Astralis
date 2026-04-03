@@ -34,7 +34,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -13
+    x: -17.5
     y: 9
     xScl: -1
     y: 0
@@ -70,7 +70,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -13
+    x: -17.5
     y: 4
     xScl: -1
     y: 0
@@ -106,7 +106,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -13
+    x: -17.5
     y: -1
     xScl: -1
     y: 0
