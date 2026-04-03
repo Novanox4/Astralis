@@ -35,7 +35,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -15.5
+    x: -17
     y: 0
     xScl: -1
     rotation: -80
@@ -70,7 +70,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -15.5
+    x: -17
     y: 0
     xScl: -1
     rotation: -40
@@ -105,7 +105,7 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -15.5
+    x: -17
     y: 0
     xScl: -1
     rotation: 0
@@ -285,9 +285,9 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    yScl: 0.11
-    xScl: 0.11
-    growY: -0.22
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
     layerOffset: -0.1
     growProgress: {
       type: reload
@@ -308,9 +308,9 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    yScl: 0.11
-    xScl: 0.11
-    growY: -0.22
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
     layerOffset: 0.1
     growProgress: {
       type: reload
