@@ -31,9 +31,9 @@ weapons: [
     type: RegionPart
     name: erelim-wing
     progress: smoothReload
-    x: 5
+    x: 8
     y: 0
-    rot: 20
+    rot: 40
     moveRot: -40
     }
   ]
@@ -44,6 +44,7 @@ weapons: [
     collides: false
     damage: 0
     despawnEffect: none
+    smokeEffect: none
     hitEffect: none
     shootEffect: none
     }
