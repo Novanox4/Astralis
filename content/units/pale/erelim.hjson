@@ -143,6 +143,7 @@ weapons: [
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
     progress: smoothReload
+    moveX: 0.1
     }
   ]
   bullet: {
