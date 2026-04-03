@@ -29,7 +29,7 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    name: erelim-wing
+    name: "erelim-wing"
     progress: smoothReload
     x: 8
     y: 0
