@@ -6,6 +6,7 @@ health: 1800
 speed: 5.75
 hitSize: 8
 drag: 0.025
+accel: 0.2
 engineSize: 0
 rotateSpeed: 0
 strafePenalty: 1
