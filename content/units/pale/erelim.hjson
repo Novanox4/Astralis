@@ -32,12 +32,12 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: 13
+    x: -13
     y: 4
     xScl: -1
     y: 0
     rot: 0
-    moveRot: -65
+    moveRot: 65
     }
   ]
   bullet: {
