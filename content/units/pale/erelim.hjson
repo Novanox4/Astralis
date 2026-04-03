@@ -34,7 +34,6 @@ weapons: [
     {
     type: RegionPart
     suffix: -ring-down
-    progress: recoil
     x: 0
     y: 0
     yScl: 0.1
@@ -46,7 +45,7 @@ weapons: [
     mixColorTo: f2e9f2ff
     color: f2e9f2ff
     colorTo: f2e9f2
-    moveRot: 0.0001
+    moveY: 0.001
     }
   ]
   bullet: {
