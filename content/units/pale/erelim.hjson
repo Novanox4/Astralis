@@ -32,19 +32,14 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    suffix: -ring-down
+    suffix: -ring-up
     x: 0
-    y: 0.1
-    y: 0
     yScl: 0.1
     xScl: 0.1
     growY: -0.2
-    layerOffset: 0.1
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    color: f2e9f2ff
-    colorTo: f2e9ff
     progress: smoothReload
     }
   ]
