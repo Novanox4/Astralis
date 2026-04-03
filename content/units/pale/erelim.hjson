@@ -21,12 +21,11 @@ drawSoftShadow: false
 weapons: [
   {
   x: 0
-  //first ring down
   y: 0
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 40
+  reload: 30
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -35,6 +34,7 @@ weapons: [
     type: RegionPart
     suffix: -ring-down
     x: 0
+    y: 0.1
     y: 0
     yScl: 0.1
     xScl: 0.1
@@ -44,8 +44,8 @@ weapons: [
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
     color: f2e9f2ff
-    colorTo: f2e9f2
-    moveY: 0.001
+    colorTo: f2e9ff
+    progress: smoothReload
     }
   ]
   bullet: {
