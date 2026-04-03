@@ -131,7 +131,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 20
+  reload: 45
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -169,7 +169,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 20
+  reload: 45
   alwaysShooting: true
   shootSound: none
   rotate: false
