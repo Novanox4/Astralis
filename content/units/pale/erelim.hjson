@@ -37,7 +37,8 @@ weapons: [
     progress: smoothReload
     x: -17
     y: 0
-    xScl: -1
+    xScl: -1.2
+    yScl: 1.2
     rotation: -80
     moveRot: 80
     }
@@ -72,7 +73,8 @@ weapons: [
     progress: smoothReload
     x: -17
     y: 0
-    xScl: -1
+    xScl: -1.2
+    yScl: 1.2
     rotation: -40
     moveRot: 80
     }
@@ -107,7 +109,8 @@ weapons: [
     progress: smoothReload
     x: -17
     y: 0
-    xScl: -1
+    xScl: -1.2
+    yScl: 1.2
     rotation: 0
     moveRot: 80
     }
