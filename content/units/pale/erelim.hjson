@@ -184,7 +184,7 @@ weapons: [
     yScl: 0.1
     xScl: 0.1
     growY: -0.2
-    layerOffset: -0.
+    layerOffset: -0.1
     growProgress: reload
     }
   ]
