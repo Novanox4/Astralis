@@ -20,7 +20,7 @@ weapons: [
   //wing
   x: 0
   y: 0
-  mirror: true
+  mirror: false
   recoil: 0
   reload: 30
   alwaysShooting: true
