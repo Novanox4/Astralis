@@ -6,7 +6,6 @@ health: 1800
 speed: 5.75
 hitSize: 8
 drag: 0.025
-accel: 0.3
 engineSize: 0
 rotateSpeed: 0
 moveSound: shipMove
@@ -24,7 +23,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 34
+  reload: 33.25
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -60,7 +59,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 35
+  reload: 35.334
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -96,7 +95,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 36
+  reload: 37.125
   alwaysShooting: true
   shootSound: none
   rotate: false
