@@ -152,11 +152,7 @@ weapons: [
       ops: [
         {
         op: curve
-        interp: pow3Out
-        }
-        {
-        op: curve
-        interp: pow3In
+        interp: smooth
         }
       ]
     }
@@ -202,11 +198,7 @@ weapons: [
       ops: [
         {
         op: curve
-        interp: pow3Out
-        }
-        {
-        op: curve
-        interp: pow3In
+        interp: smooth
         }
       ]
     }
