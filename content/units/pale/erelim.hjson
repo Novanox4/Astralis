@@ -20,42 +20,6 @@ description: You aren't meant to read this.
 drawSoftShadow: false
 weapons: [
   {
-  x: 0
-  y: 0
-  name: erelim-deco
-  mirror: false
-  recoil: 0
-  reload: 30
-  alwaysShooting: true
-  shootSound: none
-  rotate: false
-  parts: [
-    {
-    type: RegionPart
-    suffix: -ring-up
-    x: 0
-    yScl: 0.1
-    xScl: 0.1
-    growY: -0.2
-    outline: false
-    mixColor: f2e9f2ff
-    mixColorTo: f2e9f2ff
-    progress: smoothReload
-    }
-  ]
-  bullet: {
-    type: BulletType
-    speed: 0
-    lifetime: 0
-    collides: false
-    damage: 0
-    despawnEffect: none
-    smokeEffect: none
-    hitEffect: none
-    shootEffect: none
-    }
-  }
-  {
   //wing L 1
   x: 0
   y: 0
@@ -146,6 +110,42 @@ weapons: [
     xScl: -1
     rotation: 0
     moveRot: 80
+    }
+  ]
+  bullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    damage: 0
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+    shootEffect: none
+    }
+  }
+  {
+  x: 0
+  y: 0
+  name: erelim-deco
+  mirror: false
+  recoil: 0
+  reload: 30
+  alwaysShooting: true
+  shootSound: none
+  rotate: false
+  parts: [
+    {
+    type: RegionPart
+    suffix: -ring-up
+    x: 0
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
+    outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f2ff
+    progress: smoothReload
     }
   ]
   bullet: {
