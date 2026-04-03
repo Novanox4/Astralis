@@ -26,20 +26,19 @@ weapons: [
   mirror: false
   recoil: 0
   reload: 40
-  alwaysShooting: true
+  alwaysShooting: false
   shootSound: none
   rotate: false
   parts: [
     {
     type: RegionPart
-    suffix: -ring-up
-    progress: recoil
+    suffix: -ring-down
+    progress: reload
     x: 0
     y: 0
-    yScl: 0.1
-    xScl: 0.1
-    growY: -0.2
-    rotation: 0
+    yScl: 0.11
+    xScl: 0.11
+    growY: 0.22
     layerOffset: 1
     outline: false
     }
@@ -73,7 +72,7 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -17.5
-    y: 9
+    y: 0
     xScl: -1
     rotation: -80
     moveRot: 80
@@ -108,7 +107,7 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -17.5
-    y: 4
+    y: 0
     xScl: -1
     rotation: -40
     moveRot: 80
@@ -143,7 +142,7 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -17.5
-    y: -1
+    y: 0
     xScl: -1
     rotation: 0
     moveRot: 80
