@@ -3,7 +3,7 @@ flying: true
 lowAltitude: true
 outlineColor: 928096
 health: 1800
-speed: 3.25
+speed: 5.75
 hitSize: 8
 drag: 0.025
 accel: 0.3
