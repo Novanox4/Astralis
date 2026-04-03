@@ -11,6 +11,7 @@ engineSize: 0
 rotateSpeed: 0
 moveSound: shipMove
 faceTarget: false
+drawCell: false
 bounded: false
 name: Erelim
 description: You aren't meant to be here.
@@ -21,14 +22,14 @@ weapons: [
   y: 0
   mirror: true
   recoil: 0
-  reload: 60
+  reload: 30
   alwaysShooting: true
   shootSound: none
   rotate: false
   parts: [
     {
     type: RegionPart
-    suffix: -wing
+    name: "erelim-wing"
     progress: smoothReload
     x: 5
     y: 0
