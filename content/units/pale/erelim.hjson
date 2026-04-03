@@ -36,7 +36,7 @@ weapons: [
     y: 4
     xScl: -1
     y: 0
-    rot: 0
+    rot: 32.5
     moveRot: 65
     }
   ]
