@@ -5,6 +5,7 @@ outlineColor: 928096
 health: 1800
 speed: 5.75
 hitSize: 8
+flyingLayer: 116
 drag: 0.025
 accel: 0.2
 engineSize: 0
@@ -19,8 +20,8 @@ description: You aren't meant to read this.
 drawSoftShadow: false
 weapons: [
   {
-  //ring 1 up
   x: 0
+  //first ring down
   y: 0
   name: erelim-deco
   mirror: false
@@ -33,13 +34,13 @@ weapons: [
     {
     type: RegionPart
     suffix: -ring-down
-    progress: reload
+    progress: recoil
     x: 0
     y: 0
-    yScl: 0.11
-    xScl: 0.11
-    growY: -0.22
-    layerOffset: 1
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
+    layerOffset: 0.1
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
