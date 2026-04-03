@@ -15,7 +15,7 @@ faceTarget: false
 drawCell: false
 bounded: false
 name: Erelim
-description: You aren't meant to be here.
+description: You aren't meant to read this.
 drawSoftShadow: false
 weapons: [
   {
@@ -25,7 +25,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 33.25
+  reload: 40
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -41,6 +41,7 @@ weapons: [
     growY: -0.2
     rotation: 0
     layerOffset: 1
+    outline: false
     }
   ]
   bullet: {
