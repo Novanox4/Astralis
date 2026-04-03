@@ -3,10 +3,10 @@ flying: true
 lowAltitude: true
 outlineColor: 928096
 health: 1800
-speed: 2.75
+speed: 3.25
 hitSize: 8
-drag: 0.03
-accel: 0.25
+drag: 0.025
+accel: 0.3
 engineSize: 0
 rotateSpeed: 0
 moveSound: shipMove
@@ -29,7 +29,7 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    name: "erelim-wing"
+    name: erelim-wing
     progress: smoothReload
     x: 8
     y: 0
