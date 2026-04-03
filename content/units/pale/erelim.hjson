@@ -37,7 +37,7 @@ weapons: [
     y: 4
     xScl: -1
     y: 0
-    rotation: 80
+    rotation: -80
     moveRot: -80
     }
   ]
