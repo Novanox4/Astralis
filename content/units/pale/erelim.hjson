@@ -56,13 +56,13 @@ weapons: [
     }
   }
   {
-  //wing L 2
+  //wing R 2
   x: 0
   y: 0
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 35.334
+  reload: 33.872
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -71,9 +71,9 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -17.5
+    x: 17.5
     y: 0
-    xScl: -1.25
+    xScl: 1.25
     yScl: 1.25
     rotation: -40
     moveRot: 80
@@ -92,13 +92,13 @@ weapons: [
     }
   }
   {
-  //wing L 3
+  //wing R 3
   x: 0
   y: 0
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 37.125
+  reload: 36.568
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -107,9 +107,9 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -17.5
+    x: 17.5
     y: 0
-    xScl: -1.25
+    xScl: 1.25
     yScl: 1.25
     rotation: 0
     moveRot: 80
