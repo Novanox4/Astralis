@@ -124,7 +124,6 @@ weapons: [
     shootEffect: none
     }
   }
-  }
   {
   //ring vertical
   x: 0
