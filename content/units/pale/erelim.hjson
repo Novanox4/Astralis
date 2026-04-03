@@ -38,13 +38,14 @@ weapons: [
     y: 0
     yScl: 0.11
     xScl: 0.11
-    growY: 0.22
+    growY: -0.22
     layerOffset: 1
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
     color: f2e9f2ff
     colorTo: f2e9f2
+    moveRot: 0.0001
     }
   ]
   bullet: {
