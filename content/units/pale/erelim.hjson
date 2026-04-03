@@ -131,7 +131,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 60
+  reload: 45
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -153,7 +153,7 @@ weapons: [
       ops: [
         {
         op: curve
-        interp: smooth2
+        interp: smooth
         }
       ]
     }
@@ -175,7 +175,7 @@ weapons: [
       ops: [
         {
         op: curve
-        interp: smooth2
+        interp: smooth
         }
       ]
     }
