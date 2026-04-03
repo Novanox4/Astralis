@@ -34,7 +34,7 @@ weapons: [
     progress: smoothReload
     x: 13
     y: 4
-    scaleX: 0
+    xScl: -1
     y: 0
     rot: 0
     moveRot: -65
