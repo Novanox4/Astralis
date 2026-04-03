@@ -106,8 +106,8 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -13
-    y: 0
-    xScl: 9
+    y: 9
+    xScl: -1
     y: 0
     rotation: -80
     moveRot: 80
