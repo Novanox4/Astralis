@@ -20,6 +20,7 @@ weapons: [
   //wing
   x: 0
   y: 0
+  name: erelim-deco
   mirror: false
   recoil: 0
   reload: 30
@@ -29,11 +30,11 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    name: erelim-wing
+    suffix: -wing
     progress: smoothReload
-    x: 8
+    x: -8
     y: 0
-    rot: 40
+    rot: 0
     moveRot: -40
     }
   ]
