@@ -33,10 +33,11 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: 13
+    y: 2
     scaleX: -1
     y: 0
     rot: 0
-    moveRot: -40
+    moveRot: -65
     }
   ]
   bullet: {
