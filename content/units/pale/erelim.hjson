@@ -37,8 +37,8 @@ weapons: [
     y: 4
     xScl: -1
     y: 0
-    rotation: 20
-    moveRot: -65
+    rotation: 30
+    moveRot: -75
     }
   ]
   bullet: {
