@@ -24,7 +24,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 25
+  reload: 20
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -37,8 +37,8 @@ weapons: [
     y: 4
     xScl: -1
     y: 0
-    rotation: 30
-    moveRot: -75
+    rotation: 40
+    moveRot: 80
     }
   ]
   bullet: {
