@@ -8,6 +8,7 @@ hitSize: 8
 drag: 0.025
 engineSize: 0
 rotateSpeed: 0
+strafePenalty: 0
 moveSound: shipMove
 faceTarget: false
 drawCell: false
