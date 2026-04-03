@@ -26,7 +26,7 @@ weapons: [
   mirror: false
   recoil: 0
   reload: 40
-  alwaysShooting: false
+  alwaysShooting: true
   shootSound: none
   rotate: false
   parts: [
@@ -41,6 +41,10 @@ weapons: [
     growY: 0.22
     layerOffset: 1
     outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f2ff
+    color: f2e9f2ff
+    colorTo: f2e9f2
     }
   ]
   bullet: {
