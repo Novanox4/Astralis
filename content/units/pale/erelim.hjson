@@ -24,7 +24,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 32.5
+  reload: 34
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -34,10 +34,10 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -13
-    y: 4
+    y: 9
     xScl: -1
     y: 0
-    rotation: -40
+    rotation: -80
     moveRot: 80
     }
   ]
@@ -70,10 +70,10 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -13
-    y: 0
+    y: 4
     xScl: -1
     y: 0
-    rotation: 0
+    rotation: -40
     moveRot: 80
     }
   ]
@@ -96,7 +96,7 @@ weapons: [
   name: erelim-deco
   mirror: false
   recoil: 0
-  reload: 37.5
+  reload: 36
   alwaysShooting: true
   shootSound: none
   rotate: false
@@ -106,10 +106,10 @@ weapons: [
     suffix: -wing
     progress: smoothReload
     x: -13
-    y: 9
+    y: -1
     xScl: -1
     y: 0
-    rotation: -80
+    rotation: 0
     moveRot: 80
     }
   ]
