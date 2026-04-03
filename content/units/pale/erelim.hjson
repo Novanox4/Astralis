@@ -18,7 +18,7 @@ description: You aren't meant to be here.
 drawSoftShadow: false
 weapons: [
   {
-  //wing
+  //wing L 1
   x: 0
   y: 0
   name: erelim-deco
@@ -38,6 +38,42 @@ weapons: [
     xScl: -1
     y: 0
     rotation: -40
+    moveRot: 80
+    }
+  ]
+  bullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    damage: 0
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+    shootEffect: none
+    }
+  }
+  {
+  //wing L 2
+  x: 0
+  y: 0
+  name: erelim-deco
+  mirror: false
+  recoil: 0
+  reload: 35
+  alwaysShooting: true
+  shootSound: none
+  rotate: false
+  parts: [
+    {
+    type: RegionPart
+    suffix: -wing
+    progress: smoothReload
+    x: -13
+    y: 0
+    xScl: -1
+    y: 0
+    rotation: 0
     moveRot: 80
     }
   ]
