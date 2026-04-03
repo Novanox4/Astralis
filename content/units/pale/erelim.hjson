@@ -142,11 +142,10 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    progress: smoothReload
-    moveX: 0.1
     yScl: 0.1
     xScl: 0.1
     growY: -0.2
+    growProgress: reload
     }
   ]
   bullet: {
