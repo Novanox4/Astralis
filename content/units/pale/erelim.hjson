@@ -89,7 +89,8 @@ weapons: [
     shootEffect: none
     }
   }
-  //wing L 2
+  {
+  //wing L 3
   x: 0
   y: 0
   name: erelim-deco
