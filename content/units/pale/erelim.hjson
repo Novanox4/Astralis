@@ -335,4 +335,75 @@ weapons: [
     shootEffect: none
     }
   }
+  {
+  //ring diagonal reverse
+  x: 0
+  y: 0
+  name: erelim-deco
+  mirror: false
+  recoil: 0
+  reload: 72.5
+  alwaysShooting: true
+  shootSound: none
+  rotate: false
+  parts: [
+    {
+    //back
+    type: RegionPart
+    suffix: -ring-down
+    rotation: -45
+    x: 0
+    outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f2ff
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
+    layerOffset: -0.1
+    growProgress: {
+      type: reload
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //front
+    type: RegionPart
+    suffix: -ring-up
+    rotation: -45
+    x: 0
+    outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f2ff
+    yScl: 0.1
+    xScl: 0.1
+    growY: -0.2
+    layerOffset: 0.1
+    growProgress: {
+      type: reload
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+  }
+  ]
+  bullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    damage: 0
+    despawnEffect: none
+    smokeEffect: none
+    hitEffect: none
+    shootEffect: none
+    }
+  }
 ]
