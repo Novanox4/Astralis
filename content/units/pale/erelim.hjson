@@ -144,9 +144,9 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    yScl: 0.08
-    xScl: 0.08
-    growY: -0.16
+    yScl: 0.09
+    xScl: 0.09
+    growY: -0.18
     layerOffset: -0.1
     growProgress: {
       type: reload
@@ -166,9 +166,9 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    yScl: 0.08
-    xScl: 0.08
-    growY: -0.16
+    yScl: 0.09
+    xScl: 0.09
+    growY: -0.18
     layerOffset: 0.1
     growProgress: {
       type: reload
@@ -214,9 +214,9 @@ weapons: [
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
-    yScl: 0.11
-    xScl: 0.11
-    growY: -0.22
+    yScl: 0.09
+    xScl: 0.09
+    growY: -0.18
     layerOffset: -0.1
     growProgress: {
       type: reload
