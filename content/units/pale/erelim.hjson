@@ -33,11 +33,12 @@ weapons: [
     {
     type: RegionPart
     suffix: -ring-up
-    progress: smoothReload
+    progress: reload
     x: 0
     y: 0
     yScl: 0.1
-    growY: 0
+    xScl: 0.1
+    growY: -0.1
     rotation: 0
     layerOffset: 1
     }
