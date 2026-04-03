@@ -32,7 +32,8 @@ weapons: [
     type: RegionPart
     suffix: -wing
     progress: smoothReload
-    x: -8
+    x: 13
+    scaleX: -1
     y: 0
     rot: 0
     moveRot: -40
