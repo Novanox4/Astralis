@@ -147,8 +147,16 @@ weapons: [
     xScl: 0.09
     growY: -0.18
     layerOffset: 0.1
-    growProgress: reload
+    growProgress: {
+      type: reload
+      ops: [
+        {
+        op: curve
+        interp: pow3Out
+        }
+      ]
     }
+  }
   ]
   bullet: {
     type: BulletType
