@@ -27,6 +27,7 @@ weapons: [
   reload: 20
   alwaysShooting: true
   shootSound: none
+  recoilTime: 17.5
   rotate: false
   parts: [
     {
@@ -38,7 +39,7 @@ weapons: [
     xScl: -1
     y: 0
     rotation: 40
-    moveRot: 80
+    moveRot: -80
     }
   ]
   bullet: {
