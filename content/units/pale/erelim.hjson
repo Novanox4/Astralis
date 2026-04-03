@@ -156,7 +156,7 @@ weapons: [
         }
         {
         op: curve
-        interp: sineOut
+        interp: pow3In
         }
       ]
     }
@@ -206,7 +206,7 @@ weapons: [
         }
         {
         op: curve
-        interp: sineOut
+        interp: pow3In
         }
       ]
     }
