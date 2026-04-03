@@ -137,7 +137,7 @@ weapons: [
   parts: [
     {
     type: RegionPart
-    suffix: -ring-up
+    suffix: -wing
     x: 0
     yScl: 0.1
     xScl: 0.1
