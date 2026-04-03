@@ -27,18 +27,17 @@ weapons: [
   reload: 20
   alwaysShooting: true
   shootSound: none
-  recoilTime: 17.5
   rotate: false
   parts: [
     {
     type: RegionPart
     suffix: -wing
-    progress: recoil
+    progress: smoothReload
     x: -13
     y: 4
     xScl: -1
     y: 0
-    rotation: 40
+    rotation: 80
     moveRot: -80
     }
   ]
