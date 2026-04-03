@@ -139,9 +139,6 @@ weapons: [
     type: RegionPart
     suffix: -wing
     x: 0
-    yScl: 0.1
-    xScl: 0.1
-    growY: -0.2
     outline: false
     mixColor: f2e9f2ff
     mixColorTo: f2e9f2ff
