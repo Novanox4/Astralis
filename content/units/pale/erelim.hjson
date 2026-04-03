@@ -15,7 +15,7 @@ drawCell: false
 bounded: false
 name: Erelim
 description: You aren't meant to be here.
-shadowRegion: "erelim-deco-wing"
+drawSoftShadow: false
 weapons: [
   {
   //wing
