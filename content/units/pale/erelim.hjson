@@ -15,6 +15,7 @@ drawCell: false
 bounded: false
 name: Erelim
 description: You aren't meant to be here.
+shadownElevationScl: 0
 weapons: [
   {
   //wing
@@ -36,7 +37,7 @@ weapons: [
     y: 4
     xScl: -1
     y: 0
-    rot: 32.5
+    rot: 65
     moveRot: 65
     }
   ]
