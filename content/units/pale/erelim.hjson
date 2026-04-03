@@ -38,7 +38,7 @@ weapons: [
     xScl: -1
     y: 0
     rot: 65
-    moveRot: 65
+    moveRot: -65
     }
   ]
   bullet: {
