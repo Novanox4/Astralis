@@ -1,0 +1,50 @@
+type: flying
+flying: true
+lowAltitude: true
+outlineColor: 928096
+health: 1800
+speed: 2.75
+hitSize: 8
+drag: 0.03
+accel: 0.25
+engineSize: 0
+rotateSpeed: 0
+moveSound: shipMove
+faceTarget: false
+bounded: false
+name: Erelim
+description: You aren't meant to be here.
+weapons: [
+  {
+  //wing
+  x: 0
+  y: 0
+  mirror: true
+  recoil: 0
+  reload: 60
+  alwaysShooting: true
+  shootSound: none
+  rotate: false
+  parts: [
+    {
+    type: RegionPart
+    suffix: -wing
+    progress: smoothReload
+    x: 5
+    y: 0
+    rot: 20
+    moveRot: -40
+    }
+  ]
+  bullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    damage: 0
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    }
+  }
+]
