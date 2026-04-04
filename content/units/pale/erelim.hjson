@@ -18,11 +18,36 @@ bounded: false
 name: Erelim
 description: You aren't meant to read this.
 drawSoftShadow: false
+moveSound: loopThoriumReactor
+moveSoundColume: 1.25
 weapons: [
+  {
+  x: 0
+  y: 8
+  rotate: true
+  shootY: 0
+  reload: 75
+  shootSound: acceleratorLightning1
+  shoot: {
+    shots: 3
+    shotDelay: 7.5
+  }
+  bullet: {
+    type: BasicBulletType
+    backColor: f2e9f2
+    frontColor: f2e9f2
+    speed: 8
+    lifetime: 60
+    height: 30
+    width: 4
+    damage: 60
+    }
+  }
   {
   //wing R 1
   x: 0
   y: 0
+  //somehow, parts do not work without this useless sprite
   name: erelim-deco
   mirror: false
   recoil: 0
