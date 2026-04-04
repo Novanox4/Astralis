@@ -34,8 +34,8 @@ weapons: [
   bullet: {
     type: ExplosionBulletType
     splashDamage: 50
-    splashDamageRadius: 180
-    rangeOverride: 179
+    splashDamageRadius: 160
+    rangeOverride: 155
     killShooter: false
     shootEffect: none
     despawnEffect: none
@@ -44,6 +44,74 @@ weapons: [
   name: erelim-deco
   mirror: false
   parts: [
+    {
+    //back 2
+    type: RegionPart
+    suffix: -ring-down
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: -0.1
+    rotation: 90
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //front 2
+    type: RegionPart
+    suffix: -ring-up
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: 0.1
+    rotation: 90
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
     {
     //back 1
     type: RegionPart
