@@ -33,7 +33,6 @@ weapons: [
     splashDamage: 50
     splashDamageRadius: 500
     rangeOverride: 300
-    }
   }
   name: erelim-deco
   mirror: false
@@ -83,6 +82,7 @@ weapons: [
     }
   }
   ]
+  }
   {
   //wing R 1
   x: 0
