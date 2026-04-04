@@ -34,7 +34,7 @@ weapons: [
   shootSound: bell
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 50
+    splashDamage: 125
     splashDamageRadius: 160
     rangeOverride: 155
     killShooter: false
