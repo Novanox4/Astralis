@@ -65,7 +65,6 @@ weapons: [
       fragOffsetMin: 0
       fragOffsetMax: 0
       fragBullet: {
-        {
         type: BasicBulletType
         height: 8
         width: 8
