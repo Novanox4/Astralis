@@ -75,7 +75,10 @@ weapons: [
         lifetime: 120
         speed: 4
         pierce: true
-        followAimSpeed: 1
+        followAimSpeed: 2.25
+        shrinkY: 0
+        despawnEffect: none
+        despawnHit: true
         hitEffect: [
           {
           type: WaveEffect
