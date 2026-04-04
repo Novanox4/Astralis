@@ -100,7 +100,6 @@ weapons: [
       }
     }
   }
-  }
   name: erelim-deco
   mirror: false
   parts: [
