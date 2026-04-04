@@ -72,8 +72,8 @@ weapons: [
         backColor: f2e9f2
         frontColor: f2e9f2
         damage: 30
-        lifetime: 120
-        speed: 4
+        lifetime: 60
+        speed: 8
         pierce: true
         followAimSpeed: 2.25
         shrinkY: 0
