@@ -23,9 +23,9 @@ moveSoundColume: 1.25
 weapons: [
   {
   x: 0
-  y: 16
+  y: 0
   rotate: true
-  shootY: 4
+  shootY: 0
   reload: 180
   shootSound: astralis-bell
   bullet: {
@@ -33,6 +33,7 @@ weapons: [
     splashDamage: 50
     splashDamageRadius: 500
     rangeOverride: 300
+    killShooter: false
   }
   name: erelim-deco
   mirror: false
@@ -50,7 +51,7 @@ weapons: [
     growY: -1
     layerOffset: -0.1
     growProgress: {
-      type: reload
+      type: recoil
       ops: [
         {
         op: curve
@@ -72,7 +73,7 @@ weapons: [
     growY: -1
     layerOffset: 0.1
     growProgress: {
-      type: reload
+      type: recoil
       ops: [
         {
         op: curve
