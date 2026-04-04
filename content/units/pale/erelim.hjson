@@ -34,7 +34,7 @@ weapons: [
   bullet: {
     type: ExplosionBulletType
     splashDamage: 50
-    splashDamageRadius: 500
+    splashDamageRadius: 350
     rangeOverride: 300
     killShooter: false
     shootEffect: none
@@ -54,9 +54,9 @@ weapons: [
     colorTo: f2e9f2ff
     mixColor: f2e9f200
     mixColorTo: f2e9f2ff
-    yScl: 0.5
-    xScl: 0.5
-    growY: -1
+    yScl: 1
+    xScl: 1
+    growY: -2
     layerOffset: -0.1
     growProgress: {
       type: recoil
@@ -87,9 +87,9 @@ weapons: [
     colorTo: f2e9f2ff
     mixColor: f2e9f200
     mixColorTo: f2e9f2ff
-    yScl: 0.5
-    xScl: 0.5
-    growY: -1
+    yScl: 1
+    xScl: 1
+    growY: -2
     layerOffset: 0.1
     growProgress: {
       type: recoil
