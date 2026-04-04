@@ -32,7 +32,7 @@ weapons: [
   recoil: 0
   recoilTime: 60
   shootSound: bell
-  shootSoundVolume: 2
+  shootSoundVolume: 1.5
   bullet: {
     type: ExplosionBulletType
     splashDamage: 125
@@ -52,7 +52,7 @@ weapons: [
     fragBullet: {
       type: BulletType
       lifetime: 1
-      speed: 36
+      speed: 48
       shootEffect: none
       despawnEffect: none
       hitEffect: none
@@ -78,7 +78,7 @@ weapons: [
         damage: 25
         pierceBuilding: true
         lifetime: 60
-        speed: 8
+        speed: 9
         pierce: true
         followAimSpeed: 10
         shrinkY: 0
@@ -111,6 +111,142 @@ weapons: [
   name: erelim-deco
   mirror: false
   parts: [
+    {
+    //back 4
+    type: RegionPart
+    suffix: -ring-down
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: -0.1
+    rotation: -45
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //front 4
+    type: RegionPart
+    suffix: -ring-up
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: 0.1
+    rotation: -45
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //back 3
+    type: RegionPart
+    suffix: -ring-down
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: -0.1
+    rotation: 45
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //front 3
+    type: RegionPart
+    suffix: -ring-up
+    x: 0
+    outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
+    yScl: 1
+    xScl: 1
+    growY: -2
+    layerOffset: 0.1
+    rotation: 45
+    growProgress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    progress: {
+      type: recoil
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
     {
     //back 2
     type: RegionPart
