@@ -29,13 +29,16 @@ weapons: [
   shootY: 0
   reload: 180
   recoil: 0
-  shootSound: astralis-bell
+  recoilTime: 60
+  shootSound: bell
   bullet: {
     type: ExplosionBulletType
     splashDamage: 50
     splashDamageRadius: 500
     rangeOverride: 300
     killShooter: false
+    shootEffect: none
+    despawnEffect: none
   }
   name: erelim-deco
   mirror: false
@@ -46,6 +49,8 @@ weapons: [
     suffix: -ring-down
     x: 0
     outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
     mixColor: f2e9f200
     mixColorTo: f2e9f2ff
     yScl: 0.5
@@ -68,6 +73,8 @@ weapons: [
     suffix: -ring-up
     x: 0
     outline: false
+    color: f2e9f200
+    colorTo: f2e9f2ff
     mixColor: f2e9f200
     mixColorTo: f2e9f2ff
     yScl: 0.5
