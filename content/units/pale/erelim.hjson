@@ -34,8 +34,8 @@ weapons: [
   bullet: {
     type: ExplosionBulletType
     splashDamage: 50
-    splashDamageRadius: 248
-    rangeOverride: 300
+    splashDamageRadius: 180
+    rangeOverride: 179
     killShooter: false
     shootEffect: none
     despawnEffect: none
