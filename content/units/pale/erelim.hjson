@@ -69,13 +69,16 @@ weapons: [
         height: 8
         width: 8
         sprite: "circle-bullet"
+        trailColor: f2e9f2  
+        trailLength: 20
+        trailWidth: 3.75
         backColor: f2e9f2
         frontColor: f2e9f2
         damage: 30
         lifetime: 60
         speed: 8
         pierce: true
-        followAimSpeed: 2.25
+        followAimSpeed: 9999
         shrinkY: 0
         despawnEffect: none
         despawnHit: true
@@ -91,11 +94,11 @@ weapons: [
           {
           type: ParticleEffect
           colorTo: f2e9f2
-          sizeFrom: 5.75
-          sizeChangeStart: 80
+          sizeFrom: 9
+          sizeChangeStart: 45
           interp: pow10Out
           sizeInterp: pow3Out
-          lifetime: 120
+          lifetime: 100
           length: 40
           particles: 9
           }
