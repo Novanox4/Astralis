@@ -23,7 +23,7 @@ moveSoundColume: 1.25
 weapons: [
   {
   x: 0
-  y: 8
+  y: 16
   rotate: true
   shootY: 0
   reload: 75
@@ -31,16 +31,29 @@ weapons: [
   shoot: {
     shots: 3
     shotDelay: 7.5
+    firstShotDelay: 30
   }
   bullet: {
     type: BasicBulletType
     backColor: f2e9f2
     frontColor: f2e9f2
-    speed: 8
+    speed: 10
     lifetime: 60
-    height: 30
-    width: 4
+    height: 50
+    width: 2.75
     damage: 60
+    shootEffect: [
+      {
+      type: ParticleEffect
+      particles: 6
+      colorFrom: f2e9f2
+      colorTo: f2e9f2
+      sizeFrom: 7
+      lifetime: 45
+      length: 20
+      interp: pow5Out
+      keepVelocity: false
+      }
     }
   }
   {
