@@ -24,7 +24,8 @@ weapons: [
   {
   x: 0
   y: 0
-  rotate: true
+  rotate: false
+  shootCone: 361
   shootY: 0
   reload: 180
   shootSound: astralis-bell
@@ -44,8 +45,8 @@ weapons: [
     suffix: -ring-down
     x: 0
     outline: false
-    mixColor: f2e9f2ff
-    mixColorTo: f2e9f200
+    mixColor: f2e9f200
+    mixColorTo: f2e9f2ff
     yScl: 0.5
     xScl: 0.5
     growY: -1
@@ -66,7 +67,7 @@ weapons: [
     suffix: -ring-up
     x: 0
     outline: false
-    mixColor: f2e9f2ff
+    mixColor: f2e9f200
     mixColorTo: f2e9f2ff
     yScl: 0.5
     xScl: 0.5
