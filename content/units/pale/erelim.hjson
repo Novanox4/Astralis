@@ -78,7 +78,7 @@ weapons: [
         lifetime: 60
         speed: 8
         pierce: true
-        followAimSpeed: 9999
+        followAimSpeed: 10
         shrinkY: 0
         despawnEffect: none
         despawnHit: true
