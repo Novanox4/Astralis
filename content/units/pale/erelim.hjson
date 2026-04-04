@@ -4,7 +4,7 @@ lowAltitude: true
 outlineColor: 928096
 health: 2800
 armor: 45
-speed: 5.75
+speed: 6.5
 hitSize: 8
 flyingLayer: 116
 drag: 0.025
