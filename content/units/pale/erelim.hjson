@@ -32,6 +32,7 @@ weapons: [
   recoil: 0
   recoilTime: 60
   shootSound: bell
+  shootSoundVolume: 2
   bullet: {
     type: ExplosionBulletType
     splashDamage: 125
