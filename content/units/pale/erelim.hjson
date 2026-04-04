@@ -28,6 +28,7 @@ weapons: [
   shootCone: 361
   shootY: 0
   reload: 180
+  recoil: 0
   shootSound: astralis-bell
   bullet: {
     type: ExplosionBulletType
@@ -38,7 +39,7 @@ weapons: [
   }
   name: erelim-deco
   mirror: false
-    parts: [
+  parts: [
     {
     //back
     type: RegionPart
