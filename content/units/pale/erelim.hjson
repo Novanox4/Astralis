@@ -39,12 +39,13 @@ weapons: [
     killShooter: false
     shootEffect: none
     despawnEffect: none
+    hitEffect: none
   }
   name: erelim-deco
   mirror: false
   parts: [
     {
-    //back
+    //back 1
     type: RegionPart
     suffix: -ring-down
     x: 0
@@ -77,7 +78,7 @@ weapons: [
     }
     }
     {
-    //front
+    //front 1
     type: RegionPart
     suffix: -ring-up
     x: 0
