@@ -26,39 +26,63 @@ weapons: [
   y: 16
   rotate: true
   shootY: 4
-  reload: 75
-  shootSound: acceleratorLightning1
-  shoot: {
-    shots: 3
-    shotDelay: 7.5
-    firstShotDelay: 30
-  }
+  reload: 180
+  shootSound: astralis-bell
   bullet: {
-    type: BasicBulletType
-    backColor: f2e9f2
-    frontColor: f2e9f2
-    speed: 10
-    lifetime: 60
-    height: 55
-    width: 2.25
-    damage: 60
-    smokeEffect: none
-    keepVelocity: false
-    shrinkY: 0
-    shootEffect: [
-      {
-      type: ParticleEffect
-      particles: 6
-      colorFrom: f2e9f2
-      colorTo: f2e9f2
-      sizeFrom: 7
-      lifetime: 45
-      length: 20
-      interp: pow5Out
-      }
-    ]
+    type: ExplosionBulletType
+    splashDamage: 50
+    splashDamageRadius: 500
+    rangeOverride: 300
     }
   }
+  name: erelim-deco
+  mirror: false
+    parts: [
+    {
+    //back
+    type: RegionPart
+    suffix: -ring-down
+    x: 0
+    outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f200
+    yScl: 0.5
+    xScl: 0.5
+    growY: -1
+    layerOffset: -0.1
+    growProgress: {
+      type: reload
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+    }
+    {
+    //front
+    type: RegionPart
+    suffix: -ring-up
+    x: 0
+    outline: false
+    mixColor: f2e9f2ff
+    mixColorTo: f2e9f2ff
+    yScl: 0.5
+    xScl: 0.5
+    growY: -1
+    layerOffset: 0.1
+    growProgress: {
+      type: reload
+      ops: [
+        {
+        op: curve
+        interp: smooth
+        }
+      ]
+    }
+  }
+  ]
   {
   //wing R 1
   x: 0
