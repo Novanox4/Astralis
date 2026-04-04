@@ -74,7 +74,8 @@ weapons: [
         trailWidth: 3.75
         backColor: f2e9f2
         frontColor: f2e9f2
-        damage: 30
+        damage: 25
+        pierceBuilding: true
         lifetime: 60
         speed: 8
         pierce: true
