@@ -41,6 +41,66 @@ weapons: [
     shootEffect: none
     despawnEffect: none
     hitEffect: none
+    fragBullets: 8
+    fragOnHit: false
+    fragRandomSpread: 0
+    fragSpread: 40
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullet: {
+      type: BulletType
+      lifetime: 1
+      speed: 36
+      shootEffect: none
+      despawnEffect: none
+      hitEffect: none
+      damage: 0
+      collides: false
+      fragBullets: 1
+      fragOnHit: false
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragVelocityMin: 1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragBullet: {
+        {
+        type: BasicBulletType
+        height: 8
+        width: 8
+        sprite: "circle-bullet"
+        backColor: f2e9f2
+        frontColor: f2e9f2
+        damage: 30
+        lifetime: 120
+        speed: 4
+        pierce: true
+        followAimSpeed: 1
+        hitEffect: [
+          {
+          type: WaveEffect
+          colorTo: f2e9f2
+          sizeTo: 30
+          strokeFrom: 1
+          lifetime: 45
+          interp: pow3Out
+          }
+          {
+          type: ParticleEffect
+          colorTo: f2e9f2
+          sizeFrom: 5.75
+          sizeChangeStart: 80
+          interp: pow10Out
+          sizeInterp: pow3Out
+          lifetime: 120
+          length: 40
+          particles: 9
+          }
+        ]
+      }
+    }
+  }
   }
   name: erelim-deco
   mirror: false
