@@ -42,6 +42,9 @@ weapons: [
     height: 50
     width: 2.75
     damage: 60
+    smokeEffect: none
+    keepVelocity: false
+    shrinkY: 0
     shootEffect: [
       {
       type: ParticleEffect
@@ -52,7 +55,6 @@ weapons: [
       lifetime: 45
       length: 20
       interp: pow5Out
-      keepVelocity: false
       }
     }
   }
