@@ -56,7 +56,7 @@ weapons: [
       length: 20
       interp: pow5Out
       }
-    }
+    ]
   }
   {
   //wing R 1
