@@ -166,7 +166,6 @@ contentOrder: [
   murky-water-deep
   murky-water
   
-  
   shoreline-wall
   shoreline-floor
   shoreline-floor-medium
@@ -183,6 +182,11 @@ contentOrder: [
   nocturnal-moss-wall
   nocturnal-moss-floor
   nocturnal-shrub
+
+  limestone-wall
+  limestone
+  limestone-chunks
+  limestone-crater
 
   overgrown-wall
   overgrown-floor
