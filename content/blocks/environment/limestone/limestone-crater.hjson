@@ -1,3 +1,4 @@
 type: floor
 variants: 3
 name: Limestone Crater
+blendGroup: limestone-chunk
