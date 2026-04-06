@@ -4,7 +4,7 @@ fullLightColor: d3c6c0
 size: 1
 health: 125
 consumes: {
-  powerBuffered: 250
+  powerBuffered: 500
     }
 research: water-turbine
 requirements: [
