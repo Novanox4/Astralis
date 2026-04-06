@@ -33,7 +33,7 @@ explodeSound: blockExplodeExplosiveAlt
 explodeOnFull: true
 outputLiquid: biofuel/0.3
 liquidCapacity: 100
-warmupRate: 0.015
+warmupRate: 0.025
 category: power
 squareSprite: false
 drawer: [
