@@ -10,7 +10,7 @@ recoil: 0.4
 recoils: 7
 warmupMaintainTime: 240
 minWarmup: 0.975
-shootWarmupSpeed: 0.025
+shootWarmupSpeed: 0.05
 inaccuracy: 8
 cooldownTime: 120
 ammoPerShot: 1
