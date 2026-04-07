@@ -884,3 +884,8 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+  type: RegenAbility
+  amount: 0.1
+  percentAmount: 0.01388
