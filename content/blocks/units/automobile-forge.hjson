@@ -5,8 +5,8 @@ configurable: true
 size: 3
 category: units
 consumes: {
-  power: 1
-  liquid: nitrogen/0.45
+  power: 1.5
+  liquid: nitrogen/0.375
     }
 plans: [
   {
