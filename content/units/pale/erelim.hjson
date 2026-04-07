@@ -891,3 +891,4 @@ abilities: [
   percentAmount: 0.01388
   }
 ]
+healFlash: false
