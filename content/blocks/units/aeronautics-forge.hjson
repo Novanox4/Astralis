@@ -6,7 +6,7 @@ size: 3
 category: units
 consumes: {
   power: 2.5
-  liquid: nitrogen/0.3
+  liquid: nitrogen/0.25
     }
 plans: [
   {
