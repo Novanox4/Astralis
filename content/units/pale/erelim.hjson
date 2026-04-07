@@ -889,3 +889,5 @@ abilities: [
   type: RegenAbility
   amount: 0.02
   percentAmount: 0.01388
+  }
+]
