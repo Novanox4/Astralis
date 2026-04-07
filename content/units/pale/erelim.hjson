@@ -35,9 +35,10 @@ weapons: [
   shootSoundVolume: 1.5
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 125
+    splashDamage: 100
     splashDamageRadius: 160
     rangeOverride: 155
+    scaledSplashDamage: true
     killShooter: false
     shootEffect: none
     despawnEffect: none
