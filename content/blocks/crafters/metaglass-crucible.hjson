@@ -1,6 +1,6 @@
 type: HeatCrafter
 name: Metaglass Crucible
-description: Produces metaglass. Requires heat. Outputs char chunks, which must be removed to prevemt clogs.
+description: Produces metaglass. Requires heat. Outputs char chunks, which must be removed to prevent clogs.
 requirements: [
   crystalite/40
   silver/45
