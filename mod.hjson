@@ -15,12 +15,14 @@ CREDITS:
 NV-NX - Main dev and spriter
 Haznobrain - Occasional sprite and code help. Making music.
 
+[272e33]It takes my heart being broken and broken again to realize I am the reason the sufferings never end.
+
 '''
-subtitle: "THE SWARM"
+subtitle: "Imbrued apathy."
 author: "NV-NX, Haznobrain (FULL CREDITS IN DESC.)"
 version: 0.0.1
 repo: "Novanox4/Astralis"
-minGameVersion: 155.3
+minGameVersion: 156.1
 
 //"Every mod.hjson must die" - Erlking Anuke
 contentOrder: [
