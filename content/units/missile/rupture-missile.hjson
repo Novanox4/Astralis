@@ -57,6 +57,7 @@ weapons: [
       shootEffect: none
       hitEffect: none
       despawnEffect: none
+      buildingDamageMultiplier: 0.15
     }
   } 
 ]
