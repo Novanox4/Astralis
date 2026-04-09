@@ -21,7 +21,7 @@ subtitle: "Imbrued apathy."
 author: "NV-NX, Haznobrain (FULL CREDITS IN DESC.)"
 version: 0.0.1
 repo: "Novanox4/Astralis"
-minGameVersion: 156.1
+minGameVersion: 157
 
 //"Every mod.hjson must die" - Erlking Anuke
 contentOrder: [
