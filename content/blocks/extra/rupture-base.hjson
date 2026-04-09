@@ -13,3 +13,4 @@ requirements: [
 name: Rupture
 unitBuildTime: 0
 polyColor: ffffff00
+priority: 3
