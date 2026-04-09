@@ -18,7 +18,7 @@ requirements: [
   uranium/120
   metaglass/60
 ]
-rotateSpeed: 2.5
+rotateSpeed: 5
 targetAir: false
 shootSound: shootRipple
 ammoUseEffect: {
