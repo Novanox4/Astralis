@@ -2,7 +2,7 @@ type: ItemTurret
 name: Ahtum
 description: Shoots a powerful flame and a volley of bullets. Uses heat.
 size: 3
-reload: 115
+reload: 105
 range: 110
 category: turret
 outlineColor: 323232
@@ -426,7 +426,7 @@ fulminate: {
   fragBullet: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    knockback: 15
+    knockback: 20
     impact: true
     lifetime: 12.5
     drawFlare: false
