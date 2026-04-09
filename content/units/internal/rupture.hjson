@@ -126,7 +126,7 @@ weapons: [
   recoilTime: 3.25
   shootWarmupSpeed: 0.025
   shootSoundVolume: 0.325
-  inaccuracy: 1
+  inaccuracy: 3
   targetInterval: 60
   targetSwitchInterval: 100
   bullet: {
@@ -134,7 +134,7 @@ weapons: [
     speed: 10
     height: 11
     width: 8
-    lifetime: 210
+    lifetime: 120
     backColor: cc7647
     frontColor: edbf7e
     trailColor: cc7627
