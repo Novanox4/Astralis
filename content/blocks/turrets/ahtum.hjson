@@ -426,7 +426,7 @@ fulminate: {
   fragBullet: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    knockback: 12
+    knockback: 15
     impact: true
     lifetime: 12.5
     drawFlare: false
@@ -461,6 +461,8 @@ fulminate: {
       fragBullet: {
         type: BasicBulletType
         height: 10
+        knockback: 2.5
+        impact: true
         width: 5
         layer: 99
         backColor: c5c93a
