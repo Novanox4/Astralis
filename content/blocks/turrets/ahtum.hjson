@@ -426,7 +426,7 @@ fulminate: {
   fragBullet: {
     type: ContinuousFlameBulletType
     collidesAir: false
-    knockback: 2
+    knockback: 6
     impact: true
     lifetime: 12.5
     drawFlare: false
