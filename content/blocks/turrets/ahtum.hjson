@@ -434,7 +434,7 @@ fulminate: {
     width: 5
     length: 130
     hitColor: c5c93a
-    damage: 0.1
+    damage: 1.5
     status: immolated
     statusDuration: 30
     shootEffect: none
@@ -461,8 +461,9 @@ fulminate: {
       fragBullet: {
         type: BasicBulletType
         height: 10
-        knockback: 2.5
+        knockback: 3
         impact: true
+        pierce: true
         width: 5
         layer: 99
         backColor: c5c93a
