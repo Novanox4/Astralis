@@ -12,6 +12,7 @@ ammoPerShot: 8
 maxAmmo: 40
 heatRequirement: 8
 maxHeatEfficiency: 3
+predictTarget: false
 requirements: [
   crystalite/80
   uranium/120
@@ -373,7 +374,7 @@ ammoTypes: {
 fulminate: {
   type: BulletType
   reloadMultiplier: 1.2
-  colldies: false
+  collides: false
   damage: 0
   lifetime: 0
   hittable: false
@@ -425,6 +426,8 @@ fulminate: {
   fragBullet: {
     type: ContinuousFlameBulletType
     collidesAir: false
+    knockback: 2
+    impact: true
     lifetime: 12.5
     drawFlare: false
     colors: [b082038c, b5ac10b2, c5c93acc, ffffffcc, ffffffff]
