@@ -93,6 +93,7 @@ drawer: {
 ammoTypes: {
   char-chunks: {
     type: ContinuousFlameBulletType
+    reloadMultiplier: 0.85
     collidesAir: false
     lifetime: 12
     drawFlare: false
@@ -371,7 +372,7 @@ ammoTypes: {
 }
 fulminate: {
   type: BulletType
-  reloadMultiplier: 0.825
+  reloadMultiplier: 1.2
   colldies: false
   damage: 0
   lifetime: 0
