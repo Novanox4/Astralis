@@ -10,7 +10,7 @@ recoil: 1
 cooldownTime: 120
 ammoPerShot: 8
 maxAmmo: 40
-heatRequirement: 7
+heatRequirement: 8
 maxHeatEfficiency: 3
 requirements: [
   crystalite/80
