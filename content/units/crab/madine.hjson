@@ -31,10 +31,9 @@ mirror: false
 shootEffect: none
 shootStatus: madine-weak
 shootStatusDuration: 6
-rotateSpeed: 250
-//say not a word about this
-targetInterval: 6
-targetSwitchInterval: 7
+rotateSpeed: 35
+targetInterval: 1
+targetSwitchInterval: 1
 bullet: {
   type: ShrapnelBulletType
   length: 40
