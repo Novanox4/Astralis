@@ -13,6 +13,8 @@ armor: 4
 hovering: true
 armor: 2
 baseLegStraightness: 0
+targetAir: false
+targetGround: false
 weapons: [
 {
 name: madine-weapon
