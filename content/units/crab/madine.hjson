@@ -5,6 +5,7 @@ legLength: 21
 legBaseOffset: 2
 legExtension: -2.5
 name: Madine
+rotateSpeed: 7.5
 description: Close range rushdown unit. Faster while attacking, can't target units. Fragile while attacking.
 databaseTag: "astralis-unit-tier-2"
 flying: false
@@ -31,9 +32,9 @@ mirror: false
 shootEffect: none
 shootStatus: madine-weak
 shootStatusDuration: 6
-rotateSpeed: 35
-targetInterval: 1
-targetSwitchInterval: 1
+teSpeed: 40
+targetInterval: 0.1
+targetSwitchInterval: 0.11
 bullet: {
   type: ShrapnelBulletType
   length: 40
