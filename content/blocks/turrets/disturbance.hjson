@@ -422,3 +422,12 @@ coolant: {
   amount: 0.225
 }
 coolantMultiplier: 5
+research: {
+  parent: agitation
+  objectives: [
+    {
+    type: OnSector
+    preset: offset
+    }
+  ]
+}
