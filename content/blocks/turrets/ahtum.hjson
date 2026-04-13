@@ -12,6 +12,8 @@ ammoPerShot: 8
 maxAmmo: 40
 heatRequirement: 8
 maxHeatEfficiency: 3
+research: disturbance
+researchCostMultiplier: 0.5
 predictTarget: false
 requirements: [
   crystalite/80
