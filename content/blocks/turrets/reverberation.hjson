@@ -8,6 +8,8 @@ category: turret
 outlineColor: 323232
 recoil: 0.4
 recoils: 7
+research: disturbance
+researchCostMultiplier: 0.5
 warmupMaintainTime: 240
 minWarmup: 0.975
 shootWarmupSpeed: 0.05
