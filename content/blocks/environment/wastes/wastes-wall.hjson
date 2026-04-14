@@ -1,2 +1,5 @@
 type: StaticWall
 name: Wastes Wall
+attributes: {
+  char: 1
+}
