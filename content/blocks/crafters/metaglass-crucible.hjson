@@ -55,7 +55,7 @@ drawer: [
 maxEfficiency: 2
 outputItems: [
   metaglass/3
-  char-chunks/2
+  char-chunks/1
 ]
 consumes: {
   power: 3
