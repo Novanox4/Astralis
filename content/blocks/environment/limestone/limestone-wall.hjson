@@ -1,5 +1,5 @@
 type: StaticWall
 name: Limestone
 attributes: {
-  char: 0.25
+  char: 1
 }
