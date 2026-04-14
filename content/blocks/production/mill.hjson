@@ -34,3 +34,12 @@ research: {
     }
   ]
 }
+boostItemUseTime: 120
+itemBoostIntensity: 2
+itemConsumer: {
+  item: {
+    item: graphite
+    optional: true
+    boost: true
+  }
+}
