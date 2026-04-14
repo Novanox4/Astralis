@@ -54,3 +54,12 @@ bullet: {
 speed: 1.2
 hitSize: 11.75
 outlineColor: 323232
+research: {
+  parent: benxi
+  objectives: [  
+    {
+    type: SectorComplete
+    preset: offset
+    }
+  ]
+}
