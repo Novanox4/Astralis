@@ -7,9 +7,9 @@ requirements: [
 ]
 name: Mill
 description: Uses spinning drills to extract char chunks from walls.
-drillTime: 75
+drillTime: 120
 consumes: {
-  power: 4
+  power: 5.5
   liquids: [
     nitrogen/0.25
   ]
