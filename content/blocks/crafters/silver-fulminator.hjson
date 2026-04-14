@@ -88,3 +88,12 @@ updateEffect: [
 ]
 category: crafting
 squareSprite: false
+research: {
+  parent: cryogenic-distiller
+  objectives: [
+    {
+    type: OnSector
+    preset: explosive-armaments-facility
+    }
+  ]
+}
