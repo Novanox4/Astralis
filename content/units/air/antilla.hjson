@@ -95,3 +95,12 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: izalco
+  objectives: [  
+    {
+    type: SectorComplete
+    preset: explosive-armaments-facility
+    }
+  ]
+}
