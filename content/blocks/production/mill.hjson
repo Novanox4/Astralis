@@ -1,0 +1,36 @@
+type: WallCrafter
+category: production
+requirements: [
+  crystalite/45
+  uranium/80
+  metaglass/50
+]
+name: Mill
+description: Uses spinning drills to extract char chunks from walls.
+drillTime: 30
+consumes: {
+  power: 4
+  liquids: [
+    nitrogen/0.25
+  ]
+}
+size: 3
+output: char-chunks
+attribute: char
+researchCost: [
+  crystalite/550
+  uranium/1200
+  metaglass/450
+  silver/600
+]
+rotateSpeed: 10
+itemCapacity: 60
+research: {
+  parent: pulse-bore
+  objectives: [
+    {
+    type: SectorComplete
+    preset: explosive-armaments-facility
+    }
+  ]
+}
