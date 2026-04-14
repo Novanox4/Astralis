@@ -16,7 +16,7 @@ After, use the newfound space and resources to produce silver fulminate as ammun
 In this sector, an artifice called Rupture can also be found. It will periodically launch missiles and bullets if near enough. It is found in the leftmost base near the top. [accent]The missiles are drastically weaker against walls, and can also be deflected using the core unit.[]"
 sector: 92
 planet: astralis
-difficulty: 7
+difficulty: 8
 research: {
   parent: offset
   objectives: [
