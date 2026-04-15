@@ -60,19 +60,5 @@ outputItems: [
 category: crafting
 squareSprite: false
 hasLiquids: true
-craftEffect: {
-  type: RadialEffect
-  lengthOffset: 16
-  rotationOffset: 45
-  effect: {
-    type: ParticleEffect
-    cone: 17.5
-    colorFrom: c28d57d9
-    colorTo: c28d57bf
-    sizeFrom: 3
-    sizeInterp: linear
-    interp: pow3Out
-    length: 20
-    particles: 8
-  }
-}
+ambientSound: loopGrind
+ambientSoundVolume: 0.6
