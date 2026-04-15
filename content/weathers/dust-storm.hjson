@@ -4,8 +4,8 @@ color: 362f29ff
 padding: 0
 xspeed: 7
 yspeed: -25
-minAlpha: 0.2
-maxAlpha: 0.55
+minAlpha: 0.1
+maxAlpha: 0.3
 sizeMin: 100
 sizeMax: 400
 density: 1000
