@@ -34,3 +34,5 @@ research: {
     }
   ]
 }
+ambientSound: loopCutter
+ambientSoundVolume: 0.03
