@@ -16,19 +16,19 @@ drawer: [
   {
   type: DrawLiquidTile
   drawLiquid: biofuel
-  padding: 1
+  padding: 1.5
   }
   {
   type: DrawLiquidTile
   drawLiquid: nitric-acid
-  padding: 6
+  padLeft: 5
   }
   {
   type: DrawDefault
   }
   {
   type: DrawPistons
-  sinOffset: 25
+  lenOffset: 5
   }
 ]
 itemCapacity: 30
