@@ -71,7 +71,7 @@ craftEffect: {
     colorTo: c28d57bf
     sizeFrom: 3
     sizeInterp: linear
-    interp: pow5Out
+    interp: pow3Out
     length: 18
     particles: 9
   }
