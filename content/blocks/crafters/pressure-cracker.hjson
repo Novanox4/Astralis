@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Silver Fulminator
+name: Pressure Cracker
 size: 4
 description: Breaks char apart using pressurized gas and acid to obtain cerium.
 requirements: [
@@ -37,7 +37,7 @@ drawer: [
   {
   type: DrawPistons
   lenOffset: 4
-  sinMag: -5
+  sinOffset: -50
   }
   {
   type: DrawDefault
