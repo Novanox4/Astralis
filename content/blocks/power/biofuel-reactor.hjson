@@ -109,3 +109,5 @@ explodeEffect: [
   layer: 99
   }
 ]
+ambientSound: loopCombustion
+ambientSoundVolume: 0.0625
