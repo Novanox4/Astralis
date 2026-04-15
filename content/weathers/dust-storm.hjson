@@ -6,8 +6,8 @@ xspeed: 6
 yspeed: -14
 minAlpha: 0.2
 maxAlpha: 1
-sizeMin: 4
-sizeMax: 14
+sizeMin: 25
+sizeMax: 60
 density: 1200
 sound: loopFire
 soundVol: 1
