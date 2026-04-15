@@ -36,7 +36,7 @@ drawer: [
   }
   {
   type: DrawPistons
-  lenOffset: 4
+  lenOffset: 4.25
   sinMag: -4
   }
   {
