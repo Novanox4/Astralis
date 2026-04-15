@@ -61,5 +61,10 @@ category: crafting
 squareSprite: false
 hasLiquids: true
 craftEffect: {
-  type: ParticleEffect
+  type: RadialEffect
+  lengthOffset: 2
+  effect: {
+    type: ParticleEffect
+    cone: 10
+  }
 }
