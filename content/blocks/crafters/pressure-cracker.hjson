@@ -37,7 +37,8 @@ drawer: [
   {
   type: DrawPistons
   lenOffset: 4
-  sinOffset: -50
+  sinOffset: 50
+  sinScl: -6
   }
   {
   type: DrawDefault
@@ -60,3 +61,4 @@ outputItems: [
 category: crafting
 squareSprite: false
 hasLiquids: true
+craftEffect: 
