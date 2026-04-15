@@ -11,7 +11,7 @@ drillTime: 120
 consumes: {
   power: 5.5
   liquids: [
-    nitric-acid/0.25
+    nitrogen/0.25
   ]
 }
 size: 3
