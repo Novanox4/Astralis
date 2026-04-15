@@ -35,7 +35,7 @@ itemCapacity: 30
 consumes: {
   liquid: nitric-acid/0.49999
   items: [
-    char/3
+    char-chunks/3
   ]
 }
 craftTime: 20
