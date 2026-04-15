@@ -46,4 +46,4 @@ drawer: [
   }
 ]
 ambientSound: loopElectricHum
-ambientSoundVolume: 0.05
+ambientSoundVolume: 0.0225
