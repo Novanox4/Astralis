@@ -69,9 +69,10 @@ craftEffect: {
     cone: 17.5
     colorFrom: c28d57d9
     colorTo: c28d57bf
-    sizeFrom: 5
+    sizeFrom: 2
     sizeInterp: linear
     interp: pow5Out
-    length: 5
+    length: 24
+    particles: 7
   }
 }
