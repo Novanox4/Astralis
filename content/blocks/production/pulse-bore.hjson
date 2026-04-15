@@ -30,3 +30,5 @@ heatColor: 75b3ccff
 boostHeatColor: bc96ffff
 sparkColor: 75b3cc
 squareSprite: false
+ambientSound: loopExtract
+ambientSoundVolume: 0.03
