@@ -75,3 +75,5 @@ research: {
 		}
 	]
 }
+ambientSound: loopFire
+ambientSoundVolume: 0.07
