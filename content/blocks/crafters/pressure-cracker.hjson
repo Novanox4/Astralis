@@ -41,6 +41,7 @@ drawer: [
   type: DrawPistons
   lenOffset: 5
   sinMag: 0
+  sinScl: 0
   }
 ]
 itemCapacity: 30
