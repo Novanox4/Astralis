@@ -2,13 +2,13 @@ type: ParticleWeather
 particleRegion: particle
 color: 4a453a99
 padding: 0
-xspeed: 12
+xspeed: 12.5
 yspeed: -30
-minAlpha: 0.025
+minAlpha: 0.02
 maxAlpha: 0.1
-sizeMin: 100
+sizeMin: 125
 sizeMax: 450
-density: 1300
+density: 1625
 sound: loopFire
 soundVol: 1.5
 attrs: {
