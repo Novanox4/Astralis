@@ -36,7 +36,7 @@ itemCapacity: 30
 consumes: {
   liquids: [
     nitric-acid/0.41666666666666666666665
-    biofuel: 0.3
+    biofuel/0.3
   ]
   items: [
     char-chunks/3
