@@ -27,11 +27,20 @@ drawer: [
   padBottom: 10
   }
   {
+  type: DrawLiquidTile
+  drawLiquid: nitric-acid
+  padLeft: 10
+  padTop: 5
+  padRight: 10
+  padBottom: 5
+  }
+  {
   type: DrawDefault
   }
   {
   type: DrawPistons
-  lenOffset: 2
+  lenOffset: 1
+  sinMag: -1
   }
 ]
 itemCapacity: 30
