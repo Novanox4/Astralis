@@ -44,3 +44,5 @@ researchCost: [
   metaglass/300
 ]
 squareSprite: false
+ambientSound: loopCultivator
+ambientSoundVolume: 0.075
