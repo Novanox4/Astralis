@@ -44,4 +44,4 @@ drawer: [
 ]
 squareSprite: false
 ambientSound: loopBio
-ambientSoundVolume: 0.06
+ambientSoundVolume: 0.04
