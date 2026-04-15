@@ -44,3 +44,4 @@ outputItems: [
 ]
 category: crafting
 squareSprite: false
+hasLiquids: true
