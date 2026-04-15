@@ -62,17 +62,17 @@ squareSprite: false
 hasLiquids: true
 craftEffect: {
   type: RadialEffect
-  lengthOffset: 18
+  lengthOffset: 16
   rotationOffset: 45
   effect: {
     type: ParticleEffect
     cone: 17.5
     colorFrom: c28d57d9
     colorTo: c28d57bf
-    sizeFrom: 2
+    sizeFrom: 3
     sizeInterp: linear
     interp: pow5Out
-    length: 24
-    particles: 7
+    length: 18
+    particles: 9
   }
 }
