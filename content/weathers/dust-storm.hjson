@@ -4,7 +4,7 @@ color: 4a453a99
 padding: 0
 xspeed: 7
 yspeed: -50
-minAlpha: 0.01
+minAlpha: 0.025
 maxAlpha: 0.1
 sizeMin: 100
 sizeMax: 450
