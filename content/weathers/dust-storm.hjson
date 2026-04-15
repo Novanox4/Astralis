@@ -10,7 +10,7 @@ sizeMin: 200
 sizeMax: 600
 density: 950
 sound: loopFire
-soundVol: 1
+soundVol: 1.5
 attrs: {
   growth: -0.05
   char: 0.2
