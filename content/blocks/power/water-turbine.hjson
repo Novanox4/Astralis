@@ -51,3 +51,5 @@ drawer: {
   }
 ]
 }
+ambientSound: loopDrill
+ambientSoundVolume: 0.04
