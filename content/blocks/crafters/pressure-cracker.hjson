@@ -60,7 +60,7 @@ outputItems: [
 category: crafting
 squareSprite: false
 hasLiquids: true
-craftEffect: {
+updateEffect: {
   type: RadialEffect
   lengthOffset: 16
   rotationOffset: 45
@@ -76,5 +76,5 @@ craftEffect: {
     particles: 1
   }
 }
-updateEffectChance: 1
+updateEffectChance: 0.9
 updateEffectSpread: 0
