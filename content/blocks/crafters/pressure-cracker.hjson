@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Silver Fulminator
+size: 4
+description: Breaks char apart using pressurized gas and acid to obtain cerium.
+requirements: [
+  crystalite/75
+  uranium/85
+  silver/75
+  metaglass/145
+]
+drawer: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidRegion
+  drawLiquid: biofuel
+  suffix: "-liquid1"
+  }
+  {
+  type: DrawLiquidRegion
+  drawLiquid: nitric-acid
+  suffix: "-liquid2"
+  }
+  {
+  type: DrawPistons
+# testing stuff
+#  {
+#  type: DrawDefault
+#  }
+]
+itemCapacity: 30
+consumes: {
+  liquid: nitric-acid/0.49999
+  items: [
+    char/3
+  ]
+}
+craftTime: 20
+outputItems: [
+  cerium/1
+]
+category: crafting
+squareSprite: false
