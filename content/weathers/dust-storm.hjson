@@ -4,11 +4,11 @@ color: 4a453a99
 padding: 0
 xspeed: 7
 yspeed: -50
-minAlpha: 0.075
-maxAlpha: 0.2
+minAlpha: 0.0075
+maxAlpha: 0.1
 sizeMin: 100
 sizeMax: 450
-density: 950
+density: 1000
 sound: loopFire
 soundVol: 1.5
 attrs: {
