@@ -45,3 +45,5 @@ drawer: [
   type: DrawHeatOutput
   }
 ]
+ambientSound: loopElectricHum
+ambientSoundVolume: 0.05
