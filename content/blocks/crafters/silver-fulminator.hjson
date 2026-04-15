@@ -97,3 +97,5 @@ research: {
     }
   ]
 }
+ambientSound: loopSmelter
+ambientSoundVolume: 0.075
