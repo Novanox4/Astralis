@@ -53,3 +53,5 @@ drawer: {
   ]
 }
 category: crafting
+ambientSound: loopHover2
+ambientSoundVolume: 0.075
