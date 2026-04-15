@@ -50,17 +50,17 @@ consumes: {
     biofuel/0.3
   ]
   items: [
-    char-chunks/6
+    char-chunks/3
   ]
 }
-craftTime: 40
+craftTime: 20
 outputItems: [
-  cerium/2
+  cerium/1
 ]
 category: crafting
 squareSprite: false
 hasLiquids: true
-updateEffect: {
+craftEffect: {
   type: RadialEffect
   lengthOffset: 16
   rotationOffset: 45
@@ -72,9 +72,7 @@ updateEffect: {
     sizeFrom: 3
     sizeInterp: linear
     interp: pow3Out
-    length: 18
-    particles: 1
+    length: 20
+    particles: 8
   }
 }
-updateEffectChance: 0.9
-updateEffectSpread: 0
