@@ -73,6 +73,8 @@ craftEffect: {
     sizeInterp: linear
     interp: pow3Out
     length: 18
-    particles: 9
+    particles: 1
   }
 }
+updateEffectChance: 1
+updateEffectSpread: 0
