@@ -50,7 +50,7 @@ consumes: {
     biofuel/0.3
   ]
   items: [
-    char-chunks/3
+    char-chunks/2
   ]
 }
 craftTime: 20
@@ -61,4 +61,4 @@ category: crafting
 squareSprite: false
 hasLiquids: true
 ambientSound: loopGrind
-ambientSoundVolume: 0.075
+ambientSoundVolume: 0.06
