@@ -25,6 +25,7 @@ drawer: [
   }
   {
   type: DrawPistons
+  sinScl: 8
   }
 # testing stuff
 #  {
@@ -33,7 +34,10 @@ drawer: [
 ]
 itemCapacity: 30
 consumes: {
-  liquid: nitric-acid/0.49999
+  liquids: [
+    nitric-acid/0.41666666666666666666665
+    biofuel: 0.3
+  ]
   items: [
     char-chunks/3
   ]
