@@ -14,21 +14,18 @@ drawer: [
   suffix: -bottom
   }
   {
-  type: DrawLiquidRegion
+  type: DrawLiquidTile
   drawLiquid: biofuel
-  suffix: "-liquid1"
+  padding: 1
   }
   {
-  type: DrawLiquidRegion
+  type: DrawLiquidTile
   drawLiquid: nitric-acid
-  suffix: "-liquid2"
+  padding: 3
   }
   {
   type: DrawPistons
-  sinMag: 4.5
-  }
-  {
-  type: DrawDefault
+  sinOffset: 25
   }
 ]
 itemCapacity: 30
