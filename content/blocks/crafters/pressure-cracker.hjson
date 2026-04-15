@@ -61,4 +61,6 @@ outputItems: [
 category: crafting
 squareSprite: false
 hasLiquids: true
-craftEffect: 
+craftEffect: {
+  type: ParticleEffect
+}
