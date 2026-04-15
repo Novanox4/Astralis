@@ -43,3 +43,5 @@ drawer: [
   }
 ]
 squareSprite: false
+ambientSound: loopBio
+ambientSoundVolume: 0.06
