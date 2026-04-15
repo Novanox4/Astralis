@@ -25,6 +25,7 @@ drawer: [
   }
   {
   type: DrawPistons
+  }
 # testing stuff
 #  {
 #  type: DrawDefault
