@@ -61,4 +61,4 @@ category: crafting
 squareSprite: false
 hasLiquids: true
 ambientSound: loopGrind
-ambientSoundVolume: 0.15
+ambientSoundVolume: 0.075
