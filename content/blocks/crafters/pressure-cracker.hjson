@@ -21,7 +21,10 @@ drawer: [
   {
   type: DrawLiquidTile
   drawLiquid: nitric-acid
-  padding: 3
+  padding: 6
+  }
+  {
+  type: DrawDefault
   }
   {
   type: DrawPistons
