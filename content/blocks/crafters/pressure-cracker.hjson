@@ -35,13 +35,12 @@ drawer: [
   padBottom: 5
   }
   {
-  type: DrawDefault
-  }
-  {
   type: DrawPistons
   lenOffset: 4
-  sinMag: 0
-  sinScl: 0
+  sinMag: -5
+  }
+  {
+  type: DrawDefault
   }
 ]
 itemCapacity: 30
