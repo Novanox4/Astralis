@@ -35,6 +35,11 @@ drawer: [
   padBottom: 5
   }
   {
+  type: DrawBubbles
+  colors: dce133
+  }
+  }
+  {
   type: DrawPistons
   lenOffset: 4.25
   sinMag: -4
