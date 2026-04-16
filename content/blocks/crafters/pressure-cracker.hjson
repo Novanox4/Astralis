@@ -61,16 +61,23 @@ drawer: [
     y: 0
     height: 0
     width: 0
+    effectChance: 1
+    effectInterval: 2
     effect: {
       type: RadialEffect
+      lengthOffset: 8
+      effectRotationOffset: 180
       effect: {
         type: ParticleEffect
         colorFrom: 362f29
         colorTo: 362f29
-        length: 5
-        lifetime: 15
+        length: 10
+        lifetime: 30
         interp: pow3Out
         sizeFrom: 2
+        layer: 30
+        cone: 20
+        particles: 1
         }
       }
     }
