@@ -36,8 +36,11 @@ drawer: [
   }
   {
   type: DrawBubbles
-  colors: dce133
-  spread: 10
+  color: dce133
+  spread: 7.5
+  radius: 2.5
+  sides: 12
+  rrecurrence: 8
   }
   {
   type: DrawPistons
