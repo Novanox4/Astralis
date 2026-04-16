@@ -38,7 +38,6 @@ drawer: [
   type: DrawBubbles
   colors: dce133
   }
-  }
   {
   type: DrawPistons
   lenOffset: 4.25
