@@ -54,7 +54,7 @@ drawer: [
   reverse: true
   particleLife: 30
   particleRad: 3.25
-  particles: 12
+  particles: 15
   }
   {
   type: DrawPistons
