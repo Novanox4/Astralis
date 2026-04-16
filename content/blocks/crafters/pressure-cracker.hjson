@@ -67,7 +67,7 @@ drawer: [
         lifetime: 40
         interp: pow3Out
         sizeFrom: 1.75
-        layer: 29.999
+        layer: 29.9999
         cone: 20
         particles: 1
         }
