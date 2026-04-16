@@ -35,21 +35,21 @@ drawer: [
   padBottom: 5
   }
   {
-  type: DrawBubbles
-  color: dce133
-  spread: 7.5
-  radius: 2.5
-  sides: 12
-  recurrence: 100
-  amount: 16
-  }
-  {
   type: DrawPistons
   lenOffset: 4.25
   sinMag: -4
   }
   {
   type: DrawDefault
+  }
+  {
+  type: DrawBubbles
+  color: dce133
+  spread: 7.5
+  radius: 2.5
+  sides: 12
+  recurrence: 0.5
+  amount: 16
   }
 ]
 itemCapacity: 30
