@@ -8,6 +8,7 @@ requirements: [
   silver/75
   metaglass/145
 ]
+//abandon all hope ye who enter here
 drawer: [
   {
   type: DrawRegion
@@ -37,8 +38,8 @@ drawer: [
   {
   type: DrawBubbles
   color: dce133
-  spread: 5
-  radius: 4
+  spread: 7.5
+  radius: 3
   sides: 12
   recurrence: 12
   amount: 24
@@ -50,6 +51,30 @@ drawer: [
   }
   {
   type: DrawDefault
+  }
+  {
+  type: DrawBlockParts
+  parts: [
+    {
+    type: EffectSpawnerPart
+    x: 0
+    y: 0
+    height: 0
+    width: 0
+    effect: {
+      type: RadialEffect
+      effect: {
+        type: ParticleEffect
+        colorFrom: 362f29
+        colorTo: 362f29
+        length: 5
+        lifetime: 15
+        interp: pow3Out
+        sizeFrom: 2
+        }
+      }
+    }
+  ]
   }
 ]
 itemCapacity: 30
