@@ -20,6 +20,10 @@ drawer: [
   padding: 2
   }
   {
+  type: DrawRegion
+  suffix: -bottom-cover
+  }
+  {
   type: DrawLiquidTile
   drawLiquid: nitric-acid
   padLeft: 5
