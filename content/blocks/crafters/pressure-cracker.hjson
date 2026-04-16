@@ -45,35 +45,11 @@ drawer: [
   amount: 24
   }
   {
-  type: DrawBlockParts
-  parts: [
-    {
-    type: EffectSpawnerPart
-    x: 0
-    y: 0
-    height: 0
-    width: 0
-    effectChance: 0.9
-    effectInterval: 5
-    effect: {
-      type: RadialEffect
-      lengthOffset: 12
-      effectRotationOffset: 180
-      effect: {
-        type: ParticleEffect
-        colorFrom: 362f29
-        colorTo: 362f29
-        length: 10
-        lifetime: 40
-        interp: pow3Out
-        sizeFrom: 1.75
-        layer: 29.9999
-        cone: 20
-        particles: 1
-        }
-      }
-    }
-  ]
+  type: DrawParticles
+  color: 362f29
+  x: 10
+  alpha: 1
+  sides: 24
   }
   {
   type: DrawPistons
