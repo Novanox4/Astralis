@@ -48,7 +48,7 @@ drawer: [
   spread: 7.5
   radius: 2.5
   sides: 12
-  recurrence: 0.5
+  recurrence: 3
   amount: 16
   }
 ]
