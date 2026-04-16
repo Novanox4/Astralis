@@ -37,8 +37,8 @@ drawer: [
   {
   type: DrawBubbles
   color: dce133
-  spread: 7.5
-  radius: 2.5
+  spread: 3
+  radius: 6
   sides: 12
   recurrence: 12
   amount: 24
