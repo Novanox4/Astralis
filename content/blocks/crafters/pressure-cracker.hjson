@@ -47,13 +47,13 @@ drawer: [
   {
   type: DrawParticles
   color: 362f29
-  x: 10
+  x: 12
   alpha: 1
   sides: 24
-  particleSize: 2
+  particleSize: 0.5
   reverse: true
   particleLife: 30
-  particleRad: 5
+  particleRad: 2
   }
   {
   type: DrawPistons
