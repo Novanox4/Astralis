@@ -40,7 +40,7 @@ drawer: [
   spread: 7.5
   radius: 2.5
   sides: 12
-  rrecurrence: 8
+  rrecurrence: 1
   }
   {
   type: DrawPistons
