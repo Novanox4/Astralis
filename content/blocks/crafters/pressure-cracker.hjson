@@ -40,18 +40,45 @@ drawer: [
   padBottom: 5
   }
   {
-  type: DrawBubbles
-  color: dce133
-  spread: 7.5
-  radius: 3
-  sides: 12
-  recurrence: 12
-  amount: 24
+  type: DrawParticles
+  color: 362f29
+  x: 11.25
+  alpha: 1
+  sides: 24
+  particleSize: 1
+  reverse: true
+  particleLife: 30
+  particleRad: 3.5
+  particles: 15
   }
   {
   type: DrawParticles
   color: 362f29
-  x: 11.25
+  x: -11.25
+  alpha: 1
+  sides: 24
+  particleSize: 1
+  reverse: true
+  particleLife: 30
+  particleRad: 3.5
+  particles: 15
+  }
+  {
+  type: DrawParticles
+  color: 362f29
+  y: 11.25
+  alpha: 1
+  sides: 24
+  particleSize: 1
+  reverse: true
+  particleLife: 30
+  particleRad: 3.5
+  particles: 15
+  }
+  {
+  type: DrawParticles
+  color: 362f29
+  y: -11.25
   alpha: 1
   sides: 24
   particleSize: 1
