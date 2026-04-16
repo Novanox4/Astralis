@@ -40,7 +40,7 @@ drawer: [
   spread: 7.5
   radius: 2.5
   sides: 12
-  recurrence: 2
+  timeScl: 10
   amount: 16
   }
   {
