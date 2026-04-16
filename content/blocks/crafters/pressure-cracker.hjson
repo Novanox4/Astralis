@@ -37,6 +37,7 @@ drawer: [
   {
   type: DrawBubbles
   colors: dce133
+  spread: 10
   }
   {
   type: DrawPistons
