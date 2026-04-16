@@ -50,7 +50,7 @@ drawer: [
   x: 12
   alpha: 1
   sides: 24
-  particleSize: 0.5
+  particleSize: 1
   reverse: true
   particleLife: 30
   particleRad: 2
