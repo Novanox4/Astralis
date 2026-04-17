@@ -91,6 +91,7 @@ weapons: [
       cone: 20
       baseRotation: 180 
       offset: 45
+      region: "astralis-star"
       }
     ] 
     shootEffect: {
