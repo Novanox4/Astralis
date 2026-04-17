@@ -22,7 +22,7 @@ weapons: [
   continuous: true
   alwaysContinuous: true
   shootY: 0
-  loopSound: beamLustre
+  loopSound: beamParallax
   shootSound: none
   shootCone: 360
   rotate: true
@@ -34,6 +34,7 @@ weapons: [
     stroke: 2.75
     color1: 38a6c9
     layer: 110
+    followRotation: true
     }
     {
     type: EffectSpawnerPart
@@ -43,14 +44,16 @@ weapons: [
     height: 0
     effectInterval: 1
     effectIntervalFrom: 1
+    useProgress: true
+    progress: warmup
     effect: {
       type: ParticleEffect
-      strokeFrom: 0
-      stokeTo: 2
-      lenFrom: 0
-      lenTo: 4
       line: true
-      lifetime: 20
+      strokeFrom: 0
+      stokeTo: 3
+      lenFrom: 0
+      lenTo: 5
+      lifetime: 30
       length: 20
       colorTo: ffffffff
       colorFrom: 38a6c9ff
