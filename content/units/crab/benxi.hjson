@@ -38,10 +38,9 @@ weapons: [
     {
     type: EffectSpawnerPart
     x: 0
-    y: -9
+    y: 12
     width: 0
     height: 0
-    effectChance: 0.9
     effectInterval: 1
     effectIntervalFrom: 0
     effect: {
