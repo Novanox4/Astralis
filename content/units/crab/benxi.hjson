@@ -39,14 +39,14 @@ weapons: [
   bullet: {
     type: PointLaserBulletType
     color: 38a6c9
-    damage: 2.25
+    damage: 1.5
     rangeOverride: 80
     hitColor: 38a6c9
     layer: 109
     sprite: "astralis-white-laser"
     followRotation: true
     rotation: 45
-    beamEffectInterval: 1.75
+    beamEffectInterval: 0.75
     hitEffect: [
       {
       type: ParticleEffect
