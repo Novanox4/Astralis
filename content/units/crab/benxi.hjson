@@ -36,33 +36,6 @@ weapons: [
     layer: 110
     followRotation: true
     }
-    {
-    type: EffectSpawnerPart
-    x: 0
-    y: 12
-    width: 0
-    height: 0
-    effectChance: 1
-    effectInterval: 1
-    useProgress: true
-    progress: warmup
-    effect: {
-      type: ParticleEffect
-      line: true
-      strokeFrom: 0
-      stokeTo: 3
-      lenFrom: 0
-      lenTo: 5
-      lifetime: 30
-      length: 20
-      colorTo: ffffffff
-      colorFrom: 38a6c9ff
-      particles: 1
-      cone: 5
-      interp: reverse
-      sizeInterp: slope
-      }
-    }
   ]
   bullet: {
     type: PointLaserBulletType
