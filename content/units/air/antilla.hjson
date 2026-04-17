@@ -110,7 +110,8 @@ weapons: [
       sizeChangeStart: 10
       }
     ] 
-    shootEffect: {
+    shootEffect: [
+      {
       type: ParticleEffect
       line: true
       strokeFrom: 2
@@ -130,6 +131,7 @@ weapons: [
       interp: pow3Out
       sides: 6
       }
+    ]
     }
   }
 ]
