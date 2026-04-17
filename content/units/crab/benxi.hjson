@@ -58,7 +58,7 @@ weapons: [
       colorFrom: ffffff
       colorTo: 38a6c9
       interp: pow3Out
-      particles: 9
+      particles: 5
       }
       {
       type: ParticleEffect
@@ -67,7 +67,14 @@ weapons: [
       length: 35
       interp: pow3Out
       lifetime: 25
-      particles: 7
+      particles: 2
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 2.2
+      colorTo: 38a6c9
+      sizeTo: 4.5
+      lifetime: 28
       }
     ]
     }
