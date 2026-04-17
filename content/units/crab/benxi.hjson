@@ -47,8 +47,8 @@ weapons: [
     effect: {
       type: ParticleEffect
       line: true
-      lifetime: 25
-      length: 35
+      lifetime: 20
+      length: 12
       colorFrom: ffffff
       colorTo: 38a6c9
       particles: 1
