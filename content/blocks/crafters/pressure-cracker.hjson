@@ -49,7 +49,7 @@ drawer: [
   reverse: true
   particleLife: 30
   particleRad: 3.5
-  particles: 15
+  particles: 10
   }
   {
   type: DrawParticles
@@ -61,7 +61,7 @@ drawer: [
   reverse: true
   particleLife: 30
   particleRad: 3.5
-  particles: 15
+  particles: 10
   }
   {
   type: DrawParticles
@@ -73,7 +73,7 @@ drawer: [
   reverse: true
   particleLife: 30
   particleRad: 3.5
-  particles: 15
+  particles: 10
   }
   {
   type: DrawParticles
@@ -85,7 +85,7 @@ drawer: [
   reverse: true
   particleLife: 30
   particleRad: 3.5
-  particles: 15
+  particles: 10
   }
   {
   type: DrawPistons
