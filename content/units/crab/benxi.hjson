@@ -59,7 +59,7 @@ weapons: [
       lifetime: 30
       sizeChangeStart: 7.5
       particles: 1
-      layer: 108
+      layer: 99
       }
       {
       type: ParticleEffect
@@ -74,6 +74,7 @@ weapons: [
       particles: 1
       baseRotation: 180
       rotWithParent: true
+      followParent: true
       layer: 108
       }
     ]
