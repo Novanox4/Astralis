@@ -61,7 +61,6 @@ weapons: [
       cone: 5
       interp: reverse
       sizeInterp: slope
-      layer: 100
       }
     }
   ]
