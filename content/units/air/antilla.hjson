@@ -81,7 +81,7 @@ weapons: [
       }
       {
       type: ParticleEffect
-      layer: 99
+      layer: 100
       sizeFrom: 7.75
       length: 30
       interp: pow5Out
@@ -96,7 +96,7 @@ weapons: [
       }
       {
       type: ParticleEffect
-      layer: 99
+      layer: 100
       sizeFrom: 7.75
       length: 30
       interp: pow5Out
@@ -119,8 +119,16 @@ weapons: [
       interp: pow3Out
       lifetime: 20
       length: 20
-      cone: 4
-      particles: 2
+      cone: 10
+      particles: 5
+      }
+      {
+      type: WaveEffect
+      sizeTo: 8.5
+      strokeFrom: 2.3
+      lifetime: 34
+      interp: pow3Out
+      sides: 6
       }
     }
   }
