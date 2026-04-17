@@ -46,18 +46,14 @@ weapons: [
     effect: {
       type: ParticleEffect
       line: true
-      lenFrom: 4
-      lenTo: 2
-      strokeTo: 0
-      strokeFrom: 2
       lifetime: 25
       length: 35
       colorFrom: ffffff
       colorTo: 38a6c9
-      interp: pow3Out
       particles: 1
       cone: 5
       interp: reverse
+      sizeInterp: slope
       }
     }
   ]
