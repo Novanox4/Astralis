@@ -44,7 +44,6 @@ weapons: [
     height: 0
     effectChance: 1
     effectInterval: 1
-    effectIntervalFrom: 0
     useProgress: true
     progress: warmup
     effect: {
