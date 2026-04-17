@@ -35,14 +35,14 @@ weapons: [
     color1: 38a6c9
     layer: 110
     }
-    ]
+  ]
   bullet: {
     type: PointLaserBulletType
     color: 38a6c9
     damage: 2.25
     rangeOverride: 80
     hitColor: 38a6c9
-    layer: 101
+    layer: 109
     sprite: "astralis-white-laser"
     followRotation: true
     rotation: 45
@@ -59,6 +59,7 @@ weapons: [
       lifetime: 30
       sizeChangeStart: 7.5
       particles: 1
+      layer: 108
       }
       {
       type: ParticleEffect
@@ -73,6 +74,7 @@ weapons: [
       particles: 1
       baseRotation: 180
       rotWithParent: true
+      layer: 108
       }
     ]
     hitEffect: [
@@ -91,12 +93,10 @@ weapons: [
       {
       type: ParticleEffect
       colorTo: 38a6c9
-      sizeFrom: 6
-      length: 30
-      interp: pow5Out
-      sizeInterp: pow3Out
-      lifetime: 30
-      sizeChangeStart: 7.5
+      sizeFrom: 2
+      length: 35
+      interp: pow3Out
+      lifetime: 25
       particles: 3
       }
     ]
