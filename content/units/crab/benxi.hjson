@@ -42,7 +42,7 @@ weapons: [
     width: 0
     height: 0
     effectInterval: 1
-    effectIntervalFrom: 0
+    effectIntervalFrom: 1
     effect: {
       type: ParticleEffect
       strokeFrom: 0
