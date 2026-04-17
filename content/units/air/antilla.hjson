@@ -82,16 +82,30 @@ weapons: [
       {
       type: ParticleEffect
       layer: 99
-      sizeFrom: 1
+      sizeFrom: 4
       length: 30
       interp: pow5Out
       sizeInterp: pow3Out
       lifetime: 30
-      particles: 5
+      particles: 3
       cone: 20
       baseRotation: 180 
-      offset: 45
       region: "astralis-star"
+      spin: 6
+      }
+      {
+      type: ParticleEffect
+      layer: 99
+      sizeFrom: 4
+      length: 30
+      interp: pow5Out
+      sizeInterp: pow3Out
+      lifetime: 30
+      particles: 3
+      cone: 20
+      baseRotation: 180 
+      region: "astralis-star"
+      spin: -6
       }
     ] 
     shootEffect: {
