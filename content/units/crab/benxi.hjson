@@ -73,7 +73,7 @@ weapons: [
       type: WaveEffect
       strokeFrom: 2.2
       colorTo: 38a6c9
-      sizeTo: 4.5
+      sizeTo: 8
       lifetime: 28
       }
     ]
