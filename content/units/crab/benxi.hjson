@@ -46,8 +46,10 @@ weapons: [
     effect: {
       type: ParticleEffect
       line: true
-      len: 1.9
-      stroke: 1.4
+      lenFrom: 4
+      lenTo: 2
+      strokeTo: 0
+      strokeFrom: 2
       lifetime: 25
       length: 35
       colorFrom: ffffff
