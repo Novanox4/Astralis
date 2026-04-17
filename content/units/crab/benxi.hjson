@@ -29,8 +29,8 @@ weapons: [
   parts: [
     {
     type: FlarePart
-    radius: 3
-    radiusTo: 8
+    radius: 6
+    radiusTo: 9
     stroke: 2.75
     color1: 38a6c9
     layer: 110
@@ -61,7 +61,7 @@ weapons: [
       cone: 5
       interp: reverse
       sizeInterp: slope
-      layer: 109
+      layer: 100
       }
     }
   ]
