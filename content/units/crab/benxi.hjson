@@ -43,6 +43,7 @@ weapons: [
     height: 0
     effectChance: 0.9
     effectInterval: 1
+    effectIntervalFrom: 0
     effect: {
       type: ParticleEffect
       line: true
