@@ -47,6 +47,7 @@ weapons: [
     followRotation: true
     rotation: 45
     beamEffectInterval: 2
+    beamEffectSize: 1
     beamEffect: [
       {
       type: ParticleEffect
@@ -64,7 +65,8 @@ weapons: [
       colorFrom: 38a6c9
       colorTo: 38a6c94d
       sizeFrom: 5
-      length: 10
+      length: 60
+      cone: 8
       interp: pow3Out
       lifetime: 45
       sizeChangeStart: 8
