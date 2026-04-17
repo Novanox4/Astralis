@@ -46,7 +46,8 @@ weapons: [
     sprite: "astralis-white-laser"
     followRotation: true
     rotation: 45
-    hitEffect: {
+    hitEffect: [
+      {
       type: ParticleEffect
       line: true
       len: 1.9
@@ -57,7 +58,23 @@ weapons: [
       colorTo: 38a6c9
       interp: pow3Out
       particles: 4
-    }
+      }
+      {
+      type: ParticleEffect
+      layer: 100
+      colorTo: 38a6c9
+      sizeFrom: 6
+      length: 30
+      interp: pow5Out
+      sizeInterp: pow3Out
+      lifetime: 30
+      particles: 3
+      region: "astralis-star"
+      spin: -3
+      sizeChangeStart: 7.5
+      particles: 2
+      }
+    ]
     }
   }
 ]
