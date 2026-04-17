@@ -35,6 +35,28 @@ weapons: [
     color1: 38a6c9
     layer: 110
     }
+    {
+    type: EffectSpawnerPart
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+    effectRot: 180
+    effectChance: 0.9
+    effectInterval: 1
+    effect: {
+      type: ParticleEffect
+      line: true
+      len: 1.9
+      stroke: 1.4
+      lifetime: 25
+      length: 35
+      colorFrom: ffffff
+      colorTo: 38a6c9
+      interp: pow3Out
+      particles: 1
+      }
+    }
   ]
   bullet: {
     type: PointLaserBulletType
