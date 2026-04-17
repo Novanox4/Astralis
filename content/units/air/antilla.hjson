@@ -82,7 +82,7 @@ weapons: [
       {
       type: ParticleEffect
       layer: 99
-      sizeFrom: 4
+      sizeFrom: 6
       length: 30
       interp: pow5Out
       sizeInterp: pow3Out
@@ -96,7 +96,7 @@ weapons: [
       {
       type: ParticleEffect
       layer: 99
-      sizeFrom: 4
+      sizeFrom: 6
       length: 30
       interp: pow5Out
       sizeInterp: pow3Out
