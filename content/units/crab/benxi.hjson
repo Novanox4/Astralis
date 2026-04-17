@@ -46,7 +46,7 @@ weapons: [
     sprite: "astralis-white-laser"
     followRotation: true
     rotation: 45
-    beamEffectInterval: 0.75
+    beamEffectInterval: 0.5
     hitEffect: [
       {
       type: ParticleEffect
@@ -58,7 +58,7 @@ weapons: [
       colorFrom: ffffff
       colorTo: 38a6c9
       interp: pow3Out
-      particles: 5
+      particles: 9
       }
       {
       type: ParticleEffect
@@ -67,7 +67,7 @@ weapons: [
       length: 35
       interp: pow3Out
       lifetime: 25
-      particles: 3
+      particles: 7
       }
     ]
     }
