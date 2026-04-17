@@ -79,6 +79,19 @@ weapons: [
       length: 12
       particles: 5
       }
+      {
+      type: ParticleEffect
+      layer: 99
+      sizeFrom: 1
+      length: 30
+      interp: pow5Out
+      sizeInterp: pow3Out
+      lifetime: 30
+      particles: 5
+      cone: 20
+      baseRotation: 180 
+      offset: 45
+      }
     ] 
     shootEffect: {
       type: ParticleEffect
@@ -92,6 +105,13 @@ weapons: [
       cone: 4
       particles: 2
       }
+    spawnBullets: [
+      {
+      type: BasicBulletType
+      damage: 0
+      collides: false
+      }
+    ]
     }
   }
 ]
