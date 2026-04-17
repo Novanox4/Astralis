@@ -41,7 +41,6 @@ weapons: [
     y: -9
     width: 0
     height: 0
-    effectRot: 180
     effectChance: 0.9
     effectInterval: 1
     effect: {
@@ -55,6 +54,8 @@ weapons: [
       colorTo: 38a6c9
       interp: pow3Out
       particles: 1
+      cone: 5
+      interp: reverse
       }
     }
   ]
