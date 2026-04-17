@@ -51,13 +51,14 @@ weapons: [
       lenTo: 4
       line: true
       lifetime: 20
-      length: 12
-      colorTo: ffffff
-      colorFrom: 38a6c9
+      length: 20
+      colorTo: ffffffff
+      colorFrom: 38a6c9ff
       particles: 1
       cone: 5
       interp: reverse
       sizeInterp: slope
+      layer: 109
       }
     }
   ]
