@@ -82,30 +82,32 @@ weapons: [
       {
       type: ParticleEffect
       layer: 99
-      sizeFrom: 6
-      length: 30
+      sizeFrom: 9
+      length: 36
       interp: pow5Out
       sizeInterp: pow3Out
-      lifetime: 30
+      lifetime: 45
       particles: 3
       cone: 20
       baseRotation: 180 
       region: "astralis-star"
       spin: 6
+      sizeChangeStart: 10
       }
       {
       type: ParticleEffect
       layer: 99
-      sizeFrom: 6
-      length: 30
+      sizeFrom: 9
+      length: 36
       interp: pow5Out
       sizeInterp: pow3Out
-      lifetime: 30
+      lifetime: 45
       particles: 3
       cone: 20
       baseRotation: 180 
       region: "astralis-star"
       spin: -6
+      sizeChangeStart: 10
       }
     ] 
     shootEffect: {
@@ -120,13 +122,6 @@ weapons: [
       cone: 4
       particles: 2
       }
-    spawnBullets: [
-      {
-      type: BasicBulletType
-      damage: 0
-      collides: false
-      }
-    ]
     }
   }
 ]
