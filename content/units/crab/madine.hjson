@@ -52,28 +52,28 @@ bullet: {
     {
     type: ParticleEffect
     line: true
-    lifetime: 29
-    length: 24
-    lenFrom: 3.5
-    lenTo: 1.75
-    strokeFrom: 1.75
+    lifetime: 34
+    length: 40
+    lenFrom: 7
+    lenTo: 3.5
+    strokeFrom: 3.75
     colorTo: 38a6c9
     particles: 3
     interp: pow3Out
-    cone: 22
+    cone: 20
     }
     {
     type: ParticleEffect
     line: true
-    lifetime: 29
-    length: 24
-    lenFrom: 4
+    lifetime: 34
+    length: 40
+    lenFrom: 6.5
     lenTo: 0
-    strokeFrom: 4
+    strokeFrom: 6.5
     colorTo: 38a6c9
     particles: 3
     interp: pow3Out
-    cone: 22
+    cone: 20
     }
   ]
   }
