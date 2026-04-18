@@ -39,12 +39,13 @@ bullet: {
   type: ShrapnelBulletType
   length: 40
   width: 5
-  colorTo: 38a6c9
-  colorFrom: 38a6c9
+  toColor: 38a6c9
+  fromColor: ffffff
   damage: 15
   shrinkY: 0
   smokeEffect: none
-  serrationLenScl: 6
+  serrationLenScl: 5
+  serrationSpacing: 5
   recoil: -1
   rangeOverride: 150
   maxRange: 150
