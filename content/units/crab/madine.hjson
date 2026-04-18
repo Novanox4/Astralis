@@ -59,7 +59,7 @@ bullet: {
     interp: pow5Out
     sizeInterp: pow3Out
     lifetime: 40
-    particles: 2
+    particles: 1
     cone: 20
     region: "astralis-star"
     spin: 4
@@ -73,7 +73,7 @@ bullet: {
     interp: pow5Out
     sizeInterp: pow3Out
     lifetime: 40
-    particles: 2
+    particles: 1
     cone: 20
     region: "astralis-star"
     spin: -4
