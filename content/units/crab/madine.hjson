@@ -32,7 +32,7 @@ mirror: false
 shootEffect: none
 shootStatus: madine-weak
 shootStatusDuration: 6
-teSpeed: 40
+rotateSpeed: 40
 targetInterval: 0.1
 targetSwitchInterval: 0.11
 bullet: {
@@ -40,14 +40,39 @@ bullet: {
   length: 40
   width: 5
   colorTo: 38a6c9
-  colorFrom: ffffff
-  damage: 12.5
+  colorFrom: 38a6c9
+  damage: 15
   shrinkY: 0
-  shootEffect: none
+  smokeEffect: none
   serrationLenScl: 6
   recoil: -1
   rangeOverride: 150
   maxRange: 150
+  shootEffect: [
+    {
+    type: ParticleEffect
+    line: true
+    lifetime: 23
+    length: 10
+    lenFrom: 3.5
+    lenTo: 1.75
+    strokeFrom: 1.75
+    colorTo: 38a6c9
+    particles: 4
+    interp: powOut
+    }
+    {
+    type: ParticleEffect
+    line: true
+    lifetime: 23
+    length: 10
+    lenFrom: 4
+    lenTo: 0
+    strokeFrom: 4
+    colorTo: 38a6c9
+    interp: powOut
+    }
+  ]
   }
 }
 ]
