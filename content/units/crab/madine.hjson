@@ -45,7 +45,8 @@ bullet: {
   shrinkY: 0
   smokeEffect: none
   serrationLenScl: 5
-  serrationSpacing: 5
+  serrationWidth: 2
+  serrationSpacing: 6.5
   recoil: -1
   rangeOverride: 150
   maxRange: 150
