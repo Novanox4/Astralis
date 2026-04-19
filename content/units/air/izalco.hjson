@@ -37,7 +37,8 @@ weapons: [
     shrinkY: 0
     speed: 3.25
     rangeOverride: 150
-    velocityScaleRandMin: 0.9
+    velocityScaleRandMin: 0.865
+    velocityScaleRandMax: 1.125
     lifetime: 50
     damage: 7.5
     accel: -0.02
