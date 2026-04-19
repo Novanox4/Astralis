@@ -31,7 +31,7 @@ reload: 90
 x: 4.5
 y: -0.1
 shoot: {
-  shots: 6
+  shots: 5
   shotDelay: 0
 }
 inaccuracy: 5.75
@@ -59,6 +59,44 @@ bullet: {
   veolocityScaleRandMin: 0.8
   despawnEffect: none
   despawnHit: true
+  smokeEffect: none
+  shootEffect: [
+    {
+    type: WaveEffect
+    colorTo: f5d738
+    sizeTo: 12
+    strokeFrom: 1
+    lifetime: 26
+    interp: pow3Out
+    sides: 7
+    }
+    {
+    type: ParticleEffect
+    colorFrom: f5d738
+    colorTo: f5d738
+    interp: pow3Out
+    length: 26
+    lifetime: 28
+    particles: 1
+    line: true
+    lenFrom: 4.5
+    lenTo: 0
+    strokeFrom: 4.5
+    cone: 10
+    }
+    {
+    type: ParticleEffect
+    colorFrom: f5d738
+    colorTo: f5d738
+    interp: pow3Out
+    sizeFrom: 3.5
+    sizeTo: 0
+    length: 16
+    lifetime: 25
+    particles: 2
+    cone: 11
+    }
+  ]
   hitEffect: [
     {
     type: ParticleEffect
