@@ -69,6 +69,30 @@ weapons: [
       length: 12
       particles: 5
       }
+      {
+      type: ParticleEffect
+      sizeFrom: 7.75
+      length: 28
+      interp: pow5Out
+      sizeInterp: pow3Out
+      lifetime: 40
+      particles: 1
+      region: "astralis-star"
+      spin: 6.5
+      sizeChangeStart: 10
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 7.75
+      length: 28
+      interp: pow5Out
+      sizeInterp: pow3Out
+      lifetime: 40
+      particles: 1
+      region: "astralis-star"
+      spin: -6.5
+      sizeChangeStart: 10
+      }
     ]
     shootEffect: {
       type: ParticleEffect
