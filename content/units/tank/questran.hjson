@@ -31,9 +31,10 @@ reload: 120
 x: 4.5
 y: -0.1
 shoot: {
-  shots: 5
-  shotDelay: 5
+  shots: 6
+  shotDelay: 0
 }
+inaccuracy: 2
 mirror: true
 alternate: true
 rotate: true
@@ -45,10 +46,16 @@ bullet: {
   width: 3.8
   height: 7
   damage: 12
-  speed: 4
+  speed: 7
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 1
   splashDamage: 12
   splashDamageRadius: 22
-  lifetime: 42.5
+  //what's 9 + 10
+  lifetime: 21
+  lifeScaleRandMax: 1.125
+  lifeScaleRandMin: 0.875
   despawnEffect: none
   despawnHit: true
   hitEffect: [
