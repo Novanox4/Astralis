@@ -34,7 +34,7 @@ shoot: {
   shots: 6
   shotDelay: 0
 }
-inaccuracy: 2
+inaccuracy: 5.75
 mirror: true
 alternate: true
 rotate: true
@@ -60,6 +60,20 @@ bullet: {
   despawnEffect: none
   despawnHit: true
   hitEffect: [
+    {
+    type: ParticleEffect
+    colorFrom: f5d738
+    colorTo: f5d738
+    interp: pow3Out
+    length: 22
+    lifetime: 22
+    particles: 3
+    line: true
+    lenFrom: 8
+    lenTo: 0
+    strokeFrom: 8
+    spin: 1
+    }
     {
     type: ParticleEffect
     colorFrom: f5d738
