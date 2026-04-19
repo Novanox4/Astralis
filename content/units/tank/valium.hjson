@@ -48,9 +48,9 @@ bullet: {
     {
     type: WaveEffect
     colorTo: f5d738
-    sizeTo: 12
+    sizeTo: 9
     strokeFrom: 1
-    lifetime: 26
+    lifetime: 16
     interp: pow3Out
     sides: 7
     }
@@ -61,12 +61,12 @@ bullet: {
     interp: pow3Out
     length: 26
     lifetime: 28
-    particles: 3
+    particles: 6
     line: true
-    lenFrom: 4.5
+    lenFrom: 1.75
     lenTo: 0
-    strokeFrom: 4.5
-    cone: 8
+    strokeFrom: 1.75
+    cone: 12
     }
   ]
   hitEffect: [
