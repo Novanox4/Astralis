@@ -131,10 +131,10 @@ bullet: {
     colorFrom: f5d738
     colorTo: f5d738
     interp: pow3Out
-    sizeFrom: 3
+    sizeFrom: 3.2
     sizeTo: 0
-    length: 16
-    lifetime: 25
+    length: 27
+    lifetime: 29
     particles: 3
     }
     {
