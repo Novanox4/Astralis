@@ -89,6 +89,19 @@ bullet: {
     length: 40
     particles: 9
     }
+    {
+    type: ParticleEffect
+    colorFrom: f5d738
+    colorTo: f5d738
+    interp: pow3Out
+    length: 29
+    lifetime: 32
+    particles: 6
+    line: true
+    lenFrom: 2.5
+    lenTo: 0
+    strokeFrom: 2.5
+    }
   ]
   trailLength: 20
   trailColor: f5d738
