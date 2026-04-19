@@ -1,6 +1,6 @@
 type: tank
 name: Questran
-description: Uses twin repeaters to shred targets.
+description: Uses twin shotguns to shred targets.
 omniMovement: false
 health: 1200
 armor: 3.5
@@ -27,7 +27,7 @@ treadRects: [
 weapons: [
 {
 name: questran-weapon
-reload: 120
+reload: 90
 x: 4.5
 y: -0.1
 shoot: {
@@ -45,12 +45,12 @@ bullet: {
   frontColor: ffffff
   width: 3.8
   height: 7
-  damage: 12
+  damage: 10
   speed: 7
   pierce: true
   pierceBuilding: true
-  pierceCap: 1
-  splashDamage: 12
+  pierceCap: 2
+  splashDamage: 13
   splashDamageRadius: 22
   //what's 9 + 10
   lifetime: 21
