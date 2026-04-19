@@ -96,11 +96,11 @@ bullet: {
     interp: pow3Out
     length: 29
     lifetime: 32
-    particles: 6
+    particles: 7
     line: true
-    lenFrom: 2.5
+    lenFrom: 7.25
     lenTo: 0
-    strokeFrom: 2.5
+    strokeFrom: 7.25
     }
   ]
   trailLength: 20
