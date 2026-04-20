@@ -8,7 +8,7 @@ minAlpha: 0.02
 maxAlpha: 0.1
 sizeMin: 100
 sizeMax: 450
-density: 1000
+density: 2800
 sound: none
 noiseLayers: 2
 name: Fog (Astralis)
