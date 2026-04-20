@@ -5,7 +5,7 @@ padding: 0
 xspeed: 1.25
 yspeed: -0.3
 minAlpha: 0.01
-maxAlpha: 0.175
+maxAlpha: 0.0175
 sizeMin: 100
 sizeMax: 450
 density: 1625
