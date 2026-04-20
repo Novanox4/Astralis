@@ -3,7 +3,7 @@ name: Ahtum
 description: Shoots a powerful flame and a volley of bullets. Uses heat.
 size: 3
 reload: 105
-range: 110
+range: 145
 category: turret
 outlineColor: 323232
 recoil: 1
