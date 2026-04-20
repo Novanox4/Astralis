@@ -1,6 +1,6 @@
 type: tank
 name: Questran
-description: Uses twin shotguns to shred targets.
+description: Uses twin shotguns to shred targets. Lightly armored.
 omniMovement: false
 health: 1200
 armor: 5
