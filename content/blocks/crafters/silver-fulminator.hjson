@@ -38,7 +38,7 @@ consumes: {
 craftTime: 240
 outputItems: [
   fulminate/14
-  char-chunks/1
+  char-chunks/3
 ]
 updateEffectChance: 0.8
 updateEffectSpread: 0.2
