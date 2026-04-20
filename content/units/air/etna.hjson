@@ -11,9 +11,9 @@ engineOffset: 12
 rotateSpeed: 3.25
 moveSound: shipMove
 faceTarget: false
-databaseTag: "astralis-unit-tier-3"
+databaseTag: "astralis-unit-special"
 name: Etna
-description: Bursts down enemy targets with sticky, homing bombs.
+description: Bursts down enemy targets with sticky, homing bombs. Very rare, defunct model of airship that has been replaced by newer, more efficient technology.
 weapons: [
   {
   name: etna-railgun
