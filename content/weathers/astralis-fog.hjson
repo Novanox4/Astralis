@@ -4,12 +4,12 @@ color: 585a6899
 padding: 0
 xspeed: 1.25
 yspeed: -0.3
-minAlpha: 0.025
-maxAlpha: 0.125
+minAlpha: 0.015
+maxAlpha: 0.19
 sizeMin: 100
 sizeMax: 450
 density: 1625
 sound: none
-opacityMultiplier: 1.2
+opacityMultiplier: 1.05
 noiseLayers: 2
 name: Fog (Astralis)
