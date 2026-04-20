@@ -27,12 +27,12 @@ treadRects: [
 weapons: [
 {
 name: questran-weapon
-reload: 90
+reload: 180
 x: 4.5
 y: -0.1
 shoot: {
-  shots: 5
-  shotDelay: 0
+  shots: 10
+  shotDelay: 0.025
 }
 inaccuracy: 5.75
 mirror: true
