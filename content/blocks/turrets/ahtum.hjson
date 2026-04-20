@@ -107,6 +107,8 @@ ammoTypes: {
     damage: 30
     status: burning
     statusDuration: 480
+    knockback: 10
+    impact: true
     shootEffect: [
       {
       type: WaveEffect
@@ -246,6 +248,8 @@ ammoTypes: {
     damage: 65
     status: burning
     statusDuration: 600
+    knockback: 10
+    impact: true
     shootEffect: [
       {
       type: WaveEffect
