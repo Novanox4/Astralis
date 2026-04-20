@@ -3,7 +3,7 @@ name: Questran
 description: Uses twin shotguns to shred targets. Lightly armored.
 omniMovement: false
 health: 1200
-armor: 5
+armor: 4.25
 hitSize: 15
 speed: 1.3
 tankMoveSound: tankMoveSmall
