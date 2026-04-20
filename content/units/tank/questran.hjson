@@ -2,7 +2,7 @@ type: tank
 name: Questran
 description: Uses twin shotguns to shred targets. Lightly armored.
 omniMovement: false
-health: 1200
+health: 1100
 armor: 3
 hitSize: 15
 speed: 1.3
@@ -45,13 +45,14 @@ bullet: {
   frontColor: ffffff
   width: 3.8
   height: 7
-  damage: 10
+  damage: 9
   speed: 7
   pierce: true
   pierceBuilding: true
   pierceCap: 2
-  splashDamage: 13
+  splashDamage: 12
   splashDamageRadius: 22
+  scaledSplashDamage: true
   //what's 9 + 10
   lifetime: 21
   lifeScaleRandMax: 1.1
