@@ -100,32 +100,46 @@ bullet: {
   ]
   hitEffect: [
     {
-    type: ParticleEffect
-    colorFrom: f5d738
-    colorTo: f5d738
-    interp: pow3Out
-    length: 26
-    lifetime: 28
-    particles: 3
-    line: true
-    lenFrom: 8
-    lenTo: 0
-    strokeFrom: 8
-    spin: 1
+    type: SoundEffect
+    effect: none
+    sound: shootStell
+    minVolume: 0.75
+    maxVolume: 0.75
+    }
+    {
+    type: SoundEffect
+    effect: none
+    sound: explosion
+    minVolume: 0.8
+    maxVolume: 0.8
     }
     {
     type: ParticleEffect
     colorFrom: f5d738
     colorTo: f5d738
     interp: pow3Out
-    length: 26
+    length: 29
+    lifetime: 28
+    particles: 3
+    line: true
+    lenFrom: 8
+    lenTo: 0
+    strokeFrom: 8
+    layer: 109
+    }
+    {
+    type: ParticleEffect
+    colorFrom: f5d738
+    colorTo: f5d738
+    interp: pow3Out
+    length: 29
     lifetime: 28
     particles: 2
     line: true
     lenFrom: 8
     lenTo: 0
     strokeFrom: 8
-    spin: -1
+    layer: 109
     }
     {
     type: ParticleEffect
@@ -137,6 +151,7 @@ bullet: {
     length: 27
     lifetime: 29
     particles: 3
+    layer: 109
     }
     {
     type: ParticleEffect
@@ -151,6 +166,7 @@ bullet: {
     length: 20
     lifetime: 25
     particles: 4
+    layer: 108
     }
     {
     type: ParticleEffect
@@ -164,6 +180,20 @@ bullet: {
     length: 30
     lifetime: 100
     particles: 5
+    layer: 108
+    }
+    {
+    type: ParticleEffect
+    colorFrom: ffffff
+    colorTo: f5d73800
+    interp: pow3Out
+    sizeFrom: 18
+    sizeTo: 0
+    length: 0
+    lifetime: 26
+    particles: 1
+    region: "astralis-star"
+    layer: 110
     }
     {
     type: WaveEffect
