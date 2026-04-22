@@ -2,10 +2,10 @@ type: tank
 name: Questran
 description: Uses twin shotguns to shred targets. Lightly armored.
 omniMovement: false
-health: 1100
-armor: 3
+health: 1050
+armor: 2.75
 hitSize: 15
-speed: 1.3
+speed: 1.35
 tankMoveSound: tankMoveSmall
 tankMoveVolume: 0.5
 databaseTag: "astralis-unit-tier-2"
