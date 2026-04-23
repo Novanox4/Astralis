@@ -1,8 +1,8 @@
 type: liquid
-color: c5c93a
-gasColor: c5c93a
-lightColor: c5c93a
-barColor: c5c93a
+color: cccf42
+gasColor: cccf42
+lightColor: cccf42
+barColor: cccf42
 flammability: 0.125
 explosiveness: 1
 viscosity: 0
@@ -18,4 +18,6 @@ RESOURCE REPORT #10
 Nitric acid is a powerul corrosive substance that can be manufactured.
 
 It can aid in resource extraction and weaken enemy armor.
+
+Holds uses in both combustion-based combat and industrialization.
 '''
