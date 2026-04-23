@@ -1,11 +1,11 @@
 type: ParticleWeather
 particleRegion: particle
-color: 585a6840
+color: 585a684d
 padding: 0
 xspeed: 1.25
 yspeed: -0.3
-minAlpha: 0.02
-maxAlpha: 0.1
+minAlpha: 0.025
+maxAlpha: 0.15
 sizeMin: 100
 sizeMax: 450
 density: 2800
