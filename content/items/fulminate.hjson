@@ -15,6 +15,6 @@ flammability: 0.8
 radioactivity: 0
 charge: 0
 explosiveness: 1.25
-color: b5ac10
+color: cccf42
 research: silver
 buildable: false
