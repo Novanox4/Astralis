@@ -6,5 +6,7 @@ RESOURCE ANALYSIS #9
 Nitrogen is a cold gas that can be extracted from both the atmosphere of Erekir and Astralis.
 
 On Astralis, it can be used both in production and as a coolant.
+
+Necessary for the upkeep of highly advanced plantations.
 '''
 shownPlanets: [erekir, astralis]
