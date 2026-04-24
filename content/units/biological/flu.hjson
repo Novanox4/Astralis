@@ -9,9 +9,9 @@ name: Flu
 description: Native spider to Astralis. Attacks by lunging towards and biting targets with it's sharp pincers.
 hovering: true
 baseLegStraightness: 0
-legMaxLength: 0.85
-legMinLength: 0.3
-legForwardScl: 1.6
+legMaxLength: 0.675
+legMinLength: 0.35
+legForwardScl: 1.7
 flying: false
 health: 850
 drag: 0.045
