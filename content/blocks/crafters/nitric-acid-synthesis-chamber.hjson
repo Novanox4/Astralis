@@ -55,18 +55,18 @@ drawer: [
   suffix: -spinner
   }
   {
+  type: DrawDefault
+  }
+  {
   type: DrawBlockParts
   parts: [
     {
     type: RegionPart
     x: -1
     suffix: "-piston-l"
-    moveX: 1
+    moveX: 20
     }
   ]
-  }
-  {
-  type: DrawDefault
   }
 ]
 squareSprite: false
