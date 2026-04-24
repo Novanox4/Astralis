@@ -36,7 +36,7 @@ drawer: [
   padRight: 8
   padTop: 1
   padBottom: 1
-  alpha: 0.925
+  alpha: 0.675
   }
   {
   type: DrawCultivator
