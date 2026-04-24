@@ -25,17 +25,16 @@ drawer: [
   suffix: -bottom
   }
   {
-  type: DrawCultivator
-  plantColor: cccf42ff
-  plantColorLight: cccf42ff
-  bottomColor: b08203ff
-  bubbles: 0
-  }
-  {
   type: DrawLiquidTile
   drawLiquid: water
   padding: 1
-  alpha: 0.7
+  alpha: 0.9
+  }
+  {
+  type: DrawliquidRegion
+  suffix: "-middle"
+  drawLiquid: nitric-acid
+  alpha: 0.6
   }
   {
   type: DrawLiquidTile
