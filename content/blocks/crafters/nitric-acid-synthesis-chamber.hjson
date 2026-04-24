@@ -39,7 +39,6 @@ drawer: [
   padBottom: 1
   alpha: 1
   }
-  }
   {
   type: DrawLiquidTile
   drawLiquid: nitrogen
