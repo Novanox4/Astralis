@@ -43,7 +43,7 @@ weapons: [
 {
 x: 0
 y: 2
-reload: 200
+reload: 150
 mirror: false
 recoilTime: 80
 shoot: {
@@ -53,8 +53,11 @@ shootSound: none
 bullet: {
   type: BulletType
   speed: 10
-  damage: 80
+  damage: 70
   lifetime: 30
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 6
   circleShooter: true
   circleShooterRadius: 0.001
   circleShooterRadiusSmooth: 0.001
