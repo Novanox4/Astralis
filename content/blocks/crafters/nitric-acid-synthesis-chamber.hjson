@@ -40,7 +40,6 @@ drawer: [
   }
   {
   type: DrawCultivator
-  middle: nitric-acid-synthesis-chamber-acid
   plantColor: cccf424d
   plantColorLight: cccf424d
   }
