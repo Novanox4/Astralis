@@ -25,6 +25,12 @@ drawer: [
   suffix: -bottom
   }
   {
+  type: DrawRegion
+  spinSprite: true
+  rotateSpeed: 1
+  suffix: -spinner
+  }
+  {
   type: DrawLiquidTile
   drawLiquid: water
   padding: 1
@@ -40,14 +46,9 @@ drawer: [
   }
   {
   type: DrawCultivator
-  plantColor: cccf424d
-  plantColorLight: cccf424d
-  }
-  {
-  type: DrawRegion
-  spinSprite: true
-  rotateSpeed: 1
-  suffix: -spinner
+  plantColor: cccf42e6
+  plantColorLight: cccf42e6
+  bottomColor: cccf42e6
   }
   {
   type: DrawDefault
