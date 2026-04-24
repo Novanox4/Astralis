@@ -55,11 +55,15 @@ drawer: [
   suffix: -spinner
   }
   {
-  type: DrawPistons
-  lenOffset: 0
-  sinMag: -4
-  sides: 1
-  suffix: "-piston-l"
+  type: DrawBlockParts
+  parts: [
+    {
+    type: RegionPart
+    x: -1
+    suffix: "-piston-l"
+    moveX: 1
+    }
+  ]
   }
   {
   type: DrawDefault
