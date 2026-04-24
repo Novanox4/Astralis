@@ -1,7 +1,7 @@
 type: legs
 legCount: 6
 legGroupSize: 3
-legLength: 14
+legLength: 9.5
 legBaseOffset: 3
 lockLegBase: true
 name: Flu
@@ -24,6 +24,7 @@ parts: [
   x: -3
   moveRot: 22
   layerOffset: -0.0001
+  recoilTime: 80
   moves: [
     {
     type: PartMove
@@ -48,7 +49,7 @@ shoot: {
 shootSound: none
 bullet: {
   type: BulletType
-  speed: 3
+  speed: 10
   damage: 80
   lifetime: 30
   circleShooter: true
@@ -59,6 +60,7 @@ bullet: {
   smokeEffect: none
   despawnEffect: none
   hitEffect: none
+  hitSize: 12
   }
 }
 ]
