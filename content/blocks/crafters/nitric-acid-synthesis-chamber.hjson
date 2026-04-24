@@ -12,6 +12,7 @@ name: Nitric Acid Synthesis Chamber
 description: Creates nitric acid using nitrogen, water and copious amounts of power.
 outputLiquid: nitric-acid/0.2
 category: crafting
+craftTime: 45
 consumes: {
   power: 9
   liquids: [
@@ -67,7 +68,7 @@ drawer: [
     x: 0
     suffix: "-piston-l"
     moveY: 2
-    progress: reload
+    progress: smoothReload
     }
   ]
   }
