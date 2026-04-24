@@ -10,7 +10,7 @@ health: 175
 itemCapacity: 25
 name: Nitric Acid Synthesis Chamber
 description: Creates nitric acid using nitrogen, water and copious amounts of power.
-outputLiquid: nitric-acid/1
+outputLiquid: nitric-acid/0.5
 category: crafting
 consumes: {
   power: 9
