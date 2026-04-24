@@ -21,7 +21,7 @@ parts: [
   suffix: -fang-l
   y: 6.85
   mirror: true
-  x: -3
+  x: -2.5
   moveRot: 23
   layerOffset: -0.0001
   moves: [
@@ -30,6 +30,7 @@ parts: [
     progress: recoil
     rot: -44
     y: 0.5
+    x: 0.25
     }
     ]
   }
