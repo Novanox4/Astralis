@@ -40,7 +40,7 @@ drawer: [
   }
   {
   type: DrawCultivator
-  middle: nitric-acid-synthesizer-acid
+  middle: "astralis-nitric-acid-synthesis-chamber-acid"
   plantColor: cccf424d
   plantColorLight: cccf424d
   }
