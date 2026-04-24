@@ -19,18 +19,17 @@ parts: [
   {
   type: RegionPart
   suffix: -fang-l
-  y: 7.5
+  y: 6.85
   mirror: true
   x: -3
   moveRot: 22
   layerOffset: -0.0001
-  recoilTime: 80
   moves: [
     {
     type: PartMove
     progress: recoil
     rot: -44
-    y: 1
+    y: -0.1
     }
     ]
   }
@@ -43,6 +42,7 @@ x: 0
 y: 2
 reload: 200
 mirror: false
+recoilTime: 80
 shoot: {
   firstShotDelay: 30
     }
