@@ -2,20 +2,18 @@ type: legs
 legCount: 6
 legGroupSize: 3
 legLength: 13.5
-legBaseOffset: 5
+legBaseOffset: 8
 lockLegBase: true
 name: Flu
 description: Native spider to Astralis. Attacks by lunging towards and biting targets with it's sharp pincers.
 legMinLength: 0.75
 legMaxLength: 1
-legExtension: -2.5
+legExtension: -4
 flying: false
 health: 850
 drag: 0.045
 accel: 0.3
 speed: 0.8
-legStraightness: 0.4
-legMaxLength: 0.8
 parts: [
   {
   type: RegionPart
