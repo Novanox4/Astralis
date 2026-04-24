@@ -28,6 +28,7 @@ drawer: [
   type: DrawLiquidTile
   drawLiquid: water
   padding: 1
+  alpha: 0.9
   }
   {
   type: DrawCultivator
@@ -42,12 +43,12 @@ drawer: [
   padRight: 8
   padTop: 1
   padBottom: 1
-  alpha: 0.675
+  alpha: 0.65
   }
   {
   type: DrawRegion
   spinSprite: true
-  rotateSpeed: 1
+  rotateSpeed: 4
   suffix: -spinner
   }
   {
