@@ -16,7 +16,7 @@ flying: false
 health: 850
 drag: 0.045
 accel: 0.3
-speed: 0.8
+speed: 1.5
 parts: [
   {
   type: RegionPart
@@ -58,6 +58,7 @@ bullet: {
   circleShooter: true
   circleShooterRadius: 0.001
   circleShooterRadiusSmooth: 0.001
+  rangeOverride: 80
   recoil: -5
   shootEffect: none
   smokeEffect: none
