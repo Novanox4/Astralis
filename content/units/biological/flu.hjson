@@ -1,7 +1,7 @@
 type: legs
 legCount: 6
 legGroupSize: 3
-legLength: 13.5
+legLength: 40
 legBaseOffset: 8
 lockLegBase: true
 name: Flu
