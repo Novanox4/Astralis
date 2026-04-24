@@ -34,7 +34,8 @@ drawer: [
   type: DrawCultivator
   plantColor: cccf4299
   plantColorLight: cccf4299
-  bottomColor: cccf4299
+  bottomColor: b0820399
+  bubbles: 0
   }
   {
   type: DrawLiquidTile
