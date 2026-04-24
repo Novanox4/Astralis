@@ -67,7 +67,7 @@ drawer: [
     x: 0
     suffix: "-piston-l"
     moveY: 2
-    progress: recoil
+    progress: reload
     }
   ]
   }
