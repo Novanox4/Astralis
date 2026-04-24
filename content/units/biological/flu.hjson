@@ -14,8 +14,7 @@ health: 850
 drag: 0.045
 accel: 0.3
 speed: 0.8
-baseLegStraightness: 0.2
-legStraightness: 1
+legStraightness: 0.4
 legMaxLength: 0.8
 parts: [
   {
