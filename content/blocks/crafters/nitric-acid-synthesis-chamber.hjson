@@ -62,9 +62,11 @@ drawer: [
   parts: [
     {
     type: RegionPart
-    x: -1
+    outline: false
+    y: -1
+    x: 0
     suffix: "-piston-l"
-    moveX: 20
+    moveX: 0
     }
   ]
   }
