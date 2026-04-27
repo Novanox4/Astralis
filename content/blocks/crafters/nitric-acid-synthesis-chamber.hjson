@@ -20,10 +20,12 @@ consumes: {
     nitrogen/0.25
   ]
 }
-drawer: [
+drawer: {
+  type: DrawMulti
   iconOverride: [
   -preview
   ]
+  drawers: [
   {
   type: DrawRegion
   suffix: -bottom
@@ -69,7 +71,8 @@ drawer: [
   {
   type: DrawDefault
   }
-]
+  ]
+}
 squareSprite: false
 ambientSound: loopCultivator
 ambientSoundVolume: 0.03
