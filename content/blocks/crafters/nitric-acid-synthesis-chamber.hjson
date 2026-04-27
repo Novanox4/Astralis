@@ -67,16 +67,16 @@ drawer: {
   spinSprite: true
   rotateSpeed: -4
   suffix: -spinner-small
-  x: -6
-  y: -3
+  x: -8
+  y: -2
   }
   {
   type: DrawRegion
   spinSprite: true
   rotateSpeed: -4
   suffix: -spinner-small
-  x: 6
-  y: 3
+  x: 8
+  y: 2
   }
   {
   type: DrawDefault
