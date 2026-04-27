@@ -52,6 +52,18 @@ drawer: [
   {
   type: DrawRegion
   spinSprite: true
+  rotateSpeed: 8
+  suffix: -rotor1
+  }
+  {
+  type: DrawRegion
+  spinSprite: true
+  rotateSpeed: -8
+  suffix: -rotor2
+  }
+  {
+  type: DrawRegion
+  spinSprite: true
   rotateSpeed: 4
   suffix: -spinner
   }
