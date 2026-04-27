@@ -67,7 +67,7 @@ drawer: {
   spinSprite: true
   rotateSpeed: -4
   suffix: -spinner-small
-  x: -8
+  x: -5
   y: -2
   }
   {
@@ -75,7 +75,7 @@ drawer: {
   spinSprite: true
   rotateSpeed: -4
   suffix: -spinner-small
-  x: 8
+  x: 5
   y: 2
   }
   {
