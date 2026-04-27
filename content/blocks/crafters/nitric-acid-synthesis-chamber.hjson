@@ -17,7 +17,7 @@ consumes: {
   power: 9
   liquids: [
     water/0.5
-    nitrogen/0.25
+    nitrogen/0.36
   ]
 }
 drawer: {
