@@ -21,6 +21,9 @@ consumes: {
   ]
 }
 drawer: [
+  iconOverride: [
+  -preview
+  ]
   {
   type: DrawRegion
   suffix: -bottom
@@ -54,6 +57,14 @@ drawer: [
   spinSprite: true
   rotateSpeed: 4
   suffix: -spinner
+  }
+  {
+  type: DrawRegion
+  spinSprite: true
+  rotateSpeed: -4
+  suffix: -spinner-small
+  x: -1.5
+  y: -2
   }
   {
   type: DrawDefault
