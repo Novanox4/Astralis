@@ -26,18 +26,6 @@ drawer: [
   suffix: -bottom
   }
   {
-  type: DrawRegion
-  spinSprite: true
-  rotateSpeed: 3
-  suffix: -rotor1
-  }
-  {
-  type: DrawRegion
-  spinSprite: true
-  rotateSpeed: -3
-  suffix: -rotor2
-  }
-  {
   type: DrawLiquidTile
   drawLiquid: water
   padding: 1
