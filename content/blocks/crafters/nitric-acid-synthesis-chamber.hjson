@@ -26,30 +26,6 @@ drawer: [
   suffix: -bottom
   }
   {
-  type: DrawLiquidTile
-  drawLiquid: water
-  padding: 1
-  alpha: 0.9
-  }
-  {
-  type: DrawLiquidTile
-  drawLiquid: nitric-acid
-  padLeft: 8
-  padRight: 1
-  padTop: 1
-  padBottom: 1
-  alpha: 1
-  }
-  {
-  type: DrawLiquidTile
-  drawLiquid: nitrogen
-  padLeft: 1
-  padRight: 8
-  padTop: 1
-  padBottom: 1
-  alpha: 0.35
-  }
-  {
   type: DrawRegion
   spinSprite: true
   rotateSpeed: 3
@@ -60,6 +36,30 @@ drawer: [
   spinSprite: true
   rotateSpeed: -3
   suffix: -rotor2
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: water
+  padding: 1
+  alpha: 0.7
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: nitric-acid
+  padLeft: 8
+  padRight: 1
+  padTop: 1
+  padBottom: 1
+  alpha: 0.85
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: nitrogen
+  padLeft: 1
+  padRight: 8
+  padTop: 1
+  padBottom: 1
+  alpha: 0.35
   }
   {
   type: DrawRegion
