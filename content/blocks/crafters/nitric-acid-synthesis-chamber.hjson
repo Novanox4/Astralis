@@ -59,18 +59,11 @@ drawer: [
   type: DrawDefault
   }
   {
-  type: DrawBlockParts
-  parts: [
-    {
-    type: RegionPart
-    outline: false
-    y: -1
-    x: 0
-    suffix: "-piston-l"
-    moveY: 2
-    progress: smoothReload
-    }
-  ]
+  type: DrawPistons
+  lenOffset: 4.25
+  sinMag: -4
+  sides: 1
+  suffix: "-piston-l"
   }
 ]
 squareSprite: false
