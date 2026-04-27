@@ -64,7 +64,6 @@ drawer: [
   sinMag: -3
   sinScl: 5
   sides: 1
-  suffix: "-piston-l"
   }
 ]
 squareSprite: false
