@@ -60,8 +60,6 @@ drawer: [
   }
   {
   type: DrawPistons
-  sinMag: -3
-  sinScl: 5
   sides: 2
   }
 ]
