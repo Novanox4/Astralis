@@ -63,7 +63,7 @@ drawer: [
   lenOffset: 2
   sinMag: -3
   sinScl: 5
-  sides: 1
+  sides: 2
   }
 ]
 squareSprite: false
