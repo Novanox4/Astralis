@@ -58,10 +58,6 @@ drawer: [
   {
   type: DrawDefault
   }
-  {
-  type: DrawPistons
-  sides: 2
-  }
 ]
 squareSprite: false
 ambientSound: loopCultivator
