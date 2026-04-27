@@ -60,7 +60,6 @@ drawer: [
   }
   {
   type: DrawPistons
-  lenOffset: 2
   sinMag: -3
   sinScl: 5
   sides: 2
