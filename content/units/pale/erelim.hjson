@@ -1,7 +1,7 @@
 type: flying
 flying: true
 lowAltitude: true
-outlineColor: 928096
+outlineColor: 8c7a89
 health: 2800
 armor: 45
 speed: 6.5
