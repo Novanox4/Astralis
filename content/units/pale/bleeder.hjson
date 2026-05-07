@@ -18,5 +18,5 @@ legMinLength: 0.45
 legStraightness: 0.5
 legMoveSpace: 0.8
 rippleScale: 0.175
-legForwardScl: 1.2
+legForwardScl: 1.7
 lockLegBase: true
