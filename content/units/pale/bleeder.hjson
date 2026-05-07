@@ -9,7 +9,7 @@ legExtension: -1.75
 health: 650
 armor: 3.5
 drawCell: false
-legBaseOffset: 4
+legBaseOffset: 3.25
 speed: 1
 hovering: true
 hitSize: 9.5
