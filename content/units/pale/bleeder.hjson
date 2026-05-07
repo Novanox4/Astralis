@@ -16,7 +16,7 @@ legBaseOffset: 3.25
 legMaxLength: 1.2
 legMinLength: 0.45
 legStraightness: 0.5
-legMoveSpace: 0.8
+legMoveSpace: 1
 rippleScale: 0.175
 legForwardScl: 1.6
 stepSound: walkerStepTiny
