@@ -7,6 +7,6 @@ legLength: 5
 health: 650
 armor: 3.5
 drawCell: false
-legBaseoffset: 15
+legBaseOffset: 15
 speed: 1
 hovering: true
