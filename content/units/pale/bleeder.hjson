@@ -3,7 +3,8 @@ name: Bleeder
 outlineColor: 8c7a89
 legCount: 6
 legGroupSize: 3
-legLength: 9
+legLength: 12
+legExtension: -1.75
 health: 650
 armor: 3.5
 drawCell: false
@@ -12,5 +13,5 @@ speed: 1
 hovering: true
 legPairOffset: 60
 hitSize: 9.5
-legMaxLength: 0.85
+legMaxLength: 0.9
 legMinLength: 0.3
