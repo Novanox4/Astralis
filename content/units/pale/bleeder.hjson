@@ -14,7 +14,7 @@ speed: 1
 hovering: true
 legPairOffset: 60
 hitSize: 9.5
-legMaxLength: 0.9
+legMaxLength: 1
 legMinLength: 0.4
 legStraightness: 0.8
 legMoveSpace: 0.2
