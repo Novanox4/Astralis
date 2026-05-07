@@ -10,5 +10,7 @@ drawCell: false
 legBaseOffset: 15
 speed: 1
 hovering: true
-legPairOffset: 5
+legPairOffset: 60
 hitSize: 9.5
+legMaxLength: 0.85
+legMinLength: 0.3
