@@ -11,3 +11,4 @@ legBaseOffset: 15
 speed: 1
 hovering: true
 legPairOffset: 5
+hitSize: 9.5
