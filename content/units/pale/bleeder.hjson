@@ -16,3 +16,4 @@ hitSize: 9.5
 legMaxLength: 0.75
 legMinLength: 0.3
 legStraightness: 0.3
+baseLegStraightness: 0.4
