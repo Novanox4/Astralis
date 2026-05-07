@@ -17,5 +17,5 @@ legMaxLength: 1.125
 legMinLength: 0.4
 legStraightness: 0.3
 legMoveSpace: 0.8
-rippleScale: 0.3
+rippleScale: 0.175
 legForwardScl: 1.35
