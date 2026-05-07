@@ -15,7 +15,7 @@ hovering: true
 hitSize: 9.5
 legMaxLength: 1.2
 legMinLength: 0.2
-legStraightness: 0.3
+legStraightness: 0.5
 legMoveSpace: 0.8
 rippleScale: 0.175
 legForwardScl: 1.35
