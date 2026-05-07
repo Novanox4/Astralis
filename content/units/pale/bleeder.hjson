@@ -1,7 +1,7 @@
 type: legs
 name: Bleeder
 outlineColor: 8c7a89
-speed: 1
+speed: 0.8
 hovering: true
 health: 650
 armor: 3.5
@@ -18,5 +18,5 @@ legMinLength: 0.45
 legStraightness: 0.5
 legMoveSpace: 0.8
 rippleScale: 0.175
-legForwardScl: 1.7
-lockLegBase: true
+legForwardScl: 1.6
+stepSound: walkerStepTiny
