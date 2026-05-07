@@ -1,0 +1,12 @@
+type: legs
+name: Bleeder
+outlineColor: 8c7a89
+legCount: 6
+legGroupSize: 3
+legLength: 5
+health: 650
+armor: 3.5
+drawCell: false
+legBaseoffset: 15
+speed: 2
+hovering: true
