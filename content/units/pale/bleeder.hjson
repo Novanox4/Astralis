@@ -25,6 +25,6 @@ parts: [
   type: RegionPart
   suffix: "-claw"
   x: -5
-  layerOffset: -0.1
+  layerOffset: -0.01
   }
 ]
