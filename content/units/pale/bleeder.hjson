@@ -20,3 +20,9 @@ legMoveSpace: 1
 rippleScale: 0.175
 legForwardScl: 1.6
 stepSound: walkerStepTiny
+parts: [
+  {
+  type: RegionPart
+  suffix: "-claw"
+  }
+]
