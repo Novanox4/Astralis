@@ -33,7 +33,7 @@ weapons: [
   {
   x: 0
   y: 0
-  reload: 5
+  reload: 0
   shootSound: none
   shootY: 0
   shootOnDeath: true
