@@ -41,6 +41,8 @@ weapons: [
     type: ExplosionBulletType
     shootEffect: none
     despawnEffect: none
+    smokeEffect: none
+    despawnHit: true
     hitEffect: [
       {
       type: ParticleEffect
