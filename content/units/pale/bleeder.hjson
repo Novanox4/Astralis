@@ -51,7 +51,7 @@ weapons: [
       spin: 0.675
       length: 8
       baseLength: 12
-      lifetime: 145
+      lifetime: 240
       layer: 74.9
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
