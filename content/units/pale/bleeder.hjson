@@ -39,11 +39,13 @@ weapons: [
   shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
-    hitEffect: none
+    shootEffect: none
     despawnEffect: none
     smokeEffect: none
     despawnHit: true
-    shootEffect: [
+    splashDamage: 40
+    splashDamageRadius: 24
+    hitEffect: [
       {
       type: ParticleEffect
       colorTo: ffffff00
@@ -59,8 +61,6 @@ weapons: [
       layer: 74.9
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
-      splashDamage: 40
-      splashDamageRadius: 24
       }
     ]
     }
