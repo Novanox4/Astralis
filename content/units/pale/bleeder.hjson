@@ -31,20 +31,22 @@ parts: [
 ]
 weapons: [
   {
+  shootOnDeath: true
   x: 0
   y: 0
-  reload: 0
+  reload: 1
   shootSound: none
   shootY: 0
-  shootOnDeath: true
+  mirror: false
   bullet: {
     type: ExplosionBulletType
     shootEffect: none
     despawnEffect: none
     smokeEffect: none
     despawnHit: true
-    splashDamage: 40
-    splashDamageRadius: 24
+    splashDamage: 60
+    splashDamageRadius: 36
+    rangeOverride: 35
     hitEffect: [
       {
       type: ParticleEffect
