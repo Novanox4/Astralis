@@ -39,11 +39,11 @@ weapons: [
   shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
-    shootEffect: none
+    hitEffect: none
     despawnEffect: none
     smokeEffect: none
     despawnHit: true
-    hitEffect: [
+    shootEffect: [
       {
       type: ParticleEffect
       colorTo: ffffff00
