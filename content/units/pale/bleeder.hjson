@@ -47,12 +47,10 @@ weapons: [
       sizeFrom: 5
       sizeTo: 5
       interp: pow10Out
-      spin: 1
-      offsetX: -6.25
-      offsetY: 2
+      spin: 0.675
       length: 8
       baseLength: 12
-      lifetime: 120
+      lifetime: 145
       layer: 74.9
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
