@@ -59,24 +59,7 @@ weapons: [
     despawnEffect: none
     smokeEffect: none
     despawnHit: true
-    hitEffect: [
-      {
-      type: ParticleEffect
-      colorTo: ffffff00
-      particles: 1
-      cone: 360
-      sizeFrom: 5
-      sizeTo: 5
-      interp: pow10Out
-      spin: 0.3
-      length: 5.5
-      baseLength: 6.5
-      lifetime: 540
-      layer: 74.9
-      region: "astralis-bleeder-claw-outlined"
-      offset: 2.5
-      }
-    ]
+    hitEffect: none
     }
   }
 ]
