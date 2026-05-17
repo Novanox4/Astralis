@@ -36,6 +36,7 @@ weapons: [
   reload: 5
   shootSound: none
   shootY: 0
+  shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
     shootEffect: [
