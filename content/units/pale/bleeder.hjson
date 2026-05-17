@@ -39,7 +39,9 @@ weapons: [
   shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
-    shootEffect: [
+    shootEffect: none
+    despawnEffect: none
+    hitEffect: [
       {
       type: ParticleEffect
       colorTo: ffffff00
@@ -48,10 +50,10 @@ weapons: [
       sizeFrom: 5
       sizeTo: 5
       interp: pow10Out
-      spin: 0.675
-      length: 4
-      baseLength: 6
-      lifetime: 480
+      spin: 0.3
+      length: 5.5
+      baseLength: 6.5
+      lifetime: 540
       layer: 74.9
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
