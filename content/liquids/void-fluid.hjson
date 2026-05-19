@@ -26,6 +26,6 @@ canStayOn: [water]
 capPuddles: false
 cells: 9
 spreadDamage: 0.001
-maxSpread: 2.2
+maxSpread: 0.8
 spreadConversion: 0.5
 removeScaling: 0
