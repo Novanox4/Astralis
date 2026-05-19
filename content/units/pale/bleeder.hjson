@@ -57,19 +57,19 @@ weapons: [
       sizeTo: 4
       interp: pow10Out
       spin: 0.3
-      length: 5.5
-      baseLength: 6.5
-      lifetime: 540
+      length: 6.5
+      baseLength: 7.5
+      lifetime: 630
       layer: 74.9
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
       }
       {
       type: WaveEffect
-      sizeTo: 30
-      lifetime: 85
-      strokeFrom: 7
-      interp: pow5Out
+      sizeTo: 16
+      lifetime: 47.5
+      strokeFrom: 2.2
+      interp: pow3Out
       }
     ]
     }
