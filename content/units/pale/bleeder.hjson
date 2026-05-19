@@ -69,6 +69,7 @@ weapons: [
       sizeTo: 30
       lifetime: 85
       strokeFrom: 7
+      interp: pow5Out
       }
     ]
     }
