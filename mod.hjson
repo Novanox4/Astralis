@@ -1,32 +1,30 @@
 name: "astralis"
 displayName: Astralis
 description: "
-Work in progress hjson campaign mod that plans to add a new planet with a full camapign. This is a remake of a previous mod of mine bearing the same name.
+Consumption. Hunger. It only wants more and more until the only thing left to devour is itself. Null ouroboros.
 
-Astralis is a mod which aims to add a new planet with unique gameplay mechanics (world processors go brrr), that will also do everything possible to give you as much pain as possible.
+Hatred. Disdain. A conflict blinded by the need to see the other side in the dirt.
 
-The difficulty spike is vertical. Intended for people familiar with mindustry/mindustry mods.
+Pain. Fear. Your will to stay afloat backfires.
 
-Some VFX may cause eye strain. Proceed at your own risk.
+Rot. Agony. Only ever a means to an end.
 
-Not reccomended on low end devices!
+Hope. Determination. A flower stands against a hurricane.
 
-This mod is pure hjson, but may use some scripts for music purposes.
+We await, deep in the heart of this hell that serves as your one and only home.
 
 CREDITS:
 
 NV-NX - Main dev and spriter
 Haznobrain - Occasional sprite and code help. Making music.
-Megacheb - Allowing me to use some of their music for (upcoming) bosses.
-
-[lightgray]It takes my heart being broken and broken again to realize I am the reason the sufferings never end.[]"
+Megacheb - Allowing me to use some of their music for (upcoming) bosses."
+[red]A GATE TO THE SKY, A PORTAL TO DIE[]"
 subtitle: "V0.1: Imbrued apathy."
 author: "NV-NX (FULL CREDITS IN DESC.)"
 version: 0.1
 repo: "Novanox4/Astralis"
 minGameVersion: 157
 
-//"Every mod.hjson must die" - Erlking Anuke
 contentOrder: [
 
   //attributes
