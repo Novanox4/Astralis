@@ -64,15 +64,14 @@ weapons: [
       region: "astralis-bleeder-claw-outlined"
       offset: 2.5
       }
+      {
+      type: WaveEffect
+      sizeTo: 30
+      lifetime: 85
+      strokeFrom: 7
+      }
     ]
     }
   }
 ]
-deathExplosionEffect: [
-  {
-  type: WaveEffect
-  sizeTo: 30
-  lifetime: 85
-  strokeFrom: 7
-  }
-]
+deathExplosionEffect: none
