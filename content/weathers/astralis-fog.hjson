@@ -13,4 +13,4 @@ sound: none
 noiseLayers: 2
 name: Fog (Astralis)
 noisePath: "fog"
-opacityMultiplier: 0.5
+opacityMultiplier: 0.9
