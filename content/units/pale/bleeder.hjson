@@ -67,8 +67,8 @@ weapons: [
       {
       type: WaveEffect
       sizeTo: 16
-      lifetime: 47.5
-      strokeFrom: 2.2
+      lifetime: 30
+      strokeFrom: 3
       interp: pow3Out
       }
     ]
