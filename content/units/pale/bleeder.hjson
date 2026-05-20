@@ -47,6 +47,7 @@ weapons: [
     splashDamage: 60
     splashDamageRadius: 36
     rangeOverride: 35
+    shootOnDeath: true
     hitEffect: [
       {
       type: ParticleEffect
