@@ -1,6 +1,6 @@
 type: ParticleWeather
 particleRegion: particle
-color: 5d9294
+color: 4f526d
 padding: 0
 xspeed: 1.25
 yspeed: -0.3
