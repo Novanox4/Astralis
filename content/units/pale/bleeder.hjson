@@ -76,3 +76,10 @@ weapons: [
   }
 ]
 deathExplosionEffect: none
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: pale-blood
+  amount: 150
+  }
+]
