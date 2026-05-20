@@ -12,3 +12,4 @@ density: 2800
 sound: none
 noiseLayers: 2
 name: Fog (Astralis)
+noisePath: "fog"
