@@ -93,6 +93,16 @@ weapons: [
       lifetime: 35
       particles: 5
       }
+      {
+      type: ParticleEffect
+      sizeFrom: 22.5
+      length: 18
+      interp: pow5Out
+      lifetime: 35
+      particles: 5
+      layer: 99
+      color: ffffffb3
+      }
     ]
     }
   }
