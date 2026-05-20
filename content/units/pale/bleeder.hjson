@@ -95,13 +95,14 @@ weapons: [
       }
       {
       type: ParticleEffect
-      sizeFrom: 22.5
-      length: 18
+      sizeFrom: 16.25
+      length: 25
       interp: pow5Out
-      lifetime: 35
+      lifetime: 45
       particles: 5
       layer: 99
-      color: ffffffb3
+      colorFrom: ffffffb3
+      colorTo: ffffffb3
       }
     ]
     }
