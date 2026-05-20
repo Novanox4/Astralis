@@ -38,6 +38,7 @@ weapons: [
   shootSound: none
   shootY: 0
   mirror: false
+  shootCone: 360
   bullet: {
     type: ExplosionBulletType
     shootEffect: none
