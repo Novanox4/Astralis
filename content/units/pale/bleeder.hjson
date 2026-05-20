@@ -82,7 +82,7 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: pale-blood
-  amount: 140
+  amount: 175
   radScale: 1.2
   radAmountScale: 5.5
   noiseMag: 8
