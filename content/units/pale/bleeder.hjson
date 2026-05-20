@@ -95,7 +95,7 @@ weapons: [
       }
       {
       type: ParticleEffect
-      sizeFrom: 16.25
+      sizeFrom: 10.25
       length: 25
       interp: pow3Out
       lifetime: 52.5
@@ -103,8 +103,7 @@ weapons: [
       layer: 99
       colorFrom: ffffff80
       colorTo: ffffff4d
-      sizeInterp: linear
-      sizeChangeStart: 22.5
+      sizeChangeStart: 7.5
       }
     ]
     }
