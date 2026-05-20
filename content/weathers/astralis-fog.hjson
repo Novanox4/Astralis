@@ -1,12 +1,12 @@
 type: ParticleWeather
 particleRegion: particle
-color: 2f54941a
+color: 587fad1a
 padding: 0
 xspeed: 1.25
 yspeed: -0.3
-minAlpha: 0.02
-maxAlpha: 0.1
-sizeMin: 150
+minAlpha: 0.01
+maxAlpha: 0.075
+sizeMin: 300
 sizeMax: 500
 density: 3000
 sound: none
