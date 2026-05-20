@@ -1,11 +1,11 @@
+type: CellLiquid
 name: Pale Blood
 description: How are u reading this
-details: Suspicious fluid
 color: d0c2d1
 colorFrom: f2e9f2
 colorTo: 0c0413
 gasColor: a796a8
-viscosity: 0.2
+viscosity: 0.3
 explosiveness: 1
 flammability: 0.4
 spreadTarget: water
