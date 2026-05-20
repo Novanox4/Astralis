@@ -80,6 +80,8 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: pale-blood
-  amount: 150
+  amount: 60
+  radScale: 1.2
+  radAmountScale: 3
   }
 ]
