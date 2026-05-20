@@ -2,13 +2,13 @@ type: ParticleWeather
 particleRegion: particle
 color: 3239454d
 padding: 0
-xspeed: 1.25
-yspeed: -0.3
-minAlpha: 0.01
+xspeed: 4
+yspeed: -0.625
+minAlpha: 0.0125
 maxAlpha: 0.075
 sizeMin: 200
 sizeMax: 525
-density: 2800
+density: 2600
 sound: none
 noiseLayers: 2
 name: Fog (Astralis)
