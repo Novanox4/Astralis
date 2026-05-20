@@ -77,21 +77,20 @@ weapons: [
       type: ParticleEffect
       line: true
       layer: 99
-      strokeFrom: 2
-      lenFrom: 4
-      lenTo: 3.5
-      interp: pow3Out
-      lifetime: 22
+      strokeFrom: 3.25
+      lenFrom: 5.5
+      lenTo: 3.75
+      interp: pow5Out
+      lifetime: 30
       length: 17.5
       particles: 5
-      lifetime: 45
       }
       {
       type: ParticleEffect
-      sizeFrom: 5.75
-      length: 22
-      interp: pow3Out
-      lifetime: 52.5
+      sizeFrom: 7.5
+      length: 18
+      interp: pow5Out
+      lifetime: 35
       particles: 5
       }
     ]
