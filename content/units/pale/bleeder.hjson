@@ -83,6 +83,6 @@ abilities: [
   liquid: pale-blood
   amount: 140
   radScale: 1.2
-  radAmountScale: 3
+  radAmountScale: 5.5
   }
 ]
