@@ -1,6 +1,0 @@
-type: StaticWall
-name: Shoreline Wall
-mapColor: e9daa6ff
-attributes: {
-  char: 1
-}
