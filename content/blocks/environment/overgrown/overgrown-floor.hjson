@@ -1,7 +1,0 @@
-type: floor
-name: Overgrown Floor
-variants: 8
-decoration: shrub
-attributes: {
-  growth: 0.2
-}
