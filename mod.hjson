@@ -55,10 +55,9 @@ contentOrder: [
 
   etna
 
-  //bio
+  //pale
 
-  flu
-  cicada
+  bleeder
 
   //unit blocks
 
@@ -77,11 +76,7 @@ contentOrder: [
 
   //sectors
 
-  deserted-wastes
-  gloom
-  plains
-  offset
-  explosive-armaments-facility
+
 
   //crafting
 
@@ -168,41 +163,6 @@ contentOrder: [
 
   deep-astral-water
   astral-water
-  murky-water-deep
-  murky-water
-  
-  shoreline-wall
-  shoreline-floor
-  shoreline-floor-medium
-  shoreline-floor-dense
-  shoreline-floor-very-dense
-  shoreline-floor-hyper-dense
-  shoreline-boulder
-  shoreline-monolith
-
-  wastes-wall
-  wastes-floor
-  wastes-boulder
-
-  nocturnal-moss-wall
-  nocturnal-moss-floor
-  nocturnal-shrub
-
-  limestone-wall
-  limestone
-  limestone-chunks
-  limestone-crater
-
-  overgrown-wall
-  overgrown-floor
-  shrub
-  thorny-vine
-  thick-vine
-
-  astral-wall
-  astral-floor
-  warped-floor
-  crystal-spike
 
   astralis-core-zone
   
