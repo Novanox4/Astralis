@@ -1,5 +1,0 @@
-type: SeaBush
-lobesMin: 5
-lobesMax: 7
-name: Nocturnal Shrub
-placeableLiquid: true
