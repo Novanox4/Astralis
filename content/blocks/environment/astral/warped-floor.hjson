@@ -1,7 +1,0 @@
-type: floor
-name: Warped Floor
-variants: 6
-attributes: {
-  growth: -0.05
-}
-blendGroup: astral-floor

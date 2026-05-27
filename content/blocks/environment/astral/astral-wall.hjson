@@ -1,5 +1,0 @@
-type: StaticWall
-name: Astral Wall
-attributes: {
-  char: 0.1
-}
