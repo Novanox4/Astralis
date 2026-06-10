@@ -1,6 +1,7 @@
 type: ParticleWeather
 particleRegion: particle
 color: 778f9c4d
+noiseColor: 778f9cff
 padding: 0
 xspeed: 1.25
 yspeed: -0.3
