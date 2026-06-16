@@ -41,13 +41,11 @@ contentOrder: [
   //t1
 
   izalco
-  valium
   benxi
 
   //t2
 
   antilla
-  questran
   madine
 
   //t3
@@ -159,6 +157,10 @@ contentOrder: [
   
   //env
   //(this is for editor ordering)
+
+  nightstone-floor
+  nightstone-crater
+  nightstone-wall
 
   deep-astral-water
   astral-water
