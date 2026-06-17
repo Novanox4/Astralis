@@ -1,13 +1,5 @@
 name: Fulminate
-description: "Crumbly, highly explosive and flammable material. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
-details: 
-'''
-RESOURCE ANALYSIS #11
-
-Fulminate doesn't occur naturally, and must be produced.
-
-Highly explosive and flammable, it obviously is used in ammunition, but ore extraction as well.
-'''
+description: "Highly explosive and flammable material. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
 cost: 0.1
 healthScaling: 0.1
 hardness: 1.1
