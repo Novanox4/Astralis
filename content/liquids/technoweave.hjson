@@ -10,12 +10,4 @@ heatCapacity: 0.01
 coolant: false
 research: hadalrock
 name: Technoweave
-description: Amalgam of nanomachines. Can either solidify or be used in their current state.
-details: 
-'''
-RESOURCE REPORT #15
-
-Technoweave is a nanobot array developed by the DCHQ which can be commanded into multiple formations.
-
-They can either be solidified into picocarapace or be used within high-grade reparation and construction technology.
-'''
+description: Amalgam of nanomachines. Can either be processed into a flexible material or be used in their current state.
