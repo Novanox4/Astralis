@@ -1,0 +1,11 @@
+type: Floor
+name: Void Fluid
+speedMultiplier: 0.3
+isLiquid: true
+liquidDrop: void-fluid
+cacheLayer: tar
+supportsOverlay: true
+shallow: false
+variants: 1
+albedo: 0.6
+drownTime: 180
