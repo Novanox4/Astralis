@@ -1,15 +1,5 @@
 name: Neodymium
-description: "Rare metal. Highly magnetic. Not durable"
-details: 
-'''
-RESOURCE ANALYSIS #12
-
-This resource analysis covers both cerium and neodymium.
-
-Neither can be found commonly enough to warrant conventional extraction.
-
-Neodymium is not durable, yet highly magnetic, giving it many uses in transportation. It can also be used to scramble enemy technology.
-'''
+description: "Rare metal. Highly magnetic. Not durable."
 cost: 0.9
 healthScaling: 0.5
 hardness: 0.5
