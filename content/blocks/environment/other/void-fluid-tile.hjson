@@ -1,7 +1,6 @@
 type: Floor
 name: Void Fluid
 speedMultiplier: 0.3
-isLiquid: true
 liquidDrop: void-fluid
 supportsOverlay: true
 shallow: false
