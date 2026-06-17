@@ -2,17 +2,10 @@ name: "astralis"
 displayName: Astralis
 description: "
 CURRENTLY NOT PLAYABLE!!!!!!!!
-Consumption. Hunger. It only wants more and more until the only thing left to devour is itself. Null ouroboros.
 
-Hatred. Disdain. A conflict blinded by the need to see the other side in the dirt.
+A reboot of an old mod.
 
-Pain. Fear. Your will to stay afloat backfires.
-
-Rot. Agony. Only ever a means to an end.
-
-Hope. Determination. A flower stands against a hurricane.
-
-We await, deep in the heart of this hell that serves as your one and only home.
+Explore a rocky,
 
 CREDITS:
 
@@ -23,7 +16,7 @@ subtitle: "Re-Remake"
 author: "NV-NX (FULL CREDITS IN DESC.)"
 version: 0.1
 repo: "Novanox4/Astralis"
-minGameVersion: 157
+minGameVersion: 158.1
 
 contentOrder: [
 
@@ -58,10 +51,6 @@ contentOrder: [
 
   //unit blocks
 
-  aeronautics-forge
-  automobile-forge
-  arachnid-forge
-
   //power
 
   energy-distributor
@@ -73,20 +62,11 @@ contentOrder: [
 
   //sectors
 
-
-
   //crafting
-
-  metaglass-crucible
-  incubator
-  biomatter-decayer
-  cryogenic-distiller
-  silver-fulminator
 
   //heat
 
   heat-circulator
-  radiator
 
   //items
 
@@ -149,11 +129,6 @@ contentOrder: [
   metaglass-wall-large
 
   //turrets
-
-  agitation
-  mouthpiece
-  boil
-  reverberation
   
   //env
   //(this is for editor ordering)
