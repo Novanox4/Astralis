@@ -11,13 +11,3 @@ coolant: false
 research: silver
 name: Nitric Acid
 description: Highly corrosive fluid. Very volatile.
-details: 
-'''
-RESOURCE REPORT #10
-
-Nitric acid is a powerul corrosive substance that can be manufactured.
-
-It can aid in resource extraction and weaken enemy armor.
-
-Holds uses in both combustion-based combat and industrialization.
-'''
