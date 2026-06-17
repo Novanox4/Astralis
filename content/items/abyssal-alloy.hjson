@@ -1,13 +1,5 @@
 name: Abyssal Alloy
 description: "Powerful, refined alloy. Incredibly durable."
-details: 
-'''
-RESOURCE ANALYSIS #17
-
-This alloy is incredibly durable and has no volatile factors, great for advanced defenses and ammunition.
-
-Abyssal alloy is very heavy, so aircraft made using it requires highly advanced engines.
-'''
 cost: 2.5
 healthScaling: 2.3
 hardness: 0.5
