@@ -15,7 +15,7 @@ spreadTarget: pale-blood
 canStayOn: [pale-blood]
 capPuddles: false
 cells: 9
-spreadDamage: 0.005
+spreadDamage: 0
 maxSpread: 3
-spreadConversion: 0.25
+spreadConversion: 1
 removeScaling: 0
