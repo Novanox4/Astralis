@@ -133,6 +133,10 @@ contentOrder: [
   //env
   //(this is for editor ordering)
 
+  ashen-rock
+  ashen-rock-wavy
+  ashen-rock-wall
+
   nightstone-floor
   nightstone-crater
   nightstone-wall
