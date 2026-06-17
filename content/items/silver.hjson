@@ -1,15 +1,5 @@
 name: Silver
-description: "Decently durable ore. Used in fine electronics and heat distribution. Can be used as ammo."
-details: 
-'''
-RESOURCE ANALYSIS #8
-
-Found near the surface. Abundance and size varies from sector to sector.
-
-Is conductive, and can be fashioned into wires. Can also conduct heat.
-
-Somewhat more durable than crystalite and uranium.
-'''
+description: "Decently common ore. Used in fine electronics and heat distribution. Can be used as ammo."
 cost: 1.4
 healthScaling: 0.675 //DO NOT SAY ANYTHING ABOUT THIS NUMBER ELSE I WILL KILL YOU WITH MY BARE HANDS
 hardness: 1.1
