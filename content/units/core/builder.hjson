@@ -1,7 +1,7 @@
 type: flying
 flying: true
 health: 200
-speed: 8
+speed: 10
 rotateSpeed: 8.5
 buildSpeed: 2
 mineWalls: true
