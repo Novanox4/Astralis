@@ -1,11 +1,5 @@
 name: Char Chunks
-description: "Useless residue. Can be used as ammunition or for resource retrieval. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
-details: 
-'''
-RESOURCE ANALYSIS #5
-
-Burnt. No building applications, crumbly and weak. Usable as weak ammunition.
-'''
+description: "Production residue. Can be used as ammunition or for resource retrieval. [red]Cannot be used to build. The core will incinerate it upon insertion.[]"
 buildable: false
 hardness: 0.2
 flammability: 0
