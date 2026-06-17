@@ -12,9 +12,9 @@ spreadTarget: water
 canStayOn: [water]
 capPuddles: false
 cells: 9
-spreadDamage: 0.001
-maxSpread: 0.8
-spreadConversion: 0.5
+spreadDamage: 0.01
+maxSpread: 2.25
+spreadConversion: 0.25
 removeScaling: 0.02
 hideDatabase: true
 hideDetails: false
