@@ -3,7 +3,6 @@ name: Void Fluid
 speedMultiplier: 0.3
 liquidDrop: void-fluid
 supportsOverlay: true
-shallow: false
 variants: 1
 drownTime: 180
 overlayAlpha: 0.5
