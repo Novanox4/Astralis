@@ -1,15 +1,5 @@
 name: Biomatter
 description: "Orange-hued plant based lifeform. Flammable. Can be further produced or burnt to generate power. [accent]While it cannot be used to build, the core will accept it's insertion.[]"
-details: 
-'''
-RESOURCE ANALYSIS #3
-
-Flammable plant based lifeform. Found near bodies of water. Edible to the lifeforms on Astralis.
-
-It's orange color is given by a symbiotic relationship with a bacteria which protects it.
-
-Can be obtained from overgrowths or cultivated. They grow via absorption of environmental metals, which can be retrieved via chemical processes.
-'''
 hardness: 0.3
 flammability: 1.1
 radioactivity: 0
