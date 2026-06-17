@@ -1,8 +1,4 @@
 type: Floor
 name: Void Fluid
-speedMultiplier: 0.3
 liquidDrop: void-fluid
-supportsOverlay: true
 variants: 1
-drownTime: 180
-overlayAlpha: 0.5
