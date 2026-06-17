@@ -7,3 +7,4 @@ cacheLayer: "mud"
 supportsOverlay: true
 shallow: false
 variants: 1
+albedo: 1
