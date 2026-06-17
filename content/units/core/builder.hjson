@@ -3,11 +3,11 @@ flying: true
 health: 200
 speed: 8
 rotateSpeed: 8.5
-buildSpeed: 1.4
+buildSpeed: 2
 mineWalls: true
 mineFloor: true
-mineSpeed: 6
-mineRange: 180
+mineSpeed: 7.25
+mineRange: 200
 mineTier: 3
 accel: 0.2
 controller: BuilderAI
@@ -19,7 +19,7 @@ alwaysUnlocked: true
 research: core-fort
 outlineColor: 323232
 name: Builder
-description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, heals units and buildings with pulses of energy."
+description: "Defender of the Core: Fort. Agile and capable of building. Unable to attack, heals units and buildings with pulses of energy and slows down nearby enemies."
 databaseTag: "astralis-unit-core"
 rotateToBuilding: true
 faceTarget: false
@@ -70,6 +70,8 @@ abilities: [
   sameTypeHealMult: 1.75
   layer: -11
   color: 94e3f1
+  status: hindered
+  statusDuration: 60
   healEffect: {
     type: WaveEffect
     colorTo: 94e3f1
