@@ -1,0 +1,9 @@
+type: Floor
+name: Void Fluid
+speedMultiplier: 0.3
+isLiquid: true
+liquidDrop: void-fluid
+cacheLayer: "mud"
+supportsOverlay: true
+shallow: false
+variants: 1
