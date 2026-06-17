@@ -1,9 +1,9 @@
 type: Floor
-name: Void Fluid
+name: "Void Fluid"
 speedMultiplier: 0.3
 isLiquid: true
-liquidDrop: void-fluid
-cacheLayer: tar
+liquidDrop: "void-fluid"
+cacheLayer: "tar"
 supportsOverlay: true
 shallow: false
 variants: 1
