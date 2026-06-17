@@ -7,5 +7,5 @@ cacheLayer: tar
 supportsOverlay: true
 shallow: false
 variants: 1
-albedo: 0.6
 drownTime: 180
+overlayAlpha: 0.5
