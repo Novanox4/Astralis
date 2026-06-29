@@ -20,3 +20,5 @@ name: Pride
 weapons: []
 abilities: []
 segmentUnits: 3
+segmentUnit: pride
+segmentEndUnit: pride
