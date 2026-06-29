@@ -1,0 +1,7 @@
+type: legs
+legLength: 12
+speed: 8
+health: 8000
+name: Pride
+weapons: []
+abilities: []
