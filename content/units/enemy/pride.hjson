@@ -1,7 +1,10 @@
 type: legs
 legLength: 12
-speed: 8
+legCount: 6
+legGroupSize: 3
+speed: 0.8
 health: 8000
+outlineColor: 323232
 name: Pride
 weapons: []
 abilities: []
