@@ -1,7 +1,8 @@
 type: legs
-legLength: 12
+legLength: 16
 legCount: 6
 legGroupSize: 3
+legBaseOffset: 30
 speed: 0.8
 health: 8000
 outlineColor: 323232
