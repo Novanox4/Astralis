@@ -1,4 +1,4 @@
-type: crawl
+type: segment
 legLength: 16
 legCount: 8
 legGroupSize: 2
