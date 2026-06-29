@@ -3,7 +3,7 @@ legLength: 16
 legCount: 8
 legGroupSize: 2
 legBaseOffset: 6
-legExtension: -1.65
+legExtension: -2.1
 legMoveSpace: 1.1
 legForwardScl: 2
 legMaxLength: 1.15
@@ -13,7 +13,8 @@ baseLegStraightness: 0.3
 lockLegBase: true
 legContinuousMove: true
 speed: 0.8
-health: 8000
+health: 6000
+armor: 20
 outlineColor: 323232
 name: Pride
 weapons: []
