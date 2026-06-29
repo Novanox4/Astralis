@@ -1,8 +1,8 @@
 type: legs
 legLength: 16
 legCount: 6
-legGroupSize: 1
-legBaseOffset: 30
+legGroupSize: 3
+legBaseOffset: 15
 legExtension: -1.5
 legMoveSpace: 1.1
 legForwardScl: 1.15
