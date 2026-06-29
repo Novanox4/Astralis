@@ -7,7 +7,8 @@ legExtension: -1.5
 legMoveSpace: 1.1
 legForwardScl: 1.15
 legMaxLength: 1.15
-legStraightLength: 0.8
+legStraightLength: 1
+lockLegBase: true
 speed: 0.8
 health: 8000
 outlineColor: 323232
