@@ -3,7 +3,7 @@ legLength: 16
 legCount: 8
 legGroupSize: 2
 legBaseOffset: 6
-legExtension: -2.1
+legExtension: -2.75
 legMoveSpace: 1.1
 legForwardScl: 2
 legMaxLength: 1.15
