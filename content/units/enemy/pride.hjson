@@ -49,7 +49,6 @@ weapons: [
     trailLength: 10
     trailWidth: 1
     lifeScaleRandMin: 0.75
-    scaleLife: true
     backColor: 94e3f1
     frontColor: ffffff
     followAimSpeed: 8.5
