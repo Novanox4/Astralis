@@ -57,6 +57,45 @@ weapons: [
     inaccuracy: 5
     recoil: 2
     smokeEffect: none
+    despawnHit: true
+    hitSound: shieldHit
+    despawnEffect: none
+    hitEffect: [
+      {
+      type: ParticleEffect
+      sizeFrom: 4.25
+      interp: pow3Out
+      particles: 6
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      lifetime: 45
+      length: 22.5
+      }
+      {
+      type: ParticleEffect
+      interp: pow3Out
+      particles: 5
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      line: true
+      lenFrom: 6
+      lenTo: 3
+      strokeFrom: 3
+      lifetime: 45
+      length: 22.5
+      }
+      {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      strokeFrom: 3
+      strokeTo: 0
+      lifetime: 60
+      interp: pow3Out
+      }
+    ]
     shootEffect: [
       {
       type: ParticleEffect
@@ -66,8 +105,8 @@ weapons: [
       colorFrom: ffffff
       colorTo: 94e3f1
       cone: 9
-      lifetime: 25
-      length: 14
+      lifetime: 45
+      length: 22.5
       }
       {
       type: ParticleEffect
@@ -80,8 +119,8 @@ weapons: [
       lenFrom: 6
       lenTo: 3
       strokeFrom: 3
-      lifetime: 25
-      length: 14.5
+      lifetime: 45
+      length: 22.5
       }
     ]
     parts: [
@@ -92,7 +131,7 @@ weapons: [
       color1: 94e3f1
       progress: life
       stroke: 4
-      rotMove: 180
+      rotMove: 360
       }
     ]
   }
