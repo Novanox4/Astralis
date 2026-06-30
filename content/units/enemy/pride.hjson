@@ -44,15 +44,22 @@ weapons: [
     damage: 30
     width: 0
     height: 0
+    trailColor: 94e3f1
+    trailLength: 10
+    trailWidth: 1
+    velocityScaleRandMin: 0.9
+    velocityScaleRandMax: 1.1
+    lifeScaleRandMin: 0.9
+    lifeScaleRandMax: 1.1
     backColor: 94e3f1
     frontColor: ffffff
-    followAimSpeed: 2.5
+    followAimSpeed: 5
     inaccuracy: 5
     parts: [
       {
       type: FlarePart
       radius: 2
-      radiusTo: 35
+      radiusTo: 12
       color1: 94e3f1
       progress: life
       }
