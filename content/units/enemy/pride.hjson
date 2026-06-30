@@ -56,6 +56,7 @@ weapons: [
     followAimSpeed: 7.5
     inaccuracy: 5
     recoil: 2
+    smokeEffect: none
     shootEffect: [
       {
       type: ParticleEffect
