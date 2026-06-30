@@ -21,7 +21,7 @@ weapons: [
   //sides
   {
   shootCone: 360
-  reload: 120
+  reload: 70
   shootSound: shootCleroi
   mirror: true
   alternate: true
@@ -33,7 +33,7 @@ weapons: [
     type: ShootBarrel
     shots: 10
     barrels: [
-      -8, 0, 105,
+      -8, 0.5, 105,
     ]
   }
   bullet: {
@@ -55,6 +55,7 @@ weapons: [
     frontColor: ffffff
     followAimSpeed: 7.5
     inaccuracy: 5
+    recoil: 3
     parts: [
       {
       type: FlarePart
