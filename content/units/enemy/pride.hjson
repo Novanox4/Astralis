@@ -38,8 +38,8 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    speed: 0.1
-    accel: 0.15
+    speed: 0
+    accel: 0.1
     lifetime: 37.5
     damage: 30
     width: 0
