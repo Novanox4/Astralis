@@ -31,8 +31,8 @@ weapons: [
   shoot: {
     type: ShootBarrel
     barrels: [
-      -8, 0, 135,
-      8, 0, -135
+      -8, 0, 90,
+      8, 0, -90
     ]
   }
 }
