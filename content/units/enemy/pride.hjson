@@ -58,6 +58,7 @@ weapons: [
     hitSound: shieldHit
     hitSoundVolume: 0.3
     despawnEffect: none
+    keepVelocity: false
     hitEffect: [
       {
       type: ParticleEffect
