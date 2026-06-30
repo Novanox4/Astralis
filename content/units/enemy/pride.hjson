@@ -38,9 +38,9 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    accel: 0.2
+    accel: 0.175
     speed: 3
-    lifetime: 30
+    lifetime: 37.5
     damage: 30
     width: 0
     height: 0
@@ -53,13 +53,13 @@ weapons: [
     lifeScaleRandMax: 1.1
     backColor: 94e3f1
     frontColor: ffffff
-    followAimSpeed: 5
+    followAimSpeed: 7.5
     inaccuracy: 5
     parts: [
       {
       type: FlarePart
       radius: 1
-      radiusTo: 5
+      radiusTo: 15
       color1: 94e3f1
       progress: life
       }
