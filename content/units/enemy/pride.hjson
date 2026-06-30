@@ -33,7 +33,7 @@ weapons: [
     type: ShootBarrel
     shots: 2
     barrels: [
-      -8, 0, 90,
+      -8, 0, 105,
     ]
   }
 }
