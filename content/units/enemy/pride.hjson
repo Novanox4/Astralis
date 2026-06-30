@@ -54,7 +54,7 @@ weapons: [
     frontColor: ffffff
     followAimSpeed: 7.5
     inaccuracy: 5
-    recoil: 0.5
+    recoil: 0.75
     smokeEffect: none
     despawnHit: true
     hitSound: shieldHit
