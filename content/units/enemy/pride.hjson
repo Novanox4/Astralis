@@ -38,8 +38,8 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    accel: 0.175
-    speed: 3
+    accel: 0.18
+    speed: 2.5
     lifetime: 37.5
     damage: 30
     width: 0
@@ -48,9 +48,7 @@ weapons: [
     trailLength: 10
     trailWidth: 1
     velocityScaleRandMin: 0.85
-    velocityScaleRandMax: 1.1
     lifeScaleRandMin: 0.85
-    lifeScaleRandMax: 1.1
     backColor: 94e3f1
     frontColor: ffffff
     followAimSpeed: 7.5
