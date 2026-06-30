@@ -23,16 +23,17 @@ weapons: [
   shootCone: 360
   reload: 120
   shootSound: shootCleroi
-  mirror: false
+  mirror: true
+  alternate: true
   x: 0
   y: 0
   shootY: 0
   rotate: false
   shoot: {
     type: ShootBarrel
+    shots: 2
     barrels: [
       -8, 0, 90,
-      8, 0, -90
     ]
   }
 }
