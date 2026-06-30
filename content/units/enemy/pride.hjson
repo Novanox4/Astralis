@@ -38,18 +38,18 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    accel: 0.1
+    accel: 0.2
     speed: 3
-    lifetime: 70
+    lifetime: 30
     damage: 30
     width: 0
     height: 0
     trailColor: 94e3f1
     trailLength: 10
     trailWidth: 1
-    velocityScaleRandMin: 0.9
+    velocityScaleRandMin: 0.85
     velocityScaleRandMax: 1.1
-    lifeScaleRandMin: 0.9
+    lifeScaleRandMin: 0.85
     lifeScaleRandMax: 1.1
     backColor: 94e3f1
     frontColor: ffffff
@@ -58,8 +58,8 @@ weapons: [
     parts: [
       {
       type: FlarePart
-      radius: 2
-      radiusTo: 12
+      radius: 1
+      radiusTo: 5
       color1: 94e3f1
       progress: life
       }
