@@ -38,7 +38,7 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    accel: 0.1
+    accel: 0.05
     speed: 3.5
     lifetime: 37.5
     damage: 30
