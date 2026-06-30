@@ -40,7 +40,7 @@ weapons: [
   bullet: {
     type: BasicBulletType
     speed: 5
-    accel: 0.1
+    accel: 0.15
     lifetime: 37.5
     damage: 30
     width: 0
@@ -52,7 +52,7 @@ weapons: [
     scaleLife: true
     backColor: 94e3f1
     frontColor: ffffff
-    followAimSpeed: 7.5
+    followAimSpeed: 8.5
     inaccuracy: 5
     recoil: 0.75
     smokeEffect: none
