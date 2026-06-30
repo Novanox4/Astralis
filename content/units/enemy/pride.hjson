@@ -13,6 +13,7 @@ baseLegStraightness: 0.3
 lockLegBase: true
 legContinuousMove: true
 speed: 0.8
+drag: 0.15
 health: 6000
 armor: 20
 outlineColor: 323232
@@ -38,8 +39,8 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    speed: 0
-    accel: 0.1
+    speed: 3
+    accel: 0.05
     lifetime: 37.5
     damage: 30
     width: 0
@@ -53,7 +54,7 @@ weapons: [
     frontColor: ffffff
     followAimSpeed: 7.5
     inaccuracy: 5
-    recoil: 2
+    recoil: 0.5
     smokeEffect: none
     despawnHit: true
     hitSound: shieldHit
