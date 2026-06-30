@@ -55,7 +55,34 @@ weapons: [
     frontColor: ffffff
     followAimSpeed: 7.5
     inaccuracy: 5
-    recoil: 3
+    recoil: 2
+    shootEffect: [
+      {
+      type: ParticleEffect
+      sizeFrom: 3
+      interp: pow3Out
+      particles: 1
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      cone: 7
+      lifetime: 12.5
+      length: 8
+      }
+      {
+      type: ParticleEffect
+      interp: pow3Out
+      particles: 1
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      cone: 7
+      line: true
+      lenFrom: 5
+      lenTo: 3
+      strokeFrom: 2
+      lifetime: 12.5
+      length: 8
+      }
+    ]
     parts: [
       {
       type: FlarePart
