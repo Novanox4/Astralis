@@ -31,9 +31,31 @@ weapons: [
   rotate: false
   shoot: {
     type: ShootBarrel
-    shots: 2
+    shots: 10
     barrels: [
       -8, 0, 105,
+    ]
+  }
+  bullet: {
+    type: BasicBulletType
+    accel: 0.1
+    speed: 3
+    lifetime: 70
+    damage: 30
+    width: 0
+    height: 0
+    backColor: 94e3f1
+    frontColor: ffffff
+    followAimSpeed: 2.5
+    inaccuracy: 5
+    parts: [
+      {
+      type: FlarePart
+      radius: 2
+      radiusTo: 35
+      color1: 94e3f1
+      progress: life
+      }
     ]
   }
 }
