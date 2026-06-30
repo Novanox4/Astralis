@@ -48,7 +48,7 @@ weapons: [
     trailLength: 10
     trailWidth: 1
     velocityScaleRandMin: 0.85
-    lifeScaleRandMin: 0.85
+    lifeScaleRandMin: 0.5
     backColor: 94e3f1
     frontColor: ffffff
     followAimSpeed: 7.5
@@ -57,7 +57,7 @@ weapons: [
     smokeEffect: none
     despawnHit: true
     hitSound: shieldHit
-    hitSoundVolume: 0.6
+    hitSoundVolume: 0.3
     despawnEffect: none
     hitEffect: [
       {
