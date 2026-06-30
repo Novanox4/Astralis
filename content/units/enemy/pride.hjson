@@ -38,7 +38,6 @@ weapons: [
   }
   bullet: {
     type: BasicBulletType
-    accel: 0.05
     speed: 2
     lifetime: 37.5
     damage: 30
@@ -48,6 +47,7 @@ weapons: [
     trailLength: 10
     trailWidth: 1
     lifeScaleRandMin: 0.5
+    scaleKeepVelocity: true
     backColor: 94e3f1
     frontColor: ffffff
     followAimSpeed: 7.5
@@ -58,7 +58,6 @@ weapons: [
     hitSound: shieldHit
     hitSoundVolume: 0.3
     despawnEffect: none
-    keepVelocity: false
     hitEffect: [
       {
       type: ParticleEffect
