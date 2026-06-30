@@ -62,6 +62,8 @@ weapons: [
       radiusTo: 15
       color1: 94e3f1
       progress: life
+      stroke: 4
+      rotMove: 180
       }
     ]
   }
