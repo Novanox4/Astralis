@@ -17,5 +17,20 @@ health: 6000
 armor: 20
 outlineColor: 323232
 name: Pride
-weapons: []
+weapons: [
+  //sides
+  {
+  shootCone: 360
+  reload: 120
+  shootSound: shootCleroi
+  shoot: {
+    type: ShootBarrel
+    shots: 10
+    barrels: [
+      -8, 0, 90,
+      8, 0, -90
+    ]
+  }
+}
+]
 abilities: []
