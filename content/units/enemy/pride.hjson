@@ -59,6 +59,7 @@ weapons: [
     smokeEffect: none
     despawnHit: true
     hitSound: shieldHit
+    hitSoundVolume: 0.6
     despawnEffect: none
     hitEffect: [
       {
@@ -68,7 +69,7 @@ weapons: [
       particles: 6
       colorFrom: ffffff
       colorTo: 94e3f1
-      lifetime: 45
+      lifetime: 30
       length: 22.5
       }
       {
@@ -81,7 +82,7 @@ weapons: [
       lenFrom: 6
       lenTo: 3
       strokeFrom: 3
-      lifetime: 45
+      lifetime: 30
       length: 22.5
       }
       {
@@ -92,7 +93,7 @@ weapons: [
       colorTo: 94e3f1
       strokeFrom: 3
       strokeTo: 0
-      lifetime: 60
+      lifetime: 45
       interp: pow3Out
       }
     ]
@@ -105,7 +106,7 @@ weapons: [
       colorFrom: ffffff
       colorTo: 94e3f1
       cone: 9
-      lifetime: 45
+      lifetime: 30
       length: 22.5
       }
       {
@@ -119,7 +120,7 @@ weapons: [
       lenFrom: 6
       lenTo: 3
       strokeFrom: 3
-      lifetime: 45
+      lifetime: 30
       length: 22.5
       }
     ]
