@@ -37,7 +37,7 @@ weapons: [
     type: InterceptorBulletType
     damage: 9999999
     rangeOverride: 60
-    recoil: 2.5
+    recoil: 4
     speed: 10
     lifetime: 200
     hitSize: 6
@@ -100,9 +100,42 @@ weapons: [
       maxDamageFraction: 0.8
       knockback: 3
       impact: true
-      followAimSpeed: 3
+      homingPower: 0.2
+      homingRange: 64
+      homingDelay: 25
       removeAfterPierce: false
       rangeOverride: 320
+      hitEffect: none
+      lightningColor: 94e3f1
+      lightning: 16
+      lightningDamage: 10
+      lightningLength: 4
+      lightningLengthRand: 16
+      despawnEffect: [
+        {
+        type: WaveEffect
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        sizeTo: 60
+        strokeFrom: 15
+        interp: pow5Out
+        lifetime: 47.5
+        sides: 8
+        }
+        {
+        type: ParticleEffect
+        length: 60
+        baseLength: 15
+        lifetime: 47.5
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        interp: pow3Out
+        lenFrom: 18
+        lenTo: 10
+        strokeFrom: 7
+        particles: 15
+        }
+      ]
       parts: [
         {
         type: FlarePart
