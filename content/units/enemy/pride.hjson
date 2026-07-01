@@ -36,12 +36,14 @@ weapons: [
   bullet: {
     type: InterceptorBulletType
     damage: 9999999
-    maxRange: 60
+    maxRange: 120
     recoil: 2.5
-    speed: 0
+    speed: 10
     lifetime: 20
-    hitSize: 56
-    hitEffect: [
+    hitSize: 6
+    height: 0
+    width: 0
+    shootEffect: [
       {
       type: WaveEffect
       colorFrom: ffffff
@@ -78,8 +80,9 @@ weapons: [
       }
     ]
     smokeEffect: none
-    shootEffect: none
-    fragBullet: {
+    hitEffect: none
+    spawnBullets: [
+      {
       //todo effects
       type: BasicBulletType
       sprite: "circle-bullet"
@@ -100,6 +103,7 @@ weapons: [
       knockback: 3
       impact: true
       }
+    ]
     }
   }
   //sides
