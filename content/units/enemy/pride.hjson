@@ -142,6 +142,8 @@ abilities: [
   type: ShieldArcAbility
   max: 0.1
   cooldown: 500
-  radius: 180
+  radius: 10
+  angle: 180
+  whenShooting: false
   }
 ]
