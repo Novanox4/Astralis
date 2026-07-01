@@ -20,7 +20,7 @@ armor: 20
 outlineColor: 323232
 name: Pride
 weapons: [
-  //parry WIP
+  //parry
   {
   type: PointDefenseWeapon
   reload: 120
@@ -31,9 +31,12 @@ weapons: [
   beamEffect: none
   shootSound: shootToxopidShotgun
   rotateSpeed: 9999
+  targetInterval: 1
+  targetSwitchInterval: 2
   bullet: {
     damage: 9999999
     maxRange: 120
+    recoil: 2.5
     hitEffect: [
       {
       type: WaveEffect
@@ -72,8 +75,29 @@ weapons: [
     ]
     smokeEffect: none
     shootEffect: none
-    targetInterval: 1
-    targetSwitchInterval: none
+    spawnBullets: [
+      {
+      //todo effects
+      type: BasicBulletType
+      sprite: "circle-bullet"
+      backColor: 94e3f1
+      frontColor: 94e3f1
+      mixColorFrom: ffffffff
+      width: 12
+      height: 12
+      shrinkY: 0
+      damage: 200
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 4
+      lifetime: 100
+      drag: 0.05
+      speed: 4
+      maxDamageFraction: 0.8
+      knockback: 3
+      impact: true
+      }
+    ]
     }
   }
   //sides
