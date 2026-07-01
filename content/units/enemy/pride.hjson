@@ -98,15 +98,15 @@ weapons: [
       speed: 10
       knockback: 3
       impact: true
-      homingPower: 0.2
-      homingRange: 99999
+      homingPower: 0.075
+      homingRange: 9999999
       homingDelay: 10
       removeAfterPierce: false
       rangeOverride: 320
       lightning: 13
       lightningColor: 94e3f1
       lightningLength: 4
-      lightningLengthRand: 8
+      lightningLengthRand: 12
       fragOnHit: false
       despawnHit: false
       setDefaults: false
