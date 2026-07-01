@@ -102,10 +102,11 @@ weapons: [
       impact: true
       followAimSpeed: 3
       removeAfterPierce: false
+      rangeOverride: 320
       parts: [
         {
         type: FlarePart
-        radius: 40
+        radius: 55
         radiusTo: 1
         color1: 94e3f1
         progress: {
