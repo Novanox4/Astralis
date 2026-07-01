@@ -95,20 +95,24 @@ weapons: [
       height: 12
       shrinkY: 0
       damage: 200
+      splashDamage: 60
+      splashDamageRadius: 48
+      splashDamagePierce: true
       pierce: true
       pierceBuilding: true
       pierceCap: 4
       lifetime: 120
-      drag: 0.05
+      drag: 0.025
       speed: 10
       maxDamageFraction: 0.8
       knockback: 3
       impact: true
       followAimSpeed: 3
+      removeAfterPierce: false
       parts: [
         {
         type: FlarePart
-        radius: 25
+        radius: 40
         radiusTo: 1
         color1: 94e3f1
         progress: {
@@ -116,11 +120,11 @@ weapons: [
           ops: [
             {
             op: curve
-            interp: pow10In
+            interp: pow5In
             }
           ]
           }
-        stroke: 8.75
+        stroke: 5
         rotMove: 720
         }
         ]
