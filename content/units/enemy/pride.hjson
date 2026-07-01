@@ -43,6 +43,7 @@ weapons: [
     hitSize: 6
     height: 0
     width: 0
+    maxDamageFraction: 0.0001
     shootEffect: [
       {
       type: WaveEffect
@@ -103,6 +104,18 @@ weapons: [
       maxDamageFraction: 0.8
       knockback: 3
       impact: true
+      followAimSpeed: 3
+      parts: [
+        {
+        type: FlarePart
+        radius: 15
+        radiusTo: 1
+        color1: 94e3f1
+        progress: life
+        stroke: 4
+        rotMove: 360
+        }
+        ]
       }
     ]
     }
