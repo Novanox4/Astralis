@@ -30,12 +30,15 @@ weapons: [
   rotate: true
   beamEffect: none
   shootSound: shootToxopidShotgun
+  rotateSpeed: 9999
   bullet: {
     damage: 9999999
     maxRange: 120
     hitEffect: none
     smokeEffect: none
     shootEffect: none
+    targetInterval: 1
+    targetSwitchInterval: none
     }
   }
   //sides
