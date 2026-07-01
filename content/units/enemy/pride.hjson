@@ -141,9 +141,17 @@ abilities: [
   {
   type: ShieldArcAbility
   max: 0.1
-  cooldown: 500
-  radius: 10
-  angle: 180
+  cooldown: 150
+  radius: 12
+  angle: 360
   whenShooting: false
+  hitSound: none
+  deflectSound: shootToxopidShotgun
+  breakSound: none
+  pushUnits: false
+  reflectTime: 2
+  reflectVel: 2.25
+  reflectBuildingDamage: 3.5
+  width: 10
   }
 ]
