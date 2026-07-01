@@ -20,7 +20,7 @@ armor: 20
 outlineColor: 323232
 name: Pride
 weapons: [
-  //parry
+  //parry WIP
   {
   type: PointDefenseWeapon
   reload: 120
