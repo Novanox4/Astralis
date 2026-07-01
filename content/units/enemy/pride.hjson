@@ -87,10 +87,10 @@ weapons: [
       {
       //todo effects
       type: BulletType
-      damage: 0
+      damage: 120
       hitSize: 0
-      splashDamage: 180
-      splashDamageRadius: 60
+      splashDamage: 60
+      splashDamageRadius: 56
       pierce: true
       pierceBuilding: true
       pierceCap: 4
@@ -104,6 +104,8 @@ weapons: [
       homingDelay: 25
       removeAfterPierce: false
       rangeOverride: 320
+      lightning: 10
+      fragOnHit: false
       hitEffect: {
         type: ParticleEffect
         length: 32
