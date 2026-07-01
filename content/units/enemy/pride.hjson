@@ -136,4 +136,13 @@ weapons: [
   }
 }
 ]
-abilities: []
+abilities: [
+  //I'll make this parry stuff trust
+  {
+  type: ShieldArcAbility
+  max: 0.1
+  cooldown: 500
+  radius: 180
+  }
+]
+]
