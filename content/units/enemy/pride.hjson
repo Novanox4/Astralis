@@ -94,12 +94,12 @@ weapons: [
       pierceBuilding: true
       pierceCap: 4
       lifetime: 120
-      drag: 0.01
+      drag: 0.02
       speed: 10
       knockback: 3
       impact: true
-      homingPower: 0.5
-      homingRange: 160
+      homingPower: 0.2
+      homingRange: 99999
       homingDelay: 10
       removeAfterPierce: false
       rangeOverride: 320
@@ -108,6 +108,8 @@ weapons: [
       lightningLength: 4
       lightningLengthRand: 8
       fragOnHit: false
+      despawnHit: false
+      setDefaults: false
       hitEffect: [
         {
         type: ParticleEffect
