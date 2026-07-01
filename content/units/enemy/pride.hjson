@@ -42,14 +42,14 @@ weapons: [
       sizeTo: 56
       strokeFrom: 12
       interp: pow5Out
-      lifetime: 75
+      lifetime: 47.5
       }
       {
       type: ParticleEffect
       line: true
       length: 60
       baseLength: 15
-      lifetime: 60
+      lifetime: 47.5
       colorFrom: ffffff
       colorTo: 94e3f1
       interp: pow3Out
