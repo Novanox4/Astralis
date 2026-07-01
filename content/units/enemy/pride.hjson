@@ -39,23 +39,23 @@ weapons: [
       type: WaveEffect
       colorFrom: ffffff
       colorTo: 94e3f1
-      sizeTo: 30
-      strokeFrom: 8
+      sizeTo: 56
+      strokeFrom: 12
       interp: pow5Out
       lifetime: 75
       }
       {
       type: ParticleEffect
-      cone: 20
       line: true
-      length: 25
-      lifetime: 45
+      length: 50
+      lifetime: 60
       colorFrom: ffffff
       colorTo: 94e3f1
       interp: pow3Out
-      lenFrom: 10
+      lenFrom: 11
       lenTo: 6
-      strokeFrom: 5
+      strokeFrom: 5.75
+      particles: 13
       }
     ]
     smokeEffect: none
