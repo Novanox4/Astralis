@@ -108,12 +108,20 @@ weapons: [
       parts: [
         {
         type: FlarePart
-        radius: 15
+        radius: 25
         radiusTo: 1
         color1: 94e3f1
-        progress: life
-        stroke: 4
-        rotMove: 360
+        progress: {
+          type: life
+          ops: [
+            {
+            op: curve
+            interp: pow10In
+            }
+          ]
+          }
+        stroke: 8.75
+        rotMove: 720
         }
         ]
       }
