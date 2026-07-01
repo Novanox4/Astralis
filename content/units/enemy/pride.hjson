@@ -36,14 +36,13 @@ weapons: [
   bullet: {
     type: InterceptorBulletType
     damage: 9999999
-    maxRange: 120
+    rangeOverride: 60
     recoil: 2.5
     speed: 10
     lifetime: 20
     hitSize: 6
     height: 0
     width: 0
-    followAimSpeed: 10
     shootEffect: [
       {
       type: WaveEffect
@@ -82,6 +81,7 @@ weapons: [
     ]
     smokeEffect: none
     hitEffect: none
+    despawnEffect: none
     spawnBullets: [
       {
       //todo effects
@@ -97,9 +97,9 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 4
-      lifetime: 100
+      lifetime: 120
       drag: 0.05
-      speed: 4
+      speed: 10
       maxDamageFraction: 0.8
       knockback: 3
       impact: true
