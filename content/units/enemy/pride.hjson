@@ -36,8 +36,11 @@ weapons: [
   bullet: {
     type: InterceptorBulletType
     damage: 9999999
-    maxRange: 120
+    maxRange: 60
     recoil: 2.5
+    speed: 0
+    lifetime: 20
+    hitSize: 56
     hitEffect: [
       {
       type: WaveEffect
