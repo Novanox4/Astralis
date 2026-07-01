@@ -43,6 +43,7 @@ weapons: [
     hitSize: 6
     height: 0
     width: 0
+    followAimSpeed: 10
     shootEffect: [
       {
       type: WaveEffect
