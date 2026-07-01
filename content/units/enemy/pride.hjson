@@ -47,7 +47,8 @@ weapons: [
       {
       type: ParticleEffect
       line: true
-      length: 50
+      length: 60
+      baseLength: 15
       lifetime: 60
       colorFrom: ffffff
       colorTo: 94e3f1
@@ -55,7 +56,7 @@ weapons: [
       lenFrom: 11
       lenTo: 6
       strokeFrom: 5.75
-      particles: 13
+      particles: 18
       }
     ]
     smokeEffect: none
