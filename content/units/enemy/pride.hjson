@@ -28,10 +28,11 @@ weapons: [
   shootY: 0
   mirror: false
   rotate: true
+  beamEffect: none
+  shootSound: shootToxopidShotgun
   bullet: {
     damage: 9999999
     maxRange: 40
-    shootSound: shootToxopidShotgun
     hitEffect: none
     smokeEffect: none
     shootEffect: none
