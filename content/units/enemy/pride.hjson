@@ -104,7 +104,10 @@ weapons: [
       homingDelay: 25
       removeAfterPierce: false
       rangeOverride: 320
-      lightning: 10
+      lightning: 13
+      lightningColor: 94e3f1
+      lightningLength: 4
+      lightningLengthRand: 8
       fragOnHit: false
       hitEffect: {
         type: ParticleEffect
@@ -145,6 +148,36 @@ weapons: [
         lenTo: 10
         strokeFrom: 7
         particles: 15
+        }
+        //for extra pizzaz
+        {
+        type: SoundEffect
+        effect: none
+        sound: shootPulsar
+        }
+        {
+        type: SoundEffect
+        effect: none
+        sound: shootPulsar
+        startDelay: 3
+        }        
+        {
+        type: SoundEffect
+        effect: none
+        sound: shootPulsar
+        startDelay: 5
+        }
+        {
+        type: SoundEffect
+        effect: none
+        sound: shootPulsar
+        startDelay: 9
+        }        
+        {
+        type: SoundEffect
+        effect: none
+        sound: shootPulsar
+        startDelay: 6
         }
       ]
       parts: [
