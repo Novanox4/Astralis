@@ -20,7 +20,7 @@ armor: 20
 outlineColor: 323232
 name: Pride
 weapons: [
-  //parry
+  //+ PARRY
   {
   type: PointDefenseBulletWeapon
   reload: 120
@@ -39,7 +39,7 @@ weapons: [
     rangeOverride: 60
     recoil: 2.5
     speed: 10
-    lifetime: 20
+    lifetime: 200
     hitSize: 6
     height: 0
     width: 0
