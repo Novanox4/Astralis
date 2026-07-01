@@ -93,7 +93,7 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 4
-      lifetime: 120
+      lifetime: 60
       drag: 0.02
       speed: 10
       knockback: 3
