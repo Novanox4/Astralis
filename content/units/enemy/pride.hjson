@@ -88,7 +88,6 @@ weapons: [
       //todo effects
       type: BulletType
       damage: 120
-      hitSize: 0
       splashDamage: 60
       splashDamageRadius: 56
       pierce: true
@@ -99,9 +98,9 @@ weapons: [
       speed: 10
       knockback: 3
       impact: true
-      homingPower: 0.2
+      homingPower: 0.5
       homingRange: 64
-      homingDelay: 25
+      homingDelay: 10
       removeAfterPierce: false
       rangeOverride: 320
       lightning: 13
