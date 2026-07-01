@@ -22,7 +22,7 @@ name: Pride
 weapons: [
   //parry
   {
-  type: PointDefenseWeapon
+  type: PointDefenseBulletWeapon
   reload: 120
   x: 0
   shootY: 0
@@ -34,6 +34,7 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 2
   bullet: {
+    type: InterceptorBulletType
     damage: 9999999
     maxRange: 120
     recoil: 2.5
