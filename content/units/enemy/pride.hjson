@@ -143,17 +143,17 @@ abilities: [
   max: 0.1
   cooldown: 150
   radius: 12
-  angle: 360
+  angle: 361
   whenShooting: false
   hitSound: none
   deflectSound: shootToxopidShotgun
   breakSound: none
   pushUnits: false
-  reflectTime: 2
-  reflectVel: 2.25
+  reflectTime: 3
+  reflectVel: 1
   reflectBuildingDamage: 3.5
   chanceDeflect: 99999999999999
-  width: 20
+  width: 25
   color: 94e3f1
   }
 ]
