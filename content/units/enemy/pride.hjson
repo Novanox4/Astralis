@@ -104,12 +104,21 @@ weapons: [
       homingDelay: 25
       removeAfterPierce: false
       rangeOverride: 320
-      hitEffect: none
-      lightningColor: 94e3f1
-      lightning: 16
-      lightningDamage: 10
-      lightningLength: 4
-      lightningLengthRand: 16
+      hitEffect: {
+        type: ParticleEffect
+        length: 32
+        line: true
+        baseLength: 15
+        lifetime: 25
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        interp: pow3Out
+        lenFrom: 8
+        lenTo: 4
+        strokeFrom: 3.5
+        particles: 12
+      }
+      despawnSound: blockExplodeElectric
       despawnEffect: [
         {
         type: WaveEffect
@@ -124,6 +133,7 @@ weapons: [
         {
         type: ParticleEffect
         length: 60
+        line: true
         baseLength: 15
         lifetime: 47.5
         colorFrom: ffffff
