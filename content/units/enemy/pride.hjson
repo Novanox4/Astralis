@@ -72,12 +72,12 @@ weapons: [
       type: ParticleEffect
       length: 60
       baseLength: 15
-      lifetime: 47.5
+      lifetime: 45
       colorFrom: ffffff
       colorTo: 94e3f1
       interp: pow3Out
-      sizeFrom: 12
-      particles: 18
+      sizeFrom: 11
+      particles: 16
       }
     ]
     smokeEffect: none
