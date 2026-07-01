@@ -1,6 +1,7 @@
 type: legs
 legLength: 16
 legCount: 8
+hitSize: 18
 legGroupSize: 2
 legBaseOffset: 6
 legExtension: -2.75
@@ -19,6 +20,23 @@ armor: 20
 outlineColor: 323232
 name: Pride
 weapons: [
+  //parry
+  {
+  type: PointDefenseWeapon
+  reload: 120
+  x: 0
+  shootY: 0
+  mirror: false
+  rotate: true
+  bullet: {
+    damage: 9999999
+    maxRange: 40
+    shootSound: shootToxopidShotgun
+    hitEffect: none
+    smokeEffect: none
+    shootEffect: none
+    }
+  }
   //sides
   {
   shootCone: 360
@@ -135,25 +153,4 @@ weapons: [
     ]
   }
 }
-]
-abilities: [
-  //I'll make this parry stuff trust
-  {
-  type: ShieldArcAbility
-  max: 0.1
-  cooldown: 150
-  radius: 12
-  angle: 361
-  whenShooting: false
-  hitSound: none
-  deflectSound: shootToxopidShotgun
-  breakSound: none
-  pushUnits: false
-  reflectTime: 3
-  reflectVel: 1
-  reflectBuildingDamage: 3.5
-  chanceDeflect: 99999999999999
-  width: 25
-  color: 94e3f1
-  }
 ]
