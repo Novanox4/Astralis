@@ -94,12 +94,12 @@ weapons: [
       pierceBuilding: true
       pierceCap: 4
       lifetime: 120
-      drag: 0.02
+      drag: 0.01
       speed: 10
       knockback: 3
       impact: true
       homingPower: 0.5
-      homingRange: 64
+      homingRange: 160
       homingDelay: 10
       removeAfterPierce: false
       rangeOverride: 320
@@ -108,7 +108,8 @@ weapons: [
       lightningLength: 4
       lightningLengthRand: 8
       fragOnHit: false
-      hitEffect: {
+      hitEffect: [
+        {
         type: ParticleEffect
         length: 32
         line: true
@@ -121,7 +122,20 @@ weapons: [
         lenTo: 4
         strokeFrom: 3.5
         particles: 12
-      }
+        }
+        {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        strokeFrom: 3
+        strokeTo: 0
+        lifetime: 45
+        interp: pow3Out
+        }
+      ]
+      hitSound: shootPulsar
       despawnSound: blockExplodeElectric
       despawnEffect: [
         {
@@ -132,7 +146,7 @@ weapons: [
         strokeFrom: 15
         interp: pow5Out
         lifetime: 47.5
-        sides: 8
+        sides: 12
         }
         {
         type: ParticleEffect
