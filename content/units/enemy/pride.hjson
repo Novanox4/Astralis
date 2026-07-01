@@ -32,7 +32,7 @@ weapons: [
   shootSound: shootToxopidShotgun
   bullet: {
     damage: 9999999
-    maxRange: 40
+    maxRange: 120
     hitEffect: none
     smokeEffect: none
     shootEffect: none
