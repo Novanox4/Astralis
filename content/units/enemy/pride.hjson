@@ -86,14 +86,7 @@ weapons: [
     spawnBullets: [
       {
       //todo effects
-      type: BasicBulletType
-      sprite: "circle-bullet"
-      backColor: 94e3f1
-      frontColor: 94e3f1
-      mixColorFrom: ffffffff
-      width: 12
-      height: 12
-      shrinkY: 0
+      type: BulletType
       damage: 200
       splashDamage: 60
       splashDamageRadius: 48
