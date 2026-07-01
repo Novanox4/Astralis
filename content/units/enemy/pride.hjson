@@ -87,17 +87,16 @@ weapons: [
       {
       //todo effects
       type: BulletType
-      damage: 200
-      splashDamage: 60
-      splashDamageRadius: 48
-      splashDamagePierce: true
+      damage: 0
+      hitSize: 0
+      splashDamage: 180
+      splashDamageRadius: 60
       pierce: true
       pierceBuilding: true
       pierceCap: 4
       lifetime: 120
       drag: 0.02
       speed: 10
-      maxDamageFraction: 0.8
       knockback: 3
       impact: true
       homingPower: 0.2
