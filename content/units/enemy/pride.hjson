@@ -85,9 +85,9 @@ weapons: [
     despawnEffect: none
     spawnBullets: [
       {
-      //todo effects
+      //todo finish effects
       type: BulletType
-      damage: 120
+      damage: 60
       splashDamage: 60
       splashDamageRadius: 56
       pierce: true
@@ -103,10 +103,11 @@ weapons: [
       homingDelay: 10
       removeAfterPierce: false
       rangeOverride: 320
-      lightning: 13
+      lightning: 16
       lightningColor: 94e3f1
       lightningLength: 4
-      lightningLengthRand: 12
+      lightningLengthRand: 17
+      lightningDamage: 10
       fragOnHit: false
       despawnHit: false
       setDefaults: false
@@ -128,7 +129,7 @@ weapons: [
         {
         type: WaveEffect
         sizeFrom: 0
-        sizeTo: 12
+        sizeTo: 16
         colorFrom: ffffff
         colorTo: 94e3f1
         strokeFrom: 3
@@ -211,7 +212,7 @@ weapons: [
           ]
           }
         stroke: 5
-        rotMove: 720
+        rotMove: 540
         }
         ]
       }
