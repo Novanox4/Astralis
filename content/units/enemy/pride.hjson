@@ -177,7 +177,7 @@ weapons: [
         sizeTo: 65
         particles: 1
         region: "astralis-star"
-        spin: 12
+        spin: 6
         }
         //for extra pizzaz
         {
