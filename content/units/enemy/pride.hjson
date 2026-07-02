@@ -138,8 +138,8 @@ weapons: [
       despawnHit: false
       setDefaults: false
       trailColor: 94e3f1
-      trailWidth: 2.25
-      trailLength: 12
+      trailWidth: 2.75
+      trailLength: 17
       hitEffect: [
         {
         type: ParticleEffect
@@ -374,6 +374,32 @@ weapons: [
       strokeFrom: 3
       lifetime: 30
       length: 22.5
+      }
+      {
+      type: ParticleEffect
+      length: 35
+      baseLength: 10
+      lifetime: 37.5
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 19
+      particles: 3
+      spin: -2
+      region: "astralis-star"
+      }
+      {
+      type: ParticleEffect
+      length: 35
+      baseLength: 10
+      lifetime: 37.5
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 19
+      particles: 3
+      spin: 2
+      region: "astralis-star"
       }
     ]
     parts: [
