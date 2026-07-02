@@ -168,7 +168,7 @@ weapons: [
         {
         type: ParticleEffect
         length: 0
-        lifetime: 30
+        lifetime: 31
         colorFrom: ffffff
         colorTo: 94e3f1
         sizeInterp: exp5Out
@@ -181,7 +181,7 @@ weapons: [
         }
         {
         type: ParticleEffect
-        startDelay: 29.9
+        startDelay: 29
         length: 0
         lifetime: 30
         colorFrom: 94e3f1
