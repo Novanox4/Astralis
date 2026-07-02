@@ -181,48 +181,18 @@ weapons: [
         }
         {
         type: ParticleEffect
-        startDelay: 30
+        startDelay: 29.9
         length: 0
         lifetime: 30
         colorFrom: 94e3f1
         colorTo: ffffff
-        sizeInterp: exp5Out
+        sizeInterp: exp5In
         interp: linear
         sizeFrom: 65
         sizeTo: 0
         particles: 1
         region: "astralis-star"
         spin: 6
-        }
-        //for extra pizzaz
-        {
-        type: SoundEffect
-        effect: none
-        sound: shootPulsar
-        }
-        {
-        type: SoundEffect
-        effect: none
-        sound: shootPulsar
-        startDelay: 3
-        }        
-        {
-        type: SoundEffect
-        effect: none
-        sound: shootPulsar
-        startDelay: 5
-        }
-        {
-        type: SoundEffect
-        effect: none
-        sound: shootPulsar
-        startDelay: 9
-        }        
-        {
-        type: SoundEffect
-        effect: none
-        sound: shootPulsar
-        startDelay: 6
         }
       ]
       parts: [
