@@ -2,3 +2,4 @@ type: floor
 variants: 3
 name: Nightstone Crater
 blendGroup: nightstone-floor
+decoration: nightstone-boulder
