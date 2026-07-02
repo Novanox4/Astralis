@@ -100,7 +100,7 @@ weapons: [
       impact: true
       homingPower: 0.075
       homingRange: 9999999
-      homingDelay: 10
+      homingDelay: 0
       removeAfterPierce: false
       rangeOverride: 320
       lightning: 16
@@ -136,6 +136,32 @@ weapons: [
         strokeTo: 0
         lifetime: 45
         interp: pow3Out
+        }
+        {
+        type: ParticleEffect
+        length: 40
+        baseLength: 15
+        lifetime: 40
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        interp: pow3Out
+        sizeFrom: 19
+        particles: 3
+        spin: -2
+        region: "astralis-star"
+        }
+        {
+        type: ParticleEffect
+        length: 40
+        baseLength: 15
+        lifetime: 40
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        interp: pow3Out
+        sizeFrom: 19
+        particles: 3
+        spin: 2
+        region: "astralis-star"
         }
       ]
       hitSound: shootPulsar
