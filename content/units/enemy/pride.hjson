@@ -410,7 +410,7 @@ weapons: [
       colorTo: 94e3f1
       interp: pow3Out
       sizeFrom: 19
-      particles: 3
+      particles: 1
       spin: -2
       region: "astralis-star"
       cone: 12
@@ -424,7 +424,7 @@ weapons: [
       colorTo: 94e3f1
       interp: pow3Out
       sizeFrom: 19
-      particles: 3
+      particles: 1
       spin: 2
       region: "astralis-star"
       cone: 12
