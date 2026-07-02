@@ -165,6 +165,19 @@ weapons: [
         strokeFrom: 7
         particles: 15
         }
+        {
+        type: ParticleEffect
+        length: 0
+        lifetime: 60
+        colorFrom: ffffff
+        colorTo: 94e3f1
+        interp: exp10
+        sizeInterp: slope
+        sizeFrom: 0
+        sizeTo: 10
+        particles: 1
+        region: "astralis-star"
+        }
         //for extra pizzaz
         {
         type: SoundEffect
