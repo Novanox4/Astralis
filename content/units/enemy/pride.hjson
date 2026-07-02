@@ -111,6 +111,9 @@ weapons: [
       fragOnHit: false
       despawnHit: false
       setDefaults: false
+      trailColor: 94e3f1
+      trailWidth: 2.25
+      trailLength: 12
       hitEffect: [
         {
         type: ParticleEffect
