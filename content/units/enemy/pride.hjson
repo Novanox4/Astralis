@@ -179,6 +179,21 @@ weapons: [
         region: "astralis-star"
         spin: 6
         }
+        {
+        type: ParticleEffect
+        startDelay: 30
+        length: 0
+        lifetime: 30
+        colorFrom: 94e3f1
+        colorTo: ffffff
+        sizeInterp: exp5Out
+        interp: linear
+        sizeFrom: 65
+        sizeTo: 0
+        particles: 1
+        region: "astralis-star"
+        spin: 6
+        }
         //for extra pizzaz
         {
         type: SoundEffect
