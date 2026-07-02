@@ -36,6 +36,7 @@ weapons: [
   bullet: {
     type: InterceptorBulletType
     damage: 9999999
+    buildingDamageMultiplier: 0
     rangeOverride: 60
     recoil: 4
     speed: 10
