@@ -135,8 +135,6 @@ weapons: [
       lightningLength: 4
       lightningLengthRand: 17
       lightningDamage: 10
-      despawnHit: false
-      setDefaults: false
       trailColor: 94e3f1
       trailWidth: 2.75
       trailLength: 17
