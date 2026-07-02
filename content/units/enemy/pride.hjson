@@ -171,7 +171,8 @@ weapons: [
         lifetime: 30
         colorFrom: ffffff
         colorTo: 94e3f1
-        interp: exp5Out
+        sizeInterp: exp5Out
+        interp: linear
         sizeFrom: 0
         sizeTo: 65
         particles: 1
