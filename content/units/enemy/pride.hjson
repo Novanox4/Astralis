@@ -348,6 +348,32 @@ weapons: [
       lifetime: 45
       interp: pow3Out
       }
+      {
+      type: ParticleEffect
+      length: 35
+      baseLength: 10
+      lifetime: 37.5
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 19
+      particles: 2
+      spin: -2
+      region: "astralis-star"
+      }
+      {
+      type: ParticleEffect
+      length: 35
+      baseLength: 10
+      lifetime: 37.5
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 19
+      particles: 2
+      spin: 2
+      region: "astralis-star"
+      }
     ]
     shootEffect: [
       {
@@ -387,6 +413,7 @@ weapons: [
       particles: 3
       spin: -2
       region: "astralis-star"
+      cone: 12
       }
       {
       type: ParticleEffect
@@ -400,6 +427,7 @@ weapons: [
       particles: 3
       spin: 2
       region: "astralis-star"
+      cone: 12
       }
     ]
     parts: [
