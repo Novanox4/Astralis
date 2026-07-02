@@ -111,11 +111,11 @@ weapons: [
     despawnEffect: none
     spawnBullets: [
       {
-      //todo finish effects
       type: BulletType
       damage: 60
       splashDamage: 60
       splashDamageRadius: 56
+      scaledSplashDamage: true
       pierce: true
       pierceBuilding: true
       pierceCap: 4
