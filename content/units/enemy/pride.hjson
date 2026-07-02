@@ -23,7 +23,7 @@ weapons: [
   //+ PARRY
   {
   type: PointDefenseBulletWeapon
-  reload: 120
+  reload: 600
   x: 0
   shootY: 0
   mirror: false
