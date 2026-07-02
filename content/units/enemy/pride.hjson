@@ -56,6 +56,32 @@ weapons: [
       }
       {
       type: ParticleEffect
+      length: 60
+      baseLength: 15
+      lifetime: 45
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 26
+      particles: 3
+      spin: -2
+      region: "astralis-star"
+      }
+      {
+      type: ParticleEffect
+      length: 60
+      baseLength: 15
+      lifetime: 40
+      colorFrom: ffffff
+      colorTo: 94e3f1
+      interp: pow3Out
+      sizeFrom: 26
+      particles: 3
+      spin: 2
+      region: "astralis-star"
+      }
+      {
+      type: ParticleEffect
       line: true
       length: 60
       baseLength: 15
