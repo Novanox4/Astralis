@@ -276,7 +276,7 @@ weapons: [
   //sides
   {
   shootCone: 360
-  reload: 70
+  reload: 55
   shootSound: shootCleroi
   mirror: true
   alternate: true
