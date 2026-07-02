@@ -168,16 +168,15 @@ weapons: [
         {
         type: ParticleEffect
         length: 0
-        lifetime: 60
+        lifetime: 30
         colorFrom: ffffff
         colorTo: 94e3f1
-        interp: exp10
-        sizeInterp: slope
+        interp: exp5Out
         sizeFrom: 0
-        sizeTo: 40
+        sizeTo: 65
         particles: 1
         region: "astralis-star"
-        spin: 5
+        spin: 12
         }
         //for extra pizzaz
         {
