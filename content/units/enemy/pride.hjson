@@ -404,8 +404,7 @@ weapons: [
       {
       type: ParticleEffect
       length: 35
-      baseLength: 10
-      lifetime: 37.5
+      lifetime: 30
       colorFrom: ffffff
       colorTo: 94e3f1
       interp: pow3Out
@@ -418,8 +417,7 @@ weapons: [
       {
       type: ParticleEffect
       length: 35
-      baseLength: 10
-      lifetime: 37.5
+      lifetime: 30
       colorFrom: ffffff
       colorTo: 94e3f1
       interp: pow3Out
