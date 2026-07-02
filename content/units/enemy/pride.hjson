@@ -174,9 +174,10 @@ weapons: [
         interp: exp10
         sizeInterp: slope
         sizeFrom: 0
-        sizeTo: 10
+        sizeTo: 40
         particles: 1
         region: "astralis-star"
+        spin: 5
         }
         //for extra pizzaz
         {
