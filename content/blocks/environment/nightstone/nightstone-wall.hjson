@@ -1,2 +1,3 @@
 type: StaticWall
 name: Nightstone Wall
+decoration: nightstone-boulder
