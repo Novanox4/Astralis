@@ -134,7 +134,6 @@ weapons: [
       lightningLength: 4
       lightningLengthRand: 17
       lightningDamage: 10
-      fragOnHit: false
       despawnHit: false
       setDefaults: false
       trailColor: 94e3f1
