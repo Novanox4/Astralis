@@ -5,8 +5,8 @@ noiseColor: 778f9cff
 padding: 0
 xspeed: 0.75
 yspeed: -0.3
-minAlpha: 0.02
-maxAlpha: 0.125
+minAlpha: 0.01
+maxAlpha: 0.1
 sizeMin: 100
 sizeMax: 450
 density: 2800
