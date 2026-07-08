@@ -20,10 +20,10 @@ armor: 20
 outlineColor: 323232
 name: Pride
 weapons: [
-  //+ PARRY
+  //+PARRY
   {
   type: PointDefenseBulletWeapon
-  reload: 600
+  reload: 540
   x: 0
   shootY: 0
   mirror: false
@@ -274,7 +274,7 @@ weapons: [
   //sides
   {
   shootCone: 360
-  reload: 55
+  reload: 50
   shootSound: shootCleroi
   mirror: true
   alternate: true
