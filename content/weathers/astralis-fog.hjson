@@ -5,8 +5,8 @@ noiseColor: 8e9294ff
 padding: 0
 xspeed: 0.75
 yspeed: -0.3
-minAlpha: 0.01
-maxAlpha: 0.1
+minAlpha: 0.001
+maxAlpha: 0.05
 sizeMin: 100
 sizeMax: 450
 density: 2800
