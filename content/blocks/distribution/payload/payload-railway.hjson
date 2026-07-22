@@ -1,0 +1,9 @@
+type: PayloadConveyor
+name: Payload Railway
+description: Transports blocks and units at high speeds. Can only carry payloads up to 3 tiles in size.
+interp: linear
+requirements: [
+  crystalite/5
+  silver/5
+]
+buildTime: 30
